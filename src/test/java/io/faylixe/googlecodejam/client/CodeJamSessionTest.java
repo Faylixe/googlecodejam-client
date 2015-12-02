@@ -31,11 +31,11 @@ public final class CodeJamSessionTest {
 	/** Path of the file that contains expected analysis content for the test problem. **/
 	private static final String ANALYSIS_PATH = "analysis.txt";
 
-	/** **/
+	/** Target input type suffix for testing. **/
 	private static final String TYPE = "practice";
 
 	/** Expected size of the downloaded input, in number of line. **/
-	private static final int INPUT_SIZE = 1001; // TODO : Fetch the good one :).
+	private static final int INPUT_SIZE = 1001;
 
 	/**
 	 * Retrieves a valid {@link CodeJamSession}
@@ -65,7 +65,6 @@ public final class CodeJamSessionTest {
 	public void testContestInfo() {
 		final CodeJamSession session = getTestSession();
 		final ContestInfo info = session.getContestInfo();
-		// TODO : Test equality instead ?
 		ContestInfoTest.testContestInfoConsistency(info);
 	}
 
@@ -98,7 +97,7 @@ public final class CodeJamSessionTest {
 	private void ensureInputConsistency(final List<String> lines) {
 		final int n = Integer.valueOf(lines.remove(0));
 		for (int i = 0; i < n; i++) {
-			// TODO : Read lines.
+			lines.remove(0);
 		}
 		assertTrue(lines.isEmpty());
 	}
@@ -119,7 +118,6 @@ public final class CodeJamSessionTest {
 			final BufferedReader bufferedReader = new BufferedReader(reader);
 			final List<String> lines = bufferedReader.lines().collect(Collectors.toList());
 			assertEquals(INPUT_SIZE, lines.size());
-			System.out.println(lines);
 			ensureInputConsistency(lines);
 		}
 		catch (final IOException e) {
