@@ -32,9 +32,15 @@ public final class CodeJamSession implements Serializable {
 
 	/** Serialization index. **/
 	private static final long serialVersionUID = 1L;
+	
+	/** Downloaded input file extension used for filename generation. **/
+	private static final String INPUT_EXTENSION = ".in";
+
+	/** Character used for file name generation. **/
+	private static final char FILENAME_SEPARATOR = '-';
 
 	/** Logged HTTP executor for executing queries. **/
-	private final transient HTTPRequestExecutor executor; // TODO : Consider using custom serialization / deserialization for build.
+	private final transient HTTPRequestExecutor executor; // ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/1
 
 	/** Current selected round this session is working on. **/
 	private final Round round;
@@ -66,7 +72,7 @@ public final class CodeJamSession implements Serializable {
 	 * @return This session if no change has been found, a newly created session updated otherwise.
 	 */
 	public CodeJamSession refresh() {
-		// TODO : Check for initial values. and reload if required.
+		// ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/4
 		return this;
 	}
 
@@ -115,11 +121,11 @@ public final class CodeJamSession implements Serializable {
 		final int index = info.getProblems().indexOf(problem);
 		final char letter = (char) ((int) 'A' + index);
 		builder.append(letter)
-			.append('-')
+			.append(FILENAME_SEPARATOR)
 			.append(input.getName())
-			.append('-')
+			.append(FILENAME_SEPARATOR)
 			.append(type)
-			.append(".in");
+			.append(INPUT_EXTENSION);
 		return builder.toString();
 	}
 
@@ -152,10 +158,11 @@ public final class CodeJamSession implements Serializable {
 	}
 	
 	/**
-	 * TODO Implements submission.
+	 * 
 	 * @return <tt>true</tt> if the submission has been considered has valid, <tt>false</tt> otherwise.
 	 */
 	public boolean submit() {
+		// ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/3
 		return false;
 	}
 

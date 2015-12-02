@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
  * TODO Cookie expiration parsing
  * TODO Login url as parameter ? Function instead of supplier ?.
  * 
+ * ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/5
  * @author fv
  */
 public final class SeleniumCookieSupplier implements Supplier<String> {
