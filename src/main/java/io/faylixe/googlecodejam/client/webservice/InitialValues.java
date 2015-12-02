@@ -20,6 +20,9 @@ import com.google.gson.annotations.SerializedName;
  */
 public final class InitialValues {
 
+	/** Encoding use for URL encoding. **/
+	private static final String ENCODING = "UTF-8";
+
 	/** **/
 	@SerializedName("admin_html_snippet")
 	private String admin;
@@ -117,12 +120,14 @@ public final class InitialValues {
 	}
 	
 	/**
+	 * Returns an URL encoded form of the middle ware token.
 	 * 
-	 * @return
-	 * @throws UnsupportedEncodingException 
+	 * @return Middleware token in an URL encoded form.
+	 * @throws UnsupportedEncodingException If target encoding is not supported.
+	 * @see #getToken()
 	 */
 	public String getURLEncodedToken() throws UnsupportedEncodingException {
-		return URLEncoder.encode(token, "UTF-8");
+		return URLEncoder.encode(token, ENCODING);
 	}
 
 	/**
