@@ -1,7 +1,6 @@
 package io.faylixe.googlecodejam.client.executor;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Map;
 
 import com.google.api.client.http.GenericUrl;
@@ -51,12 +50,11 @@ public final class HTTPRequestExecutor {
 	 * @return Built GET request.
 	 * @throws IOException If any error occurs while creating the GET request.
 	 */
-	private HttpResponse getRequest(final String path) throws IOException {
+	public HttpRequest getRequest(final String path) throws IOException {
 		final StringBuilder builder = new StringBuilder(getHostname());
 		builder.append(path);
 		final GenericUrl url = new GenericUrl(builder.toString());
-		final HttpRequest request = requestFactory.buildGetRequest(url); 
-		return request.execute();
+		return requestFactory.buildGetRequest(url);
 	}
 	
 	/**
@@ -70,19 +68,9 @@ public final class HTTPRequestExecutor {
 	 * @see {@link #getStream(String)}
 	 */
 	public String get(final String path) throws IOException {
-		return getRequest(path).parseAsString();
-	}
-
-	/**
-	 * Performs an HTTP GET request to the given <tt>path</tt>
-	 * relative to the internal target hostname.
-	 * 
-	 * @param path Relative server path to perform request to.
-	 * @return Stream of the performed request.
-	 * @throws IOException If any error occurs while performing request.
-	 */
-	public InputStream getStream(final String path) throws IOException {
-		return getRequest(path).getContent();
+		final HttpRequest request = getRequest(path);
+		final HttpResponse response = request.execute();
+		return response.parseAsString();
 	}
 
 	/**

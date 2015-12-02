@@ -197,7 +197,7 @@ public final class InitialValues {
 	/**
 	 * Getter for the time left.
 	 * 
-	 * @return Amout of time until this contest start (in second).
+	 * @return Amout of time until this contest start.
 	 */
 	public long getUntilStart() {
 		return untilStart;

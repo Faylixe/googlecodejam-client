@@ -37,12 +37,6 @@ public final class InitialValuesTest {
 	/** Expected start date. **/
 	private static final long START = 1221325800;
 
-	/** Expected time until start. **/
-	private static final long UNTIL_START = -227714706;
-
-	/** Expected left time. **/
-	private static final long LEFT = -227714706;;
-
 	/** Expected CS value. **/
 	private static final int CS = 4;
 
@@ -83,14 +77,14 @@ public final class InitialValuesTest {
 		assertEquals(CS, values.getCS());
 		assertNull(values.getEmail());
 		assertEquals(INPUT, values.getInput());
-		assertEquals(LEFT, values.getLeft());
+		assertTrue(values.getLeft() <= 0);
 		assertEquals(LOGIN, values.getLoginHTML());
 		assertEquals(LOGOUT, values.getLogoutHTML());
 		assertEquals(NAME, values.getName());
 		assertEquals(SEEN, values.getSeen());
 		assertTrue(values.getSnippet().isEmpty());
 		assertEquals(START, values.getStart());
-		assertEquals(UNTIL_START, values.getUntilStart());
+		assertTrue(values.getUntilStart() <= 0);
 		assertEquals(VERSION, values.getVersion());
 		assertFalse(values.isLogged());
 		assertFalse(values.isQualified());

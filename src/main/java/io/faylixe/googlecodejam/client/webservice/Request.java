@@ -24,6 +24,12 @@ public final class Request {
 	/** Command used for downloading input file. **/
 	public static final String DOWNLOAD_COMMAND = "GetInputFile";
 
+	/** The <tt>agent</tt> parameter. **/
+	public static final String AGENT_PARAMETER = "&agent=";
+
+	/** Default agent value to use. **/
+	public static final String DEFAULT_AGENT = "googlecodejam-client-java";
+
 	/** The <tt>csrfmiddlewaretoken</tt> parameter. **/
 	public static final String CSRF_PARAMETER = "&csrfmiddlewaretoken=";
 
@@ -42,6 +48,21 @@ public final class Request {
 	/** The <tt>undefined</tt> parameter value. **/
 	public static final String UNDEFINED = "undefined";
 
+	/** **/
+	public static final String ACCEPT = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
+
+	/** **/
+	public static final String ACCEPT_ENCODING = "gzip, deflate";
+
+	/** **/
+	public static final String CONNECTION_PARAMETER = "Connection";
+
+	/** **/
+	public static final String CONNECTION_VALUE = "keep-alive";
+
+	/** **/
+	public static final String USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:10.0) Gecko/20100101 Firefox/10.0";
+	
 	/**
 	 * Private constructor for avoiding instantiation.
 	 */

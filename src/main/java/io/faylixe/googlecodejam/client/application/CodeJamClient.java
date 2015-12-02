@@ -52,7 +52,7 @@ public final class CodeJamClient implements Runnable {
 			final int inputIndex = 0;
 			final ProblemInput input = problem.getProblemInput(inputIndex);
 			try {
-				session.download(input);
+				session.download(input, "");
 			}
 			catch (final IOException e) {
 				

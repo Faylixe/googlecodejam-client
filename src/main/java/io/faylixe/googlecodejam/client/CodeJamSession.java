@@ -11,6 +11,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
 
+import com.google.api.client.http.HttpHeaders;
+import com.google.api.client.http.HttpRequest;
+import com.google.api.client.http.HttpResponse;
+
 /**
  * <p>{@link CodeJamSession} is the main API entry point, which consists
  * in logging to a code jam platform <tt>hostname</tt> and then providing
@@ -102,9 +106,10 @@ public final class CodeJamSession implements Serializable {
 	 * for the given problem <tt>input</tt>.
 	 * 
 	 * @param input Input to retrieve file name from.
+	 * @param type Type suffix to use (Practice or any attempted based suffix).
 	 * @return Built file name.
 	 */
-	private String buildFilename(final ProblemInput input) {
+	private String buildFilename(final ProblemInput input, final String type) {
 		final StringBuilder builder = new StringBuilder();
 		final Problem problem = input.getProblem();
 		final ContestInfo info = problem.getParent();
@@ -114,8 +119,8 @@ public final class CodeJamSession implements Serializable {
 			.append('-')
 			.append(input.getName())
 			.append('-')
-			.append(input.getSuffix());
-		// TODO : Check if practice or suffix.
+			.append(type)
+			.append(".in");
 		return builder.toString();
 	}
 
@@ -125,10 +130,11 @@ public final class CodeJamSession implements Serializable {
 	 * <tt>input</tt>.
 	 * 
 	 * @param input Input to download file from.
+	 * @param type Type suffix to use (Practice or any attempted based suffix).
 	 * @throws IOException If any error occurs while downloading the file.
 	 */
-	public InputStream download(final ProblemInput input) throws IOException {
-		final String filename = buildFilename(input);
+	public InputStream download(final ProblemInput input, final String type) throws IOException {
+		final String filename = buildFilename(input, type);
 		final StringBuilder urlBuilder = new StringBuilder();
 		urlBuilder.append(round.getURL())
 			.append(COMMAND)
@@ -137,11 +143,20 @@ public final class CodeJamSession implements Serializable {
 			.append(input.getProblem().getId())
 			.append(FILENAME_PARAMETER)
 			.append(filename)
+			.append(AGENT_PARAMETER)
+			.append(DEFAULT_AGENT)
 			.append(INPUT_ID_PARAMETER)
 			.append(input.getNumber())
 			.append(CSRF_PARAMETER)
 			.append(values.getToken());
-		return executor.getStream(urlBuilder.toString());
+		final HttpRequest request = executor.getRequest(urlBuilder.toString());
+		final HttpHeaders headers = request.getHeaders();
+		headers.set(CONNECTION_PARAMETER, CONNECTION_VALUE);
+		headers.setAccept(ACCEPT);
+		headers.setUserAgent(USER_AGENT);
+		headers.setAcceptEncoding(ACCEPT_ENCODING);
+		final HttpResponse response = request.execute();
+		return response.getContent();
 	}
 	
 	/**

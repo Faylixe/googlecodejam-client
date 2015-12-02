@@ -9,9 +9,15 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
+import java.util.logging.Handler;
+import java.util.logging.Level;
+import java.util.logging.LogRecord;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import org.junit.Test;
+
+import com.google.api.client.http.HttpTransport;
 
 import io.faylixe.googlecodejam.client.common.Resources;
 import io.faylixe.googlecodejam.client.executor.HTTPRequestExecutorTest;
@@ -30,6 +36,9 @@ public final class CodeJamSessionTest {
 
 	/** Path of the file that contains expected analysis content for the test problem. **/
 	private static final String ANALYSIS_PATH = "analysis.txt";
+
+	/** **/
+	private static final String TYPE = "practice";
 
 	/** Expected size of the downloaded input, in number of line. **/
 	private static final int INPUT_SIZE = 0; // TODO : Fetch the good one :).
@@ -106,15 +115,33 @@ public final class CodeJamSessionTest {
 	 */
 	@Test
 	public void testDownload() {
+		Logger logger = Logger.getLogger(HttpTransport.class.getName());
+		  logger.setLevel(Level.CONFIG);
+		  logger.addHandler(new Handler() {
+
+		    @Override
+		    public void close() throws SecurityException {
+		    }
+
+		    @Override
+		    public void flush() {
+		    }
+
+		    @Override
+		    public void publish(LogRecord record) {
+			     System.out.println(record.getMessage());
+		    }
+		  });
 		final CodeJamSession session = getTestSession();
 		final Problem problem = ProblemTest.getTestProblem();
 		final ProblemInput input = problem.getProblemInputs().get(0);
 		try {
-			final InputStream stream = session.download(input);
+			final InputStream stream = session.download(input, TYPE);
 			final InputStreamReader reader = new InputStreamReader(stream);
 			final BufferedReader bufferedReader = new BufferedReader(reader);
 			final List<String> lines = bufferedReader.lines().collect(Collectors.toList());
 			assertEquals(INPUT_SIZE, lines.size());
+			System.out.println(lines);
 			ensureInputConsistency(lines);
 		}
 		catch (final IOException e) {
