@@ -7,7 +7,6 @@ import java.security.GeneralSecurityException;
 
 import org.junit.Test;
 
-import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
 
 import static org.junit.Assert.assertEquals;
@@ -34,14 +33,7 @@ public final class HTTPRequestExecutorTest {
 	 * @return Created instance.
 	 */
 	public static HTTPRequestExecutor getTestExecutor() {
-		NetHttpTransport transport = null;
-		try {
-			transport = GoogleNetHttpTransport.newTrustedTransport();
-		}
-		catch (final IOException | GeneralSecurityException e) {
-			fail("Cannot create HTTP Transport : " + e.getMessage());
-		}
-		return new HTTPRequestExecutor(HOSTNAME, transport.createRequestFactory());
+		return new HTTPRequestExecutor(HOSTNAME, new NetHttpTransport().createRequestFactory());
 	}
 
 	/**

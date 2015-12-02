@@ -56,6 +56,7 @@ public final class CommandLineApplication {
 			e.printStackTrace();
 			System.exit(-1);
 		}
+		
 		client.run();
 	}
 

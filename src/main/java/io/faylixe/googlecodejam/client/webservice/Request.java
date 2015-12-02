@@ -47,21 +47,6 @@ public final class Request {
 
 	/** The <tt>undefined</tt> parameter value. **/
 	public static final String UNDEFINED = "undefined";
-
-	/** **/
-	public static final String ACCEPT = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
-
-	/** **/
-	public static final String ACCEPT_ENCODING = "gzip, deflate";
-
-	/** **/
-	public static final String CONNECTION_PARAMETER = "Connection";
-
-	/** **/
-	public static final String CONNECTION_VALUE = "keep-alive";
-
-	/** **/
-	public static final String USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:10.0) Gecko/20100101 Firefox/10.0";
 	
 	/**
 	 * Private constructor for avoiding instantiation.

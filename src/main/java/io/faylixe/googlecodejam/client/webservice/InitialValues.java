@@ -1,6 +1,8 @@
 package io.faylixe.googlecodejam.client.webservice;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 
 import io.faylixe.googlecodejam.client.Round;
 import io.faylixe.googlecodejam.client.executor.HTTPRequestExecutor;
@@ -112,6 +114,15 @@ public final class InitialValues {
 	 */
 	public String getToken() {
 		return token;
+	}
+	
+	/**
+	 * 
+	 * @return
+	 * @throws UnsupportedEncodingException 
+	 */
+	public String getURLEncodedToken() throws UnsupportedEncodingException {
+		return URLEncoder.encode(token, "UTF-8");
 	}
 
 	/**

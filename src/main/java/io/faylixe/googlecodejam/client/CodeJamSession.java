@@ -11,7 +11,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
 
-import com.google.api.client.http.HttpHeaders;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpResponse;
 
@@ -143,18 +142,11 @@ public final class CodeJamSession implements Serializable {
 			.append(input.getProblem().getId())
 			.append(FILENAME_PARAMETER)
 			.append(filename)
-			.append(AGENT_PARAMETER)
-			.append(DEFAULT_AGENT)
 			.append(INPUT_ID_PARAMETER)
 			.append(input.getNumber())
 			.append(CSRF_PARAMETER)
-			.append(values.getToken());
+			.append(values.getURLEncodedToken());
 		final HttpRequest request = executor.getRequest(urlBuilder.toString());
-		final HttpHeaders headers = request.getHeaders();
-		headers.set(CONNECTION_PARAMETER, CONNECTION_VALUE);
-		headers.setAccept(ACCEPT);
-		headers.setUserAgent(USER_AGENT);
-		headers.setAcceptEncoding(ACCEPT_ENCODING);
 		final HttpResponse response = request.execute();
 		return response.getContent();
 	}
