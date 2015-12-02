@@ -66,11 +66,11 @@ public final class InitialValues {
 	@SerializedName("qualified")
 	private boolean qualified;
 
-	/** Time left before contest finish. **/
+	/** Time left before contest finish (in second). **/
 	@SerializedName("second_left")
 	private long left;
 
-	/** Amout of time until this contest start. **/
+	/** Amout of time until this contest start (in second). **/
 	@SerializedName("second_until_start")
 	private long untilStart;
 
@@ -188,7 +188,7 @@ public final class InitialValues {
 	/**
 	 * Getter for the time left.
 	 * 
-	 * @return Time left before contest finish.
+	 * @return Time left before contest finish (in second).
 	 */
 	public long getLeft() {
 		return left;
@@ -197,7 +197,7 @@ public final class InitialValues {
 	/**
 	 * Getter for the time left.
 	 * 
-	 * @return Amout of time until this contest start.
+	 * @return Amout of time until this contest start (in second).
 	 */
 	public long getUntilStart() {
 		return untilStart;
