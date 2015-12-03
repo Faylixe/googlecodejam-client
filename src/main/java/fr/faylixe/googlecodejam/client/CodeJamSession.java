@@ -32,9 +32,12 @@ public final class CodeJamSession implements Serializable {
 
 	/** Serialization index. **/
 	private static final long serialVersionUID = 1L;
-	
+
 	/** Downloaded input file extension used for filename generation. **/
 	private static final String INPUT_EXTENSION = ".in";
+
+	/** Practice file type for unactive contest. **/
+	private static final String PRACTICE = "practice";
 
 	/** Character used for file name generation. **/
 	private static final char FILENAME_SEPARATOR = '-';
@@ -68,11 +71,17 @@ public final class CodeJamSession implements Serializable {
 
 	/**
 	 * Reloads session components in order to prevent from any change.
+	 * Based on the version number of {@link InitialValues}.
 	 * 
 	 * @return This session if no change has been found, a newly created session updated otherwise.
+	 * @throws IOException If any error occurs while retrieving new values.
 	 */
-	public CodeJamSession refresh() {
+	public CodeJamSession refresh() throws IOException {
 		// ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/4
+		final InitialValues refreshedValues = InitialValues.get(executor, round);
+		if (refreshedValues.getVersion() > values.getVersion()) {
+			return createSession(executor, round);
+		}
 		return this;
 	}
 
@@ -84,6 +93,40 @@ public final class CodeJamSession implements Serializable {
 	 */
 	public ContestInfo getContestInfo() {
 		return info;
+	}
+
+	/**
+	 * Indicates if the currently logged user is qualified
+	 * for the next round or not.
+	 * 
+	 * @return <tt>true</tt> if user is qualified, <tt>false</tt> otherwise.
+	 */
+	public boolean isQualified() {
+		return values.isQualified();
+	}
+	
+	/**
+	 * Indicates if the current session is logged in or not.
+	 * 
+	 * @return <tt>true</tt> if user is logged, <tt>false</tt> otherwise.
+	 */
+	public boolean isLogged() {
+		return values.isLogged();
+	}
+	
+	/**
+	 * Indiciates if the contest is currently active,
+	 * namely if competition is occuring at the current
+	 * time, or not.
+	 * 
+	 * @return <tt>true</tt> if the contest is active, <tt>false</tt> otherwise.
+	 */
+	public boolean isActive() {
+		final long now = System.currentTimeMillis();
+		final long start = values.getStart();
+		final long end = start + values.getLeft();
+		// TODO : Ensure predicate consistency.
+		return now >= start && now <= end;
 	}
 
 	/**
@@ -105,16 +148,29 @@ public final class CodeJamSession implements Serializable {
 			.append(values.getToken());
 		return executor.get(urlBuilder.toString());
 	}
+	
+	/**
+	 * Computes input file type suffix for the
+	 * given <tt>input</tt>.
+	 * 
+	 * @param input Problem input to retrieve suffix from.
+	 * @return "practice" if the contest if not active, computed suffix otherwise.
+	 */
+	private String getType(final ProblemInput input) {
+		if (!isActive()) {
+			return PRACTICE;
+		}
+		return input.getSuffix(); // TODO : Ensure suffix is valid in a real contest.
+	}
 
 	/**
 	 * Builds and returns a valid file name
 	 * for the given problem <tt>input</tt>.
 	 * 
 	 * @param input Input to retrieve file name from.
-	 * @param type Type suffix to use (Practice or any attempted based suffix).
 	 * @return Built file name.
 	 */
-	private String buildFilename(final ProblemInput input, final String type) {
+	private String buildFilename(final ProblemInput input) {
 		final StringBuilder builder = new StringBuilder();
 		final Problem problem = input.getProblem();
 		final ContestInfo info = problem.getParent();
@@ -124,7 +180,7 @@ public final class CodeJamSession implements Serializable {
 			.append(FILENAME_SEPARATOR)
 			.append(input.getName())
 			.append(FILENAME_SEPARATOR)
-			.append(type)
+			.append(getType(input))
 			.append(INPUT_EXTENSION);
 		return builder.toString();
 	}
@@ -135,11 +191,10 @@ public final class CodeJamSession implements Serializable {
 	 * <tt>input</tt>.
 	 * 
 	 * @param input Input to download file from.
-	 * @param type Type suffix to use (Practice or any attempted based suffix).
 	 * @throws IOException If any error occurs while downloading the file.
 	 */
-	public InputStream download(final ProblemInput input, final String type) throws IOException {
-		final String filename = buildFilename(input, type);
+	public InputStream download(final ProblemInput input) throws IOException {
+		final String filename = buildFilename(input);
 		final StringBuilder urlBuilder = new StringBuilder();
 		urlBuilder.append(round.getURL())
 			.append(COMMAND)
@@ -158,7 +213,7 @@ public final class CodeJamSession implements Serializable {
 	}
 	
 	/**
-	 * 
+	 * TO DOCUMENT
 	 * @return <tt>true</tt> if the submission has been considered has valid, <tt>false</tt> otherwise.
 	 */
 	public boolean submit() {

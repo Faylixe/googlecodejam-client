@@ -1,16 +1,20 @@
 package fr.faylixe.googlecodejam.client.executor;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Map;
 
 import com.google.api.client.http.GenericUrl;
+import com.google.api.client.http.HttpContent;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpRequestFactory;
 import com.google.api.client.http.HttpResponse;
+import com.google.api.client.http.UrlEncodedContent;
 
 /**
- * <p>Abstract implementation for {@link IHTTPRequestExecutor}
- * interface that handles hostname.</p>
+ * <p>A {@link HTTPRequestExecutor} is an abstraction
+ * on top of {@link HttpRequestFactory} that handles
+ * GET and POST request.</p>
  * 
  * @author fv
  */
@@ -43,6 +47,20 @@ public final class HTTPRequestExecutor {
 	}
 
 	/**
+	 * Builds and returns a {@link GenericUrl} instance
+	 * using the given <tt>path</tt> relative to the
+	 * internal hostname.
+	 * 
+	 * @param path Path of the request to build.
+	 * @return Hostname relative URL built.
+	 */
+	private GenericUrl getURL(final String path) {
+		final StringBuilder builder = new StringBuilder(getHostname());
+		builder.append(path);
+		return new GenericUrl(builder.toString());
+	}
+
+	/**
 	 * Creates and returns a GET {@link HttpRequest} instance
 	 * for the given <tt>path</tt> over the internal hostname.
 	 * 
@@ -51,9 +69,7 @@ public final class HTTPRequestExecutor {
 	 * @throws IOException If any error occurs while creating the GET request.
 	 */
 	public HttpRequest getRequest(final String path) throws IOException {
-		final StringBuilder builder = new StringBuilder(getHostname());
-		builder.append(path);
-		final GenericUrl url = new GenericUrl(builder.toString());
+		final GenericUrl url = getURL(path);
 		return requestFactory.buildGetRequest(url);
 	}
 	
@@ -78,10 +94,16 @@ public final class HTTPRequestExecutor {
 	 * relative to the internal target hostname.
 	 * 
 	 * @param path Relative server path to perform request to.
+	 * @param parameters POST parameters that will be URL encoded and sent.
 	 * @return Response content of the performed request.
+	 * @throws IOException If any error occurs while performing request.
 	 */
-	public String post(final String path, final Map<String, String> parameters) {
-		return null;
+	public InputStream post(final String path, final Map<String, String> parameters) throws IOException {
+		final GenericUrl url = getURL(path);
+		final HttpContent content = new UrlEncodedContent(parameters);
+		final HttpRequest request = requestFactory.buildPostRequest(url, content);
+		final HttpResponse response = request.execute();
+		return response.getContent();
 	}
 
 }

@@ -1,6 +1,7 @@
 package fr.faylixe.googlecodejam.client;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
@@ -32,9 +33,6 @@ public final class CodeJamSessionTest {
 	/** Path of the file that contains expected analysis content for the test problem. **/
 	private static final String ANALYSIS_PATH = "analysis.txt";
 
-	/** Target input type suffix for testing. **/
-	private static final String TYPE = "practice";
-
 	/** Expected size of the downloaded input, in number of line. **/
 	private static final int INPUT_SIZE = 1001;
 
@@ -56,6 +54,19 @@ public final class CodeJamSessionTest {
 		}
 		return session;
 	}
+	
+	/**
+	 * Test session related properties, namely
+	 * if user is qualified or is the contest
+	 * is active.
+	 */
+	@Test
+	public void testSessionProperties() {
+		final CodeJamSession session = getTestSession();
+		assertFalse(session.isActive());
+		assertFalse(session.isLogged());
+		assertFalse(session.isQualified());
+	}
 
 	/**
 	 * Ensures that the internal contest
@@ -66,6 +77,7 @@ public final class CodeJamSessionTest {
 	public void testContestInfo() {
 		final CodeJamSession session = getTestSession();
 		final ContestInfo info = session.getContestInfo();
+		// TODO : Test equality.
 		ContestInfoTest.testContestInfoConsistency(info);
 	}
 
@@ -114,7 +126,7 @@ public final class CodeJamSessionTest {
 		final Problem problem = info.getProblem(0);
 		final ProblemInput input = problem.getProblemInput(0);
 		try {
-			final InputStream stream = session.download(input, TYPE);
+			final InputStream stream = session.download(input);
 			final InputStreamReader reader = new InputStreamReader(stream);
 			final BufferedReader bufferedReader = new BufferedReader(reader);
 			final List<String> lines = bufferedReader.lines().collect(Collectors.toList());

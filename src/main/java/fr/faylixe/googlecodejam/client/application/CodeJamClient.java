@@ -15,7 +15,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Scanner;
-import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
 /**
@@ -52,7 +51,7 @@ public final class CodeJamClient implements Runnable {
 			final int inputIndex = 0;
 			final ProblemInput input = problem.getProblemInput(inputIndex);
 			try {
-				session.download(input, "");
+				session.download(input);
 			}
 			catch (final IOException e) {
 				
