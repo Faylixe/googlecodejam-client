@@ -6,6 +6,8 @@ Java client API for Google Code Jam contest.
 
 ## Maven dependencies
 
+Following dependency could be added to your *POM.xml* if you want to use the client API into your project.
+
 ```
 <dependency>
     <groupId>fr.faylixe</groupId>
