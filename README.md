@@ -8,7 +8,7 @@ Java client API for Google Code Jam contest.
 
 Following dependency could be added to your *POM.xml* if you want to use the client API into your project.
 
-```
+```xml
 <dependency>
     <groupId>fr.faylixe</groupId>
     <artifactId>googlecodejam-client</artifactId>
@@ -17,3 +17,19 @@ Following dependency could be added to your *POM.xml* if you want to use the cli
 ```
 
 ## Command line application
+
+A command line application which consists in the client JAR and a running script is also available. Here is the usage description :
+
+```
+usage: codejamclient.sh init|download|submit parameter
+ -d,--download           Downloads an input file for a given problem and
+                         target dataset.
+ -f,--sourcefile <arg>   Source file to submit
+ -i,--init               Initializes code jam context by logging user in,
+                         and selects an active contest and round.
+ -o,--output <arg>       Output file to submit
+ -p,--problem <arg>      Target problem for downloading or submitting
+ -s,--submit             Submits an output file as solution source as well
+                         for a given problem and target dataset.
+ -t,--inputtype <arg>    Input type (in general, small or large)
+```
