@@ -24,7 +24,7 @@ public final class SeleniumCookieSupplier implements Supplier<String> {
 	/** Default waiting time between cookie check. **/
 	private static final long WAITING_TIME = 2000;
 
-	/** **/
+	/** Target URL user should be redirected to. **/
 	private final String target;
 
 	/** Supplier that will create our driver instance to use. **/
@@ -36,13 +36,14 @@ public final class SeleniumCookieSupplier implements Supplier<String> {
 	/** **/
 	private volatile boolean running;
 
-
 	/** **/
 	private Cookie result;
 
 	/**
+	 * Default constructor.
 	 * 
-	 * @param target
+	 * @param target Target URL user should be redirected to.
+	 * @param driverSupplier Supplier that will create our driver instance to use.
 	 */
 	public SeleniumCookieSupplier(final String target, final Supplier<WebDriver> driverSupplier) {
 		this.lock = new Object();
@@ -61,7 +62,7 @@ public final class SeleniumCookieSupplier implements Supplier<String> {
 	
 	/**
 	 * 
-	 * @return
+	 * @return <tt>true</tt> if the selenium instance is still running, <tt>false</tt> otherwise.
 	 */
 	public boolean isRunning() {
 		return running;

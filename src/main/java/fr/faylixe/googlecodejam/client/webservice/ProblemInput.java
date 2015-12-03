@@ -23,7 +23,7 @@ public final class ProblemInput extends NamedObject implements Serializable {
 	@SerializedName("difficulty")
 	private int difficulty;
 
-	/** TODO : Figure out what number is for => PROBABLY NUMBER OF ATTEMPT. **/
+	/** TODO : Figure out what number is for (PROBABLY NUMBER OF ATTEMPT). **/
 	@SerializedName("number")
 	private int number;
 

@@ -81,7 +81,7 @@ public final class HTTPRequestExecutor {
 	 * @param path Relative server path to perform request to.
 	 * @return Response content of the performed request.
 	 * @throws IOException If any error occurs while performing request.
-	 * @see {@link #getStream(String)}
+	 * @see #getRequest(String)
 	 */
 	public String get(final String path) throws IOException {
 		final HttpRequest request = getRequest(path);

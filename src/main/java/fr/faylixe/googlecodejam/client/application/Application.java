@@ -8,21 +8,24 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
 /**
+ * <p>Main class that could be used as a command line program.</p>
  * 
+ * TODO : Functional javadoc.
  * @author fv
  */
 public final class Application {
 
 	/**
-	 * 
+	 * Private constructor for avoiding instantiation.
 	 */
 	private Application() {
 		// Do nothing.
 	}
 	
 	/**
+	 * Command line application entry point.
 	 * 
-	 * @param args
+	 * @param args Command line parameters provided.
 	 */
 	public static void main(final String [] args) {
 		final Options options = ApplicationConstant.createOptions();
@@ -32,13 +35,13 @@ public final class Application {
 			final CommandLine command = parser.parse(options, args);
 			boolean success = false;
 			if (command.hasOption(ApplicationConstant.INIT)) {
-				success = ApplicationCommand.init(command);
+				success = ApplicationCommand.init();
 			}
 			else if (command.hasOption(ApplicationConstant.DOWNLOAD)) {
 				success = ApplicationCommand.download(command);
 			}
 			else if (command.hasOption(ApplicationConstant.SUBMIT)) {
-				success = ApplicationCommand.submit(command);
+				//success = ApplicationCommand.submit(command);
 			}
 			if (!success) {
 				formatter.printHelp(ApplicationConstant.SYNTAX, options);

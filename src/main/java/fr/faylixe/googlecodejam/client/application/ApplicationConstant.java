@@ -3,7 +3,8 @@ package fr.faylixe.googlecodejam.client.application;
 import org.apache.commons.cli.Options;
 
 /**
- * <p></p>
+ * <p>Constants used for managing command
+ * line parameters.</p>
  * 
  * @author fv
  */

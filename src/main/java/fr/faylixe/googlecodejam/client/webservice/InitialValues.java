@@ -89,7 +89,7 @@ public final class InitialValues {
 
 	/**
 	 * 
-	 * @return
+	 * @return To document
 	 */
 	public String getAdmin() {
 		return admin;
@@ -97,7 +97,7 @@ public final class InitialValues {
 
 	/**
 	 * 
-	 * @return
+	 * @return To document
 	 */
 	public int getSeen() {
 		return seen;
@@ -105,7 +105,7 @@ public final class InitialValues {
 
 	/**
 	 * 
-	 * @return
+	 * @return To document
 	 */
 	public int getCS() {
 		return cs;
@@ -141,7 +141,7 @@ public final class InitialValues {
 
 	/**
 	 * 
-	 * @return
+	 * @return To document
 	 */
 	public String getInput() {
 		return input;
@@ -149,7 +149,7 @@ public final class InitialValues {
 
 	/**
 	 * 
-	 * @return
+	 * @return To document
 	 */
 	public String getSnippet() {
 		return snippet;
@@ -238,11 +238,13 @@ public final class InitialValues {
 	}
 
 	/**
+	 * Static factory method that use the <tt>GetInitialValues</tt> command
+	 * for the given <tt>round</tt> to retrieve a valud {@link InitialValues} instance.
 	 * 
-	 * @param round
-	 * @param executor
-	 * @return
-	 * @throws IOException 
+	 * @param executor Executor instance to use for performing the associated request.
+	 * @param round Round to extract initial values from.
+	 * @return Created instance from request.
+	 * @throws IOException If any error occurs during the associated HTTP request.
 	 */
 	public static InitialValues get(final HTTPRequestExecutor executor, final Round round) throws IOException {
 		final StringBuilder urlBuilder = new StringBuilder();

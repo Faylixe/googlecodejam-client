@@ -191,6 +191,7 @@ public final class CodeJamSession implements Serializable {
 	 * <tt>input</tt>.
 	 * 
 	 * @param input Input to download file from.
+	 * @return Stream to read which contains our downloaded file data.
 	 * @throws IOException If any error occurs while downloading the file.
 	 */
 	public InputStream download(final ProblemInput input) throws IOException {
@@ -226,6 +227,8 @@ public final class CodeJamSession implements Serializable {
 	 * Loads associated contest info and initial values from the given
 	 * <tt>round</tt>, using the given <tt>executor</tt>.
 	 * 
+	 * @param executor {@link HTTPRequestExecutor} instance to use.
+	 * @param round Contextual {@link Round} instance this session is bound to.
 	 * @return Created session.
 	 * @throws IOException If any error occurs while retrieving contest info or initial values.
 	 */

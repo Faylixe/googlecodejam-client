@@ -61,7 +61,7 @@ public final class ContestInfo implements Serializable, ObjectInputValidation {
 	}
 	
 	/**
-	 * Returns {@link IProblem} instance associated
+	 * Returns {@link Problem} instance associated
 	 * to this contest.
 	 * 
 	 * @return List of problem this contest exposes.
@@ -97,6 +97,9 @@ public final class ContestInfo implements Serializable, ObjectInputValidation {
 	 * Custom readObject method that registers this object as a deserialization validator.
 	 * 
 	 * @param stream {@link ObjectInputStream} to register this validator to.
+	 * @throws OptionalDataException If any error occurs while reading the object.
+	 * @throws ClassNotFoundException If the default readObject call can not find a required class.
+	 * @throws IOException If any error occurs while reading the object.
 	 */
 	private void readObject(final ObjectInputStream stream) throws OptionalDataException, ClassNotFoundException, IOException {
 		stream.registerValidation(this, 0);
@@ -108,9 +111,10 @@ public final class ContestInfo implements Serializable, ObjectInputValidation {
 	 * from the given <tt>round</tt> using a <tt>/ContestInfo</tt>
 	 * request from the round dashboard.
 	 * 
+	 * @param executor Executor instance used to perform the request.
 	 * @param round Round to retrieve {@link ContestInfo} from.
 	 * @return Built {@link ContestInfo} instance.
-	 * @throws IOException 
+	 * @throws IOException IF any error occurs while executing request.
 	 */
 	public static ContestInfo get(final HTTPRequestExecutor executor, final Round round) throws IOException {
 		final StringBuilder builder = new StringBuilder();

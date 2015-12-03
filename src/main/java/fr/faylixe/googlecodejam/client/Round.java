@@ -11,7 +11,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 /**
- * <POJO class that represents a Google Jam {@link Round}.
+ * <p>POJO class that represents a Google Jam {@link Round}.
  * A {@link Round} is defined by a name, and a dashboard
  * URL.</p>
  * 
@@ -86,6 +86,7 @@ public final class Round extends NamedObject {
 	 * from the given JSoup <tt>contest</tt> node.
 	 * 
 	 * @param contest Root element of the contest in the contest index page.
+	 * @param parent Parent contest name.
 	 * @return List of retrieved round.
 	 */
 	public static List<Round> get(final Element contest, final String parent) {

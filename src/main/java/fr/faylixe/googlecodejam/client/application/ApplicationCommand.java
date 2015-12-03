@@ -30,15 +30,18 @@ import fr.faylixe.googlecodejam.client.webservice.ProblemInput;
 import static fr.faylixe.googlecodejam.client.application.ApplicationConstant.*;
 
 /**
+ * <p>This class contains static method that are
+ * executed from parsed command line argument in
+ * {@link Application}.</p>
  * 
  * @author fv
  */
 public final class ApplicationCommand {
 
-	/** **/
+	/** Path of the serialized round file to use. **/
 	private static final String ROUND_PATH = ".cjs-round";
 
-	/** **/
+	/** Path of the serialized cookie file to use. **/
 	private static final String COOKIE_PATH = ".cjs-cookie";
 
 	/** Default hostname used by this client. **/
@@ -48,8 +51,10 @@ public final class ApplicationCommand {
 	private static final String COOKIE_HEADER = "SACSID=";
 
 	/**
+	 * Prompts users for selecting a valid {@link Round}
+	 * instance that will be used as a contextual round.
 	 * 
-	 * @throws IOException 
+	 * @throws IOException If any error occurs while downloading contest page.
 	 */
 	private static Optional<Round> selectRound() throws IOException {
 		final HttpTransport transport = new NetHttpTransport();
@@ -64,7 +69,8 @@ public final class ApplicationCommand {
 	}
 
 	/**
-	 * Selects 
+	 * Selects a named object from the given list using the
+	 * given {@link Scanner} for reading user input.
 	 * 
 	 * @param objects {@link NamedObject} list that user should choose in.
 	 * @return Optional selected {@link NamedObject} instance.
@@ -93,10 +99,13 @@ public final class ApplicationCommand {
 	}
 
 	/**
+	 * Methods that is bound to the INIT command.
+	 * Starts firefox through selenium to retrieve cookie instance
+	 * and prompts user for the contextual round to use.
 	 * 
-	 * @param command
+	 * @return <tt>true</tt> if the init command was correctly executed, <tt>false</tt> otherwise.
 	 */
-	public static boolean init(final CommandLine command) {
+	public static boolean init() {
 		System.out.println("####################################");
 		System.out.println("Google Code Jam command line client");
 		System.out.println("####################################\n");
@@ -119,9 +128,11 @@ public final class ApplicationCommand {
 	}
 
 	/**
+	 * If exists, deserializes the cookie and round file
+	 * in order to create and returns a valid {@link CodeJamSession}.
 	 * 
-	 * @return
-	 * @throws IOException 
+	 * @return Contextual session loaded if exist.
+	 * @throws IOException If the session could not be loaded.
 	 */
 	private static CodeJamSession getContextualSession() throws IOException {
 		final String cookie = (String) SerializationUtils.deserialize(new FileInputStream(COOKIE_PATH));
@@ -136,10 +147,12 @@ public final class ApplicationCommand {
 	}
 	
 	/**
+	 * Retrieves from the current session the {@link ProblemInput}
+	 * instance that corresponds to the given user input parameters.
 	 * 
-	 * @param problemArgument
-	 * @param inputArgument
-	 * @return
+	 * @param problemArgument Problem argument provided by user.
+	 * @param inputArgument Input arguments provided by user.
+	 * @return Retrieved problem input instance.
 	 */
 	private static ProblemInput getProblemInput(final String problemArgument, final String inputArgument) {
 		return null;
@@ -171,15 +184,6 @@ public final class ApplicationCommand {
 			System.err.println("An error occurs while downloading input file : " + e.getMessage());
 			return false;
 		}
-		return true;
-	}
-	
-	/**
-	 * 
-	 * @param command
-	 * @return
-	 */
-	public static boolean submit(final CommandLine command) {
 		return true;
 	}
 

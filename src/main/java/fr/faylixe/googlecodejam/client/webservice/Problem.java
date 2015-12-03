@@ -239,6 +239,9 @@ public final class Problem extends NamedObject implements ObjectInputValidation 
 	 * Custom readObject method that registers this object as a deserialization validator.
 	 * 
 	 * @param stream {@link ObjectInputStream} to register this validator to.
+	 * @throws OptionalDataException If any error occurs while reading the object.
+	 * @throws ClassNotFoundException If the default readObject call can not find a required class.
+	 * @throws IOException If any error occurs while reading the object.
 	 */
 	private void readObject(final ObjectInputStream stream) throws OptionalDataException, ClassNotFoundException, IOException {
 		stream.registerValidation(this, 0);
