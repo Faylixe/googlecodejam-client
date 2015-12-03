@@ -8,12 +8,12 @@
 	<name>GoogleCodeJam Client</name>
 	<description>Java client API for Google Code Jam contest</description>
 	<url>https://github.com/Faylixe/googlecodejam-client</url>
-	<licences>
-		<licence>
+	<licenses>
+		<license>
 			<name>The Apache License, Version 2.0</name>
 			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-		</licence>
-	</licences>
+		</license>
+	</licenses>
 	<developers>
 		<developer>
 			<name>Felix Voituret</name>
