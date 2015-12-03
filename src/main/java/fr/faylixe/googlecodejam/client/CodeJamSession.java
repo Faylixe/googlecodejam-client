@@ -170,7 +170,7 @@ public final class CodeJamSession implements Serializable {
 	 * @param input Input to retrieve file name from.
 	 * @return Built file name.
 	 */
-	private String buildFilename(final ProblemInput input) {
+	public String buildFilename(final ProblemInput input) {
 		final StringBuilder builder = new StringBuilder();
 		final Problem problem = input.getProblem();
 		final ContestInfo info = problem.getParent();
