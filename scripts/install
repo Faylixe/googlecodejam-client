@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir /usr/local/codejam
+
+# TODO : Install jar
+# TODO : Install script
