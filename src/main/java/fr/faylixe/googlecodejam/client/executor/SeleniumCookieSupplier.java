@@ -4,6 +4,7 @@ import java.util.function.Supplier;
 
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
  * TODO Javadoc
@@ -54,7 +55,7 @@ public final class SeleniumCookieSupplier implements Supplier<String> {
 	/** {@inheritDoc} **/
 	@Override
 	public String get() {
-		final WebDriver driver = driverSupplier.get();
+		final WebDriver driver = new FirefoxDriver();
 		driver.navigate().to(LOGIN_URL);
 		running = true;
 		return waitForCookie(driver);
