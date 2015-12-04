@@ -28,6 +28,9 @@ final Round round = ...;
 final CodeJamSession session = CodeJamSession.createSession(executor, round);
 ```
 
+The session could be then used to retrieve contest information, problem description and analysis, download input file
+as submit solution as well.
+
 ## Command line application
 
 A command line application which consists in the client JAR and a running script is also available. Here is the usage description :
