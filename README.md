@@ -82,6 +82,11 @@ The following exemple will download the *small* input file for the first problem
 codejam --download --problem A --inputtype small
 ```
 
+If the download is successful, the name of the downloaded file will be printed, so it could be chain in a command workflow, for example :
+
+```bash
+cat < `codejam --download --problem A --inputtype small` | python A.py
+```
 ### Submit action
 
 Once input file is downloaded, and algorithm solved all test cases, *submit* action could be used in order
