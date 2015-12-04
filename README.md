@@ -48,7 +48,7 @@ Where action belongs to the following option list :
 ### Initialization action
 
 This action does not take any parameters, and will open up a Firefox instance
-in order to authenticate to Google services. Once Firefox is opened into the login page,
+in order to authenticate to Google services. Once Firefox is opened and the login page loaded,
 please proceed to the authentication process, and when you will be logged and redirected
 to the code jam home page, Firefox will be closed automatically.
 
