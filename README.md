@@ -18,13 +18,13 @@ Following dependency could be added to your *POM.xml* if you want to use the cli
 The API entry point is the **CodeJamSession** class, which could be instantiated as following :
 
 ```java
-//
+// Initializes required HTTPRequestExecutor.
 final HttpTransport transport = new NetHttpTransport();
 final HttpRequestFactory factory = transport.createRequestFactory();
 final HTTPRequestExecutor executor = new HTTPRequestExecutor(CODEJAM_HOSTNAME, factory);
-//
+// Retrieves Round.
 final Round round = ...;
-//
+// Creates session.
 final CodeJamSession session = CodeJamSession.createSession(executor, round);
 ```
 
