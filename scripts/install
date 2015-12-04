@@ -2,7 +2,8 @@
 
 echo "##############################################"
 echo "# Google Code Jam Client installation script #"
-echo "##############################################\n"
+echo "##############################################"
+echo ""
 
 # Creates binary folder.
 if [ ! -d "/usr/local/codejam" ]
@@ -32,4 +33,5 @@ echo "> Downloading last script version from GitHub"
 curl -o /usr/bin/codejam -J -L --silent "https://raw.githubusercontent.com/Faylixe/googlecodejam-client/master/scripts/codejam" > /dev/null
 chmod o+rx /usr/bin/codejam
 
-echo "\nInstallation complete, you can now run the 'codejam' command"
+echo ""
+echo "Installation complete, you can now run the 'codejam' command"
