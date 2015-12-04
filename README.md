@@ -20,16 +20,45 @@ Following dependency could be added to your *POM.xml* if you want to use the cli
 
 A command line application which consists in the client JAR and a running script is also available. Here is the usage description :
 
+```bash
+./codejamclient.sh action parameter
 ```
-usage: codejamclient.sh init|download|submit parameter
- -d,--download           Downloads an input file for a given problem and
-                         target dataset.
- -f,--sourcefile <arg>   Source file to submit
- -i,--init               Initializes code jam context by logging user in,
-                         and selects an active contest and round.
- -o,--output <arg>       Output file to submit
- -p,--problem <arg>      Target problem for downloading or submitting
- -s,--submit             Submits an output file as solution source as well
-                         for a given problem and target dataset.
- -t,--inputtype <arg>    Input type (in general, small or large)
+
+Where action belongs to the following option list :
+
+* -i,--init       Initializes code jam context by logging user in, and selects an active contest and round.
+* -d,--download   Downloads an input file for a given problem and target dataset.
+* -s,--submit     Submits an output file as solution source as well for a given problem and target dataset.
+
+### Initialization action
+
+This action does not take any parameters, and will open up a Firefox instance
+in order to authenticate to Google services. Once Firefox is opened into the login page,
+please proceed to the authentication process, and when you will be logged and redirected
+to the code jam home page, Firefox will be closed automatically.
+
+```bash
+./codejamclient.sh --init
+```
+
+Once logged you will be prompted to choose a contest and a round. Those will become contextual round and session
+for the current directory you are running the script in, meaning that if you run another time the script with another
+action, it will use the created contextual logged session and round.
+
+### Download action
+
+As it name suggests, the *download* action allows logged user to download an input file for a given problem.
+If the contest is active, then it will trigger the submission timer depending of the input difficulty you have
+choosen (usually 4 minutes for a *small* input, 8 for a *large* one).
+
+The following exemple will download the *small* input file for the first problem.
+
+```bash
+./codejamclient.sh --download --problem A --inputtype small
+```
+
+### Submit action
+
+```bash
+./codejamclient.sh --submit --problem A --inputtype small --output path/to/output --sourcefile path/to/sourcefile
 ```

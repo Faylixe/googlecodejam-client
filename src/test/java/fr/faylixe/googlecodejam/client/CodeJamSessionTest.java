@@ -56,28 +56,17 @@ public final class CodeJamSessionTest {
 	}
 	
 	/**
-	 * Test session related properties, namely
-	 * if user is qualified or is the contest
-	 * is active.
+	 * Ensures that the internal contest info instance used
+	 * is the one expected. Also test session related properties,
+	 * like if user is qualified or is the contest is active.
 	 */
 	@Test
-	public void testSessionProperties() {
+	public void testSessionConsistency() {
 		final CodeJamSession session = getTestSession();
 		assertFalse(session.isActive());
 		assertFalse(session.isLogged());
 		assertFalse(session.isQualified());
-	}
-
-	/**
-	 * Ensures that the internal contest
-	 * info instance used is the one
-	 * expected.
-	 */
-	@Test
-	public void testContestInfo() {
-		final CodeJamSession session = getTestSession();
 		final ContestInfo info = session.getContestInfo();
-		// TODO : Test equality.
 		ContestInfoTest.testContestInfoConsistency(info);
 	}
 

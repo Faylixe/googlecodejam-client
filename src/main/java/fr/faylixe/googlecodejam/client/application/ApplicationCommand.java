@@ -93,14 +93,14 @@ public final class ApplicationCommand {
 			}
 		}
 		catch (final NumberFormatException e) {
-			// TODO : Log error.
+			System.err.println("Number expected, abort");
 		}
 		return Optional.empty();
 	}
 
 	/**
-	 * Methods that is bound to the INIT command.
-	 * Starts firefox through selenium to retrieve cookie instance
+	 * Methods that is bound to the INIT command. Starts
+	 * firefox through selenium to retrieve cookie instance
 	 * and prompts user for the contextual round to use.
 	 * 
 	 * @return <tt>true</tt> if the init command was correctly executed, <tt>false</tt> otherwise.

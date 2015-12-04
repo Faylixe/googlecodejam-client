@@ -11,7 +11,7 @@ import org.apache.commons.cli.Options;
 public final class ApplicationConstant {
 
 	/** Syntax of the command line script. **/
-	public static final String SYNTAX = "codejamclient.sh init|download|submit parameter";
+	public static final String SYNTAX = "codejamclient.sh action parameter";
 
 	/** Short option for the initialization action. **/
 	public static final String INIT = "i";
@@ -47,7 +47,7 @@ public final class ApplicationConstant {
 	public static final String PROBLEM_LONG = "problem";
 
 	/** Description of the problem parameter. **/
-	public static final String PROBLEM_DESCRIPTION = "";
+	public static final String PROBLEM_DESCRIPTION = "Problem to download or submit problem from, consists in a letter or the problem list index.";
 
 	/** Short option for the input type parameter. **/
 	public static final String INPUT_TYPE = "t";
@@ -56,7 +56,7 @@ public final class ApplicationConstant {
 	public static final String INPUT_TYPE_LONG = "inputtype";
 
 	/** Description of the input type parameter. **/
-	public static final String INPUT_TYPE_DESCRIPTION = "";
+	public static final String INPUT_TYPE_DESCRIPTION = "Dataset input type, usually small or large.";
 
 	/** Short option for the output parameter. **/
 	public static final String OUTPUT = "o";
@@ -65,7 +65,7 @@ public final class ApplicationConstant {
 	public static final String OUTPUT_LONG = "output";
 
 	/** Description of the output parameter. **/
-	public static final String OUTPUT_DESCRIPTION = "";
+	public static final String OUTPUT_DESCRIPTION = "Output file to submit.";
 
 	/** Short option for the source parameter. **/
 	public static final String SOURCE = "f";
@@ -74,7 +74,7 @@ public final class ApplicationConstant {
 	public static final String SOURCE_LONG = "sourcefile";
 
 	/** Description of the source parameter. **/
-	public static final String SOURCE_DESCRIPTION = "";
+	public static final String SOURCE_DESCRIPTION = "This parameter specifies the source file to upload.";
 
 	/**
 	 * Static factory method that creates the {@link Options} list
