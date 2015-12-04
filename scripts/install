@@ -2,6 +2,7 @@
 
 # Creates binary folder.
 if [ ! -d "/usr/local/codejam" ]
+then
 	mkdir /usr/local/codejam
 fi
 
