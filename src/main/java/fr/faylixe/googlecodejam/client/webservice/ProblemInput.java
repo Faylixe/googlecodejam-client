@@ -19,6 +19,12 @@ public final class ProblemInput extends NamedObject implements Serializable {
 	/** Serialization index. **/
 	private static final long serialVersionUID = 1L;
 
+	/** Constant used for small input. **/
+	public static final String SMALL = "small";
+
+	/** Constant used for large input. **/
+	public static final String LARGE = "large";
+
 	/** Difficulty rank of this problem input. **/
 	@SerializedName("difficulty")
 	private int difficulty;

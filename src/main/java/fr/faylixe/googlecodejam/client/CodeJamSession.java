@@ -10,6 +10,7 @@ import fr.faylixe.googlecodejam.client.webservice.ProblemInput;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
+import java.util.List;
 
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpResponse;
@@ -113,7 +114,27 @@ public final class CodeJamSession implements Serializable {
 	public boolean isLogged() {
 		return values.isLogged();
 	}
-	
+
+	/**
+	 * Retrieves the problem associated
+	 * to the given <tt>letter</tt>.
+	 * 
+	 * @param letter Letter that identifies the problem.
+	 * @return Corresponding problem if exist, <tt>null</tt> otherwise.
+	 */
+	public Problem getProblem(final String letter) {
+		if (letter.isEmpty() || letter.length() > 1) {
+			return null;
+		}
+		final char identifier = letter.toUpperCase().charAt(0);
+		final int index = (int) identifier - (int) 'A';
+		final List<Problem> problems = info.getProblems();
+		if (index < 0 || index >= problems.size()) {
+			return null;
+		}
+		return problems.get(index);
+	}
+
 	/**
 	 * Indiciates if the contest is currently active,
 	 * namely if competition is occuring at the current

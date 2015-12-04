@@ -50,10 +50,10 @@ Where action belongs to the following option list :
 You can install script and packaged version of client by running the following command :
 
 ```bash
-wget -O - https://raw.githubusercontent.com/Faylixe/googlecodejam-client/master/scripts/install | sudo bash
+wget -O - https://raw.githubusercontent.com/Faylixe/googlecodejam-client/master/scripts/install | bash
 ```
 
-Once script has been executed, you can run the **codejam** command.
+Once script has been executed, you can run the **codejam** command. Please note that installation script should be ran under root permission.
 
 ### Initialization action
 

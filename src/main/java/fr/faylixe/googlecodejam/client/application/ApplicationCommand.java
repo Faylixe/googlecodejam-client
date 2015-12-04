@@ -26,6 +26,7 @@ import fr.faylixe.googlecodejam.client.Round;
 import fr.faylixe.googlecodejam.client.common.NamedObject;
 import fr.faylixe.googlecodejam.client.executor.HTTPRequestExecutor;
 import fr.faylixe.googlecodejam.client.executor.SeleniumCookieSupplier;
+import fr.faylixe.googlecodejam.client.webservice.Problem;
 import fr.faylixe.googlecodejam.client.webservice.ProblemInput;
 import static fr.faylixe.googlecodejam.client.application.ApplicationConstant.*;
 
@@ -148,18 +149,6 @@ public final class ApplicationCommand {
 		final HTTPRequestExecutor executor = new HTTPRequestExecutor(DEFAULT_HOSTNAME, requestFactory);
 		return CodeJamSession.createSession(executor, round);
 	}
-	
-	/**
-	 * Retrieves from the current session the {@link ProblemInput}
-	 * instance that corresponds to the given user input parameters.
-	 * 
-	 * @param problemArgument Problem argument provided by user.
-	 * @param inputArgument Input arguments provided by user.
-	 * @return Retrieved problem input instance.
-	 */
-	private static ProblemInput getProblemInput(final String problemArgument, final String inputArgument) {
-		return null;
-	}
 
 	/**
 	 * Downloads an input file, from the given user <tt>command</tt>.
@@ -177,16 +166,40 @@ public final class ApplicationCommand {
 		final String problemArgument = command.getOptionValue(PROBLEM);
 		final String inputArgument = command.getOptionValue(INPUT_TYPE);
 		try {
-			final CodeJamSession session = getContextualSession();
-			final ProblemInput input = getProblemInput(problemArgument, inputArgument);
-			final InputStream stream = session.download(input);
-			final Path target = Paths.get(session.buildFilename(input));
-			Files.copy(stream, target);
+			download(problemArgument, inputArgument);
 		}
 		catch (final IOException e) {
 			System.err.println("An error occurs while downloading input file : " + e.getMessage());
 			return false;
 		}
+		return true;
+	}
+	
+	/**
+	 * Delegate method that perform file download action using the contextual session.
+	 * 
+	 * @param problemArgument User provided problem argument.
+	 * @param inputArgument User provided input type argument.
+	 * @return <tt>true</tt> if file was downloaded, <tt>false</tt> otherwise.
+	 * @throws IOException If any error occurs while donwloading input, or retrieving contextual session.
+	 * @see {@link #download(CommandLine)}
+	 */
+	private static boolean download(final String problemArgument, final String inputArgument) throws IOException {
+		final CodeJamSession session = getContextualSession();
+		final Problem problem = session.getProblem(problemArgument);
+		if (problem == null) {
+			System.err.println("Problem " + problemArgument + " not found.");
+			return false;
+		}
+		final ProblemInput input = problem.getProblemInput(inputArgument);
+		if (input == null) {
+			System.err.println("Input " + inputArgument + "not found for problem " + problemArgument + ".");
+			return false;
+		}
+		final InputStream stream = session.download(input);
+		final Path target = Paths.get(session.buildFilename(input));
+		System.out.println(target.toString());
+		Files.copy(stream, target);
 		return true;
 	}
 

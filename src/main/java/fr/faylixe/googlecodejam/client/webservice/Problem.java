@@ -226,6 +226,23 @@ public final class Problem extends NamedObject implements ObjectInputValidation 
 		}
 		return inputs.get(index);
 	}
+	
+	/**
+	 * Filters and returns first problem input which name
+	 * match the given <tt>type</tt>
+	 * 
+	 * @param type Type of the input to retrieve (usually small or large).
+	 * @return Corresponding input if any, <tt>null</tt> otherwise.
+	 */
+	public ProblemInput getProblemInput(final String type) {
+		final String name = type.toLowerCase();
+		for (final ProblemInput input : getProblemInputs()) {
+			if (input.getName().equals(name)) {
+				return input;
+			}
+		}
+		return null;
+	}
 
 	/** {@inheritDoc} **/
 	@Override
