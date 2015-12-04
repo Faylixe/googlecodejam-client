@@ -6,6 +6,7 @@ import java.net.URLEncoder;
 
 import fr.faylixe.googlecodejam.client.Round;
 import fr.faylixe.googlecodejam.client.executor.HTTPRequestExecutor;
+import fr.faylixe.googlecodejam.client.executor.Request;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;

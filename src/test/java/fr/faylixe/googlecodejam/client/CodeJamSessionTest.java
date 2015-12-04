@@ -6,9 +6,14 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.nio.file.Files;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -22,6 +27,7 @@ import fr.faylixe.googlecodejam.client.webservice.ContestInfoTest;
 import fr.faylixe.googlecodejam.client.webservice.Problem;
 import fr.faylixe.googlecodejam.client.webservice.ProblemInput;
 import fr.faylixe.googlecodejam.client.webservice.ProblemTest;
+import fr.faylixe.googlecodejam.client.webservice.SubmitResponse;
 
 /**
  * Test case for {@link CodeJamSession} class.
@@ -35,6 +41,9 @@ public final class CodeJamSessionTest {
 
 	/** Expected size of the downloaded input, in number of line. **/
 	private static final int INPUT_SIZE = 1001;
+
+	/** Expected submission message. **/
+	private static final String MESSAGE = "Good Job!";
 
 	/**
 	 * Retrieves a valid {@link CodeJamSession}
@@ -89,19 +98,38 @@ public final class CodeJamSessionTest {
 	}
 
 	/**
-	 * Ensures that the given problem input file
-	 * as list of read <tt>lines</tt> is a valid
-	 * input file regarding to the problem input
-	 * specification.
+	 * Retrieves the problem input instance to use for
+	 * download and submission test case.
 	 * 
-	 * @param lines Lines of the files to ensure consistency from.
+	 * @param session Session to retrieve problem input from.
+	 * @return Problem input test instance.
 	 */
-	private void ensureInputConsistency(final List<String> lines) {
-		final int n = Integer.valueOf(lines.remove(0));
-		for (int i = 0; i < n; i++) {
-			lines.remove(0);
+	private ProblemInput getTestInput(final CodeJamSession session) {
+		final ContestInfo info = session.getContestInfo();
+		final Problem problem = info.getProblem(0);
+		final ProblemInput input = problem.getProblemInput(0);
+		return input;
+	}
+
+	/**
+	 * Performs the download request for the target
+	 * test input using the given <tt>session</tt>
+	 * 
+	 * @param session Session to download problem input file from.
+	 * @return Input file content.
+	 */
+	private List<String> getTestInputContent(final CodeJamSession session) {
+		final ProblemInput input = getTestInput(session);
+		try {
+			final InputStream stream = session.download(input);
+			final InputStreamReader reader = new InputStreamReader(stream);
+			final BufferedReader bufferedReader = new BufferedReader(reader);
+			return bufferedReader.lines().collect(Collectors.toList());
 		}
-		assertTrue(lines.isEmpty());
+		catch (final IOException e) {
+			fail("An error occurs while downloading test input : " + e.getMessage());
+		}
+		return Collections.emptyList();
 	}
 
 	/**
@@ -111,19 +139,43 @@ public final class CodeJamSessionTest {
 	@Test
 	public void testDownload() {
 		final CodeJamSession session = getTestSession();
-		final ContestInfo info = session.getContestInfo();
-		final Problem problem = info.getProblem(0);
-		final ProblemInput input = problem.getProblemInput(0);
+		final List<String> lines = getTestInputContent(session);
+		assertEquals(INPUT_SIZE, lines.size());
+		final int n = Integer.valueOf(lines.remove(0));
+		for (int i = 0; i < n; i++) {
+			lines.remove(0);
+		}
+		assertTrue(lines.isEmpty());
+	}
+
+	/**
+	 * Test for the {@link CodeJamSession#submit(ProblemInput, File, File)}
+	 * method, using the test {@link Problem} as a reference.
+	 */
+	@Test
+	public void testSubmission() {
+		final CodeJamSession session = getTestSession();
+		final List<String> lines = getTestInputContent(session);
+		final int n = Integer.valueOf(lines.remove(0));
 		try {
-			final InputStream stream = session.download(input);
-			final InputStreamReader reader = new InputStreamReader(stream);
-			final BufferedReader bufferedReader = new BufferedReader(reader);
-			final List<String> lines = bufferedReader.lines().collect(Collectors.toList());
-			assertEquals(INPUT_SIZE, lines.size());
-			ensureInputConsistency(lines);
+			final File output = Files.createTempFile(null, null).toFile();
+			final File source = Files.createTempFile(null, null).toFile();
+			source.createNewFile();
+			final BufferedWriter writer = new BufferedWriter(new FileWriter(output));
+			for (int i = 0; i < n; i++) {
+				final String dataset = lines.remove(0);
+				final int b = Integer.valueOf(dataset.substring(dataset.length() - 1));
+				writer.write("Case #" + (i + 1) + ": " + (b%2 == 0 ? "WHITE" : "BLACK"));
+				writer.newLine();
+			}
+			writer.close();
+			final ProblemInput input = getTestInput(session);
+			final SubmitResponse response = session.submit(input, output, source);
+			assertTrue(response.isSuccess());
+			assertEquals(MESSAGE, response.getMessage());
 		}
 		catch (final IOException e) {
-			fail("An error occurs while downloading test input : " + e.getMessage());
+			fail("An error occurs during submission process : " + e.getMessage());
 		}
 	}
 

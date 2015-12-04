@@ -2,6 +2,7 @@ package fr.faylixe.googlecodejam.client.webservice;
 
 import fr.faylixe.googlecodejam.client.Round;
 import fr.faylixe.googlecodejam.client.executor.HTTPRequestExecutor;
+import fr.faylixe.googlecodejam.client.executor.Request;
 import fr.faylixe.googlecodejam.client.webservice.Problem.Deserializer;
 
 import java.io.IOException;

@@ -1,15 +1,18 @@
 package fr.faylixe.googlecodejam.client.executor;
 
+import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
-import java.util.Map;
+import java.nio.file.Files;
 
+import com.google.api.client.http.ByteArrayContent;
+import com.google.api.client.http.FileContent;
 import com.google.api.client.http.GenericUrl;
 import com.google.api.client.http.HttpContent;
+import com.google.api.client.http.HttpHeaders;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpRequestFactory;
 import com.google.api.client.http.HttpResponse;
-import com.google.api.client.http.UrlEncodedContent;
+import com.google.api.client.http.MultipartContent.Part;
 
 /**
  * <p>A {@link HTTPRequestExecutor} is an abstraction
@@ -94,16 +97,49 @@ public final class HTTPRequestExecutor {
 	 * relative to the internal target hostname.
 	 * 
 	 * @param path Relative server path to perform request to.
-	 * @param parameters POST parameters that will be URL encoded and sent.
+	 * @param content POST content that will be sent.
 	 * @return Response content of the performed request.
 	 * @throws IOException If any error occurs while performing request.
 	 */
-	public InputStream post(final String path, final Map<String, String> parameters) throws IOException {
+	public String post(final String path, final HttpContent content) throws IOException {
 		final GenericUrl url = getURL(path);
-		final HttpContent content = new UrlEncodedContent(parameters);
 		final HttpRequest request = requestFactory.buildPostRequest(url, content);
 		final HttpResponse response = request.execute();
-		return response.getContent();
+		return response.parseAsString();
+	}
+
+	/**
+	 * 
+	 * @param name
+	 * @param data
+	 * @return
+	 */
+	public static Part buildDataPart(final String name, final String data) {
+		final ByteArrayContent content = new ByteArrayContent(null, data.getBytes());
+		final Part part = new Part(content);
+		final HttpHeaders headers = new HttpHeaders();
+		final String disposition = String.format(Request.DATA_CONTENT_DISPOSITION, name);
+		headers.set(Request.CONTENT_DISPOSITION, disposition);
+		part.setHeaders(headers);
+		return part;
+	}
+
+	/**
+	 * 
+	 * @param name
+	 * @param file
+	 * @return
+	 * @throws IOException 
+	 */
+	public static Part buildFilePart(final String name, final File file) throws IOException {
+		final String type = Files.probeContentType(file.toPath());
+		final FileContent content = new FileContent(type, file);
+		final Part part = new Part(content);
+		final HttpHeaders headers = new HttpHeaders();
+		final String disposition = String.format(Request.FILE_CONTENT_DISPOSITION, name, file.getName());
+		headers.set(Request.CONTENT_DISPOSITION, disposition);
+		part.setHeaders(headers);
+		return part;
 	}
 
 }

@@ -1,5 +1,6 @@
 package fr.faylixe.googlecodejam.client.application;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -28,6 +29,7 @@ import fr.faylixe.googlecodejam.client.executor.HTTPRequestExecutor;
 import fr.faylixe.googlecodejam.client.executor.SeleniumCookieSupplier;
 import fr.faylixe.googlecodejam.client.webservice.Problem;
 import fr.faylixe.googlecodejam.client.webservice.ProblemInput;
+import fr.faylixe.googlecodejam.client.webservice.SubmitResponse;
 import static fr.faylixe.googlecodejam.client.application.ApplicationConstant.*;
 
 /**
@@ -170,7 +172,6 @@ public final class ApplicationCommand {
 		}
 		catch (final IOException e) {
 			System.err.println("An error occurs while downloading input file : " + e.getMessage());
-			return false;
 		}
 		return true;
 	}
@@ -203,4 +204,38 @@ public final class ApplicationCommand {
 		return true;
 	}
 
+	public static boolean submit(final CommandLine command) {
+		if (!command.hasOption(PROBLEM) || !command.hasOption(INPUT_TYPE)) {
+			System.err.println("Download command requires problem and input type parameters.");
+			return false;
+		}
+		final String problemArgument = command.getOptionValue(PROBLEM);
+		final String inputArgument = command.getOptionValue(INPUT_TYPE);
+		final String output = command.getOptionValue(OUTPUT);
+		final String source = command.getOptionValue(SOURCE);
+		try {
+			final CodeJamSession session = getContextualSession();
+			final Problem problem = session.getProblem(problemArgument);
+			if (problem == null) {
+				System.err.println("Problem " + problemArgument + " not found.");
+				return false;
+			}
+			final ProblemInput input = problem.getProblemInput(inputArgument);
+			if (input == null) {
+				System.err.println("Input " + inputArgument + "not found for problem " + problemArgument + ".");
+				return false;
+			}
+			final SubmitResponse response = session.submit(input, new File(output), new File(source));
+			if (response.isSuccess()) {
+				System.out.println("Submission correct !");				
+			}
+			else {
+				System.out.println("Submission failed : " + response.getMessage());
+			}
+		}
+		catch (final IOException e) {
+			System.err.println("An error occurs while submitting output file : " + e.getMessage());
+		}
+		return true;
+	}
 }

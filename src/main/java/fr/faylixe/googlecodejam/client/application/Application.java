@@ -41,7 +41,7 @@ public final class Application {
 				success = ApplicationCommand.download(command);
 			}
 			else if (command.hasOption(ApplicationConstant.SUBMIT)) {
-				//success = ApplicationCommand.submit(command);
+				success = ApplicationCommand.submit(command);
 			}
 			if (!success) {
 				formatter.printHelp(ApplicationConstant.SYNTAX, options);

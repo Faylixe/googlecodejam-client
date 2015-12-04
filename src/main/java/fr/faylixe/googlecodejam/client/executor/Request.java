@@ -1,4 +1,4 @@
-package fr.faylixe.googlecodejam.client.webservice;
+package fr.faylixe.googlecodejam.client.executor;
 
 /**
  * <p>Simple class that exposes string constant
@@ -47,7 +47,16 @@ public final class Request {
 
 	/** The <tt>undefined</tt> parameter value. **/
 	public static final String UNDEFINED = "undefined";
-	
+
+	/** **/
+	public static final String CONTENT_DISPOSITION = "Content-Disposition";
+
+	/** **/
+	public static final String FILE_CONTENT_DISPOSITION = "form-data; name=\"%s\"; filename=\"%s\"";
+
+	/** **/
+	public static final String DATA_CONTENT_DISPOSITION = "form-data; name=\"%s\"";
+
 	/**
 	 * Private constructor for avoiding instantiation.
 	 */

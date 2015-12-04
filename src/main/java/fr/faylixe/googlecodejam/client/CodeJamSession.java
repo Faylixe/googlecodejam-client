@@ -1,19 +1,24 @@
 package fr.faylixe.googlecodejam.client;
 
-import static fr.faylixe.googlecodejam.client.webservice.Request.*;
+import static fr.faylixe.googlecodejam.client.executor.Request.*;
 import fr.faylixe.googlecodejam.client.executor.HTTPRequestExecutor;
 import fr.faylixe.googlecodejam.client.webservice.ContestInfo;
 import fr.faylixe.googlecodejam.client.webservice.InitialValues;
 import fr.faylixe.googlecodejam.client.webservice.Problem;
 import fr.faylixe.googlecodejam.client.webservice.ProblemInput;
+import fr.faylixe.googlecodejam.client.webservice.SubmitResponse;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
 import java.util.List;
 
+import com.google.api.client.http.HttpMediaType;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpResponse;
+import com.google.api.client.http.MultipartContent;
+import com.google.gson.Gson;
 
 /**
  * <p>{@link CodeJamSession} is the main API entry point, which consists
@@ -234,13 +239,32 @@ public final class CodeJamSession implements Serializable {
 		return response.getContent();
 	}
 	
+
 	/**
-	 * TO DOCUMENT
+	 * Submission.
+	 * 
+	 * @param output Output file produced by the algorithm.
+	 * @param source Source code file of the algorithm to submit.
 	 * @return <tt>true</tt> if the submission has been considered has valid, <tt>false</tt> otherwise.
+	 * @throws IOException
 	 */
-	public boolean submit() {
-		// ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/3
-		return false;
+	public SubmitResponse submit(final ProblemInput input, final File output, final File source) throws IOException {
+		final MultipartContent content = new MultipartContent()
+			.setMediaType(new HttpMediaType("multipart/form-data").setParameter("boundary", "----gcjMultipartBoundary" + (int) System.currentTimeMillis()))
+			.addPart(HTTPRequestExecutor.buildDataPart("csrfmiddlewaretoken", values.getToken()))
+			.addPart(HTTPRequestExecutor.buildFilePart("answer", output))
+			.addPart(HTTPRequestExecutor.buildFilePart("source-file0", source))
+			.addPart(HTTPRequestExecutor.buildDataPart("cmd", "SubmitAnswer"))
+			.addPart(HTTPRequestExecutor.buildDataPart("problem", input.getProblem().getId()))
+			.addPart(HTTPRequestExecutor.buildDataPart("input_id", String.valueOf(input.getNumber())))
+			.addPart(HTTPRequestExecutor.buildDataPart("num_source_files", "1"))
+			.addPart(HTTPRequestExecutor.buildDataPart("agent", "website"));
+		final StringBuilder urlBuilder = new StringBuilder();
+		urlBuilder.append(round.getURL());
+		urlBuilder.append("/do");
+		final String response = executor.post(urlBuilder.toString(), content);
+		final Gson gson = new Gson();
+		return gson.fromJson(response, SubmitResponse.class);
 	}
 
 	/**
