@@ -1,5 +1,8 @@
 package fr.faylixe.googlecodejam.client.webservice;
 
+import static fr.faylixe.googlecodejam.client.executor.Request.COMMAND_PARAMETER;
+import static fr.faylixe.googlecodejam.client.executor.Request.DO;
+
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -250,7 +253,8 @@ public final class InitialValues {
 	public static InitialValues get(final HTTPRequestExecutor executor, final Round round) throws IOException {
 		final StringBuilder urlBuilder = new StringBuilder();
 		urlBuilder.append(round.getURL())
-			.append(Request.COMMAND)
+			.append(DO)
+			.append(COMMAND_PARAMETER)
 			.append(Request.INITIAL_VALUES_COMMAND)
 			.append(Request.TIME_PARAMETER)
 			.append(String.valueOf(System.currentTimeMillis() * 1000))

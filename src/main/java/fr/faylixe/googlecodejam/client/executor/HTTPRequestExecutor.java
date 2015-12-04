@@ -109,10 +109,12 @@ public final class HTTPRequestExecutor {
 	}
 
 	/**
+	 * Static factory method that creates a {@link Part} which contains
+	 * simple form data.
 	 * 
-	 * @param name
-	 * @param data
-	 * @return
+	 * @param name Name of the POST data to create part for.
+	 * @param data Value of the POST data to create part for.
+	 * @return Created data part.
 	 */
 	public static Part buildDataPart(final String name, final String data) {
 		final ByteArrayContent content = new ByteArrayContent(null, data.getBytes());
@@ -125,11 +127,13 @@ public final class HTTPRequestExecutor {
 	}
 
 	/**
+	 * Static factory method that creates a {@link Part} which contains
+	 * file form data.
 	 * 
-	 * @param name
-	 * @param file
-	 * @return
-	 * @throws IOException 
+	 * @param name name Name of the POST file data to create part for.
+	 * @param file File of the POST data to create part for.
+	 * @return Created data part.
+	 * @throws IOException If any any error occurs during file type detection.
 	 */
 	public static Part buildFilePart(final String name, final File file) throws IOException {
 		final String type = Files.probeContentType(file.toPath());

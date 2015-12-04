@@ -166,12 +166,15 @@ public final class CodeJamSession implements Serializable {
 	public String getContestAnalysis(final Problem problem) throws IOException {
 		final StringBuilder urlBuilder = new StringBuilder();
 		urlBuilder.append(round.getURL())
-			.append(COMMAND)
+			.append(DO)
+			.append(COMMAND_PARAMETER)
 			.append(ANALYSIS_COMMAND)
 			.append(PROBLEM_PARAMETER)
 			.append(problem.getId())
 			.append(CSRF_PARAMETER)
-			.append(values.getToken());
+			.append(values.getToken())
+			.append(AGENT_PARAMETER)
+			.append(DEFAULT_AGENT);
 		return executor.get(urlBuilder.toString());
 	}
 	
@@ -224,7 +227,8 @@ public final class CodeJamSession implements Serializable {
 		final String filename = buildFilename(input);
 		final StringBuilder urlBuilder = new StringBuilder();
 		urlBuilder.append(round.getURL())
-			.append(COMMAND)
+			.append(DO)
+			.append(COMMAND_PARAMETER)
 			.append(DOWNLOAD_COMMAND)
 			.append(PROBLEM_PARAMETER)
 			.append(input.getProblem().getId())
@@ -233,7 +237,9 @@ public final class CodeJamSession implements Serializable {
 			.append(INPUT_ID_PARAMETER)
 			.append(input.getNumber())
 			.append(CSRF_PARAMETER)
-			.append(values.getURLEncodedToken());
+			.append(values.getURLEncodedToken())
+			.append(AGENT_PARAMETER)
+			.append(DEFAULT_AGENT);
 		final HttpRequest request = executor.getRequest(urlBuilder.toString());
 		final HttpResponse response = request.execute();
 		return response.getContent();
@@ -241,30 +247,53 @@ public final class CodeJamSession implements Serializable {
 	
 
 	/**
-	 * Submission.
+	 * Submits the given <tt>output</tt> file and the
+	 * given <tt>source</tt> file for the given problem
+	 * <tt>input</tt>. This method should be call only
+	 * after a successful call to the {@link #download(ProblemInput)}
+	 * method on the same <tt>input</tt>, as the evaluation
+	 * system will judge the last downloaded dataset
+	 * based on the internal token / session.
 	 * 
+	 * @param input Input file to submit solution for.
 	 * @param output Output file produced by the algorithm.
 	 * @param source Source code file of the algorithm to submit.
-	 * @return <tt>true</tt> if the submission has been considered has valid, <tt>false</tt> otherwise.
-	 * @throws IOException
+	 * @return Request response, as a {@link SubmitResponse} instance.
+	 * @throws IOException If any error occurs while uploading data, or performing the request.
 	 */
 	public SubmitResponse submit(final ProblemInput input, final File output, final File source) throws IOException {
-		final MultipartContent content = new MultipartContent()
-			.setMediaType(new HttpMediaType("multipart/form-data").setParameter("boundary", "----gcjMultipartBoundary" + (int) System.currentTimeMillis()))
-			.addPart(HTTPRequestExecutor.buildDataPart("csrfmiddlewaretoken", values.getToken()))
-			.addPart(HTTPRequestExecutor.buildFilePart("answer", output))
-			.addPart(HTTPRequestExecutor.buildFilePart("source-file0", source))
-			.addPart(HTTPRequestExecutor.buildDataPart("cmd", "SubmitAnswer"))
-			.addPart(HTTPRequestExecutor.buildDataPart("problem", input.getProblem().getId()))
-			.addPart(HTTPRequestExecutor.buildDataPart("input_id", String.valueOf(input.getNumber())))
-			.addPart(HTTPRequestExecutor.buildDataPart("num_source_files", "1"))
-			.addPart(HTTPRequestExecutor.buildDataPart("agent", "website"));
+		final MultipartContent content = createContent(input, output, source);
 		final StringBuilder urlBuilder = new StringBuilder();
 		urlBuilder.append(round.getURL());
-		urlBuilder.append("/do");
+		urlBuilder.append(DO);
 		final String response = executor.post(urlBuilder.toString(), content);
 		final Gson gson = new Gson();
 		return gson.fromJson(response, SubmitResponse.class);
+	}
+
+	/**
+	 * Created and returns a valid {@link MultipartContent} instance
+	 * that contains data required for submission.
+	 * 
+	 * @param input Input file to submit solution for.
+	 * @param output Output file produced by the algorithm.
+	 * @param source Source code file of the algorithm to submit.
+	 * @return Created multipart content.
+	 */
+	private MultipartContent createContent(final ProblemInput input, final File output, final File source) throws IOException {
+		final HttpMediaType type = new HttpMediaType(MEDIA_TYPE);
+		type.setParameter(BOUNDARY, createBoundary());
+		final MultipartContent content = new MultipartContent()
+			.setMediaType(type)
+			.addPart(HTTPRequestExecutor.buildDataPart(CSRF_PARAMETER_NAME, values.getToken()))
+			.addPart(HTTPRequestExecutor.buildFilePart(ANSWER_PARAMETER, output))
+			.addPart(HTTPRequestExecutor.buildFilePart(SOURCE_FILE_PARAMETER, source))
+			.addPart(HTTPRequestExecutor.buildDataPart(COMMAND_PARAMETER_NAME, SUBMIT_COMMAND))
+			.addPart(HTTPRequestExecutor.buildDataPart(PROBLEM_PARAMETER_NAME, input.getProblem().getId()))
+			.addPart(HTTPRequestExecutor.buildDataPart(INPUT_ID_PARAMETER_NAME, String.valueOf(input.getNumber())))
+			.addPart(HTTPRequestExecutor.buildDataPart(NUM_SOURCE_FILE_PARAMETER, DEFAULT_NUM_SOURCE_FILE))
+			.addPart(HTTPRequestExecutor.buildDataPart(AGENT_PARAMETER_NAME, DEFAULT_AGENT));
+		return content;
 	}
 
 	/**
