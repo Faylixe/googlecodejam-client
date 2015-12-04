@@ -7,7 +7,7 @@ then
 fi
 
 # Downloading latest version.
-wget -P /usr/local/codejam/googlecodejam-client.jar "https://repository.sonatype.org/service/local/artifact/maven/content?r=central-proxy&g=fr.faylixe&a=googlecodejam-client&v=LATEST"
+curl -o /usr/local/codejam/googlecodejam-client.jar -J -L "https://repository.sonatype.org/service/local/artifact/maven/content?r=central-proxy&g=fr.faylixe&a=googlecodejam-client&v=LATEST"
 chmod o+rx /usr/local/codejam/googlecodejam-client.jar
 
 # Install script.
