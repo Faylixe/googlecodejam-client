@@ -117,8 +117,11 @@ public final class ApplicationCommand {
 			if (!round.isPresent()) {
 				return false;
 			}
+			System.out.println("Writing " + COOKIE_PATH);
 			SerializationUtils.serialize(cookie, new FileOutputStream(COOKIE_PATH));
+			System.out.println("Writing " + ROUND_PATH);
 			SerializationUtils.serialize(round.get(), new FileOutputStream(ROUND_PATH));
+			System.out.println("Initialization done, you can now download and submit in this directory.");
 		}
 		catch (final IOException e) {
 			System.err.println("An error occurs while creating CodeJamSession : " + e.getMessage());
