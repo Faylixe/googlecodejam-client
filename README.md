@@ -36,7 +36,7 @@ as submit solution as well. You can check the [javadoc](http://faylixe.fr/google
 A command line application which consists in the client JAR and a running script is also available. Here is the usage description :
 
 ```bash
-./codejamclient.sh action parameter
+codejam action parameter
 ```
 
 Where action belongs to the following option list :
@@ -44,6 +44,16 @@ Where action belongs to the following option list :
 * *--init*
 * *--download*
 * *--submit*
+
+### Installation
+
+You can install script and packaged version of client by running the following command :
+
+```bash
+wget -O - https://raw.githubusercontent.com/Faylixe/googlecodejam-client/master/scripts/install | sudo bash
+```
+
+Once script has been executed, you can run the **codejam** command.
 
 ### Initialization action
 
@@ -53,7 +63,7 @@ please proceed to the authentication process, and when you will be logged and re
 to the code jam home page, Firefox will be closed automatically.
 
 ```bash
-./codejamclient.sh --init
+codejam --init
 ```
 
 Once logged you will be prompted to choose a contest and a round. Those will become contextual round and session
@@ -69,7 +79,7 @@ choosen (usually 4 minutes for a *small* input, 8 for a *large* one).
 The following exemple will download the *small* input file for the first problem.
 
 ```bash
-./codejamclient.sh --download --problem A --inputtype small
+codejam --download --problem A --inputtype small
 ```
 
 ### Submit action
@@ -78,5 +88,5 @@ Once input file is downloaded, and algorithm solved all test cases, *submit* act
 to send either the output file as the source file of your algorithm as well.
 
 ```bash
-./codejamclient.sh --submit --problem A --inputtype small --output path/to/output --sourcefile path/to/sourcefile
+codejam --submit --problem A --inputtype small --output path/to/output --sourcefile path/to/sourcefile
 ```
