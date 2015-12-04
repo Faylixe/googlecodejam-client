@@ -59,6 +59,9 @@ The following exemple will download the *small* input file for the first problem
 
 ### Submit action
 
+Once input file is downloaded, and algorithm solved all test cases, *submit* action could be used in order
+to send either the output file as the source file of your algorithm as well.
+
 ```bash
 ./codejamclient.sh --submit --problem A --inputtype small --output path/to/output --sourcefile path/to/sourcefile
 ```
