@@ -15,6 +15,18 @@ Following dependency could be added to your *POM.xml* if you want to use the cli
     <version>1.0.0</version>
 </dependency>
 ```
+The API entry point is the **CodeJamSession** class, which could be instantiated as following :
+
+```java
+//
+final HttpTransport transport = new NetHttpTransport();
+final HttpRequestFactory factory = transport.createRequestFactory();
+final HTTPRequestExecutor executor = new HTTPRequestExecutor(CODEJAM_HOSTNAME, factory);
+//
+final Round round = ...;
+//
+final CodeJamSession session = CodeJamSession.createSession(executor, round);
+```
 
 ## Command line application
 
