@@ -109,9 +109,6 @@ public final class ApplicationCommand {
 	 * @return <tt>true</tt> if the init command was correctly executed, <tt>false</tt> otherwise.
 	 */
 	public static boolean init() {
-		System.out.println("####################################");
-		System.out.println("Google Code Jam command line client");
-		System.out.println("####################################\n");
 		System.out.println("Firefox browser will open, please authenticate to your Google account with it");
 		final SeleniumCookieSupplier supplier = new SeleniumCookieSupplier(DEFAULT_HOSTNAME + "/codejam", FirefoxDriver::new);
 		final String cookie = supplier.get(); // TODO : Ensure that cookies instance is valid.
@@ -153,6 +150,34 @@ public final class ApplicationCommand {
 	}
 
 	/**
+	 * Retrieves and returns the problem input from the given <tt>command</tt>
+	 * using the given <tt>session</tt>.
+	 * 
+	 * @param command Command to retrieve input parameters from.
+	 * @param session Session to retrieve input from.
+	 * @return Retrieved {@link ProblemInput} instance if exists, <tt>null</tt> otherwise.
+	 */
+	private static ProblemInput getProblemInput(final CommandLine command, final CodeJamSession session) {
+		if (!command.hasOption(PROBLEM) || !command.hasOption(INPUT_TYPE)) {
+			System.err.println("Download command requires problem and input type parameters.");
+			return null;
+		}
+		final String problemArgument = command.getOptionValue(PROBLEM);
+		final String inputArgument = command.getOptionValue(INPUT_TYPE);
+		final Problem problem = session.getProblem(problemArgument);
+		if (problem == null) {
+			System.err.println("Problem " + problemArgument + " not found.");
+			return null;
+		}
+		final ProblemInput input = problem.getProblemInput(inputArgument);
+		if (input == null) {
+			System.err.println("Input " + inputArgument + "not found for problem " + problemArgument + ".");
+			return null;
+		}
+		return input;
+	}
+
+	/**
 	 * Downloads an input file, from the given user <tt>command</tt>.
 	 * Retrieves the contextual session if exist, and if so, then
 	 * the download method is used on the loaded session.
@@ -161,70 +186,35 @@ public final class ApplicationCommand {
 	 * @return <tt>true</tt> if the command was executed successfully, <tt>false</tt> otherwise.
 	 */
 	public static boolean download(final CommandLine command) {
-		if (!command.hasOption(PROBLEM) || !command.hasOption(INPUT_TYPE)) {
-			System.err.println("Download command requires problem and input type parameters.");
-			return false;
-		}
-		final String problemArgument = command.getOptionValue(PROBLEM);
-		final String inputArgument = command.getOptionValue(INPUT_TYPE);
 		try {
-			download(problemArgument, inputArgument);
+			final CodeJamSession session = getContextualSession();
+			final ProblemInput input = getProblemInput(command, session);
+			final InputStream stream = session.download(input);
+			final Path target = Paths.get(session.buildFilename(input));
+			System.out.println(target.toString());
+			Files.copy(stream, target);
 		}
 		catch (final IOException e) {
 			System.err.println("An error occurs while downloading input file : " + e.getMessage());
 		}
 		return true;
 	}
-	
-	/**
-	 * Delegate method that perform file download action using the contextual session.
-	 * 
-	 * @param problemArgument User provided problem argument.
-	 * @param inputArgument User provided input type argument.
-	 * @return <tt>true</tt> if file was downloaded, <tt>false</tt> otherwise.
-	 * @throws IOException If any error occurs while donwloading input, or retrieving contextual session.
-	 * @see {@link #download(CommandLine)}
-	 */
-	private static boolean download(final String problemArgument, final String inputArgument) throws IOException {
-		final CodeJamSession session = getContextualSession();
-		final Problem problem = session.getProblem(problemArgument);
-		if (problem == null) {
-			System.err.println("Problem " + problemArgument + " not found.");
-			return false;
-		}
-		final ProblemInput input = problem.getProblemInput(inputArgument);
-		if (input == null) {
-			System.err.println("Input " + inputArgument + "not found for problem " + problemArgument + ".");
-			return false;
-		}
-		final InputStream stream = session.download(input);
-		final Path target = Paths.get(session.buildFilename(input));
-		System.out.println(target.toString());
-		Files.copy(stream, target);
-		return true;
-	}
 
+	/**
+	 * 
+	 * @param command
+	 * @return
+	 */
 	public static boolean submit(final CommandLine command) {
-		if (!command.hasOption(PROBLEM) || !command.hasOption(INPUT_TYPE)) {
-			System.err.println("Download command requires problem and input type parameters.");
+		if (!command.hasOption(OUTPUT) || !command.hasOption(SOURCE)) {
+			System.err.println("Submit command requires output and source file parameters.");
 			return false;
 		}
-		final String problemArgument = command.getOptionValue(PROBLEM);
-		final String inputArgument = command.getOptionValue(INPUT_TYPE);
 		final String output = command.getOptionValue(OUTPUT);
 		final String source = command.getOptionValue(SOURCE);
 		try {
 			final CodeJamSession session = getContextualSession();
-			final Problem problem = session.getProblem(problemArgument);
-			if (problem == null) {
-				System.err.println("Problem " + problemArgument + " not found.");
-				return false;
-			}
-			final ProblemInput input = problem.getProblemInput(inputArgument);
-			if (input == null) {
-				System.err.println("Input " + inputArgument + "not found for problem " + problemArgument + ".");
-				return false;
-			}
+			final ProblemInput input = getProblemInput(command, session);
 			final SubmitResponse response = session.submit(input, new File(output), new File(source));
 			if (response.isSuccess()) {
 				System.out.println("Submission correct !");				
@@ -238,4 +228,5 @@ public final class ApplicationCommand {
 		}
 		return true;
 	}
+
 }

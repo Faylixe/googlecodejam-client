@@ -10,7 +10,6 @@ import org.apache.commons.cli.ParseException;
 /**
  * <p>Main class that could be used as a command line program.</p>
  * 
- * TODO : Functional javadoc.
  * @author fv
  */
 public final class Application {
