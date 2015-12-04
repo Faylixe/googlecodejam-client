@@ -1,6 +1,8 @@
 #!/bin/bash
 
+# Creates folder and download jar.
 mkdir /usr/local/codejam
+wget -P /usr/local/codejam "https://repository.sonatype.org/service/local/artifact/maven/content?r=central-proxy&g=fr.faylixe&a=googlecodejam-client&v=LATEST"
 
-# TODO : Install jar
-# TODO : Install script
+# Install script.
+wget -P /usr/bin "https://raw.githubusercontent.com/Faylixe/googlecodejam-client/master/scripts/codejam"
