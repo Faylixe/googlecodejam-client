@@ -26,9 +26,9 @@ A command line application which consists in the client JAR and a running script
 
 Where action belongs to the following option list :
 
-* *--init*       Initializes code jam context by logging user in, and selects an active contest and round.
-* *--download*   Downloads an input file for a given problem and target dataset.
-* *--submit*     Submits an output file as solution source as well for a given problem and target dataset.
+* *--init*
+* *--download*
+* *--submit*
 
 ### Initialization action
 
