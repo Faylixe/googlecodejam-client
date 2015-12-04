@@ -29,7 +29,7 @@ final CodeJamSession session = CodeJamSession.createSession(executor, round);
 ```
 
 The session could be then used to retrieve contest information, problem description and analysis, download input file
-as submit solution as well.
+as submit solution as well. You can check the [javadoc](http://faylixe.fr/googlecodejam-client/apidocs) to get more informations.
 
 ## Command line application
 
