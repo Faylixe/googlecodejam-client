@@ -180,7 +180,8 @@ public final class ApplicationCommand {
 	/**
 	 * Downloads an input file, from the given user <tt>command</tt>.
 	 * Retrieves the contextual session if exist, and if so, then
-	 * the download method is used on the loaded session.
+	 * the download method is used on the loaded session. If the
+	 * file already exist, it will be removed first before downloading.
 	 * 
 	 * @param command User command line.
 	 * @return <tt>true</tt> if the command was executed successfully, <tt>false</tt> otherwise.
@@ -191,8 +192,9 @@ public final class ApplicationCommand {
 			final ProblemInput input = getProblemInput(command, session);
 			final InputStream stream = session.download(input);
 			final Path target = Paths.get(session.buildFilename(input));
-			System.out.println(target.toString());
+			Files.deleteIfExists(target);
 			Files.copy(stream, target);
+			System.out.println(target.toString());
 		}
 		catch (final IOException e) {
 			System.err.println("An error occurs while downloading input file : " + e.getMessage());
