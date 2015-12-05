@@ -116,7 +116,7 @@ public final class ApplicationCommand {
 		out.println("Firefox browser will open, please authenticate to your Google account with it.");
 		final SeleniumCookieSupplier supplier = new SeleniumCookieSupplier(DEFAULT_HOSTNAME + "/codejam", FirefoxDriver::new);
 		try {
-			final String cookie = supplier.get(); // TODO : Check if cookie is valid.
+			final String cookie = supplier.get();
 			if (cookie == null) {
 				err.println("Retrieved cookie instance is null, abort.");
 			}
@@ -214,9 +214,12 @@ public final class ApplicationCommand {
 	}
 
 	/**
+	 * Performs an output file submission using the <tt>SubmitAnswer</tt>
+	 * command. Retrieves the contextual session if exist, and if so, then
+	 * the submit method is used on the loaded session.
 	 * 
-	 * @param command
-	 * @return
+	 * @param command User command line.
+	 * @return <tt>true</tt> if the command was executed successfully, <tt>false</tt> otherwise.
 	 */
 	public static boolean submit(final CommandLine command) {
 		if (!command.hasOption(OUTPUT) || !command.hasOption(SOURCE)) {

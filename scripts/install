@@ -20,7 +20,7 @@ fi
 
 # Downloading latest version.
 echo "> Downloading released JAR archive from GitHub"
-curl -o /usr/local/codejam/googlecodejam-client.jar -J -L --silent "https://github.com/Faylixe/googlecodejam-client/releases/download/v1.1.0/googlecodejam-client.jar" > /dev/null
+curl -o /usr/local/codejam/googlecodejam-client.jar -J -L --silent "https://github.com/Faylixe/googlecodejam-client/releases/download/v1.1.1/googlecodejam-client.jar" > /dev/null
 chmod o+rx /usr/local/codejam/googlecodejam-client.jar
 
 # Install script.
