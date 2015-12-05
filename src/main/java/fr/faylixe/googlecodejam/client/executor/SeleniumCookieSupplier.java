@@ -24,6 +24,12 @@ public final class SeleniumCookieSupplier implements Supplier<String> {
 	/** Default waiting time between cookie check. **/
 	private static final long WAITING_TIME = 2000;
 
+	/** Property key for setting Selenium log4j status. **/
+	private static final String LOGGING_PROPERTY = "org.apache.commons.logging.Log";
+
+	/** Value of Selenium log4j status. **/
+	private static final String LOGGING_VALUE = "org.apache.commons.logging.impl.Jdk14Logger";
+
 	/** Target URL user should be redirected to. **/
 	private final String target;
 
@@ -54,6 +60,7 @@ public final class SeleniumCookieSupplier implements Supplier<String> {
 	/** {@inheritDoc} **/
 	@Override
 	public String get() {
+		System.setProperty(LOGGING_PROPERTY, LOGGING_VALUE);
 		final WebDriver driver = driverSupplier.get();
 		driver.navigate().to(LOGIN_URL);
 		running = true;
@@ -80,13 +87,12 @@ public final class SeleniumCookieSupplier implements Supplier<String> {
 					checkCurrentState(driver);
 				}
 				catch (final InterruptedException e) {
-					// TODO : Log error.
-					e.printStackTrace();
+					return null;
 				}
 			}
 		}
 		driver.quit();
-		return result.getValue();
+		return result == null ? null : result.getValue();
 	}
 	
 	/**

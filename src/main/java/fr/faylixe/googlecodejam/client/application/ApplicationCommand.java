@@ -12,9 +12,13 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
 
+import static java.lang.System.out;
+import static java.lang.System.err;
+
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.lang3.SerializationUtils;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.UnreachableBrowserException;
 
 import com.google.api.client.http.HttpHeaders;
 import com.google.api.client.http.HttpRequestFactory;
@@ -79,15 +83,15 @@ public final class ApplicationCommand {
 	 * @return Optional selected {@link NamedObject} instance.
 	 */
 	private static <T extends NamedObject> Optional<T> select(final List<T> objects, final Scanner reader) {
-		System.out.println("Please select a contest :");
+		out.println("Please select a contest :");
 		for (int i = 0; i < objects.size(); i++) {
 			final StringBuilder builder = new StringBuilder('\t');
 			builder.append(i + 1);
 			builder.append(" - ");
 			builder.append(objects.get(i).getName());
-			System.out.println(builder.toString());
+			out.println(builder.toString());
 		}
-		System.out.print("> ");
+		out.print("> ");
 		final String input = reader.next();
 		try {
 			final int selected = Integer.valueOf(input);
@@ -96,7 +100,7 @@ public final class ApplicationCommand {
 			}
 		}
 		catch (final NumberFormatException e) {
-			System.err.println("Number expected, abort");
+			err.println("Number expected, abort");
 		}
 		return Optional.empty();
 	}
@@ -109,23 +113,30 @@ public final class ApplicationCommand {
 	 * @return <tt>true</tt> if the init command was correctly executed, <tt>false</tt> otherwise.
 	 */
 	public static boolean init() {
-		System.out.println("Firefox browser will open, please authenticate to your Google account with it");
+		out.println("Firefox browser will open, please authenticate to your Google account with it.");
 		final SeleniumCookieSupplier supplier = new SeleniumCookieSupplier(DEFAULT_HOSTNAME + "/codejam", FirefoxDriver::new);
-		final String cookie = supplier.get(); // TODO : Ensure that cookies instance is valid.
 		try {
-			final Optional<Round> round = selectRound();
-			if (!round.isPresent()) {
-				return false;
+			final String cookie = supplier.get(); // TODO : Check if cookie is valid.
+			if (cookie == null) {
+				err.println("Retrieved cookie instance is null, abort.");
 			}
-			System.out.println("Writing " + COOKIE_PATH);
-			SerializationUtils.serialize(cookie, new FileOutputStream(COOKIE_PATH));
-			System.out.println("Writing " + ROUND_PATH);
-			SerializationUtils.serialize(round.get(), new FileOutputStream(ROUND_PATH));
-			System.out.println("Initialization done, you can now download and submit in this directory.");
+			else {
+				out.println("Cookie retrieved, extracting contest list.");
+				final Optional<Round> round = selectRound();
+				if (round.isPresent()) {
+					out.println("Writing " + COOKIE_PATH);
+					SerializationUtils.serialize(cookie, new FileOutputStream(COOKIE_PATH));
+					out.println("Writing " + ROUND_PATH);
+					SerializationUtils.serialize(round.get(), new FileOutputStream(ROUND_PATH));
+					out.println("Initialization done, you can now download and submit in this directory.");
+				}
+				else {
+					err.println("No round selected, abort.");
+				}
+			}
 		}
-		catch (final IOException e) {
-			System.err.println("An error occurs while creating CodeJamSession : " + e.getMessage());
-			return false;
+		catch (final IOException | UnreachableBrowserException e) {
+			err.println("An error occurs while creating CodeJamSession : " + e.getMessage());
 		}
 		return true;
 	}
@@ -159,19 +170,19 @@ public final class ApplicationCommand {
 	 */
 	private static ProblemInput getProblemInput(final CommandLine command, final CodeJamSession session) {
 		if (!command.hasOption(PROBLEM) || !command.hasOption(INPUT_TYPE)) {
-			System.err.println("Download command requires problem and input type parameters.");
+			err.println("Download command requires problem and input type parameters.");
 			return null;
 		}
 		final String problemArgument = command.getOptionValue(PROBLEM);
 		final String inputArgument = command.getOptionValue(INPUT_TYPE);
 		final Problem problem = session.getProblem(problemArgument);
 		if (problem == null) {
-			System.err.println("Problem " + problemArgument + " not found.");
+			err.println("Problem " + problemArgument + " not found.");
 			return null;
 		}
 		final ProblemInput input = problem.getProblemInput(inputArgument);
 		if (input == null) {
-			System.err.println("Input " + inputArgument + "not found for problem " + problemArgument + ".");
+			err.println("Input " + inputArgument + "not found for problem " + problemArgument + ".");
 			return null;
 		}
 		return input;
@@ -194,10 +205,10 @@ public final class ApplicationCommand {
 			final Path target = Paths.get(session.buildFilename(input));
 			Files.deleteIfExists(target);
 			Files.copy(stream, target);
-			System.out.println(target.toString());
+			out.println(target.toString());
 		}
 		catch (final IOException e) {
-			System.err.println("An error occurs while downloading input file : " + e.getMessage());
+			err.println("An error occurs while downloading input file : " + e.getMessage());
 		}
 		return true;
 	}
@@ -209,7 +220,7 @@ public final class ApplicationCommand {
 	 */
 	public static boolean submit(final CommandLine command) {
 		if (!command.hasOption(OUTPUT) || !command.hasOption(SOURCE)) {
-			System.err.println("Submit command requires output and source file parameters.");
+			err.println("Submit command requires output and source file parameters.");
 			return false;
 		}
 		final String output = command.getOptionValue(OUTPUT);
@@ -219,14 +230,14 @@ public final class ApplicationCommand {
 			final ProblemInput input = getProblemInput(command, session);
 			final SubmitResponse response = session.submit(input, new File(output), new File(source));
 			if (response.isSuccess()) {
-				System.out.println("Submission correct !");				
+				out.println("Submission correct !");				
 			}
 			else {
-				System.out.println("Submission failed : " + response.getMessage());
+				out.println("Submission failed : " + response.getMessage());
 			}
 		}
 		catch (final IOException e) {
-			System.err.println("An error occurs while submitting output file : " + e.getMessage());
+			err.println("An error occurs while submitting output file : " + e.getMessage());
 		}
 		return true;
 	}
