@@ -1,5 +1,7 @@
 
-### **v1.1.1** (05/12/2015)
+### **v1.1.1**
+
+Released on *(05/12/2015)*
 
 This release fixes following issues :
 
@@ -7,7 +9,10 @@ This release fixes following issues :
 * Removes Selenium logging.
 * Improves Selenium management, by handling not valid cookie, or premature browser shutdown.
 
-### **v1.1.0** (04/12/2015)
+### **v1.1.0**
+
+Released on *(04/12/2015)*
+
 
 First release, delivering command line application with following features :
 
@@ -16,5 +21,7 @@ First release, delivering command line application with following features :
 * Output submission with source.
 
 ### **v1.0.0** (03/12/2015)
+
+Released on *(03/12/2015)*
 
 Pre release, for first stable version.
