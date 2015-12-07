@@ -18,7 +18,7 @@ public final class SeleniumCookieSupplier implements Supplier<String> {
 	/** Name of the target cookie to retrieve. **/
 	private static final String COOKIE_NAME = "SACSID";
 
-	/** **/
+	/** Initial login URL to navigate to with web driver. **/
 	private static final String LOGIN_URL = "https://www.google.com/accounts/ServiceLogin?service=ah&passive=true&continue=https://appengine.google.com/_ah/conflogin%3Fcontinue%3Dhttps://code.google.com/codejam&ltmpl=";
 
 	/** Default waiting time between cookie check. **/
@@ -39,10 +39,10 @@ public final class SeleniumCookieSupplier implements Supplier<String> {
 	/** Lock object for notification exchange. **/
 	private final Object lock;
 
-	/** **/
+	/** Boolean flag used for controlling {@link #waitForCookie(WebDriver)} method. **/
 	private volatile boolean running;
 
-	/** **/
+	/** Retrieved cookie after login process. **/
 	private Cookie result;
 
 	/**
@@ -64,22 +64,25 @@ public final class SeleniumCookieSupplier implements Supplier<String> {
 		final WebDriver driver = driverSupplier.get();
 		driver.navigate().to(LOGIN_URL);
 		running = true;
-		return waitForCookie(driver);
+		waitForCookie(driver);
+		return result == null ? null : result.getValue();
 	}
 	
 	/**
+	 * Indicates if the login process is still running.
 	 * 
 	 * @return <tt>true</tt> if the selenium instance is still running, <tt>false</tt> otherwise.
+	 * @see #running
 	 */
 	public boolean isRunning() {
 		return running;
 	}
 
 	/**
-	 * 
-	 * @return
+	 * Blocking method, that will wait until user has successfully
+	 * logged in into Google Code Jam application through web driver.
 	 */
-	private String waitForCookie(final WebDriver driver) {
+	private void waitForCookie(final WebDriver driver) {
 		while (isRunning()) {
 			synchronized (lock) {
 				try {
@@ -87,12 +90,11 @@ public final class SeleniumCookieSupplier implements Supplier<String> {
 					checkCurrentState(driver);
 				}
 				catch (final InterruptedException e) {
-					return null;
+					break;
 				}
 			}
 		}
 		driver.quit();
-		return result == null ? null : result.getValue();
 	}
 	
 	/**
