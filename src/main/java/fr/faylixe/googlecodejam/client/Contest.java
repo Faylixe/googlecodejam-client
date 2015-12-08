@@ -2,7 +2,7 @@ package fr.faylixe.googlecodejam.client;
 
 import fr.faylixe.googlecodejam.client.common.HTMLConstant;
 import fr.faylixe.googlecodejam.client.common.NamedObject;
-import fr.faylixe.googlecodejam.client.executor.HTTPRequestExecutor;
+import fr.faylixe.googlecodejam.client.executor.HttpRequestExecutor;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -96,11 +96,11 @@ public final class Contest extends NamedObject {
 	 * Retrieves and returns a list of available
 	 * contest for the given <tt>hostname</tt>
 	 * 
-	 * @param executor {@link HTTPRequestExecutor} instance to use to retrieve contest index.
+	 * @param executor {@link HttpRequestExecutor} instance to use to retrieve contest index.
 	 * @return List of contest extracted.
 	 * @throws IOException If any error occurs during contest extraction process.
 	 */
-	public static List<Contest> get(final HTTPRequestExecutor executor) throws IOException {
+	public static List<Contest> get(final HttpRequestExecutor executor) throws IOException {
 		final String content = executor.get(CONTEST_INDEX);
 		final Document document = Jsoup.parse(content);
 		final Elements years = document.getElementsByClass(CONTEST_CLASS_NAME);

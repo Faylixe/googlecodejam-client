@@ -9,6 +9,9 @@ package fr.faylixe.googlecodejam.client.executor;
  */
 public final class Request {
 
+	/** Default hostname used by this client. **/
+	public static final String DEFAULT_HOSTNAME = "https://code.google.com";
+
 	/** API Request for retrieving contest info. **/
 	public static final String CONTEST_INFO = "/ContestInfo";
 
@@ -92,6 +95,9 @@ public final class Request {
 
 	/** Default value used for the number of source files. **/
 	public static final String DEFAULT_NUM_SOURCE_FILE = "1";
+
+	/** Name of the identification cookie.  **/
+	public static final String COOKIE_NAME = "SACSID";
 
 	/** The <tt>boundary</tt> parameter for multipart POST request. **/
 	public static final String BOUNDARY = "boundary";

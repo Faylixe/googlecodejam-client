@@ -8,7 +8,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
 import fr.faylixe.googlecodejam.client.Round;
-import fr.faylixe.googlecodejam.client.executor.HTTPRequestExecutor;
+import fr.faylixe.googlecodejam.client.executor.HttpRequestExecutor;
 import fr.faylixe.googlecodejam.client.executor.Request;
 
 import com.google.gson.Gson;
@@ -250,7 +250,7 @@ public final class InitialValues {
 	 * @return Created instance from request.
 	 * @throws IOException If any error occurs during the associated HTTP request.
 	 */
-	public static InitialValues get(final HTTPRequestExecutor executor, final Round round) throws IOException {
+	public static InitialValues get(final HttpRequestExecutor executor, final Round round) throws IOException {
 		final StringBuilder urlBuilder = new StringBuilder();
 		urlBuilder.append(round.getURL())
 			.append(DO)

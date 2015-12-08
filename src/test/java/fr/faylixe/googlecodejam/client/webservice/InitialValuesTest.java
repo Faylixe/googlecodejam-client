@@ -10,7 +10,7 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import fr.faylixe.googlecodejam.client.HTTPRequestExecutorMock;
+import fr.faylixe.googlecodejam.client.HttpRequestExecutorMock;
 import fr.faylixe.googlecodejam.client.Round;
 import fr.faylixe.googlecodejam.client.RoundTest;
 import fr.faylixe.googlecodejam.client.webservice.InitialValues;
@@ -57,7 +57,7 @@ public final class InitialValuesTest {
 		final Round round = RoundTest.getTestRound();
 		InitialValues values = null;
 		try {
-			values = InitialValues.get(HTTPRequestExecutorMock.getTestExecutor(), round);
+			values = InitialValues.get(HttpRequestExecutorMock.getTestExecutor(), round);
 		}
 		catch (final IOException e) {
 			fail("Error occurs while retrieving contest initial values : " + e.getMessage());

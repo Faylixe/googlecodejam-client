@@ -1,7 +1,7 @@
 package fr.faylixe.googlecodejam.client.webservice;
 
 import fr.faylixe.googlecodejam.client.Round;
-import fr.faylixe.googlecodejam.client.executor.HTTPRequestExecutor;
+import fr.faylixe.googlecodejam.client.executor.HttpRequestExecutor;
 import fr.faylixe.googlecodejam.client.executor.Request;
 import fr.faylixe.googlecodejam.client.webservice.Problem.Deserializer;
 
@@ -117,7 +117,7 @@ public final class ContestInfo implements Serializable, ObjectInputValidation {
 	 * @return Built {@link ContestInfo} instance.
 	 * @throws IOException IF any error occurs while executing request.
 	 */
-	public static ContestInfo get(final HTTPRequestExecutor executor, final Round round) throws IOException {
+	public static ContestInfo get(final HttpRequestExecutor executor, final Round round) throws IOException {
 		final StringBuilder builder = new StringBuilder();
 		builder.append(round.getURL()).append(Request.CONTEST_INFO);
 		final String json = executor.get(builder.toString());

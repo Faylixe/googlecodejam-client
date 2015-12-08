@@ -1,7 +1,7 @@
 package fr.faylixe.googlecodejam.client;
 
 import static fr.faylixe.googlecodejam.client.executor.Request.*;
-import fr.faylixe.googlecodejam.client.executor.HTTPRequestExecutor;
+import fr.faylixe.googlecodejam.client.executor.HttpRequestExecutor;
 import fr.faylixe.googlecodejam.client.webservice.ContestInfo;
 import fr.faylixe.googlecodejam.client.webservice.InitialValues;
 import fr.faylixe.googlecodejam.client.webservice.Problem;
@@ -49,7 +49,7 @@ public final class CodeJamSession implements Serializable {
 	private static final char FILENAME_SEPARATOR = '-';
 
 	/** Logged HTTP executor for executing queries. **/
-	private final transient HTTPRequestExecutor executor; // ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/1
+	private final transient HttpRequestExecutor executor; // ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/1
 
 	/** Current selected round this session is working on. **/
 	private final Round round;
@@ -68,7 +68,7 @@ public final class CodeJamSession implements Serializable {
 	 * @param info Current contest info this session is working on.
 	 * @param values Initial values this session is working on.
 	 */
-	private CodeJamSession(final HTTPRequestExecutor executor, final Round round, final ContestInfo info, final InitialValues values) {
+	private CodeJamSession(final HttpRequestExecutor executor, final Round round, final ContestInfo info, final InitialValues values) {
 		this.executor = executor;
 		this.round = round;
 		this.info = info;
@@ -285,14 +285,14 @@ public final class CodeJamSession implements Serializable {
 		type.setParameter(BOUNDARY, createBoundary());
 		final MultipartContent content = new MultipartContent()
 			.setMediaType(type)
-			.addPart(HTTPRequestExecutor.buildDataPart(CSRF_PARAMETER_NAME, values.getToken()))
-			.addPart(HTTPRequestExecutor.buildFilePart(ANSWER_PARAMETER, output))
-			.addPart(HTTPRequestExecutor.buildFilePart(SOURCE_FILE_PARAMETER, source))
-			.addPart(HTTPRequestExecutor.buildDataPart(COMMAND_PARAMETER_NAME, SUBMIT_COMMAND))
-			.addPart(HTTPRequestExecutor.buildDataPart(PROBLEM_PARAMETER_NAME, input.getProblem().getId()))
-			.addPart(HTTPRequestExecutor.buildDataPart(INPUT_ID_PARAMETER_NAME, String.valueOf(input.getNumber())))
-			.addPart(HTTPRequestExecutor.buildDataPart(NUM_SOURCE_FILE_PARAMETER, DEFAULT_NUM_SOURCE_FILE))
-			.addPart(HTTPRequestExecutor.buildDataPart(AGENT_PARAMETER_NAME, DEFAULT_AGENT));
+			.addPart(HttpRequestExecutor.buildDataPart(CSRF_PARAMETER_NAME, values.getToken()))
+			.addPart(HttpRequestExecutor.buildFilePart(ANSWER_PARAMETER, output))
+			.addPart(HttpRequestExecutor.buildFilePart(SOURCE_FILE_PARAMETER, source))
+			.addPart(HttpRequestExecutor.buildDataPart(COMMAND_PARAMETER_NAME, SUBMIT_COMMAND))
+			.addPart(HttpRequestExecutor.buildDataPart(PROBLEM_PARAMETER_NAME, input.getProblem().getId()))
+			.addPart(HttpRequestExecutor.buildDataPart(INPUT_ID_PARAMETER_NAME, String.valueOf(input.getNumber())))
+			.addPart(HttpRequestExecutor.buildDataPart(NUM_SOURCE_FILE_PARAMETER, DEFAULT_NUM_SOURCE_FILE))
+			.addPart(HttpRequestExecutor.buildDataPart(AGENT_PARAMETER_NAME, DEFAULT_AGENT));
 		return content;
 	}
 
@@ -301,12 +301,12 @@ public final class CodeJamSession implements Serializable {
 	 * Loads associated contest info and initial values from the given
 	 * <tt>round</tt>, using the given <tt>executor</tt>.
 	 * 
-	 * @param executor {@link HTTPRequestExecutor} instance to use.
+	 * @param executor {@link HttpRequestExecutor} instance to use.
 	 * @param round Contextual {@link Round} instance this session is bound to.
 	 * @return Created session.
 	 * @throws IOException If any error occurs while retrieving contest info or initial values.
 	 */
-	public static CodeJamSession createSession(final HTTPRequestExecutor executor, final Round round) throws IOException {
+	public static CodeJamSession createSession(final HttpRequestExecutor executor, final Round round) throws IOException {
 		final ContestInfo info = ContestInfo.get(executor, round);
 		final InitialValues values = InitialValues.get(executor, round);
 		return new CodeJamSession(executor, round, info, values);

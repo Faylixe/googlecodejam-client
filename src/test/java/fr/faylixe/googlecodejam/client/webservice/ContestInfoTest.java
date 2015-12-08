@@ -3,7 +3,7 @@ package fr.faylixe.googlecodejam.client.webservice;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.fail;
-import fr.faylixe.googlecodejam.client.HTTPRequestExecutorMock;
+import fr.faylixe.googlecodejam.client.HttpRequestExecutorMock;
 import fr.faylixe.googlecodejam.client.Round;
 import fr.faylixe.googlecodejam.client.RoundTest;
 import fr.faylixe.googlecodejam.client.webservice.ContestInfo;
@@ -38,7 +38,7 @@ public final class ContestInfoTest {
 		final Round round = RoundTest.getTestRound();
 		ContestInfo info = null;
 		try {
-			info = ContestInfo.get(HTTPRequestExecutorMock.getTestExecutor(), round);
+			info = ContestInfo.get(HttpRequestExecutorMock.getTestExecutor(), round);
 		}
 		catch (final IOException e) {
 			fail("Error occurs while retrieving contest info : " + e.getMessage());

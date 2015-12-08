@@ -38,7 +38,7 @@ public final class ContestTest {
 	public static Contest getTestContests() {
 		if (testInstance == null) {
 			try {
-				final List<Contest> contests = Contest.get(HTTPRequestExecutorMock.getTestExecutor());
+				final List<Contest> contests = Contest.get(HttpRequestExecutorMock.getTestExecutor());
 				testInstance = contests.get(contests.size() - 1);
 			}
 			catch (final IOException e) {

@@ -56,7 +56,7 @@ public final class CodeJamSessionTest {
 		final Round round = RoundTest.getTestRound();
 		CodeJamSession session = null;
 		try {
-			session = CodeJamSession.createSession(HTTPRequestExecutorMock.getTestExecutor(), round);
+			session = CodeJamSession.createSession(HttpRequestExecutorMock.getTestExecutor(), round);
 		}
 		catch (final IOException e) {
 			fail("Error occurs while retrieving session : " + e.getMessage());

@@ -20,8 +20,6 @@ import org.apache.commons.lang3.SerializationUtils;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.UnreachableBrowserException;
 
-import com.google.api.client.http.HttpHeaders;
-import com.google.api.client.http.HttpRequestFactory;
 import com.google.api.client.http.HttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
 
@@ -29,7 +27,8 @@ import fr.faylixe.googlecodejam.client.CodeJamSession;
 import fr.faylixe.googlecodejam.client.Contest;
 import fr.faylixe.googlecodejam.client.Round;
 import fr.faylixe.googlecodejam.client.common.NamedObject;
-import fr.faylixe.googlecodejam.client.executor.HTTPRequestExecutor;
+import fr.faylixe.googlecodejam.client.executor.HttpRequestExecutor;
+import fr.faylixe.googlecodejam.client.executor.Request;
 import fr.faylixe.googlecodejam.client.executor.SeleniumCookieSupplier;
 import fr.faylixe.googlecodejam.client.webservice.Problem;
 import fr.faylixe.googlecodejam.client.webservice.ProblemInput;
@@ -51,12 +50,6 @@ public final class ApplicationCommand {
 	/** Path of the serialized cookie file to use. **/
 	private static final String COOKIE_PATH = ".cjs-cookie";
 
-	/** Default hostname used by this client. **/
-	private static final String DEFAULT_HOSTNAME = "https://code.google.com";
-
-	/** Cookies header name. **/
-	private static final String COOKIE_HEADER = "SACSID=";
-
 	/**
 	 * Prompts users for selecting a valid {@link Round}
 	 * instance that will be used as a contextual round.
@@ -65,7 +58,7 @@ public final class ApplicationCommand {
 	 */
 	private static Optional<Round> selectRound() throws IOException {
 		final HttpTransport transport = new NetHttpTransport();
-		final HTTPRequestExecutor executor = new HTTPRequestExecutor(DEFAULT_HOSTNAME, transport.createRequestFactory());
+		final HttpRequestExecutor executor = new HttpRequestExecutor(Request.DEFAULT_HOSTNAME, transport.createRequestFactory());
 		final List<Contest> contests = Contest.get(executor);
 		final Scanner reader = new Scanner(System.in);
 		final Optional<Contest> selectedContest = select(contests, reader);
@@ -114,7 +107,7 @@ public final class ApplicationCommand {
 	 */
 	public static boolean init() {
 		out.println("Firefox browser will open, please authenticate to your Google account with it.");
-		final SeleniumCookieSupplier supplier = new SeleniumCookieSupplier(DEFAULT_HOSTNAME + "/codejam", FirefoxDriver::new);
+		final SeleniumCookieSupplier supplier = new SeleniumCookieSupplier(Request.DEFAULT_HOSTNAME + "/codejam", FirefoxDriver::new);
 		try {
 			final String cookie = supplier.get();
 			if (cookie == null) {
@@ -150,13 +143,8 @@ public final class ApplicationCommand {
 	 */
 	private static CodeJamSession getContextualSession() throws IOException {
 		final String cookie = (String) SerializationUtils.deserialize(new FileInputStream(COOKIE_PATH));
+		final HttpRequestExecutor executor = HttpRequestExecutor.create(Request.DEFAULT_HOSTNAME, cookie);
 		final Round round = (Round) SerializationUtils.deserialize(new FileInputStream(ROUND_PATH));
-		final HttpTransport transport = new NetHttpTransport();
-		final HttpRequestFactory requestFactory =  transport.createRequestFactory(request -> {
-			final HttpHeaders headers = request.getHeaders();
-			headers.setCookie(COOKIE_HEADER + cookie);
-		});
-		final HTTPRequestExecutor executor = new HTTPRequestExecutor(DEFAULT_HOSTNAME, requestFactory);
 		return CodeJamSession.createSession(executor, round);
 	}
 

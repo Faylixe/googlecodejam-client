@@ -12,16 +12,18 @@ import com.google.api.client.http.HttpHeaders;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpRequestFactory;
 import com.google.api.client.http.HttpResponse;
+import com.google.api.client.http.HttpTransport;
 import com.google.api.client.http.MultipartContent.Part;
+import com.google.api.client.http.javanet.NetHttpTransport;
 
 /**
- * <p>A {@link HTTPRequestExecutor} is an abstraction
+ * <p>A {@link HttpRequestExecutor} is an abstraction
  * on top of {@link HttpRequestFactory} that handles
  * GET and POST request.</p>
  * 
  * @author fv
  */
-public final class HTTPRequestExecutor {
+public final class HttpRequestExecutor {
 
 	/** Target hostname to which HTTP request are made. **/
 	private final String hostname;
@@ -35,7 +37,7 @@ public final class HTTPRequestExecutor {
 	 * @param hostname Hostname used by this executor.
 	 * @param requestFactory Factory used for building HTTP request.
 	 */
-	public HTTPRequestExecutor(final String hostname, final HttpRequestFactory requestFactory) {
+	public HttpRequestExecutor(final String hostname, final HttpRequestFactory requestFactory) {
 		this.hostname = hostname;
 		this.requestFactory = requestFactory;
 	}
@@ -144,6 +146,29 @@ public final class HTTPRequestExecutor {
 		headers.set(Request.CONTENT_DISPOSITION, disposition);
 		part.setHeaders(headers);
 		return part;
+	}
+	
+	/**
+	 * Static factory method that creates a {@link HttpRequestExecutor} instance
+	 * which is set using the given <tt>cookie</tt> for building authenticated
+	 * HTTP request.
+	 * 
+	 * @param hostname Hostname to use for the created executor.
+	 * @param cookieValue Value of the SACSID cookie to use.
+	 * @return Created instance.
+	 */
+	public static HttpRequestExecutor create(final String hostname, final String cookieValue) {
+		final String cookie = new StringBuilder()
+			.append(Request.COOKIE_NAME)
+			.append('=')
+			.append(cookieValue)
+			.toString();
+		final HttpTransport transport = new NetHttpTransport();
+		final HttpRequestFactory requestFactory = transport.createRequestFactory(request -> {
+			final HttpHeaders headers = request.getHeaders();
+			headers.setCookie(cookie);
+		});
+		return new HttpRequestExecutor(hostname, requestFactory);
 	}
 
 }
