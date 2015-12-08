@@ -1,3 +1,7 @@
+**v1.1.2** *(08/12/2015)*
+
+Minor release that bring small updates to the internal API.
+No associated packaged release will be uploaded.
 
 **v1.1.1** *(05/12/2015)*
 
