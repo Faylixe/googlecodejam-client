@@ -1,3 +1,8 @@
+**v1.2.0** *(09/12/2015)*
+
+Minor API update. Now ``CodeJamSession`` is fully serializable, and ``HttpRequestExecutor``
+use a custom deserialization process by storing internally it authentification cookie.
+
 **v1.1.2** *(08/12/2015)*
 
 Minor release that bring small updates to the internal API.

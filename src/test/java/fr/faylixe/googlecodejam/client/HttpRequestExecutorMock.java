@@ -3,8 +3,6 @@ package fr.faylixe.googlecodejam.client;
 import fr.faylixe.googlecodejam.client.executor.HttpRequestExecutor;
 import fr.faylixe.googlecodejam.client.executor.Request;
 
-import com.google.api.client.http.javanet.NetHttpTransport;
-
 /**
  * Test case for the {@link HttpRequestExecutor} class.
  * 
@@ -20,7 +18,7 @@ public final class HttpRequestExecutorMock {
 	 * @return Created instance.
 	 */
 	public static HttpRequestExecutor getTestExecutor() {
-		return new HttpRequestExecutor(Request.DEFAULT_HOSTNAME, new NetHttpTransport().createRequestFactory());
+		return HttpRequestExecutor.create(Request.DEFAULT_HOSTNAME);
 	}
 
 }

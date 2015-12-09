@@ -12,16 +12,14 @@ Following dependency could be added to your *POM.xml* if you want to use the cli
 <dependency>
     <groupId>fr.faylixe</groupId>
     <artifactId>googlecodejam-client</artifactId>
-    <version>1.1.2</version>
+    <version>1.2.0</version>
 </dependency>
 ```
 The API entry point is the [CodeJamSession](http://faylixe.fr/googlecodejam-client/apidocs/fr/faylixe/googlecodejam/client/CodeJamSession.html) class, which could be instantiated as following :
 
 ```java
 // Initializes required HTTPRequestExecutor.
-final HttpTransport transport = new NetHttpTransport();
-final HttpRequestFactory factory = transport.createRequestFactory();
-final HttpRequestExecutor executor = new HttpRequestExecutor(CODEJAM_HOSTNAME, factory);
+final HttpRequestExecutor executor = HttpRequestExecutor(CODEJAM_HOSTNAME, SACSID_COOKIE_VALUE);
 // Retrieves Round.
 final Round round = ...;
 // Creates session.
@@ -44,6 +42,8 @@ Where action belongs to the following option list :
 * *--init*
 * *--download*
 * *--submit*
+
+Please note that Firefox web browser is also required.
 
 ### Installation
 

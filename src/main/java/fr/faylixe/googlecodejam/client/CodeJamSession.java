@@ -1,6 +1,8 @@
 package fr.faylixe.googlecodejam.client;
 
 import static fr.faylixe.googlecodejam.client.executor.Request.*;
+import fr.faylixe.googlecodejam.client.common.NamedObject;
+import fr.faylixe.googlecodejam.client.common.Resources;
 import fr.faylixe.googlecodejam.client.executor.HttpRequestExecutor;
 import fr.faylixe.googlecodejam.client.webservice.ContestInfo;
 import fr.faylixe.googlecodejam.client.webservice.InitialValues;
@@ -34,7 +36,7 @@ import com.google.gson.Gson;
  * 
  * @author fv
  */
-public final class CodeJamSession implements Serializable {
+public final class CodeJamSession extends NamedObject implements Serializable {
 
 	/** Serialization index. **/
 	private static final long serialVersionUID = 1L;
@@ -49,7 +51,7 @@ public final class CodeJamSession implements Serializable {
 	private static final char FILENAME_SEPARATOR = '-';
 
 	/** Logged HTTP executor for executing queries. **/
-	private final transient HttpRequestExecutor executor; // ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/1
+	private final HttpRequestExecutor executor;
 
 	/** Current selected round this session is working on. **/
 	private final Round round;
@@ -61,6 +63,20 @@ public final class CodeJamSession implements Serializable {
 	private final InitialValues values;
 
 	/**
+	 * 
+	 * @param round
+	 * @return
+	 */
+	private static String buildContestName(final Round round) {
+		final String contestName = Resources.normalize(round.getContestName());
+		final String roundName = Resources.normalize(round.getName());
+		return new StringBuilder(contestName.toLowerCase())
+			.append('-')
+			.append(roundName.toLowerCase())
+			.toString();
+	}
+
+	/**
 	 * Default constructor.
 	 * 
 	 * @param executor Logged HTTP executor for executing queries.
@@ -69,10 +85,12 @@ public final class CodeJamSession implements Serializable {
 	 * @param values Initial values this session is working on.
 	 */
 	private CodeJamSession(final HttpRequestExecutor executor, final Round round, final ContestInfo info, final InitialValues values) {
+		super(buildContestName(round));
 		this.executor = executor;
 		this.round = round;
 		this.info = info;
 		this.values = values;
+		
 	}
 
 	/**
@@ -91,6 +109,7 @@ public final class CodeJamSession implements Serializable {
 		return this;
 	}
 
+	
 	/**
 	 * Performs and returns a <tt>GET /</tt> request
 	 * in order to get all <tt>round</tt> detail.

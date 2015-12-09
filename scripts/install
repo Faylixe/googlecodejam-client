@@ -5,33 +5,26 @@ echo "# Google Code Jam Client installation script #"
 echo "##############################################"
 echo ""
 
-# Creates binary folder.
-if [ ! -d "/usr/local/codejam" ]
+if [ -f "/usr/local/bin/googlecodejam-client.jar" ]
 then
-	echo "> Creating /usr/local/codejam directory"
-	mkdir /usr/local/codejam
-fi
-
-if [ -f "/usr/local/codejam/googlecodejam-client.jar" ]
-then
-	echo "> Removing existing artifact /usr/local/codejam/googlecodejam-client.jar"
-	rm /usr/local/codejam/googlecodejam-client.jar
+	echo "> Removing existing artifact /usr/local/bin/googlecodejam-client.jar"
+	rm /usr/local/bin/googlecodejam-client.jar
 fi
 
 # Downloading latest version.
 echo "> Downloading released JAR archive from GitHub"
-curl -o /usr/local/codejam/googlecodejam-client.jar -J -L --silent "https://github.com/Faylixe/googlecodejam-client/releases/download/v1.1.1/googlecodejam-client.jar" > /dev/null
-chmod o+rx /usr/local/codejam/googlecodejam-client.jar
+curl -o /usr/local/bin/googlecodejam-client.jar -J -L --silent "https://github.com/Faylixe/googlecodejam-client/releases/download/v1.1.1/googlecodejam-client.jar" > /dev/null
+chmod o+rx /usr/local/bin/googlecodejam-client.jar
 
 # Install script.
-if [ -f "/usr/bin/codejam" ]
+if [ -f "/usr/local/bin/codejam" ]
 then
-	echo "> Removing existing script /usr/bin/codejam/"
-	rm /usr/bin/codejam
+	echo "> Removing existing script /usr/local/bin/codejam/"
+	rm /usr/local/bin/codejam
 fi
 echo "> Downloading last script version from GitHub"
-curl -o /usr/bin/codejam -J -L --silent "https://raw.githubusercontent.com/Faylixe/googlecodejam-client/master/scripts/codejam" > /dev/null
-chmod o+rx /usr/bin/codejam
+curl -o /usr/local/bin/codejam -J -L --silent "https://raw.githubusercontent.com/Faylixe/googlecodejam-client/master/scripts/codejam" > /dev/null
+chmod o+rx /usr/local/bin/codejam
 
 echo ""
 echo "Installation complete, you can now run the 'codejam' command"

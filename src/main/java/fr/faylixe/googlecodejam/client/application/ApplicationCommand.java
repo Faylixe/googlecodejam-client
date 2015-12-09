@@ -20,9 +20,6 @@ import org.apache.commons.lang3.SerializationUtils;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.UnreachableBrowserException;
 
-import com.google.api.client.http.HttpTransport;
-import com.google.api.client.http.javanet.NetHttpTransport;
-
 import fr.faylixe.googlecodejam.client.CodeJamSession;
 import fr.faylixe.googlecodejam.client.Contest;
 import fr.faylixe.googlecodejam.client.Round;
@@ -57,8 +54,7 @@ public final class ApplicationCommand {
 	 * @throws IOException If any error occurs while downloading contest page.
 	 */
 	private static Optional<Round> selectRound() throws IOException {
-		final HttpTransport transport = new NetHttpTransport();
-		final HttpRequestExecutor executor = new HttpRequestExecutor(Request.DEFAULT_HOSTNAME, transport.createRequestFactory());
+		final HttpRequestExecutor executor = HttpRequestExecutor.create(Request.DEFAULT_HOSTNAME);
 		final List<Contest> contests = Contest.get(executor);
 		final Scanner reader = new Scanner(System.in);
 		final Optional<Contest> selectedContest = select(contests, reader);

@@ -2,6 +2,7 @@ package fr.faylixe.googlecodejam.client.executor;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.ObjectStreamException;
 import java.nio.file.Files;
 
 import com.google.api.client.http.ByteArrayContent;
@@ -29,17 +30,22 @@ public final class HttpRequestExecutor {
 	private final String hostname;
 
 	/** Factory used for building HTTP request. **/
-	private final HttpRequestFactory requestFactory;
+	private final transient HttpRequestFactory requestFactory;
+
+	/** SACSID cookie token to used by the internal {@link #requestFactory}. **/
+	private final String cookieValue;
 
 	/**
 	 * Default constructor. Initializes hostname value.
 	 * 
 	 * @param hostname Hostname used by this executor.
 	 * @param requestFactory Factory used for building HTTP request.
+	 * @param cookieValue SACSID cookie token to used by the given <tt>requestFactory</tt>.
 	 */
-	public HttpRequestExecutor(final String hostname, final HttpRequestFactory requestFactory) {
+	private HttpRequestExecutor(final String hostname, final HttpRequestFactory requestFactory, final String cookieValue) {
 		this.hostname = hostname;
 		this.requestFactory = requestFactory;
+		this.cookieValue = cookieValue;
 	}
 
 	/**
@@ -149,6 +155,18 @@ public final class HttpRequestExecutor {
 	}
 	
 	/**
+	 * Custom deserialization processing method that
+	 * create a new valid {@link HttpRequestExecutor}
+	 * instance from the internally stored cookie value.
+	 * 
+	 * @return Valid {@link HttpRequestExecutor} instance.
+	 * @throws ObjectStreamException If any error occurs during deserialization process.
+	 */
+	private Object readResolve() throws ObjectStreamException {
+		return create(hostname, cookieValue);
+	}
+
+	/**
 	 * Static factory method that creates a {@link HttpRequestExecutor} instance
 	 * which is set using the given <tt>cookie</tt> for building authenticated
 	 * HTTP request.
@@ -168,7 +186,19 @@ public final class HttpRequestExecutor {
 			final HttpHeaders headers = request.getHeaders();
 			headers.setCookie(cookie);
 		});
-		return new HttpRequestExecutor(hostname, requestFactory);
+		return new HttpRequestExecutor(hostname, requestFactory, cookieValue);
+	}
+	
+	/**
+	 * Static factory method that creates a non logged
+	 * {@link HttpRequestExecutor} instance.
+	 * 
+	 * @param hostname Hostname to use for the created executor.
+	 * @return Created instance.
+	 * @see #create(String, String)
+	 */
+	public static HttpRequestExecutor create(final String hostname) {
+		return create(hostname, "");
 	}
 
 }
