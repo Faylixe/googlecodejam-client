@@ -1,7 +1,8 @@
 **v1.2.0** *(09/12/2015)*
 
 Minor API update. Now ``CodeJamSession`` is fully serializable, and ``HttpRequestExecutor``
-use a custom deserialization process by storing internally it authentification cookie.
+use a custom deserialization process by storing internally it authentification cookie. Also
+updates project POM.xml with *apache-bundle-plugin* so as to make it OSGi compatible.
 
 **v1.1.2** *(08/12/2015)*
 
