@@ -1,3 +1,8 @@
+**v1.2.2** *(10/12/2015)*
+
+Replaces *selenium-java* artifact by *selenium-firefox-driver* in order to reduce
+transitive dependencies.
+
 **v1.2.1** *(10/12/2015)*
 
 Removes OSGi specification through *maven-bundle-plugin*. If you want to use this
