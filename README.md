@@ -19,7 +19,7 @@ The API entry point is the [CodeJamSession](http://faylixe.fr/googlecodejam-clie
 
 ```java
 // Initializes required HTTPRequestExecutor.
-final HttpRequestExecutor executor = HttpRequestExecutor(CODEJAM_HOSTNAME, SACSID_COOKIE_VALUE);
+final HttpRequestExecutor executor = HttpRequestExecutor.create(CODEJAM_HOSTNAME, SACSID_COOKIE_VALUE);
 // Retrieves Round.
 final Round round = ...;
 // Creates session.
