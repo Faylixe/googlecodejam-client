@@ -1,8 +1,13 @@
+**v1.2.1** *(10/12/2015)*
+
+Removes OSGi specification through *maven-bundle-plugin*. If you want to use this
+API in a OSGi context, switch to the dedicated artifact [fr.faylixe:googlecodejam-client-osgi](https://github.com/Faylixe/googlecodejam-client-osgi).
+
 **v1.2.0** *(09/12/2015)*
 
 Minor API update. Now ``CodeJamSession`` is fully serializable, and ``HttpRequestExecutor``
 use a custom deserialization process by storing internally it authentification cookie. Also
-updates project POM.xml with *apache-bundle-plugin* so as to make it OSGi compatible.
+updates project POM.xml with *maven-bundle-plugin* so as to make it OSGi compatible.
 
 **v1.1.2** *(08/12/2015)*
 

@@ -12,7 +12,7 @@ Following dependency could be added to your *POM.xml* if you want to use the cli
 <dependency>
     <groupId>fr.faylixe</groupId>
     <artifactId>googlecodejam-client</artifactId>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
 </dependency>
 ```
 The API entry point is the [CodeJamSession](http://faylixe.fr/googlecodejam-client/apidocs/fr/faylixe/googlecodejam/client/CodeJamSession.html) class, which could be instantiated as following :
