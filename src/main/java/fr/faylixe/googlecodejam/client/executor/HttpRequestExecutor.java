@@ -3,6 +3,7 @@ package fr.faylixe.googlecodejam.client.executor;
 import java.io.File;
 import java.io.IOException;
 import java.io.ObjectStreamException;
+import java.io.Serializable;
 import java.nio.file.Files;
 
 import com.google.api.client.http.ByteArrayContent;
@@ -24,7 +25,10 @@ import com.google.api.client.http.javanet.NetHttpTransport;
  * 
  * @author fv
  */
-public final class HttpRequestExecutor {
+public final class HttpRequestExecutor implements Serializable {
+
+	/** Serialization index. **/
+	private static final long serialVersionUID = 1L;
 
 	/** Target hostname to which HTTP request are made. **/
 	private final String hostname;

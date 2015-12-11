@@ -1,3 +1,7 @@
+**v1.2.3** *(11/12/2015)*
+
+Fix **HttpRequestExecutor** serialization issues.
+
 **v1.2.2** *(10/12/2015)*
 
 Replaces *selenium-java* artifact by *selenium-firefox-driver* in order to reduce
