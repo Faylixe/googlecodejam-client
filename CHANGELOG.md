@@ -1,3 +1,7 @@
+**v1.2.4** *(12/12/2015)*
+
+Adding *cancel()* method to **SeleniumCookieSupplier**.
+
 **v1.2.3** *(11/12/2015)*
 
 Fix **HttpRequestExecutor** serialization issues.

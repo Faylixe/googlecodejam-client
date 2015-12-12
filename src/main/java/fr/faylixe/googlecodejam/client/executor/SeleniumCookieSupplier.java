@@ -79,6 +79,13 @@ public final class SeleniumCookieSupplier implements Supplier<String> {
 	}
 
 	/**
+	 * Cancel the current operation.
+	 */
+	public void cancel() {
+		running = false;
+	}
+
+	/**
 	 * Blocking method, that will wait until user has successfully
 	 * logged in into Google Code Jam application through web driver.
 	 */
