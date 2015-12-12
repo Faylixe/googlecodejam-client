@@ -7,6 +7,13 @@ Java client API for Google Code Jam contest. This API is implemented with, and f
 
 [OSGi packaged version](https://github.com/Faylixe/googlecodejam-client-osgi) is also available.
 
+* [Maven dependency](#maven-dependency)
+* [Command line application](#command-line-application)
+  - [Installation](#installation)
+  - [Initialization action](#initialization-action)
+  - [Download action](#download-action)
+  - [Submit action](#submit-action)
+
 ## Maven dependency
 
 Following dependency could be added to your *POM.xml* if you want to use the client API into your project.
