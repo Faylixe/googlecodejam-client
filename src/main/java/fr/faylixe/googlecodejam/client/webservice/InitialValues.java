@@ -4,6 +4,7 @@ import static fr.faylixe.googlecodejam.client.executor.Request.COMMAND_PARAMETER
 import static fr.faylixe.googlecodejam.client.executor.Request.DO;
 
 import java.io.IOException;
+import java.io.Serializable;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
@@ -22,7 +23,10 @@ import com.google.gson.annotations.SerializedName;
  * 
  * @author fv
  */
-public final class InitialValues {
+public final class InitialValues implements Serializable {
+
+	/** Serialization index. **/
+	private static final long serialVersionUID = 1L;
 
 	/** Encoding use for URL encoding. **/
 	private static final String ENCODING = "UTF-8";

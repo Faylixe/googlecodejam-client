@@ -1,3 +1,7 @@
+**v1.2.5** *(12/12/2015)*
+
+Fix **CodeJamSession** serialization issues.
+
 **v1.2.4** *(12/12/2015)*
 
 Adding *cancel()* method to **SeleniumCookieSupplier**.
