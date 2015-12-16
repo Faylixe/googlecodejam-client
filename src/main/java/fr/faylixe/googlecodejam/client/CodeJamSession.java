@@ -14,7 +14,9 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import com.google.api.client.http.HttpMediaType;
 import com.google.api.client.http.HttpRequest;
@@ -47,6 +49,9 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	/** Practice file type for unactive contest. **/
 	private static final String PRACTICE = "practice";
 
+	/** Error message set when analysis retrieval failed. **/
+	private static final String ANALYSIS_ERROR = "An error occurs while retrieving analysis : %s";
+
 	/** Character used for file name generation. **/
 	private static final char FILENAME_SEPARATOR = '-';
 
@@ -62,10 +67,15 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	/** Initial values this session is working on. **/
 	private final InitialValues values;
 
+	/** Map of already loaded contest analysis. **/
+	private final Map<Problem, String> analysis;
+
 	/**
+	 * Static factory that builds the name of this session
+	 * regarding of the given <tt>round</tt>.
 	 * 
-	 * @param round
-	 * @return
+	 * @param round Round to build name from.
+	 * @return Name built.
 	 */
 	private static String buildContestName(final Round round) {
 		final String contestName = Resources.normalize(round.getContestName());
@@ -84,31 +94,28 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	 * @param info Current contest info this session is working on.
 	 * @param values Initial values this session is working on.
 	 */
-	private CodeJamSession(final HttpRequestExecutor executor, final Round round, final ContestInfo info, final InitialValues values) {
+	private CodeJamSession(
+			final HttpRequestExecutor executor,
+			final Round round,
+			final ContestInfo info,
+			final InitialValues values) {
 		super(buildContestName(round));
 		this.executor = executor;
 		this.round = round;
 		this.info = info;
 		this.values = values;
-		
+		this.analysis = new HashMap<>();
 	}
 
 	/**
 	 * Reloads session components in order to prevent from any change.
-	 * Based on the version number of {@link InitialValues}.
 	 * 
-	 * @return This session if no change has been found, a newly created session updated otherwise.
-	 * @throws IOException If any error occurs while retrieving new values.
+	 * @return A newly created session updated otherwise.
+	 * @throws IOException If any error occurs while reloading a new session.
 	 */
 	public CodeJamSession refresh() throws IOException {
-		// ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/4
-		final InitialValues refreshedValues = InitialValues.get(executor, round);
-		if (refreshedValues.getVersion() > values.getVersion()) {
-			return createSession(executor, round);
-		}
-		return this;
+		return createSession(executor, round);
 	}
-
 	
 	/**
 	 * Performs and returns a <tt>GET /</tt> request
@@ -182,19 +189,39 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	 * @return Analysis if any.
 	 * @throws IOException If any error occurs while retrieving analysis.
 	 */
-	public String getContestAnalysis(final Problem problem) throws IOException {
+	private String getContestAnalysis(final String problemId) throws IOException {
 		final StringBuilder urlBuilder = new StringBuilder();
 		urlBuilder.append(round.getURL())
 			.append(DO)
 			.append(COMMAND_PARAMETER)
 			.append(ANALYSIS_COMMAND)
 			.append(PROBLEM_PARAMETER)
-			.append(problem.getId())
+			.append(problemId)
 			.append(CSRF_PARAMETER)
 			.append(values.getToken())
 			.append(AGENT_PARAMETER)
 			.append(DEFAULT_AGENT);
 		return executor.get(urlBuilder.toString());
+	}
+	
+	/**
+	 * Returns the analysis for the given
+	 * <tt>problem</tt> if any.
+	 * 
+	 * @param problem Problem to retrieve analysis from.
+	 * @return Analysis if any.
+	 */
+	public String getContestAnalysis(final Problem problem) {
+		if (!analysis.containsKey(problem)) {
+			try {
+				final String content = getContestAnalysis(problem.getId());
+				analysis.put(problem, content);		
+			}
+			catch (final IOException e) {
+				return String.format(ANALYSIS_ERROR, e.getMessage());
+			}
+		}
+		return analysis.get(problem);
 	}
 	
 	/**

@@ -265,4 +265,23 @@ public final class Problem extends NamedObject implements ObjectInputValidation 
 		stream.defaultReadObject();
 	}
 
+	/** {@inheritDoc} **/
+	@Override
+	public int hashCode() {
+		return id.hashCode();
+	}
+
+	/** {@inheritDoc} **/
+	@Override
+	public boolean equals(final Object object) {
+		if (object == this) {
+			return true;
+		}
+		if (object == null || object.getClass() != getClass()) {
+			return false;
+		}
+		final Problem other = (Problem) object;
+		return id.equals(other.getId());
+	}
+
 }

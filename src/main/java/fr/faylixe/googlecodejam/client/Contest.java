@@ -58,6 +58,24 @@ public final class Contest extends NamedObject {
 		return Collections.unmodifiableList(rounds);
 	}
 
+	/** {@inheritDoc} **/
+	@Override
+	public int hashCode() {
+		return getName().hashCode();
+	}
+	
+	/** **/
+	@Override
+	public boolean equals(final Object object) {
+		if (object == this) {
+			return true;
+		}
+		if (object == null || object.getClass() != getClass()) {
+			return false;
+		}
+		final Contest other = (Contest) object;
+		return getName().equals(other.getName());
+	}
 
 	/**
 	 * Static factory method that retrieves contest name

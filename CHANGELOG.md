@@ -1,3 +1,9 @@
+**v1.2.6** *(16/12/2015)*
+
+* Updates *refresh()* method, now returns always a reloaded session.
+* Adds valid hash code computation and equality check to web service classes.
+* Adds persistent contest analysis with lazy loading.
+
 **v1.2.5** *(12/12/2015)*
 
 Fix **CodeJamSession** serialization issues.

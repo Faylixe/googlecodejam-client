@@ -1,5 +1,8 @@
 package fr.faylixe.googlecodejam.client.webservice;
 
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+
 import com.google.gson.annotations.SerializedName;
 
 /**
@@ -61,6 +64,37 @@ public final class SubmitResponse {
 	 */
 	public int getProblemId() {
 		return problemId;
+	}
+
+	/** {@inheritDoc} **/
+	@Override
+	public int hashCode() {
+		final HashCodeBuilder builder = new HashCodeBuilder();
+		builder
+			.append(message)
+			.append(success)
+			.append(inputId)
+			.append(problemId);
+		return builder.toHashCode();
+	}
+
+	/** {@inheritDoc} **/
+	@Override
+	public boolean equals(final Object object) {
+		if (object == this) {
+			return true;
+		}
+		if (object == null || object.getClass() != getClass()) {
+			return false;
+		}
+		final SubmitResponse other = (SubmitResponse) object;
+		final EqualsBuilder builder = new EqualsBuilder();
+		builder
+			.append(message, other.getMessage())
+			.append(success, other.isSuccess())
+			.append(inputId, other.getInputId())
+			.append(problemId, other.getProblemId());
+		return builder.isEquals();
 	}
 
 }

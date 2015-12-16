@@ -61,6 +61,25 @@ public final class Round extends NamedObject {
 	public String getURL() {
 		return url;
 	}
+	
+	/** {@inheritDoc} **/
+	@Override
+	public int hashCode() {
+		return url.hashCode();
+	}
+	
+	/** {@inheritDoc} **/
+	@Override
+	public boolean equals(final Object object) {
+		if (object == this) {
+			return true;
+		}
+		if (object == null || object.getClass() != getClass()) {
+			return false;
+		}
+		final Round other = (Round) object;
+		return url.equals(other.getURL());
+	}
 
 	/**
 	 * Static factory method that builds a {@link Round} instance
