@@ -5,8 +5,8 @@
 
 
 Test case for {@link CodeJamSession} class.
-| Return type | Signature |
 
+| Return type | Signature |
 | --- | ---: |
 | [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | getTestSession |
 | **void** | testSessionConsistency |

@@ -7,8 +7,8 @@
 <p>POJO class that represents a Google Jam {@link Round}.
  A {@link Round} is defined by a name, and a dashboard
  URL.</p>
-| Return type | Signature |
 
+| Return type | Signature |
 | --- | ---: |
 | [String]() | getContestName |
 | [String]() | getURL |

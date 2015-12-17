@@ -5,7 +5,7 @@
 
 
 Test case for the {@link HttpRequestExecutor} class.
-| Return type | Signature |
 
+| Return type | Signature |
 | --- | ---: |
 | [HttpRequestExecutor](nullfr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md) | getTestExecutor |

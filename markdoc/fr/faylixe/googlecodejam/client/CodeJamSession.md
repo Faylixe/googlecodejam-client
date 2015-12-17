@@ -12,8 +12,8 @@
  * Interacts with platform API from a given round
  * Downloads input
  * Submits solutions
-| Return type | Signature |
 
+| Return type | Signature |
 | --- | ---: |
 | [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | refresh |
 | [ContestInfo](nullfr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | getContestInfo |
