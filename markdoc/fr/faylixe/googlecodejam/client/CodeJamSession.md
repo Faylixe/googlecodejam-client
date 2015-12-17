@@ -10,6 +10,7 @@
  * Interacts with platform API from a given round
  * Downloads input
  * Submits solutions
+ 
 
 Return type | Signature
 --- | ---:
