@@ -5,7 +5,6 @@
 
 
 Test case for {@link Contest} class.
-
 | Return type | Signature |
 
 | --- | ---: |

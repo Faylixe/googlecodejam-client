@@ -8,7 +8,6 @@
  request, using Gson API. {@link Problem} instance belong
  to a {@link ContestInfo} object, and consists in the problem
  metadata such a name, description, and IO details.</p>
-
 | Return type | Signature |
 
 | --- | ---: |

@@ -8,7 +8,6 @@
  command request, using Gson API.</p>
  
  TODO Ensures seen is not boolean.
-
 | Return type | Signature |
 
 | --- | ---: |

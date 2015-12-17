@@ -5,7 +5,6 @@
 
 
 Test case for {@link InitialValues} class.
-
 | Return type | Signature |
 
 | --- | ---: |

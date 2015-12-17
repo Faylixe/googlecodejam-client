@@ -5,7 +5,6 @@
 
 
 Test case for {@link NamedObject} class.
-
 | Return type | Signature |
 
 | --- | ---: |

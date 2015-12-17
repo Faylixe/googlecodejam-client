@@ -5,7 +5,6 @@
 
 
 Test case for {@link CodeJamSession} class.
-
 | Return type | Signature |
 
 | --- | ---: |

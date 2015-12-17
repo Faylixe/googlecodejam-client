@@ -5,7 +5,6 @@
 
 
 Test case for the {@link Problem} class.
-
 | Return type | Signature |
 
 | --- | ---: |

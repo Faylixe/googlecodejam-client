@@ -8,7 +8,6 @@
  request, using Gson API. {@link ProblemInput} instance belong
  to a {@link Problem} object, and describes input submission
  available for a given {@link Problem}.</p>
-
 | Return type | Signature |
 
 | --- | ---: |

@@ -5,7 +5,6 @@
 
 
 Test case for the {@link Round} class.
-
 | Return type | Signature |
 
 | --- | ---: |
