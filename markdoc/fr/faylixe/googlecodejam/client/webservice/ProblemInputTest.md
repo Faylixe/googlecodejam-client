@@ -5,7 +5,7 @@
 
 
 Test case for the {@link ProblemInput} class.
-| Return type | Signature |
 
+| Return type | Signature |
 | --- | ---: |
 | **void** | testProblemInputConsistency |

@@ -7,8 +7,8 @@
 <p>A {@link HttpRequestExecutor} is an abstraction
  on top of {@link HttpRequestFactory} that handles
  GET and POST request.</p>
-| Return type | Signature |
 
+| Return type | Signature |
 | --- | ---: |
 | [String]() | getHostname |
 | [HttpRequest]() | getRequest |

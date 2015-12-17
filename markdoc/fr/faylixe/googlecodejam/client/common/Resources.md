@@ -5,8 +5,8 @@
 
 
 <p>Static toolbox that exposes methods for internal resources managment.</p>
-| Return type | Signature |
 
+| Return type | Signature |
 | --- | ---: |
 | [String]() | normalize |
 | [String]() | getResource |

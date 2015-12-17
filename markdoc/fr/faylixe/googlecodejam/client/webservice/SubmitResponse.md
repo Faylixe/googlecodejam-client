@@ -7,8 +7,8 @@
 <p>POJO that aims to be bind to the <tt>SubmitAnswer</tt>
  command request, using Gson API. Contains detail about
  the performed submission.</p>
-| Return type | Signature |
 
+| Return type | Signature |
 | --- | ---: |
 | [String]() | getMessage |
 | **boolean** | isSuccess |

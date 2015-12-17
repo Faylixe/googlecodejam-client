@@ -6,8 +6,8 @@
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API.</p>
-| Return type | Signature |
 
+| Return type | Signature |
 | --- | ---: |
 | **boolean** | hasAnalysis |
 | **int** | getVersion |

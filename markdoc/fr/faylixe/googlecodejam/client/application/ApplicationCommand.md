@@ -7,8 +7,8 @@
 <p>This class contains static method that are
  executed from parsed command line argument in
  {@link Application}.</p>
-| Return type | Signature |
 
+| Return type | Signature |
 | --- | ---: |
 | **boolean** | init |
 | **boolean** | download |

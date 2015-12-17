@@ -5,7 +5,7 @@
 
 
 Custom deserializer that normalizes problem body content.
-| Return type | Signature |
 
+| Return type | Signature |
 | --- | ---: |
 | [Problem](nullfr/faylixe/googlecodejam/client/webservice/Problem.md) | deserialize |

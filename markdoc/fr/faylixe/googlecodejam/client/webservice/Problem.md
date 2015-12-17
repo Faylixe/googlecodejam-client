@@ -8,8 +8,8 @@
  request, using Gson API. {@link Problem} instance belong
  to a {@link ContestInfo} object, and consists in the problem
  metadata such a name, description, and IO details.</p>
-| Return type | Signature |
 
+| Return type | Signature |
 | --- | ---: |
 | [ContestInfo](nullfr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | getParent |
 | [String]() | getNormalizedName |

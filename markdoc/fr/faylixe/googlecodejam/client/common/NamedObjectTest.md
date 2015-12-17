@@ -5,8 +5,8 @@
 
 
 Test case for {@link NamedObject} class.
-| Return type | Signature |
 
+| Return type | Signature |
 | --- | ---: |
 | **void** | testDefault |
 | **void** | testSerialized |
