@@ -9,8 +9,7 @@ TODO Javadoc
  ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/5
 
 Return type | Signature
---- | ---:
-[String]() | get
+--- | ---:[String]() | get
 **boolean** | isRunning
 **void** | cancel
 **void** | checkCurrentState

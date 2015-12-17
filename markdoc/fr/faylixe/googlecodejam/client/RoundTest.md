@@ -5,6 +5,5 @@
 Test case for the {@link Round} class.
 
 Return type | Signature
---- | ---:
-[Round](nullfr/faylixe/googlecodejam/client/Round.md) | getTestRound
+--- | ---:[Round](nullfr/faylixe/googlecodejam/client/Round.md) | getTestRound
 **void** | testRoundConsistency

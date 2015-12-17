@@ -6,5 +6,4 @@
  could be identified by a name.</p>
 
 Return type | Signature
---- | ---:
-[String]() | getName
+--- | ---:[String]() | getName

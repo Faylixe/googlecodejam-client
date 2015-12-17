@@ -6,5 +6,4 @@
  line parameters.</p>
 
 Return type | Signature
---- | ---:
-[Options]() | createOptions
+--- | ---:[Options]() | createOptions

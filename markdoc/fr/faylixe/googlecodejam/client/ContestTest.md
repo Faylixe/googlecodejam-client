@@ -5,6 +5,5 @@
 Test case for {@link Contest} class.
 
 Return type | Signature
---- | ---:
-[Contest](nullfr/faylixe/googlecodejam/client/Contest.md) | getTestContests
+--- | ---:[Contest](nullfr/faylixe/googlecodejam/client/Contest.md) | getTestContests
 **void** | testContestConsistency

@@ -8,8 +8,7 @@
  available for a given {@link Problem}.</p>
 
 Return type | Signature
---- | ---:
-[Problem](nullfr/faylixe/googlecodejam/client/webservice/Problem.md) | getProblem
+--- | ---:[Problem](nullfr/faylixe/googlecodejam/client/webservice/Problem.md) | getProblem
 **int** | getDifficulty
 **int** | getNumber
 **int** | getPoints

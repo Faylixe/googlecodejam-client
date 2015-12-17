@@ -5,6 +5,5 @@
 Test case for {@link InitialValues} class.
 
 Return type | Signature
---- | ---:
-[InitialValues](nullfr/faylixe/googlecodejam/client/webservice/InitialValues.md) | getTestInitialValues
+--- | ---:[InitialValues](nullfr/faylixe/googlecodejam/client/webservice/InitialValues.md) | getTestInitialValues
 **void** | testInitialValuesConsistency

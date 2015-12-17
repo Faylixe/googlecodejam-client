@@ -7,7 +7,6 @@
  {@link Application}.</p>
 
 Return type | Signature
---- | ---:
-**boolean** | init
+--- | ---:**boolean** | init
 **boolean** | download
 **boolean** | submit

@@ -6,8 +6,7 @@
  request, using Gson API.</p>
 
 Return type | Signature
---- | ---:
-**boolean** | hasAnalysis
+--- | ---:**boolean** | hasAnalysis
 **int** | getVersion
 [List]() | getProblems
 [Problem](nullfr/faylixe/googlecodejam/client/webservice/Problem.md) | getProblem
