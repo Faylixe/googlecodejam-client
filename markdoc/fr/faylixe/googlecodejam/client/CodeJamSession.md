@@ -18,9 +18,7 @@ blabla | bar
 ## Summary
 
 | Return type | Signature |
-
 | ----------- | ----------: |
-
 | [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | refresh |
 
 
