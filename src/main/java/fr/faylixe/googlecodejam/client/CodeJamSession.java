@@ -25,16 +25,14 @@ import com.google.api.client.http.MultipartContent;
 import com.google.gson.Gson;
 
 /**
- * <p>{@link CodeJamSession} is the main API entry point, which consists
- * in logging to a code jam platform <tt>hostname</tt> and then providing
- * facilities such as :</p>
+ * {@link CodeJamSession} is the main API entry point, which consists
+ * in logging to a code jam platform ``hostname`` and then providing
+ * facilities such as :
  * <br>
- * <ul>
- * 	<li>Retrieves contest, round</li>
- * 	<li>Interacts with platform API from a given round</li>
- * 	<li>Downloads input</li>
- * 	<li>Submits solutions</li>
- * </ul>
+ * * Retrieves contest, round
+ * * Interacts with platform API from a given round
+ * * Downloads input
+ * * Submits solutions
  * 
  * @author fv
  */
