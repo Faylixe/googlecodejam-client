@@ -1,4 +1,5 @@
-# fr.faylixe.googlecodejam.client.CodeJamSession[Object]() > [NamedObject](nullfr/faylixe/googlecodejam/client/common/NamedObject.md) > [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md)
+# fr.faylixe.googlecodejam.client.CodeJamSession
+[Object]() > [NamedObject](nullfr/faylixe/googlecodejam/client/common/NamedObject.md) > [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md)
 
 {@link CodeJamSession} is the main API entry point, which consists
  in logging to a code jam platform ``hostname`` and then providing
@@ -7,7 +8,9 @@
  * Retrieves contest, round
  * Interacts with platform API from a given round
  * Downloads input
- * Submits solutions## Fields
+ * Submits solutions
+## Fields
+
 ## Methods
 ### buildContestName
 ### refresh
