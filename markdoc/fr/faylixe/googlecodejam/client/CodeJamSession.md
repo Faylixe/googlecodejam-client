@@ -13,6 +13,7 @@
  * Downloads input
  * Submits solutions
 
+
 | Return | Signature |
 | --- | ---:|
 | [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | refresh |
