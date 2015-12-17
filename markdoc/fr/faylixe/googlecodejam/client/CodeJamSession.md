@@ -22,3 +22,8 @@ Return type | Signature
 **boolean** | isLogged
 [Problem](nullfr/faylixe/googlecodejam/client/webservice/Problem.md) | getProblem
 **boolean** | isActive
+[String]() | getContestAnalysis
+[String]() | buildFilename
+[InputStream]() | download
+[SubmitResponse](nullfr/faylixe/googlecodejam/client/webservice/SubmitResponse.md) | submit
+[CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | createSession
