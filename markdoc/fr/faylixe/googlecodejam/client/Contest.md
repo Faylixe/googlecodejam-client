@@ -6,9 +6,9 @@
  A {@link Contest} is represented by a name and a
  collection of {@link Round}.</p>
 
-Return type | Signature
---- | ---:
-[List]() | getRounds
-**int** | hashCode
-**boolean** | equals
-[List]() | get
+| Return type | Signature |
+| --- | ---: |
+| [List]() | getRounds |
+| **int** | hashCode |
+| **boolean** | equals |
+| [List]() | get |
