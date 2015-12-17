@@ -1,8 +1,6 @@
-
 # SubmitResponse
 
 [Object]() > [SubmitResponse](nullfr/faylixe/googlecodejam/client/webservice/SubmitResponse.md)
-
 
 <p>POJO that aims to be bind to the <tt>SubmitAnswer</tt>
  command request, using Gson API. Contains detail about

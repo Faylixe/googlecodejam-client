@@ -1,8 +1,6 @@
-
 # Problem
 
 [Object]() > [NamedObject](nullfr/faylixe/googlecodejam/client/common/NamedObject.md) > [Problem](nullfr/faylixe/googlecodejam/client/webservice/Problem.md)
-
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. {@link Problem} instance belong

@@ -1,8 +1,6 @@
-
 # InitialValues
 
 [Object]() > [InitialValues](nullfr/faylixe/googlecodejam/client/webservice/InitialValues.md)
-
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
  command request, using Gson API.</p>

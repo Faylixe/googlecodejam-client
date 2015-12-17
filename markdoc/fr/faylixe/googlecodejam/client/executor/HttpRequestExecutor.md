@@ -1,8 +1,6 @@
-
 # HttpRequestExecutor
 
 [Object]() > [HttpRequestExecutor](nullfr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md)
-
 
 <p>A {@link HttpRequestExecutor} is an abstraction
  on top of {@link HttpRequestFactory} that handles

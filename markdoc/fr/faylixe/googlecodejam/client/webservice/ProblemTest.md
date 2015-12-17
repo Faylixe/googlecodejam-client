@@ -1,8 +1,6 @@
-
 # ProblemTest
 
 [Object]() > [ProblemTest](nullfr/faylixe/googlecodejam/client/webservice/ProblemTest.md)
-
 
 Test case for the {@link Problem} class.
 

@@ -1,8 +1,6 @@
-
 # SeleniumCookieSupplier
 
 [Object]() > [SeleniumCookieSupplier](nullfr/faylixe/googlecodejam/client/executor/SeleniumCookieSupplier.md)
-
 
 TODO Javadoc
  TODO Cookie expiration parsing

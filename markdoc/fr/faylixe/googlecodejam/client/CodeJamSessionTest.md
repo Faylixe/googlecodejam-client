@@ -1,8 +1,6 @@
-
 # CodeJamSessionTest
 
 [Object]() > [CodeJamSessionTest](nullfr/faylixe/googlecodejam/client/CodeJamSessionTest.md)
-
 
 Test case for {@link CodeJamSession} class.
 

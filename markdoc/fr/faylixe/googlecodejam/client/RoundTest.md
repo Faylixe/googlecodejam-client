@@ -1,8 +1,6 @@
-
 # RoundTest
 
 [Object]() > [RoundTest](nullfr/faylixe/googlecodejam/client/RoundTest.md)
-
 
 Test case for the {@link Round} class.
 

@@ -1,8 +1,6 @@
-
 # ContestTest
 
 [Object]() > [ContestTest](nullfr/faylixe/googlecodejam/client/ContestTest.md)
-
 
 Test case for {@link Contest} class.
 
