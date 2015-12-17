@@ -11,15 +11,12 @@
  * Downloads input
  * Submits solutions
 
-test | est
---- | ---
-blabla | bar
 
 ## Summary
 
-| Return type | Signature | 
-| ----------- | ----------: | 
-| [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | refresh | 
+| Return type | Signature |
+| ----------- | ----------: |
+| [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | refresh |
 
 
 [ContestInfo](nullfr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | getContestInfo
