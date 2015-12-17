@@ -6,7 +6,7 @@
 
 Test case for the {@link Problem} class.
 
-| Return type | Signature |
-| --- | ---: |
-| [Problem](nullfr/faylixe/googlecodejam/client/webservice/Problem.md) | getTestProblem |
-| **void** | testProblemConsistency |
+Return type | Signature
+--- | ---:
+[Problem](nullfr/faylixe/googlecodejam/client/webservice/Problem.md) | getTestProblem
+**void** | testProblemConsistency

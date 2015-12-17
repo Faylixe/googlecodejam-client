@@ -6,5 +6,5 @@
 
 
 
-| Return type | Signature |
-| --- | ---: |
+Return type | Signature
+--- | ---:

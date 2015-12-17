@@ -8,10 +8,10 @@
  A {@link Round} is defined by a name, and a dashboard
  URL.</p>
 
-| Return type | Signature |
-| --- | ---: |
-| [String]() | getContestName |
-| [String]() | getURL |
-| **int** | hashCode |
-| **boolean** | equals |
-| [List]() | get |
+Return type | Signature
+--- | ---:
+[String]() | getContestName
+[String]() | getURL
+**int** | hashCode
+**boolean** | equals
+[List]() | get

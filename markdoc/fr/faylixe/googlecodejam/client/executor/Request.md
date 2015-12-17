@@ -8,6 +8,6 @@
  relative to HTTP API for interacting with
  Code Jam webservice.</p>
 
-| Return type | Signature |
-| --- | ---: |
-| [String]() | createBoundary |
+Return type | Signature
+--- | ---:
+[String]() | createBoundary

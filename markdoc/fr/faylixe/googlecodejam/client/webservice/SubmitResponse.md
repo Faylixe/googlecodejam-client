@@ -8,11 +8,11 @@
  command request, using Gson API. Contains detail about
  the performed submission.</p>
 
-| Return type | Signature |
-| --- | ---: |
-| [String]() | getMessage |
-| **boolean** | isSuccess |
-| **int** | getInputId |
-| **int** | getProblemId |
-| **int** | hashCode |
-| **boolean** | equals |
+Return type | Signature
+--- | ---:
+[String]() | getMessage
+**boolean** | isSuccess
+**int** | getInputId
+**int** | getProblemId
+**int** | hashCode
+**boolean** | equals

@@ -6,10 +6,10 @@
 
 Test case for {@link CodeJamSession} class.
 
-| Return type | Signature |
-| --- | ---: |
-| [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | getTestSession |
-| **void** | testSessionConsistency |
-| **void** | testContestAnalysis |
-| **void** | testDownload |
-| **void** | testSubmission |
+Return type | Signature
+--- | ---:
+[CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | getTestSession
+**void** | testSessionConsistency
+**void** | testContestAnalysis
+**void** | testDownload
+**void** | testSubmission

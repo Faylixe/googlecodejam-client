@@ -9,12 +9,12 @@
  to a {@link Problem} object, and describes input submission
  available for a given {@link Problem}.</p>
 
-| Return type | Signature |
-| --- | ---: |
-| [Problem](nullfr/faylixe/googlecodejam/client/webservice/Problem.md) | getProblem |
-| **int** | getDifficulty |
-| **int** | getNumber |
-| **int** | getPoints |
-| [String]() | getSuffix |
-| **int** | hashCode |
-| **boolean** | equals |
+Return type | Signature
+--- | ---:
+[Problem](nullfr/faylixe/googlecodejam/client/webservice/Problem.md) | getProblem
+**int** | getDifficulty
+**int** | getNumber
+**int** | getPoints
+[String]() | getSuffix
+**int** | hashCode
+**boolean** | equals
