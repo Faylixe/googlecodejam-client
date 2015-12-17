@@ -19,20 +19,20 @@ import org.jsoup.select.Elements;
  */
 public final class Round extends NamedObject {
 
-	/** Serialization index. **/
+	/** <p>Serialization index.</p> **/
 	private static final long serialVersionUID = 1L;
 
-	/** Class name of the HTML description node. **/
+	/** <p>Class name of the HTML description node.</p> **/
 	public static final String DESCRIPTION_CLASS_NAME = "desc";
 
-	/** Name of the parent contest. **/
+	/** <p>Name of the parent contest.</p> **/
 	private final String parent;
 
-	/** URL of this round dashboard. **/
+	/** <p>URL of this round dashboard.</p> **/
 	private final String url;
 
 	/**
-	 * Default constructor.
+	 * <p>Default constructor.</p>
 	 * 
 	 * @param parent Name of the parent contest of this round.
 	 * @param name Name of this round.
@@ -45,7 +45,7 @@ public final class Round extends NamedObject {
 	}
 
 	/**
-	 * Getter for the parent contest name.
+	 * <p>Getter for the parent contest name.</p>
 	 * 
 	 * @return Name of the parent contest.
 	 */
@@ -82,8 +82,8 @@ public final class Round extends NamedObject {
 	}
 
 	/**
-	 * Static factory method that builds a {@link Round} instance
-	 * from the given HTML element.
+	 * <p>Static factory method that builds a {@link Round} instance
+	 * from the given HTML element.</p>
 	 * 
 	 * @param element Element that contains our round description.
 	 * @return Built {@link Round} instance.
@@ -101,8 +101,8 @@ public final class Round extends NamedObject {
 	}
 
 	/**
-	 * Static factory methods that retrieves a list of round
-	 * from the given JSoup <tt>contest</tt> node.
+	 * <p>Static factory methods that retrieves a list of round
+	 * from the given JSoup <tt>contest</tt> node.</p>
 	 * 
 	 * @param contest Root element of the contest in the contest index page.
 	 * @param parent Parent contest name.

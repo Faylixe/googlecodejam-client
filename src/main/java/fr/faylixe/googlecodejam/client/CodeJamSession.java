@@ -40,39 +40,39 @@ import com.google.gson.Gson;
  */
 public final class CodeJamSession extends NamedObject implements Serializable {
 
-	/** Serialization index. **/
+	/** <p>Serialization index.</p> **/
 	private static final long serialVersionUID = 1L;
 
-	/** Downloaded input file extension used for filename generation. **/
+	/** <p>Downloaded input file extension used for filename generation.</p> **/
 	private static final String INPUT_EXTENSION = ".in";
 
-	/** Practice file type for unactive contest. **/
+	/** <p>Practice file type for unactive contest.</p> **/
 	private static final String PRACTICE = "practice";
 
-	/** Error message set when analysis retrieval failed. **/
+	/** <p>Error message set when analysis retrieval failed.</p> **/
 	private static final String ANALYSIS_ERROR = "An error occurs while retrieving analysis : %s";
 
-	/** Character used for file name generation. **/
+	/** <p>Character used for file name generation.</p> **/
 	private static final char FILENAME_SEPARATOR = '-';
 
-	/** Logged HTTP executor for executing queries. **/
+	/** <p>Logged HTTP executor for executing queries.</p> **/
 	private final HttpRequestExecutor executor;
 
-	/** Current selected round this session is working on. **/
+	/** <p>Current selected round this session is working on.</p> **/
 	private final Round round;
 
-	/** Current contest info this session is working on. **/
+	/** <p>Current contest info this session is working on.</p> **/
 	private final ContestInfo info;
 
-	/** Initial values this session is working on. **/
+	/** <p>Initial values this session is working on.</p> **/
 	private final InitialValues values;
 
-	/** Map of already loaded contest analysis. **/
+	/** <p>Map of already loaded contest analysis.</p> **/
 	private final Map<Problem, String> analysis;
 
 	/**
-	 * Static factory that builds the name of this session
-	 * regarding of the given <tt>round</tt>.
+	 * <p>Static factory that builds the name of this session
+	 * regarding of the given <tt>round</tt>.</p>
 	 * 
 	 * @param round Round to build name from.
 	 * @return Name built.
@@ -87,7 +87,7 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 
 	/**
-	 * Default constructor.
+	 * <p>Default constructor.</p>
 	 * 
 	 * @param executor Logged HTTP executor for executing queries.
 	 * @param round Current selected round this session is working on.
@@ -108,7 +108,7 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 
 	/**
-	 * Reloads session components in order to prevent from any change.
+	 * <p>Reloads session components in order to prevent from any change.</p>
 	 * 
 	 * @return A newly created session updated otherwise.
 	 * @throws IOException If any error occurs while reloading a new session.
@@ -118,8 +118,8 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 	
 	/**
-	 * Performs and returns a <tt>GET /</tt> request
-	 * in order to get all <tt>round</tt> detail.
+	 * <p>Performs and returns a <tt>GET /</tt> request
+	 * in order to get all <tt>round</tt> detail.</p>
 	 * 
 	 * @return Request response as a {@link ContestInfo} POJO.
 	 */
@@ -128,8 +128,8 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 
 	/**
-	 * Indicates if the currently logged user is qualified
-	 * for the next round or not.
+	 * <p>Indicates if the currently logged user is qualified
+	 * for the next round or not.</p>
 	 * 
 	 * @return <tt>true</tt> if user is qualified, <tt>false</tt> otherwise.
 	 */
@@ -138,7 +138,7 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 	
 	/**
-	 * Indicates if the current session is logged in or not.
+	 * <p>Indicates if the current session is logged in or not.</p>
 	 * 
 	 * @return <tt>true</tt> if user is logged, <tt>false</tt> otherwise.
 	 */
@@ -147,8 +147,8 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 
 	/**
-	 * Retrieves the problem associated
-	 * to the given <tt>letter</tt>.
+	 * <p>Retrieves the problem associated
+	 * to the given <tt>letter</tt>.</p>
 	 * 
 	 * @param letter Letter that identifies the problem.
 	 * @return Corresponding problem if exist, <tt>null</tt> otherwise.
@@ -167,9 +167,9 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 
 	/**
-	 * Indiciates if the contest is currently active,
+	 * <p>Indiciates if the contest is currently active,
 	 * namely if competition is occuring at the current
-	 * time, or not.
+	 * time, or not.</p>
 	 * 
 	 * @return <tt>true</tt> if the contest is active, <tt>false</tt> otherwise.
 	 */
@@ -182,8 +182,8 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 
 	/**
-	 * Retrieves and returns the analysis
-	 * for the given <tt>problem</tt>.
+	 * <p>Retrieves and returns the analysis
+	 * for the given <tt>problem</tt>.</p>
 	 * 
 	 * @param problem Problem to retrieve analysis from.
 	 * @return Analysis if any.
@@ -205,8 +205,8 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 	
 	/**
-	 * Returns the analysis for the given
-	 * <tt>problem</tt> if any.
+	 * <p>Returns the analysis for the given
+	 * <tt>problem</tt> if any.</p>
 	 * 
 	 * @param problem Problem to retrieve analysis from.
 	 * @return Analysis if any.
@@ -225,8 +225,8 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 	
 	/**
-	 * Computes input file type suffix for the
-	 * given <tt>input</tt>.
+	 * <p>Computes input file type suffix for the
+	 * given <tt>input</tt>.</p>
 	 * 
 	 * @param input Problem input to retrieve suffix from.
 	 * @return "practice" if the contest if not active, computed suffix otherwise.
@@ -239,8 +239,8 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 
 	/**
-	 * Builds and returns a valid file name
-	 * for the given problem <tt>input</tt>.
+	 * <p>Builds and returns a valid file name
+	 * for the given problem <tt>input</tt>.</p>
 	 * 
 	 * @param input Input to retrieve file name from.
 	 * @return Built file name.
@@ -261,9 +261,9 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 
 	/**
-	 * Downloads and returns the stream of the
+	 * <p>Downloads and returns the stream of the
 	 * input file associated to the given problem
-	 * <tt>input</tt>.
+	 * <tt>input</tt>.</p>
 	 * 
 	 * @param input Input to download file from.
 	 * @return Stream to read which contains our downloaded file data.
@@ -293,13 +293,13 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	
 
 	/**
-	 * Submits the given <tt>output</tt> file and the
+	 * <p>Submits the given <tt>output</tt> file and the
 	 * given <tt>source</tt> file for the given problem
 	 * <tt>input</tt>. This method should be call only
 	 * after a successful call to the {@link #download(ProblemInput)}
 	 * method on the same <tt>input</tt>, as the evaluation
 	 * system will judge the last downloaded dataset
-	 * based on the internal token / session.
+	 * based on the internal token / session.</p>
 	 * 
 	 * @param input Input file to submit solution for.
 	 * @param output Output file produced by the algorithm.
@@ -318,8 +318,8 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 
 	/**
-	 * Created and returns a valid {@link MultipartContent} instance
-	 * that contains data required for submission.
+	 * <p>Created and returns a valid {@link MultipartContent} instance
+	 * that contains data required for submission.</p>
 	 * 
 	 * @param input Input file to submit solution for.
 	 * @param output Output file produced by the algorithm.
@@ -343,9 +343,9 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	}
 
 	/**
-	 * Static factory method that should be used for creating a session.
+	 * <p>Static factory method that should be used for creating a session.
 	 * Loads associated contest info and initial values from the given
-	 * <tt>round</tt>, using the given <tt>executor</tt>.
+	 * <tt>round</tt>, using the given <tt>executor</tt>.</p>
 	 * 
 	 * @param executor {@link HttpRequestExecutor} instance to use.
 	 * @param round Contextual {@link Round} instance this session is bound to.

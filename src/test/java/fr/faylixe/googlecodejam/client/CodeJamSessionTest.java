@@ -87,14 +87,9 @@ public final class CodeJamSessionTest {
 	public void testContestAnalysis() {
 		final CodeJamSession session = getTestSession();
 		final Problem problem = ProblemTest.getTestProblem();
-		try {
-			final String analysis = session.getContestAnalysis(problem);
-			final String expected = Resources.getResource(ANALYSIS_PATH);
-			assertEquals(expected, analysis);
-		}
-		catch (final IOException e) {
-			fail("An error occurs while retrieving contest analysis : " + e.getMessage());
-		}
+		final String analysis = session.getContestAnalysis(problem);
+		final String expected = Resources.getResource(ANALYSIS_PATH);
+		assertEquals(expected, analysis);
 	}
 
 	/**

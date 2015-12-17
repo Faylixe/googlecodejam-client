@@ -24,20 +24,20 @@ import org.jsoup.select.Elements;
  */
 public final class Contest extends NamedObject {
 
-	/** Serialization index. **/
+	/** <p>Serialization index.</p> **/
 	private static final long serialVersionUID = 1L;
 
-	/** URL of the contest index page. **/
+	/** <p>URL of the contest index page.</p> **/
 	public static final String CONTEST_INDEX = "/codejam/contests.html";
 
-	/** Class name of the element that contains contest data. **/
+	/** <p>Class name of the element that contains contest data.</p> **/
 	public static final String CONTEST_CLASS_NAME = "year_row";
 
-	/** {@link Round} that belongs to this contest. **/
+	/** <p>{@link Round} that belongs to this contest.</p> **/
 	private final List<Round> rounds;
 
 	/**
-	 * Default constructor.
+	 * <p>Default constructor.</p>
 	 * 
 	 * @param name Name of this contest.
 	 * @param rounds {@link Round} that belongs to this contest.
@@ -48,8 +48,8 @@ public final class Contest extends NamedObject {
 	}
 	
 	/**
-	 * Getter that returns a immutable view
-	 * of the {@link Round} list.
+	 * <p>Getter that returns a immutable view
+	 * of the {@link Round} list.</p>
 	 * 
 	 * @return List of the round of this contest.
 	 * @see Collections#unmodifiableList(List)
@@ -64,7 +64,7 @@ public final class Contest extends NamedObject {
 		return getName().hashCode();
 	}
 	
-	/** **/
+	/** {@inheritDoc} **/
 	@Override
 	public boolean equals(final Object object) {
 		if (object == this) {
@@ -78,8 +78,8 @@ public final class Contest extends NamedObject {
 	}
 
 	/**
-	 * Static factory method that retrieves contest name
-	 * from a given HTML contest element.
+	 * <p>Static factory method that retrieves contest name
+	 * from a given HTML contest element.</p>
 	 * 
 	 * @param element JSoup element to retrieve title from.
 	 * @return Optional reference of a contest title.
@@ -93,8 +93,8 @@ public final class Contest extends NamedObject {
 	}
 
 	/**
-	 * Creates and returns a contest instance from the given
-	 * <tt>year</tt> HTML element.
+	 * <p>Creates and returns a contest instance from the given
+	 * <tt>year</tt> HTML element.</p>
 	 * 
 	 * @param year HTML element to extract contest from.
 	 * @return Created contest if any.
@@ -111,8 +111,8 @@ public final class Contest extends NamedObject {
 	}
 
 	/**
-	 * Retrieves and returns a list of available
-	 * contest for the given <tt>hostname</tt>
+	 * <p>Retrieves and returns a list of available
+	 * contest for the given <tt>hostname</tt>.</p>
 	 * 
 	 * @param executor {@link HttpRequestExecutor} instance to use to retrieve contest index.
 	 * @return List of contest extracted.
