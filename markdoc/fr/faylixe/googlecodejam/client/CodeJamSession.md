@@ -14,18 +14,6 @@
 
 ## Summary
 
-| Return type | Signature |
-| ----------- | ----------: |
-| [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | refresh |
-
-
-[ContestInfo](nullfr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | getContestInfo
-**boolean** | isQualified
-**boolean** | isLogged
-[Problem](nullfr/faylixe/googlecodejam/client/webservice/Problem.md) | getProblem
-**boolean** | isActive
-[String]() | getContestAnalysis
-[String]() | buildFilename
-[InputStream]() | download
-[SubmitResponse](nullfr/faylixe/googlecodejam/client/webservice/SubmitResponse.md) | submit
-[CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | createSession
+Return type | Signature
+--- | ---
+[CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | refresh
