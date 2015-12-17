@@ -11,6 +11,10 @@
  * Downloads input
  * Submits solutions
 
+test | est
+--- | ---
+blabla | bar
+
 ## Summary
 
 Return type | Signature
