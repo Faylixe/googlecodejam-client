@@ -26,3 +26,5 @@
 | [InputStream]() | download |
 | [SubmitResponse](nullfr/faylixe/googlecodejam/client/webservice/SubmitResponse.md) | submit |
 | [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | createSession |
+
+### Methods
