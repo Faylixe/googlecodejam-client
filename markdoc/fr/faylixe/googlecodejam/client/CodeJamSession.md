@@ -1,5 +1,5 @@
 
-# fr.faylixe.googlecodejam.client.CodeJamSession
+# CodeJamSession
 
 [Object]() > [NamedObject](nullfr/faylixe/googlecodejam/client/common/NamedObject.md) > [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md)
 
@@ -13,8 +13,9 @@
  * Downloads input
  * Submits solutions
 
-| Return type | name |
-| --- | --- |
+| Return type | Signature |
+
+| --- | ---: |
 | [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | refresh |
 | [ContestInfo](nullfr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | getContestInfo |
 | **boolean** | isQualified |
@@ -26,12 +27,3 @@
 | [InputStream]() | download |
 | [SubmitResponse](nullfr/faylixe/googlecodejam/client/webservice/SubmitResponse.md) | submit |
 | [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | createSession |
-
-
-
-## Fields
-
-
-
-## Methods
-
