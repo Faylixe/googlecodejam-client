@@ -7,4 +7,5 @@
  Code Jam webservice.</p>
 
 Return type | Signature
---- | ---:[String]() | createBoundary
+--- | ---:
+[String]() | createBoundary

@@ -7,7 +7,8 @@
  the performed submission.</p>
 
 Return type | Signature
---- | ---:[String]() | getMessage
+--- | ---:
+[String]() | getMessage
 **boolean** | isSuccess
 **int** | getInputId
 **int** | getProblemId

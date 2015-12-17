@@ -7,7 +7,8 @@
  URL.</p>
 
 Return type | Signature
---- | ---:[String]() | getContestName
+--- | ---:
+[String]() | getContestName
 [String]() | getURL
 **int** | hashCode
 **boolean** | equals

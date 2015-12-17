@@ -7,7 +7,8 @@
  GET and POST request.</p>
 
 Return type | Signature
---- | ---:[String]() | getHostname
+--- | ---:
+[String]() | getHostname
 [HttpRequest]() | getRequest
 [String]() | get
 [String]() | post

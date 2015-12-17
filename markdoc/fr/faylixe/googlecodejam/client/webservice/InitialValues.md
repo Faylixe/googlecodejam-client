@@ -8,7 +8,8 @@
  TODO Ensures seen is not boolean.
 
 Return type | Signature
---- | ---:[String]() | getAdmin
+--- | ---:
+[String]() | getAdmin
 **int** | getSeen
 **int** | getCS
 [String]() | getToken

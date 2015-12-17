@@ -8,7 +8,8 @@
  metadata such a name, description, and IO details.</p>
 
 Return type | Signature
---- | ---:[ContestInfo](nullfr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | getParent
+--- | ---:
+[ContestInfo](nullfr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | getParent
 [String]() | getNormalizedName
 [String]() | getBody
 [String]() | getId
