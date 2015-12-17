@@ -13,6 +13,7 @@
  * Downloads input
  * Submits solutions
 
+| Return type | name |
 | --- | --- |
 | [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | refresh |
 | [ContestInfo](nullfr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | getContestInfo |
