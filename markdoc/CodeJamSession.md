@@ -12,7 +12,8 @@
  * Interacts with platform API from a given round
  * Downloads input
  * Submits solutions
- 
+
+| --- | --- |
 | [CodeJamSession](nullfr/faylixe/googlecodejam/client/CodeJamSession.md) | refresh |
 | [ContestInfo](nullfr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | getContestInfo |
 | **boolean** | isQualified |
