@@ -33,21 +33,39 @@ Return type | Signature
 ###Fields
 
 ###Methods
-### get
-### getAdmin
-### getCS
-### getEmail
-### getInput
-### getLeft
-### getLoginHTML
-### getLogoutHTML
-### getName
-### getSeen
-### getSnippet
-### getStart
-### getToken
-### getURLEncodedToken
-### getUntilStart
-### getVersion
-### isLogged
-### isQualified
+####get
+
+####getAdmin
+
+####getCS
+
+####getEmail
+
+####getInput
+
+####getLeft
+
+####getLoginHTML
+
+####getLogoutHTML
+
+####getName
+
+####getSeen
+
+####getSnippet
+
+####getStart
+
+####getToken
+
+####getURLEncodedToken
+
+####getUntilStart
+
+####getVersion
+
+####isLogged
+
+####isQualified
+

@@ -14,5 +14,7 @@ Return type | Signature
 ###Fields
 
 ###Methods
-### getTestContests
-### testContestConsistency
+####getTestContests
+
+####testContestConsistency
+

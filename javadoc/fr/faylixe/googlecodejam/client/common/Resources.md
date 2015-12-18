@@ -16,7 +16,11 @@ Return type | Signature
 ###Fields
 
 ###Methods
-### getHTMLTemplate
-### getResource
-### getResourceStream
-### normalize
+####getHTMLTemplate
+
+####getResource
+
+####getResourceStream
+
+####normalize
+

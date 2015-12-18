@@ -30,14 +30,25 @@ Return type | Signature
 ###Fields
 
 ###Methods
-### buildFilename
-### createSession
-### download
-### getContestAnalysis
-### getContestInfo
-### getProblem
-### isActive
-### isLogged
-### isQualified
-### refresh
-### submit
+####buildFilename
+
+####createSession
+
+####download
+
+####getContestAnalysis
+
+####getContestInfo
+
+####getProblem
+
+####isActive
+
+####isLogged
+
+####isQualified
+
+####refresh
+
+####submit
+

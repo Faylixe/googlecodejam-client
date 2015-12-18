@@ -22,11 +22,19 @@ Return type | Signature
 ###Fields
 
 ###Methods
-### buildDataPart
-### buildFilePart
-### create
-### create
-### get
-### getHostname
-### getRequest
-### post
+####buildDataPart
+
+####buildFilePart
+
+####create
+
+####create
+
+####get
+
+####getHostname
+
+####getRequest
+
+####post
+

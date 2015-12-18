@@ -22,10 +22,17 @@ Return type | Signature
 ###Fields
 
 ###Methods
-### equals
-### getDifficulty
-### getNumber
-### getPoints
-### getProblem
-### getSuffix
-### hashCode
+####equals
+
+####getDifficulty
+
+####getNumber
+
+####getPoints
+
+####getProblem
+
+####getSuffix
+
+####hashCode
+

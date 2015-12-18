@@ -20,7 +20,11 @@ Return type | Signature
 ###Fields
 
 ###Methods
-### cancel
-### checkCurrentState
-### get
-### isRunning
+####cancel
+
+####checkCurrentState
+
+####get
+
+####isRunning
+

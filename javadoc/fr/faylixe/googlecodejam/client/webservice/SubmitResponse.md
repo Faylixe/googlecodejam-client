@@ -20,9 +20,15 @@ Return type | Signature
 ###Fields
 
 ###Methods
-### equals
-### getInputId
-### getMessage
-### getProblemId
-### hashCode
-### isSuccess
+####equals
+
+####getInputId
+
+####getMessage
+
+####getProblemId
+
+####hashCode
+
+####isSuccess
+

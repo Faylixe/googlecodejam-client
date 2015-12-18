@@ -19,8 +19,13 @@ Return type | Signature
 ###Fields
 
 ###Methods
-### equals
-### get
-### getContestName
-### getURL
-### hashCode
+####equals
+
+####get
+
+####getContestName
+
+####getURL
+
+####hashCode
+

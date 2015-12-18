@@ -17,6 +17,9 @@ Return type | Signature
 ###Fields
 
 ###Methods
-### download
-### init
-### submit
+####download
+
+####init
+
+####submit
+

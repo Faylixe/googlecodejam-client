@@ -18,7 +18,11 @@ Return type | Signature
 ###Fields
 
 ###Methods
-### equals
-### get
-### getRounds
-### hashCode
+####equals
+
+####get
+
+####getRounds
+
+####hashCode
+
