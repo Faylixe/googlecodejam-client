@@ -1,7 +1,7 @@
 #HttpRequestExecutorMock
 
 Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client)<br>
-[Object]() > [HttpRequestExecutorMock]()
+[Object]() > [HttpRequestExecutorMock](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/HttpRequestExecutorMock.md)
 
 Test case for the {@link HttpRequestExecutor} class.
 
@@ -10,7 +10,7 @@ Test case for the {@link HttpRequestExecutor} class.
 
 | Method |
 | --- |
-| **public static** [HttpRequestExecutor]() getTestExecutor() |
+| **public static** [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md) getTestExecutor() |
 
 ###Fields
 

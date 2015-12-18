@@ -1,7 +1,7 @@
 #InitialValues
 
 Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
-[Object]() > [InitialValues]()
+[Object]() > [InitialValues](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValues.md)
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
  command request, using Gson API.</p>
@@ -13,7 +13,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/
 
 | Method |
 | --- |
-| **public static** [InitialValues]() get() |
+| **public static** [InitialValues](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValues.md) get() |
 | **public** [String]() getAdmin() |
 | **public** **int** getCS() |
 | **public** [String]() getEmail() |

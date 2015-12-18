@@ -1,7 +1,7 @@
 #RoundTest
 
 Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client)<br>
-[Object]() > [RoundTest]()
+[Object]() > [RoundTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/RoundTest.md)
 
 Test case for the {@link Round} class.
 
@@ -10,7 +10,7 @@ Test case for the {@link Round} class.
 
 | Method |
 | --- |
-| **public static** [Round]() getTestRound() |
+| **public static** [Round](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/Round.md) getTestRound() |
 | **public** **void** testRoundConsistency() |
 
 ###Fields
