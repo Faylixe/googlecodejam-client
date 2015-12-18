@@ -1,6 +1,5 @@
 #InitialValues
 Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
-
 [Object]() > [InitialValues]()
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
@@ -8,6 +7,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodeja
  
  TODO Ensures seen is not boolean.
 
+###Summary
 
 Return type | Signature
 --- | ---:
@@ -29,3 +29,25 @@ Return type | Signature
 **int** | getVersion
 **boolean** | isLogged
 **boolean** | isQualified
+
+###Fields
+
+###Methods
+### get
+### getAdmin
+### getCS
+### getEmail
+### getInput
+### getLeft
+### getLoginHTML
+### getLogoutHTML
+### getName
+### getSeen
+### getSnippet
+### getStart
+### getToken
+### getURLEncodedToken
+### getUntilStart
+### getVersion
+### isLogged
+### isQualified

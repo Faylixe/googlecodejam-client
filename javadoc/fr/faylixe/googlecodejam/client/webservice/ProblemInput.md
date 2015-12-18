@@ -1,6 +1,5 @@
 #ProblemInput
 Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
-
 [Object]() > [NamedObject]() > [ProblemInput]()
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
@@ -8,6 +7,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodeja
  to a {@link Problem} object, and describes input submission
  available for a given {@link Problem}.</p>
 
+###Summary
 
 Return type | Signature
 --- | ---:
@@ -18,3 +18,14 @@ Return type | Signature
 [Problem]() | getProblem
 [String]() | getSuffix
 **int** | hashCode
+
+###Fields
+
+###Methods
+### equals
+### getDifficulty
+### getNumber
+### getPoints
+### getProblem
+### getSuffix
+### hashCode

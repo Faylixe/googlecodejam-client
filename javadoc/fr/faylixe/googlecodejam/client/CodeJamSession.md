@@ -1,6 +1,5 @@
 #CodeJamSession
 Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)
-
 [Object]() > [NamedObject]() > [CodeJamSession]()
 
 {@link CodeJamSession} is the main API entry point, which consists
@@ -12,6 +11,7 @@ Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)
  * Downloads input
  * Submits solutions
 
+###Summary
 
 Return type | Signature
 --- | ---:
@@ -26,3 +26,18 @@ Return type | Signature
 **boolean** | isQualified
 [CodeJamSession]() | refresh
 [SubmitResponse]() | submit
+
+###Fields
+
+###Methods
+### buildFilename
+### createSession
+### download
+### getContestAnalysis
+### getContestInfo
+### getProblem
+### isActive
+### isLogged
+### isQualified
+### refresh
+### submit

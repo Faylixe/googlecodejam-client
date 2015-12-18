@@ -1,11 +1,11 @@
 #ContestInfo
 Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
-
 [Object]() > [ContestInfo]()
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API.</p>
 
+###Summary
 
 Return type | Signature
 --- | ---:
@@ -15,3 +15,13 @@ Return type | Signature
 **int** | getVersion
 **boolean** | hasAnalysis
 **void** | validateObject
+
+###Fields
+
+###Methods
+### get
+### getProblem
+### getProblems
+### getVersion
+### hasAnalysis
+### validateObject

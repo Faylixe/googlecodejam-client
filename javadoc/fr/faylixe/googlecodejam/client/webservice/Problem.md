@@ -1,6 +1,5 @@
 #Problem
 Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
-
 [Object]() > [NamedObject]() > [Problem]()
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
@@ -8,6 +7,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodeja
  to a {@link ContestInfo} object, and consists in the problem
  metadata such a name, description, and IO details.</p>
 
+###Summary
 
 Return type | Signature
 --- | ---:
@@ -23,3 +23,19 @@ Return type | Signature
 [String]() | getType
 **int** | hashCode
 **void** | validateObject
+
+###Fields
+
+###Methods
+### equals
+### getBody
+### getId
+### getKey
+### getNormalizedName
+### getParent
+### getProblemInput
+### getProblemInput
+### getProblemInputs
+### getType
+### hashCode
+### validateObject
