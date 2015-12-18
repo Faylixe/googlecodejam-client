@@ -1,6 +1,6 @@
 #Contest
 
-Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)<br>
+Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client)<br>
 [Object]() > [NamedObject]() > [Contest]()
 
 <p>POJO class that represents a Google Jam {@link Contest}.
@@ -12,10 +12,10 @@ Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)<b
 
 | Method |
 | --- |
-| **public****boolean**equals() |
-| **public static**[List]()get() |
-| **public**[List]()getRounds() |
-| **public****int**hashCode() |
+| **public** **boolean** equals() |
+| **public static** [List]() get() |
+| **public** [List]() getRounds() |
+| **public** **int** hashCode() |
 
 ###Fields
 

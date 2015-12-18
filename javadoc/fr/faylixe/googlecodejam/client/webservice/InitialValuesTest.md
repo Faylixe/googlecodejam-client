@@ -1,6 +1,6 @@
 #InitialValuesTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
 [Object]() > [InitialValuesTest]()
 
 Test case for {@link InitialValues} class.
@@ -10,8 +10,8 @@ Test case for {@link InitialValues} class.
 
 | Method |
 | --- |
-| **public static**[InitialValues]()getTestInitialValues() |
-| **public****void**testInitialValuesConsistency() |
+| **public static** [InitialValues]() getTestInitialValues() |
+| **public** **void** testInitialValuesConsistency() |
 
 ###Fields
 

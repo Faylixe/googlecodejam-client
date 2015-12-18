@@ -1,6 +1,6 @@
 #Events
 
-Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
 [Object]() > [Events]()
 
 TODO : Fill with Event response attribute.

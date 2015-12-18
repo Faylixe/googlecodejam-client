@@ -1,6 +1,6 @@
 #HttpRequestExecutor
 
-Package [fr.faylixe.googlecodejam.client.executor](nullfr/faylixe/googlecodejam/client/executor)<br>
+Package [fr.faylixe.googlecodejam.client.executor](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/executor)<br>
 [Object]() > [HttpRequestExecutor]()
 
 <p>A {@link HttpRequestExecutor} is an abstraction
@@ -12,14 +12,14 @@ Package [fr.faylixe.googlecodejam.client.executor](nullfr/faylixe/googlecodejam/
 
 | Method |
 | --- |
-| **public static**[MultipartContent.Part]()buildDataPart() |
-| **public static**[MultipartContent.Part]()buildFilePart() |
-| **public static**[HttpRequestExecutor]()create() |
-| **public static**[HttpRequestExecutor]()create() |
-| **public**[String]()get() |
-| **public**[String]()getHostname() |
-| **public**[HttpRequest]()getRequest() |
-| **public**[String]()post() |
+| **public static** [MultipartContent.Part]() buildDataPart() |
+| **public static** [MultipartContent.Part]() buildFilePart() |
+| **public static** [HttpRequestExecutor]() create() |
+| **public static** [HttpRequestExecutor]() create() |
+| **public** [String]() get() |
+| **public** [String]() getHostname() |
+| **public** [HttpRequest]() getRequest() |
+| **public** [String]() post() |
 
 ###Fields
 

@@ -1,6 +1,6 @@
 #SeleniumCookieSupplier
 
-Package [fr.faylixe.googlecodejam.client.executor](nullfr/faylixe/googlecodejam/client/executor)<br>
+Package [fr.faylixe.googlecodejam.client.executor](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/executor)<br>
 [Object]() > [SeleniumCookieSupplier]()
 
 TODO Javadoc
@@ -14,10 +14,10 @@ TODO Javadoc
 
 | Method |
 | --- |
-| **public****void**cancel() |
-| **public****void**checkCurrentState() |
-| **public**[String]()get() |
-| **public****boolean**isRunning() |
+| **public** **void** cancel() |
+| **public** **void** checkCurrentState() |
+| **public** [String]() get() |
+| **public** **boolean** isRunning() |
 
 ###Fields
 

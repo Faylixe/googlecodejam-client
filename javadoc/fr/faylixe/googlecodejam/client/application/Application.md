@@ -1,6 +1,6 @@
 #Application
 
-Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodejam/client/application)<br>
+Package [fr.faylixe.googlecodejam.client.application](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/application)<br>
 [Object]() > [Application]()
 
 <p>Main class that could be used as a command line program.</p>
@@ -10,7 +10,7 @@ Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodej
 
 | Method |
 | --- |
-| **public static****void**main() |
+| **public static** **void** main() |
 
 ###Fields
 

@@ -1,6 +1,6 @@
 #NamedObjectTest
 
-Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/client/common)<br>
+Package [fr.faylixe.googlecodejam.client.common](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/common)<br>
 [Object]() > [NamedObjectTest]()
 
 Test case for {@link NamedObject} class.
@@ -10,8 +10,8 @@ Test case for {@link NamedObject} class.
 
 | Method |
 | --- |
-| **public****void**testDefault() |
-| **public****void**testSerialized() |
+| **public** **void** testDefault() |
+| **public** **void** testSerialized() |
 
 ###Fields
 

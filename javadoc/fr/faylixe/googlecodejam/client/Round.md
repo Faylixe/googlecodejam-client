@@ -1,6 +1,6 @@
 #Round
 
-Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)<br>
+Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client)<br>
 [Object]() > [NamedObject]() > [Round]()
 
 <p>POJO class that represents a Google Jam {@link Round}.
@@ -12,11 +12,11 @@ Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)<b
 
 | Method |
 | --- |
-| **public****boolean**equals() |
-| **public static**[List]()get() |
-| **public**[String]()getContestName() |
-| **public**[String]()getURL() |
-| **public****int**hashCode() |
+| **public** **boolean** equals() |
+| **public static** [List]() get() |
+| **public** [String]() getContestName() |
+| **public** [String]() getURL() |
+| **public** **int** hashCode() |
 
 ###Fields
 

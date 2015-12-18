@@ -1,6 +1,6 @@
 #CodeJamSession
 
-Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)<br>
+Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client)<br>
 [Object]() > [NamedObject]() > [CodeJamSession]()
 
 {@link CodeJamSession} is the main API entry point, which consists
@@ -17,17 +17,17 @@ Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)<b
 
 | Method |
 | --- |
-| **public**[String]()buildFilename() |
-| **public static**[CodeJamSession]()createSession() |
-| **public**[InputStream]()download() |
-| **public**[String]()getContestAnalysis() |
-| **public**[ContestInfo]()getContestInfo() |
-| **public**[Problem]()getProblem() |
-| **public****boolean**isActive() |
-| **public****boolean**isLogged() |
-| **public****boolean**isQualified() |
-| **public**[CodeJamSession]()refresh() |
-| **public**[SubmitResponse]()submit() |
+| **public** [String]() buildFilename() |
+| **public static** [CodeJamSession]() createSession() |
+| **public** [InputStream]() download() |
+| **public** [String]() getContestAnalysis() |
+| **public** [ContestInfo]() getContestInfo() |
+| **public** [Problem]() getProblem() |
+| **public** **boolean** isActive() |
+| **public** **boolean** isLogged() |
+| **public** **boolean** isQualified() |
+| **public** [CodeJamSession]() refresh() |
+| **public** [SubmitResponse]() submit() |
 
 ###Fields
 

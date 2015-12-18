@@ -1,6 +1,6 @@
 #ProblemInputTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
 [Object]() > [ProblemInputTest]()
 
 Test case for the {@link ProblemInput} class.
@@ -10,7 +10,7 @@ Test case for the {@link ProblemInput} class.
 
 | Method |
 | --- |
-| **public****void**testProblemInputConsistency() |
+| **public** **void** testProblemInputConsistency() |
 
 ###Fields
 

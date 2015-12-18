@@ -1,6 +1,6 @@
 #ApplicationCommand
 
-Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodejam/client/application)<br>
+Package [fr.faylixe.googlecodejam.client.application](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/application)<br>
 [Object]() > [ApplicationCommand]()
 
 <p>This class contains static method that are
@@ -12,9 +12,9 @@ Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodej
 
 | Method |
 | --- |
-| **public static****boolean**download() |
-| **public static****boolean**init() |
-| **public static****boolean**submit() |
+| **public static** **boolean** download() |
+| **public static** **boolean** init() |
+| **public static** **boolean** submit() |
 
 ###Fields
 

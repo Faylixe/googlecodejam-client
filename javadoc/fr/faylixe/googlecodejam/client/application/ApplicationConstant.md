@@ -1,6 +1,6 @@
 #ApplicationConstant
 
-Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodejam/client/application)<br>
+Package [fr.faylixe.googlecodejam.client.application](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/application)<br>
 [Object]() > [ApplicationConstant]()
 
 <p>Constants used for managing command
@@ -11,7 +11,7 @@ Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodej
 
 | Method |
 | --- |
-| **public static**[Options]()createOptions() |
+| **public static** [Options]() createOptions() |
 
 ###Fields
 

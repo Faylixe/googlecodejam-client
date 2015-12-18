@@ -1,6 +1,6 @@
 #ContestInfoTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
 [Object]() > [ContestInfoTest]()
 
 Test case for {@link ContestInfo} class.
@@ -10,9 +10,9 @@ Test case for {@link ContestInfo} class.
 
 | Method |
 | --- |
-| **public static**[ContestInfo]()getTestContestInfo() |
-| **public static****void**testContestInfoConsistency() |
-| **public****void**testContestInfoConsistency() |
+| **public static** [ContestInfo]() getTestContestInfo() |
+| **public static** **void** testContestInfoConsistency() |
+| **public** **void** testContestInfoConsistency() |
 
 ###Fields
 

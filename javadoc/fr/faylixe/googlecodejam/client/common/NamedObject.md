@@ -1,6 +1,6 @@
 #NamedObject
 
-Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/client/common)<br>
+Package [fr.faylixe.googlecodejam.client.common](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/common)<br>
 [Object]() > [NamedObject]()
 
 <p>Class that represents a object which
@@ -11,7 +11,7 @@ Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/cl
 
 | Method |
 | --- |
-| **public final**[String]()getName() |
+| **public final** [String]() getName() |
 
 ###Fields
 

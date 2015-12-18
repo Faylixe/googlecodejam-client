@@ -1,6 +1,6 @@
 #SubmitResponse
 
-Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
 [Object]() > [SubmitResponse]()
 
 <p>POJO that aims to be bind to the <tt>SubmitAnswer</tt>
@@ -12,12 +12,12 @@ Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodeja
 
 | Method |
 | --- |
-| **public****boolean**equals() |
-| **public****int**getInputId() |
-| **public**[String]()getMessage() |
-| **public****int**getProblemId() |
-| **public****int**hashCode() |
-| **public****boolean**isSuccess() |
+| **public** **boolean** equals() |
+| **public** **int** getInputId() |
+| **public** [String]() getMessage() |
+| **public** **int** getProblemId() |
+| **public** **int** hashCode() |
+| **public** **boolean** isSuccess() |
 
 ###Fields
 

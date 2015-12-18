@@ -1,6 +1,6 @@
 #Request
 
-Package [fr.faylixe.googlecodejam.client.executor](nullfr/faylixe/googlecodejam/client/executor)<br>
+Package [fr.faylixe.googlecodejam.client.executor](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/executor)<br>
 [Object]() > [Request]()
 
 <p>Simple class that exposes string constant
@@ -12,7 +12,7 @@ Package [fr.faylixe.googlecodejam.client.executor](nullfr/faylixe/googlecodejam/
 
 | Method |
 | --- |
-| **public static final**[String]()createBoundary() |
+| **public static final** [String]() createBoundary() |
 
 ###Fields
 
