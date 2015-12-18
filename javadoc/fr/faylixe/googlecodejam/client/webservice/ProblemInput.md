@@ -1,4 +1,5 @@
 #ProblemInput
+
 Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
 [Object]() > [NamedObject]() > [ProblemInput]()
 
@@ -8,6 +9,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodeja
  available for a given {@link Problem}.</p>
 
 ###Summary
+
 
 Return type | Signature
 --- | ---:
@@ -21,18 +23,27 @@ Return type | Signature
 
 ###Fields
 
+
 ###Methods
+
 ####equals
+
 
 ####getDifficulty
 
+
 ####getNumber
+
 
 ####getPoints
 
+
 ####getProblem
+
 
 ####getSuffix
 
+
 ####hashCode
+
 

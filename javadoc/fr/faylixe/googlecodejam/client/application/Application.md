@@ -1,4 +1,5 @@
 #Application
+
 Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodejam/client/application)
 [Object]() > [Application]()
 
@@ -6,12 +7,16 @@ Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodej
 
 ###Summary
 
+
 Return type | Signature
 --- | ---:
 **void** | main
 
 ###Fields
 
+
 ###Methods
+
 ####main
+
 

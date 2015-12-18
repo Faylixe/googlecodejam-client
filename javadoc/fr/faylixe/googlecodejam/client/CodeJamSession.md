@@ -1,4 +1,5 @@
 #CodeJamSession
+
 Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)
 [Object]() > [NamedObject]() > [CodeJamSession]()
 
@@ -12,6 +13,7 @@ Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)
  * Submits solutions
 
 ###Summary
+
 
 Return type | Signature
 --- | ---:
@@ -29,26 +31,39 @@ Return type | Signature
 
 ###Fields
 
+
 ###Methods
+
 ####buildFilename
+
 
 ####createSession
 
+
 ####download
+
 
 ####getContestAnalysis
 
+
 ####getContestInfo
+
 
 ####getProblem
 
+
 ####isActive
+
 
 ####isLogged
 
+
 ####isQualified
+
 
 ####refresh
 
+
 ####submit
+
 

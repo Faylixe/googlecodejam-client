@@ -1,4 +1,5 @@
 #Round
+
 Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)
 [Object]() > [NamedObject]() > [Round]()
 
@@ -7,6 +8,7 @@ Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)
  URL.</p>
 
 ###Summary
+
 
 Return type | Signature
 --- | ---:
@@ -18,14 +20,21 @@ Return type | Signature
 
 ###Fields
 
+
 ###Methods
+
 ####equals
+
 
 ####get
 
+
 ####getContestName
+
 
 ####getURL
 
+
 ####hashCode
+
 

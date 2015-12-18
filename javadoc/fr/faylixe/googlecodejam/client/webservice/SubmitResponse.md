@@ -1,4 +1,5 @@
 #SubmitResponse
+
 Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
 [Object]() > [SubmitResponse]()
 
@@ -7,6 +8,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodeja
  the performed submission.</p>
 
 ###Summary
+
 
 Return type | Signature
 --- | ---:
@@ -19,16 +21,24 @@ Return type | Signature
 
 ###Fields
 
+
 ###Methods
+
 ####equals
+
 
 ####getInputId
 
+
 ####getMessage
+
 
 ####getProblemId
 
+
 ####hashCode
 
+
 ####isSuccess
+
 

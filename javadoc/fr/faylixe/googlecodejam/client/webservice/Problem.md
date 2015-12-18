@@ -1,4 +1,5 @@
 #Problem
+
 Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
 [Object]() > [NamedObject]() > [Problem]()
 
@@ -8,6 +9,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodeja
  metadata such a name, description, and IO details.</p>
 
 ###Summary
+
 
 Return type | Signature
 --- | ---:
@@ -26,28 +28,42 @@ Return type | Signature
 
 ###Fields
 
+
 ###Methods
+
 ####equals
+
 
 ####getBody
 
+
 ####getId
+
 
 ####getKey
 
+
 ####getNormalizedName
+
 
 ####getParent
 
-####getProblemInput
 
 ####getProblemInput
+
+
+####getProblemInput
+
 
 ####getProblemInputs
 
+
 ####getType
+
 
 ####hashCode
 
+
 ####validateObject
+
 

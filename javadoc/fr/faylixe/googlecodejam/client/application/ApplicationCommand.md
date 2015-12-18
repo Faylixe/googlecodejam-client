@@ -1,4 +1,5 @@
 #ApplicationCommand
+
 Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodejam/client/application)
 [Object]() > [ApplicationCommand]()
 
@@ -8,6 +9,7 @@ Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodej
 
 ###Summary
 
+
 Return type | Signature
 --- | ---:
 **boolean** | download
@@ -16,10 +18,15 @@ Return type | Signature
 
 ###Fields
 
+
 ###Methods
+
 ####download
+
 
 ####init
 
+
 ####submit
+
 

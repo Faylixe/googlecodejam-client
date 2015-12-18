@@ -1,4 +1,5 @@
 #AllTests
+
 Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)
 [Object]() > [AllTests]()
 
@@ -6,9 +7,12 @@ Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)
 
 ###Summary
 
+
 Return type | Signature
 --- | ---:
 
 ###Fields
 
+
 ###Methods
+

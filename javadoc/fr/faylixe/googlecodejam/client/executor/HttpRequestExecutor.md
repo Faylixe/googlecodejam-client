@@ -1,4 +1,5 @@
 #HttpRequestExecutor
+
 Package [fr.faylixe.googlecodejam.client.executor](nullfr/faylixe/googlecodejam/client/executor)
 [Object]() > [HttpRequestExecutor]()
 
@@ -7,6 +8,7 @@ Package [fr.faylixe.googlecodejam.client.executor](nullfr/faylixe/googlecodejam/
  GET and POST request.</p>
 
 ###Summary
+
 
 Return type | Signature
 --- | ---:
@@ -21,20 +23,30 @@ Return type | Signature
 
 ###Fields
 
+
 ###Methods
+
 ####buildDataPart
+
 
 ####buildFilePart
 
-####create
 
 ####create
+
+
+####create
+
 
 ####get
 
+
 ####getHostname
+
 
 ####getRequest
 
+
 ####post
+
 

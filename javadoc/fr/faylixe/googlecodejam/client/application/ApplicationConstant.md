@@ -1,4 +1,5 @@
 #ApplicationConstant
+
 Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodejam/client/application)
 [Object]() > [ApplicationConstant]()
 
@@ -7,12 +8,16 @@ Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodej
 
 ###Summary
 
+
 Return type | Signature
 --- | ---:
 [Options]() | createOptions
 
 ###Fields
 
+
 ###Methods
+
 ####createOptions
+
 

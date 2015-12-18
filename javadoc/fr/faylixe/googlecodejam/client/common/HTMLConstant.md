@@ -1,4 +1,5 @@
 #HTMLConstant
+
 Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/client/common)
 [Object]() > [HTMLConstant]()
 
@@ -6,9 +7,12 @@ Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/cl
 
 ###Summary
 
+
 Return type | Signature
 --- | ---:
 
 ###Fields
 
+
 ###Methods
+

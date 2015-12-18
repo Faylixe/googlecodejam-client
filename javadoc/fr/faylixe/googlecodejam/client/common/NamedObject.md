@@ -1,4 +1,5 @@
 #NamedObject
+
 Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/client/common)
 [Object]() > [NamedObject]()
 
@@ -7,12 +8,16 @@ Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/cl
 
 ###Summary
 
+
 Return type | Signature
 --- | ---:
 [String]() | getName
 
 ###Fields
 
+
 ###Methods
+
 ####getName
+
 

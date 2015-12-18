@@ -1,10 +1,12 @@
 #InitialValuesTest
+
 Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
 [Object]() > [InitialValuesTest]()
 
 Test case for {@link InitialValues} class.
 
 ###Summary
+
 
 Return type | Signature
 --- | ---:
@@ -13,8 +15,12 @@ Return type | Signature
 
 ###Fields
 
+
 ###Methods
+
 ####getTestInitialValues
 
+
 ####testInitialValuesConsistency
+
 

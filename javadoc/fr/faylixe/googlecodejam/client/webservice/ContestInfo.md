@@ -1,4 +1,5 @@
 #ContestInfo
+
 Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
 [Object]() > [ContestInfo]()
 
@@ -6,6 +7,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodeja
  request, using Gson API.</p>
 
 ###Summary
+
 
 Return type | Signature
 --- | ---:
@@ -18,16 +20,24 @@ Return type | Signature
 
 ###Fields
 
+
 ###Methods
+
 ####get
+
 
 ####getProblem
 
+
 ####getProblems
+
 
 ####getVersion
 
+
 ####hasAnalysis
 
+
 ####validateObject
+
 

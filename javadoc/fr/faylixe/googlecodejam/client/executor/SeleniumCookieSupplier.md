@@ -1,4 +1,5 @@
 #SeleniumCookieSupplier
+
 Package [fr.faylixe.googlecodejam.client.executor](nullfr/faylixe/googlecodejam/client/executor)
 [Object]() > [SeleniumCookieSupplier]()
 
@@ -10,6 +11,7 @@ TODO Javadoc
 
 ###Summary
 
+
 Return type | Signature
 --- | ---:
 **void** | cancel
@@ -19,12 +21,18 @@ Return type | Signature
 
 ###Fields
 
+
 ###Methods
+
 ####cancel
+
 
 ####checkCurrentState
 
+
 ####get
 
+
 ####isRunning
+
 
