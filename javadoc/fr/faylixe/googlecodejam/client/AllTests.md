@@ -8,8 +8,8 @@ Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodej
 ###Summary
 
 
-| Method |
-| --- |
+| Type | Method |
+| --- | --- |
 
 ###Fields
 

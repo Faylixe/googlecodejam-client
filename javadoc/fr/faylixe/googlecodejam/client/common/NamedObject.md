@@ -9,9 +9,9 @@ Package [fr.faylixe.googlecodejam.client.common](https://github.com/Faylixe/goog
 ###Summary
 
 
-| Method |
-| --- |
-| **public final** [String]() getName() |
+| Type | Method |
+| --- | --- |
+| [String]() | getName |
 
 ###Fields
 

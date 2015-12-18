@@ -8,9 +8,9 @@ Custom deserializer that normalizes problem body content.
 ###Summary
 
 
-| Method |
-| --- |
-| **public** [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) deserialize() |
+| Type | Method |
+| --- | --- |
+| [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) | deserialize |
 
 ###Fields
 

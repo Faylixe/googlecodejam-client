@@ -8,13 +8,13 @@ Test case for {@link CodeJamSession} class.
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** [CodeJamSession](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/CodeJamSession.md) getTestSession() |
-| **public** **void** testContestAnalysis() |
-| **public** **void** testDownload() |
-| **public** **void** testSessionConsistency() |
-| **public** **void** testSubmission() |
+| Type | Method |
+| --- | --- |
+| [CodeJamSession](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/CodeJamSession.md) | getTestSession |
+| **void** | testContestAnalysis |
+| **void** | testDownload |
+| **void** | testSessionConsistency |
+| **void** | testSubmission |
 
 ###Fields
 

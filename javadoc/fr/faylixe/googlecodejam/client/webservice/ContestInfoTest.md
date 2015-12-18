@@ -8,11 +8,11 @@ Test case for {@link ContestInfo} class.
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** [ContestInfo](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ContestInfo.md) getTestContestInfo() |
-| **public static** **void** testContestInfoConsistency() |
-| **public** **void** testContestInfoConsistency() |
+| Type | Method |
+| --- | --- |
+| [ContestInfo](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | getTestContestInfo |
+| **void** | testContestInfoConsistency |
+| **void** | testContestInfoConsistency |
 
 ###Fields
 

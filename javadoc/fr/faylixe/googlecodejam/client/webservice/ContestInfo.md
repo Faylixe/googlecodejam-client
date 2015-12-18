@@ -9,14 +9,14 @@ Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** [ContestInfo](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ContestInfo.md) get() |
-| **public** [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) getProblem() |
-| **public** [List]() getProblems() |
-| **public** **int** getVersion() |
-| **public** **boolean** hasAnalysis() |
-| **public** **void** validateObject() |
+| Type | Method |
+| --- | --- |
+| [ContestInfo](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | get |
+| [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) | getProblem |
+| [List]() | getProblems |
+| **int** | getVersion |
+| **boolean** | hasAnalysis |
+| **void** | validateObject |
 
 ###Fields
 

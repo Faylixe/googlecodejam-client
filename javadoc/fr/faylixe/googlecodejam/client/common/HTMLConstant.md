@@ -8,8 +8,8 @@ Package [fr.faylixe.googlecodejam.client.common](https://github.com/Faylixe/goog
 ###Summary
 
 
-| Method |
-| --- |
+| Type | Method |
+| --- | --- |
 
 ###Fields
 

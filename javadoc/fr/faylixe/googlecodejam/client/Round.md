@@ -10,13 +10,13 @@ Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodej
 ###Summary
 
 
-| Method |
-| --- |
-| **public** **boolean** equals() |
-| **public static** [List]() get() |
-| **public** [String]() getContestName() |
-| **public** [String]() getURL() |
-| **public** **int** hashCode() |
+| Type | Method |
+| --- | --- |
+| **boolean** | equals |
+| [List]() | get |
+| [String]() | getContestName |
+| [String]() | getURL |
+| **int** | hashCode |
 
 ###Fields
 

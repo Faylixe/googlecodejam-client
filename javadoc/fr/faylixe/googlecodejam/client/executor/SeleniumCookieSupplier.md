@@ -12,12 +12,12 @@ TODO Javadoc
 ###Summary
 
 
-| Method |
-| --- |
-| **public** **void** cancel() |
-| **public** **void** checkCurrentState() |
-| **public** [String]() get() |
-| **public** **boolean** isRunning() |
+| Type | Method |
+| --- | --- |
+| **void** | cancel |
+| **void** | checkCurrentState |
+| [String]() | get |
+| **boolean** | isRunning |
 
 ###Fields
 

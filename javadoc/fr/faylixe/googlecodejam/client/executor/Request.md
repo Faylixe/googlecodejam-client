@@ -10,9 +10,9 @@ Package [fr.faylixe.googlecodejam.client.executor](https://github.com/Faylixe/go
 ###Summary
 
 
-| Method |
-| --- |
-| **public static final** [String]() createBoundary() |
+| Type | Method |
+| --- | --- |
+| [String]() | createBoundary |
 
 ###Fields
 

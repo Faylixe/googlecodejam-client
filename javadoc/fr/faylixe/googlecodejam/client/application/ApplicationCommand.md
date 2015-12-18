@@ -10,11 +10,11 @@ Package [fr.faylixe.googlecodejam.client.application](https://github.com/Faylixe
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** **boolean** download() |
-| **public static** **boolean** init() |
-| **public static** **boolean** submit() |
+| Type | Method |
+| --- | --- |
+| **boolean** | download |
+| **boolean** | init |
+| **boolean** | submit |
 
 ###Fields
 

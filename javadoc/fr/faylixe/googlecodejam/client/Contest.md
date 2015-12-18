@@ -10,12 +10,12 @@ Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodej
 ###Summary
 
 
-| Method |
-| --- |
-| **public** **boolean** equals() |
-| **public static** [List]() get() |
-| **public** [List]() getRounds() |
-| **public** **int** hashCode() |
+| Type | Method |
+| --- | --- |
+| **boolean** | equals |
+| [List]() | get |
+| [List]() | getRounds |
+| **int** | hashCode |
 
 ###Fields
 

@@ -15,19 +15,19 @@ Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodej
 ###Summary
 
 
-| Method |
-| --- |
-| **public** [String]() buildFilename() |
-| **public static** [CodeJamSession](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/CodeJamSession.md) createSession() |
-| **public** [InputStream]() download() |
-| **public** [String]() getContestAnalysis() |
-| **public** [ContestInfo](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ContestInfo.md) getContestInfo() |
-| **public** [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) getProblem() |
-| **public** **boolean** isActive() |
-| **public** **boolean** isLogged() |
-| **public** **boolean** isQualified() |
-| **public** [CodeJamSession](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/CodeJamSession.md) refresh() |
-| **public** [SubmitResponse](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/SubmitResponse.md) submit() |
+| Type | Method |
+| --- | --- |
+| [String]() | buildFilename |
+| [CodeJamSession](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/CodeJamSession.md) | createSession |
+| [InputStream]() | download |
+| [String]() | getContestAnalysis |
+| [ContestInfo](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | getContestInfo |
+| [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) | getProblem |
+| **boolean** | isActive |
+| **boolean** | isLogged |
+| **boolean** | isQualified |
+| [CodeJamSession](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/CodeJamSession.md) | refresh |
+| [SubmitResponse](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/SubmitResponse.md) | submit |
 
 ###Fields
 

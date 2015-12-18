@@ -8,9 +8,9 @@ Package [fr.faylixe.googlecodejam.client.application](https://github.com/Faylixe
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** **void** main() |
+| Type | Method |
+| --- | --- |
+| **void** | main |
 
 ###Fields
 

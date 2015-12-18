@@ -8,10 +8,10 @@ Test case for {@link Contest} class.
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** [Contest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/Contest.md) getTestContests() |
-| **public** **void** testContestConsistency() |
+| Type | Method |
+| --- | --- |
+| [Contest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/Contest.md) | getTestContests |
+| **void** | testContestConsistency |
 
 ###Fields
 

@@ -11,26 +11,26 @@ Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** [InitialValues](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValues.md) get() |
-| **public** [String]() getAdmin() |
-| **public** **int** getCS() |
-| **public** [String]() getEmail() |
-| **public** [String]() getInput() |
-| **public** **long** getLeft() |
-| **public** [String]() getLoginHTML() |
-| **public** [String]() getLogoutHTML() |
-| **public** [String]() getName() |
-| **public** **int** getSeen() |
-| **public** [String]() getSnippet() |
-| **public** **long** getStart() |
-| **public** [String]() getToken() |
-| **public** [String]() getURLEncodedToken() |
-| **public** **long** getUntilStart() |
-| **public** **int** getVersion() |
-| **public** **boolean** isLogged() |
-| **public** **boolean** isQualified() |
+| Type | Method |
+| --- | --- |
+| [InitialValues](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValues.md) | get |
+| [String]() | getAdmin |
+| **int** | getCS |
+| [String]() | getEmail |
+| [String]() | getInput |
+| **long** | getLeft |
+| [String]() | getLoginHTML |
+| [String]() | getLogoutHTML |
+| [String]() | getName |
+| **int** | getSeen |
+| [String]() | getSnippet |
+| **long** | getStart |
+| [String]() | getToken |
+| [String]() | getURLEncodedToken |
+| **long** | getUntilStart |
+| **int** | getVersion |
+| **boolean** | isLogged |
+| **boolean** | isQualified |
 
 ###Fields
 

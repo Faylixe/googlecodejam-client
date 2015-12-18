@@ -8,12 +8,12 @@ Package [fr.faylixe.googlecodejam.client.common](https://github.com/Faylixe/goog
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** [String]() getHTMLTemplate() |
-| **public static** [String]() getResource() |
-| **public static** [InputStream]() getResourceStream() |
-| **public static** [String]() normalize() |
+| Type | Method |
+| --- | --- |
+| [String]() | getHTMLTemplate |
+| [String]() | getResource |
+| [InputStream]() | getResourceStream |
+| [String]() | normalize |
 
 ###Fields
 

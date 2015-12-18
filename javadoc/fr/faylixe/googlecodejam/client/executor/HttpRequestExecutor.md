@@ -10,16 +10,16 @@ Package [fr.faylixe.googlecodejam.client.executor](https://github.com/Faylixe/go
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** [MultipartContent.Part]() buildDataPart() |
-| **public static** [MultipartContent.Part]() buildFilePart() |
-| **public static** [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md) create() |
-| **public static** [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md) create() |
-| **public** [String]() get() |
-| **public** [String]() getHostname() |
-| **public** [HttpRequest]() getRequest() |
-| **public** [String]() post() |
+| Type | Method |
+| --- | --- |
+| [MultipartContent.Part]() | buildDataPart |
+| [MultipartContent.Part]() | buildFilePart |
+| [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md) | create |
+| [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md) | create |
+| [String]() | get |
+| [String]() | getHostname |
+| [HttpRequest]() | getRequest |
+| [String]() | post |
 
 ###Fields
 

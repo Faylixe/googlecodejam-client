@@ -8,10 +8,10 @@ Test case for {@link InitialValues} class.
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** [InitialValues](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValues.md) getTestInitialValues() |
-| **public** **void** testInitialValuesConsistency() |
+| Type | Method |
+| --- | --- |
+| [InitialValues](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValues.md) | getTestInitialValues |
+| **void** | testInitialValuesConsistency |
 
 ###Fields
 

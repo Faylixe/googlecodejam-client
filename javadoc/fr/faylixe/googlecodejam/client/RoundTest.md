@@ -8,10 +8,10 @@ Test case for the {@link Round} class.
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** [Round](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/Round.md) getTestRound() |
-| **public** **void** testRoundConsistency() |
+| Type | Method |
+| --- | --- |
+| [Round](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/Round.md) | getTestRound |
+| **void** | testRoundConsistency |
 
 ###Fields
 

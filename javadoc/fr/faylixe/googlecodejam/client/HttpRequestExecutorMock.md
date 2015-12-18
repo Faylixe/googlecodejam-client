@@ -8,9 +8,9 @@ Test case for the {@link HttpRequestExecutor} class.
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md) getTestExecutor() |
+| Type | Method |
+| --- | --- |
+| [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md) | getTestExecutor |
 
 ###Fields
 

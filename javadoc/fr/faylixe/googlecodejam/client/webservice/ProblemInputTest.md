@@ -8,9 +8,9 @@ Test case for the {@link ProblemInput} class.
 ###Summary
 
 
-| Method |
-| --- |
-| **public** **void** testProblemInputConsistency() |
+| Type | Method |
+| --- | --- |
+| **void** | testProblemInputConsistency |
 
 ###Fields
 

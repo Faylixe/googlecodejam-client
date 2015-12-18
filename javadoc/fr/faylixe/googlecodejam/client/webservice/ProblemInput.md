@@ -11,15 +11,15 @@ Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/
 ###Summary
 
 
-| Method |
-| --- |
-| **public** **boolean** equals() |
-| **public** **int** getDifficulty() |
-| **public** **int** getNumber() |
-| **public** **int** getPoints() |
-| **public** [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) getProblem() |
-| **public** [String]() getSuffix() |
-| **public** **int** hashCode() |
+| Type | Method |
+| --- | --- |
+| **boolean** | equals |
+| **int** | getDifficulty |
+| **int** | getNumber |
+| **int** | getPoints |
+| [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) | getProblem |
+| [String]() | getSuffix |
+| **int** | hashCode |
 
 ###Fields
 

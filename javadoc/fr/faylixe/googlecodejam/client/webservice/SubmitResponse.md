@@ -10,14 +10,14 @@ Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/
 ###Summary
 
 
-| Method |
-| --- |
-| **public** **boolean** equals() |
-| **public** **int** getInputId() |
-| **public** [String]() getMessage() |
-| **public** **int** getProblemId() |
-| **public** **int** hashCode() |
-| **public** **boolean** isSuccess() |
+| Type | Method |
+| --- | --- |
+| **boolean** | equals |
+| **int** | getInputId |
+| [String]() | getMessage |
+| **int** | getProblemId |
+| **int** | hashCode |
+| **boolean** | isSuccess |
 
 ###Fields
 

@@ -9,9 +9,9 @@ Package [fr.faylixe.googlecodejam.client.application](https://github.com/Faylixe
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** [Options]() createOptions() |
+| Type | Method |
+| --- | --- |
+| [Options]() | createOptions |
 
 ###Fields
 

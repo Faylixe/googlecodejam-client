@@ -8,10 +8,10 @@ Test case for the {@link Problem} class.
 ###Summary
 
 
-| Method |
-| --- |
-| **public static** [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) getTestProblem() |
-| **public** **void** testProblemConsistency() |
+| Type | Method |
+| --- | --- |
+| [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) | getTestProblem |
+| **void** | testProblemConsistency |
 
 ###Fields
 
