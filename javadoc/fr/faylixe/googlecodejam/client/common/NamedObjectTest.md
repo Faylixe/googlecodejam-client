@@ -1,6 +1,6 @@
 #NamedObjectTest
 
-Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/client/common)
+Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/client/common)<br>
 [Object]() > [NamedObjectTest]()
 
 Test case for {@link NamedObject} class.

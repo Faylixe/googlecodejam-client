@@ -1,6 +1,6 @@
 #InitialValuesTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
+Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)<br>
 [Object]() > [InitialValuesTest]()
 
 Test case for {@link InitialValues} class.

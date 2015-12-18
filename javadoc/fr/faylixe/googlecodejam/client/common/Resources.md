@@ -1,6 +1,6 @@
 #Resources
 
-Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/client/common)
+Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/client/common)<br>
 [Object]() > [Resources]()
 
 <p>Static toolbox that exposes methods for internal resources managment.</p>

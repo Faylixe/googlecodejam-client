@@ -1,6 +1,6 @@
 #AllTests
 
-Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)
+Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)<br>
 [Object]() > [AllTests]()
 
 

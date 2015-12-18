@@ -1,6 +1,6 @@
 #ContestInfo
 
-Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
+Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)<br>
 [Object]() > [ContestInfo]()
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>

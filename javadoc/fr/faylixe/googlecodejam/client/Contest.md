@@ -1,6 +1,6 @@
 #Contest
 
-Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)
+Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)<br>
 [Object]() > [NamedObject]() > [Contest]()
 
 <p>POJO class that represents a Google Jam {@link Contest}.

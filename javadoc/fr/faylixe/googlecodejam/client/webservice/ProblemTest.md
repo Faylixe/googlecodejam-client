@@ -1,6 +1,6 @@
 #ProblemTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
+Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)<br>
 [Object]() > [ProblemTest]()
 
 Test case for the {@link Problem} class.

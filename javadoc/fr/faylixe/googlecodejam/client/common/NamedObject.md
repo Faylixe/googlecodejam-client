@@ -1,6 +1,6 @@
 #NamedObject
 
-Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/client/common)
+Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/client/common)<br>
 [Object]() > [NamedObject]()
 
 <p>Class that represents a object which

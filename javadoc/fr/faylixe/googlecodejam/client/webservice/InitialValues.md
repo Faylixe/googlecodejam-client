@@ -1,6 +1,6 @@
 #InitialValues
 
-Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
+Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)<br>
 [Object]() > [InitialValues]()
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
