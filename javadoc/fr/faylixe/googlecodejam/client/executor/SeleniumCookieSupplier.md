@@ -1,4 +1,5 @@
 #SeleniumCookieSupplier
+Package [fr.faylixe.googlecodejam.client.executor](nullfr/faylixe/googlecodejam/client/executor)
 [Object]() > [SeleniumCookieSupplier]()
 
 TODO Javadoc

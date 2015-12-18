@@ -1,4 +1,5 @@
 #ApplicationCommand
+Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodejam/client/application)
 [Object]() > [ApplicationCommand]()
 
 <p>This class contains static method that are

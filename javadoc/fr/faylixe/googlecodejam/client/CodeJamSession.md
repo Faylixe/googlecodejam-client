@@ -1,4 +1,5 @@
 #CodeJamSession
+Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)
 [Object]() > [NamedObject]() > [CodeJamSession]()
 
 {@link CodeJamSession} is the main API entry point, which consists

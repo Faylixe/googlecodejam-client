@@ -1,4 +1,5 @@
 #HttpRequestExecutor
+Package [fr.faylixe.googlecodejam.client.executor](nullfr/faylixe/googlecodejam/client/executor)
 [Object]() > [HttpRequestExecutor]()
 
 <p>A {@link HttpRequestExecutor} is an abstraction
