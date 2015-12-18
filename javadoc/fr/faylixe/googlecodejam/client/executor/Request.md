@@ -10,9 +10,9 @@ Package [fr.faylixe.googlecodejam.client.executor](nullfr/faylixe/googlecodejam/
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[String]() | createBoundary
+| Method |
+| --- |
+| **public static final**[String]()createBoundary() |
 
 ###Fields
 

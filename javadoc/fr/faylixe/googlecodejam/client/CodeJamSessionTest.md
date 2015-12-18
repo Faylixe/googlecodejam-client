@@ -8,13 +8,13 @@ Test case for {@link CodeJamSession} class.
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[CodeJamSession]() | getTestSession
-**void** | testContestAnalysis
-**void** | testDownload
-**void** | testSessionConsistency
-**void** | testSubmission
+| Method |
+| --- |
+| **public static**[CodeJamSession]()getTestSession() |
+| **public****void**testContestAnalysis() |
+| **public****void**testDownload() |
+| **public****void**testSessionConsistency() |
+| **public****void**testSubmission() |
 
 ###Fields
 

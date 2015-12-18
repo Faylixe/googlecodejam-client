@@ -8,9 +8,9 @@ Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodej
 ###Summary
 
 
-Return type | Signature
---- | ---:
-**void** | main
+| Method |
+| --- |
+| **public static****void**main() |
 
 ###Fields
 

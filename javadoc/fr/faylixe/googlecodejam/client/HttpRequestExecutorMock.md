@@ -8,9 +8,9 @@ Test case for the {@link HttpRequestExecutor} class.
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[HttpRequestExecutor]() | getTestExecutor
+| Method |
+| --- |
+| **public static**[HttpRequestExecutor]()getTestExecutor() |
 
 ###Fields
 

@@ -8,10 +8,10 @@ Test case for {@link NamedObject} class.
 ###Summary
 
 
-Return type | Signature
---- | ---:
-**void** | testDefault
-**void** | testSerialized
+| Method |
+| --- |
+| **public****void**testDefault() |
+| **public****void**testSerialized() |
 
 ###Fields
 

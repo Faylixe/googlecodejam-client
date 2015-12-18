@@ -8,9 +8,9 @@ Test case for the {@link ProblemInput} class.
 ###Summary
 
 
-Return type | Signature
---- | ---:
-**void** | testProblemInputConsistency
+| Method |
+| --- |
+| **public****void**testProblemInputConsistency() |
 
 ###Fields
 

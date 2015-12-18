@@ -8,8 +8,8 @@ TODO : Fill with Event response attribute.
 ###Summary
 
 
-Return type | Signature
---- | ---:
+| Method |
+| --- |
 
 ###Fields
 

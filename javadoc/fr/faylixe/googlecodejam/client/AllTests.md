@@ -8,8 +8,8 @@ Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)<b
 ###Summary
 
 
-Return type | Signature
---- | ---:
+| Method |
+| --- |
 
 ###Fields
 

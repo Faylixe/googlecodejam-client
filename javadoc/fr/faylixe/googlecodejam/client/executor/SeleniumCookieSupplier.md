@@ -12,12 +12,12 @@ TODO Javadoc
 ###Summary
 
 
-Return type | Signature
---- | ---:
-**void** | cancel
-**void** | checkCurrentState
-[String]() | get
-**boolean** | isRunning
+| Method |
+| --- |
+| **public****void**cancel() |
+| **public****void**checkCurrentState() |
+| **public**[String]()get() |
+| **public****boolean**isRunning() |
 
 ###Fields
 

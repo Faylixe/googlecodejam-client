@@ -15,19 +15,19 @@ Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)<b
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[String]() | buildFilename
-[CodeJamSession]() | createSession
-[InputStream]() | download
-[String]() | getContestAnalysis
-[ContestInfo]() | getContestInfo
-[Problem]() | getProblem
-**boolean** | isActive
-**boolean** | isLogged
-**boolean** | isQualified
-[CodeJamSession]() | refresh
-[SubmitResponse]() | submit
+| Method |
+| --- |
+| **public**[String]()buildFilename() |
+| **public static**[CodeJamSession]()createSession() |
+| **public**[InputStream]()download() |
+| **public**[String]()getContestAnalysis() |
+| **public**[ContestInfo]()getContestInfo() |
+| **public**[Problem]()getProblem() |
+| **public****boolean**isActive() |
+| **public****boolean**isLogged() |
+| **public****boolean**isQualified() |
+| **public**[CodeJamSession]()refresh() |
+| **public**[SubmitResponse]()submit() |
 
 ###Fields
 

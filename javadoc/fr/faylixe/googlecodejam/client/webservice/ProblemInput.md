@@ -11,15 +11,15 @@ Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodeja
 ###Summary
 
 
-Return type | Signature
---- | ---:
-**boolean** | equals
-**int** | getDifficulty
-**int** | getNumber
-**int** | getPoints
-[Problem]() | getProblem
-[String]() | getSuffix
-**int** | hashCode
+| Method |
+| --- |
+| **public****boolean**equals() |
+| **public****int**getDifficulty() |
+| **public****int**getNumber() |
+| **public****int**getPoints() |
+| **public**[Problem]()getProblem() |
+| **public**[String]()getSuffix() |
+| **public****int**hashCode() |
 
 ###Fields
 

@@ -9,14 +9,14 @@ Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodeja
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[ContestInfo]() | get
-[Problem]() | getProblem
-[List]() | getProblems
-**int** | getVersion
-**boolean** | hasAnalysis
-**void** | validateObject
+| Method |
+| --- |
+| **public static**[ContestInfo]()get() |
+| **public**[Problem]()getProblem() |
+| **public**[List]()getProblems() |
+| **public****int**getVersion() |
+| **public****boolean**hasAnalysis() |
+| **public****void**validateObject() |
 
 ###Fields
 

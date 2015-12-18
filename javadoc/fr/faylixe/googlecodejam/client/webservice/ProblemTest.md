@@ -8,10 +8,10 @@ Test case for the {@link Problem} class.
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[Problem]() | getTestProblem
-**void** | testProblemConsistency
+| Method |
+| --- |
+| **public static**[Problem]()getTestProblem() |
+| **public****void**testProblemConsistency() |
 
 ###Fields
 

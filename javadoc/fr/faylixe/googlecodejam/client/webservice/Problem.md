@@ -11,20 +11,20 @@ Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodeja
 ###Summary
 
 
-Return type | Signature
---- | ---:
-**boolean** | equals
-[String]() | getBody
-[String]() | getId
-[String]() | getKey
-[String]() | getNormalizedName
-[ContestInfo]() | getParent
-[ProblemInput]() | getProblemInput
-[ProblemInput]() | getProblemInput
-[List]() | getProblemInputs
-[String]() | getType
-**int** | hashCode
-**void** | validateObject
+| Method |
+| --- |
+| **public****boolean**equals() |
+| **public**[String]()getBody() |
+| **public**[String]()getId() |
+| **public**[String]()getKey() |
+| **public**[String]()getNormalizedName() |
+| **public**[ContestInfo]()getParent() |
+| **public**[ProblemInput]()getProblemInput() |
+| **public**[ProblemInput]()getProblemInput() |
+| **public**[List]()getProblemInputs() |
+| **public**[String]()getType() |
+| **public****int**hashCode() |
+| **public****void**validateObject() |
 
 ###Fields
 

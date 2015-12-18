@@ -8,10 +8,10 @@ Test case for {@link InitialValues} class.
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[InitialValues]() | getTestInitialValues
-**void** | testInitialValuesConsistency
+| Method |
+| --- |
+| **public static**[InitialValues]()getTestInitialValues() |
+| **public****void**testInitialValuesConsistency() |
 
 ###Fields
 

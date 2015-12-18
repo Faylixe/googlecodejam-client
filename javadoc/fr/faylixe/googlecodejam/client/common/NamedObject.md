@@ -9,9 +9,9 @@ Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/cl
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[String]() | getName
+| Method |
+| --- |
+| **public final**[String]()getName() |
 
 ###Fields
 

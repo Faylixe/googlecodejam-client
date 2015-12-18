@@ -10,16 +10,16 @@ Package [fr.faylixe.googlecodejam.client.executor](nullfr/faylixe/googlecodejam/
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[MultipartContent.Part]() | buildDataPart
-[MultipartContent.Part]() | buildFilePart
-[HttpRequestExecutor]() | create
-[HttpRequestExecutor]() | create
-[String]() | get
-[String]() | getHostname
-[HttpRequest]() | getRequest
-[String]() | post
+| Method |
+| --- |
+| **public static**[MultipartContent.Part]()buildDataPart() |
+| **public static**[MultipartContent.Part]()buildFilePart() |
+| **public static**[HttpRequestExecutor]()create() |
+| **public static**[HttpRequestExecutor]()create() |
+| **public**[String]()get() |
+| **public**[String]()getHostname() |
+| **public**[HttpRequest]()getRequest() |
+| **public**[String]()post() |
 
 ###Fields
 

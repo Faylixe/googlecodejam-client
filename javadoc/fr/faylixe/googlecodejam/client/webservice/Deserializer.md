@@ -8,9 +8,9 @@ Custom deserializer that normalizes problem body content.
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[Problem]() | deserialize
+| Method |
+| --- |
+| **public**[Problem]()deserialize() |
 
 ###Fields
 

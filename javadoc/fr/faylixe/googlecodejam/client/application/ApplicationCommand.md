@@ -10,11 +10,11 @@ Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodej
 ###Summary
 
 
-Return type | Signature
---- | ---:
-**boolean** | download
-**boolean** | init
-**boolean** | submit
+| Method |
+| --- |
+| **public static****boolean**download() |
+| **public static****boolean**init() |
+| **public static****boolean**submit() |
 
 ###Fields
 

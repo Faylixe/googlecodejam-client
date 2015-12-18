@@ -8,10 +8,10 @@ Test case for the {@link Round} class.
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[Round]() | getTestRound
-**void** | testRoundConsistency
+| Method |
+| --- |
+| **public static**[Round]()getTestRound() |
+| **public****void**testRoundConsistency() |
 
 ###Fields
 

@@ -10,14 +10,14 @@ Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodeja
 ###Summary
 
 
-Return type | Signature
---- | ---:
-**boolean** | equals
-**int** | getInputId
-[String]() | getMessage
-**int** | getProblemId
-**int** | hashCode
-**boolean** | isSuccess
+| Method |
+| --- |
+| **public****boolean**equals() |
+| **public****int**getInputId() |
+| **public**[String]()getMessage() |
+| **public****int**getProblemId() |
+| **public****int**hashCode() |
+| **public****boolean**isSuccess() |
 
 ###Fields
 

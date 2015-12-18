@@ -8,12 +8,12 @@ Package [fr.faylixe.googlecodejam.client.common](nullfr/faylixe/googlecodejam/cl
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[String]() | getHTMLTemplate
-[String]() | getResource
-[InputStream]() | getResourceStream
-[String]() | normalize
+| Method |
+| --- |
+| **public static**[String]()getHTMLTemplate() |
+| **public static**[String]()getResource() |
+| **public static**[InputStream]()getResourceStream() |
+| **public static**[String]()normalize() |
 
 ###Fields
 

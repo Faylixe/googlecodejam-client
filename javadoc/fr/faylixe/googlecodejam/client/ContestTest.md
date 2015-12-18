@@ -8,10 +8,10 @@ Test case for {@link Contest} class.
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[Contest]() | getTestContests
-**void** | testContestConsistency
+| Method |
+| --- |
+| **public static**[Contest]()getTestContests() |
+| **public****void**testContestConsistency() |
 
 ###Fields
 

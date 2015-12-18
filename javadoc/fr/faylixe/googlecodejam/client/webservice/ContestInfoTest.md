@@ -8,11 +8,11 @@ Test case for {@link ContestInfo} class.
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[ContestInfo]() | getTestContestInfo
-**void** | testContestInfoConsistency
-**void** | testContestInfoConsistency
+| Method |
+| --- |
+| **public static**[ContestInfo]()getTestContestInfo() |
+| **public static****void**testContestInfoConsistency() |
+| **public****void**testContestInfoConsistency() |
 
 ###Fields
 

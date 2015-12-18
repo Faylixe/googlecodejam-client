@@ -10,13 +10,13 @@ Package [fr.faylixe.googlecodejam.client](nullfr/faylixe/googlecodejam/client)<b
 ###Summary
 
 
-Return type | Signature
---- | ---:
-**boolean** | equals
-[List]() | get
-[String]() | getContestName
-[String]() | getURL
-**int** | hashCode
+| Method |
+| --- |
+| **public****boolean**equals() |
+| **public static**[List]()get() |
+| **public**[String]()getContestName() |
+| **public**[String]()getURL() |
+| **public****int**hashCode() |
 
 ###Fields
 

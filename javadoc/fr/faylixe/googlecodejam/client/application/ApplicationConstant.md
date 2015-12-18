@@ -9,9 +9,9 @@ Package [fr.faylixe.googlecodejam.client.application](nullfr/faylixe/googlecodej
 ###Summary
 
 
-Return type | Signature
---- | ---:
-[Options]() | createOptions
+| Method |
+| --- |
+| **public static**[Options]()createOptions() |
 
 ###Fields
 
