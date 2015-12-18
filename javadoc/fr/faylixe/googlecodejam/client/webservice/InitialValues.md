@@ -1,11 +1,13 @@
 #InitialValues
 Package [fr.faylixe.googlecodejam.client.webservice](nullfr/faylixe/googlecodejam/client/webservice)
+
 [Object]() > [InitialValues]()
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
  command request, using Gson API.</p>
  
  TODO Ensures seen is not boolean.
+
 
 Return type | Signature
 --- | ---:

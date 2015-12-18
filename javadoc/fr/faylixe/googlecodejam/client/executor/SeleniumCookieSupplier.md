@@ -1,5 +1,6 @@
 #SeleniumCookieSupplier
 Package [fr.faylixe.googlecodejam.client.executor](nullfr/faylixe/googlecodejam/client/executor)
+
 [Object]() > [SeleniumCookieSupplier]()
 
 TODO Javadoc
@@ -7,6 +8,7 @@ TODO Javadoc
  TODO Login url as parameter ? Function instead of supplier ?.
  
  ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/5
+
 
 Return type | Signature
 --- | ---:
