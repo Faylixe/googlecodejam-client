@@ -34,4 +34,4 @@ Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodej
 ####hashCode
 
 
-[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
+---[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
