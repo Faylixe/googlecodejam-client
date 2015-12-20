@@ -36,4 +36,5 @@ Test case for {@link CodeJamSession} class.
 ####testSubmission
 
 
----[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
+---
+[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

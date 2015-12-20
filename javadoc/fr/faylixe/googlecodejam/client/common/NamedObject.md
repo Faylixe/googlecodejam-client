@@ -21,4 +21,5 @@ Package [fr.faylixe.googlecodejam.client.common](https://github.com/Faylixe/goog
 ####getName
 
 
----[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
+---
+[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -20,4 +20,5 @@ Test case for the {@link HttpRequestExecutor} class.
 ####getTestExecutor
 
 
----[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
+---
+[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

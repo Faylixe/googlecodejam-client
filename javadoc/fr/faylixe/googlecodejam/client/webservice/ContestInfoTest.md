@@ -28,4 +28,5 @@ Test case for {@link ContestInfo} class.
 ####testContestInfoConsistency
 
 
----[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
+---
+[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

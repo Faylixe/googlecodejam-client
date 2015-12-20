@@ -91,4 +91,5 @@ Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/
 ####isQualified
 
 
----[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
+---
+[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
