@@ -21,3 +21,4 @@
 | CodeJamSessionTest |
 | AllTests |
 
+[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

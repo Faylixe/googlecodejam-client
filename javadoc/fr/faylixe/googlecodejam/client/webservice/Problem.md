@@ -67,3 +67,4 @@ Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/
 ####validateObject
 
 
+[![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
