@@ -1,7 +1,7 @@
 #HttpRequestExecutor
 
 Package [fr.faylixe.googlecodejam.client.executor](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/executor)<br>
-[Object]() > [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md)
+ > [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md)
 
 <p>A {@link HttpRequestExecutor} is an abstraction
  on top of {@link HttpRequestFactory} that handles
@@ -12,14 +12,14 @@ Package [fr.faylixe.googlecodejam.client.executor](https://github.com/Faylixe/go
 
 | Type | Method |
 | --- | --- |
-| [MultipartContent.Part]() | buildDataPart |
-| [MultipartContent.Part]() | buildFilePart |
+|  | buildDataPart |
+|  | buildFilePart |
 | [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md) | create |
 | [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md) | create |
-| [String]() | get |
-| [String]() | getHostname |
-| [HttpRequest]() | getRequest |
-| [String]() | post |
+|  | get |
+|  | getHostname |
+|  | getRequest |
+|  | post |
 
 ###Fields
 

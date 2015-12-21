@@ -1,7 +1,7 @@
 #InitialValues
 
 Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
-[Object]() > [InitialValues](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValues.md)
+ > [InitialValues](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValues.md)
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
  command request, using Gson API.</p>
@@ -14,19 +14,19 @@ Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/
 | Type | Method |
 | --- | --- |
 | [InitialValues](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValues.md) | get |
-| [String]() | getAdmin |
+|  | getAdmin |
 | **int** | getCS |
-| [String]() | getEmail |
-| [String]() | getInput |
+|  | getEmail |
+|  | getInput |
 | **long** | getLeft |
-| [String]() | getLoginHTML |
-| [String]() | getLogoutHTML |
-| [String]() | getName |
+|  | getLoginHTML |
+|  | getLogoutHTML |
+|  | getName |
 | **int** | getSeen |
-| [String]() | getSnippet |
+|  | getSnippet |
 | **long** | getStart |
-| [String]() | getToken |
-| [String]() | getURLEncodedToken |
+|  | getToken |
+|  | getURLEncodedToken |
 | **long** | getUntilStart |
 | **int** | getVersion |
 | **boolean** | isLogged |
