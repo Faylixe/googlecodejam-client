@@ -31,17 +31,17 @@ Cancel the current operation.
 
 Checks the state of the given <tt>driver</tt>,
  ensuring if the required cookie has been settled or not.
-#####Parameter(s)
+#####Parameters
 
 
-* driver Driver to check state from.
+> driver Driver to check state from.
 
 --
 ###get
 
 
 {@inheritDoc}
-#####Return
+#####Returns
 
 
 
@@ -50,7 +50,7 @@ Checks the state of the given <tt>driver</tt>,
 
 
 Indicates if the login process is still running.
-#####Return
+#####Returns
 
 
 
