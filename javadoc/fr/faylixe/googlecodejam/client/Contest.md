@@ -45,7 +45,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Returns
 
 
-* List of contest extracted.#####Throws
+* List of contest extracted.
+#####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs during contest extraction process.
 
@@ -59,6 +60,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * List of the round of this contest.
+
 --
 ###hashCode
 

@@ -48,7 +48,8 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 #####Returns
 
 
-* Created instance from request.#####Throws
+* Created instance from request.
+#####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs during the associated HTTP request.
 
@@ -61,6 +62,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 
 * To document
+
 --
 ###getCS
 
@@ -70,6 +72,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 
 * To document
+
 --
 ###getEmail
 
@@ -79,6 +82,7 @@ Getter for the user email.
 
 
 * Email of this logged user.
+
 --
 ###getInput
 
@@ -88,6 +92,7 @@ Getter for the user email.
 
 
 * To document
+
 --
 ###getLeft
 
@@ -97,6 +102,7 @@ Getter for the time left.
 
 
 * Time left before contest finish (in second).
+
 --
 ###getLoginHTML
 
@@ -106,6 +112,7 @@ Getter for the login HTML.
 
 
 * HTML that contains the link of the login page.
+
 --
 ###getLogoutHTML
 
@@ -115,6 +122,7 @@ Getter for the logout HTML.
 
 
 * HTML that contains the link of the logout page.
+
 --
 ###getName
 
@@ -124,6 +132,7 @@ Getter for the contest name.
 
 
 * Current contest name.
+
 --
 ###getSeen
 
@@ -133,6 +142,7 @@ Getter for the contest name.
 
 
 * To document
+
 --
 ###getSnippet
 
@@ -142,6 +152,7 @@ Getter for the contest name.
 
 
 * To document
+
 --
 ###getStart
 
@@ -151,6 +162,7 @@ Getter for the start date.
 
 
 * Date of the contest start.
+
 --
 ###getToken
 
@@ -160,6 +172,7 @@ Getter for the start date.
 
 
 * Middleware token that is created when first call <tt>GetInitialValues</tt> command.
+
 --
 ###getURLEncodedToken
 
@@ -168,7 +181,8 @@ Returns an URL encoded form of the middle ware token.
 #####Returns
 
 
-* Middleware token in an URL encoded form.#####Throws
+* Middleware token in an URL encoded form.
+#####Throws
 
 * [UnsupportedEncodingException](../../../../java/io/UnsupportedEncodingException.md) If target encoding is not supported.
 
@@ -181,6 +195,7 @@ Getter for the time left.
 
 
 * Amout of time until this contest start.
+
 --
 ###getVersion
 
@@ -190,6 +205,7 @@ Getter for the contest version.
 
 
 * Contest version.
+
 --
 ###isLogged
 
@@ -199,6 +215,7 @@ Indicates if user is currently logged in.
 
 
 * <tt>true</tt> if user is logged in, <tt>false</tt> otherwise.
+
 --
 ###isQualified
 
@@ -209,6 +226,7 @@ Indicates if the currently logged user
 
 
 * <tt>true</tt> if the currently logged user is qualified for the next round, <tt>false</tt> otherwise.
+
 --
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -35,7 +35,8 @@ Static factory method that builds a {@link ContestInfo} instance
 #####Returns
 
 
-* Built {@link ContestInfo} instance.#####Throws
+* Built {@link ContestInfo} instance.
+#####Throws
 
 * [IOException](../../../../java/io/IOException.md) IF any error occurs while executing request.
 
@@ -52,7 +53,8 @@ Shortcut method for reducing law of Demeters issues.
 #####Returns
 
 
-* Problem instance required.#####Throws
+* Problem instance required.
+#####Throws
 
 * [ArrayIndexOutOfBoundsException](../../../../java/lang/ArrayIndexOutOfBoundsException.md) If the given index is not valid.
 
@@ -66,6 +68,7 @@ Returns {@link Problem} instance associated
 
 
 * List of problem this contest exposes.
+
 --
 ###getVersion
 
@@ -75,6 +78,7 @@ Getter for the problems version.
 
 
 * Integer that defines the problems version.
+
 --
 ###hasAnalysis
 
@@ -85,6 +89,7 @@ Indicates if this contests already have
 
 
 * <tt>true</tt> if contest analysis is available, <tt>false</tt> otherwise.
+
 --
 ###validateObject
 

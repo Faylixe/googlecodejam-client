@@ -38,6 +38,7 @@ Static factory method that creates a {@link Part} which contains
 
 
 * Created data part.
+
 --
 ###buildFilePart
 
@@ -53,7 +54,8 @@ Static factory method that creates a {@link Part} which contains
 #####Returns
 
 
-* Created data part.#####Throws
+* Created data part.
+#####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any any error occurs during file type detection.
 
@@ -74,6 +76,7 @@ Static factory method that creates a {@link HttpRequestExecutor} instance
 
 
 * Created instance.
+
 --
 ###create
 
@@ -89,6 +92,7 @@ Static factory method that creates a non logged
 
 
 * Created instance.
+
 --
 ###get
 
@@ -104,7 +108,8 @@ Performs a HTTP GET request to the given <tt>path</tt>
 #####Returns
 
 
-* Response content of the performed request.#####Throws
+* Response content of the performed request.
+#####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
 
@@ -117,6 +122,7 @@ Getter for the target hostname.
 
 
 * Target hostname this executor is performing request to.
+
 --
 ###getRequest
 
@@ -131,7 +137,8 @@ Creates and returns a GET {@link HttpRequest} instance
 #####Returns
 
 
-* Built GET request.#####Throws
+* Built GET request.
+#####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while creating the GET request.
 
@@ -150,7 +157,8 @@ Performs a HTTP POST request to the given <tt>path</tt>
 #####Returns
 
 
-* Response content of the performed request.#####Throws
+* Response content of the performed request.
+#####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
 

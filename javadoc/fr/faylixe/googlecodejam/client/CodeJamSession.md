@@ -45,6 +45,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * Built file name.
+
 --
 ###createSession
 
@@ -61,7 +62,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Returns
 
 
-* Created session.#####Throws
+* Created session.
+#####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while retrieving contest info or initial values.
 
@@ -80,7 +82,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Returns
 
 
-* Stream to read which contains our downloaded file data.#####Throws
+* Stream to read which contains our downloaded file data.
+#####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while downloading the file.
 
@@ -99,6 +102,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * Analysis if any.
+
 --
 ###getContestInfo
 
@@ -109,6 +113,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * Request response as a {@link ContestInfo} POJO.
+
 --
 ###getProblem
 
@@ -124,6 +129,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * Corresponding problem if exist, <tt>null</tt> otherwise.
+
 --
 ###isActive
 
@@ -135,6 +141,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * <tt>true</tt> if the contest is active, <tt>false</tt> otherwise.
+
 --
 ###isLogged
 
@@ -144,6 +151,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * <tt>true</tt> if user is logged, <tt>false</tt> otherwise.
+
 --
 ###isQualified
 
@@ -154,6 +162,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * <tt>true</tt> if user is qualified, <tt>false</tt> otherwise.
+
 --
 ###refresh
 
@@ -162,7 +171,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Returns
 
 
-* A newly created session updated otherwise.#####Throws
+* A newly created session updated otherwise.
+#####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while reloading a new session.
 
@@ -187,7 +197,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Returns
 
 
-* Request response, as a {@link SubmitResponse} instance.#####Throws
+* Request response, as a {@link SubmitResponse} instance.
+#####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while uploading data, or performing the request.
 

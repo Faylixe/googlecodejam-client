@@ -28,6 +28,7 @@ Retrieves a valid {@link CodeJamSession}
 
 
 * Session instance that should be used for testing.
+
 --
 ###testContestAnalysis
 

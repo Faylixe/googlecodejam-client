@@ -34,6 +34,7 @@ Getter for the submission identifier.
 
 
 * Target input identifier of this submission.
+
 --
 ###getMessage
 
@@ -43,6 +44,7 @@ Getter for the information message.
 
 
 * Information message about submission.
+
 --
 ###getProblemId
 
@@ -52,6 +54,7 @@ Getter for the problem identifier.
 
 
 * Target problem identifier of this submission.
+
 --
 ###hashCode
 
@@ -66,6 +69,7 @@ Indicates if the submission was successful or not.
 
 
 * <tt>true</tt> if this submission was a success, <tt>false</tt> otherwise.
+
 --
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

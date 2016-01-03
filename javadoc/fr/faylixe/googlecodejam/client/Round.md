@@ -47,6 +47,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * List of retrieved round.
+
 --
 ###getContestName
 
@@ -56,6 +57,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * Name of the parent contest.
+
 --
 ###getURL
 
@@ -65,6 +67,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * URL of this round dashboard.
+
 --
 ###hashCode
 

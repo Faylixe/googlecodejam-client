@@ -26,6 +26,7 @@ Retrieves the {@link ContestInfo} instance
 
 
 * ContestInfo instance for testing.
+
 --
 ###testContestInfoConsistency
 
