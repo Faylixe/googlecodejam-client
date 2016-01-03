@@ -1,7 +1,7 @@
 #ContestInfoTest
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
-[Object](../../../../java/lang/Object.md) > [ContestInfoTest](ContestInfoTest.md)
+> [Object](../../../../java/lang/Object.md) > [ContestInfoTest](ContestInfoTest.md)
 
 Test case for {@link ContestInfo} class.
 

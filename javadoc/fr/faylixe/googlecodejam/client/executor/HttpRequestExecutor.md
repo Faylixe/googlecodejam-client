@@ -1,7 +1,7 @@
 #HttpRequestExecutor
 
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
-[Object](../../../../java/lang/Object.md) > [HttpRequestExecutor](HttpRequestExecutor.md)
+> [Object](../../../../java/lang/Object.md) > [HttpRequestExecutor](HttpRequestExecutor.md)
 
 <p>A {@link HttpRequestExecutor} is an abstraction
  on top of {@link HttpRequestFactory} that handles

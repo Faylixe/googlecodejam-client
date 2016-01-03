@@ -1,7 +1,7 @@
 #ProblemInputTest
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
-[Object](../../../../java/lang/Object.md) > [ProblemInputTest](ProblemInputTest.md)
+> [Object](../../../../java/lang/Object.md) > [ProblemInputTest](ProblemInputTest.md)
 
 Test case for the {@link ProblemInput} class.
 

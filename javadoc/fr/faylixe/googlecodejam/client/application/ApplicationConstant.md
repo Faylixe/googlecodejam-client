@@ -1,7 +1,7 @@
 #ApplicationConstant
 
 Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
-[Object](../../../../java/lang/Object.md) > [ApplicationConstant](ApplicationConstant.md)
+> [Object](../../../../java/lang/Object.md) > [ApplicationConstant](ApplicationConstant.md)
 
 <p>Constants used for managing command
  line parameters.</p>

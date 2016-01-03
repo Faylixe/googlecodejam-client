@@ -1,7 +1,7 @@
 #Resources
 
 Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
-[Object](../../../../java/lang/Object.md) > [Resources](Resources.md)
+> [Object](../../../../java/lang/Object.md) > [Resources](Resources.md)
 
 <p>Static toolbox that exposes methods for internal resources managment.</p>
 

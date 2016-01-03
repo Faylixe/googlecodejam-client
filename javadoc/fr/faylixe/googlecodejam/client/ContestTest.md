@@ -1,7 +1,7 @@
 #ContestTest
 
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
-[Object](../../../java/lang/Object.md) > [ContestTest](ContestTest.md)
+> [Object](../../../java/lang/Object.md) > [ContestTest](ContestTest.md)
 
 Test case for {@link Contest} class.
 
