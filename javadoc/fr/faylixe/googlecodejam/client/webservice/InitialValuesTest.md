@@ -15,7 +15,7 @@ Test case for {@link InitialValues} class.
 
 ##Methods
 
-###getTestInitialValues
+--###getTestInitialValues
 
 
 Retrieves the {@link InitialValues}
@@ -25,7 +25,7 @@ Retrieves the {@link InitialValues}
 
 
 
-###testInitialValuesConsistency
+--###testInitialValuesConsistency
 
 
 Ensures retrieved {@link InitialValues} are

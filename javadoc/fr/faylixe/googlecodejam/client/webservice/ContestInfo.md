@@ -20,7 +20,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
-###get
+--###get
 
 
 Static factory method that builds a {@link ContestInfo} instance
@@ -39,7 +39,7 @@ Static factory method that builds a {@link ContestInfo} instance
 
 * [IOException](../../../../java/io/IOException.md) IF any error occurs while executing request.
 
-###getProblem
+--###getProblem
 
 
 Shortcut method for reducing law of Demeters issues.
@@ -55,7 +55,7 @@ Shortcut method for reducing law of Demeters issues.
 
 * [ArrayIndexOutOfBoundsException](../../../../java/lang/ArrayIndexOutOfBoundsException.md) If the given index is not valid.
 
-###getProblems
+--###getProblems
 
 
 Returns {@link Problem} instance associated
@@ -64,7 +64,7 @@ Returns {@link Problem} instance associated
 
 
 
-###getVersion
+--###getVersion
 
 
 Getter for the problems version.
@@ -72,7 +72,7 @@ Getter for the problems version.
 
 
 
-###hasAnalysis
+--###hasAnalysis
 
 
 Indicates if this contests already have
@@ -81,7 +81,7 @@ Indicates if this contests already have
 
 
 
-###validateObject
+--###validateObject
 
 
 {@inheritDoc}

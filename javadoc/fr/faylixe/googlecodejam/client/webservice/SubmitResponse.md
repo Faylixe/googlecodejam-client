@@ -21,7 +21,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
-###equals
+--###equals
 
 
 {@inheritDoc}
@@ -34,7 +34,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 
 
-###getInputId
+--###getInputId
 
 
 Getter for the submission identifier.
@@ -42,7 +42,7 @@ Getter for the submission identifier.
 
 
 
-###getMessage
+--###getMessage
 
 
 Getter for the information message.
@@ -50,7 +50,7 @@ Getter for the information message.
 
 
 
-###getProblemId
+--###getProblemId
 
 
 Getter for the problem identifier.
@@ -58,7 +58,7 @@ Getter for the problem identifier.
 
 
 
-###hashCode
+--###hashCode
 
 
 {@inheritDoc}
@@ -66,7 +66,7 @@ Getter for the problem identifier.
 
 
 
-###isSuccess
+--###isSuccess
 
 
 Indicates if the submission was successful or not.

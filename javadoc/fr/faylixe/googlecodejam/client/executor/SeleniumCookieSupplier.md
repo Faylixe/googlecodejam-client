@@ -21,11 +21,11 @@ TODO Javadoc
 
 ##Methods
 
-###cancel
+--###cancel
 
 
 Cancel the current operation.
-###checkCurrentState
+--###checkCurrentState
 
 
 Checks the state of the given <tt>driver</tt>,
@@ -35,7 +35,7 @@ Checks the state of the given <tt>driver</tt>,
 
 * driver
 
-###get
+--###get
 
 
 {@inheritDoc}
@@ -43,7 +43,7 @@ Checks the state of the given <tt>driver</tt>,
 
 
 
-###isRunning
+--###isRunning
 
 
 Indicates if the login process is still running.

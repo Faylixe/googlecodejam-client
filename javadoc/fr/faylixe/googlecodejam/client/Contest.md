@@ -27,7 +27,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Methods
 
-###equals
+--###equals
 
 
 {@inheritDoc}
@@ -40,7 +40,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
-###get
+--###get
 
 
 <p>Retrieves and returns a list of available
@@ -57,7 +57,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * [IOException](../../../java/io/IOException.md) If any error occurs during contest extraction process.
 
-###getRounds
+--###getRounds
 
 
 <p>Getter that returns a immutable view
@@ -66,7 +66,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
-###hashCode
+--###hashCode
 
 
 {@inheritDoc}

@@ -15,7 +15,7 @@ Test case for the {@link Round} class.
 
 ##Methods
 
-###getTestRound
+--###getTestRound
 
 
 Retrieves the round instance that will
@@ -25,7 +25,7 @@ Retrieves the round instance that will
 
 
 
-###testRoundConsistency
+--###testRoundConsistency
 
 
 Ensures retrieved rounds are consistent.

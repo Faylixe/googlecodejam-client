@@ -53,7 +53,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ##Methods
 
-###createBoundary
+--###createBoundary
 
 
 Creates and returns a boundary for multipart request.
