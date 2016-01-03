@@ -18,10 +18,6 @@ Custom deserializer that normalizes problem body content.
 
 
 {@inheritDoc}
-#####Returns
-
-
-
 --
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

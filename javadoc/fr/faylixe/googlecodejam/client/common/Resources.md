@@ -24,7 +24,7 @@ Getter for the HTML template content.
 #####Returns
 
 
-#####Throws
+* HTML page template.#####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while reading template content.
 
@@ -37,12 +37,12 @@ Reads and returns resources content denoted by the
 #####Parameters
 
 
-> path Paht of the resources to read.
+* path Paht of the resources to read.
 
 #####Returns
 
 
-
+* Resource content as {@link String}.
 --
 ###getResourceStream
 
@@ -52,12 +52,12 @@ Reads and returns resources content denoted by the
 #####Parameters
 
 
-> path Path of the resources to read.
+* path Path of the resources to read.
 
 #####Returns
 
 
-
+* Resource content as {@link InputStream}.
 --
 ###normalize
 
@@ -67,12 +67,12 @@ Normalizes the given <tt>name</tt> by removing
 #####Parameters
 
 
-> name Name to normalize.
+* name Name to normalize.
 
 #####Returns
 
 
-
+* Normalized name.
 --
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

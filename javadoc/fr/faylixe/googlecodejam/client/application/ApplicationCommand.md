@@ -28,12 +28,12 @@ Downloads an input file, from the given user <tt>command</tt>.
 #####Parameters
 
 
-> command User command line.
+* command User command line.
 
 #####Returns
 
 
-
+* <tt>true</tt> if the command was executed successfully, <tt>false</tt> otherwise.
 --
 ###init
 
@@ -44,7 +44,7 @@ Methods that is bound to the INIT command. Starts
 #####Returns
 
 
-
+* <tt>true</tt> if the init command was correctly executed, <tt>false</tt> otherwise.
 --
 ###submit
 
@@ -55,12 +55,12 @@ Performs an output file submission using the <tt>SubmitAnswer</tt>
 #####Parameters
 
 
-> command User command line.
+* command User command line.
 
 #####Returns
 
 
-
+* <tt>true</tt> if the command was executed successfully, <tt>false</tt> otherwise.
 --
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

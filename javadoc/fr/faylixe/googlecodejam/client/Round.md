@@ -31,10 +31,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 {@inheritDoc}
-#####Returns
-
-
-
 --
 ###get
 
@@ -44,13 +40,13 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameters
 
 
-> contest Root element of the contest in the contest index page.
-> parent Parent contest name.
+* contest Root element of the contest in the contest index page.
+* parent Parent contest name.
 
 #####Returns
 
 
-
+* List of retrieved round.
 --
 ###getContestName
 
@@ -59,7 +55,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Returns
 
 
-
+* Name of the parent contest.
 --
 ###getURL
 
@@ -68,16 +64,12 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Returns
 
 
-
+* URL of this round dashboard.
 --
 ###hashCode
 
 
 {@inheritDoc}
-#####Returns
-
-
-
 --
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

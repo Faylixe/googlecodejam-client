@@ -31,10 +31,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 {@inheritDoc}
-#####Returns
-
-
-
 --
 ###get
 
@@ -44,12 +40,12 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameters
 
 
-> executor {@link HttpRequestExecutor} instance to use to retrieve contest index.
+* executor {@link HttpRequestExecutor} instance to use to retrieve contest index.
 
 #####Returns
 
 
-#####Throws
+* List of contest extracted.#####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs during contest extraction process.
 
@@ -62,16 +58,12 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Returns
 
 
-
+* List of the round of this contest.
 --
 ###hashCode
 
 
 {@inheritDoc}
-#####Returns
-
-
-
 --
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

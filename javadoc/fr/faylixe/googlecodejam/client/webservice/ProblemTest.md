@@ -24,7 +24,7 @@ Retrieves the {@link Problem} instance
 #####Returns
 
 
-
+* Problem instance for testing.
 --
 ###testProblemConsistency
 

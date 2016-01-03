@@ -51,7 +51,7 @@ Static factory method that creates the {@link Options} list
 #####Returns
 
 
-
+* Created options list.
 --
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

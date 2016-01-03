@@ -31,13 +31,13 @@ Static factory method that creates a {@link Part} which contains
 #####Parameters
 
 
-> name Name of the POST data to create part for.
-> data Value of the POST data to create part for.
+* name Name of the POST data to create part for.
+* data Value of the POST data to create part for.
 
 #####Returns
 
 
-
+* Created data part.
 --
 ###buildFilePart
 
@@ -47,13 +47,13 @@ Static factory method that creates a {@link Part} which contains
 #####Parameters
 
 
-> name name Name of the POST file data to create part for.
-> file File of the POST data to create part for.
+* name name Name of the POST file data to create part for.
+* file File of the POST data to create part for.
 
 #####Returns
 
 
-#####Throws
+* Created data part.#####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any any error occurs during file type detection.
 
@@ -67,13 +67,13 @@ Static factory method that creates a {@link HttpRequestExecutor} instance
 #####Parameters
 
 
-> hostname Hostname to use for the created executor.
-> cookieValue Value of the SACSID cookie to use.
+* hostname Hostname to use for the created executor.
+* cookieValue Value of the SACSID cookie to use.
 
 #####Returns
 
 
-
+* Created instance.
 --
 ###create
 
@@ -83,12 +83,12 @@ Static factory method that creates a non logged
 #####Parameters
 
 
-> hostname Hostname to use for the created executor.
+* hostname Hostname to use for the created executor.
 
 #####Returns
 
 
-
+* Created instance.
 --
 ###get
 
@@ -99,12 +99,12 @@ Performs a HTTP GET request to the given <tt>path</tt>
 #####Parameters
 
 
-> path Relative server path to perform request to.
+* path Relative server path to perform request to.
 
 #####Returns
 
 
-#####Throws
+* Response content of the performed request.#####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
 
@@ -116,7 +116,7 @@ Getter for the target hostname.
 #####Returns
 
 
-
+* Target hostname this executor is performing request to.
 --
 ###getRequest
 
@@ -126,12 +126,12 @@ Creates and returns a GET {@link HttpRequest} instance
 #####Parameters
 
 
-> path Path of the request to build.
+* path Path of the request to build.
 
 #####Returns
 
 
-#####Throws
+* Built GET request.#####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while creating the GET request.
 
@@ -144,13 +144,13 @@ Performs a HTTP POST request to the given <tt>path</tt>
 #####Parameters
 
 
-> path Relative server path to perform request to.
-> content POST content that will be sent.
+* path Relative server path to perform request to.
+* content POST content that will be sent.
 
 #####Returns
 
 
-#####Throws
+* Response content of the performed request.#####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
 

@@ -25,7 +25,7 @@ Retrieves the contest instance that will
 #####Returns
 
 
-
+* Contest instance for testing.
 --
 ###testContestConsistency
 

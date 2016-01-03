@@ -34,17 +34,13 @@ Checks the state of the given <tt>driver</tt>,
 #####Parameters
 
 
-> driver Driver to check state from.
+* driver Driver to check state from.
 
 --
 ###get
 
 
 {@inheritDoc}
-#####Returns
-
-
-
 --
 ###isRunning
 
@@ -53,7 +49,7 @@ Indicates if the login process is still running.
 #####Returns
 
 
-
+* <tt>true</tt> if the selenium instance is still running, <tt>false</tt> otherwise.
 --
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

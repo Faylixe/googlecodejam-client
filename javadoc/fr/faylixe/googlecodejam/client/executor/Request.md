@@ -60,7 +60,7 @@ Creates and returns a boundary for multipart request.
 #####Returns
 
 
-
+* Created boundary.
 --
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

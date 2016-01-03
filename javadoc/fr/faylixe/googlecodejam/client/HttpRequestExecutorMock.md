@@ -23,7 +23,7 @@ Creates and returns a valid {@link HttpRequestExecutor}
 #####Returns
 
 
-
+* Created instance.
 --
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

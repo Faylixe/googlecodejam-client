@@ -39,12 +39,12 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameters
 
 
-> input Input to retrieve file name from.
+* input Input to retrieve file name from.
 
 #####Returns
 
 
-
+* Built file name.
 --
 ###createSession
 
@@ -55,13 +55,13 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameters
 
 
-> executor {@link HttpRequestExecutor} instance to use.
-> round Contextual {@link Round} instance this session is bound to.
+* executor {@link HttpRequestExecutor} instance to use.
+* round Contextual {@link Round} instance this session is bound to.
 
 #####Returns
 
 
-#####Throws
+* Created session.#####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while retrieving contest info or initial values.
 
@@ -75,12 +75,12 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameters
 
 
-> input Input to download file from.
+* input Input to download file from.
 
 #####Returns
 
 
-#####Throws
+* Stream to read which contains our downloaded file data.#####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while downloading the file.
 
@@ -93,12 +93,12 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameters
 
 
-> problem Problem to retrieve analysis from.
+* problem Problem to retrieve analysis from.
 
 #####Returns
 
 
-
+* Analysis if any.
 --
 ###getContestInfo
 
@@ -108,7 +108,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Returns
 
 
-
+* Request response as a {@link ContestInfo} POJO.
 --
 ###getProblem
 
@@ -118,12 +118,12 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameters
 
 
-> letter Letter that identifies the problem.
+* letter Letter that identifies the problem.
 
 #####Returns
 
 
-
+* Corresponding problem if exist, <tt>null</tt> otherwise.
 --
 ###isActive
 
@@ -134,7 +134,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Returns
 
 
-
+* <tt>true</tt> if the contest is active, <tt>false</tt> otherwise.
 --
 ###isLogged
 
@@ -143,7 +143,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Returns
 
 
-
+* <tt>true</tt> if user is logged, <tt>false</tt> otherwise.
 --
 ###isQualified
 
@@ -153,7 +153,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Returns
 
 
-
+* <tt>true</tt> if user is qualified, <tt>false</tt> otherwise.
 --
 ###refresh
 
@@ -162,7 +162,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Returns
 
 
-#####Throws
+* A newly created session updated otherwise.#####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while reloading a new session.
 
@@ -180,14 +180,14 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameters
 
 
-> input Input file to submit solution for.
-> output Output file produced by the algorithm.
-> source Source code file of the algorithm to submit.
+* input Input file to submit solution for.
+* output Output file produced by the algorithm.
+* source Source code file of the algorithm to submit.
 
 #####Returns
 
 
-#####Throws
+* Request response, as a {@link SubmitResponse} instance.#####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while uploading data, or performing the request.
 

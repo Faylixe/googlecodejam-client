@@ -29,13 +29,13 @@ Static factory method that builds a {@link ContestInfo} instance
 #####Parameters
 
 
-> executor Executor instance used to perform the request.
-> round Round to retrieve {@link ContestInfo} from.
+* executor Executor instance used to perform the request.
+* round Round to retrieve {@link ContestInfo} from.
 
 #####Returns
 
 
-#####Throws
+* Built {@link ContestInfo} instance.#####Throws
 
 * [IOException](../../../../java/io/IOException.md) IF any error occurs while executing request.
 
@@ -47,12 +47,12 @@ Shortcut method for reducing law of Demeters issues.
 #####Parameters
 
 
-> index Index of the problem to retrieve.
+* index Index of the problem to retrieve.
 
 #####Returns
 
 
-#####Throws
+* Problem instance required.#####Throws
 
 * [ArrayIndexOutOfBoundsException](../../../../java/lang/ArrayIndexOutOfBoundsException.md) If the given index is not valid.
 
@@ -65,7 +65,7 @@ Returns {@link Problem} instance associated
 #####Returns
 
 
-
+* List of problem this contest exposes.
 --
 ###getVersion
 
@@ -74,7 +74,7 @@ Getter for the problems version.
 #####Returns
 
 
-
+* Integer that defines the problems version.
 --
 ###hasAnalysis
 
@@ -84,7 +84,7 @@ Indicates if this contests already have
 #####Returns
 
 
-
+* <tt>true</tt> if contest analysis is available, <tt>false</tt> otherwise.
 --
 ###validateObject
 
