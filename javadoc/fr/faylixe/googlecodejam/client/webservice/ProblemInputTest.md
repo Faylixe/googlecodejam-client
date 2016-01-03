@@ -16,6 +16,7 @@ Test case for the {@link ProblemInput} class.
 
 ####testProblemInputConsistency
 
+
 Ensures retrieved {@link ProblemInput}
  is consistent. Using the first input from
  the test {@link Problem}.

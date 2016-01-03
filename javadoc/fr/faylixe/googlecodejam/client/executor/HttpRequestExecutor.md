@@ -25,34 +25,42 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ####buildDataPart
 
+
 Static factory method that creates a {@link Part} which contains
  simple form data.
 ####buildFilePart
 
+
 Static factory method that creates a {@link Part} which contains
  file form data.
 ####create
+
 
 Static factory method that creates a {@link HttpRequestExecutor} instance
  which is set using the given <tt>cookie</tt> for building authenticated
  HTTP request.
 ####create
 
+
 Static factory method that creates a non logged
  {@link HttpRequestExecutor} instance.
 ####get
+
 
 Performs a HTTP GET request to the given <tt>path</tt>
  relative to the internal target hostname. The response
  is returned as a {@link String}.
 ####getHostname
 
+
 Getter for the target hostname.
 ####getRequest
+
 
 Creates and returns a GET {@link HttpRequest} instance
  for the given <tt>path</tt> over the internal hostname.
 ####post
+
 
 Performs a HTTP POST request to the given <tt>path</tt>
  relative to the internal target hostname.

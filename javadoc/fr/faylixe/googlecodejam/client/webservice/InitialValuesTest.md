@@ -17,10 +17,12 @@ Test case for {@link InitialValues} class.
 
 ####getTestInitialValues
 
+
 Retrieves the {@link InitialValues}
  instance that will be used for testing.
  Using the test {@link Round} as reference.
 ####testInitialValuesConsistency
+
 
 Ensures retrieved {@link InitialValues} are
  consistent. Using values from {@link Round}

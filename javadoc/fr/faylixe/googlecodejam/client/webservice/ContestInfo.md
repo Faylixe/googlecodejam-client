@@ -22,24 +22,30 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####get
 
+
 Static factory method that builds a {@link ContestInfo} instance
  from the given <tt>round</tt> using a <tt>/ContestInfo</tt>
  request from the round dashboard.
 ####getProblem
 
+
 Shortcut method for reducing law of Demeters issues.
 ####getProblems
+
 
 Returns {@link Problem} instance associated
  to this contest.
 ####getVersion
 
+
 Getter for the problems version.
 ####hasAnalysis
+
 
 Indicates if this contests already have
  analysis committed or not.
 ####validateObject
+
 
 {@inheritDoc}
 ---

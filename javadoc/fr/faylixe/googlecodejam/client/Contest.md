@@ -29,16 +29,20 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ####equals
 
+
 {@inheritDoc}
 ####get
+
 
 <p>Retrieves and returns a list of available
  contest for the given <tt>hostname</tt>.</p>
 ####getRounds
 
+
 <p>Getter that returns a immutable view
  of the {@link Round} list.</p>
 ####hashCode
+
 
 {@inheritDoc}
 ---

@@ -33,23 +33,30 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####equals
 
+
 {@inheritDoc}
 ####getDifficulty
+
 
 Getter for the problem input difficulty.
 ####getNumber
 
+
 Getter for the problem input number.
 ####getPoints
+
 
 Getter for the input number of point.
 ####getProblem
 
+
 Getter for the parent problem of this input.
 ####getSuffix
 
+
 Getter for the input suffix.
 ####hashCode
+
 
 {@inheritDoc}
 ---

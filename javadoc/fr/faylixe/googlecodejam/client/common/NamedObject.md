@@ -17,6 +17,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ####getName
 
+
 Getter for the name of this object.
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

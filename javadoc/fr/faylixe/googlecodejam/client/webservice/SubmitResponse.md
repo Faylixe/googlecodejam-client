@@ -23,20 +23,26 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####equals
 
+
 {@inheritDoc}
 ####getInputId
+
 
 Getter for the submission identifier.
 ####getMessage
 
+
 Getter for the information message.
 ####getProblemId
+
 
 Getter for the problem identifier.
 ####hashCode
 
+
 {@inheritDoc}
 ####isSuccess
+
 
 Indicates if the submission was successful or not.
 ---

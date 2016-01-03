@@ -17,11 +17,13 @@ Test case for {@link Contest} class.
 
 ####getTestContests
 
+
 Retrieves the contest instance that will
  be used for testing. Such contest will be
  the last, assuming the the last contest
  will never change.
 ####testContestConsistency
+
 
 Ensures retrieved contests are consistent.
  In order to do so, it consider that the last extracted

@@ -17,10 +17,12 @@ Test case for the {@link Problem} class.
 
 ####getTestProblem
 
+
 Retrieves the {@link Problem} instance
  that will be used for testing. Using
  test {@link ContestInfo} as reference.
 ####testProblemConsistency
+
 
 Ensures retrieved {@link Problem} is
  consistent. Uses the first {@link Problem}
