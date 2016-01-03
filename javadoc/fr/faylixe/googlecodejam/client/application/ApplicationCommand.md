@@ -33,8 +33,6 @@ Downloads an input file, from the given user <tt>command</tt>.
 #####Return
 
 
-#####Throws
-
 
 ###init
 
@@ -44,8 +42,6 @@ Methods that is bound to the INIT command. Starts
  and prompts user for the contextual round to use.
 #####Return
 
-
-#####Throws
 
 
 ###submit
@@ -61,8 +57,6 @@ Performs an output file submission using the <tt>SubmitAnswer</tt>
 
 #####Return
 
-
-#####Throws
 
 
 ---

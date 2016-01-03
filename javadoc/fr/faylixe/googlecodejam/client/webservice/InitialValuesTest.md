@@ -24,16 +24,12 @@ Retrieves the {@link InitialValues}
 #####Return
 
 
-#####Throws
-
 
 ###testInitialValuesConsistency
 
 
 Ensures retrieved {@link InitialValues} are
  consistent. Using values from {@link Round}
- test instance.#####Throws
-
-
+ test instance.
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

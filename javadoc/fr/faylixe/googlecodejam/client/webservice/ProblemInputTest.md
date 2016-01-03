@@ -19,8 +19,6 @@ Test case for the {@link ProblemInput} class.
 
 Ensures retrieved {@link ProblemInput}
  is consistent. Using the first input from
- the test {@link Problem}.#####Throws
-
-
+ the test {@link Problem}.
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

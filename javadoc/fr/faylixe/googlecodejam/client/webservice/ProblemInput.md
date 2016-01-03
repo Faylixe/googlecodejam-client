@@ -43,8 +43,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 #####Return
 
 
-#####Throws
-
 
 ###getDifficulty
 
@@ -52,8 +50,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 Getter for the problem input difficulty.
 #####Return
 
-
-#####Throws
 
 
 ###getNumber
@@ -63,8 +59,6 @@ Getter for the problem input number.
 #####Return
 
 
-#####Throws
-
 
 ###getPoints
 
@@ -72,8 +66,6 @@ Getter for the problem input number.
 Getter for the input number of point.
 #####Return
 
-
-#####Throws
 
 
 ###getProblem
@@ -83,8 +75,6 @@ Getter for the parent problem of this input.
 #####Return
 
 
-#####Throws
-
 
 ###getSuffix
 
@@ -93,8 +83,6 @@ Getter for the input suffix.
 #####Return
 
 
-#####Throws
-
 
 ###hashCode
 
@@ -102,8 +90,6 @@ Getter for the input suffix.
 {@inheritDoc}
 #####Return
 
-
-#####Throws
 
 
 ---

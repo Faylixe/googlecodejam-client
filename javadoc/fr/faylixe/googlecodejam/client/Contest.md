@@ -39,8 +39,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Return
 
 
-#####Throws
-
 
 ###get
 
@@ -57,7 +55,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 #####Throws
 
-
+* IOException : If any error occurs during contest extraction process.
 ###getRounds
 
 
@@ -66,8 +64,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Return
 
 
-#####Throws
-
 
 ###hashCode
 
@@ -75,8 +71,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 {@inheritDoc}
 #####Return
 
-
-#####Throws
 
 
 ---

@@ -25,8 +25,6 @@ Retrieves the {@link ContestInfo} instance
 #####Return
 
 
-#####Throws
-
 
 ###testContestInfoConsistency
 
@@ -37,16 +35,12 @@ Ensures the given {@link ContestInfo} is
 
 
 * info
-#####Throws
-
 
 ###testContestInfoConsistency
 
 
 Ensures retrieved {@link ContestInfo} is
  consistent. Uses {@link ContestInfo} from
- target test {@link Round} instance.#####Throws
-
-
+ target test {@link Round} instance.
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

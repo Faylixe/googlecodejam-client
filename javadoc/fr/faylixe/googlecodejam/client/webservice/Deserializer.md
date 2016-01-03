@@ -28,8 +28,6 @@ Custom deserializer that normalizes problem body content.
 #####Return
 
 
-#####Throws
-
 
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

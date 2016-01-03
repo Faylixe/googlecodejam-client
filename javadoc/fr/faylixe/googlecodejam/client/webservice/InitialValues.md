@@ -50,15 +50,13 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 #####Throws
 
-
+* IOException : If any error occurs during the associated HTTP request.
 ###getAdmin
 
 
 
 #####Return
 
-
-#####Throws
 
 
 ###getCS
@@ -68,8 +66,6 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 #####Return
 
 
-#####Throws
-
 
 ###getEmail
 
@@ -77,8 +73,6 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 Getter for the user email.
 #####Return
 
-
-#####Throws
 
 
 ###getInput
@@ -88,8 +82,6 @@ Getter for the user email.
 #####Return
 
 
-#####Throws
-
 
 ###getLeft
 
@@ -97,8 +89,6 @@ Getter for the user email.
 Getter for the time left.
 #####Return
 
-
-#####Throws
 
 
 ###getLoginHTML
@@ -108,8 +98,6 @@ Getter for the login HTML.
 #####Return
 
 
-#####Throws
-
 
 ###getLogoutHTML
 
@@ -117,8 +105,6 @@ Getter for the login HTML.
 Getter for the logout HTML.
 #####Return
 
-
-#####Throws
 
 
 ###getName
@@ -128,8 +114,6 @@ Getter for the contest name.
 #####Return
 
 
-#####Throws
-
 
 ###getSeen
 
@@ -137,8 +121,6 @@ Getter for the contest name.
 
 #####Return
 
-
-#####Throws
 
 
 ###getSnippet
@@ -148,8 +130,6 @@ Getter for the contest name.
 #####Return
 
 
-#####Throws
-
 
 ###getStart
 
@@ -158,8 +138,6 @@ Getter for the start date.
 #####Return
 
 
-#####Throws
-
 
 ###getToken
 
@@ -167,8 +145,6 @@ Getter for the start date.
 
 #####Return
 
-
-#####Throws
 
 
 ###getURLEncodedToken
@@ -180,15 +156,13 @@ Returns an URL encoded form of the middle ware token.
 
 #####Throws
 
-
+* UnsupportedEncodingException : If target encoding is not supported.
 ###getUntilStart
 
 
 Getter for the time left.
 #####Return
 
-
-#####Throws
 
 
 ###getVersion
@@ -198,8 +172,6 @@ Getter for the contest version.
 #####Return
 
 
-#####Throws
-
 
 ###isLogged
 
@@ -207,8 +179,6 @@ Getter for the contest version.
 Indicates if user is currently logged in.
 #####Return
 
-
-#####Throws
 
 
 ###isQualified
@@ -218,8 +188,6 @@ Indicates if the currently logged user
  is qualified for the next round.
 #####Return
 
-
-#####Throws
 
 
 ---

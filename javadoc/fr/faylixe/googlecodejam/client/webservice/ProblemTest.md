@@ -24,16 +24,12 @@ Retrieves the {@link Problem} instance
 #####Return
 
 
-#####Throws
-
 
 ###testProblemConsistency
 
 
 Ensures retrieved {@link Problem} is
  consistent. Uses the first {@link Problem}
- from {@link ContestInfo} test instance.#####Throws
-
-
+ from {@link ContestInfo} test instance.
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -44,8 +44,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Return
 
 
-#####Throws
-
 
 ###createSession
 
@@ -64,7 +62,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 #####Throws
 
-
+* IOException : If any error occurs while retrieving contest info or initial values.
 ###download
 
 
@@ -81,7 +79,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 #####Throws
 
-
+* IOException : If any error occurs while downloading the file.
 ###getContestAnalysis
 
 
@@ -95,8 +93,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Return
 
 
-#####Throws
-
 
 ###getContestInfo
 
@@ -105,8 +101,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  in order to get all <tt>round</tt> detail.</p>
 #####Return
 
-
-#####Throws
 
 
 ###getProblem
@@ -122,8 +116,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Return
 
 
-#####Throws
-
 
 ###isActive
 
@@ -134,8 +126,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Return
 
 
-#####Throws
-
 
 ###isLogged
 
@@ -143,8 +133,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 <p>Indicates if the current session is logged in or not.</p>
 #####Return
 
-
-#####Throws
 
 
 ###isQualified
@@ -154,8 +142,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  for the next round or not.</p>
 #####Return
 
-
-#####Throws
 
 
 ###refresh
@@ -167,7 +153,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 #####Throws
 
-
+* IOException : If any error occurs while reloading a new session.
 ###submit
 
 
@@ -190,6 +176,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 #####Throws
 
-
+* IOException : If any error occurs while uploading data, or performing the request.
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

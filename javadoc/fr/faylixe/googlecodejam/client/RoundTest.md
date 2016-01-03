@@ -24,15 +24,11 @@ Retrieves the round instance that will
 #####Return
 
 
-#####Throws
-
 
 ###testRoundConsistency
 
 
 Ensures retrieved rounds are consistent.
- Uses the target contest test first round.#####Throws
-
-
+ Uses the target contest test first round.
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

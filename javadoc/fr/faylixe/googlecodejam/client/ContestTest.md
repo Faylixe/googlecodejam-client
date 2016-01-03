@@ -25,16 +25,12 @@ Retrieves the contest instance that will
 #####Return
 
 
-#####Throws
-
 
 ###testContestConsistency
 
 
 Ensures retrieved contests are consistent.
  In order to do so, it consider that the last extracted
- contest should never change (the older always stays the older).#####Throws
-
-
+ contest should never change (the older always stays the older).
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

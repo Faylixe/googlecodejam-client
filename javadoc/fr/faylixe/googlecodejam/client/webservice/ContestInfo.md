@@ -37,7 +37,7 @@ Static factory method that builds a {@link ContestInfo} instance
 
 #####Throws
 
-
+* IOException : IF any error occurs while executing request.
 ###getProblem
 
 
@@ -52,7 +52,7 @@ Shortcut method for reducing law of Demeters issues.
 
 #####Throws
 
-
+* ArrayIndexOutOfBoundsException : If the given index is not valid.
 ###getProblems
 
 
@@ -61,8 +61,6 @@ Returns {@link Problem} instance associated
 #####Return
 
 
-#####Throws
-
 
 ###getVersion
 
@@ -70,8 +68,6 @@ Returns {@link Problem} instance associated
 Getter for the problems version.
 #####Return
 
-
-#####Throws
 
 
 ###hasAnalysis
@@ -82,14 +78,10 @@ Indicates if this contests already have
 #####Return
 
 
-#####Throws
-
 
 ###validateObject
 
 
-{@inheritDoc}#####Throws
-
-
+{@inheritDoc}
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

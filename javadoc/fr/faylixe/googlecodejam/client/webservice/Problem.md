@@ -40,8 +40,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 #####Return
 
 
-#####Throws
-
 
 ###getBody
 
@@ -49,8 +47,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 Getter for the problem body description.
 #####Return
 
-
-#####Throws
 
 
 ###getId
@@ -60,8 +56,6 @@ Getter for the problem id.
 #####Return
 
 
-#####Throws
-
 
 ###getKey
 
@@ -69,8 +63,6 @@ Getter for the problem id.
 Getter for the problem key.
 #####Return
 
-
-#####Throws
 
 
 ###getNormalizedName
@@ -80,8 +72,6 @@ Getter for the problem normalized name.
 #####Return
 
 
-#####Throws
-
 
 ###getParent
 
@@ -89,8 +79,6 @@ Getter for the problem normalized name.
 Getter for the parent contest of this problem.
 #####Return
 
-
-#####Throws
 
 
 ###getProblemInput
@@ -107,7 +95,7 @@ Shortcut method for reducing law of Demeters issues.
 
 #####Throws
 
-
+* ArrayIndexOutOfBoundsException : If the given index is not valid.
 ###getProblemInput
 
 
@@ -121,8 +109,6 @@ Filters and returns first problem input which name
 #####Return
 
 
-#####Throws
-
 
 ###getProblemInputs
 
@@ -130,8 +116,6 @@ Filters and returns first problem input which name
 Getter for the problem inputs.
 #####Return
 
-
-#####Throws
 
 
 ###getType
@@ -141,8 +125,6 @@ Getter for the problem type.
 #####Return
 
 
-#####Throws
-
 
 ###hashCode
 
@@ -151,14 +133,10 @@ Getter for the problem type.
 #####Return
 
 
-#####Throws
-
 
 ###validateObject
 
 
-{@inheritDoc}#####Throws
-
-
+{@inheritDoc}
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

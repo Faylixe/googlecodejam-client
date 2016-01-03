@@ -26,7 +26,7 @@ Getter for the HTML template content.
 
 #####Throws
 
-
+* IOException : If any error occurs while reading template content.
 ###getResource
 
 
@@ -39,8 +39,6 @@ Reads and returns resources content denoted by the
 
 #####Return
 
-
-#####Throws
 
 
 ###getResourceStream
@@ -56,8 +54,6 @@ Reads and returns resources content denoted by the
 #####Return
 
 
-#####Throws
-
 
 ###normalize
 
@@ -71,8 +67,6 @@ Normalizes the given <tt>name</tt> by removing
 
 #####Return
 
-
-#####Throws
 
 
 ---

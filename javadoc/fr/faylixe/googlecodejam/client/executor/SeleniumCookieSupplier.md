@@ -24,9 +24,7 @@ TODO Javadoc
 ###cancel
 
 
-Cancel the current operation.#####Throws
-
-
+Cancel the current operation.
 ###checkCurrentState
 
 
@@ -36,8 +34,6 @@ Checks the state of the given <tt>driver</tt>,
 
 
 * driver
-#####Throws
-
 
 ###get
 
@@ -46,8 +42,6 @@ Checks the state of the given <tt>driver</tt>,
 #####Return
 
 
-#####Throws
-
 
 ###isRunning
 
@@ -55,8 +49,6 @@ Checks the state of the given <tt>driver</tt>,
 Indicates if the login process is still running.
 #####Return
 
-
-#####Throws
 
 
 ---

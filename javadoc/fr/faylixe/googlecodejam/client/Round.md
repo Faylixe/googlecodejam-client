@@ -39,8 +39,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Return
 
 
-#####Throws
-
 
 ###get
 
@@ -56,8 +54,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Return
 
 
-#####Throws
-
 
 ###getContestName
 
@@ -65,8 +61,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 <p>Getter for the parent contest name.</p>
 #####Return
 
-
-#####Throws
 
 
 ###getURL
@@ -76,8 +70,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Return
 
 
-#####Throws
-
 
 ###hashCode
 
@@ -85,8 +77,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 {@inheritDoc}
 #####Return
 
-
-#####Throws
 
 
 ---
