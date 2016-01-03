@@ -19,7 +19,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 
 Getter for the name of this object.
-#####Return
+#####Returns
 
 
 

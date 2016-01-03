@@ -18,7 +18,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 
 Command line application entry point.
-#####Parameter(s)
+#####Parameters
 
 
 * args Command line parameters provided.

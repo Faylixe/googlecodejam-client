@@ -24,7 +24,7 @@ Test case for {@link CodeJamSession} class.
 Retrieves a valid {@link CodeJamSession}
  that should be used for testing.
  Such session is not connected.
-#####Return
+#####Returns
 
 
 

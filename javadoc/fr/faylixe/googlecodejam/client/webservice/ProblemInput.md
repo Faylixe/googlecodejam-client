@@ -35,7 +35,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 
 {@inheritDoc}
-#####Return
+#####Returns
 
 
 
@@ -44,7 +44,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 
 Getter for the problem input difficulty.
-#####Return
+#####Returns
 
 
 
@@ -53,7 +53,7 @@ Getter for the problem input difficulty.
 
 
 Getter for the problem input number.
-#####Return
+#####Returns
 
 
 
@@ -62,7 +62,7 @@ Getter for the problem input number.
 
 
 Getter for the input number of point.
-#####Return
+#####Returns
 
 
 
@@ -71,7 +71,7 @@ Getter for the input number of point.
 
 
 Getter for the parent problem of this input.
-#####Return
+#####Returns
 
 
 
@@ -80,7 +80,7 @@ Getter for the parent problem of this input.
 
 
 Getter for the input suffix.
-#####Return
+#####Returns
 
 
 
@@ -89,7 +89,7 @@ Getter for the input suffix.
 
 
 {@inheritDoc}
-#####Return
+#####Returns
 
 
 

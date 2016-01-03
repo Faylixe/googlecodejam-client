@@ -31,7 +31,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 {@inheritDoc}
-#####Return
+#####Returns
 
 
 
@@ -41,13 +41,13 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 <p>Static factory methods that retrieves a list of round
  from the given JSoup <tt>contest</tt> node.</p>
-#####Parameter(s)
+#####Parameters
 
 
 * contest Root element of the contest in the contest index page.
 * parent Parent contest name.
 
-#####Return
+#####Returns
 
 
 
@@ -56,7 +56,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 <p>Getter for the parent contest name.</p>
-#####Return
+#####Returns
 
 
 
@@ -65,7 +65,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 <p>Getter for round dashboard URL.</p>
-#####Return
+#####Returns
 
 
 
@@ -74,7 +74,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 {@inheritDoc}
-#####Return
+#####Returns
 
 
 

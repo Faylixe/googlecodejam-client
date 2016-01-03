@@ -25,12 +25,12 @@ Downloads an input file, from the given user <tt>command</tt>.
  Retrieves the contextual session if exist, and if so, then
  the download method is used on the loaded session. If the
  file already exist, it will be removed first before downloading.
-#####Parameter(s)
+#####Parameters
 
 
 * command User command line.
 
-#####Return
+#####Returns
 
 
 
@@ -41,7 +41,7 @@ Downloads an input file, from the given user <tt>command</tt>.
 Methods that is bound to the INIT command. Starts
  firefox through selenium to retrieve cookie instance
  and prompts user for the contextual round to use.
-#####Return
+#####Returns
 
 
 
@@ -52,12 +52,12 @@ Methods that is bound to the INIT command. Starts
 Performs an output file submission using the <tt>SubmitAnswer</tt>
  command. Retrieves the contextual session if exist, and if so, then
  the submit method is used on the loaded session.
-#####Parameter(s)
+#####Parameters
 
 
 * command User command line.
 
-#####Return
+#####Returns
 
 
 

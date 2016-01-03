@@ -28,13 +28,13 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 Static factory method that creates a {@link Part} which contains
  simple form data.
-#####Parameter(s)
+#####Parameters
 
 
 * name Name of the POST data to create part for.
 * data Value of the POST data to create part for.
 
-#####Return
+#####Returns
 
 
 
@@ -44,13 +44,13 @@ Static factory method that creates a {@link Part} which contains
 
 Static factory method that creates a {@link Part} which contains
  file form data.
-#####Parameter(s)
+#####Parameters
 
 
 * name name Name of the POST file data to create part for.
 * file File of the POST data to create part for.
 
-#####Return
+#####Returns
 
 
 #####Throws
@@ -64,13 +64,13 @@ Static factory method that creates a {@link Part} which contains
 Static factory method that creates a {@link HttpRequestExecutor} instance
  which is set using the given <tt>cookie</tt> for building authenticated
  HTTP request.
-#####Parameter(s)
+#####Parameters
 
 
 * hostname Hostname to use for the created executor.
 * cookieValue Value of the SACSID cookie to use.
 
-#####Return
+#####Returns
 
 
 
@@ -80,12 +80,12 @@ Static factory method that creates a {@link HttpRequestExecutor} instance
 
 Static factory method that creates a non logged
  {@link HttpRequestExecutor} instance.
-#####Parameter(s)
+#####Parameters
 
 
 * hostname Hostname to use for the created executor.
 
-#####Return
+#####Returns
 
 
 
@@ -96,12 +96,12 @@ Static factory method that creates a non logged
 Performs a HTTP GET request to the given <tt>path</tt>
  relative to the internal target hostname. The response
  is returned as a {@link String}.
-#####Parameter(s)
+#####Parameters
 
 
 * path Relative server path to perform request to.
 
-#####Return
+#####Returns
 
 
 #####Throws
@@ -113,7 +113,7 @@ Performs a HTTP GET request to the given <tt>path</tt>
 
 
 Getter for the target hostname.
-#####Return
+#####Returns
 
 
 
@@ -123,12 +123,12 @@ Getter for the target hostname.
 
 Creates and returns a GET {@link HttpRequest} instance
  for the given <tt>path</tt> over the internal hostname.
-#####Parameter(s)
+#####Parameters
 
 
 * path Path of the request to build.
 
-#####Return
+#####Returns
 
 
 #####Throws
@@ -141,13 +141,13 @@ Creates and returns a GET {@link HttpRequest} instance
 
 Performs a HTTP POST request to the given <tt>path</tt>
  relative to the internal target hostname.
-#####Parameter(s)
+#####Parameters
 
 
 * path Relative server path to perform request to.
 * content POST content that will be sent.
 
-#####Return
+#####Returns
 
 
 #####Throws

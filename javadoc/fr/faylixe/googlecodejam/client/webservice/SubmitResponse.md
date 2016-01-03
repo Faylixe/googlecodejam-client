@@ -25,7 +25,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 
 {@inheritDoc}
-#####Return
+#####Returns
 
 
 
@@ -34,7 +34,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 
 Getter for the submission identifier.
-#####Return
+#####Returns
 
 
 
@@ -43,7 +43,7 @@ Getter for the submission identifier.
 
 
 Getter for the information message.
-#####Return
+#####Returns
 
 
 
@@ -52,7 +52,7 @@ Getter for the information message.
 
 
 Getter for the problem identifier.
-#####Return
+#####Returns
 
 
 
@@ -61,7 +61,7 @@ Getter for the problem identifier.
 
 
 {@inheritDoc}
-#####Return
+#####Returns
 
 
 
@@ -70,7 +70,7 @@ Getter for the problem identifier.
 
 
 Indicates if the submission was successful or not.
-#####Return
+#####Returns
 
 
 

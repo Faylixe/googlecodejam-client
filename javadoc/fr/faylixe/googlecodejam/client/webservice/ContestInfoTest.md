@@ -22,7 +22,7 @@ Test case for {@link ContestInfo} class.
 Retrieves the {@link ContestInfo} instance
  that will be used for testing. Using
  test {@link Round} as reference.
-#####Return
+#####Returns
 
 
 
@@ -32,7 +32,7 @@ Retrieves the {@link ContestInfo} instance
 
 Ensures the given {@link ContestInfo} is
  consistent.
-#####Parameter(s)
+#####Parameters
 
 
 * info {@link ContestInfo} instance to ensure consistency from.

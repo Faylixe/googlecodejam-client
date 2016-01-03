@@ -26,13 +26,13 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 Static factory method that builds a {@link ContestInfo} instance
  from the given <tt>round</tt> using a <tt>/ContestInfo</tt>
  request from the round dashboard.
-#####Parameter(s)
+#####Parameters
 
 
 * executor Executor instance used to perform the request.
 * round Round to retrieve {@link ContestInfo} from.
 
-#####Return
+#####Returns
 
 
 #####Throws
@@ -44,12 +44,12 @@ Static factory method that builds a {@link ContestInfo} instance
 
 
 Shortcut method for reducing law of Demeters issues.
-#####Parameter(s)
+#####Parameters
 
 
 * index Index of the problem to retrieve.
 
-#####Return
+#####Returns
 
 
 #####Throws
@@ -62,7 +62,7 @@ Shortcut method for reducing law of Demeters issues.
 
 Returns {@link Problem} instance associated
  to this contest.
-#####Return
+#####Returns
 
 
 
@@ -71,7 +71,7 @@ Returns {@link Problem} instance associated
 
 
 Getter for the problems version.
-#####Return
+#####Returns
 
 
 
@@ -81,7 +81,7 @@ Getter for the problems version.
 
 Indicates if this contests already have
  analysis committed or not.
-#####Return
+#####Returns
 
 
 

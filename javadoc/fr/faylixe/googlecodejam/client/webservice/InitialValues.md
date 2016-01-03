@@ -39,13 +39,13 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 Static factory method that use the <tt>GetInitialValues</tt> command
  for the given <tt>round</tt> to retrieve a valud {@link InitialValues} instance.
-#####Parameter(s)
+#####Parameters
 
 
 * executor Executor instance to use for performing the associated request.
 * round Round to extract initial values from.
 
-#####Return
+#####Returns
 
 
 #####Throws
@@ -57,7 +57,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 
 
-#####Return
+#####Returns
 
 
 
@@ -66,7 +66,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 
 
-#####Return
+#####Returns
 
 
 
@@ -75,7 +75,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 
 Getter for the user email.
-#####Return
+#####Returns
 
 
 
@@ -84,7 +84,7 @@ Getter for the user email.
 
 
 
-#####Return
+#####Returns
 
 
 
@@ -93,7 +93,7 @@ Getter for the user email.
 
 
 Getter for the time left.
-#####Return
+#####Returns
 
 
 
@@ -102,7 +102,7 @@ Getter for the time left.
 
 
 Getter for the login HTML.
-#####Return
+#####Returns
 
 
 
@@ -111,7 +111,7 @@ Getter for the login HTML.
 
 
 Getter for the logout HTML.
-#####Return
+#####Returns
 
 
 
@@ -120,7 +120,7 @@ Getter for the logout HTML.
 
 
 Getter for the contest name.
-#####Return
+#####Returns
 
 
 
@@ -129,7 +129,7 @@ Getter for the contest name.
 
 
 
-#####Return
+#####Returns
 
 
 
@@ -138,7 +138,7 @@ Getter for the contest name.
 
 
 
-#####Return
+#####Returns
 
 
 
@@ -147,7 +147,7 @@ Getter for the contest name.
 
 
 Getter for the start date.
-#####Return
+#####Returns
 
 
 
@@ -156,7 +156,7 @@ Getter for the start date.
 
 
 
-#####Return
+#####Returns
 
 
 
@@ -165,7 +165,7 @@ Getter for the start date.
 
 
 Returns an URL encoded form of the middle ware token.
-#####Return
+#####Returns
 
 
 #####Throws
@@ -177,7 +177,7 @@ Returns an URL encoded form of the middle ware token.
 
 
 Getter for the time left.
-#####Return
+#####Returns
 
 
 
@@ -186,7 +186,7 @@ Getter for the time left.
 
 
 Getter for the contest version.
-#####Return
+#####Returns
 
 
 
@@ -195,7 +195,7 @@ Getter for the contest version.
 
 
 Indicates if user is currently logged in.
-#####Return
+#####Returns
 
 
 
@@ -205,7 +205,7 @@ Indicates if user is currently logged in.
 
 Indicates if the currently logged user
  is qualified for the next round.
-#####Return
+#####Returns
 
 
 
