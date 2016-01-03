@@ -43,7 +43,8 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Methods
 
---###createOptions
+--
+###createOptions
 
 
 Static factory method that creates the {@link Options} list

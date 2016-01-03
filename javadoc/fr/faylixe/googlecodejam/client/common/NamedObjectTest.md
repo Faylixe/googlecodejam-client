@@ -15,11 +15,13 @@ Test case for {@link NamedObject} class.
 
 ##Methods
 
---###testDefault
+--
+###testDefault
 
 
 Test named object behavior from default instantiation.
---###testSerialized
+--
+###testSerialized
 
 
 Test named object behavior through JSON built object.

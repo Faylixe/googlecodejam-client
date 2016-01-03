@@ -31,7 +31,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Methods
 
---###buildFilename
+--
+###buildFilename
 
 
 <p>Builds and returns a valid file name
@@ -45,7 +46,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
---###createSession
+--
+###createSession
 
 
 <p>Static factory method that should be used for creating a session.
@@ -64,7 +66,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while retrieving contest info or initial values.
 
---###download
+--
+###download
 
 
 <p>Downloads and returns the stream of the
@@ -82,7 +85,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while downloading the file.
 
---###getContestAnalysis
+--
+###getContestAnalysis
 
 
 <p>Returns the analysis for the given
@@ -96,7 +100,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
---###getContestInfo
+--
+###getContestInfo
 
 
 <p>Performs and returns a <tt>GET /</tt> request
@@ -105,7 +110,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
---###getProblem
+--
+###getProblem
 
 
 <p>Retrieves the problem associated
@@ -119,7 +125,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
---###isActive
+--
+###isActive
 
 
 <p>Indiciates if the contest is currently active,
@@ -129,7 +136,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
---###isLogged
+--
+###isLogged
 
 
 <p>Indicates if the current session is logged in or not.</p>
@@ -137,7 +145,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
---###isQualified
+--
+###isQualified
 
 
 <p>Indicates if the currently logged user is qualified
@@ -146,7 +155,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
---###refresh
+--
+###refresh
 
 
 <p>Reloads session components in order to prevent from any change.</p>
@@ -157,7 +167,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while reloading a new session.
 
---###submit
+--
+###submit
 
 
 <p>Submits the given <tt>output</tt> file and the

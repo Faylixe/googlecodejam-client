@@ -23,7 +23,8 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ##Methods
 
---###buildDataPart
+--
+###buildDataPart
 
 
 Static factory method that creates a {@link Part} which contains
@@ -38,7 +39,8 @@ Static factory method that creates a {@link Part} which contains
 
 
 
---###buildFilePart
+--
+###buildFilePart
 
 
 Static factory method that creates a {@link Part} which contains
@@ -56,7 +58,8 @@ Static factory method that creates a {@link Part} which contains
 
 * [IOException](../../../../java/io/IOException.md) If any any error occurs during file type detection.
 
---###create
+--
+###create
 
 
 Static factory method that creates a {@link HttpRequestExecutor} instance
@@ -72,7 +75,8 @@ Static factory method that creates a {@link HttpRequestExecutor} instance
 
 
 
---###create
+--
+###create
 
 
 Static factory method that creates a non logged
@@ -86,7 +90,8 @@ Static factory method that creates a non logged
 
 
 
---###get
+--
+###get
 
 
 Performs a HTTP GET request to the given <tt>path</tt>
@@ -104,7 +109,8 @@ Performs a HTTP GET request to the given <tt>path</tt>
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
 
---###getHostname
+--
+###getHostname
 
 
 Getter for the target hostname.
@@ -112,7 +118,8 @@ Getter for the target hostname.
 
 
 
---###getRequest
+--
+###getRequest
 
 
 Creates and returns a GET {@link HttpRequest} instance
@@ -129,7 +136,8 @@ Creates and returns a GET {@link HttpRequest} instance
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while creating the GET request.
 
---###post
+--
+###post
 
 
 Performs a HTTP POST request to the given <tt>path</tt>

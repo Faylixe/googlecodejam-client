@@ -34,7 +34,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
---###get
+--
+###get
 
 
 Static factory method that use the <tt>GetInitialValues</tt> command
@@ -52,7 +53,8 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs during the associated HTTP request.
 
---###getAdmin
+--
+###getAdmin
 
 
 
@@ -60,7 +62,8 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 
 
---###getCS
+--
+###getCS
 
 
 
@@ -68,7 +71,8 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 
 
---###getEmail
+--
+###getEmail
 
 
 Getter for the user email.
@@ -76,7 +80,8 @@ Getter for the user email.
 
 
 
---###getInput
+--
+###getInput
 
 
 
@@ -84,7 +89,8 @@ Getter for the user email.
 
 
 
---###getLeft
+--
+###getLeft
 
 
 Getter for the time left.
@@ -92,7 +98,8 @@ Getter for the time left.
 
 
 
---###getLoginHTML
+--
+###getLoginHTML
 
 
 Getter for the login HTML.
@@ -100,7 +107,8 @@ Getter for the login HTML.
 
 
 
---###getLogoutHTML
+--
+###getLogoutHTML
 
 
 Getter for the logout HTML.
@@ -108,7 +116,8 @@ Getter for the logout HTML.
 
 
 
---###getName
+--
+###getName
 
 
 Getter for the contest name.
@@ -116,7 +125,8 @@ Getter for the contest name.
 
 
 
---###getSeen
+--
+###getSeen
 
 
 
@@ -124,7 +134,8 @@ Getter for the contest name.
 
 
 
---###getSnippet
+--
+###getSnippet
 
 
 
@@ -132,7 +143,8 @@ Getter for the contest name.
 
 
 
---###getStart
+--
+###getStart
 
 
 Getter for the start date.
@@ -140,7 +152,8 @@ Getter for the start date.
 
 
 
---###getToken
+--
+###getToken
 
 
 
@@ -148,7 +161,8 @@ Getter for the start date.
 
 
 
---###getURLEncodedToken
+--
+###getURLEncodedToken
 
 
 Returns an URL encoded form of the middle ware token.
@@ -159,7 +173,8 @@ Returns an URL encoded form of the middle ware token.
 
 * [UnsupportedEncodingException](../../../../java/io/UnsupportedEncodingException.md) If target encoding is not supported.
 
---###getUntilStart
+--
+###getUntilStart
 
 
 Getter for the time left.
@@ -167,7 +182,8 @@ Getter for the time left.
 
 
 
---###getVersion
+--
+###getVersion
 
 
 Getter for the contest version.
@@ -175,7 +191,8 @@ Getter for the contest version.
 
 
 
---###isLogged
+--
+###isLogged
 
 
 Indicates if user is currently logged in.
@@ -183,7 +200,8 @@ Indicates if user is currently logged in.
 
 
 
---###isQualified
+--
+###isQualified
 
 
 Indicates if the currently logged user

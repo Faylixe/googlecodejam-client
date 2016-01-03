@@ -17,7 +17,8 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ##Methods
 
---###getHTMLTemplate
+--
+###getHTMLTemplate
 
 
 Getter for the HTML template content.
@@ -28,7 +29,8 @@ Getter for the HTML template content.
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while reading template content.
 
---###getResource
+--
+###getResource
 
 
 Reads and returns resources content denoted by the
@@ -42,7 +44,8 @@ Reads and returns resources content denoted by the
 
 
 
---###getResourceStream
+--
+###getResourceStream
 
 
 Reads and returns resources content denoted by the
@@ -56,7 +59,8 @@ Reads and returns resources content denoted by the
 
 
 
---###normalize
+--
+###normalize
 
 
 Normalizes the given <tt>name</tt> by removing

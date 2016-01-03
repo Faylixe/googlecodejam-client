@@ -14,7 +14,8 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Methods
 
---###main
+--
+###main
 
 
 Command line application entry point.

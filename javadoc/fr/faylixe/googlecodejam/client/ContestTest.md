@@ -15,7 +15,8 @@ Test case for {@link Contest} class.
 
 ##Methods
 
---###getTestContests
+--
+###getTestContests
 
 
 Retrieves the contest instance that will
@@ -26,7 +27,8 @@ Retrieves the contest instance that will
 
 
 
---###testContestConsistency
+--
+###testContestConsistency
 
 
 Ensures retrieved contests are consistent.

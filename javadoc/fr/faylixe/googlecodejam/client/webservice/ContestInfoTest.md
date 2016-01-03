@@ -16,7 +16,8 @@ Test case for {@link ContestInfo} class.
 
 ##Methods
 
---###getTestContestInfo
+--
+###getTestContestInfo
 
 
 Retrieves the {@link ContestInfo} instance
@@ -26,7 +27,8 @@ Retrieves the {@link ContestInfo} instance
 
 
 
---###testContestInfoConsistency
+--
+###testContestInfoConsistency
 
 
 Ensures the given {@link ContestInfo} is
@@ -36,7 +38,8 @@ Ensures the given {@link ContestInfo} is
 
 * info
 
---###testContestInfoConsistency
+--
+###testContestInfoConsistency
 
 
 Ensures retrieved {@link ContestInfo} is

@@ -14,7 +14,8 @@ Test case for the {@link HttpRequestExecutor} class.
 
 ##Methods
 
---###getTestExecutor
+--
+###getTestExecutor
 
 
 Creates and returns a valid {@link HttpRequestExecutor}

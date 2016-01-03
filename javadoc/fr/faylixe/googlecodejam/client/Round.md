@@ -27,7 +27,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Methods
 
---###equals
+--
+###equals
 
 
 {@inheritDoc}
@@ -40,7 +41,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
---###get
+--
+###get
 
 
 <p>Static factory methods that retrieves a list of round
@@ -55,7 +57,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
---###getContestName
+--
+###getContestName
 
 
 <p>Getter for the parent contest name.</p>
@@ -63,7 +66,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
---###getURL
+--
+###getURL
 
 
 <p>Getter for round dashboard URL.</p>
@@ -71,7 +75,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
---###hashCode
+--
+###hashCode
 
 
 {@inheritDoc}

@@ -28,7 +28,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
---###equals
+--
+###equals
 
 
 {@inheritDoc}
@@ -41,7 +42,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 
 
---###getBody
+--
+###getBody
 
 
 Getter for the problem body description.
@@ -49,7 +51,8 @@ Getter for the problem body description.
 
 
 
---###getId
+--
+###getId
 
 
 Getter for the problem id.
@@ -57,7 +60,8 @@ Getter for the problem id.
 
 
 
---###getKey
+--
+###getKey
 
 
 Getter for the problem key.
@@ -65,7 +69,8 @@ Getter for the problem key.
 
 
 
---###getNormalizedName
+--
+###getNormalizedName
 
 
 Getter for the problem normalized name.
@@ -73,7 +78,8 @@ Getter for the problem normalized name.
 
 
 
---###getParent
+--
+###getParent
 
 
 Getter for the parent contest of this problem.
@@ -81,7 +87,8 @@ Getter for the parent contest of this problem.
 
 
 
---###getProblemInput
+--
+###getProblemInput
 
 
 Shortcut method for reducing law of Demeters issues.
@@ -97,7 +104,8 @@ Shortcut method for reducing law of Demeters issues.
 
 * [ArrayIndexOutOfBoundsException](../../../../java/lang/ArrayIndexOutOfBoundsException.md) If the given index is not valid.
 
---###getProblemInput
+--
+###getProblemInput
 
 
 Filters and returns first problem input which name
@@ -111,7 +119,8 @@ Filters and returns first problem input which name
 
 
 
---###getProblemInputs
+--
+###getProblemInputs
 
 
 Getter for the problem inputs.
@@ -119,7 +128,8 @@ Getter for the problem inputs.
 
 
 
---###getType
+--
+###getType
 
 
 Getter for the problem type.
@@ -127,7 +137,8 @@ Getter for the problem type.
 
 
 
---###hashCode
+--
+###hashCode
 
 
 {@inheritDoc}
@@ -135,7 +146,8 @@ Getter for the problem type.
 
 
 
---###validateObject
+--
+###validateObject
 
 
 {@inheritDoc}

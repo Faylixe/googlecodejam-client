@@ -18,7 +18,8 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Methods
 
---###download
+--
+###download
 
 
 Downloads an input file, from the given user <tt>command</tt>.
@@ -34,7 +35,8 @@ Downloads an input file, from the given user <tt>command</tt>.
 
 
 
---###init
+--
+###init
 
 
 Methods that is bound to the INIT command. Starts
@@ -44,7 +46,8 @@ Methods that is bound to the INIT command. Starts
 
 
 
---###submit
+--
+###submit
 
 
 Performs an output file submission using the <tt>SubmitAnswer</tt>

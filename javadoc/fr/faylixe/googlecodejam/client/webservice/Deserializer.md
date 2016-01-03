@@ -14,7 +14,8 @@ Custom deserializer that normalizes problem body content.
 
 ##Methods
 
---###deserialize
+--
+###deserialize
 
 
 {@inheritDoc}

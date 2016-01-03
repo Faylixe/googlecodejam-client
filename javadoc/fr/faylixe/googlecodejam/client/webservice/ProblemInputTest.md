@@ -14,7 +14,8 @@ Test case for the {@link ProblemInput} class.
 
 ##Methods
 
---###testProblemInputConsistency
+--
+###testProblemInputConsistency
 
 
 Ensures retrieved {@link ProblemInput}

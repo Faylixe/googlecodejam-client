@@ -31,7 +31,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
---###equals
+--
+###equals
 
 
 {@inheritDoc}
@@ -44,7 +45,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 
 
---###getDifficulty
+--
+###getDifficulty
 
 
 Getter for the problem input difficulty.
@@ -52,7 +54,8 @@ Getter for the problem input difficulty.
 
 
 
---###getNumber
+--
+###getNumber
 
 
 Getter for the problem input number.
@@ -60,7 +63,8 @@ Getter for the problem input number.
 
 
 
---###getPoints
+--
+###getPoints
 
 
 Getter for the input number of point.
@@ -68,7 +72,8 @@ Getter for the input number of point.
 
 
 
---###getProblem
+--
+###getProblem
 
 
 Getter for the parent problem of this input.
@@ -76,7 +81,8 @@ Getter for the parent problem of this input.
 
 
 
---###getSuffix
+--
+###getSuffix
 
 
 Getter for the input suffix.
@@ -84,7 +90,8 @@ Getter for the input suffix.
 
 
 
---###hashCode
+--
+###hashCode
 
 
 {@inheritDoc}

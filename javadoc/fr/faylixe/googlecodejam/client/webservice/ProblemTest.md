@@ -15,7 +15,8 @@ Test case for the {@link Problem} class.
 
 ##Methods
 
---###getTestProblem
+--
+###getTestProblem
 
 
 Retrieves the {@link Problem} instance
@@ -25,7 +26,8 @@ Retrieves the {@link Problem} instance
 
 
 
---###testProblemConsistency
+--
+###testProblemConsistency
 
 
 Ensures retrieved {@link Problem} is
