@@ -1,6 +1,6 @@
 #ContestInfoTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 [Object](../../../../java/langObject.md) > [ContestInfoTest](ContestInfoTest.md)
 
 Test case for {@link ContestInfo} class.
@@ -9,7 +9,7 @@ Test case for {@link ContestInfo} class.
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | [ContestInfo](ContestInfo.md) | getTestContestInfo |
 | **void** | testContestInfoConsistency |
 | **void** | testContestInfoConsistency |

@@ -1,6 +1,6 @@
 #ProblemTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 [Object](../../../../java/langObject.md) > [ProblemTest](ProblemTest.md)
 
 Test case for the {@link Problem} class.
@@ -9,7 +9,7 @@ Test case for the {@link Problem} class.
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | [Problem](Problem.md) | getTestProblem |
 | **void** | testProblemConsistency |
 

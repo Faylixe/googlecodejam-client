@@ -1,6 +1,6 @@
 #ProblemInputTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 [Object](../../../../java/langObject.md) > [ProblemInputTest](ProblemInputTest.md)
 
 Test case for the {@link ProblemInput} class.
@@ -9,7 +9,7 @@ Test case for the {@link ProblemInput} class.
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | **void** | testProblemInputConsistency |
 
 ###Methods

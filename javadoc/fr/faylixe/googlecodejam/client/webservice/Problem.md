@@ -1,6 +1,6 @@
 #Problem
 
-Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 [Object](../../../../java/langObject.md) > [NamedObject](commonNamedObject.md) > [Problem](Problem.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
@@ -12,7 +12,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | **boolean** | equals |
 | [String](../../../../java/langString.md) | getBody |
 | [String](../../../../java/langString.md) | getId |

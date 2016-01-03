@@ -1,6 +1,6 @@
 #HttpRequestExecutorMock
 
-Package [fr.faylixe.googlecodejam.client](../)<br>
+Package [fr.faylixe.googlecodejam.client](README.md)<br>
 [Object](../../../java/langObject.md) > [HttpRequestExecutorMock](HttpRequestExecutorMock.md)
 
 Test case for the {@link HttpRequestExecutor} class.
@@ -9,7 +9,7 @@ Test case for the {@link HttpRequestExecutor} class.
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | [HttpRequestExecutor](/executorHttpRequestExecutor.md) | getTestExecutor |
 
 ###Methods

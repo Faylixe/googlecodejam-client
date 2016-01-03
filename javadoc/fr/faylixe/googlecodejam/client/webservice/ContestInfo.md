@@ -1,6 +1,6 @@
 #ContestInfo
 
-Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 [Object](../../../../java/langObject.md) > [ContestInfo](ContestInfo.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
@@ -10,7 +10,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | [ContestInfo](ContestInfo.md) | get |
 | [Problem](Problem.md) | getProblem |
 | [List](../../../../java/utilList.md) | getProblems |

@@ -1,6 +1,6 @@
 #ProblemInput
 
-Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 [Object](../../../../java/langObject.md) > [NamedObject](commonNamedObject.md) > [ProblemInput](ProblemInput.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
@@ -12,7 +12,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | **boolean** | equals |
 | **int** | getDifficulty |
 | **int** | getNumber |
@@ -24,10 +24,10 @@ Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
 ###Fields
 
 
-| Type | Field |
-| --- | --- |
-|  | LARGE |
-|  | SMALL |
+| Type | Field | Description |
+| --- | --- | --- |
+|  | LARGE | Constant used for large input. |
+|  | SMALL | Constant used for small input. |
 
 ###Methods
 

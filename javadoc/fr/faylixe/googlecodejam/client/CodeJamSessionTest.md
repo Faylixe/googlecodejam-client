@@ -1,6 +1,6 @@
 #CodeJamSessionTest
 
-Package [fr.faylixe.googlecodejam.client](../)<br>
+Package [fr.faylixe.googlecodejam.client](README.md)<br>
 [Object](../../../java/langObject.md) > [CodeJamSessionTest](CodeJamSessionTest.md)
 
 Test case for {@link CodeJamSession} class.
@@ -9,7 +9,7 @@ Test case for {@link CodeJamSession} class.
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | [CodeJamSession](CodeJamSession.md) | getTestSession |
 | **void** | testContestAnalysis |
 | **void** | testDownload |

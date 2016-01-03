@@ -1,6 +1,6 @@
 #CodeJamSession
 
-Package [fr.faylixe.googlecodejam.client](../)<br>
+Package [fr.faylixe.googlecodejam.client](README.md)<br>
 [Object](../../../java/langObject.md) > [NamedObject](/commonNamedObject.md) > [CodeJamSession](CodeJamSession.md)
 
 {@link CodeJamSession} is the main API entry point, which consists
@@ -16,7 +16,7 @@ Package [fr.faylixe.googlecodejam.client](../)<br>
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | [String](../../../java/langString.md) | buildFilename |
 | [CodeJamSession](CodeJamSession.md) | createSession |
 | [InputStream](../../../java/ioInputStream.md) | download |

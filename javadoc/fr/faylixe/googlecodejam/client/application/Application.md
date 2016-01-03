@@ -1,6 +1,6 @@
 #Application
 
-Package [fr.faylixe.googlecodejam.client.application](../)<br>
+Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 [Object](../../../../java/langObject.md) > [Application](Application.md)
 
 <p>Main class that could be used as a command line program.</p>
@@ -9,7 +9,7 @@ Package [fr.faylixe.googlecodejam.client.application](../)<br>
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | **void** | main |
 
 ###Methods

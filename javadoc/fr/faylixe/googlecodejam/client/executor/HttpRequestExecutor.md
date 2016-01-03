@@ -1,6 +1,6 @@
 #HttpRequestExecutor
 
-Package [fr.faylixe.googlecodejam.client.executor](../)<br>
+Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 [Object](../../../../java/langObject.md) > [HttpRequestExecutor](HttpRequestExecutor.md)
 
 <p>A {@link HttpRequestExecutor} is an abstraction
@@ -11,7 +11,7 @@ Package [fr.faylixe.googlecodejam.client.executor](../)<br>
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | [Part](../../../../com/google/api/client/httpPart.md) | buildDataPart |
 | [Part](../../../../com/google/api/client/httpPart.md) | buildFilePart |
 | [HttpRequestExecutor](HttpRequestExecutor.md) | create |

@@ -1,6 +1,6 @@
 #SeleniumCookieSupplier
 
-Package [fr.faylixe.googlecodejam.client.executor](../)<br>
+Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 [Object](../../../../java/langObject.md) > [SeleniumCookieSupplier](SeleniumCookieSupplier.md)
 
 TODO Javadoc
@@ -13,7 +13,7 @@ TODO Javadoc
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | **void** | cancel |
 | **void** | checkCurrentState |
 | [String](../../../../java/langString.md) | get |

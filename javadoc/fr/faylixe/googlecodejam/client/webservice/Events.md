@@ -1,6 +1,6 @@
 #Events
 
-Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 [Object](../../../../java/langObject.md) > [Events](Events.md)
 
 TODO : Fill with Event response attribute.

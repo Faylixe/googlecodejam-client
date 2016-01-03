@@ -1,6 +1,6 @@
 #InitialValuesTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 [Object](../../../../java/langObject.md) > [InitialValuesTest](InitialValuesTest.md)
 
 Test case for {@link InitialValues} class.
@@ -9,7 +9,7 @@ Test case for {@link InitialValues} class.
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | [InitialValues](InitialValues.md) | getTestInitialValues |
 | **void** | testInitialValuesConsistency |
 

@@ -1,6 +1,6 @@
 #ApplicationCommand
 
-Package [fr.faylixe.googlecodejam.client.application](../)<br>
+Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 [Object](../../../../java/langObject.md) > [ApplicationCommand](ApplicationCommand.md)
 
 <p>This class contains static method that are
@@ -11,7 +11,7 @@ Package [fr.faylixe.googlecodejam.client.application](../)<br>
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | **boolean** | download |
 | **boolean** | init |
 | **boolean** | submit |

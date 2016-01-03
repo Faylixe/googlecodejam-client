@@ -1,6 +1,6 @@
 #Contest
 
-Package [fr.faylixe.googlecodejam.client](../)<br>
+Package [fr.faylixe.googlecodejam.client](README.md)<br>
 [Object](../../../java/langObject.md) > [NamedObject](/commonNamedObject.md) > [Contest](Contest.md)
 
 <p>POJO class that represents a Google Jam {@link Contest}.
@@ -11,7 +11,7 @@ Package [fr.faylixe.googlecodejam.client](../)<br>
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | **boolean** | equals |
 | [List](../../../java/utilList.md) | get |
 | [List](../../../java/utilList.md) | getRounds |
@@ -20,10 +20,10 @@ Package [fr.faylixe.googlecodejam.client](../)<br>
 ###Fields
 
 
-| Type | Field |
-| --- | --- |
-|  | CONTEST_CLASS_NAME |
-|  | CONTEST_INDEX |
+| Type | Field | Description |
+| --- | --- | --- |
+|  | CONTEST_CLASS_NAME | <p>Class name of the element that contains contest data.</p> |
+|  | CONTEST_INDEX | <p>URL of the contest index page.</p> |
 
 ###Methods
 

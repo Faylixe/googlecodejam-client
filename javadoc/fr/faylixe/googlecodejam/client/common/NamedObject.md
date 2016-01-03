@@ -1,6 +1,6 @@
 #NamedObject
 
-Package [fr.faylixe.googlecodejam.client.common](../)<br>
+Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 [Object](../../../../java/langObject.md) > [NamedObject](NamedObject.md)
 
 <p>Class that represents a object which
@@ -10,7 +10,7 @@ Package [fr.faylixe.googlecodejam.client.common](../)<br>
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | [String](../../../../java/langString.md) | getName |
 
 ###Methods

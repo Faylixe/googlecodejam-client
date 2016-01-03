@@ -1,6 +1,6 @@
 #RoundTest
 
-Package [fr.faylixe.googlecodejam.client](../)<br>
+Package [fr.faylixe.googlecodejam.client](README.md)<br>
 [Object](../../../java/langObject.md) > [RoundTest](RoundTest.md)
 
 Test case for the {@link Round} class.
@@ -9,7 +9,7 @@ Test case for the {@link Round} class.
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | [Round](Round.md) | getTestRound |
 | **void** | testRoundConsistency |
 

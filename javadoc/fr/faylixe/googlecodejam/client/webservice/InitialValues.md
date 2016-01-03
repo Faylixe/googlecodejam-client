@@ -1,6 +1,6 @@
 #InitialValues
 
-Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 [Object](../../../../java/langObject.md) > [InitialValues](InitialValues.md)
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
@@ -12,7 +12,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | [InitialValues](InitialValues.md) | get |
 | [String](../../../../java/langString.md) | getAdmin |
 | **int** | getCS |

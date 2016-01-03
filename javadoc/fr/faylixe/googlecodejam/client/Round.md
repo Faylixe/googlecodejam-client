@@ -1,6 +1,6 @@
 #Round
 
-Package [fr.faylixe.googlecodejam.client](../)<br>
+Package [fr.faylixe.googlecodejam.client](README.md)<br>
 [Object](../../../java/langObject.md) > [NamedObject](/commonNamedObject.md) > [Round](Round.md)
 
 <p>POJO class that represents a Google Jam {@link Round}.
@@ -11,7 +11,7 @@ Package [fr.faylixe.googlecodejam.client](../)<br>
 
 
 | Type | Method |
-| --- | --- |
+| --- | --- | --- |
 | **boolean** | equals |
 | [List](../../../java/utilList.md) | get |
 | [String](../../../java/langString.md) | getContestName |
@@ -21,9 +21,9 @@ Package [fr.faylixe.googlecodejam.client](../)<br>
 ###Fields
 
 
-| Type | Field |
-| --- | --- |
-|  | DESCRIPTION_CLASS_NAME |
+| Type | Field | Description |
+| --- | --- | --- |
+|  | DESCRIPTION_CLASS_NAME | <p>Class name of the HTML description node.</p> |
 
 ###Methods
 
