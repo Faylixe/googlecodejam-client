@@ -36,6 +36,7 @@ Static factory method that builds a {@link ContestInfo} instance
 
 
 * Built {@link ContestInfo} instance.
+
 #####Throws
 
 * [IOException](../../../../java/io/IOException.md) IF any error occurs while executing request.
@@ -54,6 +55,7 @@ Shortcut method for reducing law of Demeters issues.
 
 
 * Problem instance required.
+
 #####Throws
 
 * [ArrayIndexOutOfBoundsException](../../../../java/lang/ArrayIndexOutOfBoundsException.md) If the given index is not valid.

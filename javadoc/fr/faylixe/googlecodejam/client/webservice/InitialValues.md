@@ -49,6 +49,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 
 * Created instance from request.
+
 #####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs during the associated HTTP request.
@@ -182,6 +183,7 @@ Returns an URL encoded form of the middle ware token.
 
 
 * Middleware token in an URL encoded form.
+
 #####Throws
 
 * [UnsupportedEncodingException](../../../../java/io/UnsupportedEncodingException.md) If target encoding is not supported.

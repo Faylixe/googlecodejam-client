@@ -55,6 +55,7 @@ Static factory method that creates a {@link Part} which contains
 
 
 * Created data part.
+
 #####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any any error occurs during file type detection.
@@ -109,6 +110,7 @@ Performs a HTTP GET request to the given <tt>path</tt>
 
 
 * Response content of the performed request.
+
 #####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
@@ -138,6 +140,7 @@ Creates and returns a GET {@link HttpRequest} instance
 
 
 * Built GET request.
+
 #####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while creating the GET request.
@@ -158,6 +161,7 @@ Performs a HTTP POST request to the given <tt>path</tt>
 
 
 * Response content of the performed request.
+
 #####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.

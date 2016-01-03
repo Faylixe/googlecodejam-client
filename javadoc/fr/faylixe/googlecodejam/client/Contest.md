@@ -46,6 +46,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * List of contest extracted.
+
 #####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs during contest extraction process.

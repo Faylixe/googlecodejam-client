@@ -25,6 +25,7 @@ Getter for the HTML template content.
 
 
 * HTML page template.
+
 #####Throws
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while reading template content.

@@ -96,6 +96,7 @@ Shortcut method for reducing law of Demeters issues.
 
 
 * Problem input instance required.
+
 #####Throws
 
 * [ArrayIndexOutOfBoundsException](../../../../java/lang/ArrayIndexOutOfBoundsException.md) If the given index is not valid.

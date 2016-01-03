@@ -63,6 +63,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * Created session.
+
 #####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while retrieving contest info or initial values.
@@ -83,6 +84,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * Stream to read which contains our downloaded file data.
+
 #####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while downloading the file.
@@ -172,6 +174,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * A newly created session updated otherwise.
+
 #####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while reloading a new session.
@@ -198,6 +201,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 * Request response, as a {@link SubmitResponse} instance.
+
 #####Throws
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while uploading data, or performing the request.
