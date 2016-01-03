@@ -31,7 +31,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Methods
 
---
 ###buildFilename
 
 
@@ -192,5 +191,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while uploading data, or performing the request.
 
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

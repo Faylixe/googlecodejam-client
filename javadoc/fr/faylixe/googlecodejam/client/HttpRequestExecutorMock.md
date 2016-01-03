@@ -14,7 +14,6 @@ Test case for the {@link HttpRequestExecutor} class.
 
 ##Methods
 
---
 ###getTestExecutor
 
 
@@ -25,5 +24,6 @@ Creates and returns a valid {@link HttpRequestExecutor}
 
 
 
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

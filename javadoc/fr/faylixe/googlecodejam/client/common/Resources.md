@@ -17,7 +17,6 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ##Methods
 
---
 ###getHTMLTemplate
 
 
@@ -74,5 +73,6 @@ Normalizes the given <tt>name</tt> by removing
 
 
 
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

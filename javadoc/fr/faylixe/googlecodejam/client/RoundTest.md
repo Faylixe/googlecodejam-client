@@ -15,7 +15,6 @@ Test case for the {@link Round} class.
 
 ##Methods
 
---
 ###getTestRound
 
 
@@ -32,5 +31,6 @@ Retrieves the round instance that will
 
 Ensures retrieved rounds are consistent.
  Uses the target contest test first round.
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

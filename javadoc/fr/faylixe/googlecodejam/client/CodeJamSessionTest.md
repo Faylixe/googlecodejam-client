@@ -18,7 +18,6 @@ Test case for {@link CodeJamSession} class.
 
 ##Methods
 
---
 ###getTestSession
 
 
@@ -54,5 +53,6 @@ Ensures that the internal contest info instance used
 
 Test for the {@link CodeJamSession#submit(ProblemInput, File, File)}
  method, using the test {@link Problem} as a reference.
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
