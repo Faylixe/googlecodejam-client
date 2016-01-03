@@ -19,24 +19,42 @@ TODO Javadoc
 | [String](../../../../java/langString.md) | get |
 | **boolean** | isRunning |
 
-###Methods
+##Methods
 
 ####cancel
 
 
-Cancel the current operation.
+Cancel the current operation.#####Throws
+
+
 ####checkCurrentState
 
 
 Checks the state of the given <tt>driver</tt>,
  ensuring if the required cookie has been settled or not.
+#####Parameter(s)
+
+
+* driver#####Throws
+
+
 ####get
 
 
-{@inheritDoc}
+{@inheritDoc}#####Return
+
+
+#####Throws
+
+
 ####isRunning
 
 
-Indicates if the login process is still running.
+Indicates if the login process is still running.#####Return
+
+
+#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -12,11 +12,20 @@ Custom deserializer that normalizes problem body content.
 | --- | --- | --- |
 | [Problem](Problem.md) | deserialize |
 
-###Methods
+##Methods
 
 ####deserialize
 
 
 {@inheritDoc}
+#####Parameter(s)
+
+
+* element* type* context#####Return
+
+
+#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

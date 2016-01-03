@@ -29,59 +29,129 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 | [CodeJamSession](CodeJamSession.md) | refresh |
 | [SubmitResponse](/webserviceSubmitResponse.md) | submit |
 
-###Methods
+##Methods
 
 ####buildFilename
 
 
 <p>Builds and returns a valid file name
  for the given problem <tt>input</tt>.</p>
+#####Parameter(s)
+
+
+* input#####Return
+
+
+#####Throws
+
+
 ####createSession
 
 
 <p>Static factory method that should be used for creating a session.
  Loads associated contest info and initial values from the given
  <tt>round</tt>, using the given <tt>executor</tt>.</p>
+#####Parameter(s)
+
+
+* executor* round#####Return
+
+
+#####Throws
+
+
 ####download
 
 
 <p>Downloads and returns the stream of the
  input file associated to the given problem
  <tt>input</tt>.</p>
+#####Parameter(s)
+
+
+* input#####Return
+
+
+#####Throws
+
+
 ####getContestAnalysis
 
 
 <p>Returns the analysis for the given
  <tt>problem</tt> if any.</p>
+#####Parameter(s)
+
+
+* problem#####Return
+
+
+#####Throws
+
+
 ####getContestInfo
 
 
 <p>Performs and returns a <tt>GET /</tt> request
- in order to get all <tt>round</tt> detail.</p>
+ in order to get all <tt>round</tt> detail.</p>#####Return
+
+
+#####Throws
+
+
 ####getProblem
 
 
 <p>Retrieves the problem associated
  to the given <tt>letter</tt>.</p>
+#####Parameter(s)
+
+
+* letter#####Return
+
+
+#####Throws
+
+
 ####isActive
 
 
 <p>Indiciates if the contest is currently active,
  namely if competition is occuring at the current
- time, or not.</p>
+ time, or not.</p>#####Return
+
+
+#####Throws
+
+
 ####isLogged
 
 
-<p>Indicates if the current session is logged in or not.</p>
+<p>Indicates if the current session is logged in or not.</p>#####Return
+
+
+#####Throws
+
+
 ####isQualified
 
 
 <p>Indicates if the currently logged user is qualified
- for the next round or not.</p>
+ for the next round or not.</p>#####Return
+
+
+#####Throws
+
+
 ####refresh
 
 
-<p>Reloads session components in order to prevent from any change.</p>
+<p>Reloads session components in order to prevent from any change.</p>#####Return
+
+
+#####Throws
+
+
 ####submit
 
 
@@ -92,5 +162,14 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  method on the same <tt>input</tt>, as the evaluation
  system will judge the last downloaded dataset
  based on the internal token / session.</p>
+#####Parameter(s)
+
+
+* input* output* source#####Return
+
+
+#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

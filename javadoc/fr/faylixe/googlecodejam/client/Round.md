@@ -18,35 +18,68 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 | [String](../../../java/langString.md) | getURL |
 | **int** | hashCode |
 
-###Fields
+##Fields
 
 
 | Type | Field | Description |
 | --- | --- | --- |
 |  | DESCRIPTION_CLASS_NAME |
 
-###Methods
+##Methods
 
 ####equals
 
 
 {@inheritDoc}
+#####Parameter(s)
+
+
+* object#####Return
+
+
+#####Throws
+
+
 ####get
 
 
 <p>Static factory methods that retrieves a list of round
  from the given JSoup <tt>contest</tt> node.</p>
+#####Parameter(s)
+
+
+* contest* parent#####Return
+
+
+#####Throws
+
+
 ####getContestName
 
 
-<p>Getter for the parent contest name.</p>
+<p>Getter for the parent contest name.</p>#####Return
+
+
+#####Throws
+
+
 ####getURL
 
 
-<p>Getter for round dashboard URL.</p>
+<p>Getter for round dashboard URL.</p>#####Return
+
+
+#####Throws
+
+
 ####hashCode
 
 
-{@inheritDoc}
+{@inheritDoc}#####Return
+
+
+#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

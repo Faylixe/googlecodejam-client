@@ -15,26 +15,58 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 | [InputStream](../../../../java/ioInputStream.md) | getResourceStream |
 | [String](../../../../java/langString.md) | normalize |
 
-###Methods
+##Methods
 
 ####getHTMLTemplate
 
 
-Getter for the HTML template content.
+Getter for the HTML template content.#####Return
+
+
+#####Throws
+
+
 ####getResource
 
 
 Reads and returns resources content denoted by the
  given <tt>path</tt>.
+#####Parameter(s)
+
+
+* path#####Return
+
+
+#####Throws
+
+
 ####getResourceStream
 
 
 Reads and returns resources content denoted by the
  given <tt>path</tt>.
+#####Parameter(s)
+
+
+* path#####Return
+
+
+#####Throws
+
+
 ####normalize
 
 
 Normalizes the given <tt>name</tt> by removing
  all non alphanumeric character.
+#####Parameter(s)
+
+
+* name#####Return
+
+
+#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

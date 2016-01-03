@@ -13,15 +13,19 @@ Test case for {@link NamedObject} class.
 | **void** | testDefault |
 | **void** | testSerialized |
 
-###Methods
+##Methods
 
 ####testDefault
 
 
-Test named object behavior from default instantiation.
+Test named object behavior from default instantiation.#####Throws
+
+
 ####testSerialized
 
 
-Test named object behavior through JSON built object.
+Test named object behavior through JSON built object.#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

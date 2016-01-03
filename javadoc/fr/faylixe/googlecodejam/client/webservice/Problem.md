@@ -26,56 +26,125 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **int** | hashCode |
 | **void** | validateObject |
 
-###Methods
+##Methods
 
 ####equals
 
 
 {@inheritDoc}
+#####Parameter(s)
+
+
+* object#####Return
+
+
+#####Throws
+
+
 ####getBody
 
 
-Getter for the problem body description.
+Getter for the problem body description.#####Return
+
+
+#####Throws
+
+
 ####getId
 
 
-Getter for the problem id.
+Getter for the problem id.#####Return
+
+
+#####Throws
+
+
 ####getKey
 
 
-Getter for the problem key.
+Getter for the problem key.#####Return
+
+
+#####Throws
+
+
 ####getNormalizedName
 
 
-Getter for the problem normalized name.
+Getter for the problem normalized name.#####Return
+
+
+#####Throws
+
+
 ####getParent
 
 
-Getter for the parent contest of this problem.
+Getter for the parent contest of this problem.#####Return
+
+
+#####Throws
+
+
 ####getProblemInput
 
 
 Shortcut method for reducing law of Demeters issues.
+#####Parameter(s)
+
+
+* index#####Return
+
+
+#####Throws
+
+
 ####getProblemInput
 
 
 Filters and returns first problem input which name
  match the given <tt>type</tt>
+#####Parameter(s)
+
+
+* type#####Return
+
+
+#####Throws
+
+
 ####getProblemInputs
 
 
-Getter for the problem inputs.
+Getter for the problem inputs.#####Return
+
+
+#####Throws
+
+
 ####getType
 
 
-Getter for the problem type.
+Getter for the problem type.#####Return
+
+
+#####Throws
+
+
 ####hashCode
 
 
-{@inheritDoc}
+{@inheritDoc}#####Return
+
+
+#####Throws
+
+
 ####validateObject
 
 
-{@inheritDoc}
+{@inheritDoc}#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -19,31 +19,65 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **int** | hashCode |
 | **boolean** | isSuccess |
 
-###Methods
+##Methods
 
 ####equals
 
 
 {@inheritDoc}
+#####Parameter(s)
+
+
+* object#####Return
+
+
+#####Throws
+
+
 ####getInputId
 
 
-Getter for the submission identifier.
+Getter for the submission identifier.#####Return
+
+
+#####Throws
+
+
 ####getMessage
 
 
-Getter for the information message.
+Getter for the information message.#####Return
+
+
+#####Throws
+
+
 ####getProblemId
 
 
-Getter for the problem identifier.
+Getter for the problem identifier.#####Return
+
+
+#####Throws
+
+
 ####hashCode
 
 
-{@inheritDoc}
+{@inheritDoc}#####Return
+
+
+#####Throws
+
+
 ####isSuccess
 
 
-Indicates if the submission was successful or not.
+Indicates if the submission was successful or not.#####Return
+
+
+#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

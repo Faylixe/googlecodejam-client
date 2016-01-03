@@ -12,13 +12,15 @@ Test case for the {@link ProblemInput} class.
 | --- | --- | --- |
 | **void** | testProblemInputConsistency |
 
-###Methods
+##Methods
 
 ####testProblemInputConsistency
 
 
 Ensures retrieved {@link ProblemInput}
  is consistent. Using the first input from
- the test {@link Problem}.
+ the test {@link Problem}.#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

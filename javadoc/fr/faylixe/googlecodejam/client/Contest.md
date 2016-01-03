@@ -17,7 +17,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 | [List](../../../java/utilList.md) | getRounds |
 | **int** | hashCode |
 
-###Fields
+##Fields
 
 
 | Type | Field | Description |
@@ -25,25 +25,53 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 |  | CONTEST_CLASS_NAME |
 |  | CONTEST_INDEX |
 
-###Methods
+##Methods
 
 ####equals
 
 
 {@inheritDoc}
+#####Parameter(s)
+
+
+* object#####Return
+
+
+#####Throws
+
+
 ####get
 
 
 <p>Retrieves and returns a list of available
  contest for the given <tt>hostname</tt>.</p>
+#####Parameter(s)
+
+
+* executor#####Return
+
+
+#####Throws
+
+
 ####getRounds
 
 
 <p>Getter that returns a immutable view
- of the {@link Round} list.</p>
+ of the {@link Round} list.</p>#####Return
+
+
+#####Throws
+
+
 ####hashCode
 
 
-{@inheritDoc}
+{@inheritDoc}#####Return
+
+
+#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

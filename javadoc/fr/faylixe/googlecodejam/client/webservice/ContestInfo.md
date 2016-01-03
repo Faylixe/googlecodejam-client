@@ -18,7 +18,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **boolean** | hasAnalysis |
 | **void** | validateObject |
 
-###Methods
+##Methods
 
 ####get
 
@@ -26,27 +26,62 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 Static factory method that builds a {@link ContestInfo} instance
  from the given <tt>round</tt> using a <tt>/ContestInfo</tt>
  request from the round dashboard.
+#####Parameter(s)
+
+
+* executor* round#####Return
+
+
+#####Throws
+
+
 ####getProblem
 
 
 Shortcut method for reducing law of Demeters issues.
+#####Parameter(s)
+
+
+* index#####Return
+
+
+#####Throws
+
+
 ####getProblems
 
 
 Returns {@link Problem} instance associated
- to this contest.
+ to this contest.#####Return
+
+
+#####Throws
+
+
 ####getVersion
 
 
-Getter for the problems version.
+Getter for the problems version.#####Return
+
+
+#####Throws
+
+
 ####hasAnalysis
 
 
 Indicates if this contests already have
- analysis committed or not.
+ analysis committed or not.#####Return
+
+
+#####Throws
+
+
 ####validateObject
 
 
-{@inheritDoc}
+{@inheritDoc}#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

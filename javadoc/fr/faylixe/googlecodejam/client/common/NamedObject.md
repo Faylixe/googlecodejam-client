@@ -13,11 +13,16 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 | --- | --- | --- |
 | [String](../../../../java/langString.md) | getName |
 
-###Methods
+##Methods
 
 ####getName
 
 
-Getter for the name of this object.
+Getter for the name of this object.#####Return
+
+
+#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

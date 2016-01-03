@@ -12,13 +12,18 @@ Test case for the {@link HttpRequestExecutor} class.
 | --- | --- | --- |
 | [HttpRequestExecutor](/executorHttpRequestExecutor.md) | getTestExecutor |
 
-###Methods
+##Methods
 
 ####getTestExecutor
 
 
 Creates and returns a valid {@link HttpRequestExecutor}
  instance that could be used for test. Such instance is not
- logged to any google services.
+ logged to any google services.#####Return
+
+
+#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

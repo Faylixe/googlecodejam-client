@@ -13,19 +13,26 @@ Test case for the {@link Problem} class.
 | [Problem](Problem.md) | getTestProblem |
 | **void** | testProblemConsistency |
 
-###Methods
+##Methods
 
 ####getTestProblem
 
 
 Retrieves the {@link Problem} instance
  that will be used for testing. Using
- test {@link ContestInfo} as reference.
+ test {@link ContestInfo} as reference.#####Return
+
+
+#####Throws
+
+
 ####testProblemConsistency
 
 
 Ensures retrieved {@link Problem} is
  consistent. Uses the first {@link Problem}
- from {@link ContestInfo} test instance.
+ from {@link ContestInfo} test instance.#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

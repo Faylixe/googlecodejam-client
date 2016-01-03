@@ -13,18 +13,25 @@ Test case for the {@link Round} class.
 | [Round](Round.md) | getTestRound |
 | **void** | testRoundConsistency |
 
-###Methods
+##Methods
 
 ####getTestRound
 
 
 Retrieves the round instance that will
  be used for testing. Such round will be the first
- of the target test contest.
+ of the target test contest.#####Return
+
+
+#####Throws
+
+
 ####testRoundConsistency
 
 
 Ensures retrieved rounds are consistent.
- Uses the target contest test first round.
+ Uses the target contest test first round.#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

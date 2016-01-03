@@ -13,7 +13,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 | --- | --- | --- |
 | [Options](../../../../org/apache/commons/cliOptions.md) | createOptions |
 
-###Fields
+##Fields
 
 
 | Type | Field | Description |
@@ -41,12 +41,17 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 |  | SUBMIT_LONG |
 |  | SYNTAX |
 
-###Methods
+##Methods
 
 ####createOptions
 
 
 Static factory method that creates the {@link Options} list
- for the command line arguments parsing.
+ for the command line arguments parsing.#####Return
+
+
+#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

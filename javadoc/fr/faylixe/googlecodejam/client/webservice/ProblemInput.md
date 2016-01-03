@@ -21,7 +21,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | [String](../../../../java/langString.md) | getSuffix |
 | **int** | hashCode |
 
-###Fields
+##Fields
 
 
 | Type | Field | Description |
@@ -29,35 +29,74 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 |  | LARGE |
 |  | SMALL |
 
-###Methods
+##Methods
 
 ####equals
 
 
 {@inheritDoc}
+#####Parameter(s)
+
+
+* object#####Return
+
+
+#####Throws
+
+
 ####getDifficulty
 
 
-Getter for the problem input difficulty.
+Getter for the problem input difficulty.#####Return
+
+
+#####Throws
+
+
 ####getNumber
 
 
-Getter for the problem input number.
+Getter for the problem input number.#####Return
+
+
+#####Throws
+
+
 ####getPoints
 
 
-Getter for the input number of point.
+Getter for the input number of point.#####Return
+
+
+#####Throws
+
+
 ####getProblem
 
 
-Getter for the parent problem of this input.
+Getter for the parent problem of this input.#####Return
+
+
+#####Throws
+
+
 ####getSuffix
 
 
-Getter for the input suffix.
+Getter for the input suffix.#####Return
+
+
+#####Throws
+
+
 ####hashCode
 
 
-{@inheritDoc}
+{@inheritDoc}#####Return
+
+
+#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

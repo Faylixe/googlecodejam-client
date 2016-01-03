@@ -14,7 +14,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 | --- | --- | --- |
 | [String](../../../../java/langString.md) | createBoundary |
 
-###Fields
+##Fields
 
 
 | Type | Field | Description |
@@ -51,11 +51,16 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 |  | TIME_PARAMETER |
 |  | UNDEFINED |
 
-###Methods
+##Methods
 
 ####createBoundary
 
 
-Creates and returns a boundary for multipart request.
+Creates and returns a boundary for multipart request.#####Return
+
+
+#####Throws
+
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
