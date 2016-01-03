@@ -31,11 +31,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 {@inheritDoc}
-#####Parameter(s)
-
-
-* object
-
 #####Return
 
 
@@ -49,8 +44,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* contest
-* parent
+* contest Root element of the contest in the contest index page.
+* parent Parent contest name.
 
 #####Return
 

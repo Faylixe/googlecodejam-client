@@ -34,7 +34,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
---
 ###get
 
 
@@ -43,8 +42,8 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 #####Parameter(s)
 
 
-* executor
-* round
+* executor Executor instance to use for performing the associated request.
+* round Round to extract initial values from.
 
 #####Return
 
@@ -210,5 +209,6 @@ Indicates if the currently logged user
 
 
 
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

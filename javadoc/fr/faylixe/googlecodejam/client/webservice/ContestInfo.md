@@ -20,7 +20,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
---
 ###get
 
 
@@ -30,8 +29,8 @@ Static factory method that builds a {@link ContestInfo} instance
 #####Parameter(s)
 
 
-* executor
-* round
+* executor Executor instance used to perform the request.
+* round Round to retrieve {@link ContestInfo} from.
 
 #####Return
 
@@ -48,7 +47,7 @@ Shortcut method for reducing law of Demeters issues.
 #####Parameter(s)
 
 
-* index
+* index Index of the problem to retrieve.
 
 #####Return
 
@@ -91,5 +90,6 @@ Indicates if this contests already have
 
 
 {@inheritDoc}
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

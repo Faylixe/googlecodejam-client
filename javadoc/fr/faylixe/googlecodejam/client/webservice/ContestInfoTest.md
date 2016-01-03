@@ -16,7 +16,6 @@ Test case for {@link ContestInfo} class.
 
 ##Methods
 
---
 ###getTestContestInfo
 
 
@@ -36,7 +35,7 @@ Ensures the given {@link ContestInfo} is
 #####Parameter(s)
 
 
-* info
+* info {@link ContestInfo} instance to ensure consistency from.
 
 --
 ###testContestInfoConsistency
@@ -45,5 +44,6 @@ Ensures the given {@link ContestInfo} is
 Ensures retrieved {@link ContestInfo} is
  consistent. Uses {@link ContestInfo} from
  target test {@link Round} instance.
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -31,16 +31,10 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
---
 ###equals
 
 
 {@inheritDoc}
-#####Parameter(s)
-
-
-* object
-
 #####Return
 
 
@@ -99,5 +93,6 @@ Getter for the input suffix.
 
 
 
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

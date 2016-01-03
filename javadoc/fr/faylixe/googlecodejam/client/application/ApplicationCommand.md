@@ -18,7 +18,6 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Methods
 
---
 ###download
 
 
@@ -29,7 +28,7 @@ Downloads an input file, from the given user <tt>command</tt>.
 #####Parameter(s)
 
 
-* command
+* command User command line.
 
 #####Return
 
@@ -56,11 +55,12 @@ Performs an output file submission using the <tt>SubmitAnswer</tt>
 #####Parameter(s)
 
 
-* command
+* command User command line.
 
 #####Return
 
 
 
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

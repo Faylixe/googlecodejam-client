@@ -28,16 +28,10 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
---
 ###equals
 
 
 {@inheritDoc}
-#####Parameter(s)
-
-
-* object
-
 #####Return
 
 
@@ -95,7 +89,7 @@ Shortcut method for reducing law of Demeters issues.
 #####Parameter(s)
 
 
-* index
+* index Index of the problem input to retrieve.
 
 #####Return
 
@@ -113,7 +107,7 @@ Filters and returns first problem input which name
 #####Parameter(s)
 
 
-* type
+* type Type of the input to retrieve (usually small or large).
 
 #####Return
 
@@ -151,5 +145,6 @@ Getter for the problem type.
 
 
 {@inheritDoc}
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

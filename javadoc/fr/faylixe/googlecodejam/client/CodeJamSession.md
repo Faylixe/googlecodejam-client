@@ -39,7 +39,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* input
+* input Input to retrieve file name from.
 
 #####Return
 
@@ -55,8 +55,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* executor
-* round
+* executor {@link HttpRequestExecutor} instance to use.
+* round Contextual {@link Round} instance this session is bound to.
 
 #####Return
 
@@ -75,7 +75,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* input
+* input Input to download file from.
 
 #####Return
 
@@ -93,7 +93,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* problem
+* problem Problem to retrieve analysis from.
 
 #####Return
 
@@ -118,7 +118,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* letter
+* letter Letter that identifies the problem.
 
 #####Return
 
@@ -180,9 +180,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* input
-* output
-* source
+* input Input file to submit solution for.
+* output Output file produced by the algorithm.
+* source Source code file of the algorithm to submit.
 
 #####Return
 

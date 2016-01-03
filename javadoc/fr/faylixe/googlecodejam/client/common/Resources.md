@@ -37,7 +37,7 @@ Reads and returns resources content denoted by the
 #####Parameter(s)
 
 
-* path
+* path Paht of the resources to read.
 
 #####Return
 
@@ -52,7 +52,7 @@ Reads and returns resources content denoted by the
 #####Parameter(s)
 
 
-* path
+* path Path of the resources to read.
 
 #####Return
 
@@ -67,7 +67,7 @@ Normalizes the given <tt>name</tt> by removing
 #####Parameter(s)
 
 
-* name
+* name Name to normalize.
 
 #####Return
 

@@ -31,11 +31,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 {@inheritDoc}
-#####Parameter(s)
-
-
-* object
-
 #####Return
 
 
@@ -49,7 +44,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* executor
+* executor {@link HttpRequestExecutor} instance to use to retrieve contest index.
 
 #####Return
 

@@ -21,16 +21,10 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
---
 ###equals
 
 
 {@inheritDoc}
-#####Parameter(s)
-
-
-* object
-
 #####Return
 
 
@@ -80,5 +74,6 @@ Indicates if the submission was successful or not.
 
 
 
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

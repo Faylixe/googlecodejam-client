@@ -21,7 +21,6 @@ TODO Javadoc
 
 ##Methods
 
---
 ###cancel
 
 
@@ -35,7 +34,7 @@ Checks the state of the given <tt>driver</tt>,
 #####Parameter(s)
 
 
-* driver
+* driver Driver to check state from.
 
 --
 ###get
@@ -55,5 +54,6 @@ Indicates if the login process is still running.
 
 
 
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

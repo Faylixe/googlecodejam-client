@@ -43,7 +43,6 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Methods
 
---
 ###createOptions
 
 
@@ -53,5 +52,6 @@ Static factory method that creates the {@link Options} list
 
 
 
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

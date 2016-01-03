@@ -15,7 +15,6 @@ Test case for the {@link Problem} class.
 
 ##Methods
 
---
 ###getTestProblem
 
 
@@ -33,5 +32,6 @@ Retrieves the {@link Problem} instance
 Ensures retrieved {@link Problem} is
  consistent. Uses the first {@link Problem}
  from {@link ContestInfo} test instance.
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

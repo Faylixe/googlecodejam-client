@@ -14,21 +14,14 @@ Custom deserializer that normalizes problem body content.
 
 ##Methods
 
---
 ###deserialize
 
 
 {@inheritDoc}
-#####Parameter(s)
-
-
-* element
-* type
-* context
-
 #####Return
 
 
 
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -15,7 +15,6 @@ Test case for {@link InitialValues} class.
 
 ##Methods
 
---
 ###getTestInitialValues
 
 
@@ -33,5 +32,6 @@ Retrieves the {@link InitialValues}
 Ensures retrieved {@link InitialValues} are
  consistent. Using values from {@link Round}
  test instance.
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

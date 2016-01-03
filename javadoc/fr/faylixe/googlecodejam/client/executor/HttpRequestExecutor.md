@@ -23,7 +23,6 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ##Methods
 
---
 ###buildDataPart
 
 
@@ -32,8 +31,8 @@ Static factory method that creates a {@link Part} which contains
 #####Parameter(s)
 
 
-* name
-* data
+* name Name of the POST data to create part for.
+* data Value of the POST data to create part for.
 
 #####Return
 
@@ -48,8 +47,8 @@ Static factory method that creates a {@link Part} which contains
 #####Parameter(s)
 
 
-* name
-* file
+* name name Name of the POST file data to create part for.
+* file File of the POST data to create part for.
 
 #####Return
 
@@ -68,8 +67,8 @@ Static factory method that creates a {@link HttpRequestExecutor} instance
 #####Parameter(s)
 
 
-* hostname
-* cookieValue
+* hostname Hostname to use for the created executor.
+* cookieValue Value of the SACSID cookie to use.
 
 #####Return
 
@@ -84,7 +83,7 @@ Static factory method that creates a non logged
 #####Parameter(s)
 
 
-* hostname
+* hostname Hostname to use for the created executor.
 
 #####Return
 
@@ -100,7 +99,7 @@ Performs a HTTP GET request to the given <tt>path</tt>
 #####Parameter(s)
 
 
-* path
+* path Relative server path to perform request to.
 
 #####Return
 
@@ -127,7 +126,7 @@ Creates and returns a GET {@link HttpRequest} instance
 #####Parameter(s)
 
 
-* path
+* path Path of the request to build.
 
 #####Return
 
@@ -145,8 +144,8 @@ Performs a HTTP POST request to the given <tt>path</tt>
 #####Parameter(s)
 
 
-* path
-* content
+* path Relative server path to perform request to.
+* content POST content that will be sent.
 
 #####Return
 
@@ -155,5 +154,6 @@ Performs a HTTP POST request to the given <tt>path</tt>
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
 
+--
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
