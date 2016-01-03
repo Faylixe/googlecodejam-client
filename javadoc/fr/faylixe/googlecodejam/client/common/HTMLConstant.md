@@ -8,16 +8,17 @@ Package [fr.faylixe.googlecodejam.client.common](../)<br>
 ###Summary
 
 
-| Type | Method |
-| --- | --- |
-
 ###Fields
 
 
 | Type | Field |
 | --- | --- |
-
-###Methods
-
+|  | ANCHOR |
+|  | H3 |
+|  | HREF |
+|  | IMG |
+|  | SRC |
+|  | TD |
+|  | TR |
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

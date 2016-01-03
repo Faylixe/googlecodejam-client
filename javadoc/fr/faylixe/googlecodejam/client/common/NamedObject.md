@@ -13,12 +13,6 @@ Package [fr.faylixe.googlecodejam.client.common](../)<br>
 | --- | --- |
 | [String](../../../../java/langString.md) | getName |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####getName

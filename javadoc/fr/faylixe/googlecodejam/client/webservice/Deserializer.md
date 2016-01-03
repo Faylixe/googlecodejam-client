@@ -12,12 +12,6 @@ Custom deserializer that normalizes problem body content.
 | --- | --- |
 | [Problem](Problem.md) | deserialize |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####deserialize

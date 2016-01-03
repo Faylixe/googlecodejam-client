@@ -18,12 +18,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
 | **boolean** | hasAnalysis |
 | **void** | validateObject |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####get

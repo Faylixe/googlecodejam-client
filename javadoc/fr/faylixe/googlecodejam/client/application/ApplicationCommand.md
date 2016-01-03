@@ -16,12 +16,6 @@ Package [fr.faylixe.googlecodejam.client.application](../)<br>
 | **boolean** | init |
 | **boolean** | submit |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####download

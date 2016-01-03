@@ -13,12 +13,6 @@ Test case for the {@link Round} class.
 | [Round](Round.md) | getTestRound |
 | **void** | testRoundConsistency |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####getTestRound

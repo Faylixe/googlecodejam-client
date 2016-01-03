@@ -12,12 +12,6 @@ Test case for the {@link HttpRequestExecutor} class.
 | --- | --- |
 | [HttpRequestExecutor](/executorHttpRequestExecutor.md) | getTestExecutor |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####getTestExecutor

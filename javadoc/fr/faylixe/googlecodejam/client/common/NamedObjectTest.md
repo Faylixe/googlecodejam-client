@@ -13,12 +13,6 @@ Test case for {@link NamedObject} class.
 | **void** | testDefault |
 | **void** | testSerialized |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####testDefault

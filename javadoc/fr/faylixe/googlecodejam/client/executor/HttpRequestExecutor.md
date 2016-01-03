@@ -21,12 +21,6 @@ Package [fr.faylixe.googlecodejam.client.executor](../)<br>
 | [HttpRequest](../../../../com/google/api/client/httpHttpRequest.md) | getRequest |
 | [String](../../../../java/langString.md) | post |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####buildDataPart

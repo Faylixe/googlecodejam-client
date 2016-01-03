@@ -23,6 +23,7 @@ Package [fr.faylixe.googlecodejam.client](../)<br>
 
 | Type | Field |
 | --- | --- |
+|  | DESCRIPTION_CLASS_NAME |
 
 ###Methods
 

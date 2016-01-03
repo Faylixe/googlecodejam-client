@@ -22,6 +22,8 @@ Package [fr.faylixe.googlecodejam.client](../)<br>
 
 | Type | Field |
 | --- | --- |
+|  | CONTEST_CLASS_NAME |
+|  | CONTEST_INDEX |
 
 ###Methods
 

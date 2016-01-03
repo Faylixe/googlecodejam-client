@@ -32,12 +32,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
 | **boolean** | isLogged |
 | **boolean** | isQualified |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####get

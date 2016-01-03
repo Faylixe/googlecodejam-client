@@ -26,12 +26,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
 | **int** | hashCode |
 | **void** | validateObject |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####equals

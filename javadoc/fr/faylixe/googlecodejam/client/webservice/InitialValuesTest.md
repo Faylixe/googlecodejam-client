@@ -13,12 +13,6 @@ Test case for {@link InitialValues} class.
 | [InitialValues](InitialValues.md) | getTestInitialValues |
 | **void** | testInitialValuesConsistency |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####getTestInitialValues

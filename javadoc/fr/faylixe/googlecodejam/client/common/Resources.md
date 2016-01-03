@@ -15,12 +15,6 @@ Package [fr.faylixe.googlecodejam.client.common](../)<br>
 | [InputStream](../../../../java/ioInputStream.md) | getResourceStream |
 | [String](../../../../java/langString.md) | normalize |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####getHTMLTemplate

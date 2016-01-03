@@ -12,12 +12,6 @@ Package [fr.faylixe.googlecodejam.client.application](../)<br>
 | --- | --- |
 | **void** | main |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####main

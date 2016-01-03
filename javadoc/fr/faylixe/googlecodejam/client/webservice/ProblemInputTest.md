@@ -12,12 +12,6 @@ Test case for the {@link ProblemInput} class.
 | --- | --- |
 | **void** | testProblemInputConsistency |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####testProblemInputConsistency

@@ -19,12 +19,6 @@ TODO Javadoc
 | [String](../../../../java/langString.md) | get |
 | **boolean** | isRunning |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####cancel

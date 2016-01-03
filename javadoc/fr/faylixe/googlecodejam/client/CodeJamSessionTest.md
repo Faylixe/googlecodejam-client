@@ -16,12 +16,6 @@ Test case for {@link CodeJamSession} class.
 | **void** | testSessionConsistency |
 | **void** | testSubmission |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####getTestSession

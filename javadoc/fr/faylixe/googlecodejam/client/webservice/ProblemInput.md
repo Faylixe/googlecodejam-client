@@ -26,6 +26,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
 
 | Type | Field |
 | --- | --- |
+|  | LARGE |
+|  | SMALL |
 
 ###Methods
 

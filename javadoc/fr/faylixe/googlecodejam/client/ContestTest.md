@@ -13,12 +13,6 @@ Test case for {@link Contest} class.
 | [Contest](Contest.md) | getTestContests |
 | **void** | testContestConsistency |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####getTestContests

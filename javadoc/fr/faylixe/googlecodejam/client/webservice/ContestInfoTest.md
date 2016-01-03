@@ -14,12 +14,6 @@ Test case for {@link ContestInfo} class.
 | **void** | testContestInfoConsistency |
 | **void** | testContestInfoConsistency |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####getTestContestInfo

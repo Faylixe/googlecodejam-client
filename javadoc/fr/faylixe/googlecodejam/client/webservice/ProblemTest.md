@@ -13,12 +13,6 @@ Test case for the {@link Problem} class.
 | [Problem](Problem.md) | getTestProblem |
 | **void** | testProblemConsistency |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####getTestProblem

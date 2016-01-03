@@ -19,12 +19,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
 | **int** | hashCode |
 | **boolean** | isSuccess |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####equals

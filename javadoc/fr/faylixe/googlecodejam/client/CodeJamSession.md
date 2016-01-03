@@ -29,12 +29,6 @@ Package [fr.faylixe.googlecodejam.client](../)<br>
 | [CodeJamSession](CodeJamSession.md) | refresh |
 | [SubmitResponse](/webserviceSubmitResponse.md) | submit |
 
-###Fields
-
-
-| Type | Field |
-| --- | --- |
-
 ###Methods
 
 ####buildFilename
