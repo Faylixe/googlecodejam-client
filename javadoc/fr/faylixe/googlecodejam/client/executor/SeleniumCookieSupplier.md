@@ -1,7 +1,7 @@
 #SeleniumCookieSupplier
 
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
-[Object](../../../../java/langObject.md) > [SeleniumCookieSupplier](SeleniumCookieSupplier.md)
+[Object](../../../../java/lang/Object.md) > [SeleniumCookieSupplier](SeleniumCookieSupplier.md)
 
 TODO Javadoc
  TODO Cookie expiration parsing
@@ -16,7 +16,7 @@ TODO Javadoc
 | --- | --- | --- |
 | **void** | cancel |
 | **void** | checkCurrentState |
-| [String](../../../../java/langString.md) | get |
+| [String](../../../../java/lang/String.md) | get |
 | **boolean** | isRunning |
 
 ##Methods

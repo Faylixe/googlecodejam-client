@@ -1,7 +1,7 @@
 #HttpRequestExecutor
 
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
-[Object](../../../../java/langObject.md) > [HttpRequestExecutor](HttpRequestExecutor.md)
+[Object](../../../../java/lang/Object.md) > [HttpRequestExecutor](HttpRequestExecutor.md)
 
 <p>A {@link HttpRequestExecutor} is an abstraction
  on top of {@link HttpRequestFactory} that handles
@@ -12,14 +12,14 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 | Type | Method |
 | --- | --- | --- |
-| [Part](../../../../com/google/api/client/httpPart.md) | buildDataPart |
-| [Part](../../../../com/google/api/client/httpPart.md) | buildFilePart |
+| [Part](../../../../com/google/api/client/http/Part.md) | buildDataPart |
+| [Part](../../../../com/google/api/client/http/Part.md) | buildFilePart |
 | [HttpRequestExecutor](HttpRequestExecutor.md) | create |
 | [HttpRequestExecutor](HttpRequestExecutor.md) | create |
-| [String](../../../../java/langString.md) | get |
-| [String](../../../../java/langString.md) | getHostname |
-| [HttpRequest](../../../../com/google/api/client/httpHttpRequest.md) | getRequest |
-| [String](../../../../java/langString.md) | post |
+| [String](../../../../java/lang/String.md) | get |
+| [String](../../../../java/lang/String.md) | getHostname |
+| [HttpRequest](../../../../com/google/api/client/http/HttpRequest.md) | getRequest |
+| [String](../../../../java/lang/String.md) | post |
 
 ##Methods
 

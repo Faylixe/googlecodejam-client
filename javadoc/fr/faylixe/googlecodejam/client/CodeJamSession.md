@@ -1,7 +1,7 @@
 #CodeJamSession
 
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
-[Object](../../../java/langObject.md) > [NamedObject](/commonNamedObject.md) > [CodeJamSession](CodeJamSession.md)
+[Object](../../../java/lang/Object.md) > [NamedObject](/common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
 
 {@link CodeJamSession} is the main API entry point, which consists
  in logging to a code jam platform ``hostname`` and then providing
@@ -17,17 +17,17 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 | Type | Method |
 | --- | --- | --- |
-| [String](../../../java/langString.md) | buildFilename |
+| [String](../../../java/lang/String.md) | buildFilename |
 | [CodeJamSession](CodeJamSession.md) | createSession |
-| [InputStream](../../../java/ioInputStream.md) | download |
-| [String](../../../java/langString.md) | getContestAnalysis |
-| [ContestInfo](/webserviceContestInfo.md) | getContestInfo |
-| [Problem](/webserviceProblem.md) | getProblem |
+| [InputStream](../../../java/io/InputStream.md) | download |
+| [String](../../../java/lang/String.md) | getContestAnalysis |
+| [ContestInfo](/webservice/ContestInfo.md) | getContestInfo |
+| [Problem](/webservice/Problem.md) | getProblem |
 | **boolean** | isActive |
 | **boolean** | isLogged |
 | **boolean** | isQualified |
 | [CodeJamSession](CodeJamSession.md) | refresh |
-| [SubmitResponse](/webserviceSubmitResponse.md) | submit |
+| [SubmitResponse](/webservice/SubmitResponse.md) | submit |
 
 ##Methods
 

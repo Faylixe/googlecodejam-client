@@ -1,7 +1,7 @@
 #ContestInfo
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
-[Object](../../../../java/langObject.md) > [ContestInfo](ContestInfo.md)
+[Object](../../../../java/lang/Object.md) > [ContestInfo](ContestInfo.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API.</p>
@@ -13,7 +13,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | --- | --- | --- |
 | [ContestInfo](ContestInfo.md) | get |
 | [Problem](Problem.md) | getProblem |
-| [List](../../../../java/utilList.md) | getProblems |
+| [List](../../../../java/util/List.md) | getProblems |
 | **int** | getVersion |
 | **boolean** | hasAnalysis |
 | **void** | validateObject |

@@ -1,7 +1,7 @@
 #InitialValuesTest
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
-[Object](../../../../java/langObject.md) > [InitialValuesTest](InitialValuesTest.md)
+[Object](../../../../java/lang/Object.md) > [InitialValuesTest](InitialValuesTest.md)
 
 Test case for {@link InitialValues} class.
 

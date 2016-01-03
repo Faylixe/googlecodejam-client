@@ -1,7 +1,7 @@
 #SubmitResponse
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
-[Object](../../../../java/langObject.md) > [SubmitResponse](SubmitResponse.md)
+[Object](../../../../java/lang/Object.md) > [SubmitResponse](SubmitResponse.md)
 
 <p>POJO that aims to be bind to the <tt>SubmitAnswer</tt>
  command request, using Gson API. Contains detail about
@@ -14,7 +14,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | --- | --- | --- |
 | **boolean** | equals |
 | **int** | getInputId |
-| [String](../../../../java/langString.md) | getMessage |
+| [String](../../../../java/lang/String.md) | getMessage |
 | **int** | getProblemId |
 | **int** | hashCode |
 | **boolean** | isSuccess |

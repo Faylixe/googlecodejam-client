@@ -1,7 +1,7 @@
 #Problem
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
-[Object](../../../../java/langObject.md) > [NamedObject](commonNamedObject.md) > [Problem](Problem.md)
+[Object](../../../../java/lang/Object.md) > [NamedObject](common/NamedObject.md) > [Problem](Problem.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. {@link Problem} instance belong
@@ -14,15 +14,15 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | Type | Method |
 | --- | --- | --- |
 | **boolean** | equals |
-| [String](../../../../java/langString.md) | getBody |
-| [String](../../../../java/langString.md) | getId |
-| [String](../../../../java/langString.md) | getKey |
-| [String](../../../../java/langString.md) | getNormalizedName |
+| [String](../../../../java/lang/String.md) | getBody |
+| [String](../../../../java/lang/String.md) | getId |
+| [String](../../../../java/lang/String.md) | getKey |
+| [String](../../../../java/lang/String.md) | getNormalizedName |
 | [ContestInfo](ContestInfo.md) | getParent |
 | [ProblemInput](ProblemInput.md) | getProblemInput |
 | [ProblemInput](ProblemInput.md) | getProblemInput |
-| [List](../../../../java/utilList.md) | getProblemInputs |
-| [String](../../../../java/langString.md) | getType |
+| [List](../../../../java/util/List.md) | getProblemInputs |
+| [String](../../../../java/lang/String.md) | getType |
 | **int** | hashCode |
 | **void** | validateObject |
 

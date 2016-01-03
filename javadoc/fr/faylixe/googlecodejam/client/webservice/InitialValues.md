@@ -1,7 +1,7 @@
 #InitialValues
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
-[Object](../../../../java/langObject.md) > [InitialValues](InitialValues.md)
+[Object](../../../../java/lang/Object.md) > [InitialValues](InitialValues.md)
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
  command request, using Gson API.</p>
@@ -14,19 +14,19 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | Type | Method |
 | --- | --- | --- |
 | [InitialValues](InitialValues.md) | get |
-| [String](../../../../java/langString.md) | getAdmin |
+| [String](../../../../java/lang/String.md) | getAdmin |
 | **int** | getCS |
-| [String](../../../../java/langString.md) | getEmail |
-| [String](../../../../java/langString.md) | getInput |
+| [String](../../../../java/lang/String.md) | getEmail |
+| [String](../../../../java/lang/String.md) | getInput |
 | **long** | getLeft |
-| [String](../../../../java/langString.md) | getLoginHTML |
-| [String](../../../../java/langString.md) | getLogoutHTML |
-| [String](../../../../java/langString.md) | getName |
+| [String](../../../../java/lang/String.md) | getLoginHTML |
+| [String](../../../../java/lang/String.md) | getLogoutHTML |
+| [String](../../../../java/lang/String.md) | getName |
 | **int** | getSeen |
-| [String](../../../../java/langString.md) | getSnippet |
+| [String](../../../../java/lang/String.md) | getSnippet |
 | **long** | getStart |
-| [String](../../../../java/langString.md) | getToken |
-| [String](../../../../java/langString.md) | getURLEncodedToken |
+| [String](../../../../java/lang/String.md) | getToken |
+| [String](../../../../java/lang/String.md) | getURLEncodedToken |
 | **long** | getUntilStart |
 | **int** | getVersion |
 | **boolean** | isLogged |
