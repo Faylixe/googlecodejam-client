@@ -6,7 +6,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API.</p>
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -20,7 +20,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
-####get
+###get
 
 
 Static factory method that builds a {@link ContestInfo} instance
@@ -38,7 +38,7 @@ Static factory method that builds a {@link ContestInfo} instance
 #####Throws
 
 
-####getProblem
+###getProblem
 
 
 Shortcut method for reducing law of Demeters issues.
@@ -53,7 +53,7 @@ Shortcut method for reducing law of Demeters issues.
 #####Throws
 
 
-####getProblems
+###getProblems
 
 
 Returns {@link Problem} instance associated
@@ -64,7 +64,7 @@ Returns {@link Problem} instance associated
 #####Throws
 
 
-####getVersion
+###getVersion
 
 
 Getter for the problems version.
@@ -74,7 +74,7 @@ Getter for the problems version.
 #####Throws
 
 
-####hasAnalysis
+###hasAnalysis
 
 
 Indicates if this contests already have
@@ -85,7 +85,7 @@ Indicates if this contests already have
 #####Throws
 
 
-####validateObject
+###validateObject
 
 
 {@inheritDoc}#####Throws

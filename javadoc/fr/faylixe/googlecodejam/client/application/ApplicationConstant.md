@@ -6,7 +6,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 <p>Constants used for managing command
  line parameters.</p>
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -43,7 +43,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Methods
 
-####createOptions
+###createOptions
 
 
 Static factory method that creates the {@link Options} list

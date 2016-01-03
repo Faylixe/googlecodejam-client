@@ -7,7 +7,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  A {@link Contest} is represented by a name and a
  collection of {@link Round}.</p>
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -27,7 +27,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Methods
 
-####equals
+###equals
 
 
 {@inheritDoc}
@@ -42,7 +42,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####get
+###get
 
 
 <p>Retrieves and returns a list of available
@@ -58,7 +58,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####getRounds
+###getRounds
 
 
 <p>Getter that returns a immutable view
@@ -69,7 +69,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####hashCode
+###hashCode
 
 
 {@inheritDoc}

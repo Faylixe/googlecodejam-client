@@ -8,7 +8,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
  to a {@link Problem} object, and describes input submission
  available for a given {@link Problem}.</p>
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -31,7 +31,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
-####equals
+###equals
 
 
 {@inheritDoc}
@@ -46,7 +46,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 #####Throws
 
 
-####getDifficulty
+###getDifficulty
 
 
 Getter for the problem input difficulty.
@@ -56,7 +56,7 @@ Getter for the problem input difficulty.
 #####Throws
 
 
-####getNumber
+###getNumber
 
 
 Getter for the problem input number.
@@ -66,7 +66,7 @@ Getter for the problem input number.
 #####Throws
 
 
-####getPoints
+###getPoints
 
 
 Getter for the input number of point.
@@ -76,7 +76,7 @@ Getter for the input number of point.
 #####Throws
 
 
-####getProblem
+###getProblem
 
 
 Getter for the parent problem of this input.
@@ -86,7 +86,7 @@ Getter for the parent problem of this input.
 #####Throws
 
 
-####getSuffix
+###getSuffix
 
 
 Getter for the input suffix.
@@ -96,7 +96,7 @@ Getter for the input suffix.
 #####Throws
 
 
-####hashCode
+###hashCode
 
 
 {@inheritDoc}

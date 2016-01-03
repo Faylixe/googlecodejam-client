@@ -12,7 +12,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  * Downloads input
  * Submits solutions
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -31,7 +31,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Methods
 
-####buildFilename
+###buildFilename
 
 
 <p>Builds and returns a valid file name
@@ -47,7 +47,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####createSession
+###createSession
 
 
 <p>Static factory method that should be used for creating a session.
@@ -65,7 +65,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####download
+###download
 
 
 <p>Downloads and returns the stream of the
@@ -82,7 +82,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####getContestAnalysis
+###getContestAnalysis
 
 
 <p>Returns the analysis for the given
@@ -98,7 +98,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####getContestInfo
+###getContestInfo
 
 
 <p>Performs and returns a <tt>GET /</tt> request
@@ -109,7 +109,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####getProblem
+###getProblem
 
 
 <p>Retrieves the problem associated
@@ -125,7 +125,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####isActive
+###isActive
 
 
 <p>Indiciates if the contest is currently active,
@@ -137,7 +137,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####isLogged
+###isLogged
 
 
 <p>Indicates if the current session is logged in or not.</p>
@@ -147,7 +147,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####isQualified
+###isQualified
 
 
 <p>Indicates if the currently logged user is qualified
@@ -158,7 +158,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####refresh
+###refresh
 
 
 <p>Reloads session components in order to prevent from any change.</p>
@@ -168,7 +168,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####submit
+###submit
 
 
 <p>Submits the given <tt>output</tt> file and the

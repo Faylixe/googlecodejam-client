@@ -5,7 +5,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Test case for the {@link Round} class.
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -15,7 +15,7 @@ Test case for the {@link Round} class.
 
 ##Methods
 
-####getTestRound
+###getTestRound
 
 
 Retrieves the round instance that will
@@ -27,7 +27,7 @@ Retrieves the round instance that will
 #####Throws
 
 
-####testRoundConsistency
+###testRoundConsistency
 
 
 Ensures retrieved rounds are consistent.

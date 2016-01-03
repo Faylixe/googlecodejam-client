@@ -7,7 +7,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
  on top of {@link HttpRequestFactory} that handles
  GET and POST request.</p>
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -23,7 +23,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ##Methods
 
-####buildDataPart
+###buildDataPart
 
 
 Static factory method that creates a {@link Part} which contains
@@ -40,7 +40,7 @@ Static factory method that creates a {@link Part} which contains
 #####Throws
 
 
-####buildFilePart
+###buildFilePart
 
 
 Static factory method that creates a {@link Part} which contains
@@ -57,7 +57,7 @@ Static factory method that creates a {@link Part} which contains
 #####Throws
 
 
-####create
+###create
 
 
 Static factory method that creates a {@link HttpRequestExecutor} instance
@@ -75,7 +75,7 @@ Static factory method that creates a {@link HttpRequestExecutor} instance
 #####Throws
 
 
-####create
+###create
 
 
 Static factory method that creates a non logged
@@ -91,7 +91,7 @@ Static factory method that creates a non logged
 #####Throws
 
 
-####get
+###get
 
 
 Performs a HTTP GET request to the given <tt>path</tt>
@@ -108,7 +108,7 @@ Performs a HTTP GET request to the given <tt>path</tt>
 #####Throws
 
 
-####getHostname
+###getHostname
 
 
 Getter for the target hostname.
@@ -118,7 +118,7 @@ Getter for the target hostname.
 #####Throws
 
 
-####getRequest
+###getRequest
 
 
 Creates and returns a GET {@link HttpRequest} instance
@@ -134,7 +134,7 @@ Creates and returns a GET {@link HttpRequest} instance
 #####Throws
 
 
-####post
+###post
 
 
 Performs a HTTP POST request to the given <tt>path</tt>

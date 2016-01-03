@@ -5,7 +5,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 Test case for {@link InitialValues} class.
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -15,7 +15,7 @@ Test case for {@link InitialValues} class.
 
 ##Methods
 
-####getTestInitialValues
+###getTestInitialValues
 
 
 Retrieves the {@link InitialValues}
@@ -27,7 +27,7 @@ Retrieves the {@link InitialValues}
 #####Throws
 
 
-####testInitialValuesConsistency
+###testInitialValuesConsistency
 
 
 Ensures retrieved {@link InitialValues} are

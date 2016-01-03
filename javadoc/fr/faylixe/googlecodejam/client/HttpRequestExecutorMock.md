@@ -5,7 +5,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Test case for the {@link HttpRequestExecutor} class.
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -14,7 +14,7 @@ Test case for the {@link HttpRequestExecutor} class.
 
 ##Methods
 
-####getTestExecutor
+###getTestExecutor
 
 
 Creates and returns a valid {@link HttpRequestExecutor}

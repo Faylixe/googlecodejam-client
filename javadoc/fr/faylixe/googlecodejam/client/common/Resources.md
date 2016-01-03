@@ -5,7 +5,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 <p>Static toolbox that exposes methods for internal resources managment.</p>
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -17,7 +17,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ##Methods
 
-####getHTMLTemplate
+###getHTMLTemplate
 
 
 Getter for the HTML template content.
@@ -27,7 +27,7 @@ Getter for the HTML template content.
 #####Throws
 
 
-####getResource
+###getResource
 
 
 Reads and returns resources content denoted by the
@@ -43,7 +43,7 @@ Reads and returns resources content denoted by the
 #####Throws
 
 
-####getResourceStream
+###getResourceStream
 
 
 Reads and returns resources content denoted by the
@@ -59,7 +59,7 @@ Reads and returns resources content denoted by the
 #####Throws
 
 
-####normalize
+###normalize
 
 
 Normalizes the given <tt>name</tt> by removing

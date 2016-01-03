@@ -7,7 +7,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
  command request, using Gson API. Contains detail about
  the performed submission.</p>
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -21,7 +21,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
-####equals
+###equals
 
 
 {@inheritDoc}
@@ -36,7 +36,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 #####Throws
 
 
-####getInputId
+###getInputId
 
 
 Getter for the submission identifier.
@@ -46,7 +46,7 @@ Getter for the submission identifier.
 #####Throws
 
 
-####getMessage
+###getMessage
 
 
 Getter for the information message.
@@ -56,7 +56,7 @@ Getter for the information message.
 #####Throws
 
 
-####getProblemId
+###getProblemId
 
 
 Getter for the problem identifier.
@@ -66,7 +66,7 @@ Getter for the problem identifier.
 #####Throws
 
 
-####hashCode
+###hashCode
 
 
 {@inheritDoc}
@@ -76,7 +76,7 @@ Getter for the problem identifier.
 #####Throws
 
 
-####isSuccess
+###isSuccess
 
 
 Indicates if the submission was successful or not.

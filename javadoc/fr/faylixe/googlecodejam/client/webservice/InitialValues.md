@@ -8,7 +8,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
  
  TODO Ensures seen is not boolean.
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -34,7 +34,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 
-####get
+###get
 
 
 Static factory method that use the <tt>GetInitialValues</tt> command
@@ -51,7 +51,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 #####Throws
 
 
-####getAdmin
+###getAdmin
 
 
 
@@ -61,7 +61,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 #####Throws
 
 
-####getCS
+###getCS
 
 
 
@@ -71,7 +71,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 #####Throws
 
 
-####getEmail
+###getEmail
 
 
 Getter for the user email.
@@ -81,7 +81,7 @@ Getter for the user email.
 #####Throws
 
 
-####getInput
+###getInput
 
 
 
@@ -91,7 +91,7 @@ Getter for the user email.
 #####Throws
 
 
-####getLeft
+###getLeft
 
 
 Getter for the time left.
@@ -101,7 +101,7 @@ Getter for the time left.
 #####Throws
 
 
-####getLoginHTML
+###getLoginHTML
 
 
 Getter for the login HTML.
@@ -111,7 +111,7 @@ Getter for the login HTML.
 #####Throws
 
 
-####getLogoutHTML
+###getLogoutHTML
 
 
 Getter for the logout HTML.
@@ -121,7 +121,7 @@ Getter for the logout HTML.
 #####Throws
 
 
-####getName
+###getName
 
 
 Getter for the contest name.
@@ -131,7 +131,7 @@ Getter for the contest name.
 #####Throws
 
 
-####getSeen
+###getSeen
 
 
 
@@ -141,7 +141,7 @@ Getter for the contest name.
 #####Throws
 
 
-####getSnippet
+###getSnippet
 
 
 
@@ -151,7 +151,7 @@ Getter for the contest name.
 #####Throws
 
 
-####getStart
+###getStart
 
 
 Getter for the start date.
@@ -161,7 +161,7 @@ Getter for the start date.
 #####Throws
 
 
-####getToken
+###getToken
 
 
 
@@ -171,7 +171,7 @@ Getter for the start date.
 #####Throws
 
 
-####getURLEncodedToken
+###getURLEncodedToken
 
 
 Returns an URL encoded form of the middle ware token.
@@ -181,7 +181,7 @@ Returns an URL encoded form of the middle ware token.
 #####Throws
 
 
-####getUntilStart
+###getUntilStart
 
 
 Getter for the time left.
@@ -191,7 +191,7 @@ Getter for the time left.
 #####Throws
 
 
-####getVersion
+###getVersion
 
 
 Getter for the contest version.
@@ -201,7 +201,7 @@ Getter for the contest version.
 #####Throws
 
 
-####isLogged
+###isLogged
 
 
 Indicates if user is currently logged in.
@@ -211,7 +211,7 @@ Indicates if user is currently logged in.
 #####Throws
 
 
-####isQualified
+###isQualified
 
 
 Indicates if the currently logged user

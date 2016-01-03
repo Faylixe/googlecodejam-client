@@ -7,7 +7,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  A {@link Round} is defined by a name, and a dashboard
  URL.</p>
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -27,7 +27,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Methods
 
-####equals
+###equals
 
 
 {@inheritDoc}
@@ -42,7 +42,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####get
+###get
 
 
 <p>Static factory methods that retrieves a list of round
@@ -59,7 +59,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####getContestName
+###getContestName
 
 
 <p>Getter for the parent contest name.</p>
@@ -69,7 +69,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####getURL
+###getURL
 
 
 <p>Getter for round dashboard URL.</p>
@@ -79,7 +79,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Throws
 
 
-####hashCode
+###hashCode
 
 
 {@inheritDoc}

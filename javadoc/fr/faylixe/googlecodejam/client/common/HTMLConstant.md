@@ -5,7 +5,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 <p>Simple class that exposes HTML String related constants value.</p>
 
-###Summary
+##Summary
 
 
 ##Fields

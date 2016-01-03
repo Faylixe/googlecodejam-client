@@ -5,7 +5,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 Test case for {@link ContestInfo} class.
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -16,7 +16,7 @@ Test case for {@link ContestInfo} class.
 
 ##Methods
 
-####getTestContestInfo
+###getTestContestInfo
 
 
 Retrieves the {@link ContestInfo} instance
@@ -28,7 +28,7 @@ Retrieves the {@link ContestInfo} instance
 #####Throws
 
 
-####testContestInfoConsistency
+###testContestInfoConsistency
 
 
 Ensures the given {@link ContestInfo} is
@@ -40,7 +40,7 @@ Ensures the given {@link ContestInfo} is
 #####Throws
 
 
-####testContestInfoConsistency
+###testContestInfoConsistency
 
 
 Ensures retrieved {@link ContestInfo} is

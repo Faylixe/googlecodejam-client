@@ -9,7 +9,7 @@ TODO Javadoc
  
  ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/5
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -21,13 +21,13 @@ TODO Javadoc
 
 ##Methods
 
-####cancel
+###cancel
 
 
 Cancel the current operation.#####Throws
 
 
-####checkCurrentState
+###checkCurrentState
 
 
 Checks the state of the given <tt>driver</tt>,
@@ -39,7 +39,7 @@ Checks the state of the given <tt>driver</tt>,
 #####Throws
 
 
-####get
+###get
 
 
 {@inheritDoc}
@@ -49,7 +49,7 @@ Checks the state of the given <tt>driver</tt>,
 #####Throws
 
 
-####isRunning
+###isRunning
 
 
 Indicates if the login process is still running.

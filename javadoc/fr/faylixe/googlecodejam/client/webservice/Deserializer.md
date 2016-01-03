@@ -5,7 +5,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 Custom deserializer that normalizes problem body content.
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -14,7 +14,7 @@ Custom deserializer that normalizes problem body content.
 
 ##Methods
 
-####deserialize
+###deserialize
 
 
 {@inheritDoc}

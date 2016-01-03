@@ -6,7 +6,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 <p>Class that represents a object which
  could be identified by a name.</p>
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -15,7 +15,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ##Methods
 
-####getName
+###getName
 
 
 Getter for the name of this object.

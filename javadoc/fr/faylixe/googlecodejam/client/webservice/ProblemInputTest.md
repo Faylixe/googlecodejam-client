@@ -5,7 +5,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 Test case for the {@link ProblemInput} class.
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -14,7 +14,7 @@ Test case for the {@link ProblemInput} class.
 
 ##Methods
 
-####testProblemInputConsistency
+###testProblemInputConsistency
 
 
 Ensures retrieved {@link ProblemInput}

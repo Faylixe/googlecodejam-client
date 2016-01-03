@@ -5,7 +5,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 <p>Main class that could be used as a command line program.</p>
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -14,7 +14,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Methods
 
-####main
+###main
 
 
 Command line application entry point.

@@ -5,7 +5,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Test case for {@link CodeJamSession} class.
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -18,7 +18,7 @@ Test case for {@link CodeJamSession} class.
 
 ##Methods
 
-####getTestSession
+###getTestSession
 
 
 Retrieves a valid {@link CodeJamSession}
@@ -30,21 +30,21 @@ Retrieves a valid {@link CodeJamSession}
 #####Throws
 
 
-####testContestAnalysis
+###testContestAnalysis
 
 
 Test for the {@link CodeJamSession#getContestAnalysis(Problem)}
  method, using the test {@link Problem} as a reference.#####Throws
 
 
-####testDownload
+###testDownload
 
 
 Test for the {@link CodeJamSession#download(ProblemInput)}
  method, using the test {@link Problem} as a reference.#####Throws
 
 
-####testSessionConsistency
+###testSessionConsistency
 
 
 Ensures that the internal contest info instance used
@@ -52,7 +52,7 @@ Ensures that the internal contest info instance used
  like if user is qualified or is the contest is active.#####Throws
 
 
-####testSubmission
+###testSubmission
 
 
 Test for the {@link CodeJamSession#submit(ProblemInput, File, File)}

@@ -5,7 +5,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 Test case for {@link NamedObject} class.
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -15,13 +15,13 @@ Test case for {@link NamedObject} class.
 
 ##Methods
 
-####testDefault
+###testDefault
 
 
 Test named object behavior from default instantiation.#####Throws
 
 
-####testSerialized
+###testSerialized
 
 
 Test named object behavior through JSON built object.#####Throws

@@ -7,7 +7,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
  relative to HTTP API for interacting with
  Code Jam webservice.</p>
 
-###Summary
+##Summary
 
 
 | Type | Method |
@@ -53,7 +53,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ##Methods
 
-####createBoundary
+###createBoundary
 
 
 Creates and returns a boundary for multipart request.
