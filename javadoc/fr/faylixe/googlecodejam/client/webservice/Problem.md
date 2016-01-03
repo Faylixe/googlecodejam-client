@@ -89,7 +89,7 @@ Shortcut method for reducing law of Demeters issues.
 #####Parameters
 
 
-* index Index of the problem input to retrieve.
+> index Index of the problem input to retrieve.
 
 #####Returns
 
@@ -107,7 +107,7 @@ Filters and returns first problem input which name
 #####Parameters
 
 
-* type Type of the input to retrieve (usually small or large).
+> type Type of the input to retrieve (usually small or large).
 
 #####Returns
 

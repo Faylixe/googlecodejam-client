@@ -31,8 +31,8 @@ Static factory method that creates a {@link Part} which contains
 #####Parameters
 
 
-* name Name of the POST data to create part for.
-* data Value of the POST data to create part for.
+> name Name of the POST data to create part for.
+> data Value of the POST data to create part for.
 
 #####Returns
 
@@ -47,8 +47,8 @@ Static factory method that creates a {@link Part} which contains
 #####Parameters
 
 
-* name name Name of the POST file data to create part for.
-* file File of the POST data to create part for.
+> name name Name of the POST file data to create part for.
+> file File of the POST data to create part for.
 
 #####Returns
 
@@ -67,8 +67,8 @@ Static factory method that creates a {@link HttpRequestExecutor} instance
 #####Parameters
 
 
-* hostname Hostname to use for the created executor.
-* cookieValue Value of the SACSID cookie to use.
+> hostname Hostname to use for the created executor.
+> cookieValue Value of the SACSID cookie to use.
 
 #####Returns
 
@@ -83,7 +83,7 @@ Static factory method that creates a non logged
 #####Parameters
 
 
-* hostname Hostname to use for the created executor.
+> hostname Hostname to use for the created executor.
 
 #####Returns
 
@@ -99,7 +99,7 @@ Performs a HTTP GET request to the given <tt>path</tt>
 #####Parameters
 
 
-* path Relative server path to perform request to.
+> path Relative server path to perform request to.
 
 #####Returns
 
@@ -126,7 +126,7 @@ Creates and returns a GET {@link HttpRequest} instance
 #####Parameters
 
 
-* path Path of the request to build.
+> path Path of the request to build.
 
 #####Returns
 
@@ -144,8 +144,8 @@ Performs a HTTP POST request to the given <tt>path</tt>
 #####Parameters
 
 
-* path Relative server path to perform request to.
-* content POST content that will be sent.
+> path Relative server path to perform request to.
+> content POST content that will be sent.
 
 #####Returns
 

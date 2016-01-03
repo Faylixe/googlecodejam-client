@@ -21,7 +21,7 @@ Command line application entry point.
 #####Parameters
 
 
-* args Command line parameters provided.
+> args Command line parameters provided.
 
 --
 ---

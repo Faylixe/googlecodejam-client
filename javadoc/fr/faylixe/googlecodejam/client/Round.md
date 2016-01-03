@@ -44,8 +44,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameters
 
 
-* contest Root element of the contest in the contest index page.
-* parent Parent contest name.
+> contest Root element of the contest in the contest index page.
+> parent Parent contest name.
 
 #####Returns
 

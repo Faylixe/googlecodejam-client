@@ -29,8 +29,8 @@ Static factory method that builds a {@link ContestInfo} instance
 #####Parameters
 
 
-* executor Executor instance used to perform the request.
-* round Round to retrieve {@link ContestInfo} from.
+> executor Executor instance used to perform the request.
+> round Round to retrieve {@link ContestInfo} from.
 
 #####Returns
 
@@ -47,7 +47,7 @@ Shortcut method for reducing law of Demeters issues.
 #####Parameters
 
 
-* index Index of the problem to retrieve.
+> index Index of the problem to retrieve.
 
 #####Returns
 

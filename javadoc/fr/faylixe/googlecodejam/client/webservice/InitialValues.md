@@ -42,8 +42,8 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 #####Parameters
 
 
-* executor Executor instance to use for performing the associated request.
-* round Round to extract initial values from.
+> executor Executor instance to use for performing the associated request.
+> round Round to extract initial values from.
 
 #####Returns
 

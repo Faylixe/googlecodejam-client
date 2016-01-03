@@ -35,7 +35,7 @@ Ensures the given {@link ContestInfo} is
 #####Parameters
 
 
-* info {@link ContestInfo} instance to ensure consistency from.
+> info {@link ContestInfo} instance to ensure consistency from.
 
 --
 ###testContestInfoConsistency

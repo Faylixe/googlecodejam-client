@@ -44,7 +44,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameters
 
 
-* executor {@link HttpRequestExecutor} instance to use to retrieve contest index.
+> executor {@link HttpRequestExecutor} instance to use to retrieve contest index.
 
 #####Returns
 

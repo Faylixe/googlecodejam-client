@@ -28,7 +28,7 @@ Downloads an input file, from the given user <tt>command</tt>.
 #####Parameters
 
 
-* command User command line.
+> command User command line.
 
 #####Returns
 
@@ -55,7 +55,7 @@ Performs an output file submission using the <tt>SubmitAnswer</tt>
 #####Parameters
 
 
-* command User command line.
+> command User command line.
 
 #####Returns
 
