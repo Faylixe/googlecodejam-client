@@ -19,6 +19,9 @@ Test case for {@link CodeJamSession} class.
 ###Fields
 
 
+| Type | Field |
+| --- | --- |
+
 ###Methods
 
 ####getTestSession

@@ -16,6 +16,9 @@ Test case for {@link Contest} class.
 ###Fields
 
 
+| Type | Field |
+| --- | --- |
+
 ###Methods
 
 ####getTestContests

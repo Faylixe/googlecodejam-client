@@ -19,6 +19,9 @@ Package [fr.faylixe.googlecodejam.client.application](../)<br>
 ###Fields
 
 
+| Type | Field |
+| --- | --- |
+
 ###Methods
 
 ####download

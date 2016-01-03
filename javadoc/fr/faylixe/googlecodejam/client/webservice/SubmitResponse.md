@@ -22,6 +22,9 @@ Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
 ###Fields
 
 
+| Type | Field |
+| --- | --- |
+
 ###Methods
 
 ####equals

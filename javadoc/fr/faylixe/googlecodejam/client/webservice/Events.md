@@ -14,6 +14,9 @@ TODO : Fill with Event response attribute.
 ###Fields
 
 
+| Type | Field |
+| --- | --- |
+
 ###Methods
 
 ---

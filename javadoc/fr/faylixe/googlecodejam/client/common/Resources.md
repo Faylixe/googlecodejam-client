@@ -18,6 +18,9 @@ Package [fr.faylixe.googlecodejam.client.common](../)<br>
 ###Fields
 
 
+| Type | Field |
+| --- | --- |
+
 ###Methods
 
 ####getHTMLTemplate

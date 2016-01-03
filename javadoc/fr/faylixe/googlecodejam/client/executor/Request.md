@@ -17,6 +17,9 @@ Package [fr.faylixe.googlecodejam.client.executor](../)<br>
 ###Fields
 
 
+| Type | Field |
+| --- | --- |
+
 ###Methods
 
 ####createBoundary

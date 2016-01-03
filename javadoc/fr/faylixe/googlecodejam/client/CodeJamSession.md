@@ -32,6 +32,9 @@ Package [fr.faylixe.googlecodejam.client](../)<br>
 ###Fields
 
 
+| Type | Field |
+| --- | --- |
+
 ###Methods
 
 ####buildFilename

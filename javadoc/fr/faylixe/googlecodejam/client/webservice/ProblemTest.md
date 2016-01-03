@@ -16,6 +16,9 @@ Test case for the {@link Problem} class.
 ###Fields
 
 
+| Type | Field |
+| --- | --- |
+
 ###Methods
 
 ####getTestProblem

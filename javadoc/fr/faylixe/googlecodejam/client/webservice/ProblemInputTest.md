@@ -15,6 +15,9 @@ Test case for the {@link ProblemInput} class.
 ###Fields
 
 
+| Type | Field |
+| --- | --- |
+
 ###Methods
 
 ####testProblemInputConsistency
