@@ -20,7 +20,8 @@ Test case for {@link InitialValues} class.
 
 Retrieves the {@link InitialValues}
  instance that will be used for testing.
- Using the test {@link Round} as reference.#####Return
+ Using the test {@link Round} as reference.
+#####Return
 
 
 #####Throws

@@ -21,7 +21,8 @@ Test case for {@link ContestInfo} class.
 
 Retrieves the {@link ContestInfo} instance
  that will be used for testing. Using
- test {@link Round} as reference.#####Return
+ test {@link Round} as reference.
+#####Return
 
 
 #####Throws
@@ -35,7 +36,8 @@ Ensures the given {@link ContestInfo} is
 #####Parameter(s)
 
 
-* info#####Throws
+* info
+#####Throws
 
 
 ####testContestInfoConsistency

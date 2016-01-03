@@ -39,7 +39,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* input#####Return
+* input
+
+#####Return
 
 
 #####Throws
@@ -54,7 +56,10 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* executor* round#####Return
+* executor
+* round
+
+#####Return
 
 
 #####Throws
@@ -69,7 +74,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* input#####Return
+* input
+
+#####Return
 
 
 #####Throws
@@ -83,7 +90,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* problem#####Return
+* problem
+
+#####Return
 
 
 #####Throws
@@ -93,7 +102,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 <p>Performs and returns a <tt>GET /</tt> request
- in order to get all <tt>round</tt> detail.</p>#####Return
+ in order to get all <tt>round</tt> detail.</p>
+#####Return
 
 
 #####Throws
@@ -107,7 +117,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* letter#####Return
+* letter
+
+#####Return
 
 
 #####Throws
@@ -118,7 +130,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 <p>Indiciates if the contest is currently active,
  namely if competition is occuring at the current
- time, or not.</p>#####Return
+ time, or not.</p>
+#####Return
 
 
 #####Throws
@@ -127,7 +140,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####isLogged
 
 
-<p>Indicates if the current session is logged in or not.</p>#####Return
+<p>Indicates if the current session is logged in or not.</p>
+#####Return
 
 
 #####Throws
@@ -137,7 +151,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 <p>Indicates if the currently logged user is qualified
- for the next round or not.</p>#####Return
+ for the next round or not.</p>
+#####Return
 
 
 #####Throws
@@ -146,7 +161,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####refresh
 
 
-<p>Reloads session components in order to prevent from any change.</p>#####Return
+<p>Reloads session components in order to prevent from any change.</p>
+#####Return
 
 
 #####Throws
@@ -165,7 +181,11 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* input* output* source#####Return
+* input
+* output
+* source
+
+#####Return
 
 
 #####Throws

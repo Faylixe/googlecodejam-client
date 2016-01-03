@@ -18,7 +18,8 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ####getName
 
 
-Getter for the name of this object.#####Return
+Getter for the name of this object.
+#####Return
 
 
 #####Throws

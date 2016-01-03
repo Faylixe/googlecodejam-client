@@ -34,7 +34,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* object#####Return
+* object
+
+#####Return
 
 
 #####Throws
@@ -48,7 +50,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* executor#####Return
+* executor
+
+#####Return
 
 
 #####Throws
@@ -58,7 +62,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 <p>Getter that returns a immutable view
- of the {@link Round} list.</p>#####Return
+ of the {@link Round} list.</p>
+#####Return
 
 
 #####Throws
@@ -67,7 +72,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####hashCode
 
 
-{@inheritDoc}#####Return
+{@inheritDoc}
+#####Return
 
 
 #####Throws

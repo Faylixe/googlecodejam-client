@@ -35,7 +35,9 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 #####Parameter(s)
 
 
-* object#####Return
+* object
+
+#####Return
 
 
 #####Throws
@@ -44,7 +46,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####getBody
 
 
-Getter for the problem body description.#####Return
+Getter for the problem body description.
+#####Return
 
 
 #####Throws
@@ -53,7 +56,8 @@ Getter for the problem body description.#####Return
 ####getId
 
 
-Getter for the problem id.#####Return
+Getter for the problem id.
+#####Return
 
 
 #####Throws
@@ -62,7 +66,8 @@ Getter for the problem id.#####Return
 ####getKey
 
 
-Getter for the problem key.#####Return
+Getter for the problem key.
+#####Return
 
 
 #####Throws
@@ -71,7 +76,8 @@ Getter for the problem key.#####Return
 ####getNormalizedName
 
 
-Getter for the problem normalized name.#####Return
+Getter for the problem normalized name.
+#####Return
 
 
 #####Throws
@@ -80,7 +86,8 @@ Getter for the problem normalized name.#####Return
 ####getParent
 
 
-Getter for the parent contest of this problem.#####Return
+Getter for the parent contest of this problem.
+#####Return
 
 
 #####Throws
@@ -93,7 +100,9 @@ Shortcut method for reducing law of Demeters issues.
 #####Parameter(s)
 
 
-* index#####Return
+* index
+
+#####Return
 
 
 #####Throws
@@ -107,7 +116,9 @@ Filters and returns first problem input which name
 #####Parameter(s)
 
 
-* type#####Return
+* type
+
+#####Return
 
 
 #####Throws
@@ -116,7 +127,8 @@ Filters and returns first problem input which name
 ####getProblemInputs
 
 
-Getter for the problem inputs.#####Return
+Getter for the problem inputs.
+#####Return
 
 
 #####Throws
@@ -125,7 +137,8 @@ Getter for the problem inputs.#####Return
 ####getType
 
 
-Getter for the problem type.#####Return
+Getter for the problem type.
+#####Return
 
 
 #####Throws
@@ -134,7 +147,8 @@ Getter for the problem type.#####Return
 ####hashCode
 
 
-{@inheritDoc}#####Return
+{@inheritDoc}
+#####Return
 
 
 #####Throws

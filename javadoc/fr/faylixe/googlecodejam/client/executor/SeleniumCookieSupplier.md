@@ -35,13 +35,15 @@ Checks the state of the given <tt>driver</tt>,
 #####Parameter(s)
 
 
-* driver#####Throws
+* driver
+#####Throws
 
 
 ####get
 
 
-{@inheritDoc}#####Return
+{@inheritDoc}
+#####Return
 
 
 #####Throws
@@ -50,7 +52,8 @@ Checks the state of the given <tt>driver</tt>,
 ####isRunning
 
 
-Indicates if the login process is still running.#####Return
+Indicates if the login process is still running.
+#####Return
 
 
 #####Throws

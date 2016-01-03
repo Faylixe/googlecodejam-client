@@ -31,7 +31,10 @@ Static factory method that creates a {@link Part} which contains
 #####Parameter(s)
 
 
-* name* data#####Return
+* name
+* data
+
+#####Return
 
 
 #####Throws
@@ -45,7 +48,10 @@ Static factory method that creates a {@link Part} which contains
 #####Parameter(s)
 
 
-* name* file#####Return
+* name
+* file
+
+#####Return
 
 
 #####Throws
@@ -60,7 +66,10 @@ Static factory method that creates a {@link HttpRequestExecutor} instance
 #####Parameter(s)
 
 
-* hostname* cookieValue#####Return
+* hostname
+* cookieValue
+
+#####Return
 
 
 #####Throws
@@ -74,7 +83,9 @@ Static factory method that creates a non logged
 #####Parameter(s)
 
 
-* hostname#####Return
+* hostname
+
+#####Return
 
 
 #####Throws
@@ -89,7 +100,9 @@ Performs a HTTP GET request to the given <tt>path</tt>
 #####Parameter(s)
 
 
-* path#####Return
+* path
+
+#####Return
 
 
 #####Throws
@@ -98,7 +111,8 @@ Performs a HTTP GET request to the given <tt>path</tt>
 ####getHostname
 
 
-Getter for the target hostname.#####Return
+Getter for the target hostname.
+#####Return
 
 
 #####Throws
@@ -112,7 +126,9 @@ Creates and returns a GET {@link HttpRequest} instance
 #####Parameter(s)
 
 
-* path#####Return
+* path
+
+#####Return
 
 
 #####Throws
@@ -126,7 +142,10 @@ Performs a HTTP POST request to the given <tt>path</tt>
 #####Parameter(s)
 
 
-* path* content#####Return
+* path
+* content
+
+#####Return
 
 
 #####Throws

@@ -34,7 +34,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* object#####Return
+* object
+
+#####Return
 
 
 #####Throws
@@ -48,7 +50,10 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 #####Parameter(s)
 
 
-* contest* parent#####Return
+* contest
+* parent
+
+#####Return
 
 
 #####Throws
@@ -57,7 +62,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####getContestName
 
 
-<p>Getter for the parent contest name.</p>#####Return
+<p>Getter for the parent contest name.</p>
+#####Return
 
 
 #####Throws
@@ -66,7 +72,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####getURL
 
 
-<p>Getter for round dashboard URL.</p>#####Return
+<p>Getter for round dashboard URL.</p>
+#####Return
 
 
 #####Throws
@@ -75,7 +82,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####hashCode
 
 
-{@inheritDoc}#####Return
+{@inheritDoc}
+#####Return
 
 
 #####Throws

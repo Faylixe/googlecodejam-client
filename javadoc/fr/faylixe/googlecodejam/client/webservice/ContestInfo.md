@@ -29,7 +29,10 @@ Static factory method that builds a {@link ContestInfo} instance
 #####Parameter(s)
 
 
-* executor* round#####Return
+* executor
+* round
+
+#####Return
 
 
 #####Throws
@@ -42,7 +45,9 @@ Shortcut method for reducing law of Demeters issues.
 #####Parameter(s)
 
 
-* index#####Return
+* index
+
+#####Return
 
 
 #####Throws
@@ -52,7 +57,8 @@ Shortcut method for reducing law of Demeters issues.
 
 
 Returns {@link Problem} instance associated
- to this contest.#####Return
+ to this contest.
+#####Return
 
 
 #####Throws
@@ -61,7 +67,8 @@ Returns {@link Problem} instance associated
 ####getVersion
 
 
-Getter for the problems version.#####Return
+Getter for the problems version.
+#####Return
 
 
 #####Throws
@@ -71,7 +78,8 @@ Getter for the problems version.#####Return
 
 
 Indicates if this contests already have
- analysis committed or not.#####Return
+ analysis committed or not.
+#####Return
 
 
 #####Throws

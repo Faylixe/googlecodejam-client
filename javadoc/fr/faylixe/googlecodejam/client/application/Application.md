@@ -21,7 +21,8 @@ Command line application entry point.
 #####Parameter(s)
 
 
-* args#####Throws
+* args
+#####Throws
 
 
 ---

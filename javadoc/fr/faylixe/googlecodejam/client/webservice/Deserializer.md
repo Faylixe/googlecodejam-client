@@ -21,7 +21,11 @@ Custom deserializer that normalizes problem body content.
 #####Parameter(s)
 
 
-* element* type* context#####Return
+* element
+* type
+* context
+
+#####Return
 
 
 #####Throws

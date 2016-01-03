@@ -20,7 +20,8 @@ Test case for the {@link Round} class.
 
 Retrieves the round instance that will
  be used for testing. Such round will be the first
- of the target test contest.#####Return
+ of the target test contest.
+#####Return
 
 
 #####Throws

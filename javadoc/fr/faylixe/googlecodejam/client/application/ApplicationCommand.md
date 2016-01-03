@@ -28,7 +28,9 @@ Downloads an input file, from the given user <tt>command</tt>.
 #####Parameter(s)
 
 
-* command#####Return
+* command
+
+#####Return
 
 
 #####Throws
@@ -39,7 +41,8 @@ Downloads an input file, from the given user <tt>command</tt>.
 
 Methods that is bound to the INIT command. Starts
  firefox through selenium to retrieve cookie instance
- and prompts user for the contextual round to use.#####Return
+ and prompts user for the contextual round to use.
+#####Return
 
 
 #####Throws
@@ -54,7 +57,9 @@ Performs an output file submission using the <tt>SubmitAnswer</tt>
 #####Parameter(s)
 
 
-* command#####Return
+* command
+
+#####Return
 
 
 #####Throws

@@ -20,7 +20,8 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ####getHTMLTemplate
 
 
-Getter for the HTML template content.#####Return
+Getter for the HTML template content.
+#####Return
 
 
 #####Throws
@@ -34,7 +35,9 @@ Reads and returns resources content denoted by the
 #####Parameter(s)
 
 
-* path#####Return
+* path
+
+#####Return
 
 
 #####Throws
@@ -48,7 +51,9 @@ Reads and returns resources content denoted by the
 #####Parameter(s)
 
 
-* path#####Return
+* path
+
+#####Return
 
 
 #####Throws
@@ -62,7 +67,9 @@ Normalizes the given <tt>name</tt> by removing
 #####Parameter(s)
 
 
-* name#####Return
+* name
+
+#####Return
 
 
 #####Throws

@@ -42,13 +42,17 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 #####Parameter(s)
 
 
-* executor* round#####Return
+* executor
+* round
+
+#####Return
 
 
 #####Throws
 
 
 ####getAdmin
+
 
 
 #####Return
@@ -60,6 +64,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 ####getCS
 
 
+
 #####Return
 
 
@@ -69,13 +74,15 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 ####getEmail
 
 
-Getter for the user email.#####Return
+Getter for the user email.
+#####Return
 
 
 #####Throws
 
 
 ####getInput
+
 
 
 #####Return
@@ -87,7 +94,8 @@ Getter for the user email.#####Return
 ####getLeft
 
 
-Getter for the time left.#####Return
+Getter for the time left.
+#####Return
 
 
 #####Throws
@@ -96,7 +104,8 @@ Getter for the time left.#####Return
 ####getLoginHTML
 
 
-Getter for the login HTML.#####Return
+Getter for the login HTML.
+#####Return
 
 
 #####Throws
@@ -105,7 +114,8 @@ Getter for the login HTML.#####Return
 ####getLogoutHTML
 
 
-Getter for the logout HTML.#####Return
+Getter for the logout HTML.
+#####Return
 
 
 #####Throws
@@ -114,13 +124,15 @@ Getter for the logout HTML.#####Return
 ####getName
 
 
-Getter for the contest name.#####Return
+Getter for the contest name.
+#####Return
 
 
 #####Throws
 
 
 ####getSeen
+
 
 
 #####Return
@@ -132,6 +144,7 @@ Getter for the contest name.#####Return
 ####getSnippet
 
 
+
 #####Return
 
 
@@ -141,13 +154,15 @@ Getter for the contest name.#####Return
 ####getStart
 
 
-Getter for the start date.#####Return
+Getter for the start date.
+#####Return
 
 
 #####Throws
 
 
 ####getToken
+
 
 
 #####Return
@@ -159,7 +174,8 @@ Getter for the start date.#####Return
 ####getURLEncodedToken
 
 
-Returns an URL encoded form of the middle ware token.#####Return
+Returns an URL encoded form of the middle ware token.
+#####Return
 
 
 #####Throws
@@ -168,7 +184,8 @@ Returns an URL encoded form of the middle ware token.#####Return
 ####getUntilStart
 
 
-Getter for the time left.#####Return
+Getter for the time left.
+#####Return
 
 
 #####Throws
@@ -177,7 +194,8 @@ Getter for the time left.#####Return
 ####getVersion
 
 
-Getter for the contest version.#####Return
+Getter for the contest version.
+#####Return
 
 
 #####Throws
@@ -186,7 +204,8 @@ Getter for the contest version.#####Return
 ####isLogged
 
 
-Indicates if user is currently logged in.#####Return
+Indicates if user is currently logged in.
+#####Return
 
 
 #####Throws
@@ -196,7 +215,8 @@ Indicates if user is currently logged in.#####Return
 
 
 Indicates if the currently logged user
- is qualified for the next round.#####Return
+ is qualified for the next round.
+#####Return
 
 
 #####Throws

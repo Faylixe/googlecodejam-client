@@ -28,7 +28,9 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 #####Parameter(s)
 
 
-* object#####Return
+* object
+
+#####Return
 
 
 #####Throws
@@ -37,7 +39,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####getInputId
 
 
-Getter for the submission identifier.#####Return
+Getter for the submission identifier.
+#####Return
 
 
 #####Throws
@@ -46,7 +49,8 @@ Getter for the submission identifier.#####Return
 ####getMessage
 
 
-Getter for the information message.#####Return
+Getter for the information message.
+#####Return
 
 
 #####Throws
@@ -55,7 +59,8 @@ Getter for the information message.#####Return
 ####getProblemId
 
 
-Getter for the problem identifier.#####Return
+Getter for the problem identifier.
+#####Return
 
 
 #####Throws
@@ -64,7 +69,8 @@ Getter for the problem identifier.#####Return
 ####hashCode
 
 
-{@inheritDoc}#####Return
+{@inheritDoc}
+#####Return
 
 
 #####Throws
@@ -73,7 +79,8 @@ Getter for the problem identifier.#####Return
 ####isSuccess
 
 
-Indicates if the submission was successful or not.#####Return
+Indicates if the submission was successful or not.
+#####Return
 
 
 #####Throws

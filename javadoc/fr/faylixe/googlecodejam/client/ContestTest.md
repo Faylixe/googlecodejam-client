@@ -21,7 +21,8 @@ Test case for {@link Contest} class.
 Retrieves the contest instance that will
  be used for testing. Such contest will be
  the last, assuming the the last contest
- will never change.#####Return
+ will never change.
+#####Return
 
 
 #####Throws

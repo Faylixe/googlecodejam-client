@@ -47,7 +47,8 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 
 Static factory method that creates the {@link Options} list
- for the command line arguments parsing.#####Return
+ for the command line arguments parsing.
+#####Return
 
 
 #####Throws
