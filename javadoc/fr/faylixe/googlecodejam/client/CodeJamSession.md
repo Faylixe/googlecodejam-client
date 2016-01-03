@@ -62,7 +62,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 #####Throws
 
-* IOException : If any error occurs while retrieving contest info or initial values.
+* [IOException](../../../java/io/IOException.md) If any error occurs while retrieving contest info or initial values.
+
 ###download
 
 
@@ -79,7 +80,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 #####Throws
 
-* IOException : If any error occurs while downloading the file.
+* [IOException](../../../java/io/IOException.md) If any error occurs while downloading the file.
+
 ###getContestAnalysis
 
 
@@ -153,7 +155,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 #####Throws
 
-* IOException : If any error occurs while reloading a new session.
+* [IOException](../../../java/io/IOException.md) If any error occurs while reloading a new session.
+
 ###submit
 
 
@@ -176,6 +179,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 #####Throws
 
-* IOException : If any error occurs while uploading data, or performing the request.
+* [IOException](../../../java/io/IOException.md) If any error occurs while uploading data, or performing the request.
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

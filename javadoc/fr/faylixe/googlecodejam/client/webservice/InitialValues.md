@@ -50,7 +50,8 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 #####Throws
 
-* IOException : If any error occurs during the associated HTTP request.
+* [IOException](../../../../java/io/IOException.md) If any error occurs during the associated HTTP request.
+
 ###getAdmin
 
 
@@ -156,7 +157,8 @@ Returns an URL encoded form of the middle ware token.
 
 #####Throws
 
-* UnsupportedEncodingException : If target encoding is not supported.
+* [UnsupportedEncodingException](../../../../java/io/UnsupportedEncodingException.md) If target encoding is not supported.
+
 ###getUntilStart
 
 

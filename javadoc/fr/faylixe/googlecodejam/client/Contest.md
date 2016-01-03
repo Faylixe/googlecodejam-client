@@ -55,7 +55,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 #####Throws
 
-* IOException : If any error occurs during contest extraction process.
+* [IOException](../../../java/io/IOException.md) If any error occurs during contest extraction process.
+
 ###getRounds
 
 

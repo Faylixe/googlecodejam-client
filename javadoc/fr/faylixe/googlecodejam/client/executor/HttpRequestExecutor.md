@@ -54,7 +54,8 @@ Static factory method that creates a {@link Part} which contains
 
 #####Throws
 
-* IOException : If any any error occurs during file type detection.
+* [IOException](../../../../java/io/IOException.md) If any any error occurs during file type detection.
+
 ###create
 
 
@@ -101,7 +102,8 @@ Performs a HTTP GET request to the given <tt>path</tt>
 
 #####Throws
 
-* IOException : If any error occurs while performing request.
+* [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
+
 ###getHostname
 
 
@@ -125,7 +127,8 @@ Creates and returns a GET {@link HttpRequest} instance
 
 #####Throws
 
-* IOException : If any error occurs while creating the GET request.
+* [IOException](../../../../java/io/IOException.md) If any error occurs while creating the GET request.
+
 ###post
 
 
@@ -142,6 +145,7 @@ Performs a HTTP POST request to the given <tt>path</tt>
 
 #####Throws
 
-* IOException : If any error occurs while performing request.
+* [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
+
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
