@@ -1,7 +1,7 @@
 #ApplicationCommand
 
-Package [fr.faylixe.googlecodejam.client.application](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/application)<br>
- > [ApplicationCommand](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/application/ApplicationCommand.md)
+Package [fr.faylixe.googlecodejam.client.application](../)<br>
+[Object](../../../../java/langObject.md) > [ApplicationCommand](ApplicationCommand.md)
 
 <p>This class contains static method that are
  executed from parsed command line argument in

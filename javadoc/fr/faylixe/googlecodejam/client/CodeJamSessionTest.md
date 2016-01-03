@@ -1,7 +1,7 @@
 #CodeJamSessionTest
 
-Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client)<br>
- > [CodeJamSessionTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/CodeJamSessionTest.md)
+Package [fr.faylixe.googlecodejam.client](../)<br>
+[Object](../../../java/langObject.md) > [CodeJamSessionTest](CodeJamSessionTest.md)
 
 Test case for {@link CodeJamSession} class.
 
@@ -10,7 +10,7 @@ Test case for {@link CodeJamSession} class.
 
 | Type | Method |
 | --- | --- |
-| [CodeJamSession](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/CodeJamSession.md) | getTestSession |
+| [CodeJamSession](CodeJamSession.md) | getTestSession |
 | **void** | testContestAnalysis |
 | **void** | testDownload |
 | **void** | testSessionConsistency |

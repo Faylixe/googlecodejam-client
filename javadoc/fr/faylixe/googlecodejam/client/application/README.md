@@ -9,9 +9,9 @@
 
 | Name |
 | --- |
-| [ApplicationConstant](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/application/ApplicationConstant.md) |
-| [ApplicationCommand](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/application/ApplicationCommand.md) |
-| [Application](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/application/Application.md) |
+| [ApplicationConstant](ApplicationConstant.md) |
+| [ApplicationCommand](ApplicationCommand.md) |
+| [Application](Application.md) |
 
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

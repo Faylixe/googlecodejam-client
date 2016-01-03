@@ -1,7 +1,7 @@
 #ProblemInputTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
- > [ProblemInputTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ProblemInputTest.md)
+Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
+[Object](../../../../java/langObject.md) > [ProblemInputTest](ProblemInputTest.md)
 
 Test case for the {@link ProblemInput} class.
 

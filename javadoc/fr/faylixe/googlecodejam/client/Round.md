@@ -1,7 +1,7 @@
 #Round
 
-Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client)<br>
- > [NamedObject](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/common/NamedObject.md) > [Round](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/Round.md)
+Package [fr.faylixe.googlecodejam.client](../)<br>
+[Object](../../../java/langObject.md) > [NamedObject](/commonNamedObject.md) > [Round](Round.md)
 
 <p>POJO class that represents a Google Jam {@link Round}.
  A {@link Round} is defined by a name, and a dashboard
@@ -13,9 +13,9 @@ Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodej
 | Type | Method |
 | --- | --- |
 | **boolean** | equals |
-|  | get |
-|  | getContestName |
-|  | getURL |
+| [List](../../../java/utilList.md) | get |
+| [String](../../../java/langString.md) | getContestName |
+| [String](../../../java/langString.md) | getURL |
 | **int** | hashCode |
 
 ###Fields

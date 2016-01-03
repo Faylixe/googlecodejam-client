@@ -1,7 +1,7 @@
 #CodeJamSession
 
-Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client)<br>
- > [NamedObject](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/common/NamedObject.md) > [CodeJamSession](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/CodeJamSession.md)
+Package [fr.faylixe.googlecodejam.client](../)<br>
+[Object](../../../java/langObject.md) > [NamedObject](/commonNamedObject.md) > [CodeJamSession](CodeJamSession.md)
 
 {@link CodeJamSession} is the main API entry point, which consists
  in logging to a code jam platform ``hostname`` and then providing
@@ -17,17 +17,17 @@ Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodej
 
 | Type | Method |
 | --- | --- |
-|  | buildFilename |
-| [CodeJamSession](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/CodeJamSession.md) | createSession |
-|  | download |
-|  | getContestAnalysis |
-| [ContestInfo](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | getContestInfo |
-| [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) | getProblem |
+| [String](../../../java/langString.md) | buildFilename |
+| [CodeJamSession](CodeJamSession.md) | createSession |
+| [InputStream](../../../java/ioInputStream.md) | download |
+| [String](../../../java/langString.md) | getContestAnalysis |
+| [ContestInfo](/webserviceContestInfo.md) | getContestInfo |
+| [Problem](/webserviceProblem.md) | getProblem |
 | **boolean** | isActive |
 | **boolean** | isLogged |
 | **boolean** | isQualified |
-| [CodeJamSession](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/CodeJamSession.md) | refresh |
-| [SubmitResponse](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/SubmitResponse.md) | submit |
+| [CodeJamSession](CodeJamSession.md) | refresh |
+| [SubmitResponse](/webserviceSubmitResponse.md) | submit |
 
 ###Fields
 

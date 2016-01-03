@@ -1,7 +1,7 @@
 #ProblemTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
- > [ProblemTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ProblemTest.md)
+Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
+[Object](../../../../java/langObject.md) > [ProblemTest](ProblemTest.md)
 
 Test case for the {@link Problem} class.
 
@@ -10,7 +10,7 @@ Test case for the {@link Problem} class.
 
 | Type | Method |
 | --- | --- |
-| [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) | getTestProblem |
+| [Problem](Problem.md) | getTestProblem |
 | **void** | testProblemConsistency |
 
 ###Fields

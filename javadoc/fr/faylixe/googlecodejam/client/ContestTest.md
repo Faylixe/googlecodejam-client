@@ -1,7 +1,7 @@
 #ContestTest
 
-Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client)<br>
- > [ContestTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/ContestTest.md)
+Package [fr.faylixe.googlecodejam.client](../)<br>
+[Object](../../../java/langObject.md) > [ContestTest](ContestTest.md)
 
 Test case for {@link Contest} class.
 
@@ -10,7 +10,7 @@ Test case for {@link Contest} class.
 
 | Type | Method |
 | --- | --- |
-| [Contest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/Contest.md) | getTestContests |
+| [Contest](Contest.md) | getTestContests |
 | **void** | testContestConsistency |
 
 ###Fields

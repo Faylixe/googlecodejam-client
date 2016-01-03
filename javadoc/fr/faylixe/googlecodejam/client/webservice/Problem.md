@@ -1,7 +1,7 @@
 #Problem
 
-Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
- > [NamedObject](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/common/NamedObject.md) > [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md)
+Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
+[Object](../../../../java/langObject.md) > [NamedObject](commonNamedObject.md) > [Problem](Problem.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. {@link Problem} instance belong
@@ -14,15 +14,15 @@ Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/
 | Type | Method |
 | --- | --- |
 | **boolean** | equals |
-|  | getBody |
-|  | getId |
-|  | getKey |
-|  | getNormalizedName |
-| [ContestInfo](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | getParent |
-| [ProblemInput](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ProblemInput.md) | getProblemInput |
-| [ProblemInput](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ProblemInput.md) | getProblemInput |
-|  | getProblemInputs |
-|  | getType |
+| [String](../../../../java/langString.md) | getBody |
+| [String](../../../../java/langString.md) | getId |
+| [String](../../../../java/langString.md) | getKey |
+| [String](../../../../java/langString.md) | getNormalizedName |
+| [ContestInfo](ContestInfo.md) | getParent |
+| [ProblemInput](ProblemInput.md) | getProblemInput |
+| [ProblemInput](ProblemInput.md) | getProblemInput |
+| [List](../../../../java/utilList.md) | getProblemInputs |
+| [String](../../../../java/langString.md) | getType |
 | **int** | hashCode |
 | **void** | validateObject |
 

@@ -1,7 +1,7 @@
 #AllTests
 
-Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client)<br>
- > [AllTests](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/AllTests.md)
+Package [fr.faylixe.googlecodejam.client](../)<br>
+[Object](../../../java/langObject.md) > [AllTests](AllTests.md)
 
 
 

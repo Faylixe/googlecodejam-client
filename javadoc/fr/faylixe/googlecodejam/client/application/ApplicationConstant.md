@@ -1,7 +1,7 @@
 #ApplicationConstant
 
-Package [fr.faylixe.googlecodejam.client.application](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/application)<br>
- > [ApplicationConstant](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/application/ApplicationConstant.md)
+Package [fr.faylixe.googlecodejam.client.application](../)<br>
+[Object](../../../../java/langObject.md) > [ApplicationConstant](ApplicationConstant.md)
 
 <p>Constants used for managing command
  line parameters.</p>
@@ -11,7 +11,7 @@ Package [fr.faylixe.googlecodejam.client.application](https://github.com/Faylixe
 
 | Type | Method |
 | --- | --- |
-|  | createOptions |
+| [Options](../../../../org/apache/commons/cliOptions.md) | createOptions |
 
 ###Fields
 

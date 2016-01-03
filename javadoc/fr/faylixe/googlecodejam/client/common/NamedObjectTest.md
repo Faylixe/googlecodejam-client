@@ -1,7 +1,7 @@
 #NamedObjectTest
 
-Package [fr.faylixe.googlecodejam.client.common](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/common)<br>
- > [NamedObjectTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/common/NamedObjectTest.md)
+Package [fr.faylixe.googlecodejam.client.common](../)<br>
+[Object](../../../../java/langObject.md) > [NamedObjectTest](NamedObjectTest.md)
 
 Test case for {@link NamedObject} class.
 

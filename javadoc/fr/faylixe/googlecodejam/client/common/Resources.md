@@ -1,7 +1,7 @@
 #Resources
 
-Package [fr.faylixe.googlecodejam.client.common](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/common)<br>
- > [Resources](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/common/Resources.md)
+Package [fr.faylixe.googlecodejam.client.common](../)<br>
+[Object](../../../../java/langObject.md) > [Resources](Resources.md)
 
 <p>Static toolbox that exposes methods for internal resources managment.</p>
 
@@ -10,10 +10,10 @@ Package [fr.faylixe.googlecodejam.client.common](https://github.com/Faylixe/goog
 
 | Type | Method |
 | --- | --- |
-|  | getHTMLTemplate |
-|  | getResource |
-|  | getResourceStream |
-|  | normalize |
+| [String](../../../../java/langString.md) | getHTMLTemplate |
+| [String](../../../../java/langString.md) | getResource |
+| [InputStream](../../../../java/ioInputStream.md) | getResourceStream |
+| [String](../../../../java/langString.md) | normalize |
 
 ###Fields
 

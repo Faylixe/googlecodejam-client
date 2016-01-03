@@ -1,7 +1,7 @@
 #Contest
 
-Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client)<br>
- > [NamedObject](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/common/NamedObject.md) > [Contest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/Contest.md)
+Package [fr.faylixe.googlecodejam.client](../)<br>
+[Object](../../../java/langObject.md) > [NamedObject](/commonNamedObject.md) > [Contest](Contest.md)
 
 <p>POJO class that represents a Google Jam {@link Contest}.
  A {@link Contest} is represented by a name and a
@@ -13,8 +13,8 @@ Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodej
 | Type | Method |
 | --- | --- |
 | **boolean** | equals |
-|  | get |
-|  | getRounds |
+| [List](../../../java/utilList.md) | get |
+| [List](../../../java/utilList.md) | getRounds |
 | **int** | hashCode |
 
 ###Fields

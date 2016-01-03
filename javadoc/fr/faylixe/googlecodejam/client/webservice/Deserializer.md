@@ -1,7 +1,7 @@
 #Problem.Deserializer
 
-Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
- > [Deserializer](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem/Deserializer.md)
+Package [fr.faylixe.googlecodejam.client.webservice](../)<br>
+[Object](../../../../java/langObject.md) > [Deserializer](Deserializer.md)
 
 Custom deserializer that normalizes problem body content.
 
@@ -10,7 +10,7 @@ Custom deserializer that normalizes problem body content.
 
 | Type | Method |
 | --- | --- |
-| [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) | deserialize |
+| [Problem](Problem.md) | deserialize |
 
 ###Fields
 
