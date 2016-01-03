@@ -16,6 +16,6 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ####main
 
-
+Command line application entry point.
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

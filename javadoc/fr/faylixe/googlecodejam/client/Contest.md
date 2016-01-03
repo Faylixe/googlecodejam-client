@@ -22,22 +22,24 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 | Type | Field | Description |
 | --- | --- | --- |
-|  | CONTEST_CLASS_NAME | <p>Class name of the element that contains contest data.</p> |
-|  | CONTEST_INDEX | <p>URL of the contest index page.</p> |
+|  | CONTEST_CLASS_NAME |
+|  | CONTEST_INDEX |
 
 ###Methods
 
 ####equals
 
-
+{@inheritDoc}
 ####get
 
-
+<p>Retrieves and returns a list of available
+ contest for the given <tt>hostname</tt>.</p>
 ####getRounds
 
-
+<p>Getter that returns a immutable view
+ of the {@link Round} list.</p>
 ####hashCode
 
-
+{@inheritDoc}
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

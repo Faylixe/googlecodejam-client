@@ -17,9 +17,12 @@ Test case for the {@link Round} class.
 
 ####getTestRound
 
-
+Retrieves the round instance that will
+ be used for testing. Such round will be the first
+ of the target test contest.
 ####testRoundConsistency
 
-
+Ensures retrieved rounds are consistent.
+ Uses the target contest test first round.
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

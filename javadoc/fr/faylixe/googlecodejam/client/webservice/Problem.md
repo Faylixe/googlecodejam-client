@@ -30,39 +30,40 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####equals
 
-
+{@inheritDoc}
 ####getBody
 
-
+Getter for the problem body description.
 ####getId
 
-
+Getter for the problem id.
 ####getKey
 
-
+Getter for the problem key.
 ####getNormalizedName
 
-
+Getter for the problem normalized name.
 ####getParent
 
-
+Getter for the parent contest of this problem.
 ####getProblemInput
 
-
+Shortcut method for reducing law of Demeters issues.
 ####getProblemInput
 
-
+Filters and returns first problem input which name
+ match the given <tt>type</tt>
 ####getProblemInputs
 
-
+Getter for the problem inputs.
 ####getType
 
-
+Getter for the problem type.
 ####hashCode
 
-
+{@inheritDoc}
 ####validateObject
 
-
+{@inheritDoc}
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -13,12 +13,12 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 | Type | Field | Description |
 | --- | --- | --- |
-|  | ANCHOR | HTML tag A. |
-|  | H3 | HTML tag H3. |
-|  | HREF | HTML attribute HREF. |
-|  | IMG | HTML tag IMG. |
-|  | SRC | HTML attribute SRC. |
-|  | TD | HTML tag TD. |
-|  | TR | HTML tag TR. |
+|  | ANCHOR |
+|  | H3 |
+|  | HREF |
+|  | IMG |
+|  | SRC |
+|  | TD |
+|  | TR |
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

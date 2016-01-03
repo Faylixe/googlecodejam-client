@@ -16,6 +16,8 @@ Test case for the {@link HttpRequestExecutor} class.
 
 ####getTestExecutor
 
-
+Creates and returns a valid {@link HttpRequestExecutor}
+ instance that could be used for test. Such instance is not
+ logged to any google services.
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

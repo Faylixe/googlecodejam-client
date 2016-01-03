@@ -19,15 +19,18 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ####getHTMLTemplate
 
-
+Getter for the HTML template content.
 ####getResource
 
-
+Reads and returns resources content denoted by the
+ given <tt>path</tt>.
 ####getResourceStream
 
-
+Reads and returns resources content denoted by the
+ given <tt>path</tt>.
 ####normalize
 
-
+Normalizes the given <tt>name</tt> by removing
+ all non alphanumeric character.
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

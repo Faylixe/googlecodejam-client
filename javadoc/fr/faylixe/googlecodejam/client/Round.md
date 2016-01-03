@@ -23,24 +23,25 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 | Type | Field | Description |
 | --- | --- | --- |
-|  | DESCRIPTION_CLASS_NAME | <p>Class name of the HTML description node.</p> |
+|  | DESCRIPTION_CLASS_NAME |
 
 ###Methods
 
 ####equals
 
-
+{@inheritDoc}
 ####get
 
-
+<p>Static factory methods that retrieves a list of round
+ from the given JSoup <tt>contest</tt> node.</p>
 ####getContestName
 
-
+<p>Getter for the parent contest name.</p>
 ####getURL
 
-
+<p>Getter for round dashboard URL.</p>
 ####hashCode
 
-
+{@inheritDoc}
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

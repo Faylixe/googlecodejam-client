@@ -36,7 +36,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####get
 
-
+Static factory method that use the <tt>GetInitialValues</tt> command
+ for the given <tt>round</tt> to retrieve a valud {@link InitialValues} instance.
 ####getAdmin
 
 
@@ -45,22 +46,22 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####getEmail
 
-
+Getter for the user email.
 ####getInput
 
 
 ####getLeft
 
-
+Getter for the time left.
 ####getLoginHTML
 
-
+Getter for the login HTML.
 ####getLogoutHTML
 
-
+Getter for the logout HTML.
 ####getName
 
-
+Getter for the contest name.
 ####getSeen
 
 
@@ -69,24 +70,25 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####getStart
 
-
+Getter for the start date.
 ####getToken
 
 
 ####getURLEncodedToken
 
-
+Returns an URL encoded form of the middle ware token.
 ####getUntilStart
 
-
+Getter for the time left.
 ####getVersion
 
-
+Getter for the contest version.
 ####isLogged
 
-
+Indicates if user is currently logged in.
 ####isQualified
 
-
+Indicates if the currently logged user
+ is qualified for the next round.
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

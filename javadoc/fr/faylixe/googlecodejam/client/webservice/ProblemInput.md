@@ -26,31 +26,31 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Type | Field | Description |
 | --- | --- | --- |
-|  | LARGE | Constant used for large input. |
-|  | SMALL | Constant used for small input. |
+|  | LARGE |
+|  | SMALL |
 
 ###Methods
 
 ####equals
 
-
+{@inheritDoc}
 ####getDifficulty
 
-
+Getter for the problem input difficulty.
 ####getNumber
 
-
+Getter for the problem input number.
 ####getPoints
 
-
+Getter for the input number of point.
 ####getProblem
 
-
+Getter for the parent problem of this input.
 ####getSuffix
 
-
+Getter for the input suffix.
 ####hashCode
 
-
+{@inheritDoc}
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
