@@ -12,28 +12,47 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
-| **public**InitialValues() |
+###* **public** InitialValues()
 
-Type | Method
- --- | --- 
-[InitialValues](InitialValues.md) | get
-[String](../../../../ava/lang/String.md) | getAdmin
-**int** | getCS
-[String](../../../../ava/lang/String.md) | getEmail
-[String](../../../../ava/lang/String.md) | getInput
-**long** | getLeft
-[String](../../../../ava/lang/String.md) | getLoginHTML
-[String](../../../../ava/lang/String.md) | getLogoutHTML
-[String](../../../../ava/lang/String.md) | getName
-**int** | getSeen
-[String](../../../../ava/lang/String.md) | getSnippet
-**long** | getStart
-[String](../../../../ava/lang/String.md) | getToken
-[String](../../../../ava/lang/String.md) | getURLEncodedToken
-**long** | getUntilStart
-**int** | getVersion
-**boolean** | isLogged
-**boolean** | isQualified
+
+####Methods
+
+###* **public static** get(HttpRequestExecutor, Round)
+
+###* **public** getAdmin()
+
+###* **public** getCS()
+
+###* **public** getEmail()
+
+###* **public** getInput()
+
+###* **public** getLeft()
+
+###* **public** getLoginHTML()
+
+###* **public** getLogoutHTML()
+
+###* **public** getName()
+
+###* **public** getSeen()
+
+###* **public** getSnippet()
+
+###* **public** getStart()
+
+###* **public** getToken()
+
+###* **public** getURLEncodedToken()
+
+###* **public** getUntilStart()
+
+###* **public** getVersion()
+
+###* **public** isLogged()
+
+###* **public** isQualified()
+
 
 
 ##Constructors

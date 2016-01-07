@@ -13,14 +13,19 @@ TODO Javadoc
 
 | Constructor |
 |  ---  |
-| **public**SeleniumCookieSupplier(String, Supplier) |
+###* **public** SeleniumCookieSupplier(String, Supplier)
 
-Type | Method
- --- | --- 
-**void** | cancel
-**void** | checkCurrentState
-[String](../../../../ava/lang/String.md) | get
-**boolean** | isRunning
+
+####Methods
+
+###* **public** cancel()
+
+###* **public** checkCurrentState(WebDriver)
+
+###* **public** get()
+
+###* **public** isRunning()
+
 
 
 ##Constructors

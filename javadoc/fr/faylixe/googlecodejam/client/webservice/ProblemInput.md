@@ -12,17 +12,25 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
-| **public**ProblemInput() |
+###* **public** ProblemInput()
 
-Type | Method
- --- | --- 
-**boolean** | equals
-**int** | getDifficulty
-**int** | getNumber
-**int** | getPoints
-[Problem](Problem.md) | getProblem
-[String](../../../../ava/lang/String.md) | getSuffix
-**int** | hashCode
+
+####Methods
+
+###* **public** equals(Object)
+
+###* **public** getDifficulty()
+
+###* **public** getNumber()
+
+###* **public** getPoints()
+
+###* **public** getProblem()
+
+###* **public** getSuffix()
+
+###* **public** hashCode()
+
 
 Type | Name | Description
  --- | --- | --- 

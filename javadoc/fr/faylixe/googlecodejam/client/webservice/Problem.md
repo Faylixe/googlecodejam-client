@@ -12,22 +12,35 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
-| **public**Problem() |
+###* **public** Problem()
 
-Type | Method
- --- | --- 
-**boolean** | equals
-[String](../../../../ava/lang/String.md) | getBody
-[String](../../../../ava/lang/String.md) | getId
-[String](../../../../ava/lang/String.md) | getKey
-[String](../../../../ava/lang/String.md) | getNormalizedName
-[ContestInfo](ContestInfo.md) | getParent
-[ProblemInput](ProblemInput.md) | getProblemInput
-[ProblemInput](ProblemInput.md) | getProblemInput
-[List](../../../../ava/util/List.md) | getProblemInputs
-[String](../../../../ava/lang/String.md) | getType
-**int** | hashCode
-**void** | validateObject
+
+####Methods
+
+###* **public** equals(Object)
+
+###* **public** getBody()
+
+###* **public** getId()
+
+###* **public** getKey()
+
+###* **public** getNormalizedName()
+
+###* **public** getParent()
+
+###* **public** getProblemInput(int)
+
+###* **public** getProblemInput(String)
+
+###* **public** getProblemInputs()
+
+###* **public** getType()
+
+###* **public** hashCode()
+
+###* **public** validateObject()
+
 
 
 ##Constructors

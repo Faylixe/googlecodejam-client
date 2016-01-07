@@ -9,12 +9,15 @@ Test case for {@link NamedObject} class.
 
 | Constructor |
 |  ---  |
-| **public**NamedObjectTest() |
+###* **public** NamedObjectTest()
 
-Type | Method
- --- | --- 
-**void** | testDefault
-**void** | testSerialized
+
+####Methods
+
+###* **public** testDefault()
+
+###* **public** testSerialized()
+
 
 
 ##Constructors

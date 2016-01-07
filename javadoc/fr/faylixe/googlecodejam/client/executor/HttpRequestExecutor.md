@@ -9,16 +9,24 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ##Summary
 
-Type | Method
- --- | --- 
-[Part](../../../../om/google/api/client/http/Part.md) | buildDataPart
-[Part](../../../../om/google/api/client/http/Part.md) | buildFilePart
-[HttpRequestExecutor](HttpRequestExecutor.md) | create
-[HttpRequestExecutor](HttpRequestExecutor.md) | create
-[String](../../../../ava/lang/String.md) | get
-[String](../../../../ava/lang/String.md) | getHostname
-[HttpRequest](../../../../om/google/api/client/http/HttpRequest.md) | getRequest
-[String](../../../../ava/lang/String.md) | post
+####Methods
+
+###* **public static** buildDataPart(String, String)
+
+###* **public static** buildFilePart(String, File)
+
+###* **public static** create(String, String)
+
+###* **public static** create(String)
+
+###* **public** get(String)
+
+###* **public** getHostname()
+
+###* **public** getRequest(String)
+
+###* **public** post(String, HttpContent)
+
 
 
 ##Methods

@@ -14,19 +14,30 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Summary
 
-Type | Method
- --- | --- 
-[String](../../../ava/lang/String.md) | buildFilename
-[CodeJamSession](CodeJamSession.md) | createSession
-[InputStream](../../../ava/io/InputStream.md) | download
-[String](../../../ava/lang/String.md) | getContestAnalysis
-[ContestInfo](webservice/ContestInfo.md) | getContestInfo
-[Problem](webservice/Problem.md) | getProblem
-**boolean** | isActive
-**boolean** | isLogged
-**boolean** | isQualified
-[CodeJamSession](CodeJamSession.md) | refresh
-[SubmitResponse](webservice/SubmitResponse.md) | submit
+####Methods
+
+###* **public** buildFilename(ProblemInput)
+
+###* **public static** createSession(HttpRequestExecutor, Round)
+
+###* **public** download(ProblemInput)
+
+###* **public** getContestAnalysis(Problem)
+
+###* **public** getContestInfo()
+
+###* **public** getProblem(String)
+
+###* **public** isActive()
+
+###* **public** isLogged()
+
+###* **public** isQualified()
+
+###* **public** refresh()
+
+###* **public** submit(ProblemInput, File, File)
+
 
 
 ##Methods

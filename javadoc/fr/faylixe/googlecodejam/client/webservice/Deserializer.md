@@ -7,9 +7,10 @@ Custom deserializer that normalizes problem body content.
 
 ##Summary
 
-Type | Method
- --- | --- 
-[Problem](Problem.md) | deserialize
+####Methods
+
+###* **public** deserialize(JsonElement, Type, JsonDeserializationContext)
+
 
 
 ##Methods
