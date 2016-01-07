@@ -9,13 +9,13 @@ Test case for the {@link HttpRequestExecutor} class.
 
 ####Constructors
 
-* **public** [HttpRequestExecutorMock](httprequestexecutormock)
+* **public** [HttpRequestExecutorMock](#httprequestexecutormock)
 
 ####Methods
 
 Type and modifiers | Method signature
  --- | --- 
-**public static** [HttpRequestExecutor](executor/HttpRequestExecutor.md) | [getTestExecutor](gettestexecutor)
+**public static** [HttpRequestExecutor](executor/HttpRequestExecutor.md) | [getTestExecutor](#gettestexecutor)
 
 
 ##Constructors

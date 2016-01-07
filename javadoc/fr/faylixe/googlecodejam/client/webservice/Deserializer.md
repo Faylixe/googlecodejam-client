@@ -11,7 +11,7 @@ Custom deserializer that normalizes problem body content.
 
 Type and modifiers | Method signature
  --- | --- 
-**public** [Problem](Problem.md) | [deserialize](deserializejsonelement-type-jsondeserializationcontext)
+**public** [Problem](Problem.md) | [deserialize](#deserializejsonelement-type-jsondeserializationcontext)
 
 
 ##Methods

@@ -9,14 +9,14 @@ Test case for {@link NamedObject} class.
 
 ####Constructors
 
-* **public** [NamedObjectTest](namedobjecttest)
+* **public** [NamedObjectTest](#namedobjecttest)
 
 ####Methods
 
 Type and modifiers | Method signature
  --- | --- 
-**public** **void** | [testDefault](testdefault)
-**public** **void** | [testSerialized](testserialized)
+**public** **void** | [testDefault](#testdefault)
+**public** **void** | [testSerialized](#testserialized)
 
 
 ##Constructors

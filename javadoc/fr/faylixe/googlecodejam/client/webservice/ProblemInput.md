@@ -12,19 +12,19 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####Constructors
 
-* **public** [ProblemInput](probleminput)
+* **public** [ProblemInput](#probleminput)
 
 ####Methods
 
 Type and modifiers | Method signature
  --- | --- 
-**public** **boolean** | [equals](equalsobject)
-**public** **int** | [getDifficulty](getdifficulty)
-**public** **int** | [getNumber](getnumber)
-**public** **int** | [getPoints](getpoints)
-**public** [Problem](Problem.md) | [getProblem](getproblem)
-**public** [String](../../../../ava/lang/String.md) | [getSuffix](getsuffix)
-**public** **int** | [hashCode](hashcode)
+**public** **boolean** | [equals](#equalsobject)
+**public** **int** | [getDifficulty](#getdifficulty)
+**public** **int** | [getNumber](#getnumber)
+**public** **int** | [getPoints](#getpoints)
+**public** [Problem](Problem.md) | [getProblem](#getproblem)
+**public** [String](../../../../ava/lang/String.md) | [getSuffix](#getsuffix)
+**public** **int** | [hashCode](#hashcode)
 
 Type | Name | Description
  --- | --- | --- 

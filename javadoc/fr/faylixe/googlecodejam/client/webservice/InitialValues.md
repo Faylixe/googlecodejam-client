@@ -12,30 +12,30 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####Constructors
 
-* **public** [InitialValues](initialvalues)
+* **public** [InitialValues](#initialvalues)
 
 ####Methods
 
 Type and modifiers | Method signature
  --- | --- 
-**public static** [InitialValues](InitialValues.md) | [get](gethttprequestexecutor-round)
-**public** [String](../../../../ava/lang/String.md) | [getAdmin](getadmin)
-**public** **int** | [getCS](getcs)
-**public** [String](../../../../ava/lang/String.md) | [getEmail](getemail)
-**public** [String](../../../../ava/lang/String.md) | [getInput](getinput)
-**public** **long** | [getLeft](getleft)
-**public** [String](../../../../ava/lang/String.md) | [getLoginHTML](getloginhtml)
-**public** [String](../../../../ava/lang/String.md) | [getLogoutHTML](getlogouthtml)
-**public** [String](../../../../ava/lang/String.md) | [getName](getname)
-**public** **int** | [getSeen](getseen)
-**public** [String](../../../../ava/lang/String.md) | [getSnippet](getsnippet)
-**public** **long** | [getStart](getstart)
-**public** [String](../../../../ava/lang/String.md) | [getToken](gettoken)
-**public** [String](../../../../ava/lang/String.md) | [getURLEncodedToken](geturlencodedtoken)
-**public** **long** | [getUntilStart](getuntilstart)
-**public** **int** | [getVersion](getversion)
-**public** **boolean** | [isLogged](islogged)
-**public** **boolean** | [isQualified](isqualified)
+**public static** [InitialValues](InitialValues.md) | [get](#gethttprequestexecutor-round)
+**public** [String](../../../../ava/lang/String.md) | [getAdmin](#getadmin)
+**public** **int** | [getCS](#getcs)
+**public** [String](../../../../ava/lang/String.md) | [getEmail](#getemail)
+**public** [String](../../../../ava/lang/String.md) | [getInput](#getinput)
+**public** **long** | [getLeft](#getleft)
+**public** [String](../../../../ava/lang/String.md) | [getLoginHTML](#getloginhtml)
+**public** [String](../../../../ava/lang/String.md) | [getLogoutHTML](#getlogouthtml)
+**public** [String](../../../../ava/lang/String.md) | [getName](#getname)
+**public** **int** | [getSeen](#getseen)
+**public** [String](../../../../ava/lang/String.md) | [getSnippet](#getsnippet)
+**public** **long** | [getStart](#getstart)
+**public** [String](../../../../ava/lang/String.md) | [getToken](#gettoken)
+**public** [String](../../../../ava/lang/String.md) | [getURLEncodedToken](#geturlencodedtoken)
+**public** **long** | [getUntilStart](#getuntilstart)
+**public** **int** | [getVersion](#getversion)
+**public** **boolean** | [isLogged](#islogged)
+**public** **boolean** | [isQualified](#isqualified)
 
 
 ##Constructors

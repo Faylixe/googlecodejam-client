@@ -11,7 +11,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 Type and modifiers | Method signature
  --- | --- 
-**public static** **void** | [main](mainjava.lang.string[])
+**public static** **void** | [main](#mainjava.lang.string[])
 
 
 ##Methods
