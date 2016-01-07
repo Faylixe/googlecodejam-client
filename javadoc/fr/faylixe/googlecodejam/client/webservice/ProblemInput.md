@@ -16,11 +16,13 @@ ProblemInput | ()
 
 Type | Method
  --- | --- 
+**boolean** | equals
 **int** | getDifficulty
 **int** | getNumber
 **int** | getPoints
 [Problem](Problem.md) | getProblem
 [String](../../../../java/lang/String.md) | getSuffix
+**int** | hashCode
 
 Type | Name | Description
  --- | --- | --- 

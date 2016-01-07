@@ -11,8 +11,10 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Type | Method
  --- | --- 
+**boolean** | equals
 [List](../../../java/util/List.md) | get
 [List](../../../java/util/List.md) | getRounds
+**int** | hashCode
 
 Type | Name | Description
  --- | --- | --- 

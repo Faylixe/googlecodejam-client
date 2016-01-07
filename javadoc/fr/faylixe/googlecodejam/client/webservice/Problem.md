@@ -16,6 +16,7 @@ Problem | ()
 
 Type | Method
  --- | --- 
+**boolean** | equals
 [String](../../../../java/lang/String.md) | getBody
 [String](../../../../java/lang/String.md) | getId
 [String](../../../../java/lang/String.md) | getKey
@@ -25,6 +26,7 @@ Type | Method
 [ProblemInput](ProblemInput.md) | getProblemInput
 [List](../../../../java/util/List.md) | getProblemInputs
 [String](../../../../java/lang/String.md) | getType
+**int** | hashCode
 **void** | validateObject
 
 

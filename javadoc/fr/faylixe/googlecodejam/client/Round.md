@@ -11,9 +11,11 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Type | Method
  --- | --- 
+**boolean** | equals
 [List](../../../java/util/List.md) | get
 [String](../../../java/lang/String.md) | getContestName
 [String](../../../java/lang/String.md) | getURL
+**int** | hashCode
 
 Type | Name | Description
  --- | --- | --- 

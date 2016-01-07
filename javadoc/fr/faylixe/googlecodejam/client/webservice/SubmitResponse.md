@@ -15,9 +15,11 @@ SubmitResponse | ()
 
 Type | Method
  --- | --- 
+**boolean** | equals
 **int** | getInputId
 [String](../../../../java/lang/String.md) | getMessage
 **int** | getProblemId
+**int** | hashCode
 **boolean** | isSuccess
 
 
