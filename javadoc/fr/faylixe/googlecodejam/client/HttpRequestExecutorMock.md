@@ -9,13 +9,11 @@ Test case for the {@link HttpRequestExecutor} class.
 
 | Constructor |
 |  ---  |
-###* **public** HttpRequestExecutorMock()
-
+* **public** HttpRequestExecutorMock()
 
 ####Methods
 
-###* **public static** getTestExecutor()
-
+* **public static** getTestExecutor()
 
 
 ##Constructors

@@ -9,8 +9,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 | Constructor |
 |  ---  |
-###* **public** AllTests()
-
+* **public** AllTests()
 
 
 ##Constructors

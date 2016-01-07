@@ -12,47 +12,28 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
-###* **public** InitialValues()
-
+* **public** InitialValues()
 
 ####Methods
 
-###* **public static** get(HttpRequestExecutor, Round)
-
-###* **public** getAdmin()
-
-###* **public** getCS()
-
-###* **public** getEmail()
-
-###* **public** getInput()
-
-###* **public** getLeft()
-
-###* **public** getLoginHTML()
-
-###* **public** getLogoutHTML()
-
-###* **public** getName()
-
-###* **public** getSeen()
-
-###* **public** getSnippet()
-
-###* **public** getStart()
-
-###* **public** getToken()
-
-###* **public** getURLEncodedToken()
-
-###* **public** getUntilStart()
-
-###* **public** getVersion()
-
-###* **public** isLogged()
-
-###* **public** isQualified()
-
+* **public static** get(HttpRequestExecutor, Round)
+* **public** getAdmin()
+* **public** getCS()
+* **public** getEmail()
+* **public** getInput()
+* **public** getLeft()
+* **public** getLoginHTML()
+* **public** getLogoutHTML()
+* **public** getName()
+* **public** getSeen()
+* **public** getSnippet()
+* **public** getStart()
+* **public** getToken()
+* **public** getURLEncodedToken()
+* **public** getUntilStart()
+* **public** getVersion()
+* **public** isLogged()
+* **public** isQualified()
 
 
 ##Constructors

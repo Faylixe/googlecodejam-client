@@ -9,8 +9,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ####Methods
 
-###* **public static** main(String[])
-
+* **public static** main(String[])
 
 
 ##Methods

@@ -11,14 +11,10 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ####Methods
 
-###* **public** equals(Object)
-
-###* **public static** get(HttpRequestExecutor)
-
-###* **public** getRounds()
-
-###* **public** hashCode()
-
+* **public** equals(Object)
+* **public static** get(HttpRequestExecutor)
+* **public** getRounds()
+* **public** hashCode()
 
 Type | Name | Description
  --- | --- | --- 

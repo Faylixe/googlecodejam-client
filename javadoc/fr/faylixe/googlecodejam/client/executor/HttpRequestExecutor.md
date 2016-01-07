@@ -11,22 +11,14 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ####Methods
 
-###* **public static** buildDataPart(String, String)
-
-###* **public static** buildFilePart(String, File)
-
-###* **public static** create(String, String)
-
-###* **public static** create(String)
-
-###* **public** get(String)
-
-###* **public** getHostname()
-
-###* **public** getRequest(String)
-
-###* **public** post(String, HttpContent)
-
+* **public static** buildDataPart(String, String)
+* **public static** buildFilePart(String, File)
+* **public static** create(String, String)
+* **public static** create(String)
+* **public** get(String)
+* **public** getHostname()
+* **public** getRequest(String)
+* **public** post(String, HttpContent)
 
 
 ##Methods

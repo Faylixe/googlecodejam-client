@@ -9,21 +9,15 @@ Test case for {@link CodeJamSession} class.
 
 | Constructor |
 |  ---  |
-###* **public** CodeJamSessionTest()
-
+* **public** CodeJamSessionTest()
 
 ####Methods
 
-###* **public static** getTestSession()
-
-###* **public** testContestAnalysis()
-
-###* **public** testDownload()
-
-###* **public** testSessionConsistency()
-
-###* **public** testSubmission()
-
+* **public static** getTestSession()
+* **public** testContestAnalysis()
+* **public** testDownload()
+* **public** testSessionConsistency()
+* **public** testSubmission()
 
 
 ##Constructors

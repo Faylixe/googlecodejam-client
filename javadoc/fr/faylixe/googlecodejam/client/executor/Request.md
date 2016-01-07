@@ -11,8 +11,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ####Methods
 
-###* **public static final** createBoundary()
-
+* **public static final** createBoundary()
 
 Type | Name | Description
  --- | --- | --- 

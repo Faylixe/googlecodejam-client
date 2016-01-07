@@ -10,8 +10,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ####Methods
 
-###* **public static** createOptions()
-
+* **public static** createOptions()
 
 Type | Name | Description
  --- | --- | --- 

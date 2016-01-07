@@ -12,25 +12,17 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
-###* **public** ProblemInput()
-
+* **public** ProblemInput()
 
 ####Methods
 
-###* **public** equals(Object)
-
-###* **public** getDifficulty()
-
-###* **public** getNumber()
-
-###* **public** getPoints()
-
-###* **public** getProblem()
-
-###* **public** getSuffix()
-
-###* **public** hashCode()
-
+* **public** equals(Object)
+* **public** getDifficulty()
+* **public** getNumber()
+* **public** getPoints()
+* **public** getProblem()
+* **public** getSuffix()
+* **public** hashCode()
 
 Type | Name | Description
  --- | --- | --- 

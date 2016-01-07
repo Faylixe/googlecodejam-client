@@ -16,28 +16,17 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ####Methods
 
-###* **public** buildFilename(ProblemInput)
-
-###* **public static** createSession(HttpRequestExecutor, Round)
-
-###* **public** download(ProblemInput)
-
-###* **public** getContestAnalysis(Problem)
-
-###* **public** getContestInfo()
-
-###* **public** getProblem(String)
-
-###* **public** isActive()
-
-###* **public** isLogged()
-
-###* **public** isQualified()
-
-###* **public** refresh()
-
-###* **public** submit(ProblemInput, File, File)
-
+* **public** buildFilename(ProblemInput)
+* **public static** createSession(HttpRequestExecutor, Round)
+* **public** download(ProblemInput)
+* **public** getContestAnalysis(Problem)
+* **public** getContestInfo()
+* **public** getProblem(String)
+* **public** isActive()
+* **public** isLogged()
+* **public** isQualified()
+* **public** refresh()
+* **public** submit(ProblemInput, File, File)
 
 
 ##Methods

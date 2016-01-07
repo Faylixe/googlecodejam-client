@@ -10,23 +10,16 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
-###* **public** ContestInfo()
-
+* **public** ContestInfo()
 
 ####Methods
 
-###* **public static** get(HttpRequestExecutor, Round)
-
-###* **public** getProblem(int)
-
-###* **public** getProblems()
-
-###* **public** getVersion()
-
-###* **public** hasAnalysis()
-
-###* **public** validateObject()
-
+* **public static** get(HttpRequestExecutor, Round)
+* **public** getProblem(int)
+* **public** getProblems()
+* **public** getVersion()
+* **public** hasAnalysis()
+* **public** validateObject()
 
 
 ##Constructors

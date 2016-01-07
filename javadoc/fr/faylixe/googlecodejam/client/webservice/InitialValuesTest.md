@@ -9,15 +9,12 @@ Test case for {@link InitialValues} class.
 
 | Constructor |
 |  ---  |
-###* **public** InitialValuesTest()
-
+* **public** InitialValuesTest()
 
 ####Methods
 
-###* **public static** getTestInitialValues()
-
-###* **public** testInitialValuesConsistency()
-
+* **public static** getTestInitialValues()
+* **public** testInitialValuesConsistency()
 
 
 ##Constructors

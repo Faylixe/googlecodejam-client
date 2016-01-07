@@ -9,17 +9,13 @@ Test case for {@link ContestInfo} class.
 
 | Constructor |
 |  ---  |
-###* **public** ContestInfoTest()
-
+* **public** ContestInfoTest()
 
 ####Methods
 
-###* **public static** getTestContestInfo()
-
-###* **public static** testContestInfoConsistency(ContestInfo)
-
-###* **public** testContestInfoConsistency()
-
+* **public static** getTestContestInfo()
+* **public static** testContestInfoConsistency(ContestInfo)
+* **public** testContestInfoConsistency()
 
 
 ##Constructors

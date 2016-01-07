@@ -9,15 +9,12 @@ Test case for the {@link Round} class.
 
 | Constructor |
 |  ---  |
-###* **public** RoundTest()
-
+* **public** RoundTest()
 
 ####Methods
 
-###* **public static** getTestRound()
-
-###* **public** testRoundConsistency()
-
+* **public static** getTestRound()
+* **public** testRoundConsistency()
 
 
 ##Constructors

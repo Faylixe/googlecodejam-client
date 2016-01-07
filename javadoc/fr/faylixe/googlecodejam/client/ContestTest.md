@@ -9,12 +9,12 @@ Test case for {@link Contest} class.
 
 | Constructor |
 |  ---  |
-| **public**ContestTest() |
+* **public** ContestTest()
 
-Type | Method
- --- | --- 
-[Contest](Contest.md) | getTestContests
-**void** | testContestConsistency
+####Methods
+
+* **public static** getTestContests()
+* **public** testContestConsistency()
 
 
 ##Constructors

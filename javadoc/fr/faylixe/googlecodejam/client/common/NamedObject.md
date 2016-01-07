@@ -10,8 +10,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ####Methods
 
-###* **public final** getName()
-
+* **public final** getName()
 
 
 ##Methods
