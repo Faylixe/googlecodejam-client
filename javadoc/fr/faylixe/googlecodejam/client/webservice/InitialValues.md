@@ -12,6 +12,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
+
 Type | Method
  --- | --- 
 [InitialValues](InitialValues.md) | get
@@ -32,6 +33,7 @@ Type | Method
 **int** | getVersion
 **boolean** | isLogged
 **boolean** | isQualified
+
 
 ##Constructors
 

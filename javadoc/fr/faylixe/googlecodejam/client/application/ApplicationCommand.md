@@ -11,11 +11,13 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 | Constructor |
 |  ---  |
+
 Type | Method
  --- | --- 
 **boolean** | download
 **boolean** | init
 **boolean** | submit
+
 
 ##Constructors
 

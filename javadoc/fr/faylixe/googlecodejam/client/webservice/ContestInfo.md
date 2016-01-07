@@ -10,6 +10,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
+
 Type | Method
  --- | --- 
 [ContestInfo](ContestInfo.md) | get
@@ -18,6 +19,7 @@ Type | Method
 **int** | getVersion
 **boolean** | hasAnalysis
 **void** | validateObject
+
 
 ##Constructors
 

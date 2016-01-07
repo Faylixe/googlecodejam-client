@@ -13,12 +13,14 @@ TODO Javadoc
 
 | Constructor |
 |  ---  |
+
 Type | Method
  --- | --- 
 **void** | cancel
 **void** | checkCurrentState
 [String](../../../../java/lang/String.md) | get
 **boolean** | isRunning
+
 
 ##Constructors
 

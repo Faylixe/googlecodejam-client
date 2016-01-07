@@ -9,10 +9,12 @@ Test case for {@link NamedObject} class.
 
 | Constructor |
 |  ---  |
+
 Type | Method
  --- | --- 
 **void** | testDefault
 **void** | testSerialized
+
 
 ##Constructors
 

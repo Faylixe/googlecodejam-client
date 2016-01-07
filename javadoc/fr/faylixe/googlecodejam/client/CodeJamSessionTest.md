@@ -9,6 +9,7 @@ Test case for {@link CodeJamSession} class.
 
 | Constructor |
 |  ---  |
+
 Type | Method
  --- | --- 
 [CodeJamSession](CodeJamSession.md) | getTestSession
@@ -16,6 +17,7 @@ Type | Method
 **void** | testDownload
 **void** | testSessionConsistency
 **void** | testSubmission
+
 
 ##Constructors
 

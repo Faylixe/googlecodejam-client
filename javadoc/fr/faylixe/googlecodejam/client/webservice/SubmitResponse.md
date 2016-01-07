@@ -11,12 +11,14 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
+
 Type | Method
  --- | --- 
 **int** | getInputId
 [String](../../../../java/lang/String.md) | getMessage
 **int** | getProblemId
 **boolean** | isSuccess
+
 
 ##Constructors
 

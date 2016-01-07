@@ -12,6 +12,7 @@ Type | Method
  --- | --- 
 [String](../../../../java/lang/String.md) | getName
 
+
 ##Methods
 
 ###getName()

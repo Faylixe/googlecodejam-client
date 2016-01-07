@@ -12,8 +12,10 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 Type | Method
  --- | --- 
 [String](../../../../java/lang/String.md) | createBoundary
+
 Type | Name | Description
  --- | --- | --- 
+
 
 ##Fields
 

@@ -9,11 +9,13 @@ Test case for {@link ContestInfo} class.
 
 | Constructor |
 |  ---  |
+
 Type | Method
  --- | --- 
 [ContestInfo](ContestInfo.md) | getTestContestInfo
 **void** | testContestInfoConsistency
 **void** | testContestInfoConsistency
+
 
 ##Constructors
 

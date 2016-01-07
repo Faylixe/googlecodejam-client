@@ -9,9 +9,11 @@ Test case for the {@link ProblemInput} class.
 
 | Constructor |
 |  ---  |
+
 Type | Method
  --- | --- 
 **void** | testProblemInputConsistency
+
 
 ##Constructors
 

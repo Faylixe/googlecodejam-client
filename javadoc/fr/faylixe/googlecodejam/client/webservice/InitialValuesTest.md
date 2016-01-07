@@ -9,10 +9,12 @@ Test case for {@link InitialValues} class.
 
 | Constructor |
 |  ---  |
+
 Type | Method
  --- | --- 
 [InitialValues](InitialValues.md) | getTestInitialValues
 **void** | testInitialValuesConsistency
+
 
 ##Constructors
 

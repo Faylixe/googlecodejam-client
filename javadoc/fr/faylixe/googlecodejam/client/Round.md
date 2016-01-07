@@ -14,8 +14,10 @@ Type | Method
 [List](../../../java/util/List.md) | get
 [String](../../../java/lang/String.md) | getContestName
 [String](../../../java/lang/String.md) | getURL
+
 Type | Name | Description
  --- | --- | --- 
+
 
 ##Fields
 

@@ -10,6 +10,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 Type | Name | Description
  --- | --- | --- 
 
+
 ##Fields
 
 ---

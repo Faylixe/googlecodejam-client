@@ -28,6 +28,7 @@ Type | Method
 [CodeJamSession](CodeJamSession.md) | refresh
 [SubmitResponse](/webservice/SubmitResponse.md) | submit
 
+
 ##Methods
 
 ###buildFilename(ProblemInput)

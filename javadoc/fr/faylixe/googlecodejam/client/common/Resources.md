@@ -14,6 +14,7 @@ Type | Method
 [InputStream](../../../../java/io/InputStream.md) | getResourceStream
 [String](../../../../java/lang/String.md) | normalize
 
+
 ##Methods
 
 ###getHTMLTemplate()

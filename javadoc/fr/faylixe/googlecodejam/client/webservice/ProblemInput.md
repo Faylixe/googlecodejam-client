@@ -12,6 +12,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
+
 Type | Method
  --- | --- 
 **int** | getDifficulty
@@ -19,8 +20,10 @@ Type | Method
 **int** | getPoints
 [Problem](Problem.md) | getProblem
 [String](../../../../java/lang/String.md) | getSuffix
+
 Type | Name | Description
  --- | --- | --- 
+
 
 ##Constructors
 

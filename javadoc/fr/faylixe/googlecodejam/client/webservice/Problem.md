@@ -12,6 +12,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
+
 Type | Method
  --- | --- 
 [String](../../../../java/lang/String.md) | getBody
@@ -24,6 +25,7 @@ Type | Method
 [List](../../../../java/util/List.md) | getProblemInputs
 [String](../../../../java/lang/String.md) | getType
 **void** | validateObject
+
 
 ##Constructors
 
