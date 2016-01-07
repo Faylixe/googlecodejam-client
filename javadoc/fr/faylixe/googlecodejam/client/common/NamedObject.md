@@ -8,14 +8,13 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ##Summary
 
-
-| Type | Method |
-| --- | --- | --- |
-| [String](../../../../java/lang/String.md) | getName |
+Type | Method
+ --- | --- 
+[String](../../../../java/lang/String.md) | getName
 
 ##Methods
 
-###getName
+###()
 
 
 Getter for the name of this object.
@@ -24,6 +23,6 @@ Getter for the name of this object.
 
 * Name of this object.
 
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

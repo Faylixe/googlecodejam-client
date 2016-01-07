@@ -9,16 +9,25 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Summary
 
+Constructor
+ --- 
+Type | Method
+ --- | --- 
+**boolean** | download
+**boolean** | init
+**boolean** | submit
 
-| Type | Method |
-| --- | --- | --- |
-| **boolean** | download |
-| **boolean** | init |
-| **boolean** | submit |
+##Constructors
+
+###()
+
+
+
+---
 
 ##Methods
 
-###download
+###(CommandLine)
 
 
 Downloads an input file, from the given user <tt>command</tt>.
@@ -35,8 +44,8 @@ Downloads an input file, from the given user <tt>command</tt>.
 
 * <tt>true</tt> if the command was executed successfully, <tt>false</tt> otherwise.
 
---
-###init
+---
+###()
 
 
 Methods that is bound to the INIT command. Starts
@@ -47,8 +56,8 @@ Methods that is bound to the INIT command. Starts
 
 * <tt>true</tt> if the init command was correctly executed, <tt>false</tt> otherwise.
 
---
-###submit
+---
+###(CommandLine)
 
 
 Performs an output file submission using the <tt>SubmitAnswer</tt>
@@ -64,6 +73,6 @@ Performs an output file submission using the <tt>SubmitAnswer</tt>
 
 * <tt>true</tt> if the command was executed successfully, <tt>false</tt> otherwise.
 
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

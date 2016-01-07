@@ -7,19 +7,28 @@ Test case for the {@link ProblemInput} class.
 
 ##Summary
 
+Constructor
+ --- 
+Type | Method
+ --- | --- 
+**void** | testProblemInputConsistency
 
-| Type | Method |
-| --- | --- | --- |
-| **void** | testProblemInputConsistency |
+##Constructors
+
+###()
+
+
+
+---
 
 ##Methods
 
-###testProblemInputConsistency
+###()
 
 
 Ensures retrieved {@link ProblemInput}
  is consistent. Using the first input from
  the test {@link Problem}.
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -7,14 +7,23 @@ Test case for the {@link HttpRequestExecutor} class.
 
 ##Summary
 
+Constructor
+ --- 
+Type | Method
+ --- | --- 
+[HttpRequestExecutor](/executor/HttpRequestExecutor.md) | getTestExecutor
 
-| Type | Method |
-| --- | --- | --- |
-| [HttpRequestExecutor](/executor/HttpRequestExecutor.md) | getTestExecutor |
+##Constructors
+
+###()
+
+
+
+---
 
 ##Methods
 
-###getTestExecutor
+###()
 
 
 Creates and returns a valid {@link HttpRequestExecutor}
@@ -25,6 +34,6 @@ Creates and returns a valid {@link HttpRequestExecutor}
 
 * Created instance.
 
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

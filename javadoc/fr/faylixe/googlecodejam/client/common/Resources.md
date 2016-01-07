@@ -7,17 +7,16 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ##Summary
 
-
-| Type | Method |
-| --- | --- | --- |
-| [String](../../../../java/lang/String.md) | getHTMLTemplate |
-| [String](../../../../java/lang/String.md) | getResource |
-| [InputStream](../../../../java/io/InputStream.md) | getResourceStream |
-| [String](../../../../java/lang/String.md) | normalize |
+Type | Method
+ --- | --- 
+[String](../../../../java/lang/String.md) | getHTMLTemplate
+[String](../../../../java/lang/String.md) | getResource
+[InputStream](../../../../java/io/InputStream.md) | getResourceStream
+[String](../../../../java/lang/String.md) | normalize
 
 ##Methods
 
-###getHTMLTemplate
+###()
 
 
 Getter for the HTML template content.
@@ -30,8 +29,8 @@ Getter for the HTML template content.
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while reading template content.
 
---
-###getResource
+---
+###(String)
 
 
 Reads and returns resources content denoted by the
@@ -46,8 +45,8 @@ Reads and returns resources content denoted by the
 
 * Resource content as {@link String}.
 
---
-###getResourceStream
+---
+###(String)
 
 
 Reads and returns resources content denoted by the
@@ -62,8 +61,8 @@ Reads and returns resources content denoted by the
 
 * Resource content as {@link InputStream}.
 
---
-###normalize
+---
+###(String)
 
 
 Normalizes the given <tt>name</tt> by removing
@@ -78,6 +77,6 @@ Normalizes the given <tt>name</tt> by removing
 
 * Normalized name.
 
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

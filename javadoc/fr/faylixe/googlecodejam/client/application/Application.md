@@ -7,14 +7,13 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Summary
 
-
-| Type | Method |
-| --- | --- | --- |
-| **void** | main |
+Type | Method
+ --- | --- 
+**void** | main
 
 ##Methods
 
-###main
+###(String[])
 
 
 Command line application entry point.
@@ -23,6 +22,6 @@ Command line application entry point.
 
 * args Command line parameters provided.
 
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

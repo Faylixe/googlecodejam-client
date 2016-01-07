@@ -7,15 +7,24 @@ Test case for {@link InitialValues} class.
 
 ##Summary
 
+Constructor
+ --- 
+Type | Method
+ --- | --- 
+[InitialValues](InitialValues.md) | getTestInitialValues
+**void** | testInitialValuesConsistency
 
-| Type | Method |
-| --- | --- | --- |
-| [InitialValues](InitialValues.md) | getTestInitialValues |
-| **void** | testInitialValuesConsistency |
+##Constructors
+
+###()
+
+
+
+---
 
 ##Methods
 
-###getTestInitialValues
+###()
 
 
 Retrieves the {@link InitialValues}
@@ -26,13 +35,13 @@ Retrieves the {@link InitialValues}
 
 * Instance to use for testing.
 
---
-###testInitialValuesConsistency
+---
+###()
 
 
 Ensures retrieved {@link InitialValues} are
  consistent. Using values from {@link Round}
  test instance.
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

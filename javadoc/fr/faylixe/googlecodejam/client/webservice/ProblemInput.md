@@ -10,33 +10,37 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Summary
 
+Constructor
+ --- 
+Type | Method
+ --- | --- 
+**int** | getDifficulty
+**int** | getNumber
+**int** | getPoints
+[Problem](Problem.md) | getProblem
+[String](../../../../java/lang/String.md) | getSuffix
+Type | Name | Description
+ --- | --- | --- 
 
-| Type | Method |
-| --- | --- | --- |
-| **boolean** | equals |
-| **int** | getDifficulty |
-| **int** | getNumber |
-| **int** | getPoints |
-| [Problem](Problem.md) | getProblem |
-| [String](../../../../java/lang/String.md) | getSuffix |
-| **int** | hashCode |
+##Constructors
+
+###()
+
+
+
+---
 
 ##Fields
 
 
-| Type | Field | Description |
-| --- | --- | --- |
-|  | LARGE |
-|  | SMALL |
-
 ##Methods
 
-###equals
+###(Object)
 
 
 {@inheritDoc}
---
-###getDifficulty
+---
+###()
 
 
 Getter for the problem input difficulty.
@@ -45,8 +49,8 @@ Getter for the problem input difficulty.
 
 * Difficulty rank of this problem input.
 
---
-###getNumber
+---
+###()
 
 
 Getter for the problem input number.
@@ -55,8 +59,8 @@ Getter for the problem input number.
 
 * TODO : Figure out what number is for.
 
---
-###getPoints
+---
+###()
 
 
 Getter for the input number of point.
@@ -65,8 +69,8 @@ Getter for the input number of point.
 
 * Number of points this problem input deliver.
 
---
-###getProblem
+---
+###()
 
 
 Getter for the parent problem of this input.
@@ -75,8 +79,8 @@ Getter for the parent problem of this input.
 
 * Parent problem instance of this input.
 
---
-###getSuffix
+---
+###()
 
 
 Getter for the input suffix.
@@ -85,11 +89,11 @@ Getter for the input suffix.
 
 * Suffix used for this problem input.
 
---
-###hashCode
+---
+###()
 
 
 {@inheritDoc}
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

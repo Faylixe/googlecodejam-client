@@ -7,15 +7,24 @@ Test case for the {@link Problem} class.
 
 ##Summary
 
+Constructor
+ --- 
+Type | Method
+ --- | --- 
+[Problem](Problem.md) | getTestProblem
+**void** | testProblemConsistency
 
-| Type | Method |
-| --- | --- | --- |
-| [Problem](Problem.md) | getTestProblem |
-| **void** | testProblemConsistency |
+##Constructors
+
+###()
+
+
+
+---
 
 ##Methods
 
-###getTestProblem
+###()
 
 
 Retrieves the {@link Problem} instance
@@ -26,13 +35,13 @@ Retrieves the {@link Problem} instance
 
 * Problem instance for testing.
 
---
-###testProblemConsistency
+---
+###()
 
 
 Ensures retrieved {@link Problem} is
  consistent. Uses the first {@link Problem}
  from {@link ContestInfo} test instance.
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

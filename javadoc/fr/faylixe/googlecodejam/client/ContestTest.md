@@ -7,15 +7,24 @@ Test case for {@link Contest} class.
 
 ##Summary
 
+Constructor
+ --- 
+Type | Method
+ --- | --- 
+[Contest](Contest.md) | getTestContests
+**void** | testContestConsistency
 
-| Type | Method |
-| --- | --- | --- |
-| [Contest](Contest.md) | getTestContests |
-| **void** | testContestConsistency |
+##Constructors
+
+###()
+
+
+
+---
 
 ##Methods
 
-###getTestContests
+###()
 
 
 Retrieves the contest instance that will
@@ -27,13 +36,13 @@ Retrieves the contest instance that will
 
 * Contest instance for testing.
 
---
-###testContestConsistency
+---
+###()
 
 
 Ensures retrieved contests are consistent.
  In order to do so, it consider that the last extracted
  contest should never change (the older always stays the older).
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

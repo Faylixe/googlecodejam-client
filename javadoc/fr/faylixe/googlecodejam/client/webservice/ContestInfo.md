@@ -8,19 +8,28 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Summary
 
+Constructor
+ --- 
+Type | Method
+ --- | --- 
+[ContestInfo](ContestInfo.md) | get
+[Problem](Problem.md) | getProblem
+[List](../../../../java/util/List.md) | getProblems
+**int** | getVersion
+**boolean** | hasAnalysis
+**void** | validateObject
 
-| Type | Method |
-| --- | --- | --- |
-| [ContestInfo](ContestInfo.md) | get |
-| [Problem](Problem.md) | getProblem |
-| [List](../../../../java/util/List.md) | getProblems |
-| **int** | getVersion |
-| **boolean** | hasAnalysis |
-| **void** | validateObject |
+##Constructors
+
+###()
+
+
+
+---
 
 ##Methods
 
-###get
+###(HttpRequestExecutor, Round)
 
 
 Static factory method that builds a {@link ContestInfo} instance
@@ -41,8 +50,8 @@ Static factory method that builds a {@link ContestInfo} instance
 
 * [IOException](../../../../java/io/IOException.md) IF any error occurs while executing request.
 
---
-###getProblem
+---
+###(int)
 
 
 Shortcut method for reducing law of Demeters issues.
@@ -60,8 +69,8 @@ Shortcut method for reducing law of Demeters issues.
 
 * [ArrayIndexOutOfBoundsException](../../../../java/lang/ArrayIndexOutOfBoundsException.md) If the given index is not valid.
 
---
-###getProblems
+---
+###()
 
 
 Returns {@link Problem} instance associated
@@ -71,8 +80,8 @@ Returns {@link Problem} instance associated
 
 * List of problem this contest exposes.
 
---
-###getVersion
+---
+###()
 
 
 Getter for the problems version.
@@ -81,8 +90,8 @@ Getter for the problems version.
 
 * Integer that defines the problems version.
 
---
-###hasAnalysis
+---
+###()
 
 
 Indicates if this contests already have
@@ -92,11 +101,11 @@ Indicates if this contests already have
 
 * <tt>true</tt> if contest analysis is available, <tt>false</tt> otherwise.
 
---
-###validateObject
+---
+###()
 
 
 {@inheritDoc}
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

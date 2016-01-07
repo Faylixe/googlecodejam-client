@@ -7,11 +7,11 @@
 
 ##Classes
 
-| Name |
-| --- |
-| [ApplicationConstant](ApplicationConstant.md) |
-| [ApplicationCommand](ApplicationCommand.md) |
-| [Application](Application.md) |
+Name
+ --- 
+[ApplicationConstant](ApplicationConstant.md)
+[ApplicationCommand](ApplicationCommand.md)
+[Application](Application.md)
 
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

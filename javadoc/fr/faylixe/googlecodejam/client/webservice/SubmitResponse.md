@@ -9,24 +9,31 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Summary
 
+Constructor
+ --- 
+Type | Method
+ --- | --- 
+**int** | getInputId
+[String](../../../../java/lang/String.md) | getMessage
+**int** | getProblemId
+**boolean** | isSuccess
 
-| Type | Method |
-| --- | --- | --- |
-| **boolean** | equals |
-| **int** | getInputId |
-| [String](../../../../java/lang/String.md) | getMessage |
-| **int** | getProblemId |
-| **int** | hashCode |
-| **boolean** | isSuccess |
+##Constructors
+
+###()
+
+
+
+---
 
 ##Methods
 
-###equals
+###(Object)
 
 
 {@inheritDoc}
---
-###getInputId
+---
+###()
 
 
 Getter for the submission identifier.
@@ -35,8 +42,8 @@ Getter for the submission identifier.
 
 * Target input identifier of this submission.
 
---
-###getMessage
+---
+###()
 
 
 Getter for the information message.
@@ -45,8 +52,8 @@ Getter for the information message.
 
 * Information message about submission.
 
---
-###getProblemId
+---
+###()
 
 
 Getter for the problem identifier.
@@ -55,13 +62,13 @@ Getter for the problem identifier.
 
 * Target problem identifier of this submission.
 
---
-###hashCode
+---
+###()
 
 
 {@inheritDoc}
---
-###isSuccess
+---
+###()
 
 
 Indicates if the submission was successful or not.
@@ -70,6 +77,6 @@ Indicates if the submission was successful or not.
 
 * <tt>true</tt> if this submission was a success, <tt>false</tt> otherwise.
 
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

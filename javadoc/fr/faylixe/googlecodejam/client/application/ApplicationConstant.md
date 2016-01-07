@@ -8,42 +8,18 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Summary
 
-
-| Type | Method |
-| --- | --- | --- |
-| [Options](../../../../org/apache/commons/cli/Options.md) | createOptions |
+Type | Method
+ --- | --- 
+[Options](../../../../org/apache/commons/cli/Options.md) | createOptions
+Type | Name | Description
+ --- | --- | --- 
 
 ##Fields
 
 
-| Type | Field | Description |
-| --- | --- | --- |
-|  | DOWNLOAD |
-|  | DOWNLOAD_DESCRIPTION |
-|  | DOWNLOAD_LONG |
-|  | INIT |
-|  | INIT_DESCRIPTION |
-|  | INIT_LONG |
-|  | INPUT_TYPE |
-|  | INPUT_TYPE_DESCRIPTION |
-|  | INPUT_TYPE_LONG |
-|  | OUTPUT |
-|  | OUTPUT_DESCRIPTION |
-|  | OUTPUT_LONG |
-|  | PROBLEM |
-|  | PROBLEM_DESCRIPTION |
-|  | PROBLEM_LONG |
-|  | SOURCE |
-|  | SOURCE_DESCRIPTION |
-|  | SOURCE_LONG |
-|  | SUBMIT |
-|  | SUBMIT_DESCRIPTION |
-|  | SUBMIT_LONG |
-|  | SYNTAX |
-
 ##Methods
 
-###createOptions
+###()
 
 
 Static factory method that creates the {@link Options} list
@@ -53,6 +29,6 @@ Static factory method that creates the {@link Options} list
 
 * Created options list.
 
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

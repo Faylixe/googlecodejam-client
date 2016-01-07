@@ -14,24 +14,23 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Summary
 
-
-| Type | Method |
-| --- | --- | --- |
-| [String](../../../java/lang/String.md) | buildFilename |
-| [CodeJamSession](CodeJamSession.md) | createSession |
-| [InputStream](../../../java/io/InputStream.md) | download |
-| [String](../../../java/lang/String.md) | getContestAnalysis |
-| [ContestInfo](/webservice/ContestInfo.md) | getContestInfo |
-| [Problem](/webservice/Problem.md) | getProblem |
-| **boolean** | isActive |
-| **boolean** | isLogged |
-| **boolean** | isQualified |
-| [CodeJamSession](CodeJamSession.md) | refresh |
-| [SubmitResponse](/webservice/SubmitResponse.md) | submit |
+Type | Method
+ --- | --- 
+[String](../../../java/lang/String.md) | buildFilename
+[CodeJamSession](CodeJamSession.md) | createSession
+[InputStream](../../../java/io/InputStream.md) | download
+[String](../../../java/lang/String.md) | getContestAnalysis
+[ContestInfo](/webservice/ContestInfo.md) | getContestInfo
+[Problem](/webservice/Problem.md) | getProblem
+**boolean** | isActive
+**boolean** | isLogged
+**boolean** | isQualified
+[CodeJamSession](CodeJamSession.md) | refresh
+[SubmitResponse](/webservice/SubmitResponse.md) | submit
 
 ##Methods
 
-###buildFilename
+###(ProblemInput)
 
 
 <p>Builds and returns a valid file name
@@ -46,8 +45,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * Built file name.
 
---
-###createSession
+---
+###(HttpRequestExecutor, Round)
 
 
 <p>Static factory method that should be used for creating a session.
@@ -68,8 +67,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while retrieving contest info or initial values.
 
---
-###download
+---
+###(ProblemInput)
 
 
 <p>Downloads and returns the stream of the
@@ -89,8 +88,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while downloading the file.
 
---
-###getContestAnalysis
+---
+###(Problem)
 
 
 <p>Returns the analysis for the given
@@ -105,8 +104,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * Analysis if any.
 
---
-###getContestInfo
+---
+###()
 
 
 <p>Performs and returns a <tt>GET /</tt> request
@@ -116,8 +115,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * Request response as a {@link ContestInfo} POJO.
 
---
-###getProblem
+---
+###(String)
 
 
 <p>Retrieves the problem associated
@@ -132,8 +131,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * Corresponding problem if exist, <tt>null</tt> otherwise.
 
---
-###isActive
+---
+###()
 
 
 <p>Indiciates if the contest is currently active,
@@ -144,8 +143,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * <tt>true</tt> if the contest is active, <tt>false</tt> otherwise.
 
---
-###isLogged
+---
+###()
 
 
 <p>Indicates if the current session is logged in or not.</p>
@@ -154,8 +153,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * <tt>true</tt> if user is logged, <tt>false</tt> otherwise.
 
---
-###isQualified
+---
+###()
 
 
 <p>Indicates if the currently logged user is qualified
@@ -165,8 +164,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * <tt>true</tt> if user is qualified, <tt>false</tt> otherwise.
 
---
-###refresh
+---
+###()
 
 
 <p>Reloads session components in order to prevent from any change.</p>
@@ -179,8 +178,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while reloading a new session.
 
---
-###submit
+---
+###(ProblemInput, File, File)
 
 
 <p>Submits the given <tt>output</tt> file and the
@@ -206,6 +205,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * [IOException](../../../java/io/IOException.md) If any error occurs while uploading data, or performing the request.
 
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

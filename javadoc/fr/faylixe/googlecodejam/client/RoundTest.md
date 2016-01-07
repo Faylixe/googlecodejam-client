@@ -7,15 +7,24 @@ Test case for the {@link Round} class.
 
 ##Summary
 
+Constructor
+ --- 
+Type | Method
+ --- | --- 
+[Round](Round.md) | getTestRound
+**void** | testRoundConsistency
 
-| Type | Method |
-| --- | --- | --- |
-| [Round](Round.md) | getTestRound |
-| **void** | testRoundConsistency |
+##Constructors
+
+###()
+
+
+
+---
 
 ##Methods
 
-###getTestRound
+###()
 
 
 Retrieves the round instance that will
@@ -26,12 +35,12 @@ Retrieves the round instance that will
 
 * Round instance for testing.
 
---
-###testRoundConsistency
+---
+###()
 
 
 Ensures retrieved rounds are consistent.
  Uses the target contest test first round.
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

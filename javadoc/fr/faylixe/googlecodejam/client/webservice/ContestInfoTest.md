@@ -7,16 +7,25 @@ Test case for {@link ContestInfo} class.
 
 ##Summary
 
+Constructor
+ --- 
+Type | Method
+ --- | --- 
+[ContestInfo](ContestInfo.md) | getTestContestInfo
+**void** | testContestInfoConsistency
+**void** | testContestInfoConsistency
 
-| Type | Method |
-| --- | --- | --- |
-| [ContestInfo](ContestInfo.md) | getTestContestInfo |
-| **void** | testContestInfoConsistency |
-| **void** | testContestInfoConsistency |
+##Constructors
+
+###()
+
+
+
+---
 
 ##Methods
 
-###getTestContestInfo
+###()
 
 
 Retrieves the {@link ContestInfo} instance
@@ -27,8 +36,8 @@ Retrieves the {@link ContestInfo} instance
 
 * ContestInfo instance for testing.
 
---
-###testContestInfoConsistency
+---
+###(ContestInfo)
 
 
 Ensures the given {@link ContestInfo} is
@@ -38,13 +47,13 @@ Ensures the given {@link ContestInfo} is
 
 * info {@link ContestInfo} instance to ensure consistency from.
 
---
-###testContestInfoConsistency
+---
+###()
 
 
 Ensures retrieved {@link ContestInfo} is
  consistent. Uses {@link ContestInfo} from
  target test {@link Round} instance.
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -9,30 +9,24 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Summary
 
-
-| Type | Method |
-| --- | --- | --- |
-| **boolean** | equals |
-| [List](../../../java/util/List.md) | get |
-| [List](../../../java/util/List.md) | getRounds |
-| **int** | hashCode |
+Type | Method
+ --- | --- 
+[List](../../../java/util/List.md) | get
+[List](../../../java/util/List.md) | getRounds
+Type | Name | Description
+ --- | --- | --- 
 
 ##Fields
 
 
-| Type | Field | Description |
-| --- | --- | --- |
-|  | CONTEST_CLASS_NAME |
-|  | CONTEST_INDEX |
-
 ##Methods
 
-###equals
+###(Object)
 
 
 {@inheritDoc}
---
-###get
+---
+###(HttpRequestExecutor)
 
 
 <p>Retrieves and returns a list of available
@@ -51,8 +45,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * [IOException](../../../java/io/IOException.md) If any error occurs during contest extraction process.
 
---
-###getRounds
+---
+###()
 
 
 <p>Getter that returns a immutable view
@@ -62,11 +56,11 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 * List of the round of this contest.
 
---
-###hashCode
+---
+###()
 
 
 {@inheritDoc}
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

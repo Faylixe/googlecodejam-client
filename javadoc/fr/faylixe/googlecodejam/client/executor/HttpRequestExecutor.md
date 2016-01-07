@@ -9,21 +9,20 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ##Summary
 
-
-| Type | Method |
-| --- | --- | --- |
-| [Part](../../../../com/google/api/client/http/Part.md) | buildDataPart |
-| [Part](../../../../com/google/api/client/http/Part.md) | buildFilePart |
-| [HttpRequestExecutor](HttpRequestExecutor.md) | create |
-| [HttpRequestExecutor](HttpRequestExecutor.md) | create |
-| [String](../../../../java/lang/String.md) | get |
-| [String](../../../../java/lang/String.md) | getHostname |
-| [HttpRequest](../../../../com/google/api/client/http/HttpRequest.md) | getRequest |
-| [String](../../../../java/lang/String.md) | post |
+Type | Method
+ --- | --- 
+[Part](../../../../com/google/api/client/http/Part.md) | buildDataPart
+[Part](../../../../com/google/api/client/http/Part.md) | buildFilePart
+[HttpRequestExecutor](HttpRequestExecutor.md) | create
+[HttpRequestExecutor](HttpRequestExecutor.md) | create
+[String](../../../../java/lang/String.md) | get
+[String](../../../../java/lang/String.md) | getHostname
+[HttpRequest](../../../../com/google/api/client/http/HttpRequest.md) | getRequest
+[String](../../../../java/lang/String.md) | post
 
 ##Methods
 
-###buildDataPart
+###(String, String)
 
 
 Static factory method that creates a {@link Part} which contains
@@ -39,8 +38,8 @@ Static factory method that creates a {@link Part} which contains
 
 * Created data part.
 
---
-###buildFilePart
+---
+###(String, File)
 
 
 Static factory method that creates a {@link Part} which contains
@@ -60,8 +59,8 @@ Static factory method that creates a {@link Part} which contains
 
 * [IOException](../../../../java/io/IOException.md) If any any error occurs during file type detection.
 
---
-###create
+---
+###(String, String)
 
 
 Static factory method that creates a {@link HttpRequestExecutor} instance
@@ -78,8 +77,8 @@ Static factory method that creates a {@link HttpRequestExecutor} instance
 
 * Created instance.
 
---
-###create
+---
+###(String)
 
 
 Static factory method that creates a non logged
@@ -94,8 +93,8 @@ Static factory method that creates a non logged
 
 * Created instance.
 
---
-###get
+---
+###(String)
 
 
 Performs a HTTP GET request to the given <tt>path</tt>
@@ -115,8 +114,8 @@ Performs a HTTP GET request to the given <tt>path</tt>
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
 
---
-###getHostname
+---
+###()
 
 
 Getter for the target hostname.
@@ -125,8 +124,8 @@ Getter for the target hostname.
 
 * Target hostname this executor is performing request to.
 
---
-###getRequest
+---
+###(String)
 
 
 Creates and returns a GET {@link HttpRequest} instance
@@ -145,8 +144,8 @@ Creates and returns a GET {@link HttpRequest} instance
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while creating the GET request.
 
---
-###post
+---
+###(String, HttpContent)
 
 
 Performs a HTTP POST request to the given <tt>path</tt>
@@ -166,6 +165,6 @@ Performs a HTTP POST request to the given <tt>path</tt>
 
 * [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
 
---
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
