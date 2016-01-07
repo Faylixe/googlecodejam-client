@@ -9,6 +9,7 @@ Test case for the {@link ProblemInput} class.
 
 | Constructor |
 |  ---  |
+ProblemInputTest | ()
 
 Type | Method
  --- | --- 
@@ -17,7 +18,7 @@ Type | Method
 
 ##Constructors
 
-###()
+###ProblemInputTest()
 
 
 

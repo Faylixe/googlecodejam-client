@@ -10,6 +10,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
+ContestInfo | ()
 
 Type | Method
  --- | --- 
@@ -23,7 +24,7 @@ Type | Method
 
 ##Constructors
 
-###()
+###ContestInfo()
 
 
 

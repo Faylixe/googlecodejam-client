@@ -11,6 +11,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
+SubmitResponse | ()
 
 Type | Method
  --- | --- 
@@ -22,7 +23,7 @@ Type | Method
 
 ##Constructors
 
-###()
+###SubmitResponse()
 
 
 

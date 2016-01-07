@@ -12,6 +12,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
+InitialValues | ()
 
 Type | Method
  --- | --- 
@@ -37,7 +38,7 @@ Type | Method
 
 ##Constructors
 
-###()
+###InitialValues()
 
 
 

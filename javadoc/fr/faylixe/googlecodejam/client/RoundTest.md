@@ -9,6 +9,7 @@ Test case for the {@link Round} class.
 
 | Constructor |
 |  ---  |
+RoundTest | ()
 
 Type | Method
  --- | --- 
@@ -18,7 +19,7 @@ Type | Method
 
 ##Constructors
 
-###()
+###RoundTest()
 
 
 

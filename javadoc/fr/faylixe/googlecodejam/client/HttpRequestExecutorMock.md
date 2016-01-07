@@ -9,6 +9,7 @@ Test case for the {@link HttpRequestExecutor} class.
 
 | Constructor |
 |  ---  |
+HttpRequestExecutorMock | ()
 
 Type | Method
  --- | --- 
@@ -17,7 +18,7 @@ Type | Method
 
 ##Constructors
 
-###()
+###HttpRequestExecutorMock()
 
 
 

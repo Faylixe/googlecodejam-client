@@ -12,6 +12,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
+Problem | ()
 
 Type | Method
  --- | --- 
@@ -29,7 +30,7 @@ Type | Method
 
 ##Constructors
 
-###()
+###Problem()
 
 
 

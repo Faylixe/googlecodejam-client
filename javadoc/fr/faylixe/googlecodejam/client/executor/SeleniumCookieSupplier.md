@@ -13,6 +13,7 @@ TODO Javadoc
 
 | Constructor |
 |  ---  |
+SeleniumCookieSupplier | (String, Supplier)
 
 Type | Method
  --- | --- 
@@ -24,7 +25,7 @@ Type | Method
 
 ##Constructors
 
-###(String, Supplier)
+###SeleniumCookieSupplier(String, Supplier)
 
 
 Default constructor.

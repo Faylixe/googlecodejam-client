@@ -11,6 +11,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 | Constructor |
 |  ---  |
+ApplicationCommand | ()
 
 Type | Method
  --- | --- 
@@ -21,7 +22,7 @@ Type | Method
 
 ##Constructors
 
-###()
+###ApplicationCommand()
 
 
 

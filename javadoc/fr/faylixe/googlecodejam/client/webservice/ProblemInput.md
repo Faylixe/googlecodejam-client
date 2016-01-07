@@ -12,6 +12,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
+ProblemInput | ()
 
 Type | Method
  --- | --- 
@@ -27,7 +28,7 @@ Type | Name | Description
 
 ##Constructors
 
-###()
+###ProblemInput()
 
 
 

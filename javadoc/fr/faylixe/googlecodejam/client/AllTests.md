@@ -9,11 +9,12 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 | Constructor |
 |  ---  |
+AllTests | ()
 
 
 ##Constructors
 
-###()
+###AllTests()
 
 
 

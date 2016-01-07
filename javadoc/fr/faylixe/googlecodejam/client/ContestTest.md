@@ -9,6 +9,7 @@ Test case for {@link Contest} class.
 
 | Constructor |
 |  ---  |
+ContestTest | ()
 
 Type | Method
  --- | --- 
@@ -18,7 +19,7 @@ Type | Method
 
 ##Constructors
 
-###()
+###ContestTest()
 
 
 

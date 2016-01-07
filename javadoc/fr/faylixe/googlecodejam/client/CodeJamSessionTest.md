@@ -9,6 +9,7 @@ Test case for {@link CodeJamSession} class.
 
 | Constructor |
 |  ---  |
+CodeJamSessionTest | ()
 
 Type | Method
  --- | --- 
@@ -21,7 +22,7 @@ Type | Method
 
 ##Constructors
 
-###()
+###CodeJamSessionTest()
 
 
 
