@@ -7,8 +7,8 @@ Test case for the {@link Round} class.
 
 ##Summary
 
-Constructor
- --- 
+| Constructor |
+|  ---  |
 Type | Method
  --- | --- 
 [Round](Round.md) | getTestRound

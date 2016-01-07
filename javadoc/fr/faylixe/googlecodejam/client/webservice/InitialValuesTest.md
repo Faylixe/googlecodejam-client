@@ -7,8 +7,8 @@ Test case for {@link InitialValues} class.
 
 ##Summary
 
-Constructor
- --- 
+| Constructor |
+|  ---  |
 Type | Method
  --- | --- 
 [InitialValues](InitialValues.md) | getTestInitialValues

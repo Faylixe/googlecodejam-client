@@ -11,8 +11,8 @@ TODO Javadoc
 
 ##Summary
 
-Constructor
- --- 
+| Constructor |
+|  ---  |
 Type | Method
  --- | --- 
 **void** | cancel

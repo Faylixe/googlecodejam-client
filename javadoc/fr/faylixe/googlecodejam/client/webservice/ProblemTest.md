@@ -7,8 +7,8 @@ Test case for the {@link Problem} class.
 
 ##Summary
 
-Constructor
- --- 
+| Constructor |
+|  ---  |
 Type | Method
  --- | --- 
 [Problem](Problem.md) | getTestProblem

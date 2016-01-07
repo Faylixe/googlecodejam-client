@@ -10,8 +10,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Summary
 
-Constructor
- --- 
+| Constructor |
+|  ---  |
 Type | Method
  --- | --- 
 [String](../../../../java/lang/String.md) | getBody

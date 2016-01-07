@@ -7,8 +7,8 @@ Test case for {@link CodeJamSession} class.
 
 ##Summary
 
-Constructor
- --- 
+| Constructor |
+|  ---  |
 Type | Method
  --- | --- 
 [CodeJamSession](CodeJamSession.md) | getTestSession

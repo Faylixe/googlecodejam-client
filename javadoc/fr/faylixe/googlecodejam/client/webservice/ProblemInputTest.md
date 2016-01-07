@@ -7,8 +7,8 @@ Test case for the {@link ProblemInput} class.
 
 ##Summary
 
-Constructor
- --- 
+| Constructor |
+|  ---  |
 Type | Method
  --- | --- 
 **void** | testProblemInputConsistency

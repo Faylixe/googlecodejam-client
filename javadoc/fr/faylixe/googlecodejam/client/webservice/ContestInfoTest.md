@@ -7,8 +7,8 @@ Test case for {@link ContestInfo} class.
 
 ##Summary
 
-Constructor
- --- 
+| Constructor |
+|  ---  |
 Type | Method
  --- | --- 
 [ContestInfo](ContestInfo.md) | getTestContestInfo

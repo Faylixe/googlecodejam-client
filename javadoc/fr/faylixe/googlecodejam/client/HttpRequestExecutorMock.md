@@ -7,8 +7,8 @@ Test case for the {@link HttpRequestExecutor} class.
 
 ##Summary
 
-Constructor
- --- 
+| Constructor |
+|  ---  |
 Type | Method
  --- | --- 
 [HttpRequestExecutor](/executor/HttpRequestExecutor.md) | getTestExecutor

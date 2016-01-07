@@ -7,8 +7,8 @@ Test case for {@link NamedObject} class.
 
 ##Summary
 
-Constructor
- --- 
+| Constructor |
+|  ---  |
 Type | Method
  --- | --- 
 **void** | testDefault
