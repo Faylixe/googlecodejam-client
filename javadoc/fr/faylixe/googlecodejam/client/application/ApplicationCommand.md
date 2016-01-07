@@ -11,15 +11,15 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ####Constructors
 
-* **public** ApplicationCommand
+* **public** [ApplicationCommand](applicationcommand)
 
 ####Methods
 
-Type | Method
+Type and modifiers | Method signature
  --- | --- 
-**public static** **boolean** | download
-**public static** **boolean** | init
-**public static** **boolean** | submit
+**public static** **boolean** | [download](downloadcommandline)
+**public static** **boolean** | [init](init)
+**public static** **boolean** | [submit](submitcommandline)
 
 
 ##Constructors

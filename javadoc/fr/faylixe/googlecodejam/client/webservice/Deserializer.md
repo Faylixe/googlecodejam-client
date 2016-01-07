@@ -9,9 +9,9 @@ Custom deserializer that normalizes problem body content.
 
 ####Methods
 
-Type | Method
+Type and modifiers | Method signature
  --- | --- 
-**public** [Problem](Problem.md) | deserialize
+**public** [Problem](Problem.md) | [deserialize](deserializejsonelement-type-jsondeserializationcontext)
 
 
 ##Methods

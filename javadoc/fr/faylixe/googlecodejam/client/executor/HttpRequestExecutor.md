@@ -11,16 +11,16 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ####Methods
 
-Type | Method
+Type and modifiers | Method signature
  --- | --- 
-**public static** [Part](../../../../om/google/api/client/http/Part.md) | buildDataPart
-**public static** [Part](../../../../om/google/api/client/http/Part.md) | buildFilePart
-**public static** [HttpRequestExecutor](HttpRequestExecutor.md) | create
-**public static** [HttpRequestExecutor](HttpRequestExecutor.md) | create
-**public** [String](../../../../ava/lang/String.md) | get
-**public** [String](../../../../ava/lang/String.md) | getHostname
-**public** [HttpRequest](../../../../om/google/api/client/http/HttpRequest.md) | getRequest
-**public** [String](../../../../ava/lang/String.md) | post
+**public static** [Part](../../../../om/google/api/client/http/Part.md) | [buildDataPart](builddatapartstring-string)
+**public static** [Part](../../../../om/google/api/client/http/Part.md) | [buildFilePart](buildfilepartstring-file)
+**public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](createstring-string)
+**public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](createstring)
+**public** [String](../../../../ava/lang/String.md) | [get](getstring)
+**public** [String](../../../../ava/lang/String.md) | [getHostname](gethostname)
+**public** [HttpRequest](../../../../om/google/api/client/http/HttpRequest.md) | [getRequest](getrequeststring)
+**public** [String](../../../../ava/lang/String.md) | [post](poststring-httpcontent)
 
 
 ##Methods

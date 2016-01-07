@@ -9,9 +9,9 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ####Methods
 
-Type | Method
+Type and modifiers | Method signature
  --- | --- 
-**public static** **void** | main
+**public static** **void** | [main](mainjava.lang.string[])
 
 
 ##Methods

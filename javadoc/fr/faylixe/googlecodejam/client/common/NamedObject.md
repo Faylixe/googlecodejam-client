@@ -10,9 +10,9 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ####Methods
 
-Type | Method
+Type and modifiers | Method signature
  --- | --- 
-**public final** [String](../../../../ava/lang/String.md) | getName
+**public final** [String](../../../../ava/lang/String.md) | [getName](getname)
 
 
 ##Methods

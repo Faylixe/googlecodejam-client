@@ -9,12 +9,12 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ####Methods
 
-Type | Method
+Type and modifiers | Method signature
  --- | --- 
-**public static** [String](../../../../ava/lang/String.md) | getHTMLTemplate
-**public static** [String](../../../../ava/lang/String.md) | getResource
-**public static** [InputStream](../../../../ava/io/InputStream.md) | getResourceStream
-**public static** [String](../../../../ava/lang/String.md) | normalize
+**public static** [String](../../../../ava/lang/String.md) | [getHTMLTemplate](gethtmltemplate)
+**public static** [String](../../../../ava/lang/String.md) | [getResource](getresourcestring)
+**public static** [InputStream](../../../../ava/io/InputStream.md) | [getResourceStream](getresourcestreamstring)
+**public static** [String](../../../../ava/lang/String.md) | [normalize](normalizestring)
 
 
 ##Methods

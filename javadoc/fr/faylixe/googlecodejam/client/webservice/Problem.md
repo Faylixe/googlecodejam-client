@@ -12,24 +12,24 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####Constructors
 
-* **public** Problem
+* **public** [Problem](problem)
 
 ####Methods
 
-Type | Method
+Type and modifiers | Method signature
  --- | --- 
-**public** **boolean** | equals
-**public** [String](../../../../ava/lang/String.md) | getBody
-**public** [String](../../../../ava/lang/String.md) | getId
-**public** [String](../../../../ava/lang/String.md) | getKey
-**public** [String](../../../../ava/lang/String.md) | getNormalizedName
-**public** [ContestInfo](ContestInfo.md) | getParent
-**public** [ProblemInput](ProblemInput.md) | getProblemInput
-**public** [ProblemInput](ProblemInput.md) | getProblemInput
-**public** [List](../../../../ava/util/List.md) | getProblemInputs
-**public** [String](../../../../ava/lang/String.md) | getType
-**public** **int** | hashCode
-**public** **void** | validateObject
+**public** **boolean** | [equals](equalsobject)
+**public** [String](../../../../ava/lang/String.md) | [getBody](getbody)
+**public** [String](../../../../ava/lang/String.md) | [getId](getid)
+**public** [String](../../../../ava/lang/String.md) | [getKey](getkey)
+**public** [String](../../../../ava/lang/String.md) | [getNormalizedName](getnormalizedname)
+**public** [ContestInfo](ContestInfo.md) | [getParent](getparent)
+**public** [ProblemInput](ProblemInput.md) | [getProblemInput](getprobleminputint)
+**public** [ProblemInput](ProblemInput.md) | [getProblemInput](getprobleminputstring)
+**public** [List](../../../../ava/util/List.md) | [getProblemInputs](getprobleminputs)
+**public** [String](../../../../ava/lang/String.md) | [getType](gettype)
+**public** **int** | [hashCode](hashcode)
+**public** **void** | [validateObject](validateobject)
 
 
 ##Constructors

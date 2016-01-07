@@ -10,9 +10,9 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ####Methods
 
-Type | Method
+Type and modifiers | Method signature
  --- | --- 
-**public static** [Options](../../../../rg/apache/commons/cli/Options.md) | createOptions
+**public static** [Options](../../../../rg/apache/commons/cli/Options.md) | [createOptions](createoptions)
 
 Type | Name | Description
  --- | --- | --- 
