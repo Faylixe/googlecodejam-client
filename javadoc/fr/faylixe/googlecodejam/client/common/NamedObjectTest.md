@@ -9,7 +9,7 @@ Test case for {@link NamedObject} class.
 
 ####Constructors
 
-*  NamedObjectTest
+* **public** NamedObjectTest
 
 ####Methods
 

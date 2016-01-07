@@ -13,7 +13,7 @@ TODO Javadoc
 
 ####Constructors
 
-*  SeleniumCookieSupplier
+* **public** SeleniumCookieSupplier
 
 ####Methods
 

@@ -9,7 +9,7 @@ Test case for the {@link Problem} class.
 
 ####Constructors
 
-*  ProblemTest
+* **public** ProblemTest
 
 ####Methods
 

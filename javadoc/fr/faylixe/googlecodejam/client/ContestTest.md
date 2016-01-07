@@ -9,7 +9,7 @@ Test case for {@link Contest} class.
 
 ####Constructors
 
-*  ContestTest
+* **public** ContestTest
 
 ####Methods
 

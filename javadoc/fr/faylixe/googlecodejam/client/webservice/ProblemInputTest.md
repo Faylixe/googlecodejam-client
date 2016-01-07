@@ -9,7 +9,7 @@ Test case for the {@link ProblemInput} class.
 
 ####Constructors
 
-*  ProblemInputTest
+* **public** ProblemInputTest
 
 ####Methods
 

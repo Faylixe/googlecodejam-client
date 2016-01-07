@@ -9,7 +9,7 @@ Test case for the {@link HttpRequestExecutor} class.
 
 ####Constructors
 
-*  HttpRequestExecutorMock
+* **public** HttpRequestExecutorMock
 
 ####Methods
 
