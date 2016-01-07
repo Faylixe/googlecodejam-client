@@ -16,17 +16,17 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ####Methods
 
-* **public** buildFilename(ProblemInput)
-* **public static** createSession(HttpRequestExecutor, Round)
-* **public** download(ProblemInput)
-* **public** getContestAnalysis(Problem)
-* **public** getContestInfo()
-* **public** getProblem(String)
-* **public** isActive()
-* **public** isLogged()
-* **public** isQualified()
-* **public** refresh()
-* **public** submit(ProblemInput, File, File)
+* **public** [String](../../../ava/lang/String.md) buildFilename(ProblemInput)
+* **public static** [CodeJamSession](CodeJamSession.md) createSession(HttpRequestExecutor, Round)
+* **public** [InputStream](../../../ava/io/InputStream.md) download(ProblemInput)
+* **public** [String](../../../ava/lang/String.md) getContestAnalysis(Problem)
+* **public** [ContestInfo](webservice/ContestInfo.md) getContestInfo()
+* **public** [Problem](webservice/Problem.md) getProblem(String)
+* **public** **boolean** isActive()
+* **public** **boolean** isLogged()
+* **public** **boolean** isQualified()
+* **public** [CodeJamSession](CodeJamSession.md) refresh()
+* **public** [SubmitResponse](webservice/SubmitResponse.md) submit(ProblemInput, File, File)
 
 
 ##Methods

@@ -7,14 +7,14 @@ Test case for the {@link Problem} class.
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** ProblemTest()
 
 ####Methods
 
-* **public static** getTestProblem()
-* **public** testProblemConsistency()
+* **public static** [Problem](Problem.md) getTestProblem()
+* **public** **void** testProblemConsistency()
 
 
 ##Constructors

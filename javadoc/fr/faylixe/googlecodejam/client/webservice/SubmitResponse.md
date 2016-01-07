@@ -9,18 +9,18 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** SubmitResponse()
 
 ####Methods
 
-* **public** equals(Object)
-* **public** getInputId()
-* **public** getMessage()
-* **public** getProblemId()
-* **public** hashCode()
-* **public** isSuccess()
+* **public** **boolean** equals(Object)
+* **public** **int** getInputId()
+* **public** [String](../../../../ava/lang/String.md) getMessage()
+* **public** **int** getProblemId()
+* **public** **int** hashCode()
+* **public** **boolean** isSuccess()
 
 
 ##Constructors

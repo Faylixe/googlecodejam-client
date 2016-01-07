@@ -7,15 +7,15 @@ Test case for {@link ContestInfo} class.
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** ContestInfoTest()
 
 ####Methods
 
-* **public static** getTestContestInfo()
-* **public static** testContestInfoConsistency(ContestInfo)
-* **public** testContestInfoConsistency()
+* **public static** [ContestInfo](ContestInfo.md) getTestContestInfo()
+* **public static** **void** testContestInfoConsistency(ContestInfo)
+* **public** **void** testContestInfoConsistency()
 
 
 ##Constructors

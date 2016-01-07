@@ -7,8 +7,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** AllTests()
 
 

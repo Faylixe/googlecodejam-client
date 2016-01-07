@@ -11,11 +11,11 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ####Methods
 
-* **public** equals(Object)
-* **public static** get(Element, String)
-* **public** getContestName()
-* **public** getURL()
-* **public** hashCode()
+* **public** **boolean** equals(Object)
+* **public static** [List](../../../ava/util/List.md) get(Element, String)
+* **public** [String](../../../ava/lang/String.md) getContestName()
+* **public** [String](../../../ava/lang/String.md) getURL()
+* **public** **int** hashCode()
 
 Type | Name | Description
  --- | --- | --- 

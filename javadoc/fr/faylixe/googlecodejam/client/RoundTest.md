@@ -7,14 +7,14 @@ Test case for the {@link Round} class.
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** RoundTest()
 
 ####Methods
 
-* **public static** getTestRound()
-* **public** testRoundConsistency()
+* **public static** [Round](Round.md) getTestRound()
+* **public** **void** testRoundConsistency()
 
 
 ##Constructors

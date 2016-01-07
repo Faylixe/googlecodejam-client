@@ -7,14 +7,14 @@ Test case for {@link Contest} class.
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** ContestTest()
 
 ####Methods
 
-* **public static** getTestContests()
-* **public** testContestConsistency()
+* **public static** [Contest](Contest.md) getTestContests()
+* **public** **void** testContestConsistency()
 
 
 ##Constructors

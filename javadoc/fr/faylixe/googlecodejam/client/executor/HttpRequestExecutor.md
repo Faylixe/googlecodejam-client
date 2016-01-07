@@ -11,14 +11,14 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ####Methods
 
-* **public static** buildDataPart(String, String)
-* **public static** buildFilePart(String, File)
-* **public static** create(String, String)
-* **public static** create(String)
-* **public** get(String)
-* **public** getHostname()
-* **public** getRequest(String)
-* **public** post(String, HttpContent)
+* **public static** [Part](../../../../om/google/api/client/http/Part.md) buildDataPart(String, String)
+* **public static** [Part](../../../../om/google/api/client/http/Part.md) buildFilePart(String, File)
+* **public static** [HttpRequestExecutor](HttpRequestExecutor.md) create(String, String)
+* **public static** [HttpRequestExecutor](HttpRequestExecutor.md) create(String)
+* **public** [String](../../../../ava/lang/String.md) get(String)
+* **public** [String](../../../../ava/lang/String.md) getHostname()
+* **public** [HttpRequest](../../../../om/google/api/client/http/HttpRequest.md) getRequest(String)
+* **public** [String](../../../../ava/lang/String.md) post(String, HttpContent)
 
 
 ##Methods

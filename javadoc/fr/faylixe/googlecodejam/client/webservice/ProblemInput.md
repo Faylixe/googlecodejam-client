@@ -10,19 +10,19 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** ProblemInput()
 
 ####Methods
 
-* **public** equals(Object)
-* **public** getDifficulty()
-* **public** getNumber()
-* **public** getPoints()
-* **public** getProblem()
-* **public** getSuffix()
-* **public** hashCode()
+* **public** **boolean** equals(Object)
+* **public** **int** getDifficulty()
+* **public** **int** getNumber()
+* **public** **int** getPoints()
+* **public** [Problem](Problem.md) getProblem()
+* **public** [String](../../../../ava/lang/String.md) getSuffix()
+* **public** **int** hashCode()
 
 Type | Name | Description
  --- | --- | --- 

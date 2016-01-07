@@ -7,17 +7,17 @@ Test case for {@link CodeJamSession} class.
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** CodeJamSessionTest()
 
 ####Methods
 
-* **public static** getTestSession()
-* **public** testContestAnalysis()
-* **public** testDownload()
-* **public** testSessionConsistency()
-* **public** testSubmission()
+* **public static** [CodeJamSession](CodeJamSession.md) getTestSession()
+* **public** **void** testContestAnalysis()
+* **public** **void** testDownload()
+* **public** **void** testSessionConsistency()
+* **public** **void** testSubmission()
 
 
 ##Constructors

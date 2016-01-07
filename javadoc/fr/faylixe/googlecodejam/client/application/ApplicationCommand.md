@@ -9,15 +9,15 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** ApplicationCommand()
 
 ####Methods
 
-* **public static** download(CommandLine)
-* **public static** init()
-* **public static** submit(CommandLine)
+* **public static** **boolean** download(CommandLine)
+* **public static** **boolean** init()
+* **public static** **boolean** submit(CommandLine)
 
 
 ##Constructors

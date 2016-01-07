@@ -11,16 +11,16 @@ TODO Javadoc
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** SeleniumCookieSupplier(String, Supplier)
 
 ####Methods
 
-* **public** cancel()
-* **public** checkCurrentState(WebDriver)
-* **public** get()
-* **public** isRunning()
+* **public** **void** cancel()
+* **public** **void** checkCurrentState(WebDriver)
+* **public** [String](../../../../ava/lang/String.md) get()
+* **public** **boolean** isRunning()
 
 
 ##Constructors

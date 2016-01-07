@@ -7,13 +7,13 @@ Test case for the {@link HttpRequestExecutor} class.
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** HttpRequestExecutorMock()
 
 ####Methods
 
-* **public static** getTestExecutor()
+* **public static** [HttpRequestExecutor](executor/HttpRequestExecutor.md) getTestExecutor()
 
 
 ##Constructors

@@ -11,10 +11,10 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ####Methods
 
-* **public** equals(Object)
-* **public static** get(HttpRequestExecutor)
-* **public** getRounds()
-* **public** hashCode()
+* **public** **boolean** equals(Object)
+* **public static** [List](../../../ava/util/List.md) get(HttpRequestExecutor)
+* **public** [List](../../../ava/util/List.md) getRounds()
+* **public** **int** hashCode()
 
 Type | Name | Description
  --- | --- | --- 

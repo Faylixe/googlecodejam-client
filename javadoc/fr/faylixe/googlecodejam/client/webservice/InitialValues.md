@@ -10,30 +10,30 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** InitialValues()
 
 ####Methods
 
-* **public static** get(HttpRequestExecutor, Round)
-* **public** getAdmin()
-* **public** getCS()
-* **public** getEmail()
-* **public** getInput()
-* **public** getLeft()
-* **public** getLoginHTML()
-* **public** getLogoutHTML()
-* **public** getName()
-* **public** getSeen()
-* **public** getSnippet()
-* **public** getStart()
-* **public** getToken()
-* **public** getURLEncodedToken()
-* **public** getUntilStart()
-* **public** getVersion()
-* **public** isLogged()
-* **public** isQualified()
+* **public static** [InitialValues](InitialValues.md) get(HttpRequestExecutor, Round)
+* **public** [String](../../../../ava/lang/String.md) getAdmin()
+* **public** **int** getCS()
+* **public** [String](../../../../ava/lang/String.md) getEmail()
+* **public** [String](../../../../ava/lang/String.md) getInput()
+* **public** **long** getLeft()
+* **public** [String](../../../../ava/lang/String.md) getLoginHTML()
+* **public** [String](../../../../ava/lang/String.md) getLogoutHTML()
+* **public** [String](../../../../ava/lang/String.md) getName()
+* **public** **int** getSeen()
+* **public** [String](../../../../ava/lang/String.md) getSnippet()
+* **public** **long** getStart()
+* **public** [String](../../../../ava/lang/String.md) getToken()
+* **public** [String](../../../../ava/lang/String.md) getURLEncodedToken()
+* **public** **long** getUntilStart()
+* **public** **int** getVersion()
+* **public** **boolean** isLogged()
+* **public** **boolean** isQualified()
 
 
 ##Constructors

@@ -7,13 +7,13 @@ Test case for the {@link ProblemInput} class.
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** ProblemInputTest()
 
 ####Methods
 
-* **public** testProblemInputConsistency()
+* **public** **void** testProblemInputConsistency()
 
 
 ##Constructors

@@ -11,7 +11,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ####Methods
 
-* **public static final** createBoundary()
+* **public static final** [String](../../../../ava/lang/String.md) createBoundary()
 
 Type | Name | Description
  --- | --- | --- 

@@ -8,18 +8,18 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** ContestInfo()
 
 ####Methods
 
-* **public static** get(HttpRequestExecutor, Round)
-* **public** getProblem(int)
-* **public** getProblems()
-* **public** getVersion()
-* **public** hasAnalysis()
-* **public** validateObject()
+* **public static** [ContestInfo](ContestInfo.md) get(HttpRequestExecutor, Round)
+* **public** [Problem](Problem.md) getProblem(int)
+* **public** [List](../../../../ava/util/List.md) getProblems()
+* **public** **int** getVersion()
+* **public** **boolean** hasAnalysis()
+* **public** **void** validateObject()
 
 
 ##Constructors

@@ -9,10 +9,10 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ####Methods
 
-* **public static** getHTMLTemplate()
-* **public static** getResource(String)
-* **public static** getResourceStream(String)
-* **public static** normalize(String)
+* **public static** [String](../../../../ava/lang/String.md) getHTMLTemplate()
+* **public static** [String](../../../../ava/lang/String.md) getResource(String)
+* **public static** [InputStream](../../../../ava/io/InputStream.md) getResourceStream(String)
+* **public static** [String](../../../../ava/lang/String.md) normalize(String)
 
 
 ##Methods

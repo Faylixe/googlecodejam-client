@@ -7,14 +7,14 @@ Test case for {@link InitialValues} class.
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** InitialValuesTest()
 
 ####Methods
 
-* **public static** getTestInitialValues()
-* **public** testInitialValuesConsistency()
+* **public static** [InitialValues](InitialValues.md) getTestInitialValues()
+* **public** **void** testInitialValuesConsistency()
 
 
 ##Constructors

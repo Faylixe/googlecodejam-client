@@ -10,24 +10,24 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** Problem()
 
 ####Methods
 
-* **public** equals(Object)
-* **public** getBody()
-* **public** getId()
-* **public** getKey()
-* **public** getNormalizedName()
-* **public** getParent()
-* **public** getProblemInput(int)
-* **public** getProblemInput(String)
-* **public** getProblemInputs()
-* **public** getType()
-* **public** hashCode()
-* **public** validateObject()
+* **public** **boolean** equals(Object)
+* **public** [String](../../../../ava/lang/String.md) getBody()
+* **public** [String](../../../../ava/lang/String.md) getId()
+* **public** [String](../../../../ava/lang/String.md) getKey()
+* **public** [String](../../../../ava/lang/String.md) getNormalizedName()
+* **public** [ContestInfo](ContestInfo.md) getParent()
+* **public** [ProblemInput](ProblemInput.md) getProblemInput(int)
+* **public** [ProblemInput](ProblemInput.md) getProblemInput(String)
+* **public** [List](../../../../ava/util/List.md) getProblemInputs()
+* **public** [String](../../../../ava/lang/String.md) getType()
+* **public** **int** hashCode()
+* **public** **void** validateObject()
 
 
 ##Constructors

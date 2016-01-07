@@ -7,14 +7,14 @@ Test case for {@link NamedObject} class.
 
 ##Summary
 
-| Constructor |
-|  ---  |
+####Constructors
+
 * **public** NamedObjectTest()
 
 ####Methods
 
-* **public** testDefault()
-* **public** testSerialized()
+* **public** **void** testDefault()
+* **public** **void** testSerialized()
 
 
 ##Constructors
