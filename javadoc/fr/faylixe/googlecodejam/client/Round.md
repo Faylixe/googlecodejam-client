@@ -13,11 +13,11 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Type | Method
  --- | --- 
-**public****boolean** | equals
-**public static**[List](../../../ava/util/List.md) | get
-**public**[String](../../../ava/lang/String.md) | getContestName
-**public**[String](../../../ava/lang/String.md) | getURL
-**public****int** | hashCode
+**public** **boolean** | equals
+**public static** [List](../../../ava/util/List.md) | get
+**public** [String](../../../ava/lang/String.md) | getContestName
+**public** [String](../../../ava/lang/String.md) | getURL
+**public** **int** | hashCode
 
 Type | Name | Description
  --- | --- | --- 

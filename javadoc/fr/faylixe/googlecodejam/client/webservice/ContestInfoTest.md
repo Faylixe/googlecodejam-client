@@ -9,15 +9,15 @@ Test case for {@link ContestInfo} class.
 
 ####Constructors
 
-* **public** ContestInfoTest()
+*  ContestInfoTest
 
 ####Methods
 
 Type | Method
  --- | --- 
-**public static**[ContestInfo](ContestInfo.md) | getTestContestInfo
-**public static****void** | testContestInfoConsistency
-**public****void** | testContestInfoConsistency
+**public static** [ContestInfo](ContestInfo.md) | getTestContestInfo
+**public static** **void** | testContestInfoConsistency
+**public** **void** | testContestInfoConsistency
 
 
 ##Constructors

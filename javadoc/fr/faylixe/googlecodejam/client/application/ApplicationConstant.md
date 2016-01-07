@@ -12,7 +12,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 Type | Method
  --- | --- 
-**public static**[Options](../../../../rg/apache/commons/cli/Options.md) | createOptions
+**public static** [Options](../../../../rg/apache/commons/cli/Options.md) | createOptions
 
 Type | Name | Description
  --- | --- | --- 

@@ -13,16 +13,16 @@ TODO Javadoc
 
 ####Constructors
 
-* **public** SeleniumCookieSupplier(String, Supplier)
+*  SeleniumCookieSupplier
 
 ####Methods
 
 Type | Method
  --- | --- 
-**public****void** | cancel
-**public****void** | checkCurrentState
-**public**[String](../../../../ava/lang/String.md) | get
-**public****boolean** | isRunning
+**public** **void** | cancel
+**public** **void** | checkCurrentState
+**public** [String](../../../../ava/lang/String.md) | get
+**public** **boolean** | isRunning
 
 
 ##Constructors

@@ -13,14 +13,14 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 Type | Method
  --- | --- 
-**public static**[Part](../../../../om/google/api/client/http/Part.md) | buildDataPart
-**public static**[Part](../../../../om/google/api/client/http/Part.md) | buildFilePart
-**public static**[HttpRequestExecutor](HttpRequestExecutor.md) | create
-**public static**[HttpRequestExecutor](HttpRequestExecutor.md) | create
-**public**[String](../../../../ava/lang/String.md) | get
-**public**[String](../../../../ava/lang/String.md) | getHostname
-**public**[HttpRequest](../../../../om/google/api/client/http/HttpRequest.md) | getRequest
-**public**[String](../../../../ava/lang/String.md) | post
+**public static** [Part](../../../../om/google/api/client/http/Part.md) | buildDataPart
+**public static** [Part](../../../../om/google/api/client/http/Part.md) | buildFilePart
+**public static** [HttpRequestExecutor](HttpRequestExecutor.md) | create
+**public static** [HttpRequestExecutor](HttpRequestExecutor.md) | create
+**public** [String](../../../../ava/lang/String.md) | get
+**public** [String](../../../../ava/lang/String.md) | getHostname
+**public** [HttpRequest](../../../../om/google/api/client/http/HttpRequest.md) | getRequest
+**public** [String](../../../../ava/lang/String.md) | post
 
 
 ##Methods

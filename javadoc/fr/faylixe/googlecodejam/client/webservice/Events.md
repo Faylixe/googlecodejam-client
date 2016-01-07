@@ -9,7 +9,7 @@ TODO : Fill with Event response attribute.
 
 ####Constructors
 
-* **public** Events()
+*  Events
 
 
 ##Constructors

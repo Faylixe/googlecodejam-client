@@ -11,7 +11,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 Type | Method
  --- | --- 
-**public static****void** | main
+**public static** **void** | main
 
 
 ##Methods

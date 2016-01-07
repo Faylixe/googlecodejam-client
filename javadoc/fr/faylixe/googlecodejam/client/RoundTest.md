@@ -9,14 +9,14 @@ Test case for the {@link Round} class.
 
 ####Constructors
 
-* **public** RoundTest()
+*  RoundTest
 
 ####Methods
 
 Type | Method
  --- | --- 
-**public static**[Round](Round.md) | getTestRound
-**public****void** | testRoundConsistency
+**public static** [Round](Round.md) | getTestRound
+**public** **void** | testRoundConsistency
 
 
 ##Constructors

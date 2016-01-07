@@ -11,18 +11,18 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####Constructors
 
-* **public** SubmitResponse()
+*  SubmitResponse
 
 ####Methods
 
 Type | Method
  --- | --- 
-**public****boolean** | equals
-**public****int** | getInputId
-**public**[String](../../../../ava/lang/String.md) | getMessage
-**public****int** | getProblemId
-**public****int** | hashCode
-**public****boolean** | isSuccess
+**public** **boolean** | equals
+**public** **int** | getInputId
+**public** [String](../../../../ava/lang/String.md) | getMessage
+**public** **int** | getProblemId
+**public** **int** | hashCode
+**public** **boolean** | isSuccess
 
 
 ##Constructors

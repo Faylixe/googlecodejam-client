@@ -10,18 +10,18 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####Constructors
 
-* **public** ContestInfo()
+*  ContestInfo
 
 ####Methods
 
 Type | Method
  --- | --- 
-**public static**[ContestInfo](ContestInfo.md) | get
-**public**[Problem](Problem.md) | getProblem
-**public**[List](../../../../ava/util/List.md) | getProblems
-**public****int** | getVersion
-**public****boolean** | hasAnalysis
-**public****void** | validateObject
+**public static** [ContestInfo](ContestInfo.md) | get
+**public** [Problem](Problem.md) | getProblem
+**public** [List](../../../../ava/util/List.md) | getProblems
+**public** **int** | getVersion
+**public** **boolean** | hasAnalysis
+**public** **void** | validateObject
 
 
 ##Constructors

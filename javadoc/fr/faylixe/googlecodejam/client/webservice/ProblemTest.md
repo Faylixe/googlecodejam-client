@@ -9,14 +9,14 @@ Test case for the {@link Problem} class.
 
 ####Constructors
 
-* **public** ProblemTest()
+*  ProblemTest
 
 ####Methods
 
 Type | Method
  --- | --- 
-**public static**[Problem](Problem.md) | getTestProblem
-**public****void** | testProblemConsistency
+**public static** [Problem](Problem.md) | getTestProblem
+**public** **void** | testProblemConsistency
 
 
 ##Constructors

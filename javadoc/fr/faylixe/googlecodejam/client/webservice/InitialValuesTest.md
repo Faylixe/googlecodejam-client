@@ -9,14 +9,14 @@ Test case for {@link InitialValues} class.
 
 ####Constructors
 
-* **public** InitialValuesTest()
+*  InitialValuesTest
 
 ####Methods
 
 Type | Method
  --- | --- 
-**public static**[InitialValues](InitialValues.md) | getTestInitialValues
-**public****void** | testInitialValuesConsistency
+**public static** [InitialValues](InitialValues.md) | getTestInitialValues
+**public** **void** | testInitialValuesConsistency
 
 
 ##Constructors

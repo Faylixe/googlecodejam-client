@@ -11,7 +11,7 @@ Custom deserializer that normalizes problem body content.
 
 Type | Method
  --- | --- 
-**public**[Problem](Problem.md) | deserialize
+**public** [Problem](Problem.md) | deserialize
 
 
 ##Methods

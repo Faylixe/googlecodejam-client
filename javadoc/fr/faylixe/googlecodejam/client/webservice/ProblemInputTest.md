@@ -9,13 +9,13 @@ Test case for the {@link ProblemInput} class.
 
 ####Constructors
 
-* **public** ProblemInputTest()
+*  ProblemInputTest
 
 ####Methods
 
 Type | Method
  --- | --- 
-**public****void** | testProblemInputConsistency
+**public** **void** | testProblemInputConsistency
 
 
 ##Constructors

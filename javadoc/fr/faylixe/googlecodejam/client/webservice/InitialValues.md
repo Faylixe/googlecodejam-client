@@ -12,30 +12,30 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####Constructors
 
-* **public** InitialValues()
+*  InitialValues
 
 ####Methods
 
 Type | Method
  --- | --- 
-**public static**[InitialValues](InitialValues.md) | get
-**public**[String](../../../../ava/lang/String.md) | getAdmin
-**public****int** | getCS
-**public**[String](../../../../ava/lang/String.md) | getEmail
-**public**[String](../../../../ava/lang/String.md) | getInput
-**public****long** | getLeft
-**public**[String](../../../../ava/lang/String.md) | getLoginHTML
-**public**[String](../../../../ava/lang/String.md) | getLogoutHTML
-**public**[String](../../../../ava/lang/String.md) | getName
-**public****int** | getSeen
-**public**[String](../../../../ava/lang/String.md) | getSnippet
-**public****long** | getStart
-**public**[String](../../../../ava/lang/String.md) | getToken
-**public**[String](../../../../ava/lang/String.md) | getURLEncodedToken
-**public****long** | getUntilStart
-**public****int** | getVersion
-**public****boolean** | isLogged
-**public****boolean** | isQualified
+**public static** [InitialValues](InitialValues.md) | get
+**public** [String](../../../../ava/lang/String.md) | getAdmin
+**public** **int** | getCS
+**public** [String](../../../../ava/lang/String.md) | getEmail
+**public** [String](../../../../ava/lang/String.md) | getInput
+**public** **long** | getLeft
+**public** [String](../../../../ava/lang/String.md) | getLoginHTML
+**public** [String](../../../../ava/lang/String.md) | getLogoutHTML
+**public** [String](../../../../ava/lang/String.md) | getName
+**public** **int** | getSeen
+**public** [String](../../../../ava/lang/String.md) | getSnippet
+**public** **long** | getStart
+**public** [String](../../../../ava/lang/String.md) | getToken
+**public** [String](../../../../ava/lang/String.md) | getURLEncodedToken
+**public** **long** | getUntilStart
+**public** **int** | getVersion
+**public** **boolean** | isLogged
+**public** **boolean** | isQualified
 
 
 ##Constructors

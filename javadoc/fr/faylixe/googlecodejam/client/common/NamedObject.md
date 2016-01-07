@@ -12,7 +12,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 Type | Method
  --- | --- 
-**public final**[String](../../../../ava/lang/String.md) | getName
+**public final** [String](../../../../ava/lang/String.md) | getName
 
 
 ##Methods

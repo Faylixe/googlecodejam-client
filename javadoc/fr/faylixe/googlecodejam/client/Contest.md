@@ -13,10 +13,10 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Type | Method
  --- | --- 
-**public****boolean** | equals
-**public static**[List](../../../ava/util/List.md) | get
-**public**[List](../../../ava/util/List.md) | getRounds
-**public****int** | hashCode
+**public** **boolean** | equals
+**public static** [List](../../../ava/util/List.md) | get
+**public** [List](../../../ava/util/List.md) | getRounds
+**public** **int** | hashCode
 
 Type | Name | Description
  --- | --- | --- 

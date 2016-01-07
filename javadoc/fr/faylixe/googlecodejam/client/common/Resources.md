@@ -11,10 +11,10 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 Type | Method
  --- | --- 
-**public static**[String](../../../../ava/lang/String.md) | getHTMLTemplate
-**public static**[String](../../../../ava/lang/String.md) | getResource
-**public static**[InputStream](../../../../ava/io/InputStream.md) | getResourceStream
-**public static**[String](../../../../ava/lang/String.md) | normalize
+**public static** [String](../../../../ava/lang/String.md) | getHTMLTemplate
+**public static** [String](../../../../ava/lang/String.md) | getResource
+**public static** [InputStream](../../../../ava/io/InputStream.md) | getResourceStream
+**public static** [String](../../../../ava/lang/String.md) | normalize
 
 
 ##Methods
