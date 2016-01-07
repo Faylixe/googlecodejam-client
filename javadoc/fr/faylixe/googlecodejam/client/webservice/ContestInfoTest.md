@@ -11,11 +11,13 @@ Test case for {@link ContestInfo} class.
 
 * **public** ContestInfoTest()
 
+####Methods
+
 Type | Method
  --- | --- 
-[ContestInfo](ContestInfo.md) | getTestContestInfo
-**void** | testContestInfoConsistency
-**void** | testContestInfoConsistency
+**public static**[ContestInfo](ContestInfo.md) | getTestContestInfo
+**public static****void** | testContestInfoConsistency
+**public****void** | testContestInfoConsistency
 
 
 ##Constructors

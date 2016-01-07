@@ -11,10 +11,12 @@ Test case for the {@link Round} class.
 
 * **public** RoundTest()
 
+####Methods
+
 Type | Method
  --- | --- 
-[Round](Round.md) | getTestRound
-**void** | testRoundConsistency
+**public static**[Round](Round.md) | getTestRound
+**public****void** | testRoundConsistency
 
 
 ##Constructors

@@ -13,14 +13,16 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 * **public** SubmitResponse()
 
+####Methods
+
 Type | Method
  --- | --- 
-**boolean** | equals
-**int** | getInputId
-[String](../../../../ava/lang/String.md) | getMessage
-**int** | getProblemId
-**int** | hashCode
-**boolean** | isSuccess
+**public****boolean** | equals
+**public****int** | getInputId
+**public**[String](../../../../ava/lang/String.md) | getMessage
+**public****int** | getProblemId
+**public****int** | hashCode
+**public****boolean** | isSuccess
 
 
 ##Constructors

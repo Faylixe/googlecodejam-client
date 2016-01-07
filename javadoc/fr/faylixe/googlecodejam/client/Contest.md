@@ -9,12 +9,14 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Summary
 
+####Methods
+
 Type | Method
  --- | --- 
-**boolean** | equals
-[List](../../../ava/util/List.md) | get
-[List](../../../ava/util/List.md) | getRounds
-**int** | hashCode
+**public****boolean** | equals
+**public static**[List](../../../ava/util/List.md) | get
+**public**[List](../../../ava/util/List.md) | getRounds
+**public****int** | hashCode
 
 Type | Name | Description
  --- | --- | --- 

@@ -8,9 +8,11 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Summary
 
+####Methods
+
 Type | Method
  --- | --- 
-[Options](../../../../rg/apache/commons/cli/Options.md) | createOptions
+**public static**[Options](../../../../rg/apache/commons/cli/Options.md) | createOptions
 
 Type | Name | Description
  --- | --- | --- 

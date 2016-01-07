@@ -13,7 +13,9 @@ Test case for the {@link ProblemInput} class.
 
 ####Methods
 
-* **public** **void** testProblemInputConsistency()
+Type | Method
+ --- | --- 
+**public****void** | testProblemInputConsistency
 
 
 ##Constructors

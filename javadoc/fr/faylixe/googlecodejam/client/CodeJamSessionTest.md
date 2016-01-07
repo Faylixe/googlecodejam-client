@@ -11,13 +11,15 @@ Test case for {@link CodeJamSession} class.
 
 * **public** CodeJamSessionTest()
 
+####Methods
+
 Type | Method
  --- | --- 
-[CodeJamSession](CodeJamSession.md) | getTestSession
-**void** | testContestAnalysis
-**void** | testDownload
-**void** | testSessionConsistency
-**void** | testSubmission
+**public static**[CodeJamSession](CodeJamSession.md) | getTestSession
+**public****void** | testContestAnalysis
+**public****void** | testDownload
+**public****void** | testSessionConsistency
+**public****void** | testSubmission
 
 
 ##Constructors

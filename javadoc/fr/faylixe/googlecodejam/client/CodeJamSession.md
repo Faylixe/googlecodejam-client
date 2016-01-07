@@ -14,19 +14,21 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Summary
 
+####Methods
+
 Type | Method
  --- | --- 
-[String](../../../ava/lang/String.md) | buildFilename
-[CodeJamSession](CodeJamSession.md) | createSession
-[InputStream](../../../ava/io/InputStream.md) | download
-[String](../../../ava/lang/String.md) | getContestAnalysis
-[ContestInfo](webservice/ContestInfo.md) | getContestInfo
-[Problem](webservice/Problem.md) | getProblem
-**boolean** | isActive
-**boolean** | isLogged
-**boolean** | isQualified
-[CodeJamSession](CodeJamSession.md) | refresh
-[SubmitResponse](webservice/SubmitResponse.md) | submit
+**public**[String](../../../ava/lang/String.md) | buildFilename
+**public static**[CodeJamSession](CodeJamSession.md) | createSession
+**public**[InputStream](../../../ava/io/InputStream.md) | download
+**public**[String](../../../ava/lang/String.md) | getContestAnalysis
+**public**[ContestInfo](webservice/ContestInfo.md) | getContestInfo
+**public**[Problem](webservice/Problem.md) | getProblem
+**public****boolean** | isActive
+**public****boolean** | isLogged
+**public****boolean** | isQualified
+**public**[CodeJamSession](CodeJamSession.md) | refresh
+**public**[SubmitResponse](webservice/SubmitResponse.md) | submit
 
 
 ##Methods

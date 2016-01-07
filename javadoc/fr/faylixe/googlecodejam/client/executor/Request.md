@@ -9,9 +9,11 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ##Summary
 
+####Methods
+
 Type | Method
  --- | --- 
-[String](../../../../ava/lang/String.md) | createBoundary
+**public static final**[String](../../../../ava/lang/String.md) | createBoundary
 
 Type | Name | Description
  --- | --- | --- 

@@ -7,9 +7,11 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Summary
 
+####Methods
+
 Type | Method
  --- | --- 
-**void** | main
+**public static****void** | main
 
 
 ##Methods

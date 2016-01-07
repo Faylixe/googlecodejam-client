@@ -9,13 +9,15 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Summary
 
+####Methods
+
 Type | Method
  --- | --- 
-**boolean** | equals
-[List](../../../ava/util/List.md) | get
-[String](../../../ava/lang/String.md) | getContestName
-[String](../../../ava/lang/String.md) | getURL
-**int** | hashCode
+**public****boolean** | equals
+**public static**[List](../../../ava/util/List.md) | get
+**public**[String](../../../ava/lang/String.md) | getContestName
+**public**[String](../../../ava/lang/String.md) | getURL
+**public****int** | hashCode
 
 Type | Name | Description
  --- | --- | --- 
