@@ -10,16 +10,16 @@
 
 ##Classes
 
-Name | Description
- --- | --- 
-[Round](Round.md) | <p>POJO cl
-[Contest](Contest.md) | <p>POJO cl
-[CodeJamSession](CodeJamSession.md) | {@link Cod
-[RoundTest](RoundTest.md) | Test case 
-[HttpRequestExecutorMock](HttpRequestExecutorMock.md) | Test case 
-[ContestTest](ContestTest.md) | Test case 
-[CodeJamSessionTest](CodeJamSessionTest.md) | Test case 
-[AllTests](AllTests.md) | 
+| Name |
+|  ---  |
+| [Round](Round.md) |
+| [Contest](Contest.md) |
+| [CodeJamSession](CodeJamSession.md) |
+| [RoundTest](RoundTest.md) |
+| [HttpRequestExecutorMock](HttpRequestExecutorMock.md) |
+| [ContestTest](ContestTest.md) |
+| [CodeJamSessionTest](CodeJamSessionTest.md) |
+| [AllTests](AllTests.md) |
 
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

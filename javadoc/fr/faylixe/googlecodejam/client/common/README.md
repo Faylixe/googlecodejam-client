@@ -5,12 +5,12 @@
 
 ##Classes
 
-Name | Description
- --- | --- 
-[Resources](Resources.md) | <p>Static 
-[NamedObject](NamedObject.md) | <p>Class t
-[HTMLConstant](HTMLConstant.md) | <p>Simple 
-[NamedObjectTest](NamedObjectTest.md) | Test case 
+| Name |
+|  ---  |
+| [Resources](Resources.md) |
+| [NamedObject](NamedObject.md) |
+| [HTMLConstant](HTMLConstant.md) |
+| [NamedObjectTest](NamedObjectTest.md) |
 
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
