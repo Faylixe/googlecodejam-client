@@ -9,7 +9,7 @@ Test case for {@link Contest} class.
 
 | Constructor |
 |  ---  |
-ContestTest | ()
+| **public**ContestTest() |
 
 Type | Method
  --- | --- 

@@ -9,7 +9,7 @@ Test case for the {@link ProblemInput} class.
 
 | Constructor |
 |  ---  |
-ProblemInputTest | ()
+| **public**ProblemInputTest() |
 
 Type | Method
  --- | --- 

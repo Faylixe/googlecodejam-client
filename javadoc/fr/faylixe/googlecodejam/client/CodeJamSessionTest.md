@@ -9,7 +9,7 @@ Test case for {@link CodeJamSession} class.
 
 | Constructor |
 |  ---  |
-CodeJamSessionTest | ()
+| **public**CodeJamSessionTest() |
 
 Type | Method
  --- | --- 

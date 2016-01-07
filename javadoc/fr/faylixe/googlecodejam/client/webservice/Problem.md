@@ -12,7 +12,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
-Problem | ()
+| **public**Problem() |
 
 Type | Method
  --- | --- 

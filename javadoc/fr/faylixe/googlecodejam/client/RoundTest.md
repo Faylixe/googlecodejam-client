@@ -9,7 +9,7 @@ Test case for the {@link Round} class.
 
 | Constructor |
 |  ---  |
-RoundTest | ()
+| **public**RoundTest() |
 
 Type | Method
  --- | --- 

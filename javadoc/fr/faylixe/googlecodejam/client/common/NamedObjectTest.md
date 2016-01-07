@@ -9,7 +9,7 @@ Test case for {@link NamedObject} class.
 
 | Constructor |
 |  ---  |
-NamedObjectTest | ()
+| **public**NamedObjectTest() |
 
 Type | Method
  --- | --- 

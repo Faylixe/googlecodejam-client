@@ -10,7 +10,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 | Constructor |
 |  ---  |
-ContestInfo | ()
+| **public**ContestInfo() |
 
 Type | Method
  --- | --- 

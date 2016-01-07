@@ -9,7 +9,7 @@ Test case for {@link InitialValues} class.
 
 | Constructor |
 |  ---  |
-InitialValuesTest | ()
+| **public**InitialValuesTest() |
 
 Type | Method
  --- | --- 

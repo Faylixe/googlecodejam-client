@@ -13,7 +13,7 @@ TODO Javadoc
 
 | Constructor |
 |  ---  |
-SeleniumCookieSupplier | (String, Supplier)
+| **public**SeleniumCookieSupplier(String, Supplier) |
 
 Type | Method
  --- | --- 
