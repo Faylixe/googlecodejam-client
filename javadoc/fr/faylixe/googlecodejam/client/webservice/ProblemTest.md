@@ -1,7 +1,7 @@
 #ProblemTest
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
-> [Object](../../../../java/lang/Object.md) > [ProblemTest](ProblemTest.md)
+> [Object](../../../../ava/lang/Object.md) > [ProblemTest](ProblemTest.md)
 
 Test case for the {@link Problem} class.
 

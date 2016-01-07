@@ -1,7 +1,7 @@
 #Request
 
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
-> [Object](../../../../java/lang/Object.md) > [Request](Request.md)
+> [Object](../../../../ava/lang/Object.md) > [Request](Request.md)
 
 <p>Simple class that exposes string constant
  relative to HTTP API for interacting with
@@ -11,7 +11,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 Type | Method
  --- | --- 
-[String](../../../../java/lang/String.md) | createBoundary
+[String](../../../../ava/lang/String.md) | createBoundary
 
 Type | Name | Description
  --- | --- | --- 

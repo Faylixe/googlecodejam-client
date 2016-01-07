@@ -1,7 +1,7 @@
 #CodeJamSession
 
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
-> [Object](../../../java/lang/Object.md) > [NamedObject](/common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
+> [Object](../../../ava/lang/Object.md) > [NamedObject](common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
 
 {@link CodeJamSession} is the main API entry point, which consists
  in logging to a code jam platform ``hostname`` and then providing
@@ -16,17 +16,17 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Type | Method
  --- | --- 
-[String](../../../java/lang/String.md) | buildFilename
+[String](../../../ava/lang/String.md) | buildFilename
 [CodeJamSession](CodeJamSession.md) | createSession
-[InputStream](../../../java/io/InputStream.md) | download
-[String](../../../java/lang/String.md) | getContestAnalysis
-[ContestInfo](/webservice/ContestInfo.md) | getContestInfo
-[Problem](/webservice/Problem.md) | getProblem
+[InputStream](../../../ava/io/InputStream.md) | download
+[String](../../../ava/lang/String.md) | getContestAnalysis
+[ContestInfo](webservice/ContestInfo.md) | getContestInfo
+[Problem](webservice/Problem.md) | getProblem
 **boolean** | isActive
 **boolean** | isLogged
 **boolean** | isQualified
 [CodeJamSession](CodeJamSession.md) | refresh
-[SubmitResponse](/webservice/SubmitResponse.md) | submit
+[SubmitResponse](webservice/SubmitResponse.md) | submit
 
 
 ##Methods
@@ -66,7 +66,7 @@ Type | Method
 
 #####Throws
 
-* [IOException](../../../java/io/IOException.md) If any error occurs while retrieving contest info or initial values.
+* [IOException](../../../ava/io/IOException.md) If any error occurs while retrieving contest info or initial values.
 
 ---
 ###download(ProblemInput)
@@ -87,7 +87,7 @@ Type | Method
 
 #####Throws
 
-* [IOException](../../../java/io/IOException.md) If any error occurs while downloading the file.
+* [IOException](../../../ava/io/IOException.md) If any error occurs while downloading the file.
 
 ---
 ###getContestAnalysis(Problem)
@@ -177,7 +177,7 @@ Type | Method
 
 #####Throws
 
-* [IOException](../../../java/io/IOException.md) If any error occurs while reloading a new session.
+* [IOException](../../../ava/io/IOException.md) If any error occurs while reloading a new session.
 
 ---
 ###submit(ProblemInput, File, File)
@@ -204,7 +204,7 @@ Type | Method
 
 #####Throws
 
-* [IOException](../../../java/io/IOException.md) If any error occurs while uploading data, or performing the request.
+* [IOException](../../../ava/io/IOException.md) If any error occurs while uploading data, or performing the request.
 
 ---
 ---

@@ -1,7 +1,7 @@
 #AllTests
 
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
-> [Object](../../../java/lang/Object.md) > [AllTests](AllTests.md)
+> [Object](../../../ava/lang/Object.md) > [AllTests](AllTests.md)
 
 
 

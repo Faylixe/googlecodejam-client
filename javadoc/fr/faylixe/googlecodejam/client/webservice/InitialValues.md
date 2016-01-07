@@ -1,7 +1,7 @@
 #InitialValues
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
-> [Object](../../../../java/lang/Object.md) > [InitialValues](InitialValues.md)
+> [Object](../../../../ava/lang/Object.md) > [InitialValues](InitialValues.md)
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
  command request, using Gson API.</p>
@@ -17,19 +17,19 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 Type | Method
  --- | --- 
 [InitialValues](InitialValues.md) | get
-[String](../../../../java/lang/String.md) | getAdmin
+[String](../../../../ava/lang/String.md) | getAdmin
 **int** | getCS
-[String](../../../../java/lang/String.md) | getEmail
-[String](../../../../java/lang/String.md) | getInput
+[String](../../../../ava/lang/String.md) | getEmail
+[String](../../../../ava/lang/String.md) | getInput
 **long** | getLeft
-[String](../../../../java/lang/String.md) | getLoginHTML
-[String](../../../../java/lang/String.md) | getLogoutHTML
-[String](../../../../java/lang/String.md) | getName
+[String](../../../../ava/lang/String.md) | getLoginHTML
+[String](../../../../ava/lang/String.md) | getLogoutHTML
+[String](../../../../ava/lang/String.md) | getName
 **int** | getSeen
-[String](../../../../java/lang/String.md) | getSnippet
+[String](../../../../ava/lang/String.md) | getSnippet
 **long** | getStart
-[String](../../../../java/lang/String.md) | getToken
-[String](../../../../java/lang/String.md) | getURLEncodedToken
+[String](../../../../ava/lang/String.md) | getToken
+[String](../../../../ava/lang/String.md) | getURLEncodedToken
 **long** | getUntilStart
 **int** | getVersion
 **boolean** | isLogged
@@ -64,7 +64,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 #####Throws
 
-* [IOException](../../../../java/io/IOException.md) If any error occurs during the associated HTTP request.
+* [IOException](../../../../ava/io/IOException.md) If any error occurs during the associated HTTP request.
 
 ---
 ###getAdmin()
@@ -198,7 +198,7 @@ Returns an URL encoded form of the middle ware token.
 
 #####Throws
 
-* [UnsupportedEncodingException](../../../../java/io/UnsupportedEncodingException.md) If target encoding is not supported.
+* [UnsupportedEncodingException](../../../../ava/io/UnsupportedEncodingException.md) If target encoding is not supported.
 
 ---
 ###getUntilStart()

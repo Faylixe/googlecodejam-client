@@ -1,7 +1,7 @@
 #RoundTest
 
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
-> [Object](../../../java/lang/Object.md) > [RoundTest](RoundTest.md)
+> [Object](../../../ava/lang/Object.md) > [RoundTest](RoundTest.md)
 
 Test case for the {@link Round} class.
 

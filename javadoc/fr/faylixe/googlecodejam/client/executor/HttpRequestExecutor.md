@@ -1,7 +1,7 @@
 #HttpRequestExecutor
 
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
-> [Object](../../../../java/lang/Object.md) > [HttpRequestExecutor](HttpRequestExecutor.md)
+> [Object](../../../../ava/lang/Object.md) > [HttpRequestExecutor](HttpRequestExecutor.md)
 
 <p>A {@link HttpRequestExecutor} is an abstraction
  on top of {@link HttpRequestFactory} that handles
@@ -11,14 +11,14 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 Type | Method
  --- | --- 
-[Part](../../../../com/google/api/client/http/Part.md) | buildDataPart
-[Part](../../../../com/google/api/client/http/Part.md) | buildFilePart
+[Part](../../../../om/google/api/client/http/Part.md) | buildDataPart
+[Part](../../../../om/google/api/client/http/Part.md) | buildFilePart
 [HttpRequestExecutor](HttpRequestExecutor.md) | create
 [HttpRequestExecutor](HttpRequestExecutor.md) | create
-[String](../../../../java/lang/String.md) | get
-[String](../../../../java/lang/String.md) | getHostname
-[HttpRequest](../../../../com/google/api/client/http/HttpRequest.md) | getRequest
-[String](../../../../java/lang/String.md) | post
+[String](../../../../ava/lang/String.md) | get
+[String](../../../../ava/lang/String.md) | getHostname
+[HttpRequest](../../../../om/google/api/client/http/HttpRequest.md) | getRequest
+[String](../../../../ava/lang/String.md) | post
 
 
 ##Methods
@@ -58,7 +58,7 @@ Static factory method that creates a {@link Part} which contains
 
 #####Throws
 
-* [IOException](../../../../java/io/IOException.md) If any any error occurs during file type detection.
+* [IOException](../../../../ava/io/IOException.md) If any any error occurs during file type detection.
 
 ---
 ###create(String, String)
@@ -113,7 +113,7 @@ Performs a HTTP GET request to the given <tt>path</tt>
 
 #####Throws
 
-* [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
+* [IOException](../../../../ava/io/IOException.md) If any error occurs while performing request.
 
 ---
 ###getHostname()
@@ -143,7 +143,7 @@ Creates and returns a GET {@link HttpRequest} instance
 
 #####Throws
 
-* [IOException](../../../../java/io/IOException.md) If any error occurs while creating the GET request.
+* [IOException](../../../../ava/io/IOException.md) If any error occurs while creating the GET request.
 
 ---
 ###post(String, HttpContent)
@@ -164,7 +164,7 @@ Performs a HTTP POST request to the given <tt>path</tt>
 
 #####Throws
 
-* [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
+* [IOException](../../../../ava/io/IOException.md) If any error occurs while performing request.
 
 ---
 ---

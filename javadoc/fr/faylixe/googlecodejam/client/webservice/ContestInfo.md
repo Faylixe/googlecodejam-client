@@ -1,7 +1,7 @@
 #ContestInfo
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
-> [Object](../../../../java/lang/Object.md) > [ContestInfo](ContestInfo.md)
+> [Object](../../../../ava/lang/Object.md) > [ContestInfo](ContestInfo.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API.</p>
@@ -16,7 +16,7 @@ Type | Method
  --- | --- 
 [ContestInfo](ContestInfo.md) | get
 [Problem](Problem.md) | getProblem
-[List](../../../../java/util/List.md) | getProblems
+[List](../../../../ava/util/List.md) | getProblems
 **int** | getVersion
 **boolean** | hasAnalysis
 **void** | validateObject
@@ -51,7 +51,7 @@ Static factory method that builds a {@link ContestInfo} instance
 
 #####Throws
 
-* [IOException](../../../../java/io/IOException.md) IF any error occurs while executing request.
+* [IOException](../../../../ava/io/IOException.md) IF any error occurs while executing request.
 
 ---
 ###getProblem(int)
@@ -70,7 +70,7 @@ Shortcut method for reducing law of Demeters issues.
 
 #####Throws
 
-* [ArrayIndexOutOfBoundsException](../../../../java/lang/ArrayIndexOutOfBoundsException.md) If the given index is not valid.
+* [ArrayIndexOutOfBoundsException](../../../../ava/lang/ArrayIndexOutOfBoundsException.md) If the given index is not valid.
 
 ---
 ###getProblems()

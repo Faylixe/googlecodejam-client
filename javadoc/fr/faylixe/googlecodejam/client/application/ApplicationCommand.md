@@ -1,7 +1,7 @@
 #ApplicationCommand
 
 Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
-> [Object](../../../../java/lang/Object.md) > [ApplicationCommand](ApplicationCommand.md)
+> [Object](../../../../ava/lang/Object.md) > [ApplicationCommand](ApplicationCommand.md)
 
 <p>This class contains static method that are
  executed from parsed command line argument in
