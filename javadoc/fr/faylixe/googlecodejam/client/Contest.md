@@ -21,12 +21,12 @@ Type | Name | Description
 
 ##Methods
 
-###(Object)
+###equals(Object)
 
 
 {@inheritDoc}
 ---
-###(HttpRequestExecutor)
+###get(HttpRequestExecutor)
 
 
 <p>Retrieves and returns a list of available
@@ -46,7 +46,7 @@ Type | Name | Description
 * [IOException](../../../java/io/IOException.md) If any error occurs during contest extraction process.
 
 ---
-###()
+###getRounds()
 
 
 <p>Getter that returns a immutable view
@@ -57,7 +57,7 @@ Type | Name | Description
 * List of the round of this contest.
 
 ---
-###()
+###hashCode()
 
 
 {@inheritDoc}

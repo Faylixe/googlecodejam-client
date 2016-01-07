@@ -20,7 +20,7 @@ Type | Name | Description
 
 ##Methods
 
-###()
+###createBoundary()
 
 
 Creates and returns a boundary for multipart request.

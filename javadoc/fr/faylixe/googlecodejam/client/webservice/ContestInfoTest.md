@@ -25,7 +25,7 @@ Type | Method
 
 ##Methods
 
-###()
+###getTestContestInfo()
 
 
 Retrieves the {@link ContestInfo} instance
@@ -37,7 +37,7 @@ Retrieves the {@link ContestInfo} instance
 * ContestInfo instance for testing.
 
 ---
-###(ContestInfo)
+###testContestInfoConsistency(ContestInfo)
 
 
 Ensures the given {@link ContestInfo} is
@@ -48,7 +48,7 @@ Ensures the given {@link ContestInfo} is
 * info {@link ContestInfo} instance to ensure consistency from.
 
 ---
-###()
+###testContestInfoConsistency()
 
 
 Ensures retrieved {@link ContestInfo} is

@@ -19,7 +19,7 @@ Type | Name | Description
 
 ##Methods
 
-###()
+###createOptions()
 
 
 Static factory method that creates the {@link Options} list

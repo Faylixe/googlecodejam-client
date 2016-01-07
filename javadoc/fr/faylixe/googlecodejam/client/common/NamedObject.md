@@ -14,7 +14,7 @@ Type | Method
 
 ##Methods
 
-###()
+###getName()
 
 
 Getter for the name of this object.

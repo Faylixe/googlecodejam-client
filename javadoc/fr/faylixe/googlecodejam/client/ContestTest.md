@@ -24,7 +24,7 @@ Type | Method
 
 ##Methods
 
-###()
+###getTestContests()
 
 
 Retrieves the contest instance that will
@@ -37,7 +37,7 @@ Retrieves the contest instance that will
 * Contest instance for testing.
 
 ---
-###()
+###testContestConsistency()
 
 
 Ensures retrieved contests are consistent.

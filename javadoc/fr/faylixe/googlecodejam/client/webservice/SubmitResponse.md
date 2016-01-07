@@ -28,12 +28,12 @@ Type | Method
 
 ##Methods
 
-###(Object)
+###equals(Object)
 
 
 {@inheritDoc}
 ---
-###()
+###getInputId()
 
 
 Getter for the submission identifier.
@@ -43,7 +43,7 @@ Getter for the submission identifier.
 * Target input identifier of this submission.
 
 ---
-###()
+###getMessage()
 
 
 Getter for the information message.
@@ -53,7 +53,7 @@ Getter for the information message.
 * Information message about submission.
 
 ---
-###()
+###getProblemId()
 
 
 Getter for the problem identifier.
@@ -63,12 +63,12 @@ Getter for the problem identifier.
 * Target problem identifier of this submission.
 
 ---
-###()
+###hashCode()
 
 
 {@inheritDoc}
 ---
-###()
+###isSuccess()
 
 
 Indicates if the submission was successful or not.

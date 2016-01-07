@@ -24,7 +24,7 @@ Type | Method
 
 ##Methods
 
-###()
+###getTestRound()
 
 
 Retrieves the round instance that will
@@ -36,7 +36,7 @@ Retrieves the round instance that will
 * Round instance for testing.
 
 ---
-###()
+###testRoundConsistency()
 
 
 Ensures retrieved rounds are consistent.

@@ -13,7 +13,7 @@ Type | Method
 
 ##Methods
 
-###(String[])
+###main(String[])
 
 
 Command line application entry point.

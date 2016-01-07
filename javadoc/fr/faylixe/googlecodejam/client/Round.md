@@ -22,12 +22,12 @@ Type | Name | Description
 
 ##Methods
 
-###(Object)
+###equals(Object)
 
 
 {@inheritDoc}
 ---
-###(Element, String)
+###get(Element, String)
 
 
 <p>Static factory methods that retrieves a list of round
@@ -44,7 +44,7 @@ Type | Name | Description
 * List of retrieved round.
 
 ---
-###()
+###getContestName()
 
 
 <p>Getter for the parent contest name.</p>
@@ -54,7 +54,7 @@ Type | Name | Description
 * Name of the parent contest.
 
 ---
-###()
+###getURL()
 
 
 <p>Getter for round dashboard URL.</p>
@@ -64,7 +64,7 @@ Type | Name | Description
 * URL of this round dashboard.
 
 ---
-###()
+###hashCode()
 
 
 {@inheritDoc}

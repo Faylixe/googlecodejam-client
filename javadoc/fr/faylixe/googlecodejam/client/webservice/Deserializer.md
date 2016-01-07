@@ -13,7 +13,7 @@ Type | Method
 
 ##Methods
 
-###(JsonElement, Type, JsonDeserializationContext)
+###deserialize(JsonElement, Type, JsonDeserializationContext)
 
 
 {@inheritDoc}

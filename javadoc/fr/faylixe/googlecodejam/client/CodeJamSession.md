@@ -30,7 +30,7 @@ Type | Method
 
 ##Methods
 
-###(ProblemInput)
+###buildFilename(ProblemInput)
 
 
 <p>Builds and returns a valid file name
@@ -46,7 +46,7 @@ Type | Method
 * Built file name.
 
 ---
-###(HttpRequestExecutor, Round)
+###createSession(HttpRequestExecutor, Round)
 
 
 <p>Static factory method that should be used for creating a session.
@@ -68,7 +68,7 @@ Type | Method
 * [IOException](../../../java/io/IOException.md) If any error occurs while retrieving contest info or initial values.
 
 ---
-###(ProblemInput)
+###download(ProblemInput)
 
 
 <p>Downloads and returns the stream of the
@@ -89,7 +89,7 @@ Type | Method
 * [IOException](../../../java/io/IOException.md) If any error occurs while downloading the file.
 
 ---
-###(Problem)
+###getContestAnalysis(Problem)
 
 
 <p>Returns the analysis for the given
@@ -105,7 +105,7 @@ Type | Method
 * Analysis if any.
 
 ---
-###()
+###getContestInfo()
 
 
 <p>Performs and returns a <tt>GET /</tt> request
@@ -116,7 +116,7 @@ Type | Method
 * Request response as a {@link ContestInfo} POJO.
 
 ---
-###(String)
+###getProblem(String)
 
 
 <p>Retrieves the problem associated
@@ -132,7 +132,7 @@ Type | Method
 * Corresponding problem if exist, <tt>null</tt> otherwise.
 
 ---
-###()
+###isActive()
 
 
 <p>Indiciates if the contest is currently active,
@@ -144,7 +144,7 @@ Type | Method
 * <tt>true</tt> if the contest is active, <tt>false</tt> otherwise.
 
 ---
-###()
+###isLogged()
 
 
 <p>Indicates if the current session is logged in or not.</p>
@@ -154,7 +154,7 @@ Type | Method
 * <tt>true</tt> if user is logged, <tt>false</tt> otherwise.
 
 ---
-###()
+###isQualified()
 
 
 <p>Indicates if the currently logged user is qualified
@@ -165,7 +165,7 @@ Type | Method
 * <tt>true</tt> if user is qualified, <tt>false</tt> otherwise.
 
 ---
-###()
+###refresh()
 
 
 <p>Reloads session components in order to prevent from any change.</p>
@@ -179,7 +179,7 @@ Type | Method
 * [IOException](../../../java/io/IOException.md) If any error occurs while reloading a new session.
 
 ---
-###(ProblemInput, File, File)
+###submit(ProblemInput, File, File)
 
 
 <p>Submits the given <tt>output</tt> file and the

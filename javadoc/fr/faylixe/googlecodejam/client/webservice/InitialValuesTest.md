@@ -24,7 +24,7 @@ Type | Method
 
 ##Methods
 
-###()
+###getTestInitialValues()
 
 
 Retrieves the {@link InitialValues}
@@ -36,7 +36,7 @@ Retrieves the {@link InitialValues}
 * Instance to use for testing.
 
 ---
-###()
+###testInitialValuesConsistency()
 
 
 Ensures retrieved {@link InitialValues} are

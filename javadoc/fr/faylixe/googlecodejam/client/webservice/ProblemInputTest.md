@@ -23,7 +23,7 @@ Type | Method
 
 ##Methods
 
-###()
+###testProblemInputConsistency()
 
 
 Ensures retrieved {@link ProblemInput}

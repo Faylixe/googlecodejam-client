@@ -24,7 +24,7 @@ Type | Method
 
 ##Methods
 
-###()
+###getTestProblem()
 
 
 Retrieves the {@link Problem} instance
@@ -36,7 +36,7 @@ Retrieves the {@link Problem} instance
 * Problem instance for testing.
 
 ---
-###()
+###testProblemConsistency()
 
 
 Ensures retrieved {@link Problem} is

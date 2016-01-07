@@ -24,12 +24,12 @@ Type | Method
 
 ##Methods
 
-###()
+###testDefault()
 
 
 Test named object behavior from default instantiation.
 ---
-###()
+###testSerialized()
 
 
 Test named object behavior through JSON built object.

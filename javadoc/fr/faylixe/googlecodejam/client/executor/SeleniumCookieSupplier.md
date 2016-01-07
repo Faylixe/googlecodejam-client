@@ -36,12 +36,12 @@ Default constructor.
 
 ##Methods
 
-###()
+###cancel()
 
 
 Cancel the current operation.
 ---
-###(WebDriver)
+###checkCurrentState(WebDriver)
 
 
 Checks the state of the given <tt>driver</tt>,
@@ -52,12 +52,12 @@ Checks the state of the given <tt>driver</tt>,
 * driver Driver to check state from.
 
 ---
-###()
+###get()
 
 
 {@inheritDoc}
 ---
-###()
+###isRunning()
 
 
 Indicates if the login process is still running.

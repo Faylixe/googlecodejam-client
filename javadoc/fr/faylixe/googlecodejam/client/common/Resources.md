@@ -16,7 +16,7 @@ Type | Method
 
 ##Methods
 
-###()
+###getHTMLTemplate()
 
 
 Getter for the HTML template content.
@@ -30,7 +30,7 @@ Getter for the HTML template content.
 * [IOException](../../../../java/io/IOException.md) If any error occurs while reading template content.
 
 ---
-###(String)
+###getResource(String)
 
 
 Reads and returns resources content denoted by the
@@ -46,7 +46,7 @@ Reads and returns resources content denoted by the
 * Resource content as {@link String}.
 
 ---
-###(String)
+###getResourceStream(String)
 
 
 Reads and returns resources content denoted by the
@@ -62,7 +62,7 @@ Reads and returns resources content denoted by the
 * Resource content as {@link InputStream}.
 
 ---
-###(String)
+###normalize(String)
 
 
 Normalizes the given <tt>name</tt> by removing

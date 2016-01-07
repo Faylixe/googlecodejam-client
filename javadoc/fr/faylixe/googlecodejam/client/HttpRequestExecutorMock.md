@@ -23,7 +23,7 @@ Type | Method
 
 ##Methods
 
-###()
+###getTestExecutor()
 
 
 Creates and returns a valid {@link HttpRequestExecutor}
