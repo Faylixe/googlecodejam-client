@@ -14,19 +14,19 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Summary
 
-####Methods
-
-* **public** [String](../../../ava/lang/String.md) buildFilename(ProblemInput)
-* **public static** [CodeJamSession](CodeJamSession.md) createSession(HttpRequestExecutor, Round)
-* **public** [InputStream](../../../ava/io/InputStream.md) download(ProblemInput)
-* **public** [String](../../../ava/lang/String.md) getContestAnalysis(Problem)
-* **public** [ContestInfo](webservice/ContestInfo.md) getContestInfo()
-* **public** [Problem](webservice/Problem.md) getProblem(String)
-* **public** **boolean** isActive()
-* **public** **boolean** isLogged()
-* **public** **boolean** isQualified()
-* **public** [CodeJamSession](CodeJamSession.md) refresh()
-* **public** [SubmitResponse](webservice/SubmitResponse.md) submit(ProblemInput, File, File)
+Type | Method
+ --- | --- 
+[String](../../../ava/lang/String.md) | buildFilename
+[CodeJamSession](CodeJamSession.md) | createSession
+[InputStream](../../../ava/io/InputStream.md) | download
+[String](../../../ava/lang/String.md) | getContestAnalysis
+[ContestInfo](webservice/ContestInfo.md) | getContestInfo
+[Problem](webservice/Problem.md) | getProblem
+**boolean** | isActive
+**boolean** | isLogged
+**boolean** | isQualified
+[CodeJamSession](CodeJamSession.md) | refresh
+[SubmitResponse](webservice/SubmitResponse.md) | submit
 
 
 ##Methods

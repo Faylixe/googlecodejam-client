@@ -8,9 +8,9 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ##Summary
 
-####Methods
-
-* **public final** [String](../../../../ava/lang/String.md) getName()
+Type | Method
+ --- | --- 
+[String](../../../../ava/lang/String.md) | getName
 
 
 ##Methods

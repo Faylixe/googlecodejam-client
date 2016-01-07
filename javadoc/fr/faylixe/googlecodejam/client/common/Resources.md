@@ -7,12 +7,12 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ##Summary
 
-####Methods
-
-* **public static** [String](../../../../ava/lang/String.md) getHTMLTemplate()
-* **public static** [String](../../../../ava/lang/String.md) getResource(String)
-* **public static** [InputStream](../../../../ava/io/InputStream.md) getResourceStream(String)
-* **public static** [String](../../../../ava/lang/String.md) normalize(String)
+Type | Method
+ --- | --- 
+[String](../../../../ava/lang/String.md) | getHTMLTemplate
+[String](../../../../ava/lang/String.md) | getResource
+[InputStream](../../../../ava/io/InputStream.md) | getResourceStream
+[String](../../../../ava/lang/String.md) | normalize
 
 
 ##Methods

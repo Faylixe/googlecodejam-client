@@ -14,15 +14,15 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 * **public** ProblemInput()
 
-####Methods
-
-* **public** **boolean** equals(Object)
-* **public** **int** getDifficulty()
-* **public** **int** getNumber()
-* **public** **int** getPoints()
-* **public** [Problem](Problem.md) getProblem()
-* **public** [String](../../../../ava/lang/String.md) getSuffix()
-* **public** **int** hashCode()
+Type | Method
+ --- | --- 
+**boolean** | equals
+**int** | getDifficulty
+**int** | getNumber
+**int** | getPoints
+[Problem](Problem.md) | getProblem
+[String](../../../../ava/lang/String.md) | getSuffix
+**int** | hashCode
 
 Type | Name | Description
  --- | --- | --- 

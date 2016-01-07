@@ -11,9 +11,9 @@ Test case for the {@link HttpRequestExecutor} class.
 
 * **public** HttpRequestExecutorMock()
 
-####Methods
-
-* **public static** [HttpRequestExecutor](executor/HttpRequestExecutor.md) getTestExecutor()
+Type | Method
+ --- | --- 
+[HttpRequestExecutor](executor/HttpRequestExecutor.md) | getTestExecutor
 
 
 ##Constructors

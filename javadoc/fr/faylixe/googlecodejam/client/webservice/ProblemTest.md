@@ -11,10 +11,10 @@ Test case for the {@link Problem} class.
 
 * **public** ProblemTest()
 
-####Methods
-
-* **public static** [Problem](Problem.md) getTestProblem()
-* **public** **void** testProblemConsistency()
+Type | Method
+ --- | --- 
+[Problem](Problem.md) | getTestProblem
+**void** | testProblemConsistency
 
 
 ##Constructors

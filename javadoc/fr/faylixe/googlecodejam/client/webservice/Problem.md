@@ -14,20 +14,20 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 * **public** Problem()
 
-####Methods
-
-* **public** **boolean** equals(Object)
-* **public** [String](../../../../ava/lang/String.md) getBody()
-* **public** [String](../../../../ava/lang/String.md) getId()
-* **public** [String](../../../../ava/lang/String.md) getKey()
-* **public** [String](../../../../ava/lang/String.md) getNormalizedName()
-* **public** [ContestInfo](ContestInfo.md) getParent()
-* **public** [ProblemInput](ProblemInput.md) getProblemInput(int)
-* **public** [ProblemInput](ProblemInput.md) getProblemInput(String)
-* **public** [List](../../../../ava/util/List.md) getProblemInputs()
-* **public** [String](../../../../ava/lang/String.md) getType()
-* **public** **int** hashCode()
-* **public** **void** validateObject()
+Type | Method
+ --- | --- 
+**boolean** | equals
+[String](../../../../ava/lang/String.md) | getBody
+[String](../../../../ava/lang/String.md) | getId
+[String](../../../../ava/lang/String.md) | getKey
+[String](../../../../ava/lang/String.md) | getNormalizedName
+[ContestInfo](ContestInfo.md) | getParent
+[ProblemInput](ProblemInput.md) | getProblemInput
+[ProblemInput](ProblemInput.md) | getProblemInput
+[List](../../../../ava/util/List.md) | getProblemInputs
+[String](../../../../ava/lang/String.md) | getType
+**int** | hashCode
+**void** | validateObject
 
 
 ##Constructors

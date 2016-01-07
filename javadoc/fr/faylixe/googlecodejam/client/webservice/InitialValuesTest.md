@@ -11,10 +11,10 @@ Test case for {@link InitialValues} class.
 
 * **public** InitialValuesTest()
 
-####Methods
-
-* **public static** [InitialValues](InitialValues.md) getTestInitialValues()
-* **public** **void** testInitialValuesConsistency()
+Type | Method
+ --- | --- 
+[InitialValues](InitialValues.md) | getTestInitialValues
+**void** | testInitialValuesConsistency
 
 
 ##Constructors

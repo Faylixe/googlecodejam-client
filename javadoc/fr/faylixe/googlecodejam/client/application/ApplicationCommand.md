@@ -13,11 +13,11 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 * **public** ApplicationCommand()
 
-####Methods
-
-* **public static** **boolean** download(CommandLine)
-* **public static** **boolean** init()
-* **public static** **boolean** submit(CommandLine)
+Type | Method
+ --- | --- 
+**boolean** | download
+**boolean** | init
+**boolean** | submit
 
 
 ##Constructors

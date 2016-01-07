@@ -11,10 +11,10 @@ Test case for {@link NamedObject} class.
 
 * **public** NamedObjectTest()
 
-####Methods
-
-* **public** **void** testDefault()
-* **public** **void** testSerialized()
+Type | Method
+ --- | --- 
+**void** | testDefault
+**void** | testSerialized
 
 
 ##Constructors

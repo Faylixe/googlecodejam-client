@@ -15,12 +15,12 @@ TODO Javadoc
 
 * **public** SeleniumCookieSupplier(String, Supplier)
 
-####Methods
-
-* **public** **void** cancel()
-* **public** **void** checkCurrentState(WebDriver)
-* **public** [String](../../../../ava/lang/String.md) get()
-* **public** **boolean** isRunning()
+Type | Method
+ --- | --- 
+**void** | cancel
+**void** | checkCurrentState
+[String](../../../../ava/lang/String.md) | get
+**boolean** | isRunning
 
 
 ##Constructors
