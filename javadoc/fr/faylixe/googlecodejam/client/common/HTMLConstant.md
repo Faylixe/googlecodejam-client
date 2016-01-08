@@ -10,32 +10,32 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ##Fields
 ####ANCHOR
-HTML tag A.
 > **public static final** *String*
+HTML tag A.
 
 ####H3
-HTML tag H3.
 > **public static final** *String*
+HTML tag H3.
 
 ####HREF
-HTML attribute HREF.
 > **public static final** *String*
+HTML attribute HREF.
 
 ####IMG
-HTML tag IMG.
 > **public static final** *String*
+HTML tag IMG.
 
 ####SRC
-HTML attribute SRC.
 > **public static final** *String*
+HTML attribute SRC.
 
 ####TD
-HTML tag TD.
 > **public static final** *String*
+HTML tag TD.
 
 ####TR
-HTML tag TR.
 > **public static final** *String*
+HTML tag TR.
 
 ---
 

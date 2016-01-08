@@ -25,12 +25,12 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Fields
 ####LARGE
-Constant used for large input.
 > **public static final** *String*
+Constant used for large input.
 
 ####SMALL
-Constant used for small input.
 > **public static final** *String*
+Constant used for small input.
 
 
 ##Methods####equals(Object)

@@ -16,8 +16,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Fields
 ####DESCRIPTION_CLASS_NAME
-<p>Class name of the HTML description node.</p>
 > **public static final** *String*
+<p>Class name of the HTML description node.</p>
 
 
 ##Methods####equals(Object)

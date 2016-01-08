@@ -16,12 +16,12 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Fields
 ####CONTEST_CLASS_NAME
-<p>Class name of the element that contains contest data.</p>
 > **public static final** *String*
+<p>Class name of the element that contains contest data.</p>
 
 ####CONTEST_INDEX
-<p>URL of the contest index page.</p>
 > **public static final** *String*
+<p>URL of the contest index page.</p>
 
 
 ##Methods####equals(Object)
