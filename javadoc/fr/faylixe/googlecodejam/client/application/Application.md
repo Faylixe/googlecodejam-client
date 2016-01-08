@@ -1,24 +1,30 @@
 #Application
 
-Package [fr.faylixe.googlecodejam.client.application](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/application)<br>
- > [Application](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/application/Application.md)
+Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [Application](Application.md)
 
 <p>Main class that could be used as a command line program.</p>
 
-###Summary
+##Summary
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public static** **void** | [main](#mainjava.lang.string[])
 
 
-| Type | Method |
-| --- | --- |
-| **void** | main |
+##Methods
 
-###Fields
+###main(String[])
 
 
-###Methods
+Command line application entry point.
+#####Parameters
 
-####main
 
+* args Command line parameters provided.
 
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -1,28 +1,52 @@
 #ProblemTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
- > [ProblemTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ProblemTest.md)
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [ProblemTest](ProblemTest.md)
 
 Test case for the {@link Problem} class.
 
-###Summary
+##Summary
+
+####Constructors
+
+* **public** [ProblemTest](#problemtest)
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public static** [Problem](Problem.md) | [getTestProblem](#gettestproblem)
+**public** **void** | [testProblemConsistency](#testproblemconsistency)
 
 
-| Type | Method |
-| --- | --- |
-| [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) | getTestProblem |
-| **void** | testProblemConsistency |
+##Constructors
 
-###Fields
+###ProblemTest()
 
 
-###Methods
 
-####getTestProblem
+---
+
+##Methods
+
+###getTestProblem()
 
 
-####testProblemConsistency
+Retrieves the {@link Problem} instance
+ that will be used for testing. Using
+ test {@link ContestInfo} as reference.
+#####Returns
 
 
+* Problem instance for testing.
+
+---
+###testProblemConsistency()
+
+
+Ensures retrieved {@link Problem} is
+ consistent. Uses the first {@link Problem}
+ from {@link ContestInfo} test instance.
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -9,18 +9,18 @@
 ##Classes
 
 | Name |
-| --- |
-| [SubmitResponse](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/SubmitResponse.md) |
-| [ProblemInput](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ProblemInput.md) |
-| [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) |
-| [Deserializer](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem/Deserializer.md) |
-| [InitialValues](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValues.md) |
-| [Events](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Events.md) |
-| [ContestInfo](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ContestInfo.md) |
-| [ProblemTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ProblemTest.md) |
-| [ProblemInputTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ProblemInputTest.md) |
-| [InitialValuesTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValuesTest.md) |
-| [ContestInfoTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ContestInfoTest.md) |
+|  ---  |
+| [ContestInfo](ContestInfo.md) |
+| [Problem](Problem.md) |
+| [Deserializer](Deserializer.md) |
+| [ProblemInput](ProblemInput.md) |
+| [Events](Events.md) |
+| [SubmitResponse](SubmitResponse.md) |
+| [InitialValues](InitialValues.md) |
+| [ProblemTest](ProblemTest.md) |
+| [ContestInfoTest](ContestInfoTest.md) |
+| [ProblemInputTest](ProblemInputTest.md) |
+| [InitialValuesTest](InitialValuesTest.md) |
 
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

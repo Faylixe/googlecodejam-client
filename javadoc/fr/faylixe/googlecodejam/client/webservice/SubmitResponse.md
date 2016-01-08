@@ -1,46 +1,89 @@
 #SubmitResponse
 
-Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
- > [SubmitResponse](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/SubmitResponse.md)
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [SubmitResponse](SubmitResponse.md)
 
 <p>POJO that aims to be bind to the <tt>SubmitAnswer</tt>
  command request, using Gson API. Contains detail about
  the performed submission.</p>
 
-###Summary
+##Summary
+
+####Constructors
+
+* **public** [SubmitResponse](#submitresponse)
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public** **boolean** | [equals](#equalsobject)
+**public** **int** | [getInputId](#getinputid)
+**public** [String](../../../../java/lang/String.md) | [getMessage](#getmessage)
+**public** **int** | [getProblemId](#getproblemid)
+**public** **int** | [hashCode](#hashcode)
+**public** **boolean** | [isSuccess](#issuccess)
 
 
-| Type | Method |
-| --- | --- |
-| **boolean** | equals |
-| **int** | getInputId |
-|  | getMessage |
-| **int** | getProblemId |
-| **int** | hashCode |
-| **boolean** | isSuccess |
+##Constructors
 
-###Fields
+###SubmitResponse()
 
 
-###Methods
 
-####equals
+---
 
+##Methods
 
-####getInputId
-
-
-####getMessage
+###equals(Object)
 
 
-####getProblemId
+{@inheritDoc}
+---
+###getInputId()
 
 
-####hashCode
+Getter for the submission identifier.
+#####Returns
 
 
-####isSuccess
+* Target input identifier of this submission.
+
+---
+###getMessage()
 
 
+Getter for the information message.
+#####Returns
+
+
+* Information message about submission.
+
+---
+###getProblemId()
+
+
+Getter for the problem identifier.
+#####Returns
+
+
+* Target problem identifier of this submission.
+
+---
+###hashCode()
+
+
+{@inheritDoc}
+---
+###isSuccess()
+
+
+Indicates if the submission was successful or not.
+#####Returns
+
+
+* <tt>true</tt> if this submission was a success, <tt>false</tt> otherwise.
+
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

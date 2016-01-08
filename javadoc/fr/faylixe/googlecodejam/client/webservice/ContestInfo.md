@@ -1,45 +1,116 @@
 #ContestInfo
 
-Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
- > [ContestInfo](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ContestInfo.md)
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [ContestInfo](ContestInfo.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API.</p>
 
-###Summary
+##Summary
+
+####Constructors
+
+* **public** [ContestInfo](#contestinfo)
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public static** [ContestInfo](ContestInfo.md) | [get](#gethttprequestexecutor-round)
+**public** [Problem](Problem.md) | [getProblem](#getproblemint)
+**public** [List](../../../../java/util/List.md) | [getProblems](#getproblems)
+**public** **int** | [getVersion](#getversion)
+**public** **boolean** | [hasAnalysis](#hasanalysis)
+**public** **void** | [validateObject](#validateobject)
 
 
-| Type | Method |
-| --- | --- |
-| [ContestInfo](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ContestInfo.md) | get |
-| [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) | getProblem |
-|  | getProblems |
-| **int** | getVersion |
-| **boolean** | hasAnalysis |
-| **void** | validateObject |
+##Constructors
 
-###Fields
+###ContestInfo()
 
 
-###Methods
 
-####get
+---
 
+##Methods
 
-####getProblem
-
-
-####getProblems
+###get(HttpRequestExecutor, Round)
 
 
-####getVersion
+Static factory method that builds a {@link ContestInfo} instance
+ from the given <tt>round</tt> using a <tt>/ContestInfo</tt>
+ request from the round dashboard.
+#####Parameters
 
 
-####hasAnalysis
+* executor Executor instance used to perform the request.
+* round Round to retrieve {@link ContestInfo} from.
+
+#####Returns
 
 
-####validateObject
+* Built {@link ContestInfo} instance.
+
+#####Throws
+
+* [IOException](../../../../java/io/IOException.md) IF any error occurs while executing request.
+
+---
+###getProblem(int)
 
 
+Shortcut method for reducing law of Demeters issues.
+#####Parameters
+
+
+* index Index of the problem to retrieve.
+
+#####Returns
+
+
+* Problem instance required.
+
+#####Throws
+
+* [ArrayIndexOutOfBoundsException](../../../../java/lang/ArrayIndexOutOfBoundsException.md) If the given index is not valid.
+
+---
+###getProblems()
+
+
+Returns {@link Problem} instance associated
+ to this contest.
+#####Returns
+
+
+* List of problem this contest exposes.
+
+---
+###getVersion()
+
+
+Getter for the problems version.
+#####Returns
+
+
+* Integer that defines the problems version.
+
+---
+###hasAnalysis()
+
+
+Indicates if this contests already have
+ analysis committed or not.
+#####Returns
+
+
+* <tt>true</tt> if contest analysis is available, <tt>false</tt> otherwise.
+
+---
+###validateObject()
+
+
+{@inheritDoc}
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

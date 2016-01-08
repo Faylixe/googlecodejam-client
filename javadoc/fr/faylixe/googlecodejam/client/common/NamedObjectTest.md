@@ -1,28 +1,43 @@
 #NamedObjectTest
 
-Package [fr.faylixe.googlecodejam.client.common](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/common)<br>
- > [NamedObjectTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/common/NamedObjectTest.md)
+Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [NamedObjectTest](NamedObjectTest.md)
 
 Test case for {@link NamedObject} class.
 
-###Summary
+##Summary
+
+####Constructors
+
+* **public** [NamedObjectTest](#namedobjecttest)
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public** **void** | [testDefault](#testdefault)
+**public** **void** | [testSerialized](#testserialized)
 
 
-| Type | Method |
-| --- | --- |
-| **void** | testDefault |
-| **void** | testSerialized |
+##Constructors
 
-###Fields
+###NamedObjectTest()
 
 
-###Methods
 
-####testDefault
+---
+
+##Methods
+
+###testDefault()
 
 
-####testSerialized
+Test named object behavior from default instantiation.
+---
+###testSerialized()
 
 
+Test named object behavior through JSON built object.
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -1,25 +1,60 @@
 #ApplicationConstant
 
-Package [fr.faylixe.googlecodejam.client.application](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/application)<br>
- > [ApplicationConstant](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/application/ApplicationConstant.md)
+Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [ApplicationConstant](ApplicationConstant.md)
 
 <p>Constants used for managing command
  line parameters.</p>
 
-###Summary
+##Summary
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public static** [Options](../../../../org/apache/commons/cli/Options.md) | [createOptions](#createoptions)
+
+Type | Name | Description
+ --- | --- | --- 
 
 
-| Type | Method |
-| --- | --- |
-|  | createOptions |
+##Fields
 
-###Fields
+DOWNLOAD
+DOWNLOAD_DESCRIPTION
+DOWNLOAD_LONG
+INIT
+INIT_DESCRIPTION
+INIT_LONG
+INPUT_TYPE
+INPUT_TYPE_DESCRIPTION
+INPUT_TYPE_LONG
+OUTPUT
+OUTPUT_DESCRIPTION
+OUTPUT_LONG
+PROBLEM
+PROBLEM_DESCRIPTION
+PROBLEM_LONG
+SOURCE
+SOURCE_DESCRIPTION
+SOURCE_LONG
+SUBMIT
+SUBMIT_DESCRIPTION
+SUBMIT_LONG
+SYNTAX
+
+##Methods
+
+###createOptions()
 
 
-###Methods
+Static factory method that creates the {@link Options} list
+ for the command line arguments parsing.
+#####Returns
 
-####createOptions
 
+* Created options list.
 
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

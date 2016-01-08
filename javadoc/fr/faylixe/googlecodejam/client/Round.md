@@ -1,42 +1,80 @@
 #Round
 
-Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client)<br>
- > [NamedObject](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/common/NamedObject.md) > [Round](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/Round.md)
+Package [fr.faylixe.googlecodejam.client](README.md)<br>
+> [Object](../../../java/lang/Object.md) > [NamedObject](/common/NamedObject.md) > [Round](Round.md)
 
 <p>POJO class that represents a Google Jam {@link Round}.
  A {@link Round} is defined by a name, and a dashboard
  URL.</p>
 
-###Summary
+##Summary
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public** **boolean** | [equals](#equalsobject)
+**public static** [List](../../../java/util/List.md) | [get](#getelement-string)
+**public** [String](../../../java/lang/String.md) | [getContestName](#getcontestname)
+**public** [String](../../../java/lang/String.md) | [getURL](#geturl)
+**public** **int** | [hashCode](#hashcode)
+
+Type | Name | Description
+ --- | --- | --- 
 
 
-| Type | Method |
-| --- | --- |
-| **boolean** | equals |
-|  | get |
-|  | getContestName |
-|  | getURL |
-| **int** | hashCode |
+##Fields
 
-###Fields
+DESCRIPTION_CLASS_NAME
+
+##Methods
+
+###equals(Object)
 
 
-###Methods
-
-####equals
-
-
-####get
+{@inheritDoc}
+---
+###get(Element, String)
 
 
-####getContestName
+<p>Static factory methods that retrieves a list of round
+ from the given JSoup <tt>contest</tt> node.</p>
+#####Parameters
 
 
-####getURL
+* contest Root element of the contest in the contest index page.
+* parent Parent contest name.
+
+#####Returns
 
 
-####hashCode
+* List of retrieved round.
+
+---
+###getContestName()
 
 
+<p>Getter for the parent contest name.</p>
+#####Returns
+
+
+* Name of the parent contest.
+
+---
+###getURL()
+
+
+<p>Getter for round dashboard URL.</p>
+#####Returns
+
+
+* URL of this round dashboard.
+
+---
+###hashCode()
+
+
+{@inheritDoc}
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

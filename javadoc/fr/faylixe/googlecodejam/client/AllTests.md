@@ -1,20 +1,23 @@
 #AllTests
 
-Package [fr.faylixe.googlecodejam.client](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client)<br>
- > [AllTests](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/AllTests.md)
+Package [fr.faylixe.googlecodejam.client](README.md)<br>
+> [Object](../../../java/lang/Object.md) > [AllTests](AllTests.md)
 
 
 
-###Summary
+##Summary
+
+####Constructors
+
+* **public** [AllTests](#alltests)
 
 
-| Type | Method |
-| --- | --- |
+##Constructors
 
-###Fields
+###AllTests()
 
 
-###Methods
 
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

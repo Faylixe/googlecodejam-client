@@ -1,24 +1,39 @@
 #ProblemInputTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
- > [ProblemInputTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ProblemInputTest.md)
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [ProblemInputTest](ProblemInputTest.md)
 
 Test case for the {@link ProblemInput} class.
 
-###Summary
+##Summary
+
+####Constructors
+
+* **public** [ProblemInputTest](#probleminputtest)
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public** **void** | [testProblemInputConsistency](#testprobleminputconsistency)
 
 
-| Type | Method |
-| --- | --- |
-| **void** | testProblemInputConsistency |
+##Constructors
 
-###Fields
+###ProblemInputTest()
 
 
-###Methods
 
-####testProblemInputConsistency
+---
+
+##Methods
+
+###testProblemInputConsistency()
 
 
+Ensures retrieved {@link ProblemInput}
+ is consistent. Using the first input from
+ the test {@link Problem}.
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

@@ -1,95 +1,248 @@
 #InitialValues
 
-Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
- > [InitialValues](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValues.md)
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [InitialValues](InitialValues.md)
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
  command request, using Gson API.</p>
  
  TODO Ensures seen is not boolean.
 
-###Summary
+##Summary
+
+####Constructors
+
+* **public** [InitialValues](#initialvalues)
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public static** [InitialValues](InitialValues.md) | [get](#gethttprequestexecutor-round)
+**public** [String](../../../../java/lang/String.md) | [getAdmin](#getadmin)
+**public** **int** | [getCS](#getcs)
+**public** [String](../../../../java/lang/String.md) | [getEmail](#getemail)
+**public** [String](../../../../java/lang/String.md) | [getInput](#getinput)
+**public** **long** | [getLeft](#getleft)
+**public** [String](../../../../java/lang/String.md) | [getLoginHTML](#getloginhtml)
+**public** [String](../../../../java/lang/String.md) | [getLogoutHTML](#getlogouthtml)
+**public** [String](../../../../java/lang/String.md) | [getName](#getname)
+**public** **int** | [getSeen](#getseen)
+**public** [String](../../../../java/lang/String.md) | [getSnippet](#getsnippet)
+**public** **long** | [getStart](#getstart)
+**public** [String](../../../../java/lang/String.md) | [getToken](#gettoken)
+**public** [String](../../../../java/lang/String.md) | [getURLEncodedToken](#geturlencodedtoken)
+**public** **long** | [getUntilStart](#getuntilstart)
+**public** **int** | [getVersion](#getversion)
+**public** **boolean** | [isLogged](#islogged)
+**public** **boolean** | [isQualified](#isqualified)
 
 
-| Type | Method |
-| --- | --- |
-| [InitialValues](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValues.md) | get |
-|  | getAdmin |
-| **int** | getCS |
-|  | getEmail |
-|  | getInput |
-| **long** | getLeft |
-|  | getLoginHTML |
-|  | getLogoutHTML |
-|  | getName |
-| **int** | getSeen |
-|  | getSnippet |
-| **long** | getStart |
-|  | getToken |
-|  | getURLEncodedToken |
-| **long** | getUntilStart |
-| **int** | getVersion |
-| **boolean** | isLogged |
-| **boolean** | isQualified |
+##Constructors
 
-###Fields
+###InitialValues()
 
 
-###Methods
 
-####get
+---
 
+##Methods
 
-####getAdmin
-
-
-####getCS
+###get(HttpRequestExecutor, Round)
 
 
-####getEmail
+Static factory method that use the <tt>GetInitialValues</tt> command
+ for the given <tt>round</tt> to retrieve a valud {@link InitialValues} instance.
+#####Parameters
 
 
-####getInput
+* executor Executor instance to use for performing the associated request.
+* round Round to extract initial values from.
+
+#####Returns
 
 
-####getLeft
+* Created instance from request.
+
+#####Throws
+
+* [IOException](../../../../java/io/IOException.md) If any error occurs during the associated HTTP request.
+
+---
+###getAdmin()
 
 
-####getLoginHTML
+
+#####Returns
 
 
-####getLogoutHTML
+* To document
+
+---
+###getCS()
 
 
-####getName
+
+#####Returns
 
 
-####getSeen
+* To document
+
+---
+###getEmail()
 
 
-####getSnippet
+Getter for the user email.
+#####Returns
 
 
-####getStart
+* Email of this logged user.
+
+---
+###getInput()
 
 
-####getToken
+
+#####Returns
 
 
-####getURLEncodedToken
+* To document
+
+---
+###getLeft()
 
 
-####getUntilStart
+Getter for the time left.
+#####Returns
 
 
-####getVersion
+* Time left before contest finish (in second).
+
+---
+###getLoginHTML()
 
 
-####isLogged
+Getter for the login HTML.
+#####Returns
 
 
-####isQualified
+* HTML that contains the link of the login page.
+
+---
+###getLogoutHTML()
 
 
+Getter for the logout HTML.
+#####Returns
+
+
+* HTML that contains the link of the logout page.
+
+---
+###getName()
+
+
+Getter for the contest name.
+#####Returns
+
+
+* Current contest name.
+
+---
+###getSeen()
+
+
+
+#####Returns
+
+
+* To document
+
+---
+###getSnippet()
+
+
+
+#####Returns
+
+
+* To document
+
+---
+###getStart()
+
+
+Getter for the start date.
+#####Returns
+
+
+* Date of the contest start.
+
+---
+###getToken()
+
+
+
+#####Returns
+
+
+* Middleware token that is created when first call <tt>GetInitialValues</tt> command.
+
+---
+###getURLEncodedToken()
+
+
+Returns an URL encoded form of the middle ware token.
+#####Returns
+
+
+* Middleware token in an URL encoded form.
+
+#####Throws
+
+* [UnsupportedEncodingException](../../../../java/io/UnsupportedEncodingException.md) If target encoding is not supported.
+
+---
+###getUntilStart()
+
+
+Getter for the time left.
+#####Returns
+
+
+* Amout of time until this contest start.
+
+---
+###getVersion()
+
+
+Getter for the contest version.
+#####Returns
+
+
+* Contest version.
+
+---
+###isLogged()
+
+
+Indicates if user is currently logged in.
+#####Returns
+
+
+* <tt>true</tt> if user is logged in, <tt>false</tt> otherwise.
+
+---
+###isQualified()
+
+
+Indicates if the currently logged user
+ is qualified for the next round.
+#####Returns
+
+
+* <tt>true</tt> if the currently logged user is qualified for the next round, <tt>false</tt> otherwise.
+
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

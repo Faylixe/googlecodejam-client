@@ -1,54 +1,173 @@
 #HttpRequestExecutor
 
-Package [fr.faylixe.googlecodejam.client.executor](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/executor)<br>
- > [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md)
+Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [HttpRequestExecutor](HttpRequestExecutor.md)
 
 <p>A {@link HttpRequestExecutor} is an abstraction
  on top of {@link HttpRequestFactory} that handles
  GET and POST request.</p>
 
-###Summary
+##Summary
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public static** [Part](../../../../com/google/api/client/http/Part.md) | [buildDataPart](#builddatapartstring-string)
+**public static** [Part](../../../../com/google/api/client/http/Part.md) | [buildFilePart](#buildfilepartstring-file)
+**public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring-string)
+**public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring)
+**public** [String](../../../../java/lang/String.md) | [get](#getstring)
+**public** [String](../../../../java/lang/String.md) | [getHostname](#gethostname)
+**public** [HttpRequest](../../../../com/google/api/client/http/HttpRequest.md) | [getRequest](#getrequeststring)
+**public** [String](../../../../java/lang/String.md) | [post](#poststring-httpcontent)
 
 
-| Type | Method |
-| --- | --- |
-|  | buildDataPart |
-|  | buildFilePart |
-| [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md) | create |
-| [HttpRequestExecutor](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/executor/HttpRequestExecutor.md) | create |
-|  | get |
-|  | getHostname |
-|  | getRequest |
-|  | post |
+##Methods
 
-###Fields
+###buildDataPart(String, String)
 
 
-###Methods
-
-####buildDataPart
-
-
-####buildFilePart
+Static factory method that creates a {@link Part} which contains
+ simple form data.
+#####Parameters
 
 
-####create
+* name Name of the POST data to create part for.
+* data Value of the POST data to create part for.
+
+#####Returns
 
 
-####create
+* Created data part.
+
+---
+###buildFilePart(String, File)
 
 
-####get
+Static factory method that creates a {@link Part} which contains
+ file form data.
+#####Parameters
 
 
-####getHostname
+* name name Name of the POST file data to create part for.
+* file File of the POST data to create part for.
+
+#####Returns
 
 
-####getRequest
+* Created data part.
+
+#####Throws
+
+* [IOException](../../../../java/io/IOException.md) If any any error occurs during file type detection.
+
+---
+###create(String, String)
 
 
-####post
+Static factory method that creates a {@link HttpRequestExecutor} instance
+ which is set using the given <tt>cookie</tt> for building authenticated
+ HTTP request.
+#####Parameters
 
 
+* hostname Hostname to use for the created executor.
+* cookieValue Value of the SACSID cookie to use.
+
+#####Returns
+
+
+* Created instance.
+
+---
+###create(String)
+
+
+Static factory method that creates a non logged
+ {@link HttpRequestExecutor} instance.
+#####Parameters
+
+
+* hostname Hostname to use for the created executor.
+
+#####Returns
+
+
+* Created instance.
+
+---
+###get(String)
+
+
+Performs a HTTP GET request to the given <tt>path</tt>
+ relative to the internal target hostname. The response
+ is returned as a {@link String}.
+#####Parameters
+
+
+* path Relative server path to perform request to.
+
+#####Returns
+
+
+* Response content of the performed request.
+
+#####Throws
+
+* [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
+
+---
+###getHostname()
+
+
+Getter for the target hostname.
+#####Returns
+
+
+* Target hostname this executor is performing request to.
+
+---
+###getRequest(String)
+
+
+Creates and returns a GET {@link HttpRequest} instance
+ for the given <tt>path</tt> over the internal hostname.
+#####Parameters
+
+
+* path Path of the request to build.
+
+#####Returns
+
+
+* Built GET request.
+
+#####Throws
+
+* [IOException](../../../../java/io/IOException.md) If any error occurs while creating the GET request.
+
+---
+###post(String, HttpContent)
+
+
+Performs a HTTP POST request to the given <tt>path</tt>
+ relative to the internal target hostname.
+#####Parameters
+
+
+* path Relative server path to perform request to.
+* content POST content that will be sent.
+
+#####Returns
+
+
+* Response content of the performed request.
+
+#####Throws
+
+* [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
+
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

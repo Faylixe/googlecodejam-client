@@ -1,20 +1,23 @@
 #Events
 
-Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
- > [Events](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Events.md)
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [Events](Events.md)
 
 TODO : Fill with Event response attribute.
 
-###Summary
+##Summary
+
+####Constructors
+
+* **public** [Events](#events)
 
 
-| Type | Method |
-| --- | --- |
+##Constructors
 
-###Fields
+###Events()
 
 
-###Methods
 
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

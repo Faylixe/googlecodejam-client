@@ -1,20 +1,24 @@
 #HTMLConstant
 
-Package [fr.faylixe.googlecodejam.client.common](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/common)<br>
- > [HTMLConstant](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/common/HTMLConstant.md)
+Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [HTMLConstant](HTMLConstant.md)
 
 <p>Simple class that exposes HTML String related constants value.</p>
 
-###Summary
+##Summary
+
+Type | Name | Description
+ --- | --- | --- 
 
 
-| Type | Method |
-| --- | --- |
+##Fields
 
-###Fields
-
-
-###Methods
-
+ANCHOR
+H3
+HREF
+IMG
+SRC
+TD
+TR
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

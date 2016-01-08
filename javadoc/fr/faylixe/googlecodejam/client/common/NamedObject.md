@@ -1,25 +1,31 @@
 #NamedObject
 
-Package [fr.faylixe.googlecodejam.client.common](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/common)<br>
- > [NamedObject](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/common/NamedObject.md)
+Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [NamedObject](NamedObject.md)
 
 <p>Class that represents a object which
  could be identified by a name.</p>
 
-###Summary
+##Summary
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public final** [String](../../../../java/lang/String.md) | [getName](#getname)
 
 
-| Type | Method |
-| --- | --- |
-|  | getName |
+##Methods
 
-###Fields
+###getName()
 
 
-###Methods
+Getter for the name of this object.
+#####Returns
 
-####getName
 
+* Name of this object.
 
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

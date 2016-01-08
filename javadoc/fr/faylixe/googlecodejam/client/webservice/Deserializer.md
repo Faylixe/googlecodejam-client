@@ -1,24 +1,25 @@
 #Problem.Deserializer
 
-Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
- > [Deserializer](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem/Deserializer.md)
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [Deserializer](Deserializer.md)
 
 Custom deserializer that normalizes problem body content.
 
-###Summary
+##Summary
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public** [Problem](Problem.md) | [deserialize](#deserializejsonelement-type-jsondeserializationcontext)
 
 
-| Type | Method |
-| --- | --- |
-| [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) | deserialize |
+##Methods
 
-###Fields
+###deserialize(JsonElement, Type, JsonDeserializationContext)
 
 
-###Methods
-
-####deserialize
-
-
+{@inheritDoc}
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

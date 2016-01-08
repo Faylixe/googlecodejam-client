@@ -1,51 +1,109 @@
 #ProblemInput
 
-Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
- > [NamedObject](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/common/NamedObject.md) > [ProblemInput](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/ProblemInput.md)
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [NamedObject](common/NamedObject.md) > [ProblemInput](ProblemInput.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. {@link ProblemInput} instance belong
  to a {@link Problem} object, and describes input submission
  available for a given {@link Problem}.</p>
 
-###Summary
+##Summary
+
+####Constructors
+
+* **public** [ProblemInput](#probleminput)
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public** **boolean** | [equals](#equalsobject)
+**public** **int** | [getDifficulty](#getdifficulty)
+**public** **int** | [getNumber](#getnumber)
+**public** **int** | [getPoints](#getpoints)
+**public** [Problem](Problem.md) | [getProblem](#getproblem)
+**public** [String](../../../../java/lang/String.md) | [getSuffix](#getsuffix)
+**public** **int** | [hashCode](#hashcode)
+
+Type | Name | Description
+ --- | --- | --- 
 
 
-| Type | Method |
-| --- | --- |
-| **boolean** | equals |
-| **int** | getDifficulty |
-| **int** | getNumber |
-| **int** | getPoints |
-| [Problem](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/Problem.md) | getProblem |
-|  | getSuffix |
-| **int** | hashCode |
+##Constructors
 
-###Fields
+###ProblemInput()
 
 
-###Methods
 
-####equals
+---
 
+##Fields
 
-####getDifficulty
+LARGE
+SMALL
 
+##Methods
 
-####getNumber
-
-
-####getPoints
-
-
-####getProblem
+###equals(Object)
 
 
-####getSuffix
+{@inheritDoc}
+---
+###getDifficulty()
 
 
-####hashCode
+Getter for the problem input difficulty.
+#####Returns
 
 
+* Difficulty rank of this problem input.
+
+---
+###getNumber()
+
+
+Getter for the problem input number.
+#####Returns
+
+
+* TODO : Figure out what number is for.
+
+---
+###getPoints()
+
+
+Getter for the input number of point.
+#####Returns
+
+
+* Number of points this problem input deliver.
+
+---
+###getProblem()
+
+
+Getter for the parent problem of this input.
+#####Returns
+
+
+* Parent problem instance of this input.
+
+---
+###getSuffix()
+
+
+Getter for the input suffix.
+#####Returns
+
+
+* Suffix used for this problem input.
+
+---
+###hashCode()
+
+
+{@inheritDoc}
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

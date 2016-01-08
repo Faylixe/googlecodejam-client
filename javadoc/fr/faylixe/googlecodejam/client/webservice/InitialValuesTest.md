@@ -1,28 +1,52 @@
 #InitialValuesTest
 
-Package [fr.faylixe.googlecodejam.client.webservice](https://github.com/Faylixe/googlecodejam-client/blob/master/fr/faylixe/googlecodejam/client/webservice)<br>
- > [InitialValuesTest](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValuesTest.md)
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+> [Object](../../../../java/lang/Object.md) > [InitialValuesTest](InitialValuesTest.md)
 
 Test case for {@link InitialValues} class.
 
-###Summary
+##Summary
+
+####Constructors
+
+* **public** [InitialValuesTest](#initialvaluestest)
+
+####Methods
+
+Type and modifiers | Method signature
+ --- | --- 
+**public static** [InitialValues](InitialValues.md) | [getTestInitialValues](#gettestinitialvalues)
+**public** **void** | [testInitialValuesConsistency](#testinitialvaluesconsistency)
 
 
-| Type | Method |
-| --- | --- |
-| [InitialValues](https://github.com/Faylixe/googlecodejam-client/blob/master/javadoc/fr/faylixe/googlecodejam/client/webservice/InitialValues.md) | getTestInitialValues |
-| **void** | testInitialValuesConsistency |
+##Constructors
 
-###Fields
+###InitialValuesTest()
 
 
-###Methods
 
-####getTestInitialValues
+---
+
+##Methods
+
+###getTestInitialValues()
 
 
-####testInitialValuesConsistency
+Retrieves the {@link InitialValues}
+ instance that will be used for testing.
+ Using the test {@link Round} as reference.
+#####Returns
 
 
+* Instance to use for testing.
+
+---
+###testInitialValuesConsistency()
+
+
+Ensures retrieved {@link InitialValues} are
+ consistent. Using values from {@link Round}
+ test instance.
+---
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
