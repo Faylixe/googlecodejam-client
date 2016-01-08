@@ -27,7 +27,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###SubmitResponse()
+####SubmitResponse()
 
 
 
@@ -35,12 +35,12 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###equals(Object)
+####equals(Object)
 
 
 {@inheritDoc}
 ---
-###getInputId()
+####getInputId()
 
 
 Getter for the submission identifier.
@@ -50,7 +50,7 @@ Getter for the submission identifier.
 * Target input identifier of this submission.
 
 ---
-###getMessage()
+####getMessage()
 
 
 Getter for the information message.
@@ -60,7 +60,7 @@ Getter for the information message.
 * Information message about submission.
 
 ---
-###getProblemId()
+####getProblemId()
 
 
 Getter for the problem identifier.
@@ -70,12 +70,12 @@ Getter for the problem identifier.
 * Target problem identifier of this submission.
 
 ---
-###hashCode()
+####hashCode()
 
 
 {@inheritDoc}
 ---
-###isSuccess()
+####isSuccess()
 
 
 Indicates if the submission was successful or not.

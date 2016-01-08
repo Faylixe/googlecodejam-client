@@ -20,7 +20,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###HttpRequestExecutorMock()
+####HttpRequestExecutorMock()
 
 
 
@@ -28,7 +28,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###getTestExecutor()
+####getTestExecutor()
 
 
 Creates and returns a valid {@link HttpRequestExecutor}

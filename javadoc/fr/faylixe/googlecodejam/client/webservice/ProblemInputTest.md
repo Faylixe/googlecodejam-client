@@ -20,7 +20,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###ProblemInputTest()
+####ProblemInputTest()
 
 
 
@@ -28,7 +28,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###testProblemInputConsistency()
+####testProblemInputConsistency()
 
 
 Ensures retrieved {@link ProblemInput}

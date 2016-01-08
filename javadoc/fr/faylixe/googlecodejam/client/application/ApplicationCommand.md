@@ -24,7 +24,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###ApplicationCommand()
+####ApplicationCommand()
 
 
 
@@ -32,7 +32,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###download(CommandLine)
+####download(CommandLine)
 
 
 Downloads an input file, from the given user <tt>command</tt>.
@@ -50,7 +50,7 @@ Downloads an input file, from the given user <tt>command</tt>.
 * <tt>true</tt> if the command was executed successfully, <tt>false</tt> otherwise.
 
 ---
-###init()
+####init()
 
 
 Methods that is bound to the INIT command. Starts
@@ -62,7 +62,7 @@ Methods that is bound to the INIT command. Starts
 * <tt>true</tt> if the init command was correctly executed, <tt>false</tt> otherwise.
 
 ---
-###submit(CommandLine)
+####submit(CommandLine)
 
 
 Performs an output file submission using the <tt>SubmitAnswer</tt>

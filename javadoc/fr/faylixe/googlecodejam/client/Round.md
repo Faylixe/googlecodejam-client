@@ -25,19 +25,19 @@ Type and modifiers | Method signature
 
 ##Fields
 
-###DESCRIPTION_CLASS_NAME
+####DESCRIPTION_CLASS_NAME
 
 
 <p>Class name of the HTML description node.</p>
 
 ##Methods
 
-###equals(Object)
+####equals(Object)
 
 
 {@inheritDoc}
 ---
-###get(Element, String)
+####get(Element, String)
 
 
 <p>Static factory methods that retrieves a list of round
@@ -54,7 +54,7 @@ Type and modifiers | Method signature
 * List of retrieved round.
 
 ---
-###getContestName()
+####getContestName()
 
 
 <p>Getter for the parent contest name.</p>
@@ -64,7 +64,7 @@ Type and modifiers | Method signature
 * Name of the parent contest.
 
 ---
-###getURL()
+####getURL()
 
 
 <p>Getter for round dashboard URL.</p>
@@ -74,7 +74,7 @@ Type and modifiers | Method signature
 * URL of this round dashboard.
 
 ---
-###hashCode()
+####hashCode()
 
 
 {@inheritDoc}

@@ -33,7 +33,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###buildFilename(ProblemInput)
+####buildFilename(ProblemInput)
 
 
 <p>Builds and returns a valid file name
@@ -49,7 +49,7 @@ Type and modifiers | Method signature
 * Built file name.
 
 ---
-###createSession(HttpRequestExecutor, Round)
+####createSession(HttpRequestExecutor, Round)
 
 
 <p>Static factory method that should be used for creating a session.
@@ -71,7 +71,7 @@ Type and modifiers | Method signature
 * *IOException* If any error occurs while retrieving contest info or initial values.
 
 ---
-###download(ProblemInput)
+####download(ProblemInput)
 
 
 <p>Downloads and returns the stream of the
@@ -92,7 +92,7 @@ Type and modifiers | Method signature
 * *IOException* If any error occurs while downloading the file.
 
 ---
-###getContestAnalysis(Problem)
+####getContestAnalysis(Problem)
 
 
 <p>Returns the analysis for the given
@@ -108,7 +108,7 @@ Type and modifiers | Method signature
 * Analysis if any.
 
 ---
-###getContestInfo()
+####getContestInfo()
 
 
 <p>Performs and returns a <tt>GET /</tt> request
@@ -119,7 +119,7 @@ Type and modifiers | Method signature
 * Request response as a {@link ContestInfo} POJO.
 
 ---
-###getProblem(String)
+####getProblem(String)
 
 
 <p>Retrieves the problem associated
@@ -135,7 +135,7 @@ Type and modifiers | Method signature
 * Corresponding problem if exist, <tt>null</tt> otherwise.
 
 ---
-###isActive()
+####isActive()
 
 
 <p>Indiciates if the contest is currently active,
@@ -147,7 +147,7 @@ Type and modifiers | Method signature
 * <tt>true</tt> if the contest is active, <tt>false</tt> otherwise.
 
 ---
-###isLogged()
+####isLogged()
 
 
 <p>Indicates if the current session is logged in or not.</p>
@@ -157,7 +157,7 @@ Type and modifiers | Method signature
 * <tt>true</tt> if user is logged, <tt>false</tt> otherwise.
 
 ---
-###isQualified()
+####isQualified()
 
 
 <p>Indicates if the currently logged user is qualified
@@ -168,7 +168,7 @@ Type and modifiers | Method signature
 * <tt>true</tt> if user is qualified, <tt>false</tt> otherwise.
 
 ---
-###refresh()
+####refresh()
 
 
 <p>Reloads session components in order to prevent from any change.</p>
@@ -182,7 +182,7 @@ Type and modifiers | Method signature
 * *IOException* If any error occurs while reloading a new session.
 
 ---
-###submit(ProblemInput, File, File)
+####submit(ProblemInput, File, File)
 
 
 <p>Submits the given <tt>output</tt> file and the

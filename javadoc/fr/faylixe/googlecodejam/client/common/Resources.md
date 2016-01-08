@@ -19,7 +19,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###getHTMLTemplate()
+####getHTMLTemplate()
 
 
 Getter for the HTML template content.
@@ -33,7 +33,7 @@ Getter for the HTML template content.
 * *IOException* If any error occurs while reading template content.
 
 ---
-###getResource(String)
+####getResource(String)
 
 
 Reads and returns resources content denoted by the
@@ -49,7 +49,7 @@ Reads and returns resources content denoted by the
 * Resource content as {@link String}.
 
 ---
-###getResourceStream(String)
+####getResourceStream(String)
 
 
 Reads and returns resources content denoted by the
@@ -65,7 +65,7 @@ Reads and returns resources content denoted by the
 * Resource content as {@link InputStream}.
 
 ---
-###normalize(String)
+####normalize(String)
 
 
 Normalizes the given <tt>name</tt> by removing

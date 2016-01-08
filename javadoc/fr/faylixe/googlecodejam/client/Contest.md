@@ -24,23 +24,23 @@ Type and modifiers | Method signature
 
 ##Fields
 
-###CONTEST_CLASS_NAME
+####CONTEST_CLASS_NAME
 
 
 <p>Class name of the element that contains contest data.</p>
-###CONTEST_INDEX
+####CONTEST_INDEX
 
 
 <p>URL of the contest index page.</p>
 
 ##Methods
 
-###equals(Object)
+####equals(Object)
 
 
 {@inheritDoc}
 ---
-###get(HttpRequestExecutor)
+####get(HttpRequestExecutor)
 
 
 <p>Retrieves and returns a list of available
@@ -60,7 +60,7 @@ Type and modifiers | Method signature
 * *IOException* If any error occurs during contest extraction process.
 
 ---
-###getRounds()
+####getRounds()
 
 
 <p>Getter that returns a immutable view
@@ -71,7 +71,7 @@ Type and modifiers | Method signature
 * List of the round of this contest.
 
 ---
-###hashCode()
+####hashCode()
 
 
 {@inheritDoc}

@@ -21,7 +21,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###RoundTest()
+####RoundTest()
 
 
 
@@ -29,7 +29,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###getTestRound()
+####getTestRound()
 
 
 Retrieves the round instance that will
@@ -41,7 +41,7 @@ Retrieves the round instance that will
 * Round instance for testing.
 
 ---
-###testRoundConsistency()
+####testRoundConsistency()
 
 
 Ensures retrieved rounds are consistent.

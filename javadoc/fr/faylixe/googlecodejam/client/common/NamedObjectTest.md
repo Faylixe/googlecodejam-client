@@ -21,7 +21,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###NamedObjectTest()
+####NamedObjectTest()
 
 
 
@@ -29,12 +29,12 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###testDefault()
+####testDefault()
 
 
 Test named object behavior from default instantiation.
 ---
-###testSerialized()
+####testSerialized()
 
 
 Test named object behavior through JSON built object.

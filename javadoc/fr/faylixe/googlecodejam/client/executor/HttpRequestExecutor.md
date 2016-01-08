@@ -25,7 +25,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###buildDataPart(String, String)
+####buildDataPart(String, String)
 
 
 Static factory method that creates a {@link Part} which contains
@@ -42,7 +42,7 @@ Static factory method that creates a {@link Part} which contains
 * Created data part.
 
 ---
-###buildFilePart(String, File)
+####buildFilePart(String, File)
 
 
 Static factory method that creates a {@link Part} which contains
@@ -63,7 +63,7 @@ Static factory method that creates a {@link Part} which contains
 * *IOException* If any any error occurs during file type detection.
 
 ---
-###create(String, String)
+####create(String, String)
 
 
 Static factory method that creates a {@link HttpRequestExecutor} instance
@@ -81,7 +81,7 @@ Static factory method that creates a {@link HttpRequestExecutor} instance
 * Created instance.
 
 ---
-###create(String)
+####create(String)
 
 
 Static factory method that creates a non logged
@@ -97,7 +97,7 @@ Static factory method that creates a non logged
 * Created instance.
 
 ---
-###get(String)
+####get(String)
 
 
 Performs a HTTP GET request to the given <tt>path</tt>
@@ -118,7 +118,7 @@ Performs a HTTP GET request to the given <tt>path</tt>
 * *IOException* If any error occurs while performing request.
 
 ---
-###getHostname()
+####getHostname()
 
 
 Getter for the target hostname.
@@ -128,7 +128,7 @@ Getter for the target hostname.
 * Target hostname this executor is performing request to.
 
 ---
-###getRequest(String)
+####getRequest(String)
 
 
 Creates and returns a GET {@link HttpRequest} instance
@@ -148,7 +148,7 @@ Creates and returns a GET {@link HttpRequest} instance
 * *IOException* If any error occurs while creating the GET request.
 
 ---
-###post(String, HttpContent)
+####post(String, HttpContent)
 
 
 Performs a HTTP POST request to the given <tt>path</tt>

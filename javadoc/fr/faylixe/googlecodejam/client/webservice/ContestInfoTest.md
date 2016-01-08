@@ -22,7 +22,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###ContestInfoTest()
+####ContestInfoTest()
 
 
 
@@ -30,7 +30,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###getTestContestInfo()
+####getTestContestInfo()
 
 
 Retrieves the {@link ContestInfo} instance
@@ -42,7 +42,7 @@ Retrieves the {@link ContestInfo} instance
 * ContestInfo instance for testing.
 
 ---
-###testContestInfoConsistency(ContestInfo)
+####testContestInfoConsistency(ContestInfo)
 
 
 Ensures the given {@link ContestInfo} is
@@ -53,7 +53,7 @@ Ensures the given {@link ContestInfo} is
 * info {@link ContestInfo} instance to ensure consistency from.
 
 ---
-###testContestInfoConsistency()
+####testContestInfoConsistency()
 
 
 Ensures retrieved {@link ContestInfo} is

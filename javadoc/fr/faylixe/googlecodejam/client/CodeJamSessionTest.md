@@ -24,7 +24,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###CodeJamSessionTest()
+####CodeJamSessionTest()
 
 
 
@@ -32,7 +32,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###getTestSession()
+####getTestSession()
 
 
 Retrieves a valid {@link CodeJamSession}
@@ -44,26 +44,26 @@ Retrieves a valid {@link CodeJamSession}
 * Session instance that should be used for testing.
 
 ---
-###testContestAnalysis()
+####testContestAnalysis()
 
 
 Test for the {@link CodeJamSession#getContestAnalysis(Problem)}
  method, using the test {@link Problem} as a reference.
 ---
-###testDownload()
+####testDownload()
 
 
 Test for the {@link CodeJamSession#download(ProblemInput)}
  method, using the test {@link Problem} as a reference.
 ---
-###testSessionConsistency()
+####testSessionConsistency()
 
 
 Ensures that the internal contest info instance used
  is the one expected. Also test session related properties,
  like if user is qualified or is the contest is active.
 ---
-###testSubmission()
+####testSubmission()
 
 
 Test for the {@link CodeJamSession#submit(ProblemInput, File, File)}

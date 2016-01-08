@@ -21,7 +21,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###ContestTest()
+####ContestTest()
 
 
 
@@ -29,7 +29,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###getTestContests()
+####getTestContests()
 
 
 Retrieves the contest instance that will
@@ -42,7 +42,7 @@ Retrieves the contest instance that will
 * Contest instance for testing.
 
 ---
-###testContestConsistency()
+####testContestConsistency()
 
 
 Ensures retrieved contests are consistent.

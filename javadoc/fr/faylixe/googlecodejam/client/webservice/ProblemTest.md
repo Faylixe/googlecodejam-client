@@ -21,7 +21,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###ProblemTest()
+####ProblemTest()
 
 
 
@@ -29,7 +29,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###getTestProblem()
+####getTestProblem()
 
 
 Retrieves the {@link Problem} instance
@@ -41,7 +41,7 @@ Retrieves the {@link Problem} instance
 * Problem instance for testing.
 
 ---
-###testProblemConsistency()
+####testProblemConsistency()
 
 
 Ensures retrieved {@link Problem} is

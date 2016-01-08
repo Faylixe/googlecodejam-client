@@ -16,7 +16,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###main(String[])
+####main(String[])
 
 
 Command line application entry point.

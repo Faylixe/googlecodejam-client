@@ -21,7 +21,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###InitialValuesTest()
+####InitialValuesTest()
 
 
 
@@ -29,7 +29,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###getTestInitialValues()
+####getTestInitialValues()
 
 
 Retrieves the {@link InitialValues}
@@ -41,7 +41,7 @@ Retrieves the {@link InitialValues}
 * Instance to use for testing.
 
 ---
-###testInitialValuesConsistency()
+####testInitialValuesConsistency()
 
 
 Ensures retrieved {@link InitialValues} are

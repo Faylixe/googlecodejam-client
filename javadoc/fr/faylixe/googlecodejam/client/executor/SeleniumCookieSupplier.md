@@ -27,7 +27,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###SeleniumCookieSupplier(String, Supplier)
+####SeleniumCookieSupplier(String, Supplier)
 
 
 Default constructor.
@@ -41,12 +41,12 @@ Default constructor.
 
 ##Methods
 
-###cancel()
+####cancel()
 
 
 Cancel the current operation.
 ---
-###checkCurrentState(WebDriver)
+####checkCurrentState(WebDriver)
 
 
 Checks the state of the given <tt>driver</tt>,
@@ -57,12 +57,12 @@ Checks the state of the given <tt>driver</tt>,
 * driver Driver to check state from.
 
 ---
-###get()
+####get()
 
 
 {@inheritDoc}
 ---
-###isRunning()
+####isRunning()
 
 
 Indicates if the login process is still running.

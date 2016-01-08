@@ -26,7 +26,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###ContestInfo()
+####ContestInfo()
 
 
 
@@ -34,7 +34,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###get(HttpRequestExecutor, Round)
+####get(HttpRequestExecutor, Round)
 
 
 Static factory method that builds a {@link ContestInfo} instance
@@ -56,7 +56,7 @@ Static factory method that builds a {@link ContestInfo} instance
 * *IOException* IF any error occurs while executing request.
 
 ---
-###getProblem(int)
+####getProblem(int)
 
 
 Shortcut method for reducing law of Demeters issues.
@@ -75,7 +75,7 @@ Shortcut method for reducing law of Demeters issues.
 * *ArrayIndexOutOfBoundsException* If the given index is not valid.
 
 ---
-###getProblems()
+####getProblems()
 
 
 Returns {@link Problem} instance associated
@@ -86,7 +86,7 @@ Returns {@link Problem} instance associated
 * List of problem this contest exposes.
 
 ---
-###getVersion()
+####getVersion()
 
 
 Getter for the problems version.
@@ -96,7 +96,7 @@ Getter for the problems version.
 * Integer that defines the problems version.
 
 ---
-###hasAnalysis()
+####hasAnalysis()
 
 
 Indicates if this contests already have
@@ -107,7 +107,7 @@ Indicates if this contests already have
 * <tt>true</tt> if contest analysis is available, <tt>false</tt> otherwise.
 
 ---
-###validateObject()
+####validateObject()
 
 
 {@inheritDoc}

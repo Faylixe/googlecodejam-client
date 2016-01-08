@@ -17,7 +17,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###getName()
+####getName()
 
 
 Getter for the name of this object.

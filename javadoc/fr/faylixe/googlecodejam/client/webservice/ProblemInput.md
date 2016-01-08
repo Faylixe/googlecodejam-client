@@ -32,7 +32,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###ProblemInput()
+####ProblemInput()
 
 
 
@@ -40,23 +40,23 @@ Type and modifiers | Method signature
 
 ##Fields
 
-###LARGE
+####LARGE
 
 
 Constant used for large input.
-###SMALL
+####SMALL
 
 
 Constant used for small input.
 
 ##Methods
 
-###equals(Object)
+####equals(Object)
 
 
 {@inheritDoc}
 ---
-###getDifficulty()
+####getDifficulty()
 
 
 Getter for the problem input difficulty.
@@ -66,7 +66,7 @@ Getter for the problem input difficulty.
 * Difficulty rank of this problem input.
 
 ---
-###getNumber()
+####getNumber()
 
 
 Getter for the problem input number.
@@ -76,7 +76,7 @@ Getter for the problem input number.
 * TODO : Figure out what number is for.
 
 ---
-###getPoints()
+####getPoints()
 
 
 Getter for the input number of point.
@@ -86,7 +86,7 @@ Getter for the input number of point.
 * Number of points this problem input deliver.
 
 ---
-###getProblem()
+####getProblem()
 
 
 Getter for the parent problem of this input.
@@ -96,7 +96,7 @@ Getter for the parent problem of this input.
 * Parent problem instance of this input.
 
 ---
-###getSuffix()
+####getSuffix()
 
 
 Getter for the input suffix.
@@ -106,7 +106,7 @@ Getter for the input suffix.
 * Suffix used for this problem input.
 
 ---
-###hashCode()
+####hashCode()
 
 
 {@inheritDoc}

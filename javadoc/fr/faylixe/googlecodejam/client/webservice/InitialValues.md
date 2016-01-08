@@ -40,7 +40,7 @@ Type and modifiers | Method signature
 
 ##Constructors
 
-###InitialValues()
+####InitialValues()
 
 
 
@@ -48,7 +48,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###get(HttpRequestExecutor, Round)
+####get(HttpRequestExecutor, Round)
 
 
 Static factory method that use the <tt>GetInitialValues</tt> command
@@ -69,7 +69,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 * *IOException* If any error occurs during the associated HTTP request.
 
 ---
-###getAdmin()
+####getAdmin()
 
 
 
@@ -79,7 +79,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 * To document
 
 ---
-###getCS()
+####getCS()
 
 
 
@@ -89,7 +89,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 * To document
 
 ---
-###getEmail()
+####getEmail()
 
 
 Getter for the user email.
@@ -99,7 +99,7 @@ Getter for the user email.
 * Email of this logged user.
 
 ---
-###getInput()
+####getInput()
 
 
 
@@ -109,7 +109,7 @@ Getter for the user email.
 * To document
 
 ---
-###getLeft()
+####getLeft()
 
 
 Getter for the time left.
@@ -119,7 +119,7 @@ Getter for the time left.
 * Time left before contest finish (in second).
 
 ---
-###getLoginHTML()
+####getLoginHTML()
 
 
 Getter for the login HTML.
@@ -129,7 +129,7 @@ Getter for the login HTML.
 * HTML that contains the link of the login page.
 
 ---
-###getLogoutHTML()
+####getLogoutHTML()
 
 
 Getter for the logout HTML.
@@ -139,7 +139,7 @@ Getter for the logout HTML.
 * HTML that contains the link of the logout page.
 
 ---
-###getName()
+####getName()
 
 
 Getter for the contest name.
@@ -149,7 +149,7 @@ Getter for the contest name.
 * Current contest name.
 
 ---
-###getSeen()
+####getSeen()
 
 
 
@@ -159,7 +159,7 @@ Getter for the contest name.
 * To document
 
 ---
-###getSnippet()
+####getSnippet()
 
 
 
@@ -169,7 +169,7 @@ Getter for the contest name.
 * To document
 
 ---
-###getStart()
+####getStart()
 
 
 Getter for the start date.
@@ -179,7 +179,7 @@ Getter for the start date.
 * Date of the contest start.
 
 ---
-###getToken()
+####getToken()
 
 
 
@@ -189,7 +189,7 @@ Getter for the start date.
 * Middleware token that is created when first call <tt>GetInitialValues</tt> command.
 
 ---
-###getURLEncodedToken()
+####getURLEncodedToken()
 
 
 Returns an URL encoded form of the middle ware token.
@@ -203,7 +203,7 @@ Returns an URL encoded form of the middle ware token.
 * *UnsupportedEncodingException* If target encoding is not supported.
 
 ---
-###getUntilStart()
+####getUntilStart()
 
 
 Getter for the time left.
@@ -213,7 +213,7 @@ Getter for the time left.
 * Amout of time until this contest start.
 
 ---
-###getVersion()
+####getVersion()
 
 
 Getter for the contest version.
@@ -223,7 +223,7 @@ Getter for the contest version.
 * Contest version.
 
 ---
-###isLogged()
+####isLogged()
 
 
 Indicates if user is currently logged in.
@@ -233,7 +233,7 @@ Indicates if user is currently logged in.
 * <tt>true</tt> if user is logged in, <tt>false</tt> otherwise.
 
 ---
-###isQualified()
+####isQualified()
 
 
 Indicates if the currently logged user

@@ -16,7 +16,7 @@ Type and modifiers | Method signature
 
 ##Methods
 
-###deserialize(JsonElement, Type, JsonDeserializationContext)
+####deserialize(JsonElement, Type, JsonDeserializationContext)
 
 
 {@inheritDoc}
