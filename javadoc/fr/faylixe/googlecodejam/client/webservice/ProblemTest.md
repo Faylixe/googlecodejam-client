@@ -14,13 +14,14 @@ Test case for the {@link Problem} class.
 | **public static** [Problem](Problem.md) | [getTestProblem](#gettestproblem) || **public** **void** | [testProblemConsistency](#testproblemconsistency) |
 
 ##Constructors####ProblemTest()
-
+> 
 
 ---
 
 
-##Methods####getTestProblem()
-Retrieves the {@link Problem} instance
+##Methods
+####getTestProblem()
+> Retrieves the {@link Problem} instance
  that will be used for testing. Using
  test {@link ContestInfo} as reference.
 
@@ -30,7 +31,7 @@ Retrieves the {@link Problem} instance
 ---
 
 ####testProblemConsistency()
-Ensures retrieved {@link Problem} is
+> Ensures retrieved {@link Problem} is
  consistent. Uses the first {@link Problem}
  from {@link ContestInfo} test instance.
 

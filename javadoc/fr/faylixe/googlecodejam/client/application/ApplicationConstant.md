@@ -103,8 +103,9 @@ Long option for the submit action.
 Syntax of the command line script.
 
 
-##Methods####createOptions()
-Static factory method that creates the {@link Options} list
+##Methods
+####createOptions()
+> Static factory method that creates the {@link Options} list
  for the command line arguments parsing.
 
 #####Returns

@@ -14,13 +14,14 @@ Test case for the {@link ProblemInput} class.
 | **public** **void** | [testProblemInputConsistency](#testprobleminputconsistency) |
 
 ##Constructors####ProblemInputTest()
-
+> 
 
 ---
 
 
-##Methods####testProblemInputConsistency()
-Ensures retrieved {@link ProblemInput}
+##Methods
+####testProblemInputConsistency()
+> Ensures retrieved {@link ProblemInput}
  is consistent. Using the first input from
  the test {@link Problem}.
 

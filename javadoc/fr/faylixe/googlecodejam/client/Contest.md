@@ -24,13 +24,14 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 <p>URL of the contest index page.</p>
 
 
-##Methods####equals(Object)
-{@inheritDoc}
+##Methods
+####equals(Object)
+> {@inheritDoc}
 
 ---
 
 ####get(HttpRequestExecutor)
-<p>Retrieves and returns a list of available
+> <p>Retrieves and returns a list of available
  contest for the given <tt>hostname</tt>.</p>
 
 #####Parameters
@@ -44,7 +45,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####getRounds()
-<p>Getter that returns a immutable view
+> <p>Getter that returns a immutable view
  of the {@link Round} list.</p>
 
 #####Returns
@@ -53,7 +54,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####hashCode()
-{@inheritDoc}
+> {@inheritDoc}
 
 ---
 

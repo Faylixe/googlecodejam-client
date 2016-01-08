@@ -13,8 +13,9 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 | --- | --- |
 | **public static** *Part* | [buildDataPart](#builddatapartstring-string) || **public static** *Part* | [buildFilePart](#buildfilepartstring-file) || **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring-string) || **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring) || **public** *String* | [get](#getstring) || **public** *String* | [getHostname](#gethostname) || **public** *HttpRequest* | [getRequest](#getrequeststring) || **public** *String* | [post](#poststring-httpcontent) |
 
-##Methods####buildDataPart(String, String)
-Static factory method that creates a {@link Part} which contains
+##Methods
+####buildDataPart(String, String)
+> Static factory method that creates a {@link Part} which contains
  simple form data.
 
 #####Parameters
@@ -27,7 +28,7 @@ Static factory method that creates a {@link Part} which contains
 ---
 
 ####buildFilePart(String, File)
-Static factory method that creates a {@link Part} which contains
+> Static factory method that creates a {@link Part} which contains
  file form data.
 
 #####Parameters
@@ -42,7 +43,7 @@ Static factory method that creates a {@link Part} which contains
 ---
 
 ####create(String, String)
-Static factory method that creates a {@link HttpRequestExecutor} instance
+> Static factory method that creates a {@link HttpRequestExecutor} instance
  which is set using the given <tt>cookie</tt> for building authenticated
  HTTP request.
 
@@ -56,7 +57,7 @@ Static factory method that creates a {@link HttpRequestExecutor} instance
 ---
 
 ####create(String)
-Static factory method that creates a non logged
+> Static factory method that creates a non logged
  {@link HttpRequestExecutor} instance.
 
 #####Parameters
@@ -68,7 +69,7 @@ Static factory method that creates a non logged
 ---
 
 ####get(String)
-Performs a HTTP GET request to the given <tt>path</tt>
+> Performs a HTTP GET request to the given <tt>path</tt>
  relative to the internal target hostname. The response
  is returned as a {@link String}.
 
@@ -83,7 +84,7 @@ Performs a HTTP GET request to the given <tt>path</tt>
 ---
 
 ####getHostname()
-Getter for the target hostname.
+> Getter for the target hostname.
 
 #####Returns
 * Target hostname this executor is performing request to.
@@ -91,7 +92,7 @@ Getter for the target hostname.
 ---
 
 ####getRequest(String)
-Creates and returns a GET {@link HttpRequest} instance
+> Creates and returns a GET {@link HttpRequest} instance
  for the given <tt>path</tt> over the internal hostname.
 
 #####Parameters
@@ -105,7 +106,7 @@ Creates and returns a GET {@link HttpRequest} instance
 ---
 
 ####post(String, HttpContent)
-Performs a HTTP POST request to the given <tt>path</tt>
+> Performs a HTTP POST request to the given <tt>path</tt>
  relative to the internal target hostname.
 
 #####Parameters

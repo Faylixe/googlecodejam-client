@@ -15,13 +15,14 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **public static** [ContestInfo](ContestInfo.md) | [get](#gethttprequestexecutor-round) || **public** [Problem](Problem.md) | [getProblem](#getproblemint) || **public** *List* | [getProblems](#getproblems) || **public** **int** | [getVersion](#getversion) || **public** **boolean** | [hasAnalysis](#hasanalysis) || **public** **void** | [validateObject](#validateobject) |
 
 ##Constructors####ContestInfo()
-
+> 
 
 ---
 
 
-##Methods####get(HttpRequestExecutor, Round)
-Static factory method that builds a {@link ContestInfo} instance
+##Methods
+####get(HttpRequestExecutor, Round)
+> Static factory method that builds a {@link ContestInfo} instance
  from the given <tt>round</tt> using a <tt>/ContestInfo</tt>
  request from the round dashboard.
 
@@ -37,7 +38,7 @@ Static factory method that builds a {@link ContestInfo} instance
 ---
 
 ####getProblem(int)
-Shortcut method for reducing law of Demeters issues.
+> Shortcut method for reducing law of Demeters issues.
 
 #####Parameters
 * index Index of the problem to retrieve.
@@ -50,7 +51,7 @@ Shortcut method for reducing law of Demeters issues.
 ---
 
 ####getProblems()
-Returns {@link Problem} instance associated
+> Returns {@link Problem} instance associated
  to this contest.
 
 #####Returns
@@ -59,7 +60,7 @@ Returns {@link Problem} instance associated
 ---
 
 ####getVersion()
-Getter for the problems version.
+> Getter for the problems version.
 
 #####Returns
 * Integer that defines the problems version.
@@ -67,7 +68,7 @@ Getter for the problems version.
 ---
 
 ####hasAnalysis()
-Indicates if this contests already have
+> Indicates if this contests already have
  analysis committed or not.
 
 #####Returns
@@ -76,7 +77,7 @@ Indicates if this contests already have
 ---
 
 ####validateObject()
-{@inheritDoc}
+> {@inheritDoc}
 
 ---
 

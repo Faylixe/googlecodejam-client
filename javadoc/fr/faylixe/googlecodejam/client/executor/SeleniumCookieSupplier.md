@@ -18,7 +18,7 @@ TODO Javadoc
 | **public** **void** | [cancel](#cancel) || **public** **void** | [checkCurrentState](#checkcurrentstatewebdriver) || **public** *String* | [get](#get) || **public** **boolean** | [isRunning](#isrunning) |
 
 ##Constructors####SeleniumCookieSupplier(String, Supplier)
-Default constructor.
+> Default constructor.
 
 #####Parameters
 * target Target URL user should be redirected to.
@@ -27,13 +27,14 @@ Default constructor.
 ---
 
 
-##Methods####cancel()
-Cancel the current operation.
+##Methods
+####cancel()
+> Cancel the current operation.
 
 ---
 
 ####checkCurrentState(WebDriver)
-Checks the state of the given <tt>driver</tt>,
+> Checks the state of the given <tt>driver</tt>,
  ensuring if the required cookie has been settled or not.
 
 #####Parameters
@@ -42,12 +43,12 @@ Checks the state of the given <tt>driver</tt>,
 ---
 
 ####get()
-{@inheritDoc}
+> {@inheritDoc}
 
 ---
 
 ####isRunning()
-Indicates if the login process is still running.
+> Indicates if the login process is still running.
 
 #####Returns
 * <tt>true</tt> if the selenium instance is still running, <tt>false</tt> otherwise.

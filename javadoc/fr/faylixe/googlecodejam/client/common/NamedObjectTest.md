@@ -14,18 +14,19 @@ Test case for {@link NamedObject} class.
 | **public** **void** | [testDefault](#testdefault) || **public** **void** | [testSerialized](#testserialized) |
 
 ##Constructors####NamedObjectTest()
-
+> 
 
 ---
 
 
-##Methods####testDefault()
-Test named object behavior from default instantiation.
+##Methods
+####testDefault()
+> Test named object behavior from default instantiation.
 
 ---
 
 ####testSerialized()
-Test named object behavior through JSON built object.
+> Test named object behavior through JSON built object.
 
 ---
 

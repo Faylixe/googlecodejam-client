@@ -14,13 +14,14 @@ Test case for the {@link HttpRequestExecutor} class.
 | **public static** [HttpRequestExecutor](executor/HttpRequestExecutor.md) | [getTestExecutor](#gettestexecutor) |
 
 ##Constructors####HttpRequestExecutorMock()
-
+> 
 
 ---
 
 
-##Methods####getTestExecutor()
-Creates and returns a valid {@link HttpRequestExecutor}
+##Methods
+####getTestExecutor()
+> Creates and returns a valid {@link HttpRequestExecutor}
  instance that could be used for test. Such instance is not
  logged to any google services.
 

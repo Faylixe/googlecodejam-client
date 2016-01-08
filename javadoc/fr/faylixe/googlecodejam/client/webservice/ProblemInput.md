@@ -18,7 +18,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####Fields
 
 ##Constructors####ProblemInput()
-
+> 
 
 ---
 
@@ -33,13 +33,14 @@ Constant used for large input.
 Constant used for small input.
 
 
-##Methods####equals(Object)
-{@inheritDoc}
+##Methods
+####equals(Object)
+> {@inheritDoc}
 
 ---
 
 ####getDifficulty()
-Getter for the problem input difficulty.
+> Getter for the problem input difficulty.
 
 #####Returns
 * Difficulty rank of this problem input.
@@ -47,7 +48,7 @@ Getter for the problem input difficulty.
 ---
 
 ####getNumber()
-Getter for the problem input number.
+> Getter for the problem input number.
 
 #####Returns
 * TODO : Figure out what number is for.
@@ -55,7 +56,7 @@ Getter for the problem input number.
 ---
 
 ####getPoints()
-Getter for the input number of point.
+> Getter for the input number of point.
 
 #####Returns
 * Number of points this problem input deliver.
@@ -63,7 +64,7 @@ Getter for the input number of point.
 ---
 
 ####getProblem()
-Getter for the parent problem of this input.
+> Getter for the parent problem of this input.
 
 #####Returns
 * Parent problem instance of this input.
@@ -71,7 +72,7 @@ Getter for the parent problem of this input.
 ---
 
 ####getSuffix()
-Getter for the input suffix.
+> Getter for the input suffix.
 
 #####Returns
 * Suffix used for this problem input.
@@ -79,7 +80,7 @@ Getter for the input suffix.
 ---
 
 ####hashCode()
-{@inheritDoc}
+> {@inheritDoc}
 
 ---
 

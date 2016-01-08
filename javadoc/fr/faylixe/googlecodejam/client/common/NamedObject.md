@@ -12,8 +12,9 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 | --- | --- |
 | **public final** *String* | [getName](#getname) |
 
-##Methods####getName()
-Getter for the name of this object.
+##Methods
+####getName()
+> Getter for the name of this object.
 
 #####Returns
 * Name of this object.

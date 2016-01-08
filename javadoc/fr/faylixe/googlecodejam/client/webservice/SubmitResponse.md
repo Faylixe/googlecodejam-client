@@ -16,18 +16,19 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **public** **boolean** | [equals](#equalsobject) || **public** **int** | [getInputId](#getinputid) || **public** *String* | [getMessage](#getmessage) || **public** **int** | [getProblemId](#getproblemid) || **public** **int** | [hashCode](#hashcode) || **public** **boolean** | [isSuccess](#issuccess) |
 
 ##Constructors####SubmitResponse()
-
+> 
 
 ---
 
 
-##Methods####equals(Object)
-{@inheritDoc}
+##Methods
+####equals(Object)
+> {@inheritDoc}
 
 ---
 
 ####getInputId()
-Getter for the submission identifier.
+> Getter for the submission identifier.
 
 #####Returns
 * Target input identifier of this submission.
@@ -35,7 +36,7 @@ Getter for the submission identifier.
 ---
 
 ####getMessage()
-Getter for the information message.
+> Getter for the information message.
 
 #####Returns
 * Information message about submission.
@@ -43,7 +44,7 @@ Getter for the information message.
 ---
 
 ####getProblemId()
-Getter for the problem identifier.
+> Getter for the problem identifier.
 
 #####Returns
 * Target problem identifier of this submission.
@@ -51,12 +52,12 @@ Getter for the problem identifier.
 ---
 
 ####hashCode()
-{@inheritDoc}
+> {@inheritDoc}
 
 ---
 
 ####isSuccess()
-Indicates if the submission was successful or not.
+> Indicates if the submission was successful or not.
 
 #####Returns
 * <tt>true</tt> if this submission was a success, <tt>false</tt> otherwise.

@@ -14,13 +14,14 @@ Test case for {@link ContestInfo} class.
 | **public static** [ContestInfo](ContestInfo.md) | [getTestContestInfo](#gettestcontestinfo) || **public static** **void** | [testContestInfoConsistency](#testcontestinfoconsistencycontestinfo) || **public** **void** | [testContestInfoConsistency](#testcontestinfoconsistency) |
 
 ##Constructors####ContestInfoTest()
-
+> 
 
 ---
 
 
-##Methods####getTestContestInfo()
-Retrieves the {@link ContestInfo} instance
+##Methods
+####getTestContestInfo()
+> Retrieves the {@link ContestInfo} instance
  that will be used for testing. Using
  test {@link Round} as reference.
 
@@ -30,7 +31,7 @@ Retrieves the {@link ContestInfo} instance
 ---
 
 ####testContestInfoConsistency(ContestInfo)
-Ensures the given {@link ContestInfo} is
+> Ensures the given {@link ContestInfo} is
  consistent.
 
 #####Parameters
@@ -39,7 +40,7 @@ Ensures the given {@link ContestInfo} is
 ---
 
 ####testContestInfoConsistency()
-Ensures retrieved {@link ContestInfo} is
+> Ensures retrieved {@link ContestInfo} is
  consistent. Uses {@link ContestInfo} from
  target test {@link Round} instance.
 

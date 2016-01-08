@@ -20,13 +20,14 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 <p>Class name of the HTML description node.</p>
 
 
-##Methods####equals(Object)
-{@inheritDoc}
+##Methods
+####equals(Object)
+> {@inheritDoc}
 
 ---
 
 ####get(Element, String)
-<p>Static factory methods that retrieves a list of round
+> <p>Static factory methods that retrieves a list of round
  from the given JSoup <tt>contest</tt> node.</p>
 
 #####Parameters
@@ -39,7 +40,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####getContestName()
-<p>Getter for the parent contest name.</p>
+> <p>Getter for the parent contest name.</p>
 
 #####Returns
 * Name of the parent contest.
@@ -47,7 +48,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####getURL()
-<p>Getter for round dashboard URL.</p>
+> <p>Getter for round dashboard URL.</p>
 
 #####Returns
 * URL of this round dashboard.
@@ -55,7 +56,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####hashCode()
-{@inheritDoc}
+> {@inheritDoc}
 
 ---
 

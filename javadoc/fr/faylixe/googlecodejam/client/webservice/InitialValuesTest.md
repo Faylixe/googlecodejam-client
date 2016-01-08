@@ -14,13 +14,14 @@ Test case for {@link InitialValues} class.
 | **public static** [InitialValues](InitialValues.md) | [getTestInitialValues](#gettestinitialvalues) || **public** **void** | [testInitialValuesConsistency](#testinitialvaluesconsistency) |
 
 ##Constructors####InitialValuesTest()
-
+> 
 
 ---
 
 
-##Methods####getTestInitialValues()
-Retrieves the {@link InitialValues}
+##Methods
+####getTestInitialValues()
+> Retrieves the {@link InitialValues}
  instance that will be used for testing.
  Using the test {@link Round} as reference.
 
@@ -30,7 +31,7 @@ Retrieves the {@link InitialValues}
 ---
 
 ####testInitialValuesConsistency()
-Ensures retrieved {@link InitialValues} are
+> Ensures retrieved {@link InitialValues} are
  consistent. Using values from {@link Round}
  test instance.
 

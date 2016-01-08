@@ -18,8 +18,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 | --- | --- |
 | **public** *String* | [buildFilename](#buildfilenameprobleminput) || **public static** [CodeJamSession](CodeJamSession.md) | [createSession](#createsessionhttprequestexecutor-round) || **public** *InputStream* | [download](#downloadprobleminput) || **public** *String* | [getContestAnalysis](#getcontestanalysisproblem) || **public** [ContestInfo](webservice/ContestInfo.md) | [getContestInfo](#getcontestinfo) || **public** [Problem](webservice/Problem.md) | [getProblem](#getproblemstring) || **public** **boolean** | [isActive](#isactive) || **public** **boolean** | [isLogged](#islogged) || **public** **boolean** | [isQualified](#isqualified) || **public** [CodeJamSession](CodeJamSession.md) | [refresh](#refresh) || **public** [SubmitResponse](webservice/SubmitResponse.md) | [submit](#submitprobleminput-file-file) |
 
-##Methods####buildFilename(ProblemInput)
-<p>Builds and returns a valid file name
+##Methods
+####buildFilename(ProblemInput)
+> <p>Builds and returns a valid file name
  for the given problem <tt>input</tt>.</p>
 
 #####Parameters
@@ -31,7 +32,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####createSession(HttpRequestExecutor, Round)
-<p>Static factory method that should be used for creating a session.
+> <p>Static factory method that should be used for creating a session.
  Loads associated contest info and initial values from the given
  <tt>round</tt>, using the given <tt>executor</tt>.</p>
 
@@ -47,7 +48,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####download(ProblemInput)
-<p>Downloads and returns the stream of the
+> <p>Downloads and returns the stream of the
  input file associated to the given problem
  <tt>input</tt>.</p>
 
@@ -62,7 +63,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####getContestAnalysis(Problem)
-<p>Returns the analysis for the given
+> <p>Returns the analysis for the given
  <tt>problem</tt> if any.</p>
 
 #####Parameters
@@ -74,7 +75,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####getContestInfo()
-<p>Performs and returns a <tt>GET /</tt> request
+> <p>Performs and returns a <tt>GET /</tt> request
  in order to get all <tt>round</tt> detail.</p>
 
 #####Returns
@@ -83,7 +84,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####getProblem(String)
-<p>Retrieves the problem associated
+> <p>Retrieves the problem associated
  to the given <tt>letter</tt>.</p>
 
 #####Parameters
@@ -95,7 +96,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####isActive()
-<p>Indiciates if the contest is currently active,
+> <p>Indiciates if the contest is currently active,
  namely if competition is occuring at the current
  time, or not.</p>
 
@@ -105,7 +106,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####isLogged()
-<p>Indicates if the current session is logged in or not.</p>
+> <p>Indicates if the current session is logged in or not.</p>
 
 #####Returns
 * <tt>true</tt> if user is logged, <tt>false</tt> otherwise.
@@ -113,7 +114,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####isQualified()
-<p>Indicates if the currently logged user is qualified
+> <p>Indicates if the currently logged user is qualified
  for the next round or not.</p>
 
 #####Returns
@@ -122,7 +123,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####refresh()
-<p>Reloads session components in order to prevent from any change.</p>
+> <p>Reloads session components in order to prevent from any change.</p>
 
 #####Returns
 * A newly created session updated otherwise.
@@ -132,7 +133,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####submit(ProblemInput, File, File)
-<p>Submits the given <tt>output</tt> file and the
+> <p>Submits the given <tt>output</tt> file and the
  given <tt>source</tt> file for the given problem
  <tt>input</tt>. This method should be call only
  after a successful call to the {@link #download(ProblemInput)}

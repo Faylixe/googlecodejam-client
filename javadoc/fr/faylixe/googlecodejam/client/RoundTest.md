@@ -14,13 +14,14 @@ Test case for the {@link Round} class.
 | **public static** [Round](Round.md) | [getTestRound](#gettestround) || **public** **void** | [testRoundConsistency](#testroundconsistency) |
 
 ##Constructors####RoundTest()
-
+> 
 
 ---
 
 
-##Methods####getTestRound()
-Retrieves the round instance that will
+##Methods
+####getTestRound()
+> Retrieves the round instance that will
  be used for testing. Such round will be the first
  of the target test contest.
 
@@ -30,7 +31,7 @@ Retrieves the round instance that will
 ---
 
 ####testRoundConsistency()
-Ensures retrieved rounds are consistent.
+> Ensures retrieved rounds are consistent.
  Uses the target contest test first round.
 
 ---

@@ -11,8 +11,9 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 | --- | --- |
 | **public static** *String* | [getHTMLTemplate](#gethtmltemplate) || **public static** *String* | [getResource](#getresourcestring) || **public static** *InputStream* | [getResourceStream](#getresourcestreamstring) || **public static** *String* | [normalize](#normalizestring) |
 
-##Methods####getHTMLTemplate()
-Getter for the HTML template content.
+##Methods
+####getHTMLTemplate()
+> Getter for the HTML template content.
 
 #####Returns
 * HTML page template.
@@ -22,7 +23,7 @@ Getter for the HTML template content.
 ---
 
 ####getResource(String)
-Reads and returns resources content denoted by the
+> Reads and returns resources content denoted by the
  given <tt>path</tt>.
 
 #####Parameters
@@ -34,7 +35,7 @@ Reads and returns resources content denoted by the
 ---
 
 ####getResourceStream(String)
-Reads and returns resources content denoted by the
+> Reads and returns resources content denoted by the
  given <tt>path</tt>.
 
 #####Parameters
@@ -46,7 +47,7 @@ Reads and returns resources content denoted by the
 ---
 
 ####normalize(String)
-Normalizes the given <tt>name</tt> by removing
+> Normalizes the given <tt>name</tt> by removing
  all non alphanumeric character.
 
 #####Parameters

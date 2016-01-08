@@ -17,13 +17,14 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **public static** [InitialValues](InitialValues.md) | [get](#gethttprequestexecutor-round) || **public** *String* | [getAdmin](#getadmin) || **public** **int** | [getCS](#getcs) || **public** *String* | [getEmail](#getemail) || **public** *String* | [getInput](#getinput) || **public** **long** | [getLeft](#getleft) || **public** *String* | [getLoginHTML](#getloginhtml) || **public** *String* | [getLogoutHTML](#getlogouthtml) || **public** *String* | [getName](#getname) || **public** **int** | [getSeen](#getseen) || **public** *String* | [getSnippet](#getsnippet) || **public** **long** | [getStart](#getstart) || **public** *String* | [getToken](#gettoken) || **public** *String* | [getURLEncodedToken](#geturlencodedtoken) || **public** **long** | [getUntilStart](#getuntilstart) || **public** **int** | [getVersion](#getversion) || **public** **boolean** | [isLogged](#islogged) || **public** **boolean** | [isQualified](#isqualified) |
 
 ##Constructors####InitialValues()
-
+> 
 
 ---
 
 
-##Methods####get(HttpRequestExecutor, Round)
-Static factory method that use the <tt>GetInitialValues</tt> command
+##Methods
+####get(HttpRequestExecutor, Round)
+> Static factory method that use the <tt>GetInitialValues</tt> command
  for the given <tt>round</tt> to retrieve a valud {@link InitialValues} instance.
 
 #####Parameters
@@ -38,7 +39,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 ---
 
 ####getAdmin()
-
+> 
 
 #####Returns
 * To document
@@ -46,7 +47,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 ---
 
 ####getCS()
-
+> 
 
 #####Returns
 * To document
@@ -54,7 +55,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 ---
 
 ####getEmail()
-Getter for the user email.
+> Getter for the user email.
 
 #####Returns
 * Email of this logged user.
@@ -62,7 +63,7 @@ Getter for the user email.
 ---
 
 ####getInput()
-
+> 
 
 #####Returns
 * To document
@@ -70,7 +71,7 @@ Getter for the user email.
 ---
 
 ####getLeft()
-Getter for the time left.
+> Getter for the time left.
 
 #####Returns
 * Time left before contest finish (in second).
@@ -78,7 +79,7 @@ Getter for the time left.
 ---
 
 ####getLoginHTML()
-Getter for the login HTML.
+> Getter for the login HTML.
 
 #####Returns
 * HTML that contains the link of the login page.
@@ -86,7 +87,7 @@ Getter for the login HTML.
 ---
 
 ####getLogoutHTML()
-Getter for the logout HTML.
+> Getter for the logout HTML.
 
 #####Returns
 * HTML that contains the link of the logout page.
@@ -94,7 +95,7 @@ Getter for the logout HTML.
 ---
 
 ####getName()
-Getter for the contest name.
+> Getter for the contest name.
 
 #####Returns
 * Current contest name.
@@ -102,7 +103,7 @@ Getter for the contest name.
 ---
 
 ####getSeen()
-
+> 
 
 #####Returns
 * To document
@@ -110,7 +111,7 @@ Getter for the contest name.
 ---
 
 ####getSnippet()
-
+> 
 
 #####Returns
 * To document
@@ -118,7 +119,7 @@ Getter for the contest name.
 ---
 
 ####getStart()
-Getter for the start date.
+> Getter for the start date.
 
 #####Returns
 * Date of the contest start.
@@ -126,7 +127,7 @@ Getter for the start date.
 ---
 
 ####getToken()
-
+> 
 
 #####Returns
 * Middleware token that is created when first call <tt>GetInitialValues</tt> command.
@@ -134,7 +135,7 @@ Getter for the start date.
 ---
 
 ####getURLEncodedToken()
-Returns an URL encoded form of the middle ware token.
+> Returns an URL encoded form of the middle ware token.
 
 #####Returns
 * Middleware token in an URL encoded form.
@@ -144,7 +145,7 @@ Returns an URL encoded form of the middle ware token.
 ---
 
 ####getUntilStart()
-Getter for the time left.
+> Getter for the time left.
 
 #####Returns
 * Amout of time until this contest start.
@@ -152,7 +153,7 @@ Getter for the time left.
 ---
 
 ####getVersion()
-Getter for the contest version.
+> Getter for the contest version.
 
 #####Returns
 * Contest version.
@@ -160,7 +161,7 @@ Getter for the contest version.
 ---
 
 ####isLogged()
-Indicates if user is currently logged in.
+> Indicates if user is currently logged in.
 
 #####Returns
 * <tt>true</tt> if user is logged in, <tt>false</tt> otherwise.
@@ -168,7 +169,7 @@ Indicates if user is currently logged in.
 ---
 
 ####isQualified()
-Indicates if the currently logged user
+> Indicates if the currently logged user
  is qualified for the next round.
 
 #####Returns
