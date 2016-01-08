@@ -35,6 +35,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  contest for the given <tt>hostname</tt>.</p>
 **Parameters**
 * executor {@link HttpRequestExecutor} instance to use to retrieve contest index.
+
 **Returns**
 * List of contest extracted.
 **Throws**

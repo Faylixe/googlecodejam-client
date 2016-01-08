@@ -67,6 +67,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 > Shortcut method for reducing law of Demeters issues.
 **Parameters**
 * index Index of the problem input to retrieve.
+
 **Returns**
 * Problem input instance required.
 **Throws**
@@ -79,6 +80,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
  match the given <tt>type</tt>
 **Parameters**
 * type Type of the input to retrieve (usually small or large).
+
 **Returns**
 * Corresponding input if any, <tt>null</tt> otherwise.
 

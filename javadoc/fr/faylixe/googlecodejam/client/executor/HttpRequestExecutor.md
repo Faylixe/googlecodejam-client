@@ -20,6 +20,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 **Parameters**
 * name Name of the POST data to create part for.
 * data Value of the POST data to create part for.
+
 **Returns**
 * Created data part.
 
@@ -31,6 +32,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 **Parameters**
 * name name Name of the POST file data to create part for.
 * file File of the POST data to create part for.
+
 **Returns**
 * Created data part.
 **Throws**
@@ -45,6 +47,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 **Parameters**
 * hostname Hostname to use for the created executor.
 * cookieValue Value of the SACSID cookie to use.
+
 **Returns**
 * Created instance.
 
@@ -55,6 +58,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
  {@link HttpRequestExecutor} instance.
 **Parameters**
 * hostname Hostname to use for the created executor.
+
 **Returns**
 * Created instance.
 
@@ -66,6 +70,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
  is returned as a {@link String}.
 **Parameters**
 * path Relative server path to perform request to.
+
 **Returns**
 * Response content of the performed request.
 **Throws**
@@ -85,6 +90,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
  for the given <tt>path</tt> over the internal hostname.
 **Parameters**
 * path Path of the request to build.
+
 **Returns**
 * Built GET request.
 **Throws**
@@ -98,6 +104,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 **Parameters**
 * path Relative server path to perform request to.
 * content POST content that will be sent.
+
 **Returns**
 * Response content of the performed request.
 **Throws**

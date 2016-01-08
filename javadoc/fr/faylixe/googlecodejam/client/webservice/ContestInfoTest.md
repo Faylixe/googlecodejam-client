@@ -35,6 +35,7 @@ Test case for {@link ContestInfo} class.
 **Parameters**
 * info {@link ContestInfo} instance to ensure consistency from.
 
+
 ---
 
 ####testContestInfoConsistency()

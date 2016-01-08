@@ -24,6 +24,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  for the given problem <tt>input</tt>.</p>
 **Parameters**
 * input Input to retrieve file name from.
+
 **Returns**
 * Built file name.
 
@@ -36,6 +37,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 **Parameters**
 * executor {@link HttpRequestExecutor} instance to use.
 * round Contextual {@link Round} instance this session is bound to.
+
 **Returns**
 * Created session.
 **Throws**
@@ -49,6 +51,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  <tt>input</tt>.</p>
 **Parameters**
 * input Input to download file from.
+
 **Returns**
 * Stream to read which contains our downloaded file data.
 **Throws**
@@ -61,6 +64,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  <tt>problem</tt> if any.</p>
 **Parameters**
 * problem Problem to retrieve analysis from.
+
 **Returns**
 * Analysis if any.
 
@@ -79,6 +83,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  to the given <tt>letter</tt>.</p>
 **Parameters**
 * letter Letter that identifies the problem.
+
 **Returns**
 * Corresponding problem if exist, <tt>null</tt> otherwise.
 
@@ -129,6 +134,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 * input Input file to submit solution for.
 * output Output file produced by the algorithm.
 * source Source code file of the algorithm to submit.
+
 **Returns**
 * Request response, as a {@link SubmitResponse} instance.
 **Throws**

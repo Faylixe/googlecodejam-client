@@ -28,6 +28,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 **Parameters**
 * executor Executor instance used to perform the request.
 * round Round to retrieve {@link ContestInfo} from.
+
 **Returns**
 * Built {@link ContestInfo} instance.
 **Throws**
@@ -39,6 +40,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 > Shortcut method for reducing law of Demeters issues.
 **Parameters**
 * index Index of the problem to retrieve.
+
 **Returns**
 * Problem instance required.
 **Throws**

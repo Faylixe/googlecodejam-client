@@ -23,6 +23,7 @@ TODO Javadoc
 * target Target URL user should be redirected to.
 * driverSupplier Supplier that will create our driver instance to use.
 
+
 ---
 
 
@@ -37,6 +38,7 @@ TODO Javadoc
  ensuring if the required cookie has been settled or not.
 **Parameters**
 * driver Driver to check state from.
+
 
 ---
 

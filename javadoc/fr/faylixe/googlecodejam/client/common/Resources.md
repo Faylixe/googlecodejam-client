@@ -26,6 +26,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
  given <tt>path</tt>.
 **Parameters**
 * path Paht of the resources to read.
+
 **Returns**
 * Resource content as {@link String}.
 
@@ -36,6 +37,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
  given <tt>path</tt>.
 **Parameters**
 * path Path of the resources to read.
+
 **Returns**
 * Resource content as {@link InputStream}.
 
@@ -46,6 +48,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
  all non alphanumeric character.
 **Parameters**
 * name Name to normalize.
+
 **Returns**
 * Normalized name.
 
