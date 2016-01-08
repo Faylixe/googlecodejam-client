@@ -1,7 +1,7 @@
 #Resources
 Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
-> *Object* > [Resources](Resources.md)
+> *java.lang.Object* > [Resources](Resources.md)
 
 <p>Static toolbox that exposes methods for internal resources managment.</p>
 
@@ -9,10 +9,10 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *String* | [getHTMLTemplate](#gethtmltemplate)() |
-| **public static** *String* | [getResource](#getresourcestring)(*String* path) |
-| **public static** *InputStream* | [getResourceStream](#getresourcestreamstring)(*String* path) |
-| **public static** *String* | [normalize](#normalizestring)(*String* name) |
+| **public static** *java.lang.String* | [getHTMLTemplate](#gethtmltemplate)() |
+| **public static** *java.lang.String* | [getResource](#getresourcestring)(*java.lang.String* path) |
+| **public static** *java.io.InputStream* | [getResourceStream](#getresourcestreamstring)(*java.lang.String* path) |
+| **public static** *java.lang.String* | [normalize](#normalizestring)(*java.lang.String* name) |
 
 ---
 
@@ -25,7 +25,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 * HTML page template.
 
 > **Throws**
-* *IOException* If any error occurs while reading template content.
+* *java.io.IOException* If any error occurs while reading template content.
 
 
 ---

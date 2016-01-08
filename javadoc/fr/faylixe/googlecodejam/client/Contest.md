@@ -1,7 +1,7 @@
 #Contest
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *Object* > [NamedObject](common/NamedObject.md) > [Contest](Contest.md)
+> *java.lang.Object* > [NamedObject](common/NamedObject.md) > [Contest](Contest.md)
 
 <p>POJO class that represents a Google Jam {@link Contest}.
  A {@link Contest} is represented by a name and a
@@ -15,21 +15,21 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *List* | [get](#gethttprequestexecutor)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor) |
-| **public** *List* | [getRounds](#getrounds)() |
+| **public static** *java.util.List* | [get](#gethttprequestexecutor)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor) |
+| **public** *java.util.List* | [getRounds](#getrounds)() |
 
 ---
 
 
 ##Fields
 ####CONTEST_CLASS_NAME
-> **public static final** *String*
+> **public static final** *java.lang.String*
 <p>Class name of the element that contains contest data.</p>
 
 ---
 
 ####CONTEST_INDEX
-> **public static final** *String*
+> **public static final** *java.lang.String*
 <p>URL of the contest index page.</p>
 
 ---
@@ -47,7 +47,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 * List of contest extracted.
 
 > **Throws**
-* *IOException* If any error occurs during contest extraction process.
+* *java.io.IOException* If any error occurs during contest extraction process.
 
 
 ---

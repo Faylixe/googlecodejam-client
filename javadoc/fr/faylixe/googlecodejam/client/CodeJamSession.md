@@ -1,7 +1,7 @@
 #CodeJamSession
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *Object* > [NamedObject](common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
+> *java.lang.Object* > [NamedObject](common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
 
 {@link CodeJamSession} is the main API entry point, which consists
  in logging to a code jam platform ``hostname`` and then providing
@@ -16,17 +16,17 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** *String* | [buildFilename](#buildfilenameprobleminput)([ProblemInput](webservice/ProblemInput.md) input) |
+| **public** *java.lang.String* | [buildFilename](#buildfilenameprobleminput)([ProblemInput](webservice/ProblemInput.md) input) |
 | **public static** [CodeJamSession](CodeJamSession.md) | [createSession](#createsessionhttprequestexecutor-round)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor, [Round](Round.md) round) |
-| **public** *InputStream* | [download](#downloadprobleminput)([ProblemInput](webservice/ProblemInput.md) input) |
-| **public** *String* | [getContestAnalysis](#getcontestanalysisproblem)([Problem](webservice/Problem.md) problem) |
+| **public** *java.io.InputStream* | [download](#downloadprobleminput)([ProblemInput](webservice/ProblemInput.md) input) |
+| **public** *java.lang.String* | [getContestAnalysis](#getcontestanalysisproblem)([Problem](webservice/Problem.md) problem) |
 | **public** [ContestInfo](webservice/ContestInfo.md) | [getContestInfo](#getcontestinfo)() |
-| **public** [Problem](webservice/Problem.md) | [getProblem](#getproblemstring)(*String* letter) |
+| **public** [Problem](webservice/Problem.md) | [getProblem](#getproblemstring)(*java.lang.String* letter) |
 | **public** **boolean** | [isActive](#isactive)() |
 | **public** **boolean** | [isLogged](#islogged)() |
 | **public** **boolean** | [isQualified](#isqualified)() |
 | **public** [CodeJamSession](CodeJamSession.md) | [refresh](#refresh)() |
-| **public** [SubmitResponse](webservice/SubmitResponse.md) | [submit](#submitprobleminput-file-file)([ProblemInput](webservice/ProblemInput.md) input, *File* output, *File* source) |
+| **public** [SubmitResponse](webservice/SubmitResponse.md) | [submit](#submitprobleminput-file-file)([ProblemInput](webservice/ProblemInput.md) input, *java.io.File* output, *java.io.File* source) |
 
 ---
 
@@ -58,7 +58,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 * Created session.
 
 > **Throws**
-* *IOException* If any error occurs while retrieving contest info or initial values.
+* *java.io.IOException* If any error occurs while retrieving contest info or initial values.
 
 
 ---
@@ -75,7 +75,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 * Stream to read which contains our downloaded file data.
 
 > **Throws**
-* *IOException* If any error occurs while downloading the file.
+* *java.io.IOException* If any error occurs while downloading the file.
 
 
 ---
@@ -153,7 +153,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 * A newly created session updated otherwise.
 
 > **Throws**
-* *IOException* If any error occurs while reloading a new session.
+* *java.io.IOException* If any error occurs while reloading a new session.
 
 
 ---
@@ -176,7 +176,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 * Request response, as a {@link SubmitResponse} instance.
 
 > **Throws**
-* *IOException* If any error occurs while uploading data, or performing the request.
+* *java.io.IOException* If any error occurs while uploading data, or performing the request.
 
 
 ---

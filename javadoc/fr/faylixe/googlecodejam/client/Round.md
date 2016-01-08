@@ -1,7 +1,7 @@
 #Round
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *Object* > [NamedObject](common/NamedObject.md) > [Round](Round.md)
+> *java.lang.Object* > [NamedObject](common/NamedObject.md) > [Round](Round.md)
 
 <p>POJO class that represents a Google Jam {@link Round}.
  A {@link Round} is defined by a name, and a dashboard
@@ -14,16 +14,16 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *List* | [get](#getelement-string)(*Element* contest, *String* parent) |
-| **public** *String* | [getContestName](#getcontestname)() |
-| **public** *String* | [getURL](#geturl)() |
+| **public static** *java.util.List* | [get](#getelement-string)(*org.jsoup.nodes.Element* contest, *java.lang.String* parent) |
+| **public** *java.lang.String* | [getContestName](#getcontestname)() |
+| **public** *java.lang.String* | [getURL](#geturl)() |
 
 ---
 
 
 ##Fields
 ####DESCRIPTION_CLASS_NAME
-> **public static final** *String*
+> **public static final** *java.lang.String*
 <p>Class name of the HTML description node.</p>
 
 ---
