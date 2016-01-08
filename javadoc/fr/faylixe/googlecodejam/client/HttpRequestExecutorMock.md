@@ -24,8 +24,9 @@ Test case for the {@link HttpRequestExecutor} class.
 > Creates and returns a valid {@link HttpRequestExecutor}
  instance that could be used for test. Such instance is not
  logged to any google services.
-**Returns**
+> **Returns**
 * Created instance.
+
 
 ---
 

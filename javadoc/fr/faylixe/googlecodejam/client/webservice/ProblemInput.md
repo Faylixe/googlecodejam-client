@@ -41,36 +41,41 @@ Constant used for small input.
 
 ####getDifficulty()
 > Getter for the problem input difficulty.
-**Returns**
+> **Returns**
 * Difficulty rank of this problem input.
+
 
 ---
 
 ####getNumber()
 > Getter for the problem input number.
-**Returns**
+> **Returns**
 * TODO : Figure out what number is for.
+
 
 ---
 
 ####getPoints()
 > Getter for the input number of point.
-**Returns**
+> **Returns**
 * Number of points this problem input deliver.
+
 
 ---
 
 ####getProblem()
 > Getter for the parent problem of this input.
-**Returns**
+> **Returns**
 * Parent problem instance of this input.
+
 
 ---
 
 ####getSuffix()
 > Getter for the input suffix.
-**Returns**
+> **Returns**
 * Suffix used for this problem input.
+
 
 ---
 

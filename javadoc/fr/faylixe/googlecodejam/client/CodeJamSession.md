@@ -22,11 +22,12 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####buildFilename(ProblemInput)
 > <p>Builds and returns a valid file name
  for the given problem <tt>input</tt>.</p>
-**Parameters**
+> **Parameters**
 * input Input to retrieve file name from.
 
-**Returns**
+> **Returns**
 * Built file name.
+
 
 ---
 
@@ -34,14 +35,16 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > <p>Static factory method that should be used for creating a session.
  Loads associated contest info and initial values from the given
  <tt>round</tt>, using the given <tt>executor</tt>.</p>
-**Parameters**
+> **Parameters**
 * executor {@link HttpRequestExecutor} instance to use.
 * round Contextual {@link Round} instance this session is bound to.
 
-**Returns**
+> **Returns**
 * Created session.
-**Throws**
+
+> **Throws**
 * *IOException* If any error occurs while retrieving contest info or initial values.
+
 
 ---
 
@@ -49,43 +52,48 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > <p>Downloads and returns the stream of the
  input file associated to the given problem
  <tt>input</tt>.</p>
-**Parameters**
+> **Parameters**
 * input Input to download file from.
 
-**Returns**
+> **Returns**
 * Stream to read which contains our downloaded file data.
-**Throws**
+
+> **Throws**
 * *IOException* If any error occurs while downloading the file.
+
 
 ---
 
 ####getContestAnalysis(Problem)
 > <p>Returns the analysis for the given
  <tt>problem</tt> if any.</p>
-**Parameters**
+> **Parameters**
 * problem Problem to retrieve analysis from.
 
-**Returns**
+> **Returns**
 * Analysis if any.
+
 
 ---
 
 ####getContestInfo()
 > <p>Performs and returns a <tt>GET /</tt> request
  in order to get all <tt>round</tt> detail.</p>
-**Returns**
+> **Returns**
 * Request response as a {@link ContestInfo} POJO.
+
 
 ---
 
 ####getProblem(String)
 > <p>Retrieves the problem associated
  to the given <tt>letter</tt>.</p>
-**Parameters**
+> **Parameters**
 * letter Letter that identifies the problem.
 
-**Returns**
+> **Returns**
 * Corresponding problem if exist, <tt>null</tt> otherwise.
+
 
 ---
 
@@ -93,32 +101,37 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > <p>Indiciates if the contest is currently active,
  namely if competition is occuring at the current
  time, or not.</p>
-**Returns**
+> **Returns**
 * <tt>true</tt> if the contest is active, <tt>false</tt> otherwise.
+
 
 ---
 
 ####isLogged()
 > <p>Indicates if the current session is logged in or not.</p>
-**Returns**
+> **Returns**
 * <tt>true</tt> if user is logged, <tt>false</tt> otherwise.
+
 
 ---
 
 ####isQualified()
 > <p>Indicates if the currently logged user is qualified
  for the next round or not.</p>
-**Returns**
+> **Returns**
 * <tt>true</tt> if user is qualified, <tt>false</tt> otherwise.
+
 
 ---
 
 ####refresh()
 > <p>Reloads session components in order to prevent from any change.</p>
-**Returns**
+> **Returns**
 * A newly created session updated otherwise.
-**Throws**
+
+> **Throws**
 * *IOException* If any error occurs while reloading a new session.
+
 
 ---
 
@@ -130,15 +143,17 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  method on the same <tt>input</tt>, as the evaluation
  system will judge the last downloaded dataset
  based on the internal token / session.</p>
-**Parameters**
+> **Parameters**
 * input Input file to submit solution for.
 * output Output file produced by the algorithm.
 * source Source code file of the algorithm to submit.
 
-**Returns**
+> **Returns**
 * Request response, as a {@link SubmitResponse} instance.
-**Throws**
+
+> **Throws**
 * *IOException* If any error occurs while uploading data, or performing the request.
+
 
 ---
 

@@ -19,7 +19,7 @@ TODO Javadoc
 
 ##Constructors####SeleniumCookieSupplier(String, Supplier)
 > Default constructor.
-**Parameters**
+> **Parameters**
 * target Target URL user should be redirected to.
 * driverSupplier Supplier that will create our driver instance to use.
 
@@ -36,7 +36,7 @@ TODO Javadoc
 ####checkCurrentState(WebDriver)
 > Checks the state of the given <tt>driver</tt>,
  ensuring if the required cookie has been settled or not.
-**Parameters**
+> **Parameters**
 * driver Driver to check state from.
 
 
@@ -49,8 +49,9 @@ TODO Javadoc
 
 ####isRunning()
 > Indicates if the login process is still running.
-**Returns**
+> **Returns**
 * <tt>true</tt> if the selenium instance is still running, <tt>false</tt> otherwise.
+
 
 ---
 

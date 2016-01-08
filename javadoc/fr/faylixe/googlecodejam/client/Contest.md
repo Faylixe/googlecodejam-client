@@ -33,21 +33,24 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####get(HttpRequestExecutor)
 > <p>Retrieves and returns a list of available
  contest for the given <tt>hostname</tt>.</p>
-**Parameters**
+> **Parameters**
 * executor {@link HttpRequestExecutor} instance to use to retrieve contest index.
 
-**Returns**
+> **Returns**
 * List of contest extracted.
-**Throws**
+
+> **Throws**
 * *IOException* If any error occurs during contest extraction process.
+
 
 ---
 
 ####getRounds()
 > <p>Getter that returns a immutable view
  of the {@link Round} list.</p>
-**Returns**
+> **Returns**
 * List of the round of this contest.
+
 
 ---
 

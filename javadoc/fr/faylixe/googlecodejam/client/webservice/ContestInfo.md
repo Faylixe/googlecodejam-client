@@ -25,49 +25,56 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 > Static factory method that builds a {@link ContestInfo} instance
  from the given <tt>round</tt> using a <tt>/ContestInfo</tt>
  request from the round dashboard.
-**Parameters**
+> **Parameters**
 * executor Executor instance used to perform the request.
 * round Round to retrieve {@link ContestInfo} from.
 
-**Returns**
+> **Returns**
 * Built {@link ContestInfo} instance.
-**Throws**
+
+> **Throws**
 * *IOException* IF any error occurs while executing request.
+
 
 ---
 
 ####getProblem(int)
 > Shortcut method for reducing law of Demeters issues.
-**Parameters**
+> **Parameters**
 * index Index of the problem to retrieve.
 
-**Returns**
+> **Returns**
 * Problem instance required.
-**Throws**
+
+> **Throws**
 * *ArrayIndexOutOfBoundsException* If the given index is not valid.
+
 
 ---
 
 ####getProblems()
 > Returns {@link Problem} instance associated
  to this contest.
-**Returns**
+> **Returns**
 * List of problem this contest exposes.
+
 
 ---
 
 ####getVersion()
 > Getter for the problems version.
-**Returns**
+> **Returns**
 * Integer that defines the problems version.
+
 
 ---
 
 ####hasAnalysis()
 > Indicates if this contests already have
  analysis committed or not.
-**Returns**
+> **Returns**
 * <tt>true</tt> if contest analysis is available, <tt>false</tt> otherwise.
+
 
 ---
 
