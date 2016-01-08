@@ -29,6 +29,7 @@ Type and modifiers | Method signature
 
 
 <p>Class name of the HTML description node.</p>
+> **public static final** *String*
 
 ##Methods
 

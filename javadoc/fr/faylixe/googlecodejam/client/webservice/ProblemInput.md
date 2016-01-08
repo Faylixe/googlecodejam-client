@@ -44,10 +44,12 @@ Type and modifiers | Method signature
 
 
 Constant used for large input.
+> **public static final** *String*
 ####SMALL
 
 
 Constant used for small input.
+> **public static final** *String*
 
 ##Methods
 
