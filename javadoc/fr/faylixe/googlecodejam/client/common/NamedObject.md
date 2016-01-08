@@ -10,7 +10,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public final** *String* | [getName](#getname) |
+| **public final** *String* | [getName](#getname)() |
 
 ---
 

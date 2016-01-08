@@ -15,8 +15,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *List* | [get](#gethttprequestexecutor) |
-| **public** *List* | [getRounds](#getrounds) |
+| **public static** *List* | [get](#gethttprequestexecutor)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor) |
+| **public** *List* | [getRounds](#getrounds)() |
 
 ---
 

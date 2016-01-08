@@ -7,13 +7,13 @@ Test case for {@link Contest} class.
 
 ##Summary
 ####Constructors
-* **public** [ContestTest](#contesttest)
+* **public** [ContestTest](#contesttest)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [Contest](Contest.md) | [getTestContests](#gettestcontests) |
-| **public** **void** | [testContestConsistency](#testcontestconsistency) |
+| **public static** [Contest](Contest.md) | [getTestContests](#gettestcontests)() |
+| **public** **void** | [testContestConsistency](#testcontestconsistency)() |
 
 ---
 

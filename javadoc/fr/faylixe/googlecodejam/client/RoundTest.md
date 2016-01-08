@@ -7,13 +7,13 @@ Test case for the {@link Round} class.
 
 ##Summary
 ####Constructors
-* **public** [RoundTest](#roundtest)
+* **public** [RoundTest](#roundtest)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [Round](Round.md) | [getTestRound](#gettestround) |
-| **public** **void** | [testRoundConsistency](#testroundconsistency) |
+| **public static** [Round](Round.md) | [getTestRound](#gettestround)() |
+| **public** **void** | [testRoundConsistency](#testroundconsistency)() |
 
 ---
 
