@@ -14,34 +14,100 @@ Type and modifiers | Method signature
  --- | --- 
 **public static** *Options* | [createOptions](#createoptions)
 
-Type | Name | Description
- --- | --- | --- 
+####Fields
+
 
 
 ##Fields
 
-DOWNLOAD
-DOWNLOAD_DESCRIPTION
-DOWNLOAD_LONG
-INIT
-INIT_DESCRIPTION
-INIT_LONG
-INPUT_TYPE
-INPUT_TYPE_DESCRIPTION
-INPUT_TYPE_LONG
-OUTPUT
-OUTPUT_DESCRIPTION
-OUTPUT_LONG
-PROBLEM
-PROBLEM_DESCRIPTION
-PROBLEM_LONG
-SOURCE
-SOURCE_DESCRIPTION
-SOURCE_LONG
-SUBMIT
-SUBMIT_DESCRIPTION
-SUBMIT_LONG
-SYNTAX
+###DOWNLOAD
+
+
+Short option for the download action.
+###DOWNLOAD_DESCRIPTION
+
+
+Description of the download action.
+###DOWNLOAD_LONG
+
+
+Long option for the download action.
+###INIT
+
+
+Short option for the initialization action.
+###INIT_DESCRIPTION
+
+
+Description of the initialization action.
+###INIT_LONG
+
+
+Long option for the initialization action
+###INPUT_TYPE
+
+
+Short option for the input type parameter.
+###INPUT_TYPE_DESCRIPTION
+
+
+Description of the input type parameter.
+###INPUT_TYPE_LONG
+
+
+Long option for the input type parameter.
+###OUTPUT
+
+
+Short option for the output parameter.
+###OUTPUT_DESCRIPTION
+
+
+Description of the output parameter.
+###OUTPUT_LONG
+
+
+Long option for the output parameter.
+###PROBLEM
+
+
+Short option for the problem parameter.
+###PROBLEM_DESCRIPTION
+
+
+Description of the problem parameter.
+###PROBLEM_LONG
+
+
+Long option for the problem parameter.
+###SOURCE
+
+
+Short option for the source parameter.
+###SOURCE_DESCRIPTION
+
+
+Description of the source parameter.
+###SOURCE_LONG
+
+
+Long option for the source parameter.
+###SUBMIT
+
+
+Short option for the submit action.
+###SUBMIT_DESCRIPTION
+
+
+Description of the submission action.
+###SUBMIT_LONG
+
+
+Long option for the submit action.
+###SYNTAX
+
+
+Syntax of the command line script.
 
 ##Methods
 

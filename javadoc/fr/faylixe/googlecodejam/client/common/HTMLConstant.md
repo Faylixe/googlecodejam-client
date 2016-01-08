@@ -7,18 +7,39 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ##Summary
 
-Type | Name | Description
- --- | --- | --- 
+####Fields
+
 
 
 ##Fields
 
-ANCHOR
-H3
-HREF
-IMG
-SRC
-TD
-TR
+###ANCHOR
+
+
+HTML tag A.
+###H3
+
+
+HTML tag H3.
+###HREF
+
+
+HTML attribute HREF.
+###IMG
+
+
+HTML tag IMG.
+###SRC
+
+
+HTML attribute SRC.
+###TD
+
+
+HTML tag TD.
+###TR
+
+
+HTML tag TR.
 ---
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

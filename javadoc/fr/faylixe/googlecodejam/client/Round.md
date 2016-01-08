@@ -19,13 +19,16 @@ Type and modifiers | Method signature
 **public** *String* | [getURL](#geturl)
 **public** **int** | [hashCode](#hashcode)
 
-Type | Name | Description
- --- | --- | --- 
+####Fields
+
 
 
 ##Fields
 
-DESCRIPTION_CLASS_NAME
+###DESCRIPTION_CLASS_NAME
+
+
+<p>Class name of the HTML description node.</p>
 
 ##Methods
 

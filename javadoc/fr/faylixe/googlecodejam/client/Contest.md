@@ -18,14 +18,20 @@ Type and modifiers | Method signature
 **public** *List* | [getRounds](#getrounds)
 **public** **int** | [hashCode](#hashcode)
 
-Type | Name | Description
- --- | --- | --- 
+####Fields
+
 
 
 ##Fields
 
-CONTEST_CLASS_NAME
-CONTEST_INDEX
+###CONTEST_CLASS_NAME
+
+
+<p>Class name of the element that contains contest data.</p>
+###CONTEST_INDEX
+
+
+<p>URL of the contest index page.</p>
 
 ##Methods
 

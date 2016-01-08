@@ -26,8 +26,8 @@ Type and modifiers | Method signature
 **public** *String* | [getSuffix](#getsuffix)
 **public** **int** | [hashCode](#hashcode)
 
-Type | Name | Description
- --- | --- | --- 
+####Fields
+
 
 
 ##Constructors
@@ -40,8 +40,14 @@ Type | Name | Description
 
 ##Fields
 
-LARGE
-SMALL
+###LARGE
+
+
+Constant used for large input.
+###SMALL
+
+
+Constant used for small input.
 
 ##Methods
 
