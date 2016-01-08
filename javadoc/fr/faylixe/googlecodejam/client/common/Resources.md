@@ -1,7 +1,7 @@
 #Resources
 
 Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
->  > [Resources](Resources.md)
+> *Object* > [Resources](Resources.md)
 
 <p>Static toolbox that exposes methods for internal resources managment.</p>
 
@@ -11,10 +11,10 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 Type and modifiers | Method signature
  --- | --- 
-**public static**  | [getHTMLTemplate](#gethtmltemplate)
-**public static**  | [getResource](#getresourcestring)
-**public static**  | [getResourceStream](#getresourcestreamstring)
-**public static**  | [normalize](#normalizestring)
+**public static** *String* | [getHTMLTemplate](#gethtmltemplate)
+**public static** *String* | [getResource](#getresourcestring)
+**public static** *InputStream* | [getResourceStream](#getresourcestreamstring)
+**public static** *String* | [normalize](#normalizestring)
 
 
 ##Methods
@@ -30,7 +30,7 @@ Getter for the HTML template content.
 
 #####Throws
 
-*  If any error occurs while reading template content.
+* *IOException* If any error occurs while reading template content.
 
 ---
 ###getResource(String)

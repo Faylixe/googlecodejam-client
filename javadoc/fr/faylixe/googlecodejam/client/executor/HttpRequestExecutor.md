@@ -1,7 +1,7 @@
 #HttpRequestExecutor
 
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
->  > [HttpRequestExecutor](HttpRequestExecutor.md)
+> *Object* > [HttpRequestExecutor](HttpRequestExecutor.md)
 
 <p>A {@link HttpRequestExecutor} is an abstraction
  on top of {@link HttpRequestFactory} that handles
@@ -13,14 +13,14 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 Type and modifiers | Method signature
  --- | --- 
-**public static**  | [buildDataPart](#builddatapartstring-string)
-**public static**  | [buildFilePart](#buildfilepartstring-file)
+**public static** *Part* | [buildDataPart](#builddatapartstring-string)
+**public static** *Part* | [buildFilePart](#buildfilepartstring-file)
 **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring-string)
 **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring)
-**public**  | [get](#getstring)
-**public**  | [getHostname](#gethostname)
-**public**  | [getRequest](#getrequeststring)
-**public**  | [post](#poststring-httpcontent)
+**public** *String* | [get](#getstring)
+**public** *String* | [getHostname](#gethostname)
+**public** *HttpRequest* | [getRequest](#getrequeststring)
+**public** *String* | [post](#poststring-httpcontent)
 
 
 ##Methods
@@ -60,7 +60,7 @@ Static factory method that creates a {@link Part} which contains
 
 #####Throws
 
-*  If any any error occurs during file type detection.
+* *IOException* If any any error occurs during file type detection.
 
 ---
 ###create(String, String)
@@ -115,7 +115,7 @@ Performs a HTTP GET request to the given <tt>path</tt>
 
 #####Throws
 
-*  If any error occurs while performing request.
+* *IOException* If any error occurs while performing request.
 
 ---
 ###getHostname()
@@ -145,7 +145,7 @@ Creates and returns a GET {@link HttpRequest} instance
 
 #####Throws
 
-*  If any error occurs while creating the GET request.
+* *IOException* If any error occurs while creating the GET request.
 
 ---
 ###post(String, HttpContent)
@@ -166,7 +166,7 @@ Performs a HTTP POST request to the given <tt>path</tt>
 
 #####Throws
 
-*  If any error occurs while performing request.
+* *IOException* If any error occurs while performing request.
 
 ---
 ---

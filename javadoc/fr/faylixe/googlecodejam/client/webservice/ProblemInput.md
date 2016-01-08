@@ -1,7 +1,7 @@
 #ProblemInput
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
->  > [NamedObject](common/NamedObject.md) > [ProblemInput](ProblemInput.md)
+> *Object* > [NamedObject](common/NamedObject.md) > [ProblemInput](ProblemInput.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. {@link ProblemInput} instance belong
@@ -23,7 +23,7 @@ Type and modifiers | Method signature
 **public** **int** | [getNumber](#getnumber)
 **public** **int** | [getPoints](#getpoints)
 **public** [Problem](Problem.md) | [getProblem](#getproblem)
-**public**  | [getSuffix](#getsuffix)
+**public** *String* | [getSuffix](#getsuffix)
 **public** **int** | [hashCode](#hashcode)
 
 Type | Name | Description

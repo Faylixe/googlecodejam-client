@@ -1,7 +1,7 @@
 #HttpRequestExecutorMock
 
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
->  > [HttpRequestExecutorMock](HttpRequestExecutorMock.md)
+> *Object* > [HttpRequestExecutorMock](HttpRequestExecutorMock.md)
 
 Test case for the {@link HttpRequestExecutor} class.
 

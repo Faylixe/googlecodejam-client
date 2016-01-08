@@ -1,7 +1,7 @@
 #Problem
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
->  > [NamedObject](common/NamedObject.md) > [Problem](Problem.md)
+> *Object* > [NamedObject](common/NamedObject.md) > [Problem](Problem.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. {@link Problem} instance belong
@@ -19,15 +19,15 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 Type and modifiers | Method signature
  --- | --- 
 **public** **boolean** | [equals](#equalsobject)
-**public**  | [getBody](#getbody)
-**public**  | [getId](#getid)
-**public**  | [getKey](#getkey)
-**public**  | [getNormalizedName](#getnormalizedname)
+**public** *String* | [getBody](#getbody)
+**public** *String* | [getId](#getid)
+**public** *String* | [getKey](#getkey)
+**public** *String* | [getNormalizedName](#getnormalizedname)
 **public** [ContestInfo](ContestInfo.md) | [getParent](#getparent)
 **public** [ProblemInput](ProblemInput.md) | [getProblemInput](#getprobleminputint)
 **public** [ProblemInput](ProblemInput.md) | [getProblemInput](#getprobleminputstring)
-**public**  | [getProblemInputs](#getprobleminputs)
-**public**  | [getType](#gettype)
+**public** *List* | [getProblemInputs](#getprobleminputs)
+**public** *String* | [getType](#gettype)
 **public** **int** | [hashCode](#hashcode)
 **public** **void** | [validateObject](#validateobject)
 
@@ -113,7 +113,7 @@ Shortcut method for reducing law of Demeters issues.
 
 #####Throws
 
-*  If the given index is not valid.
+* *ArrayIndexOutOfBoundsException* If the given index is not valid.
 
 ---
 ###getProblemInput(String)

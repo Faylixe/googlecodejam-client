@@ -1,7 +1,7 @@
 #Events
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
->  > [Events](Events.md)
+> *Object* > [Events](Events.md)
 
 TODO : Fill with Event response attribute.
 

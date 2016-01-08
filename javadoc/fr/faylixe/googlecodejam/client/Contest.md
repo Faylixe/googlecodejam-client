@@ -1,7 +1,7 @@
 #Contest
 
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
->  > [NamedObject](/common/NamedObject.md) > [Contest](Contest.md)
+> *Object* > [NamedObject](/common/NamedObject.md) > [Contest](Contest.md)
 
 <p>POJO class that represents a Google Jam {@link Contest}.
  A {@link Contest} is represented by a name and a
@@ -14,8 +14,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 Type and modifiers | Method signature
  --- | --- 
 **public** **boolean** | [equals](#equalsobject)
-**public static**  | [get](#gethttprequestexecutor)
-**public**  | [getRounds](#getrounds)
+**public static** *List* | [get](#gethttprequestexecutor)
+**public** *List* | [getRounds](#getrounds)
 **public** **int** | [hashCode](#hashcode)
 
 Type | Name | Description
@@ -51,7 +51,7 @@ CONTEST_INDEX
 
 #####Throws
 
-*  If any error occurs during contest extraction process.
+* *IOException* If any error occurs during contest extraction process.
 
 ---
 ###getRounds()

@@ -1,7 +1,7 @@
 #ContestInfo
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
->  > [ContestInfo](ContestInfo.md)
+> *Object* > [ContestInfo](ContestInfo.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API.</p>
@@ -18,7 +18,7 @@ Type and modifiers | Method signature
  --- | --- 
 **public static** [ContestInfo](ContestInfo.md) | [get](#gethttprequestexecutor-round)
 **public** [Problem](Problem.md) | [getProblem](#getproblemint)
-**public**  | [getProblems](#getproblems)
+**public** *List* | [getProblems](#getproblems)
 **public** **int** | [getVersion](#getversion)
 **public** **boolean** | [hasAnalysis](#hasanalysis)
 **public** **void** | [validateObject](#validateobject)
@@ -53,7 +53,7 @@ Static factory method that builds a {@link ContestInfo} instance
 
 #####Throws
 
-*  IF any error occurs while executing request.
+* *IOException* IF any error occurs while executing request.
 
 ---
 ###getProblem(int)
@@ -72,7 +72,7 @@ Shortcut method for reducing law of Demeters issues.
 
 #####Throws
 
-*  If the given index is not valid.
+* *ArrayIndexOutOfBoundsException* If the given index is not valid.
 
 ---
 ###getProblems()

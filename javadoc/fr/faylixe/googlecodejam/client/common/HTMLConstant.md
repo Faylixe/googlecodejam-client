@@ -1,7 +1,7 @@
 #HTMLConstant
 
 Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
->  > [HTMLConstant](HTMLConstant.md)
+> *Object* > [HTMLConstant](HTMLConstant.md)
 
 <p>Simple class that exposes HTML String related constants value.</p>
 

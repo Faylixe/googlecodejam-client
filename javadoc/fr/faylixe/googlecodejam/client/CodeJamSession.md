@@ -1,7 +1,7 @@
 #CodeJamSession
 
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
->  > [NamedObject](/common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
+> *Object* > [NamedObject](/common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
 
 {@link CodeJamSession} is the main API entry point, which consists
  in logging to a code jam platform ``hostname`` and then providing
@@ -18,10 +18,10 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Type and modifiers | Method signature
  --- | --- 
-**public**  | [buildFilename](#buildfilenameprobleminput)
+**public** *String* | [buildFilename](#buildfilenameprobleminput)
 **public static** [CodeJamSession](CodeJamSession.md) | [createSession](#createsessionhttprequestexecutor-round)
-**public**  | [download](#downloadprobleminput)
-**public**  | [getContestAnalysis](#getcontestanalysisproblem)
+**public** *InputStream* | [download](#downloadprobleminput)
+**public** *String* | [getContestAnalysis](#getcontestanalysisproblem)
 **public** [ContestInfo](/webservice/ContestInfo.md) | [getContestInfo](#getcontestinfo)
 **public** [Problem](/webservice/Problem.md) | [getProblem](#getproblemstring)
 **public** **boolean** | [isActive](#isactive)
@@ -68,7 +68,7 @@ Type and modifiers | Method signature
 
 #####Throws
 
-*  If any error occurs while retrieving contest info or initial values.
+* *IOException* If any error occurs while retrieving contest info or initial values.
 
 ---
 ###download(ProblemInput)
@@ -89,7 +89,7 @@ Type and modifiers | Method signature
 
 #####Throws
 
-*  If any error occurs while downloading the file.
+* *IOException* If any error occurs while downloading the file.
 
 ---
 ###getContestAnalysis(Problem)
@@ -179,7 +179,7 @@ Type and modifiers | Method signature
 
 #####Throws
 
-*  If any error occurs while reloading a new session.
+* *IOException* If any error occurs while reloading a new session.
 
 ---
 ###submit(ProblemInput, File, File)
@@ -206,7 +206,7 @@ Type and modifiers | Method signature
 
 #####Throws
 
-*  If any error occurs while uploading data, or performing the request.
+* *IOException* If any error occurs while uploading data, or performing the request.
 
 ---
 ---

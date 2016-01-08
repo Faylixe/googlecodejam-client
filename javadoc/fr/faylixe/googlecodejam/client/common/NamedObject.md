@@ -1,7 +1,7 @@
 #NamedObject
 
 Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
->  > [NamedObject](NamedObject.md)
+> *Object* > [NamedObject](NamedObject.md)
 
 <p>Class that represents a object which
  could be identified by a name.</p>
@@ -12,7 +12,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 Type and modifiers | Method signature
  --- | --- 
-**public final**  | [getName](#getname)
+**public final** *String* | [getName](#getname)
 
 
 ##Methods

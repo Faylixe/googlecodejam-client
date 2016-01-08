@@ -1,7 +1,7 @@
 #InitialValues
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
->  > [InitialValues](InitialValues.md)
+> *Object* > [InitialValues](InitialValues.md)
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
  command request, using Gson API.</p>
@@ -19,19 +19,19 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 Type and modifiers | Method signature
  --- | --- 
 **public static** [InitialValues](InitialValues.md) | [get](#gethttprequestexecutor-round)
-**public**  | [getAdmin](#getadmin)
+**public** *String* | [getAdmin](#getadmin)
 **public** **int** | [getCS](#getcs)
-**public**  | [getEmail](#getemail)
-**public**  | [getInput](#getinput)
+**public** *String* | [getEmail](#getemail)
+**public** *String* | [getInput](#getinput)
 **public** **long** | [getLeft](#getleft)
-**public**  | [getLoginHTML](#getloginhtml)
-**public**  | [getLogoutHTML](#getlogouthtml)
-**public**  | [getName](#getname)
+**public** *String* | [getLoginHTML](#getloginhtml)
+**public** *String* | [getLogoutHTML](#getlogouthtml)
+**public** *String* | [getName](#getname)
 **public** **int** | [getSeen](#getseen)
-**public**  | [getSnippet](#getsnippet)
+**public** *String* | [getSnippet](#getsnippet)
 **public** **long** | [getStart](#getstart)
-**public**  | [getToken](#gettoken)
-**public**  | [getURLEncodedToken](#geturlencodedtoken)
+**public** *String* | [getToken](#gettoken)
+**public** *String* | [getURLEncodedToken](#geturlencodedtoken)
 **public** **long** | [getUntilStart](#getuntilstart)
 **public** **int** | [getVersion](#getversion)
 **public** **boolean** | [isLogged](#islogged)
@@ -66,7 +66,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 #####Throws
 
-*  If any error occurs during the associated HTTP request.
+* *IOException* If any error occurs during the associated HTTP request.
 
 ---
 ###getAdmin()
@@ -200,7 +200,7 @@ Returns an URL encoded form of the middle ware token.
 
 #####Throws
 
-*  If target encoding is not supported.
+* *UnsupportedEncodingException* If target encoding is not supported.
 
 ---
 ###getUntilStart()
