@@ -18,7 +18,8 @@ Test case for {@link Contest} class.
 ---
 
 
-##Constructors####ContestTest()
+##Constructors
+####ContestTest()
 > 
 
 ---

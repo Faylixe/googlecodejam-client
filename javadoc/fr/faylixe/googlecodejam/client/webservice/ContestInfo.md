@@ -22,7 +22,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 
-##Constructors####ContestInfo()
+##Constructors
+####ContestInfo()
 > 
 
 ---

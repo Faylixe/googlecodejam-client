@@ -21,7 +21,8 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 ---
 
 
-##Constructors####ApplicationCommand()
+##Constructors
+####ApplicationCommand()
 > 
 
 ---

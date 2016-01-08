@@ -23,7 +23,8 @@ TODO Javadoc
 ---
 
 
-##Constructors####SeleniumCookieSupplier(String, Supplier)
+##Constructors
+####SeleniumCookieSupplier(String, Supplier)
 > Default constructor.
 > **Parameters**
 * target : Target URL user should be redirected to.

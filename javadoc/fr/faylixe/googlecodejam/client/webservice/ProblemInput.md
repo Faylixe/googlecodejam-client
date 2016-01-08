@@ -28,7 +28,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 
-##Constructors####ProblemInput()
+##Constructors
+####ProblemInput()
 > 
 
 ---

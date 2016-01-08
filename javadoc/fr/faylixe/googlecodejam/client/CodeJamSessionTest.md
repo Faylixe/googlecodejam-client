@@ -21,7 +21,8 @@ Test case for {@link CodeJamSession} class.
 ---
 
 
-##Constructors####CodeJamSessionTest()
+##Constructors
+####CodeJamSessionTest()
 > 
 
 ---

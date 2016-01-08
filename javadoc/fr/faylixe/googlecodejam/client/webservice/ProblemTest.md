@@ -18,7 +18,8 @@ Test case for the {@link Problem} class.
 ---
 
 
-##Constructors####ProblemTest()
+##Constructors
+####ProblemTest()
 > 
 
 ---

@@ -12,7 +12,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 
-##Constructors####AllTests()
+##Constructors
+####AllTests()
 > 
 
 ---

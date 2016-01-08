@@ -18,7 +18,8 @@ Test case for {@link InitialValues} class.
 ---
 
 
-##Constructors####InitialValuesTest()
+##Constructors
+####InitialValuesTest()
 > 
 
 ---

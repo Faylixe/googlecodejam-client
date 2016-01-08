@@ -19,7 +19,8 @@ Test case for {@link ContestInfo} class.
 ---
 
 
-##Constructors####ContestInfoTest()
+##Constructors
+####ContestInfoTest()
 > 
 
 ---

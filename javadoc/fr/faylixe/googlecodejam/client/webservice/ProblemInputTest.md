@@ -17,7 +17,8 @@ Test case for the {@link ProblemInput} class.
 ---
 
 
-##Constructors####ProblemInputTest()
+##Constructors
+####ProblemInputTest()
 > 
 
 ---
