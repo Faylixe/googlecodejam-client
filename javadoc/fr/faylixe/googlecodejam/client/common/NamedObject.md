@@ -15,7 +15,6 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ##Methods
 ####getName()
 > Getter for the name of this object.
-
 **Returns**
 * Name of this object.
 

@@ -24,7 +24,6 @@ Test case for the {@link Round} class.
 > Retrieves the round instance that will
  be used for testing. Such round will be the first
  of the target test contest.
-
 **Returns**
 * Round instance for testing.
 

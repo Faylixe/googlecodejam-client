@@ -24,7 +24,6 @@ Test case for the {@link Problem} class.
 > Retrieves the {@link Problem} instance
  that will be used for testing. Using
  test {@link ContestInfo} as reference.
-
 **Returns**
 * Problem instance for testing.
 

@@ -25,7 +25,6 @@ Test case for {@link Contest} class.
  be used for testing. Such contest will be
  the last, assuming the the last contest
  will never change.
-
 **Returns**
 * Contest instance for testing.
 

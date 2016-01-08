@@ -25,14 +25,11 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 > Static factory method that builds a {@link ContestInfo} instance
  from the given <tt>round</tt> using a <tt>/ContestInfo</tt>
  request from the round dashboard.
-
 **Parameters**
 * executor Executor instance used to perform the request.
 * round Round to retrieve {@link ContestInfo} from.
-
 **Returns**
 * Built {@link ContestInfo} instance.
-
 **Throws**
 * *IOException* IF any error occurs while executing request.
 
@@ -40,13 +37,10 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####getProblem(int)
 > Shortcut method for reducing law of Demeters issues.
-
 **Parameters**
 * index Index of the problem to retrieve.
-
 **Returns**
 * Problem instance required.
-
 **Throws**
 * *ArrayIndexOutOfBoundsException* If the given index is not valid.
 
@@ -55,7 +49,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####getProblems()
 > Returns {@link Problem} instance associated
  to this contest.
-
 **Returns**
 * List of problem this contest exposes.
 
@@ -63,7 +56,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ####getVersion()
 > Getter for the problems version.
-
 **Returns**
 * Integer that defines the problems version.
 
@@ -72,7 +64,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####hasAnalysis()
 > Indicates if this contests already have
  analysis committed or not.
-
 **Returns**
 * <tt>true</tt> if contest analysis is available, <tt>false</tt> otherwise.
 

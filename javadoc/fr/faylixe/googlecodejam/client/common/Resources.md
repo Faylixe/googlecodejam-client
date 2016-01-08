@@ -14,10 +14,8 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ##Methods
 ####getHTMLTemplate()
 > Getter for the HTML template content.
-
 **Returns**
 * HTML page template.
-
 **Throws**
 * *IOException* If any error occurs while reading template content.
 
@@ -26,10 +24,8 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ####getResource(String)
 > Reads and returns resources content denoted by the
  given <tt>path</tt>.
-
 **Parameters**
 * path Paht of the resources to read.
-
 **Returns**
 * Resource content as {@link String}.
 
@@ -38,10 +34,8 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ####getResourceStream(String)
 > Reads and returns resources content denoted by the
  given <tt>path</tt>.
-
 **Parameters**
 * path Path of the resources to read.
-
 **Returns**
 * Resource content as {@link InputStream}.
 
@@ -50,10 +44,8 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ####normalize(String)
 > Normalizes the given <tt>name</tt> by removing
  all non alphanumeric character.
-
 **Parameters**
 * name Name to normalize.
-
 **Returns**
 * Normalized name.
 
