@@ -2,8 +2,11 @@
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 > *Object* > [CodeJamSessionTest](CodeJamSessionTest.md)*CodeJamSessionTest*
+
 Test case for {@link CodeJamSession} class.
-##Summary####Constructors
+
+##Summary
+####Constructors
 * **public** [CodeJamSessionTest](#codejamsessiontest)
 ####Methods
 | Type and modifiers | Method signature |

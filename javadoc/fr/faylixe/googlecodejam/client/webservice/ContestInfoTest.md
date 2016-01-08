@@ -2,8 +2,11 @@
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *Object* > [ContestInfoTest](ContestInfoTest.md)*ContestInfoTest*
+
 Test case for {@link ContestInfo} class.
-##Summary####Constructors
+
+##Summary
+####Constructors
 * **public** [ContestInfoTest](#contestinfotest)
 ####Methods
 | Type and modifiers | Method signature |

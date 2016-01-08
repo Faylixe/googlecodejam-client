@@ -2,8 +2,11 @@
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *Object* > [InitialValuesTest](InitialValuesTest.md)*InitialValuesTest*
+
 Test case for {@link InitialValues} class.
-##Summary####Constructors
+
+##Summary
+####Constructors
 * **public** [InitialValuesTest](#initialvaluestest)
 ####Methods
 | Type and modifiers | Method signature |

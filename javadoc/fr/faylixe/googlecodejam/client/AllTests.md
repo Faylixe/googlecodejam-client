@@ -3,7 +3,10 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 > *Object* > [AllTests](AllTests.md)*AllTests*
 
-##Summary####Constructors
+
+
+##Summary
+####Constructors
 * **public** [AllTests](#alltests)
 
 ##Constructors####AllTests()

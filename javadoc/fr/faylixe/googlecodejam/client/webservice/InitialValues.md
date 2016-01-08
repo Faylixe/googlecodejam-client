@@ -2,11 +2,14 @@
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *Object* > [InitialValues](InitialValues.md)*InitialValues*
+
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
  command request, using Gson API.</p>
  
  TODO Ensures seen is not boolean.
-##Summary####Constructors
+
+##Summary
+####Constructors
 * **public** [InitialValues](#initialvalues)
 ####Methods
 | Type and modifiers | Method signature |

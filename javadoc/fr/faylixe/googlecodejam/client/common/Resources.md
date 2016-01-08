@@ -2,8 +2,11 @@
 Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 > *Object* > [Resources](Resources.md)*Resources*
+
 <p>Static toolbox that exposes methods for internal resources managment.</p>
-##Summary####Methods
+
+##Summary
+####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
 | **public static** *String* | [getHTMLTemplate](#gethtmltemplate) || **public static** *String* | [getResource](#getresourcestring) || **public static** *InputStream* | [getResourceStream](#getresourcestreamstring) || **public static** *String* | [normalize](#normalizestring) |

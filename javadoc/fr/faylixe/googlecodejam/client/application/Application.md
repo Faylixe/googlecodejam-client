@@ -2,8 +2,11 @@
 Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 > *Object* > [Application](Application.md)*Application*
+
 <p>Main class that could be used as a command line program.</p>
-##Summary####Methods
+
+##Summary
+####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
 | **public static** **void** | [main](#mainjava.lang.string[]) |

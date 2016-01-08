@@ -2,8 +2,11 @@
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *Object* > [Deserializer](Deserializer.md)*Deserializer*
+
 Custom deserializer that normalizes problem body content.
-##Summary####Methods
+
+##Summary
+####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
 | **public** [Problem](Problem.md)*Problem* | [deserialize](#deserializejsonelement-type-jsondeserializationcontext) |

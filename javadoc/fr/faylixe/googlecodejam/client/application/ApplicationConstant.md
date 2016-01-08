@@ -2,9 +2,12 @@
 Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 > *Object* > [ApplicationConstant](ApplicationConstant.md)*ApplicationConstant*
+
 <p>Constants used for managing command
  line parameters.</p>
-##Summary####Methods
+
+##Summary
+####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
 | **public static** *Options* | [createOptions](#createoptions) |

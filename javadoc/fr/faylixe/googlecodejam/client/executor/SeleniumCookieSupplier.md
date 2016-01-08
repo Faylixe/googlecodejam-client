@@ -2,12 +2,15 @@
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 > *Object* > [SeleniumCookieSupplier](SeleniumCookieSupplier.md)*SeleniumCookieSupplier*
+
 TODO Javadoc
  TODO Cookie expiration parsing
  TODO Login url as parameter ? Function instead of supplier ?.
  
  ISSUE : https://github.com/Faylixe/googlecodejam-client/issues/5
-##Summary####Constructors
+
+##Summary
+####Constructors
 * **public** [SeleniumCookieSupplier](#seleniumcookiesupplierstring-java.util.function.supplier)
 ####Methods
 | Type and modifiers | Method signature |

@@ -2,11 +2,14 @@
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *Object* > [NamedObject](ommon/NamedObject.md)*NamedObject* > [ProblemInput](ProblemInput.md)*ProblemInput*
+
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. {@link ProblemInput} instance belong
  to a {@link Problem} object, and describes input submission
  available for a given {@link Problem}.</p>
-##Summary####Constructors
+
+##Summary
+####Constructors
 * **public** [ProblemInput](#probleminput)
 ####Methods
 | Type and modifiers | Method signature |

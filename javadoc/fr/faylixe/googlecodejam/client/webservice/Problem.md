@@ -2,11 +2,14 @@
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *Object* > [NamedObject](ommon/NamedObject.md)*NamedObject* > [Problem](Problem.md)*Problem*
+
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. {@link Problem} instance belong
  to a {@link ContestInfo} object, and consists in the problem
  metadata such a name, description, and IO details.</p>
-##Summary####Constructors
+
+##Summary
+####Constructors
 * **public** [Problem](#problem)
 ####Methods
 | Type and modifiers | Method signature |

@@ -2,10 +2,13 @@
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 > *Object* > [NamedObject](common/NamedObject.md)*NamedObject* > [Contest](Contest.md)*Contest*
+
 <p>POJO class that represents a Google Jam {@link Contest}.
  A {@link Contest} is represented by a name and a
  collection of {@link Round}.</p>
-##Summary####Methods
+
+##Summary
+####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
 | **public** **boolean** | [equals](#equalsobject) || **public static** *List* | [get](#gethttprequestexecutor) || **public** *List* | [getRounds](#getrounds) || **public** **int** | [hashCode](#hashcode) |

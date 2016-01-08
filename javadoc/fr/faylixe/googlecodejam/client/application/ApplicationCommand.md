@@ -2,10 +2,13 @@
 Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 > *Object* > [ApplicationCommand](ApplicationCommand.md)*ApplicationCommand*
+
 <p>This class contains static method that are
  executed from parsed command line argument in
  {@link Application}.</p>
-##Summary####Constructors
+
+##Summary
+####Constructors
 * **public** [ApplicationCommand](#applicationcommand)
 ####Methods
 | Type and modifiers | Method signature |

@@ -2,8 +2,11 @@
 Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 > *Object* > [HTMLConstant](HTMLConstant.md)*HTMLConstant*
+
 <p>Simple class that exposes HTML String related constants value.</p>
-##Summary####Fields
+
+##Summary
+####Fields
 
 ##Fields####ANCHOR
 HTML tag A.

@@ -2,8 +2,11 @@
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 > *Object* > [RoundTest](RoundTest.md)*RoundTest*
+
 Test case for the {@link Round} class.
-##Summary####Constructors
+
+##Summary
+####Constructors
 * **public** [RoundTest](#roundtest)
 ####Methods
 | Type and modifiers | Method signature |

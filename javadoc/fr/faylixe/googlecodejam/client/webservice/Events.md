@@ -2,8 +2,11 @@
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *Object* > [Events](Events.md)*Events*
+
 TODO : Fill with Event response attribute.
-##Summary####Constructors
+
+##Summary
+####Constructors
 * **public** [Events](#events)
 
 ##Constructors####Events()

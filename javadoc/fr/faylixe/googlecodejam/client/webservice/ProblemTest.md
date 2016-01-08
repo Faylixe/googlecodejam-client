@@ -2,8 +2,11 @@
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *Object* > [ProblemTest](ProblemTest.md)*ProblemTest*
+
 Test case for the {@link Problem} class.
-##Summary####Constructors
+
+##Summary
+####Constructors
 * **public** [ProblemTest](#problemtest)
 ####Methods
 | Type and modifiers | Method signature |
