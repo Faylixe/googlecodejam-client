@@ -23,6 +23,7 @@ Test case for {@link ContestInfo} class.
 ####ContestInfoTest()
 > 
 
+
 ---
 
 
@@ -31,6 +32,7 @@ Test case for {@link ContestInfo} class.
 > Retrieves the {@link ContestInfo} instance
  that will be used for testing. Using
  test {@link Round} as reference.
+
 > **Returns**
 * ContestInfo instance for testing.
 
@@ -40,6 +42,7 @@ Test case for {@link ContestInfo} class.
 ####testContestInfoConsistency(ContestInfo)
 > Ensures the given {@link ContestInfo} is
  consistent.
+
 > **Parameters**
 * info : {@link ContestInfo} instance to ensure consistency from.
 
@@ -50,6 +53,7 @@ Test case for {@link ContestInfo} class.
 > Ensures retrieved {@link ContestInfo} is
  consistent. Uses {@link ContestInfo} from
  target test {@link Round} instance.
+
 
 ---
 

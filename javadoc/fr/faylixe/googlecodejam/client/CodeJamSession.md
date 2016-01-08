@@ -35,6 +35,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####buildFilename(ProblemInput)
 > <p>Builds and returns a valid file name
  for the given problem <tt>input</tt>.</p>
+
 > **Parameters**
 * input : Input to retrieve file name from.
 
@@ -48,6 +49,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > <p>Static factory method that should be used for creating a session.
  Loads associated contest info and initial values from the given
  <tt>round</tt>, using the given <tt>executor</tt>.</p>
+
 > **Parameters**
 * executor : {@link HttpRequestExecutor} instance to use.
 * round : Contextual {@link Round} instance this session is bound to.
@@ -65,6 +67,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > <p>Downloads and returns the stream of the
  input file associated to the given problem
  <tt>input</tt>.</p>
+
 > **Parameters**
 * input : Input to download file from.
 
@@ -80,6 +83,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####getContestAnalysis(Problem)
 > <p>Returns the analysis for the given
  <tt>problem</tt> if any.</p>
+
 > **Parameters**
 * problem : Problem to retrieve analysis from.
 
@@ -92,6 +96,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####getContestInfo()
 > <p>Performs and returns a <tt>GET /</tt> request
  in order to get all <tt>round</tt> detail.</p>
+
 > **Returns**
 * Request response as a {@link ContestInfo} POJO.
 
@@ -101,6 +106,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####getProblem(String)
 > <p>Retrieves the problem associated
  to the given <tt>letter</tt>.</p>
+
 > **Parameters**
 * letter : Letter that identifies the problem.
 
@@ -114,6 +120,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > <p>Indiciates if the contest is currently active,
  namely if competition is occuring at the current
  time, or not.</p>
+
 > **Returns**
 * <tt>true</tt> if the contest is active, <tt>false</tt> otherwise.
 
@@ -122,6 +129,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ####isLogged()
 > <p>Indicates if the current session is logged in or not.</p>
+
 > **Returns**
 * <tt>true</tt> if user is logged, <tt>false</tt> otherwise.
 
@@ -131,6 +139,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####isQualified()
 > <p>Indicates if the currently logged user is qualified
  for the next round or not.</p>
+
 > **Returns**
 * <tt>true</tt> if user is qualified, <tt>false</tt> otherwise.
 
@@ -139,6 +148,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ####refresh()
 > <p>Reloads session components in order to prevent from any change.</p>
+
 > **Returns**
 * A newly created session updated otherwise.
 
@@ -156,6 +166,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  method on the same <tt>input</tt>, as the evaluation
  system will judge the last downloaded dataset
  based on the internal token / session.</p>
+
 > **Parameters**
 * input : Input file to submit solution for.
 * output : Output file produced by the algorithm.

@@ -39,6 +39,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####get(HttpRequestExecutor)
 > <p>Retrieves and returns a list of available
  contest for the given <tt>hostname</tt>.</p>
+
 > **Parameters**
 * executor : {@link HttpRequestExecutor} instance to use to retrieve contest index.
 
@@ -54,6 +55,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####getRounds()
 > <p>Getter that returns a immutable view
  of the {@link Round} list.</p>
+
 > **Returns**
 * List of the round of this contest.
 

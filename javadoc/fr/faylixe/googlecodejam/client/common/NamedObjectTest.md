@@ -22,6 +22,7 @@ Test case for {@link NamedObject} class.
 ####NamedObjectTest()
 > 
 
+
 ---
 
 
@@ -29,10 +30,12 @@ Test case for {@link NamedObject} class.
 ####testDefault()
 > Test named object behavior from default instantiation.
 
+
 ---
 
 ####testSerialized()
 > Test named object behavior through JSON built object.
+
 
 ---
 

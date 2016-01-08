@@ -240,6 +240,7 @@ The <tt>undefined</tt> parameter value.
 ##Methods
 ####createBoundary()
 > Creates and returns a boundary for multipart request.
+
 > **Returns**
 * Created boundary.
 

@@ -25,6 +25,7 @@ Test case for {@link CodeJamSession} class.
 ####CodeJamSessionTest()
 > 
 
+
 ---
 
 
@@ -33,6 +34,7 @@ Test case for {@link CodeJamSession} class.
 > Retrieves a valid {@link CodeJamSession}
  that should be used for testing.
  Such session is not connected.
+
 > **Returns**
 * Session instance that should be used for testing.
 
@@ -43,11 +45,13 @@ Test case for {@link CodeJamSession} class.
 > Test for the {@link CodeJamSession#getContestAnalysis(Problem)}
  method, using the test {@link Problem} as a reference.
 
+
 ---
 
 ####testDownload()
 > Test for the {@link CodeJamSession#download(ProblemInput)}
  method, using the test {@link Problem} as a reference.
+
 
 ---
 
@@ -56,11 +60,13 @@ Test case for {@link CodeJamSession} class.
  is the one expected. Also test session related properties,
  like if user is qualified or is the contest is active.
 
+
 ---
 
 ####testSubmission()
 > Test for the {@link CodeJamSession#submit(ProblemInput, File, File)}
  method, using the test {@link Problem} as a reference.
+
 
 ---
 

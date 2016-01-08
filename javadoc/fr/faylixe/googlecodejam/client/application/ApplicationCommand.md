@@ -25,6 +25,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 ####ApplicationCommand()
 > 
 
+
 ---
 
 
@@ -34,6 +35,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
  Retrieves the contextual session if exist, and if so, then
  the download method is used on the loaded session. If the
  file already exist, it will be removed first before downloading.
+
 > **Parameters**
 * command : User command line.
 
@@ -47,6 +49,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 > Methods that is bound to the INIT command. Starts
  firefox through selenium to retrieve cookie instance
  and prompts user for the contextual round to use.
+
 > **Returns**
 * <tt>true</tt> if the init command was correctly executed, <tt>false</tt> otherwise.
 
@@ -57,6 +60,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 > Performs an output file submission using the <tt>SubmitAnswer</tt>
  command. Retrieves the contextual session if exist, and if so, then
  the submit method is used on the loaded session.
+
 > **Parameters**
 * command : User command line.
 

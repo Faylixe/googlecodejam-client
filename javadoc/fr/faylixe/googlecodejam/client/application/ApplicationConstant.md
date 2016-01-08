@@ -177,6 +177,7 @@ Syntax of the command line script.
 ####createOptions()
 > Static factory method that creates the {@link Options} list
  for the command line arguments parsing.
+
 > **Returns**
 * Created options list.
 

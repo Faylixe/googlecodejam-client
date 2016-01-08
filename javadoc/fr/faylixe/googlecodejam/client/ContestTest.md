@@ -22,6 +22,7 @@ Test case for {@link Contest} class.
 ####ContestTest()
 > 
 
+
 ---
 
 
@@ -31,6 +32,7 @@ Test case for {@link Contest} class.
  be used for testing. Such contest will be
  the last, assuming the the last contest
  will never change.
+
 > **Returns**
 * Contest instance for testing.
 
@@ -41,6 +43,7 @@ Test case for {@link Contest} class.
 > Ensures retrieved contests are consistent.
  In order to do so, it consider that the last extracted
  contest should never change (the older always stays the older).
+
 
 ---
 
