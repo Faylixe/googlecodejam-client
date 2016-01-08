@@ -7,14 +7,14 @@
  </ul>
 ##Classes| Name |
 | --- |
-| [CodeJamSession](CodeJamSession.md)*CodeJamSession* |
-| [Contest](Contest.md)*Contest* |
-| [Round](Round.md)*Round* |
-| [HttpRequestExecutorMock](HttpRequestExecutorMock.md)*HttpRequestExecutorMock* |
-| [AllTests](AllTests.md)*AllTests* |
-| [CodeJamSessionTest](CodeJamSessionTest.md)*CodeJamSessionTest* |
-| [RoundTest](RoundTest.md)*RoundTest* |
-| [ContestTest](ContestTest.md)*ContestTest* |
+| [CodeJamSession](CodeJamSession.md) |
+| [Contest](Contest.md) |
+| [Round](Round.md) |
+| [HttpRequestExecutorMock](HttpRequestExecutorMock.md) |
+| [AllTests](AllTests.md) |
+| [CodeJamSessionTest](CodeJamSessionTest.md) |
+| [RoundTest](RoundTest.md) |
+| [ContestTest](ContestTest.md) |
 
 ---
 

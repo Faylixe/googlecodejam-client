@@ -1,7 +1,7 @@
 #HttpRequestExecutor
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
-> *Object* > [HttpRequestExecutor](HttpRequestExecutor.md)*HttpRequestExecutor*
+> *Object* > [HttpRequestExecutor](HttpRequestExecutor.md)
 
 <p>A {@link HttpRequestExecutor} is an abstraction
  on top of {@link HttpRequestFactory} that handles
@@ -11,7 +11,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *Part* | [buildDataPart](#builddatapartstring-string) || **public static** *Part* | [buildFilePart](#buildfilepartstring-file) || **public static** [HttpRequestExecutor](HttpRequestExecutor.md)*HttpRequestExecutor* | [create](#createstring-string) || **public static** [HttpRequestExecutor](HttpRequestExecutor.md)*HttpRequestExecutor* | [create](#createstring) || **public** *String* | [get](#getstring) || **public** *String* | [getHostname](#gethostname) || **public** *HttpRequest* | [getRequest](#getrequeststring) || **public** *String* | [post](#poststring-httpcontent) |
+| **public static** *Part* | [buildDataPart](#builddatapartstring-string) || **public static** *Part* | [buildFilePart](#buildfilepartstring-file) || **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring-string) || **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring) || **public** *String* | [get](#getstring) || **public** *String* | [getHostname](#gethostname) || **public** *HttpRequest* | [getRequest](#getrequeststring) || **public** *String* | [post](#poststring-httpcontent) |
 
 ##Methods####buildDataPart(String, String)
 Static factory method that creates a {@link Part} which contains

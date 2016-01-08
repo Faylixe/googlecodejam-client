@@ -1,7 +1,7 @@
 #ProblemTest
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *Object* > [ProblemTest](ProblemTest.md)*ProblemTest*
+> *Object* > [ProblemTest](ProblemTest.md)
 
 Test case for the {@link Problem} class.
 
@@ -11,7 +11,7 @@ Test case for the {@link Problem} class.
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [Problem](Problem.md)*Problem* | [getTestProblem](#gettestproblem) || **public** **void** | [testProblemConsistency](#testproblemconsistency) |
+| **public static** [Problem](Problem.md) | [getTestProblem](#gettestproblem) || **public** **void** | [testProblemConsistency](#testproblemconsistency) |
 
 ##Constructors####ProblemTest()
 

@@ -1,7 +1,7 @@
 #InitialValuesTest
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *Object* > [InitialValuesTest](InitialValuesTest.md)*InitialValuesTest*
+> *Object* > [InitialValuesTest](InitialValuesTest.md)
 
 Test case for {@link InitialValues} class.
 
@@ -11,7 +11,7 @@ Test case for {@link InitialValues} class.
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [InitialValues](InitialValues.md)*InitialValues* | [getTestInitialValues](#gettestinitialvalues) || **public** **void** | [testInitialValuesConsistency](#testinitialvaluesconsistency) |
+| **public static** [InitialValues](InitialValues.md) | [getTestInitialValues](#gettestinitialvalues) || **public** **void** | [testInitialValuesConsistency](#testinitialvaluesconsistency) |
 
 ##Constructors####InitialValuesTest()
 

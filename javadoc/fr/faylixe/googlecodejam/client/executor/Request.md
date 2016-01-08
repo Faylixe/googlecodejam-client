@@ -1,7 +1,7 @@
 #Request
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
-> *Object* > [Request](Request.md)*Request*
+> *Object* > [Request](Request.md)
 
 <p>Simple class that exposes string constant
  relative to HTTP API for interacting with
@@ -14,7 +14,8 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 | **public static final** *String* | [createBoundary](#createboundary) |
 ####Fields
 
-##Fields####AGENT_PARAMETER
+##Fields
+####AGENT_PARAMETER
 The <tt>agent</tt> parameter.
 > **public static final** *String*
 

@@ -1,7 +1,7 @@
 #ApplicationConstant
 Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
-> *Object* > [ApplicationConstant](ApplicationConstant.md)*ApplicationConstant*
+> *Object* > [ApplicationConstant](ApplicationConstant.md)
 
 <p>Constants used for managing command
  line parameters.</p>
@@ -13,7 +13,8 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 | **public static** *Options* | [createOptions](#createoptions) |
 ####Fields
 
-##Fields####DOWNLOAD
+##Fields
+####DOWNLOAD
 Short option for the download action.
 > **public static final** *String*
 

@@ -1,7 +1,7 @@
 #CodeJamSessionTest
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *Object* > [CodeJamSessionTest](CodeJamSessionTest.md)*CodeJamSessionTest*
+> *Object* > [CodeJamSessionTest](CodeJamSessionTest.md)
 
 Test case for {@link CodeJamSession} class.
 
@@ -11,7 +11,7 @@ Test case for {@link CodeJamSession} class.
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [CodeJamSession](CodeJamSession.md)*CodeJamSession* | [getTestSession](#gettestsession) || **public** **void** | [testContestAnalysis](#testcontestanalysis) || **public** **void** | [testDownload](#testdownload) || **public** **void** | [testSessionConsistency](#testsessionconsistency) || **public** **void** | [testSubmission](#testsubmission) |
+| **public static** [CodeJamSession](CodeJamSession.md) | [getTestSession](#gettestsession) || **public** **void** | [testContestAnalysis](#testcontestanalysis) || **public** **void** | [testDownload](#testdownload) || **public** **void** | [testSessionConsistency](#testsessionconsistency) || **public** **void** | [testSubmission](#testsubmission) |
 
 ##Constructors####CodeJamSessionTest()
 

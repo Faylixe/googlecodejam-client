@@ -4,9 +4,9 @@
  API directly from the terminal.</p>
 ##Classes| Name |
 | --- |
-| [ApplicationConstant](ApplicationConstant.md)*ApplicationConstant* |
-| [ApplicationCommand](ApplicationCommand.md)*ApplicationCommand* |
-| [Application](Application.md)*Application* |
+| [ApplicationConstant](ApplicationConstant.md) |
+| [ApplicationCommand](ApplicationCommand.md) |
+| [Application](Application.md) |
 
 ---
 

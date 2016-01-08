@@ -3,9 +3,9 @@
  HTTP request in a Code Jam context.</p>
 ##Classes| Name |
 | --- |
-| [HttpRequestExecutor](HttpRequestExecutor.md)*HttpRequestExecutor* |
-| [Request](Request.md)*Request* |
-| [SeleniumCookieSupplier](SeleniumCookieSupplier.md)*SeleniumCookieSupplier* |
+| [HttpRequestExecutor](HttpRequestExecutor.md) |
+| [Request](Request.md) |
+| [SeleniumCookieSupplier](SeleniumCookieSupplier.md) |
 
 ---
 

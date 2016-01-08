@@ -1,7 +1,7 @@
 #Problem
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *Object* > [NamedObject](ommon/NamedObject.md)*NamedObject* > [Problem](Problem.md)*Problem*
+> *Object* > [NamedObject](ommon/NamedObject.md) > [Problem](Problem.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. {@link Problem} instance belong
@@ -14,7 +14,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **boolean** | [equals](#equalsobject) || **public** *String* | [getBody](#getbody) || **public** *String* | [getId](#getid) || **public** *String* | [getKey](#getkey) || **public** *String* | [getNormalizedName](#getnormalizedname) || **public** [ContestInfo](ContestInfo.md)*ContestInfo* | [getParent](#getparent) || **public** [ProblemInput](ProblemInput.md)*ProblemInput* | [getProblemInput](#getprobleminputint) || **public** [ProblemInput](ProblemInput.md)*ProblemInput* | [getProblemInput](#getprobleminputstring) || **public** *List* | [getProblemInputs](#getprobleminputs) || **public** *String* | [getType](#gettype) || **public** **int** | [hashCode](#hashcode) || **public** **void** | [validateObject](#validateobject) |
+| **public** **boolean** | [equals](#equalsobject) || **public** *String* | [getBody](#getbody) || **public** *String* | [getId](#getid) || **public** *String* | [getKey](#getkey) || **public** *String* | [getNormalizedName](#getnormalizedname) || **public** [ContestInfo](ContestInfo.md) | [getParent](#getparent) || **public** [ProblemInput](ProblemInput.md) | [getProblemInput](#getprobleminputint) || **public** [ProblemInput](ProblemInput.md) | [getProblemInput](#getprobleminputstring) || **public** *List* | [getProblemInputs](#getprobleminputs) || **public** *String* | [getType](#gettype) || **public** **int** | [hashCode](#hashcode) || **public** **void** | [validateObject](#validateobject) |
 
 ##Constructors####Problem()
 

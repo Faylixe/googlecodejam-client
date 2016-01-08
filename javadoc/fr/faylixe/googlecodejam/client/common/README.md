@@ -2,10 +2,10 @@
 <p>Common class and tools used by this library.</p>
 ##Classes| Name |
 | --- |
-| [HTMLConstant](HTMLConstant.md)*HTMLConstant* |
-| [Resources](Resources.md)*Resources* |
-| [NamedObject](NamedObject.md)*NamedObject* |
-| [NamedObjectTest](NamedObjectTest.md)*NamedObjectTest* |
+| [HTMLConstant](HTMLConstant.md) |
+| [Resources](Resources.md) |
+| [NamedObject](NamedObject.md) |
+| [NamedObjectTest](NamedObjectTest.md) |
 
 ---
 

@@ -5,17 +5,17 @@
  parser.</p>
 ##Classes| Name |
 | --- |
-| [ContestInfo](ContestInfo.md)*ContestInfo* |
-| [Problem](Problem.md)*Problem* |
-| [Deserializer](Deserializer.md)*Deserializer* |
-| [ProblemInput](ProblemInput.md)*ProblemInput* |
-| [Events](Events.md)*Events* |
-| [SubmitResponse](SubmitResponse.md)*SubmitResponse* |
-| [InitialValues](InitialValues.md)*InitialValues* |
-| [ProblemTest](ProblemTest.md)*ProblemTest* |
-| [ContestInfoTest](ContestInfoTest.md)*ContestInfoTest* |
-| [ProblemInputTest](ProblemInputTest.md)*ProblemInputTest* |
-| [InitialValuesTest](InitialValuesTest.md)*InitialValuesTest* |
+| [ContestInfo](ContestInfo.md) |
+| [Problem](Problem.md) |
+| [Deserializer](Deserializer.md) |
+| [ProblemInput](ProblemInput.md) |
+| [Events](Events.md) |
+| [SubmitResponse](SubmitResponse.md) |
+| [InitialValues](InitialValues.md) |
+| [ProblemTest](ProblemTest.md) |
+| [ContestInfoTest](ContestInfoTest.md) |
+| [ProblemInputTest](ProblemInputTest.md) |
+| [InitialValuesTest](InitialValuesTest.md) |
 
 ---
 

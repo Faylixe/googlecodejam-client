@@ -1,7 +1,7 @@
 #RoundTest
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *Object* > [RoundTest](RoundTest.md)*RoundTest*
+> *Object* > [RoundTest](RoundTest.md)
 
 Test case for the {@link Round} class.
 
@@ -11,7 +11,7 @@ Test case for the {@link Round} class.
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [Round](Round.md)*Round* | [getTestRound](#gettestround) || **public** **void** | [testRoundConsistency](#testroundconsistency) |
+| **public static** [Round](Round.md) | [getTestRound](#gettestround) || **public** **void** | [testRoundConsistency](#testroundconsistency) |
 
 ##Constructors####RoundTest()
 
