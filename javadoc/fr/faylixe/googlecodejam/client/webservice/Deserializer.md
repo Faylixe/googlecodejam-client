@@ -1,7 +1,7 @@
 #Problem.Deserializer
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
-> [Object](../../../../java/lang/Object.md) > [Deserializer](Deserializer.md)
+>  > [Deserializer](Deserializer.md)
 
 Custom deserializer that normalizes problem body content.
 

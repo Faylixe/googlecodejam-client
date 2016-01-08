@@ -1,7 +1,7 @@
 #CodeJamSession
 
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
-> [Object](../../../java/lang/Object.md) > [NamedObject](/common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
+>  > [NamedObject](/common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
 
 {@link CodeJamSession} is the main API entry point, which consists
  in logging to a code jam platform ``hostname`` and then providing
@@ -18,10 +18,10 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Type and modifiers | Method signature
  --- | --- 
-**public** [String](../../../java/lang/String.md) | [buildFilename](#buildfilenameprobleminput)
+**public**  | [buildFilename](#buildfilenameprobleminput)
 **public static** [CodeJamSession](CodeJamSession.md) | [createSession](#createsessionhttprequestexecutor-round)
-**public** [InputStream](../../../java/io/InputStream.md) | [download](#downloadprobleminput)
-**public** [String](../../../java/lang/String.md) | [getContestAnalysis](#getcontestanalysisproblem)
+**public**  | [download](#downloadprobleminput)
+**public**  | [getContestAnalysis](#getcontestanalysisproblem)
 **public** [ContestInfo](/webservice/ContestInfo.md) | [getContestInfo](#getcontestinfo)
 **public** [Problem](/webservice/Problem.md) | [getProblem](#getproblemstring)
 **public** **boolean** | [isActive](#isactive)
@@ -68,7 +68,7 @@ Type and modifiers | Method signature
 
 #####Throws
 
-* [IOException](../../../java/io/IOException.md) If any error occurs while retrieving contest info or initial values.
+*  If any error occurs while retrieving contest info or initial values.
 
 ---
 ###download(ProblemInput)
@@ -89,7 +89,7 @@ Type and modifiers | Method signature
 
 #####Throws
 
-* [IOException](../../../java/io/IOException.md) If any error occurs while downloading the file.
+*  If any error occurs while downloading the file.
 
 ---
 ###getContestAnalysis(Problem)
@@ -179,7 +179,7 @@ Type and modifiers | Method signature
 
 #####Throws
 
-* [IOException](../../../java/io/IOException.md) If any error occurs while reloading a new session.
+*  If any error occurs while reloading a new session.
 
 ---
 ###submit(ProblemInput, File, File)
@@ -206,7 +206,7 @@ Type and modifiers | Method signature
 
 #####Throws
 
-* [IOException](../../../java/io/IOException.md) If any error occurs while uploading data, or performing the request.
+*  If any error occurs while uploading data, or performing the request.
 
 ---
 ---

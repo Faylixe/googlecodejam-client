@@ -1,7 +1,7 @@
 #InitialValues
 
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
-> [Object](../../../../java/lang/Object.md) > [InitialValues](InitialValues.md)
+>  > [InitialValues](InitialValues.md)
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
  command request, using Gson API.</p>
@@ -19,19 +19,19 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 Type and modifiers | Method signature
  --- | --- 
 **public static** [InitialValues](InitialValues.md) | [get](#gethttprequestexecutor-round)
-**public** [String](../../../../java/lang/String.md) | [getAdmin](#getadmin)
+**public**  | [getAdmin](#getadmin)
 **public** **int** | [getCS](#getcs)
-**public** [String](../../../../java/lang/String.md) | [getEmail](#getemail)
-**public** [String](../../../../java/lang/String.md) | [getInput](#getinput)
+**public**  | [getEmail](#getemail)
+**public**  | [getInput](#getinput)
 **public** **long** | [getLeft](#getleft)
-**public** [String](../../../../java/lang/String.md) | [getLoginHTML](#getloginhtml)
-**public** [String](../../../../java/lang/String.md) | [getLogoutHTML](#getlogouthtml)
-**public** [String](../../../../java/lang/String.md) | [getName](#getname)
+**public**  | [getLoginHTML](#getloginhtml)
+**public**  | [getLogoutHTML](#getlogouthtml)
+**public**  | [getName](#getname)
 **public** **int** | [getSeen](#getseen)
-**public** [String](../../../../java/lang/String.md) | [getSnippet](#getsnippet)
+**public**  | [getSnippet](#getsnippet)
 **public** **long** | [getStart](#getstart)
-**public** [String](../../../../java/lang/String.md) | [getToken](#gettoken)
-**public** [String](../../../../java/lang/String.md) | [getURLEncodedToken](#geturlencodedtoken)
+**public**  | [getToken](#gettoken)
+**public**  | [getURLEncodedToken](#geturlencodedtoken)
 **public** **long** | [getUntilStart](#getuntilstart)
 **public** **int** | [getVersion](#getversion)
 **public** **boolean** | [isLogged](#islogged)
@@ -66,7 +66,7 @@ Static factory method that use the <tt>GetInitialValues</tt> command
 
 #####Throws
 
-* [IOException](../../../../java/io/IOException.md) If any error occurs during the associated HTTP request.
+*  If any error occurs during the associated HTTP request.
 
 ---
 ###getAdmin()
@@ -200,7 +200,7 @@ Returns an URL encoded form of the middle ware token.
 
 #####Throws
 
-* [UnsupportedEncodingException](../../../../java/io/UnsupportedEncodingException.md) If target encoding is not supported.
+*  If target encoding is not supported.
 
 ---
 ###getUntilStart()

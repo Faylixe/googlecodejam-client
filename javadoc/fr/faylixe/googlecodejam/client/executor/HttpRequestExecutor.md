@@ -1,7 +1,7 @@
 #HttpRequestExecutor
 
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
-> [Object](../../../../java/lang/Object.md) > [HttpRequestExecutor](HttpRequestExecutor.md)
+>  > [HttpRequestExecutor](HttpRequestExecutor.md)
 
 <p>A {@link HttpRequestExecutor} is an abstraction
  on top of {@link HttpRequestFactory} that handles
@@ -13,14 +13,14 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 Type and modifiers | Method signature
  --- | --- 
-**public static** [Part](../../../../com/google/api/client/http/Part.md) | [buildDataPart](#builddatapartstring-string)
-**public static** [Part](../../../../com/google/api/client/http/Part.md) | [buildFilePart](#buildfilepartstring-file)
+**public static**  | [buildDataPart](#builddatapartstring-string)
+**public static**  | [buildFilePart](#buildfilepartstring-file)
 **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring-string)
 **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring)
-**public** [String](../../../../java/lang/String.md) | [get](#getstring)
-**public** [String](../../../../java/lang/String.md) | [getHostname](#gethostname)
-**public** [HttpRequest](../../../../com/google/api/client/http/HttpRequest.md) | [getRequest](#getrequeststring)
-**public** [String](../../../../java/lang/String.md) | [post](#poststring-httpcontent)
+**public**  | [get](#getstring)
+**public**  | [getHostname](#gethostname)
+**public**  | [getRequest](#getrequeststring)
+**public**  | [post](#poststring-httpcontent)
 
 
 ##Methods
@@ -60,7 +60,7 @@ Static factory method that creates a {@link Part} which contains
 
 #####Throws
 
-* [IOException](../../../../java/io/IOException.md) If any any error occurs during file type detection.
+*  If any any error occurs during file type detection.
 
 ---
 ###create(String, String)
@@ -115,7 +115,7 @@ Performs a HTTP GET request to the given <tt>path</tt>
 
 #####Throws
 
-* [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
+*  If any error occurs while performing request.
 
 ---
 ###getHostname()
@@ -145,7 +145,7 @@ Creates and returns a GET {@link HttpRequest} instance
 
 #####Throws
 
-* [IOException](../../../../java/io/IOException.md) If any error occurs while creating the GET request.
+*  If any error occurs while creating the GET request.
 
 ---
 ###post(String, HttpContent)
@@ -166,7 +166,7 @@ Performs a HTTP POST request to the given <tt>path</tt>
 
 #####Throws
 
-* [IOException](../../../../java/io/IOException.md) If any error occurs while performing request.
+*  If any error occurs while performing request.
 
 ---
 ---
