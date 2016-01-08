@@ -1,7 +1,7 @@
 #ProblemInput
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *Object* > [NamedObject](ommon/NamedObject.md) > [ProblemInput](ProblemInput.md)
+> *java.lang.Object* > [NamedObject](ommon/NamedObject.md) > [ProblemInput](ProblemInput.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. {@link ProblemInput} instance belong
@@ -14,16 +14,16 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 * **public static final** [SMALL](#small)
 
 ####Constructors
-* **public** [ProblemInput](#probleminput)
+* **public** [ProblemInput](#probleminput)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **int** | [getDifficulty](#getdifficulty) |
-| **public** **int** | [getNumber](#getnumber) |
-| **public** **int** | [getPoints](#getpoints) |
-| **public** [Problem](Problem.md) | [getProblem](#getproblem) |
-| **public** *String* | [getSuffix](#getsuffix) |
+| **public** **int** | [getDifficulty](#getdifficulty)() |
+| **public** **int** | [getNumber](#getnumber)() |
+| **public** **int** | [getPoints](#getpoints)() |
+| **public** [Problem](Problem.md) | [getProblem](#getproblem)() |
+| **public** *java.lang.String* | [getSuffix](#getsuffix)() |
 
 ---
 
@@ -38,14 +38,16 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Fields
 ####LARGE
-> **public static final** *String*
-Constant used for large input.
+> **public static final** *java.lang.String*
+
+> Constant used for large input.
 
 ---
 
 ####SMALL
-> **public static final** *String*
-Constant used for small input.
+> **public static final** *java.lang.String*
+
+> Constant used for small input.
 
 ---
 

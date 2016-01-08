@@ -1,20 +1,20 @@
 #ContestInfoTest
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *Object* > [ContestInfoTest](ContestInfoTest.md)
+> *java.lang.Object* > [ContestInfoTest](ContestInfoTest.md)
 
 Test case for {@link ContestInfo} class.
 
 ##Summary
 ####Constructors
-* **public** [ContestInfoTest](#contestinfotest)
+* **public** [ContestInfoTest](#contestinfotest)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [ContestInfo](ContestInfo.md) | [getTestContestInfo](#gettestcontestinfo) |
-| **public static** **void** | [testContestInfoConsistency](#testcontestinfoconsistencycontestinfo) |
-| **public** **void** | [testContestInfoConsistency](#testcontestinfoconsistency) |
+| **public static** [ContestInfo](ContestInfo.md) | [getTestContestInfo](#gettestcontestinfo)() |
+| **public static** **void** | [testContestInfoConsistency](#testcontestinfoconsistencycontestinfo)([ContestInfo](ContestInfo.md) info) |
+| **public** **void** | [testContestInfoConsistency](#testcontestinfoconsistency)() |
 
 ---
 

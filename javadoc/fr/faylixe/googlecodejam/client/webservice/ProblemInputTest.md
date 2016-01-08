@@ -1,18 +1,18 @@
 #ProblemInputTest
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *Object* > [ProblemInputTest](ProblemInputTest.md)
+> *java.lang.Object* > [ProblemInputTest](ProblemInputTest.md)
 
 Test case for the {@link ProblemInput} class.
 
 ##Summary
 ####Constructors
-* **public** [ProblemInputTest](#probleminputtest)
+* **public** [ProblemInputTest](#probleminputtest)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **void** | [testProblemInputConsistency](#testprobleminputconsistency) |
+| **public** **void** | [testProblemInputConsistency](#testprobleminputconsistency)() |
 
 ---
 

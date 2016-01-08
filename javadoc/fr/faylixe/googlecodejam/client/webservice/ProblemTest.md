@@ -1,19 +1,19 @@
 #ProblemTest
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *Object* > [ProblemTest](ProblemTest.md)
+> *java.lang.Object* > [ProblemTest](ProblemTest.md)
 
 Test case for the {@link Problem} class.
 
 ##Summary
 ####Constructors
-* **public** [ProblemTest](#problemtest)
+* **public** [ProblemTest](#problemtest)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [Problem](Problem.md) | [getTestProblem](#gettestproblem) |
-| **public** **void** | [testProblemConsistency](#testproblemconsistency) |
+| **public static** [Problem](Problem.md) | [getTestProblem](#gettestproblem)() |
+| **public** **void** | [testProblemConsistency](#testproblemconsistency)() |
 
 ---
 

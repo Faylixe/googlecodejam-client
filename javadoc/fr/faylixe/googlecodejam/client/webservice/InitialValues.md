@@ -1,7 +1,7 @@
 #InitialValues
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *Object* > [InitialValues](InitialValues.md)
+> *java.lang.Object* > [InitialValues](InitialValues.md)
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
  command request, using Gson API.</p>
@@ -10,29 +10,29 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Summary
 ####Constructors
-* **public** [InitialValues](#initialvalues)
+* **public** [InitialValues](#initialvalues)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [InitialValues](InitialValues.md) | [get](#gethttprequestexecutor-round) |
-| **public** *String* | [getAdmin](#getadmin) |
-| **public** **int** | [getCS](#getcs) |
-| **public** *String* | [getEmail](#getemail) |
-| **public** *String* | [getInput](#getinput) |
-| **public** **long** | [getLeft](#getleft) |
-| **public** *String* | [getLoginHTML](#getloginhtml) |
-| **public** *String* | [getLogoutHTML](#getlogouthtml) |
-| **public** *String* | [getName](#getname) |
-| **public** **int** | [getSeen](#getseen) |
-| **public** *String* | [getSnippet](#getsnippet) |
-| **public** **long** | [getStart](#getstart) |
-| **public** *String* | [getToken](#gettoken) |
-| **public** *String* | [getURLEncodedToken](#geturlencodedtoken) |
-| **public** **long** | [getUntilStart](#getuntilstart) |
-| **public** **int** | [getVersion](#getversion) |
-| **public** **boolean** | [isLogged](#islogged) |
-| **public** **boolean** | [isQualified](#isqualified) |
+| **public static** [InitialValues](InitialValues.md) | [get](#gethttprequestexecutor-round)([HttpRequestExecutor](xecutor/HttpRequestExecutor.md) executor, [Round](../Round.md) round) |
+| **public** *java.lang.String* | [getAdmin](#getadmin)() |
+| **public** **int** | [getCS](#getcs)() |
+| **public** *java.lang.String* | [getEmail](#getemail)() |
+| **public** *java.lang.String* | [getInput](#getinput)() |
+| **public** **long** | [getLeft](#getleft)() |
+| **public** *java.lang.String* | [getLoginHTML](#getloginhtml)() |
+| **public** *java.lang.String* | [getLogoutHTML](#getlogouthtml)() |
+| **public** *java.lang.String* | [getName](#getname)() |
+| **public** **int** | [getSeen](#getseen)() |
+| **public** *java.lang.String* | [getSnippet](#getsnippet)() |
+| **public** **long** | [getStart](#getstart)() |
+| **public** *java.lang.String* | [getToken](#gettoken)() |
+| **public** *java.lang.String* | [getURLEncodedToken](#geturlencodedtoken)() |
+| **public** **long** | [getUntilStart](#getuntilstart)() |
+| **public** **int** | [getVersion](#getversion)() |
+| **public** **boolean** | [isLogged](#islogged)() |
+| **public** **boolean** | [isQualified](#isqualified)() |
 
 ---
 
@@ -58,7 +58,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 * Created instance from request.
 
 > **Throws**
-* *IOException* If any error occurs during the associated HTTP request.
+* *java.io.IOException* If any error occurs during the associated HTTP request.
 
 
 ---
@@ -178,7 +178,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 * Middleware token in an URL encoded form.
 
 > **Throws**
-* *UnsupportedEncodingException* If target encoding is not supported.
+* *java.io.UnsupportedEncodingException* If target encoding is not supported.
 
 
 ---

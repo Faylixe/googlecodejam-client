@@ -1,19 +1,19 @@
 #InitialValuesTest
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *Object* > [InitialValuesTest](InitialValuesTest.md)
+> *java.lang.Object* > [InitialValuesTest](InitialValuesTest.md)
 
 Test case for {@link InitialValues} class.
 
 ##Summary
 ####Constructors
-* **public** [InitialValuesTest](#initialvaluestest)
+* **public** [InitialValuesTest](#initialvaluestest)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [InitialValues](InitialValues.md) | [getTestInitialValues](#gettestinitialvalues) |
-| **public** **void** | [testInitialValuesConsistency](#testinitialvaluesconsistency) |
+| **public static** [InitialValues](InitialValues.md) | [getTestInitialValues](#gettestinitialvalues)() |
+| **public** **void** | [testInitialValuesConsistency](#testinitialvaluesconsistency)() |
 
 ---
 

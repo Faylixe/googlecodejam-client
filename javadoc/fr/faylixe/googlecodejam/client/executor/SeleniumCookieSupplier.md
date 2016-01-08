@@ -1,7 +1,7 @@
 #SeleniumCookieSupplier
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
-> *Object* > [SeleniumCookieSupplier](SeleniumCookieSupplier.md)
+> *java.lang.Object* > [SeleniumCookieSupplier](SeleniumCookieSupplier.md)
 
 TODO Javadoc
  TODO Cookie expiration parsing
@@ -11,14 +11,14 @@ TODO Javadoc
 
 ##Summary
 ####Constructors
-* **public** [SeleniumCookieSupplier](#seleniumcookiesupplierstring-java.util.function.supplier)
+* **public** [SeleniumCookieSupplier](#seleniumcookiesupplierstring-java.util.function.supplier)(*java.lang.String* target, *java.util.function.Supplier* driverSupplier)
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **void** | [cancel](#cancel) |
-| **public** **void** | [checkCurrentState](#checkcurrentstatewebdriver) |
-| **public** **boolean** | [isRunning](#isrunning) |
+| **public** **void** | [cancel](#cancel)() |
+| **public** **void** | [checkCurrentState](#checkcurrentstatewebdriver)(*org.openqa.selenium.WebDriver* driver) |
+| **public** **boolean** | [isRunning](#isrunning)() |
 
 ---
 

@@ -21,43 +21,50 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ##Fields
 ####ANCHOR
 > **public static final** *java.lang.String*
-HTML tag A.
+
+> HTML tag A.
 
 ---
 
 ####H3
 > **public static final** *java.lang.String*
-HTML tag H3.
+
+> HTML tag H3.
 
 ---
 
 ####HREF
 > **public static final** *java.lang.String*
-HTML attribute HREF.
+
+> HTML attribute HREF.
 
 ---
 
 ####IMG
 > **public static final** *java.lang.String*
-HTML tag IMG.
+
+> HTML tag IMG.
 
 ---
 
 ####SRC
 > **public static final** *java.lang.String*
-HTML attribute SRC.
+
+> HTML attribute SRC.
 
 ---
 
 ####TD
 > **public static final** *java.lang.String*
-HTML tag TD.
+
+> HTML tag TD.
 
 ---
 
 ####TR
 > **public static final** *java.lang.String*
-HTML tag TR.
+
+> HTML tag TR.
 
 ---
 

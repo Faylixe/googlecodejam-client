@@ -1,23 +1,23 @@
 #ContestInfo
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *Object* > [ContestInfo](ContestInfo.md)
+> *java.lang.Object* > [ContestInfo](ContestInfo.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API.</p>
 
 ##Summary
 ####Constructors
-* **public** [ContestInfo](#contestinfo)
+* **public** [ContestInfo](#contestinfo)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [ContestInfo](ContestInfo.md) | [get](#gethttprequestexecutor-round) |
-| **public** [Problem](Problem.md) | [getProblem](#getproblemint) |
-| **public** *List* | [getProblems](#getproblems) |
-| **public** **int** | [getVersion](#getversion) |
-| **public** **boolean** | [hasAnalysis](#hasanalysis) |
+| **public static** [ContestInfo](ContestInfo.md) | [get](#gethttprequestexecutor-round)([HttpRequestExecutor](xecutor/HttpRequestExecutor.md) executor, [Round](../Round.md) round) |
+| **public** [Problem](Problem.md) | [getProblem](#getproblemint)(**int** index) |
+| **public** *java.util.List* | [getProblems](#getproblems)() |
+| **public** **int** | [getVersion](#getversion)() |
+| **public** **boolean** | [hasAnalysis](#hasanalysis)() |
 
 ---
 
@@ -44,7 +44,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 * Built {@link ContestInfo} instance.
 
 > **Throws**
-* *IOException* IF any error occurs while executing request.
+* *java.io.IOException* IF any error occurs while executing request.
 
 
 ---
@@ -59,7 +59,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 * Problem instance required.
 
 > **Throws**
-* *ArrayIndexOutOfBoundsException* If the given index is not valid.
+* *java.lang.ArrayIndexOutOfBoundsException* If the given index is not valid.
 
 
 ---

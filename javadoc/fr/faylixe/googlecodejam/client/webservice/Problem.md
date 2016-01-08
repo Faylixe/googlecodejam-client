@@ -1,7 +1,7 @@
 #Problem
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *Object* > [NamedObject](ommon/NamedObject.md) > [Problem](Problem.md)
+> *java.lang.Object* > [NamedObject](ommon/NamedObject.md) > [Problem](Problem.md)
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. {@link Problem} instance belong
@@ -10,20 +10,20 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Summary
 ####Constructors
-* **public** [Problem](#problem)
+* **public** [Problem](#problem)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** *String* | [getBody](#getbody) |
-| **public** *String* | [getId](#getid) |
-| **public** *String* | [getKey](#getkey) |
-| **public** *String* | [getNormalizedName](#getnormalizedname) |
-| **public** [ContestInfo](ContestInfo.md) | [getParent](#getparent) |
-| **public** [ProblemInput](ProblemInput.md) | [getProblemInput](#getprobleminputint) |
-| **public** [ProblemInput](ProblemInput.md) | [getProblemInput](#getprobleminputstring) |
-| **public** *List* | [getProblemInputs](#getprobleminputs) |
-| **public** *String* | [getType](#gettype) |
+| **public** *java.lang.String* | [getBody](#getbody)() |
+| **public** *java.lang.String* | [getId](#getid)() |
+| **public** *java.lang.String* | [getKey](#getkey)() |
+| **public** *java.lang.String* | [getNormalizedName](#getnormalizedname)() |
+| **public** [ContestInfo](ContestInfo.md) | [getParent](#getparent)() |
+| **public** [ProblemInput](ProblemInput.md) | [getProblemInput](#getprobleminputint)(**int** index) |
+| **public** [ProblemInput](ProblemInput.md) | [getProblemInput](#getprobleminputstring)(*java.lang.String* type) |
+| **public** *java.util.List* | [getProblemInputs](#getprobleminputs)() |
+| **public** *java.lang.String* | [getType](#gettype)() |
 
 ---
 
@@ -92,7 +92,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 * Problem input instance required.
 
 > **Throws**
-* *ArrayIndexOutOfBoundsException* If the given index is not valid.
+* *java.lang.ArrayIndexOutOfBoundsException* If the given index is not valid.
 
 
 ---

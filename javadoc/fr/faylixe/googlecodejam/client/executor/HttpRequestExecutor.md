@@ -1,7 +1,7 @@
 #HttpRequestExecutor
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
-> *Object* > [HttpRequestExecutor](HttpRequestExecutor.md)
+> *java.lang.Object* > [HttpRequestExecutor](HttpRequestExecutor.md)
 
 <p>A {@link HttpRequestExecutor} is an abstraction
  on top of {@link HttpRequestFactory} that handles
@@ -11,14 +11,14 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *Part* | [buildDataPart](#builddatapartstring-string) |
-| **public static** *Part* | [buildFilePart](#buildfilepartstring-file) |
-| **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring-string) |
-| **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring) |
-| **public** *String* | [get](#getstring) |
-| **public** *String* | [getHostname](#gethostname) |
-| **public** *HttpRequest* | [getRequest](#getrequeststring) |
-| **public** *String* | [post](#poststring-httpcontent) |
+| **public static** *com.google.api.client.http.MultipartContent.Part* | [buildDataPart](#builddatapartstring-string)(*java.lang.String* name, *java.lang.String* data) |
+| **public static** *com.google.api.client.http.MultipartContent.Part* | [buildFilePart](#buildfilepartstring-file)(*java.lang.String* name, *java.io.File* file) |
+| **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring-string)(*java.lang.String* hostname, *java.lang.String* cookieValue) |
+| **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring)(*java.lang.String* hostname) |
+| **public** *java.lang.String* | [get](#getstring)(*java.lang.String* path) |
+| **public** *java.lang.String* | [getHostname](#gethostname)() |
+| **public** *com.google.api.client.http.HttpRequest* | [getRequest](#getrequeststring)(*java.lang.String* path) |
+| **public** *java.lang.String* | [post](#poststring-httpcontent)(*java.lang.String* path, *com.google.api.client.http.HttpContent* content) |
 
 ---
 
@@ -50,7 +50,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 * Created data part.
 
 > **Throws**
-* *IOException* If any any error occurs during file type detection.
+* *java.io.IOException* If any any error occurs during file type detection.
 
 
 ---
@@ -95,7 +95,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 * Response content of the performed request.
 
 > **Throws**
-* *IOException* If any error occurs while performing request.
+* *java.io.IOException* If any error occurs while performing request.
 
 
 ---
@@ -120,7 +120,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 * Built GET request.
 
 > **Throws**
-* *IOException* If any error occurs while creating the GET request.
+* *java.io.IOException* If any error occurs while creating the GET request.
 
 
 ---
@@ -137,7 +137,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 * Response content of the performed request.
 
 > **Throws**
-* *IOException* If any error occurs while performing request.
+* *java.io.IOException* If any error occurs while performing request.
 
 
 ---

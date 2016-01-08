@@ -24,13 +24,15 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ##Fields
 ####CONTEST_CLASS_NAME
 > **public static final** *java.lang.String*
-<p>Class name of the element that contains contest data.</p>
+
+> <p>Class name of the element that contains contest data.</p>
 
 ---
 
 ####CONTEST_INDEX
 > **public static final** *java.lang.String*
-<p>URL of the contest index page.</p>
+
+> <p>URL of the contest index page.</p>
 
 ---
 

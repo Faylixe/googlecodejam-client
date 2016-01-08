@@ -1,7 +1,7 @@
 #ApplicationCommand
 Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
-> *Object* > [ApplicationCommand](ApplicationCommand.md)
+> *java.lang.Object* > [ApplicationCommand](ApplicationCommand.md)
 
 <p>This class contains static method that are
  executed from parsed command line argument in
@@ -9,14 +9,14 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
 ##Summary
 ####Constructors
-* **public** [ApplicationCommand](#applicationcommand)
+* **public** [ApplicationCommand](#applicationcommand)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** **boolean** | [download](#downloadcommandline) |
-| **public static** **boolean** | [init](#init) |
-| **public static** **boolean** | [submit](#submitcommandline) |
+| **public static** **boolean** | [download](#downloadcommandline)(*org.apache.commons.cli.CommandLine* command) |
+| **public static** **boolean** | [init](#init)() |
+| **public static** **boolean** | [submit](#submitcommandline)(*org.apache.commons.cli.CommandLine* command) |
 
 ---
 
