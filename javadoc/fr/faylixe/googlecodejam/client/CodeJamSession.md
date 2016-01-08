@@ -1,7 +1,7 @@
 #CodeJamSession
 
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
-> *Object* > [NamedObject](/common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
+> *Object* > [NamedObject](common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
 
 {@link CodeJamSession} is the main API entry point, which consists
  in logging to a code jam platform ``hostname`` and then providing
@@ -22,13 +22,13 @@ Type and modifiers | Method signature
 **public static** [CodeJamSession](CodeJamSession.md) | [createSession](#createsessionhttprequestexecutor-round)
 **public** *InputStream* | [download](#downloadprobleminput)
 **public** *String* | [getContestAnalysis](#getcontestanalysisproblem)
-**public** [ContestInfo](/webservice/ContestInfo.md) | [getContestInfo](#getcontestinfo)
-**public** [Problem](/webservice/Problem.md) | [getProblem](#getproblemstring)
+**public** [ContestInfo](webservice/ContestInfo.md) | [getContestInfo](#getcontestinfo)
+**public** [Problem](webservice/Problem.md) | [getProblem](#getproblemstring)
 **public** **boolean** | [isActive](#isactive)
 **public** **boolean** | [isLogged](#islogged)
 **public** **boolean** | [isQualified](#isqualified)
 **public** [CodeJamSession](CodeJamSession.md) | [refresh](#refresh)
-**public** [SubmitResponse](/webservice/SubmitResponse.md) | [submit](#submitprobleminput-file-file)
+**public** [SubmitResponse](webservice/SubmitResponse.md) | [submit](#submitprobleminput-file-file)
 
 
 ##Methods
