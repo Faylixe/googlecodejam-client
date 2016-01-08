@@ -13,7 +13,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [ContestInfo](ContestInfo.md) | [get](#gethttprequestexecutor-round)([HttpRequestExecutor](xecutor/HttpRequestExecutor.md) executor, [Round](../Round.md) round) |
+| **public static** [ContestInfo](ContestInfo.md) | [get](#gethttprequestexecutor-round)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor, [Round](../Round.md) round) |
 | **public** [Problem](Problem.md) | [getProblem](#getproblemint)(**int** index) |
 | **public** *java.util.List* | [getProblems](#getproblems)() |
 | **public** **int** | [getVersion](#getversion)() |

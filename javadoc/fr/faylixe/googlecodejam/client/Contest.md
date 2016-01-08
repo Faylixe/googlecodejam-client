@@ -1,7 +1,7 @@
 #Contest
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *java.lang.Object* > [NamedObject](common/NamedObject.md) > [Contest](Contest.md)
+> *java.lang.Object* > [NamedObject](/common/NamedObject.md) > [Contest](Contest.md)
 
 <p>POJO class that represents a Google Jam {@link Contest}.
  A {@link Contest} is represented by a name and a
@@ -15,7 +15,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *java.util.List* | [get](#gethttprequestexecutor)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor) |
+| **public static** *java.util.List* | [get](#gethttprequestexecutor)([HttpRequestExecutor](/executor/HttpRequestExecutor.md) executor) |
 | **public** *java.util.List* | [getRounds](#getrounds)() |
 
 ---
