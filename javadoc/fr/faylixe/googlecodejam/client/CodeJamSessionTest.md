@@ -1,73 +1,56 @@
 #CodeJamSessionTest
-
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
-> *Object* > [CodeJamSessionTest](CodeJamSessionTest.md)
 
+> [CodeJamSessionTest](CodeJamSessionTest.md)*CodeJamSessionTest* > [CodeJamSessionTest](CodeJamSessionTest.md)*CodeJamSessionTest*
 Test case for {@link CodeJamSession} class.
-
-##Summary
-
-####Constructors
-
+##Summary####Constructors
 * **public** [CodeJamSessionTest](#codejamsessiontest)
-
 ####Methods
+| Type and modifiers | Method signature |
+| --- | --- |
+| **public static** [CodeJamSession](CodeJamSession.md)*CodeJamSession* | [getTestSession](#gettestsession) || **public** **void** | [testContestAnalysis](#testcontestanalysis) || **public** **void** | [testDownload](#testdownload) || **public** **void** | [testSessionConsistency](#testsessionconsistency) || **public** **void** | [testSubmission](#testsubmission) |
 
-Type and modifiers | Method signature
- --- | --- 
-**public static** [CodeJamSession](CodeJamSession.md) | [getTestSession](#gettestsession)
-**public** **void** | [testContestAnalysis](#testcontestanalysis)
-**public** **void** | [testDownload](#testdownload)
-**public** **void** | [testSessionConsistency](#testsessionconsistency)
-**public** **void** | [testSubmission](#testsubmission)
-
-
-##Constructors
-
-####CodeJamSessionTest()
-
+##Constructors####CodeJamSessionTest()
 
 
 ---
 
-##Methods
 
-####getTestSession()
-
-
+##Methods####getTestSession()
 Retrieves a valid {@link CodeJamSession}
  that should be used for testing.
  Such session is not connected.
+
 #####Returns
-
-
 * Session instance that should be used for testing.
 
 ---
+
 ####testContestAnalysis()
-
-
 Test for the {@link CodeJamSession#getContestAnalysis(Problem)}
  method, using the test {@link Problem} as a reference.
+
 ---
+
 ####testDownload()
-
-
 Test for the {@link CodeJamSession#download(ProblemInput)}
  method, using the test {@link Problem} as a reference.
+
 ---
+
 ####testSessionConsistency()
-
-
 Ensures that the internal contest info instance used
  is the one expected. Also test session related properties,
  like if user is qualified or is the contest is active.
+
 ---
+
 ####testSubmission()
-
-
 Test for the {@link CodeJamSession#submit(ProblemInput, File, File)}
  method, using the test {@link Problem} as a reference.
+
 ---
+
 ---
+
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

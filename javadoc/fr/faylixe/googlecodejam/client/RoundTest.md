@@ -1,51 +1,37 @@
 #RoundTest
-
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
-> *Object* > [RoundTest](RoundTest.md)
 
+> [RoundTest](RoundTest.md)*RoundTest* > [RoundTest](RoundTest.md)*RoundTest*
 Test case for the {@link Round} class.
-
-##Summary
-
-####Constructors
-
+##Summary####Constructors
 * **public** [RoundTest](#roundtest)
-
 ####Methods
+| Type and modifiers | Method signature |
+| --- | --- |
+| **public static** [Round](Round.md)*Round* | [getTestRound](#gettestround) || **public** **void** | [testRoundConsistency](#testroundconsistency) |
 
-Type and modifiers | Method signature
- --- | --- 
-**public static** [Round](Round.md) | [getTestRound](#gettestround)
-**public** **void** | [testRoundConsistency](#testroundconsistency)
-
-
-##Constructors
-
-####RoundTest()
-
+##Constructors####RoundTest()
 
 
 ---
 
-##Methods
 
-####getTestRound()
-
-
+##Methods####getTestRound()
 Retrieves the round instance that will
  be used for testing. Such round will be the first
  of the target test contest.
+
 #####Returns
-
-
 * Round instance for testing.
 
 ---
+
 ####testRoundConsistency()
-
-
 Ensures retrieved rounds are consistent.
  Uses the target contest test first round.
+
 ---
+
 ---
+
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

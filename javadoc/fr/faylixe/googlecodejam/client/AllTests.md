@@ -1,23 +1,16 @@
 #AllTests
-
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
-> *Object* > [AllTests](AllTests.md)
 
+> [AllTests](AllTests.md)*AllTests* > [AllTests](AllTests.md)*AllTests*
 
-
-##Summary
-
-####Constructors
-
+##Summary####Constructors
 * **public** [AllTests](#alltests)
 
-
-##Constructors
-
-####AllTests()
-
+##Constructors####AllTests()
 
 
 ---
+
 ---
+
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)
