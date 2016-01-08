@@ -6,42 +6,49 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 <p>Simple class that exposes HTML String related constants value.</p>
 
 ##Summary
-####Fields
+####Fields* **public static final** [ANCHOR](#anchor)* **public static final** [H3](#h3)* **public static final** [HREF](#href)* **public static final** [IMG](#img)* **public static final** [SRC](#src)* **public static final** [TD](#td)* **public static final** [TR](#tr)
 
 ##Fields
 ####ANCHOR
 > **public static final** *String*
 HTML tag A.
+
 ---
 
 ####H3
 > **public static final** *String*
 HTML tag H3.
+
 ---
 
 ####HREF
 > **public static final** *String*
 HTML attribute HREF.
+
 ---
 
 ####IMG
 > **public static final** *String*
 HTML tag IMG.
+
 ---
 
 ####SRC
 > **public static final** *String*
 HTML attribute SRC.
+
 ---
 
 ####TD
 > **public static final** *String*
 HTML tag TD.
+
 ---
 
 ####TR
 > **public static final** *String*
 HTML tag TR.
+
 ---
 
 ---

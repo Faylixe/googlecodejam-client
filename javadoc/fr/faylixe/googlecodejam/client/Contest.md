@@ -16,17 +16,19 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 | **public** *List* | [getRounds](#getrounds) |
 | **public** **int** | [hashCode](#hashcode) |
 
-####Fields
+####Fields* **public static final** [CONTEST_CLASS_NAME](#contest_class_name)* **public static final** [CONTEST_INDEX](#contest_index)
 
 ##Fields
 ####CONTEST_CLASS_NAME
 > **public static final** *String*
 <p>Class name of the element that contains contest data.</p>
+
 ---
 
 ####CONTEST_INDEX
 > **public static final** *String*
 <p>URL of the contest index page.</p>
+
 ---
 
 

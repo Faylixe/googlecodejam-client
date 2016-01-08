@@ -22,7 +22,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **public** *String* | [getSuffix](#getsuffix) |
 | **public** **int** | [hashCode](#hashcode) |
 
-####Fields
+####Fields* **public static final** [LARGE](#large)* **public static final** [SMALL](#small)
 
 ##Constructors####ProblemInput()
 > 
@@ -34,11 +34,13 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####LARGE
 > **public static final** *String*
 Constant used for large input.
+
 ---
 
 ####SMALL
 > **public static final** *String*
 Constant used for small input.
+
 ---
 
 

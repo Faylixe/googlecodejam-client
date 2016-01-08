@@ -17,12 +17,13 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 | **public** *String* | [getURL](#geturl) |
 | **public** **int** | [hashCode](#hashcode) |
 
-####Fields
+####Fields* **public static final** [DESCRIPTION_CLASS_NAME](#description_class_name)
 
 ##Fields
 ####DESCRIPTION_CLASS_NAME
 > **public static final** *String*
 <p>Class name of the HTML description node.</p>
+
 ---
 
 
