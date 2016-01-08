@@ -12,30 +12,37 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ####ANCHOR
 > **public static final** *String*
 HTML tag A.
+---
 
 ####H3
 > **public static final** *String*
 HTML tag H3.
+---
 
 ####HREF
 > **public static final** *String*
 HTML attribute HREF.
+---
 
 ####IMG
 > **public static final** *String*
 HTML tag IMG.
+---
 
 ####SRC
 > **public static final** *String*
 HTML attribute SRC.
+---
 
 ####TD
 > **public static final** *String*
 HTML tag TD.
+---
 
 ####TR
 > **public static final** *String*
 HTML tag TR.
+---
 
 ---
 

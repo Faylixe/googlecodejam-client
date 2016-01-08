@@ -5,7 +5,8 @@
   <li>A command line application.</li>
   <li>Common model object for interacting with Google Code Jam webservices.</li>
  </ul>
-##Classes| Name |
+##Classes
+| Name |
 | --- |
 | [CodeJamSession](CodeJamSession.md) |
 | [Contest](Contest.md) |

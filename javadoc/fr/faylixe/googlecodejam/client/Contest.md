@@ -18,10 +18,12 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####CONTEST_CLASS_NAME
 > **public static final** *String*
 <p>Class name of the element that contains contest data.</p>
+---
 
 ####CONTEST_INDEX
 > **public static final** *String*
 <p>URL of the contest index page.</p>
+---
 
 
 ##Methods

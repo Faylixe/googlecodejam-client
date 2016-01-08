@@ -3,7 +3,8 @@
  binding for JSON API object. They all aim
  to be created using {@link com.google.gson.Gson}
  parser.</p>
-##Classes| Name |
+##Classes
+| Name |
 | --- |
 | [ContestInfo](ContestInfo.md) |
 | [Problem](Problem.md) |

@@ -27,10 +27,12 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####LARGE
 > **public static final** *String*
 Constant used for large input.
+---
 
 ####SMALL
 > **public static final** *String*
 Constant used for small input.
+---
 
 
 ##Methods
