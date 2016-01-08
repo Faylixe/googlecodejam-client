@@ -37,7 +37,7 @@ Test case for {@link ContestInfo} class.
 > Ensures the given {@link ContestInfo} is
  consistent.
 > **Parameters**
-* info {@link ContestInfo} instance to ensure consistency from.
+* info : {@link ContestInfo} instance to ensure consistency from.
 
 
 ---

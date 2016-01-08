@@ -45,8 +45,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 > Static factory method that use the <tt>GetInitialValues</tt> command
  for the given <tt>round</tt> to retrieve a valud {@link InitialValues} instance.
 > **Parameters**
-* executor Executor instance to use for performing the associated request.
-* round Round to extract initial values from.
+* executor : Executor instance to use for performing the associated request.
+* round : Round to extract initial values from.
 
 > **Returns**
 * Created instance from request.

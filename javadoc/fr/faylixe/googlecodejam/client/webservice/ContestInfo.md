@@ -32,8 +32,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
  from the given <tt>round</tt> using a <tt>/ContestInfo</tt>
  request from the round dashboard.
 > **Parameters**
-* executor Executor instance used to perform the request.
-* round Round to retrieve {@link ContestInfo} from.
+* executor : Executor instance used to perform the request.
+* round : Round to retrieve {@link ContestInfo} from.
 
 > **Returns**
 * Built {@link ContestInfo} instance.
@@ -47,7 +47,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####getProblem(int)
 > Shortcut method for reducing law of Demeters issues.
 > **Parameters**
-* index Index of the problem to retrieve.
+* index : Index of the problem to retrieve.
 
 > **Returns**
 * Problem instance required.

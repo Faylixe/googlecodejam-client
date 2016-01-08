@@ -34,7 +34,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > <p>Builds and returns a valid file name
  for the given problem <tt>input</tt>.</p>
 > **Parameters**
-* input Input to retrieve file name from.
+* input : Input to retrieve file name from.
 
 > **Returns**
 * Built file name.
@@ -47,8 +47,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  Loads associated contest info and initial values from the given
  <tt>round</tt>, using the given <tt>executor</tt>.</p>
 > **Parameters**
-* executor {@link HttpRequestExecutor} instance to use.
-* round Contextual {@link Round} instance this session is bound to.
+* executor : {@link HttpRequestExecutor} instance to use.
+* round : Contextual {@link Round} instance this session is bound to.
 
 > **Returns**
 * Created session.
@@ -64,7 +64,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  input file associated to the given problem
  <tt>input</tt>.</p>
 > **Parameters**
-* input Input to download file from.
+* input : Input to download file from.
 
 > **Returns**
 * Stream to read which contains our downloaded file data.
@@ -79,7 +79,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > <p>Returns the analysis for the given
  <tt>problem</tt> if any.</p>
 > **Parameters**
-* problem Problem to retrieve analysis from.
+* problem : Problem to retrieve analysis from.
 
 > **Returns**
 * Analysis if any.
@@ -100,7 +100,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > <p>Retrieves the problem associated
  to the given <tt>letter</tt>.</p>
 > **Parameters**
-* letter Letter that identifies the problem.
+* letter : Letter that identifies the problem.
 
 > **Returns**
 * Corresponding problem if exist, <tt>null</tt> otherwise.
@@ -155,9 +155,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  system will judge the last downloaded dataset
  based on the internal token / session.</p>
 > **Parameters**
-* input Input file to submit solution for.
-* output Output file produced by the algorithm.
-* source Source code file of the algorithm to submit.
+* input : Input file to submit solution for.
+* output : Output file produced by the algorithm.
+* source : Source code file of the algorithm to submit.
 
 > **Returns**
 * Request response, as a {@link SubmitResponse} instance.

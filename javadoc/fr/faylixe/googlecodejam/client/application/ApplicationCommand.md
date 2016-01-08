@@ -31,7 +31,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
  the download method is used on the loaded session. If the
  file already exist, it will be removed first before downloading.
 > **Parameters**
-* command User command line.
+* command : User command line.
 
 > **Returns**
 * <tt>true</tt> if the command was executed successfully, <tt>false</tt> otherwise.
@@ -54,7 +54,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
  command. Retrieves the contextual session if exist, and if so, then
  the submit method is used on the loaded session.
 > **Parameters**
-* command User command line.
+* command : User command line.
 
 > **Returns**
 * <tt>true</tt> if the command was executed successfully, <tt>false</tt> otherwise.

@@ -24,8 +24,8 @@ TODO Javadoc
 ##Constructors####SeleniumCookieSupplier(String, Supplier)
 > Default constructor.
 > **Parameters**
-* target Target URL user should be redirected to.
-* driverSupplier Supplier that will create our driver instance to use.
+* target : Target URL user should be redirected to.
+* driverSupplier : Supplier that will create our driver instance to use.
 
 
 ---
@@ -41,7 +41,7 @@ TODO Javadoc
 > Checks the state of the given <tt>driver</tt>,
  ensuring if the required cookie has been settled or not.
 > **Parameters**
-* driver Driver to check state from.
+* driver : Driver to check state from.
 
 
 ---

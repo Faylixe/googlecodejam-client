@@ -36,8 +36,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > <p>Static factory methods that retrieves a list of round
  from the given JSoup <tt>contest</tt> node.</p>
 > **Parameters**
-* contest Root element of the contest in the contest index page.
-* parent Parent contest name.
+* contest : Root element of the contest in the contest index page.
+* parent : Parent contest name.
 
 > **Returns**
 * List of retrieved round.
