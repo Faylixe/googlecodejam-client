@@ -29,11 +29,13 @@ Type and modifiers | Method signature
 
 <p>Class name of the element that contains contest data.</p>
 > **public static final** *String*
+
 ####CONTEST_INDEX
 
 
 <p>URL of the contest index page.</p>
 > **public static final** *String*
+
 
 ##Methods
 
