@@ -18,11 +18,11 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 > Static factory method that creates a {@link Part} which contains
  simple form data.
 
-#####Parameters
+**Parameters**
 * name Name of the POST data to create part for.
 * data Value of the POST data to create part for.
 
-#####Returns
+**Returns**
 * Created data part.
 
 ---
@@ -31,14 +31,15 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 > Static factory method that creates a {@link Part} which contains
  file form data.
 
-#####Parameters
+**Parameters**
 * name name Name of the POST file data to create part for.
 * file File of the POST data to create part for.
 
-#####Returns
+**Returns**
 * Created data part.
 
-#####Throws* *IOException* If any any error occurs during file type detection.
+**Throws**
+* *IOException* If any any error occurs during file type detection.
 
 ---
 
@@ -47,11 +48,11 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
  which is set using the given <tt>cookie</tt> for building authenticated
  HTTP request.
 
-#####Parameters
+**Parameters**
 * hostname Hostname to use for the created executor.
 * cookieValue Value of the SACSID cookie to use.
 
-#####Returns
+**Returns**
 * Created instance.
 
 ---
@@ -60,10 +61,10 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 > Static factory method that creates a non logged
  {@link HttpRequestExecutor} instance.
 
-#####Parameters
+**Parameters**
 * hostname Hostname to use for the created executor.
 
-#####Returns
+**Returns**
 * Created instance.
 
 ---
@@ -73,20 +74,21 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
  relative to the internal target hostname. The response
  is returned as a {@link String}.
 
-#####Parameters
+**Parameters**
 * path Relative server path to perform request to.
 
-#####Returns
+**Returns**
 * Response content of the performed request.
 
-#####Throws* *IOException* If any error occurs while performing request.
+**Throws**
+* *IOException* If any error occurs while performing request.
 
 ---
 
 ####getHostname()
 > Getter for the target hostname.
 
-#####Returns
+**Returns**
 * Target hostname this executor is performing request to.
 
 ---
@@ -95,13 +97,14 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 > Creates and returns a GET {@link HttpRequest} instance
  for the given <tt>path</tt> over the internal hostname.
 
-#####Parameters
+**Parameters**
 * path Path of the request to build.
 
-#####Returns
+**Returns**
 * Built GET request.
 
-#####Throws* *IOException* If any error occurs while creating the GET request.
+**Throws**
+* *IOException* If any error occurs while creating the GET request.
 
 ---
 
@@ -109,14 +112,15 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 > Performs a HTTP POST request to the given <tt>path</tt>
  relative to the internal target hostname.
 
-#####Parameters
+**Parameters**
 * path Relative server path to perform request to.
 * content POST content that will be sent.
 
-#####Returns
+**Returns**
 * Response content of the performed request.
 
-#####Throws* *IOException* If any error occurs while performing request.
+**Throws**
+* *IOException* If any error occurs while performing request.
 
 ---
 

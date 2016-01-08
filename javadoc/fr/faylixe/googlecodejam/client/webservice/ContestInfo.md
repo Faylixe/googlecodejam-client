@@ -26,27 +26,29 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
  from the given <tt>round</tt> using a <tt>/ContestInfo</tt>
  request from the round dashboard.
 
-#####Parameters
+**Parameters**
 * executor Executor instance used to perform the request.
 * round Round to retrieve {@link ContestInfo} from.
 
-#####Returns
+**Returns**
 * Built {@link ContestInfo} instance.
 
-#####Throws* *IOException* IF any error occurs while executing request.
+**Throws**
+* *IOException* IF any error occurs while executing request.
 
 ---
 
 ####getProblem(int)
 > Shortcut method for reducing law of Demeters issues.
 
-#####Parameters
+**Parameters**
 * index Index of the problem to retrieve.
 
-#####Returns
+**Returns**
 * Problem instance required.
 
-#####Throws* *ArrayIndexOutOfBoundsException* If the given index is not valid.
+**Throws**
+* *ArrayIndexOutOfBoundsException* If the given index is not valid.
 
 ---
 
@@ -54,7 +56,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 > Returns {@link Problem} instance associated
  to this contest.
 
-#####Returns
+**Returns**
 * List of problem this contest exposes.
 
 ---
@@ -62,7 +64,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####getVersion()
 > Getter for the problems version.
 
-#####Returns
+**Returns**
 * Integer that defines the problems version.
 
 ---
@@ -71,7 +73,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 > Indicates if this contests already have
  analysis committed or not.
 
-#####Returns
+**Returns**
 * <tt>true</tt> if contest analysis is available, <tt>false</tt> otherwise.
 
 ---

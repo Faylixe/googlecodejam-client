@@ -30,7 +30,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####getInputId()
 > Getter for the submission identifier.
 
-#####Returns
+**Returns**
 * Target input identifier of this submission.
 
 ---
@@ -38,7 +38,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####getMessage()
 > Getter for the information message.
 
-#####Returns
+**Returns**
 * Information message about submission.
 
 ---
@@ -46,7 +46,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####getProblemId()
 > Getter for the problem identifier.
 
-#####Returns
+**Returns**
 * Target problem identifier of this submission.
 
 ---
@@ -59,7 +59,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####isSuccess()
 > Indicates if the submission was successful or not.
 
-#####Returns
+**Returns**
 * <tt>true</tt> if this submission was a success, <tt>false</tt> otherwise.
 
 ---

@@ -25,7 +25,7 @@ Test case for {@link ContestInfo} class.
  that will be used for testing. Using
  test {@link Round} as reference.
 
-#####Returns
+**Returns**
 * ContestInfo instance for testing.
 
 ---
@@ -34,7 +34,7 @@ Test case for {@link ContestInfo} class.
 > Ensures the given {@link ContestInfo} is
  consistent.
 
-#####Parameters
+**Parameters**
 * info {@link ContestInfo} instance to ensure consistency from.
 
 ---

@@ -26,7 +26,7 @@ Test case for {@link Contest} class.
  the last, assuming the the last contest
  will never change.
 
-#####Returns
+**Returns**
 * Contest instance for testing.
 
 ---

@@ -28,10 +28,10 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
  the download method is used on the loaded session. If the
  file already exist, it will be removed first before downloading.
 
-#####Parameters
+**Parameters**
 * command User command line.
 
-#####Returns
+**Returns**
 * <tt>true</tt> if the command was executed successfully, <tt>false</tt> otherwise.
 
 ---
@@ -41,7 +41,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
  firefox through selenium to retrieve cookie instance
  and prompts user for the contextual round to use.
 
-#####Returns
+**Returns**
 * <tt>true</tt> if the init command was correctly executed, <tt>false</tt> otherwise.
 
 ---
@@ -51,10 +51,10 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
  command. Retrieves the contextual session if exist, and if so, then
  the submit method is used on the loaded session.
 
-#####Parameters
+**Parameters**
 * command User command line.
 
-#####Returns
+**Returns**
 * <tt>true</tt> if the command was executed successfully, <tt>false</tt> otherwise.
 
 ---

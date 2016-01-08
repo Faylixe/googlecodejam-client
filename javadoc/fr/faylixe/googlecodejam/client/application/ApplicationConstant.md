@@ -108,7 +108,7 @@ Syntax of the command line script.
 > Static factory method that creates the {@link Options} list
  for the command line arguments parsing.
 
-#####Returns
+**Returns**
 * Created options list.
 
 ---
