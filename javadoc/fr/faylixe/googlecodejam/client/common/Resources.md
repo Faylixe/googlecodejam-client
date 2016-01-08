@@ -9,7 +9,11 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *String* | [getHTMLTemplate](#gethtmltemplate) || **public static** *String* | [getResource](#getresourcestring) || **public static** *InputStream* | [getResourceStream](#getresourcestreamstring) || **public static** *String* | [normalize](#normalizestring) |
+| **public static** *String* | [getHTMLTemplate](#gethtmltemplate) |
+| **public static** *String* | [getResource](#getresourcestring) |
+| **public static** *InputStream* | [getResourceStream](#getresourcestreamstring) |
+| **public static** *String* | [normalize](#normalizestring) |
+
 
 ##Methods
 ####getHTMLTemplate()

@@ -11,7 +11,9 @@ Test case for the {@link Round} class.
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [Round](Round.md) | [getTestRound](#gettestround) || **public** **void** | [testRoundConsistency](#testroundconsistency) |
+| **public static** [Round](Round.md) | [getTestRound](#gettestround) |
+| **public** **void** | [testRoundConsistency](#testroundconsistency) |
+
 
 ##Constructors####RoundTest()
 > 

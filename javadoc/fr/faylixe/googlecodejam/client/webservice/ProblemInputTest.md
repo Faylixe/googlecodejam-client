@@ -13,6 +13,7 @@ Test case for the {@link ProblemInput} class.
 | --- | --- |
 | **public** **void** | [testProblemInputConsistency](#testprobleminputconsistency) |
 
+
 ##Constructors####ProblemInputTest()
 > 
 

@@ -11,6 +11,7 @@ Custom deserializer that normalizes problem body content.
 | --- | --- |
 | **public** [Problem](Problem.md) | [deserialize](#deserializejsonelement-type-jsondeserializationcontext) |
 
+
 ##Methods
 ####deserialize(JsonElement, Type, JsonDeserializationContext)
 > {@inheritDoc}

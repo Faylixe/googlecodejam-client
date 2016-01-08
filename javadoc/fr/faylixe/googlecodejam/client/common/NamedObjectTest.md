@@ -11,7 +11,9 @@ Test case for {@link NamedObject} class.
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **void** | [testDefault](#testdefault) || **public** **void** | [testSerialized](#testserialized) |
+| **public** **void** | [testDefault](#testdefault) |
+| **public** **void** | [testSerialized](#testserialized) |
+
 
 ##Constructors####NamedObjectTest()
 > 

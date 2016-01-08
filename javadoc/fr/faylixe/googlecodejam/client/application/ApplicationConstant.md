@@ -11,6 +11,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 | Type and modifiers | Method signature |
 | --- | --- |
 | **public static** *Options* | [createOptions](#createoptions) |
+
 ####Fields
 
 ##Fields

@@ -13,7 +13,13 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **boolean** | [equals](#equalsobject) || **public** **int** | [getInputId](#getinputid) || **public** *String* | [getMessage](#getmessage) || **public** **int** | [getProblemId](#getproblemid) || **public** **int** | [hashCode](#hashcode) || **public** **boolean** | [isSuccess](#issuccess) |
+| **public** **boolean** | [equals](#equalsobject) |
+| **public** **int** | [getInputId](#getinputid) |
+| **public** *String* | [getMessage](#getmessage) |
+| **public** **int** | [getProblemId](#getproblemid) |
+| **public** **int** | [hashCode](#hashcode) |
+| **public** **boolean** | [isSuccess](#issuccess) |
+
 
 ##Constructors####SubmitResponse()
 > 

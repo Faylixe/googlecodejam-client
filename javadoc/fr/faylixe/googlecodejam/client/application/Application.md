@@ -11,6 +11,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 | --- | --- |
 | **public static** **void** | [main](#mainjava.lang.string[]) |
 
+
 ##Methods
 ####main(String[])
 > Command line application entry point.

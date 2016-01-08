@@ -11,7 +11,12 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **boolean** | [equals](#equalsobject) || **public static** *List* | [get](#getelement-string) || **public** *String* | [getContestName](#getcontestname) || **public** *String* | [getURL](#geturl) || **public** **int** | [hashCode](#hashcode) |
+| **public** **boolean** | [equals](#equalsobject) |
+| **public static** *List* | [get](#getelement-string) |
+| **public** *String* | [getContestName](#getcontestname) |
+| **public** *String* | [getURL](#geturl) |
+| **public** **int** | [hashCode](#hashcode) |
+
 ####Fields
 
 ##Fields

@@ -11,7 +11,9 @@ Test case for {@link InitialValues} class.
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [InitialValues](InitialValues.md) | [getTestInitialValues](#gettestinitialvalues) || **public** **void** | [testInitialValuesConsistency](#testinitialvaluesconsistency) |
+| **public static** [InitialValues](InitialValues.md) | [getTestInitialValues](#gettestinitialvalues) |
+| **public** **void** | [testInitialValuesConsistency](#testinitialvaluesconsistency) |
+
 
 ##Constructors####InitialValuesTest()
 > 

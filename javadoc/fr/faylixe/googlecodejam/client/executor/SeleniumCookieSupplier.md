@@ -15,7 +15,11 @@ TODO Javadoc
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **void** | [cancel](#cancel) || **public** **void** | [checkCurrentState](#checkcurrentstatewebdriver) || **public** *String* | [get](#get) || **public** **boolean** | [isRunning](#isrunning) |
+| **public** **void** | [cancel](#cancel) |
+| **public** **void** | [checkCurrentState](#checkcurrentstatewebdriver) |
+| **public** *String* | [get](#get) |
+| **public** **boolean** | [isRunning](#isrunning) |
+
 
 ##Constructors####SeleniumCookieSupplier(String, Supplier)
 > Default constructor.

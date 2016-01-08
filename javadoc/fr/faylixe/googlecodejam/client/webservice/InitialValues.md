@@ -14,7 +14,25 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [InitialValues](InitialValues.md) | [get](#gethttprequestexecutor-round) || **public** *String* | [getAdmin](#getadmin) || **public** **int** | [getCS](#getcs) || **public** *String* | [getEmail](#getemail) || **public** *String* | [getInput](#getinput) || **public** **long** | [getLeft](#getleft) || **public** *String* | [getLoginHTML](#getloginhtml) || **public** *String* | [getLogoutHTML](#getlogouthtml) || **public** *String* | [getName](#getname) || **public** **int** | [getSeen](#getseen) || **public** *String* | [getSnippet](#getsnippet) || **public** **long** | [getStart](#getstart) || **public** *String* | [getToken](#gettoken) || **public** *String* | [getURLEncodedToken](#geturlencodedtoken) || **public** **long** | [getUntilStart](#getuntilstart) || **public** **int** | [getVersion](#getversion) || **public** **boolean** | [isLogged](#islogged) || **public** **boolean** | [isQualified](#isqualified) |
+| **public static** [InitialValues](InitialValues.md) | [get](#gethttprequestexecutor-round) |
+| **public** *String* | [getAdmin](#getadmin) |
+| **public** **int** | [getCS](#getcs) |
+| **public** *String* | [getEmail](#getemail) |
+| **public** *String* | [getInput](#getinput) |
+| **public** **long** | [getLeft](#getleft) |
+| **public** *String* | [getLoginHTML](#getloginhtml) |
+| **public** *String* | [getLogoutHTML](#getlogouthtml) |
+| **public** *String* | [getName](#getname) |
+| **public** **int** | [getSeen](#getseen) |
+| **public** *String* | [getSnippet](#getsnippet) |
+| **public** **long** | [getStart](#getstart) |
+| **public** *String* | [getToken](#gettoken) |
+| **public** *String* | [getURLEncodedToken](#geturlencodedtoken) |
+| **public** **long** | [getUntilStart](#getuntilstart) |
+| **public** **int** | [getVersion](#getversion) |
+| **public** **boolean** | [isLogged](#islogged) |
+| **public** **boolean** | [isQualified](#isqualified) |
+
 
 ##Constructors####InitialValues()
 > 
