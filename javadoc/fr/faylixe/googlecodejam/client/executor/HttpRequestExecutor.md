@@ -1,7 +1,7 @@
 #HttpRequestExecutor
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
-> [HttpRequestExecutor](HttpRequestExecutor.md)*HttpRequestExecutor* > [HttpRequestExecutor](HttpRequestExecutor.md)*HttpRequestExecutor*
+> *Object* > [HttpRequestExecutor](HttpRequestExecutor.md)*HttpRequestExecutor*
 <p>A {@link HttpRequestExecutor} is an abstraction
  on top of {@link HttpRequestFactory} that handles
  GET and POST request.</p>

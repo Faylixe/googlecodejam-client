@@ -1,7 +1,7 @@
 #NamedObjectTest
 Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
-> [NamedObjectTest](NamedObjectTest.md)*NamedObjectTest* > [NamedObjectTest](NamedObjectTest.md)*NamedObjectTest*
+> *Object* > [NamedObjectTest](NamedObjectTest.md)*NamedObjectTest*
 Test case for {@link NamedObject} class.
 ##Summary####Constructors
 * **public** [NamedObjectTest](#namedobjecttest)

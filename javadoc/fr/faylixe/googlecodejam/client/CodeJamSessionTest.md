@@ -1,7 +1,7 @@
 #CodeJamSessionTest
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> [CodeJamSessionTest](CodeJamSessionTest.md)*CodeJamSessionTest* > [CodeJamSessionTest](CodeJamSessionTest.md)*CodeJamSessionTest*
+> *Object* > [CodeJamSessionTest](CodeJamSessionTest.md)*CodeJamSessionTest*
 Test case for {@link CodeJamSession} class.
 ##Summary####Constructors
 * **public** [CodeJamSessionTest](#codejamsessiontest)

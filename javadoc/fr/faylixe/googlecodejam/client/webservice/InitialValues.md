@@ -1,7 +1,7 @@
 #InitialValues
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> [InitialValues](InitialValues.md)*InitialValues* > [InitialValues](InitialValues.md)*InitialValues*
+> *Object* > [InitialValues](InitialValues.md)*InitialValues*
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
  command request, using Gson API.</p>
  

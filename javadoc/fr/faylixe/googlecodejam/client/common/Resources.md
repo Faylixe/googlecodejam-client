@@ -1,7 +1,7 @@
 #Resources
 Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
-> [Resources](Resources.md)*Resources* > [Resources](Resources.md)*Resources*
+> *Object* > [Resources](Resources.md)*Resources*
 <p>Static toolbox that exposes methods for internal resources managment.</p>
 ##Summary####Methods
 | Type and modifiers | Method signature |

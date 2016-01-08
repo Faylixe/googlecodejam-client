@@ -1,7 +1,7 @@
 #ContestInfo
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> [ContestInfo](ContestInfo.md)*ContestInfo* > [ContestInfo](ContestInfo.md)*ContestInfo*
+> *Object* > [ContestInfo](ContestInfo.md)*ContestInfo*
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API.</p>
 ##Summary####Constructors

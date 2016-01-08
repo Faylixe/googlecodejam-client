@@ -1,7 +1,7 @@
 #Problem
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> [Problem](Problem.md)*Problem* > [Problem](Problem.md)*Problem* > [Problem](Problem.md)*Problem*
+> *Object* > [NamedObject](ommon/NamedObject.md)*NamedObject* > [Problem](Problem.md)*Problem*
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. {@link Problem} instance belong
  to a {@link ContestInfo} object, and consists in the problem

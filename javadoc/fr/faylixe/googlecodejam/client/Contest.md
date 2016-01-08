@@ -1,7 +1,7 @@
 #Contest
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> [Contest](Contest.md)*Contest* > [Contest](Contest.md)*Contest* > [Contest](Contest.md)*Contest*
+> *Object* > [NamedObject](common/NamedObject.md)*NamedObject* > [Contest](Contest.md)*Contest*
 <p>POJO class that represents a Google Jam {@link Contest}.
  A {@link Contest} is represented by a name and a
  collection of {@link Round}.</p>

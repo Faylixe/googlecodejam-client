@@ -1,7 +1,7 @@
 #ContestTest
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> [ContestTest](ContestTest.md)*ContestTest* > [ContestTest](ContestTest.md)*ContestTest*
+> *Object* > [ContestTest](ContestTest.md)*ContestTest*
 Test case for {@link Contest} class.
 ##Summary####Constructors
 * **public** [ContestTest](#contesttest)

@@ -1,7 +1,7 @@
 #SeleniumCookieSupplier
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
-> [SeleniumCookieSupplier](SeleniumCookieSupplier.md)*SeleniumCookieSupplier* > [SeleniumCookieSupplier](SeleniumCookieSupplier.md)*SeleniumCookieSupplier*
+> *Object* > [SeleniumCookieSupplier](SeleniumCookieSupplier.md)*SeleniumCookieSupplier*
 TODO Javadoc
  TODO Cookie expiration parsing
  TODO Login url as parameter ? Function instead of supplier ?.

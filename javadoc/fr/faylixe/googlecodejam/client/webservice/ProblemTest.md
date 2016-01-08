@@ -1,7 +1,7 @@
 #ProblemTest
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> [ProblemTest](ProblemTest.md)*ProblemTest* > [ProblemTest](ProblemTest.md)*ProblemTest*
+> *Object* > [ProblemTest](ProblemTest.md)*ProblemTest*
 Test case for the {@link Problem} class.
 ##Summary####Constructors
 * **public** [ProblemTest](#problemtest)

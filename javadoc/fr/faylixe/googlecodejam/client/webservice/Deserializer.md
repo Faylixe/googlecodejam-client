@@ -1,7 +1,7 @@
 #Problem.Deserializer
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> [Deserializer](Deserializer.md)*Deserializer* > [Deserializer](Deserializer.md)*Deserializer*
+> *Object* > [Deserializer](Deserializer.md)*Deserializer*
 Custom deserializer that normalizes problem body content.
 ##Summary####Methods
 | Type and modifiers | Method signature |

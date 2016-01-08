@@ -1,7 +1,7 @@
 #Application
 Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 
-> [Application](Application.md)*Application* > [Application](Application.md)*Application*
+> *Object* > [Application](Application.md)*Application*
 <p>Main class that could be used as a command line program.</p>
 ##Summary####Methods
 | Type and modifiers | Method signature |

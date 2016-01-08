@@ -1,7 +1,7 @@
 #CodeJamSession
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> [CodeJamSession](CodeJamSession.md)*CodeJamSession* > [CodeJamSession](CodeJamSession.md)*CodeJamSession* > [CodeJamSession](CodeJamSession.md)*CodeJamSession*
+> *Object* > [NamedObject](common/NamedObject.md)*NamedObject* > [CodeJamSession](CodeJamSession.md)*CodeJamSession*
 {@link CodeJamSession} is the main API entry point, which consists
  in logging to a code jam platform ``hostname`` and then providing
  facilities such as :

@@ -1,7 +1,7 @@
 #InitialValuesTest
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> [InitialValuesTest](InitialValuesTest.md)*InitialValuesTest* > [InitialValuesTest](InitialValuesTest.md)*InitialValuesTest*
+> *Object* > [InitialValuesTest](InitialValuesTest.md)*InitialValuesTest*
 Test case for {@link InitialValues} class.
 ##Summary####Constructors
 * **public** [InitialValuesTest](#initialvaluestest)

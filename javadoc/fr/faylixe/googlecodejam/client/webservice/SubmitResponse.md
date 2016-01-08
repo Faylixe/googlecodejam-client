@@ -1,7 +1,7 @@
 #SubmitResponse
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> [SubmitResponse](SubmitResponse.md)*SubmitResponse* > [SubmitResponse](SubmitResponse.md)*SubmitResponse*
+> *Object* > [SubmitResponse](SubmitResponse.md)*SubmitResponse*
 <p>POJO that aims to be bind to the <tt>SubmitAnswer</tt>
  command request, using Gson API. Contains detail about
  the performed submission.</p>
