@@ -8,6 +8,7 @@ Test case for the {@link ProblemInput} class.
 ##Summary
 ####Constructors
 * **public** [ProblemInputTest](#probleminputtest)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |

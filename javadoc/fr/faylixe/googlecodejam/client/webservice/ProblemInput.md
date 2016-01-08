@@ -9,8 +9,13 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
  available for a given {@link Problem}.</p>
 
 ##Summary
+####Fields
+* **public static final** [LARGE](#large)
+* **public static final** [SMALL](#small)
+
 ####Constructors
 * **public** [ProblemInput](#probleminput)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
@@ -22,8 +27,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **public** *String* | [getSuffix](#getsuffix) |
 | **public** **int** | [hashCode](#hashcode) |
 
-####Fields
-* **public static final** [LARGE](#large)* **public static final** [SMALL](#small)
 
 ##Constructors####ProblemInput()
 > 

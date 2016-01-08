@@ -8,6 +8,7 @@ Test case for {@link CodeJamSession} class.
 ##Summary
 ####Constructors
 * **public** [CodeJamSessionTest](#codejamsessiontest)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |

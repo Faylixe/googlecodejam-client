@@ -11,6 +11,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ##Summary
 ####Constructors
 * **public** [Problem](#problem)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |

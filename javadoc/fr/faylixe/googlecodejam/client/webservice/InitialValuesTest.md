@@ -8,6 +8,7 @@ Test case for {@link InitialValues} class.
 ##Summary
 ####Constructors
 * **public** [InitialValuesTest](#initialvaluestest)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |

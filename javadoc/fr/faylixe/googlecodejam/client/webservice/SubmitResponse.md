@@ -10,6 +10,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ##Summary
 ####Constructors
 * **public** [SubmitResponse](#submitresponse)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |

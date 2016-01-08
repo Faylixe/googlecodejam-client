@@ -12,6 +12,7 @@ TODO Javadoc
 ##Summary
 ####Constructors
 * **public** [SeleniumCookieSupplier](#seleniumcookiesupplierstring-java.util.function.supplier)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |

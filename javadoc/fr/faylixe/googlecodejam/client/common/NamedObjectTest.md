@@ -8,6 +8,7 @@ Test case for {@link NamedObject} class.
 ##Summary
 ####Constructors
 * **public** [NamedObjectTest](#namedobjecttest)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |

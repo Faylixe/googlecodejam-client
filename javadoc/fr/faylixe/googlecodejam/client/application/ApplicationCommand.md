@@ -10,6 +10,7 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 ##Summary
 ####Constructors
 * **public** [ApplicationCommand](#applicationcommand)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |

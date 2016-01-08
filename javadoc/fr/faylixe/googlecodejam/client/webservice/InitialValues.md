@@ -11,6 +11,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ##Summary
 ####Constructors
 * **public** [InitialValues](#initialvalues)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |

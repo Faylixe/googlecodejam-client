@@ -8,6 +8,7 @@ Test case for {@link ContestInfo} class.
 ##Summary
 ####Constructors
 * **public** [ContestInfoTest](#contestinfotest)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |

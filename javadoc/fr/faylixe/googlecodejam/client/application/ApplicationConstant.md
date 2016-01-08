@@ -7,13 +7,35 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
  line parameters.</p>
 
 ##Summary
+####Fields
+* **public static final** [DOWNLOAD](#download)
+* **public static final** [DOWNLOAD_DESCRIPTION](#download_description)
+* **public static final** [DOWNLOAD_LONG](#download_long)
+* **public static final** [INIT](#init)
+* **public static final** [INIT_DESCRIPTION](#init_description)
+* **public static final** [INIT_LONG](#init_long)
+* **public static final** [INPUT_TYPE](#input_type)
+* **public static final** [INPUT_TYPE_DESCRIPTION](#input_type_description)
+* **public static final** [INPUT_TYPE_LONG](#input_type_long)
+* **public static final** [OUTPUT](#output)
+* **public static final** [OUTPUT_DESCRIPTION](#output_description)
+* **public static final** [OUTPUT_LONG](#output_long)
+* **public static final** [PROBLEM](#problem)
+* **public static final** [PROBLEM_DESCRIPTION](#problem_description)
+* **public static final** [PROBLEM_LONG](#problem_long)
+* **public static final** [SOURCE](#source)
+* **public static final** [SOURCE_DESCRIPTION](#source_description)
+* **public static final** [SOURCE_LONG](#source_long)
+* **public static final** [SUBMIT](#submit)
+* **public static final** [SUBMIT_DESCRIPTION](#submit_description)
+* **public static final** [SUBMIT_LONG](#submit_long)
+* **public static final** [SYNTAX](#syntax)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
 | **public static** *Options* | [createOptions](#createoptions) |
 
-####Fields
-* **public static final** [DOWNLOAD](#download)* **public static final** [DOWNLOAD_DESCRIPTION](#download_description)* **public static final** [DOWNLOAD_LONG](#download_long)* **public static final** [INIT](#init)* **public static final** [INIT_DESCRIPTION](#init_description)* **public static final** [INIT_LONG](#init_long)* **public static final** [INPUT_TYPE](#input_type)* **public static final** [INPUT_TYPE_DESCRIPTION](#input_type_description)* **public static final** [INPUT_TYPE_LONG](#input_type_long)* **public static final** [OUTPUT](#output)* **public static final** [OUTPUT_DESCRIPTION](#output_description)* **public static final** [OUTPUT_LONG](#output_long)* **public static final** [PROBLEM](#problem)* **public static final** [PROBLEM_DESCRIPTION](#problem_description)* **public static final** [PROBLEM_LONG](#problem_long)* **public static final** [SOURCE](#source)* **public static final** [SOURCE_DESCRIPTION](#source_description)* **public static final** [SOURCE_LONG](#source_long)* **public static final** [SUBMIT](#submit)* **public static final** [SUBMIT_DESCRIPTION](#submit_description)* **public static final** [SUBMIT_LONG](#submit_long)* **public static final** [SYNTAX](#syntax)
 
 ##Fields
 ####DOWNLOAD

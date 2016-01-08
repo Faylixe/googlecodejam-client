@@ -9,6 +9,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ##Summary
 ####Constructors
 * **public** [ContestInfo](#contestinfo)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
