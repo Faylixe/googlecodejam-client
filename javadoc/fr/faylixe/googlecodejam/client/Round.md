@@ -30,11 +30,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 ##Methods
-####equals(Object)
-> {@inheritDoc}
-
----
-
 ####get(Element, String)
 > <p>Static factory methods that retrieves a list of round
  from the given JSoup <tt>contest</tt> node.</p>
@@ -61,11 +56,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > **Returns**
 * URL of this round dashboard.
 
-
----
-
-####hashCode()
-> {@inheritDoc}
 
 ---
 

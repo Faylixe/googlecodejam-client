@@ -29,11 +29,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 
 ##Methods
-####equals(Object)
-> {@inheritDoc}
-
----
-
 ####getInputId()
 > Getter for the submission identifier.
 > **Returns**
@@ -55,11 +50,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 > **Returns**
 * Target problem identifier of this submission.
 
-
----
-
-####hashCode()
-> {@inheritDoc}
 
 ---
 

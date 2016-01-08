@@ -35,11 +35,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 
 ##Methods
-####equals(Object)
-> {@inheritDoc}
-
----
-
 ####getBody()
 > Getter for the problem body description.
 > **Returns**
@@ -119,16 +114,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 > **Returns**
 * TODO : Figure out what is type for.
 
-
----
-
-####hashCode()
-> {@inheritDoc}
-
----
-
-####validateObject()
-> {@inheritDoc}
 
 ---
 

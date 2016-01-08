@@ -49,11 +49,6 @@ Constant used for small input.
 
 
 ##Methods
-####equals(Object)
-> {@inheritDoc}
-
----
-
 ####getDifficulty()
 > Getter for the problem input difficulty.
 > **Returns**
@@ -91,11 +86,6 @@ Constant used for small input.
 > **Returns**
 * Suffix used for this problem input.
 
-
----
-
-####hashCode()
-> {@inheritDoc}
 
 ---
 

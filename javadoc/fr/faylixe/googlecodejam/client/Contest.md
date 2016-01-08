@@ -36,11 +36,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 ##Methods
-####equals(Object)
-> {@inheritDoc}
-
----
-
 ####get(HttpRequestExecutor)
 > <p>Retrieves and returns a list of available
  contest for the given <tt>hostname</tt>.</p>
@@ -62,11 +57,6 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > **Returns**
 * List of the round of this contest.
 
-
----
-
-####hashCode()
-> {@inheritDoc}
 
 ---
 

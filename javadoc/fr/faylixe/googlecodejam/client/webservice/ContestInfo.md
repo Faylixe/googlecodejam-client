@@ -86,11 +86,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ---
 
-####validateObject()
-> {@inheritDoc}
-
----
-
 ---
 
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

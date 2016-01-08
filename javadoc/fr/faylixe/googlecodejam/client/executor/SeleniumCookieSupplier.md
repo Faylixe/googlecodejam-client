@@ -48,11 +48,6 @@ TODO Javadoc
 
 ---
 
-####get()
-> {@inheritDoc}
-
----
-
 ####isRunning()
 > Indicates if the login process is still running.
 > **Returns**
