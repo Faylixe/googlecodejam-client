@@ -18,6 +18,8 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 | **public static** **boolean** | [init](#init) |
 | **public static** **boolean** | [submit](#submitcommandline) |
 
+---
+
 
 ##Constructors####ApplicationCommand()
 > 

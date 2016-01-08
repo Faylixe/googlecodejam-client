@@ -15,6 +15,8 @@ Test case for the {@link Round} class.
 | **public static** [Round](Round.md) | [getTestRound](#gettestround) |
 | **public** **void** | [testRoundConsistency](#testroundconsistency) |
 
+---
+
 
 ##Constructors####RoundTest()
 > 

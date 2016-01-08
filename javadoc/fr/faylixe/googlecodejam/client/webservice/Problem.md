@@ -15,7 +15,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **boolean** | [equals](#equalsobject) |
 | **public** *String* | [getBody](#getbody) |
 | **public** *String* | [getId](#getid) |
 | **public** *String* | [getKey](#getkey) |
@@ -25,8 +24,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **public** [ProblemInput](ProblemInput.md) | [getProblemInput](#getprobleminputstring) |
 | **public** *List* | [getProblemInputs](#getprobleminputs) |
 | **public** *String* | [getType](#gettype) |
-| **public** **int** | [hashCode](#hashcode) |
-| **public** **void** | [validateObject](#validateobject) |
+
+---
 
 
 ##Constructors####Problem()

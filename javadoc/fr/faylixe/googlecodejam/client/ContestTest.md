@@ -15,6 +15,8 @@ Test case for {@link Contest} class.
 | **public static** [Contest](Contest.md) | [getTestContests](#gettestcontests) |
 | **public** **void** | [testContestConsistency](#testcontestconsistency) |
 
+---
+
 
 ##Constructors####ContestTest()
 > 

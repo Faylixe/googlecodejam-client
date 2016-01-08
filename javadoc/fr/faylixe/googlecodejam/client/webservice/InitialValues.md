@@ -34,6 +34,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **public** **boolean** | [isLogged](#islogged) |
 | **public** **boolean** | [isQualified](#isqualified) |
 
+---
+
 
 ##Constructors####InitialValues()
 > 

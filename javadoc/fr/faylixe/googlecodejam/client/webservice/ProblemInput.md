@@ -19,13 +19,13 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **boolean** | [equals](#equalsobject) |
 | **public** **int** | [getDifficulty](#getdifficulty) |
 | **public** **int** | [getNumber](#getnumber) |
 | **public** **int** | [getPoints](#getpoints) |
 | **public** [Problem](Problem.md) | [getProblem](#getproblem) |
 | **public** *String* | [getSuffix](#getsuffix) |
-| **public** **int** | [hashCode](#hashcode) |
+
+---
 
 
 ##Constructors####ProblemInput()

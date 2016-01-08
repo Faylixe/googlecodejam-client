@@ -18,6 +18,8 @@ Test case for {@link CodeJamSession} class.
 | **public** **void** | [testSessionConsistency](#testsessionconsistency) |
 | **public** **void** | [testSubmission](#testsubmission) |
 
+---
+
 
 ##Constructors####CodeJamSessionTest()
 > 

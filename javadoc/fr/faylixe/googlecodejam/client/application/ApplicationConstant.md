@@ -36,6 +36,8 @@ Package [fr.faylixe.googlecodejam.client.application](README.md)<br>
 | --- | --- |
 | **public static** *Options* | [createOptions](#createoptions) |
 
+---
+
 
 ##Fields
 ####DOWNLOAD

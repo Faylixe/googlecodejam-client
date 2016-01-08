@@ -20,6 +20,8 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 | **public** *HttpRequest* | [getRequest](#getrequeststring) |
 | **public** *String* | [post](#poststring-httpcontent) |
 
+---
+
 
 ##Methods
 ####buildDataPart(String, String)

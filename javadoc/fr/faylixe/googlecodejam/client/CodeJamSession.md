@@ -28,6 +28,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 | **public** [CodeJamSession](CodeJamSession.md) | [refresh](#refresh) |
 | **public** [SubmitResponse](webservice/SubmitResponse.md) | [submit](#submitprobleminput-file-file) |
 
+---
+
 
 ##Methods
 ####buildFilename(ProblemInput)

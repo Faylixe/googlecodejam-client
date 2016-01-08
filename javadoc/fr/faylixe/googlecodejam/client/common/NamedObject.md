@@ -12,6 +12,8 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 | --- | --- |
 | **public final** *String* | [getName](#getname) |
 
+---
+
 
 ##Methods
 ####getName()

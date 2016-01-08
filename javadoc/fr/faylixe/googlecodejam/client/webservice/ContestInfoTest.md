@@ -16,6 +16,8 @@ Test case for {@link ContestInfo} class.
 | **public static** **void** | [testContestInfoConsistency](#testcontestinfoconsistencycontestinfo) |
 | **public** **void** | [testContestInfoConsistency](#testcontestinfoconsistency) |
 
+---
+
 
 ##Constructors####ContestInfoTest()
 > 

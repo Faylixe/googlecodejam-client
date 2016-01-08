@@ -15,6 +15,8 @@ Test case for {@link InitialValues} class.
 | **public static** [InitialValues](InitialValues.md) | [getTestInitialValues](#gettestinitialvalues) |
 | **public** **void** | [testInitialValuesConsistency](#testinitialvaluesconsistency) |
 
+---
+
 
 ##Constructors####InitialValuesTest()
 > 

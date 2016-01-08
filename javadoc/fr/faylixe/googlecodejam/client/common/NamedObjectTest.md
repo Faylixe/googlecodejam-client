@@ -15,6 +15,8 @@ Test case for {@link NamedObject} class.
 | **public** **void** | [testDefault](#testdefault) |
 | **public** **void** | [testSerialized](#testserialized) |
 
+---
+
 
 ##Constructors####NamedObjectTest()
 > 

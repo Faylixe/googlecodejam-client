@@ -15,6 +15,8 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 * **public static final** [TD](#td)
 * **public static final** [TR](#tr)
 
+---
+
 
 ##Fields
 ####ANCHOR

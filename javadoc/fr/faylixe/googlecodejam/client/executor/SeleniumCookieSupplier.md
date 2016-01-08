@@ -18,8 +18,9 @@ TODO Javadoc
 | --- | --- |
 | **public** **void** | [cancel](#cancel) |
 | **public** **void** | [checkCurrentState](#checkcurrentstatewebdriver) |
-| **public** *String* | [get](#get) |
 | **public** **boolean** | [isRunning](#isrunning) |
+
+---
 
 
 ##Constructors####SeleniumCookieSupplier(String, Supplier)

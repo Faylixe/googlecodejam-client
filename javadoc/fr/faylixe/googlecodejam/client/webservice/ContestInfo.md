@@ -18,7 +18,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **public** *List* | [getProblems](#getproblems) |
 | **public** **int** | [getVersion](#getversion) |
 | **public** **boolean** | [hasAnalysis](#hasanalysis) |
-| **public** **void** | [validateObject](#validateobject) |
+
+---
 
 
 ##Constructors####ContestInfo()

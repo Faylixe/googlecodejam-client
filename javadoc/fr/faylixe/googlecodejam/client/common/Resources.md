@@ -14,6 +14,8 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 | **public static** *InputStream* | [getResourceStream](#getresourcestreamstring) |
 | **public static** *String* | [normalize](#normalizestring) |
 
+---
+
 
 ##Methods
 ####getHTMLTemplate()

@@ -15,6 +15,8 @@ Test case for the {@link Problem} class.
 | **public static** [Problem](Problem.md) | [getTestProblem](#gettestproblem) |
 | **public** **void** | [testProblemConsistency](#testproblemconsistency) |
 
+---
+
 
 ##Constructors####ProblemTest()
 > 
