@@ -14,7 +14,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *List* | [get](#getelement-string)(*Element* contest,*String* parent) |
+| **public static** *List* | [get](#getelement-string)(*Element* contest, *String* parent) |
 | **public** *String* | [getContestName](#getcontestname)() |
 | **public** *String* | [getURL](#geturl)() |
 

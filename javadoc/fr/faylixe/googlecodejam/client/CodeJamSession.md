@@ -17,7 +17,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 | Type and modifiers | Method signature |
 | --- | --- |
 | **public** *String* | [buildFilename](#buildfilenameprobleminput)([ProblemInput](webservice/ProblemInput.md) input) |
-| **public static** [CodeJamSession](CodeJamSession.md) | [createSession](#createsessionhttprequestexecutor-round)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor,[Round](Round.md) round) |
+| **public static** [CodeJamSession](CodeJamSession.md) | [createSession](#createsessionhttprequestexecutor-round)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor, [Round](Round.md) round) |
 | **public** *InputStream* | [download](#downloadprobleminput)([ProblemInput](webservice/ProblemInput.md) input) |
 | **public** *String* | [getContestAnalysis](#getcontestanalysisproblem)([Problem](webservice/Problem.md) problem) |
 | **public** [ContestInfo](webservice/ContestInfo.md) | [getContestInfo](#getcontestinfo)() |
@@ -26,7 +26,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 | **public** **boolean** | [isLogged](#islogged)() |
 | **public** **boolean** | [isQualified](#isqualified)() |
 | **public** [CodeJamSession](CodeJamSession.md) | [refresh](#refresh)() |
-| **public** [SubmitResponse](webservice/SubmitResponse.md) | [submit](#submitprobleminput-file-file)([ProblemInput](webservice/ProblemInput.md) input,*File* output,*File* source) |
+| **public** [SubmitResponse](webservice/SubmitResponse.md) | [submit](#submitprobleminput-file-file)([ProblemInput](webservice/ProblemInput.md) input, *File* output, *File* source) |
 
 ---
 
