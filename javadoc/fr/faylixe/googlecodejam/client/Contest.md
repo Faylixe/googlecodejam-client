@@ -16,7 +16,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 | **public** *List* | [getRounds](#getrounds) |
 | **public** **int** | [hashCode](#hashcode) |
 
-####Fields* **public static final** [CONTEST_CLASS_NAME](#contest_class_name)* **public static final** [CONTEST_INDEX](#contest_index)
+####Fields
+* **public static final** [CONTEST_CLASS_NAME](#contest_class_name)* **public static final** [CONTEST_INDEX](#contest_index)
 
 ##Fields
 ####CONTEST_CLASS_NAME

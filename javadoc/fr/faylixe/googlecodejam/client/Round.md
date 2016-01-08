@@ -17,7 +17,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 | **public** *String* | [getURL](#geturl) |
 | **public** **int** | [hashCode](#hashcode) |
 
-####Fields* **public static final** [DESCRIPTION_CLASS_NAME](#description_class_name)
+####Fields
+* **public static final** [DESCRIPTION_CLASS_NAME](#description_class_name)
 
 ##Fields
 ####DESCRIPTION_CLASS_NAME
