@@ -15,7 +15,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [InitialValues](InitialValues.md) | [get](#gethttprequestexecutor-round)([HttpRequestExecutor](../xecutor/HttpRequestExecutor.md) executor, [Round](../Round.md) round) |
+| **public static** [InitialValues](InitialValues.md) | [get](#gethttprequestexecutor-round)([HttpRequestExecutor](../executor/HttpRequestExecutor.md) executor, [Round](../Round.md) round) |
 | **public** *java.lang.String* | [getAdmin](#getadmin)() |
 | **public** **int** | [getCS](#getcs)() |
 | **public** *java.lang.String* | [getEmail](#getemail)() |
