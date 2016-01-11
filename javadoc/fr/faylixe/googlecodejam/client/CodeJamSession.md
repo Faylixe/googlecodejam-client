@@ -1,7 +1,7 @@
 #CodeJamSession
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *java.lang.Object* > [NamedObject](/common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
+> *java.lang.Object* > [NamedObject](common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
 
 {@link CodeJamSession} is the main API entry point, which consists
  in logging to a code jam platform ``hostname`` and then providing
@@ -16,17 +16,17 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** *java.lang.String* | [buildFilename](#buildfilenameprobleminput)([ProblemInput](/webservice/ProblemInput.md) input) |
-| **public static** [CodeJamSession](CodeJamSession.md) | [createSession](#createsessionhttprequestexecutor-round)([HttpRequestExecutor](/executor/HttpRequestExecutor.md) executor, [Round](Round.md) round) |
-| **public** *java.io.InputStream* | [download](#downloadprobleminput)([ProblemInput](/webservice/ProblemInput.md) input) |
-| **public** *java.lang.String* | [getContestAnalysis](#getcontestanalysisproblem)([Problem](/webservice/Problem.md) problem) |
-| **public** [ContestInfo](/webservice/ContestInfo.md) | [getContestInfo](#getcontestinfo)() |
-| **public** [Problem](/webservice/Problem.md) | [getProblem](#getproblemstring)(*java.lang.String* letter) |
+| **public** *java.lang.String* | [buildFilename](#buildfilenameprobleminput)([ProblemInput](webservice/ProblemInput.md) input) |
+| **public static** [CodeJamSession](CodeJamSession.md) | [createSession](#createsessionhttprequestexecutor-round)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor, [Round](Round.md) round) |
+| **public** *java.io.InputStream* | [download](#downloadprobleminput)([ProblemInput](webservice/ProblemInput.md) input) |
+| **public** *java.lang.String* | [getContestAnalysis](#getcontestanalysisproblem)([Problem](webservice/Problem.md) problem) |
+| **public** [ContestInfo](webservice/ContestInfo.md) | [getContestInfo](#getcontestinfo)() |
+| **public** [Problem](webservice/Problem.md) | [getProblem](#getproblemstring)(*java.lang.String* letter) |
 | **public** **boolean** | [isActive](#isactive)() |
 | **public** **boolean** | [isLogged](#islogged)() |
 | **public** **boolean** | [isQualified](#isqualified)() |
 | **public** [CodeJamSession](CodeJamSession.md) | [refresh](#refresh)() |
-| **public** [SubmitResponse](/webservice/SubmitResponse.md) | [submit](#submitprobleminput-file-file)([ProblemInput](/webservice/ProblemInput.md) input, *java.io.File* output, *java.io.File* source) |
+| **public** [SubmitResponse](webservice/SubmitResponse.md) | [submit](#submitprobleminput-file-file)([ProblemInput](webservice/ProblemInput.md) input, *java.io.File* output, *java.io.File* source) |
 
 ---
 
