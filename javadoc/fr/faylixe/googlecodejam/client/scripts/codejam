@@ -1,0 +1,3 @@
+#!/bin/bash
+
+java -classpath /usr/local/bin/codejam/googlecodejam-client.jar fr.faylixe.googlecodejam.client.application.Application $*

@@ -6,7 +6,6 @@
 | [HTMLConstant](HTMLConstant.md) |
 | [Resources](Resources.md) |
 | [NamedObject](NamedObject.md) |
-| [NamedObjectTest](NamedObjectTest.md) |
 
 ---
 

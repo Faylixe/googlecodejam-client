@@ -13,10 +13,6 @@
 | [Events](Events.md) |
 | [SubmitResponse](SubmitResponse.md) |
 | [InitialValues](InitialValues.md) |
-| [ProblemTest](ProblemTest.md) |
-| [ContestInfoTest](ContestInfoTest.md) |
-| [ProblemInputTest](ProblemInputTest.md) |
-| [InitialValuesTest](InitialValuesTest.md) |
 
 ---
 

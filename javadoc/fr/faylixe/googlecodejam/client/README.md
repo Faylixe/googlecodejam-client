@@ -11,11 +11,6 @@
 | [CodeJamSession](CodeJamSession.md) |
 | [Contest](Contest.md) |
 | [Round](Round.md) |
-| [HttpRequestExecutorMock](HttpRequestExecutorMock.md) |
-| [AllTests](AllTests.md) |
-| [CodeJamSessionTest](CodeJamSessionTest.md) |
-| [RoundTest](RoundTest.md) |
-| [ContestTest](ContestTest.md) |
 
 ---
 

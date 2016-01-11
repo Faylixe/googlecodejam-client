@@ -24,6 +24,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **public** [ProblemInput](ProblemInput.md) | [getProblemInput](#getprobleminputstring)(*java.lang.String* type) |
 | **public** *java.util.List* | [getProblemInputs](#getprobleminputs)() |
 | **public** *java.lang.String* | [getType](#gettype)() |
+| **protected** **void** | [setParent](#setparentcontestinfo)([ContestInfo](ContestInfo.md) parent) |
 
 ---
 
@@ -124,6 +125,15 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > **Returns**
 * TODO : Figure out what is type for.
+
+
+---
+
+####setParent(ContestInfo)
+> Contest setter that aims to be called by {@link ContestInfo} static factory.
+
+> **Parameters**
+* parent : Parent contest of this problem.
 
 
 ---

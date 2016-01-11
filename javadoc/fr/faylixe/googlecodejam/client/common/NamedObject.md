@@ -7,10 +7,33 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
  could be identified by a name.</p>
 
 ##Summary
+####Constructors
+* **protected** [NamedObject](#namedobject)()
+* **protected** [NamedObject](#namedobjectstring)(*java.lang.String* name)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
 | **public final** *java.lang.String* | [getName](#getname)() |
+
+---
+
+
+##Constructors
+####NamedObject()
+> Default constructor.
+
+
+---
+
+####NamedObject(String)
+> Constructor with name parameter
+ that should be used when such object
+ are created without using JSON serialization.
+
+> **Parameters**
+* name : Name of this object.
+
 
 ---
 
