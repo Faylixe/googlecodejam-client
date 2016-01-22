@@ -14,6 +14,7 @@ Java client API for Google Code Jam contest. This API is implemented with, and f
   - [Initialization action](#initialization-action)
   - [Download action](#download-action)
   - [Submit action](#submit-action)
+* [Jammy](#jammy)
 
 
 ## Disclaimer
@@ -43,7 +44,7 @@ final CodeJamSession session = CodeJamSession.createSession(executor, round);
 ```
 
 The session could be then used to retrieve contest information, problem description and analysis, download input file
-as submit solution as well. You can check the [javadoc](http://faylixe.fr/googlecodejam-client/apidocs) to get more informations.
+as submit solution as well. You can check the [javadoc](https://github.com/Faylixe/googlecodejam-client/tree/master/javadoc/fr/faylixe/googlecodejam/client) to get more informations.
 
 ## Command line application
 
@@ -111,3 +112,8 @@ to send either the output file as the source file of your algorithm as well.
 ```bash
 codejam --submit --problem A --inputtype small --output path/to/output --sourcefile path/to/sourcefile
 ```
+
+## Jammy
+
+Want more than a command line application ? Take a look at the [Jammy](http://faylixe.fr/jammy) project, which provides a dedicated development perspective
+in Eclipse IDE.
