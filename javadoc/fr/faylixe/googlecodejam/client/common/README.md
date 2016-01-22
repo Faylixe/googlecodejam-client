@@ -3,9 +3,9 @@
 ##Classes
 | Name |
 | --- |
-| [HTMLConstant](HTMLConstant.md) |
 | [Resources](Resources.md) |
 | [NamedObject](NamedObject.md) |
+| [HTMLConstant](HTMLConstant.md) |
 
 ---
 

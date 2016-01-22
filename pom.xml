@@ -98,8 +98,11 @@
 							<docletArtifact>
 								<groupId>fr.faylixe</groupId>
 								<artifactId>marklet</artifactId>
-								<version>1.0.0</version>
+								<version>1.0.2</version>
 							</docletArtifact>
+							<reportOutputDirectory>./</reportOutputDirectory>
+							<destDir>./</destDir>
+							<additionalparam>-d javadoc/</additionalparam>
 							<useStandardDocletOptions>false</useStandardDocletOptions>
 						</configuration>
 					</plugin>

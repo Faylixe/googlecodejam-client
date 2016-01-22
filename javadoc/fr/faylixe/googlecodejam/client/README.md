@@ -8,8 +8,8 @@
 ##Classes
 | Name |
 | --- |
-| [CodeJamSession](CodeJamSession.md) |
 | [Contest](Contest.md) |
+| [CodeJamSession](CodeJamSession.md) |
 | [Round](Round.md) |
 
 ---

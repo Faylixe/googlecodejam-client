@@ -5,8 +5,8 @@
 ##Classes
 | Name |
 | --- |
-| [ApplicationConstant](ApplicationConstant.md) |
 | [ApplicationCommand](ApplicationCommand.md) |
+| [ApplicationConstant](ApplicationConstant.md) |
 | [Application](Application.md) |
 
 ---
