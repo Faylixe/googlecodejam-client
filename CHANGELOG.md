@@ -1,3 +1,7 @@
+**v1.2.8** *(29/02/2016)*
+
+* Removing command line application and all associated dependencies. Such features now belong to an independant application : [googlecodejam-cli](https://github.com/Faylixe/googlecodejam-cli)
+
 **v1.2.7** *(29/02/2016)*
 
 * Adding trusted HTTP transport to HTTPRequestExecutor.
