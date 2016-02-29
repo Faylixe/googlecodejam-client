@@ -13,6 +13,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.file.Files;
+import java.security.GeneralSecurityException;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -58,7 +59,7 @@ public final class CodeJamSessionTest {
 		try {
 			session = CodeJamSession.createSession(HttpRequestExecutorMock.getTestExecutor(), round);
 		}
-		catch (final IOException e) {
+		catch (final IOException | GeneralSecurityException e) {
 			fail("Error occurs while retrieving session : " + e.getMessage());
 		}
 		return session;

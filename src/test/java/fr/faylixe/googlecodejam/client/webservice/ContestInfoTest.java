@@ -10,6 +10,7 @@ import fr.faylixe.googlecodejam.client.webservice.ContestInfo;
 import fr.faylixe.googlecodejam.client.webservice.Problem;
 
 import java.io.IOException;
+import java.security.GeneralSecurityException;
 import java.util.List;
 
 import org.junit.Test;
@@ -40,7 +41,7 @@ public final class ContestInfoTest {
 		try {
 			info = ContestInfo.get(HttpRequestExecutorMock.getTestExecutor(), round);
 		}
-		catch (final IOException e) {
+		catch (final IOException | GeneralSecurityException e) {
 			fail("Error occurs while retrieving contest info : " + e.getMessage());
 		}
 		return info;

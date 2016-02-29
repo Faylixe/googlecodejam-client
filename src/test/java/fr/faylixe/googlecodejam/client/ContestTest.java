@@ -4,6 +4,7 @@ import fr.faylixe.googlecodejam.client.Contest;
 import fr.faylixe.googlecodejam.client.Round;
 
 import java.io.IOException;
+import java.security.GeneralSecurityException;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
@@ -41,7 +42,7 @@ public final class ContestTest {
 				final List<Contest> contests = Contest.get(HttpRequestExecutorMock.getTestExecutor());
 				testInstance = contests.get(contests.size() - 1);
 			}
-			catch (final IOException e) {
+			catch (final IOException | GeneralSecurityException e) {
 				fail("Error occurs whiel retrieving contest : " + e.getMessage());
 			}
 		}

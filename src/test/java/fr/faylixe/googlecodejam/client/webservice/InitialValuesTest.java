@@ -7,6 +7,7 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
 import java.io.IOException;
+import java.security.GeneralSecurityException;
 
 import org.junit.Test;
 
@@ -59,7 +60,7 @@ public final class InitialValuesTest {
 		try {
 			values = InitialValues.get(HttpRequestExecutorMock.getTestExecutor(), round);
 		}
-		catch (final IOException e) {
+		catch (final IOException | GeneralSecurityException e) {
 			fail("Error occurs while retrieving contest initial values : " + e.getMessage());
 		}
 		return values;

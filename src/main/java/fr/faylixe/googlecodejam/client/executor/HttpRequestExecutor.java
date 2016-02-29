@@ -5,7 +5,9 @@ import java.io.IOException;
 import java.io.ObjectStreamException;
 import java.io.Serializable;
 import java.nio.file.Files;
+import java.security.GeneralSecurityException;
 
+import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.http.ByteArrayContent;
 import com.google.api.client.http.FileContent;
 import com.google.api.client.http.GenericUrl;
@@ -16,7 +18,6 @@ import com.google.api.client.http.HttpRequestFactory;
 import com.google.api.client.http.HttpResponse;
 import com.google.api.client.http.HttpTransport;
 import com.google.api.client.http.MultipartContent.Part;
-import com.google.api.client.http.javanet.NetHttpTransport;
 
 /**
  * <p>A {@link HttpRequestExecutor} is an abstraction
@@ -167,7 +168,17 @@ public final class HttpRequestExecutor implements Serializable {
 	 * @throws ObjectStreamException If any error occurs during deserialization process.
 	 */
 	private Object readResolve() throws ObjectStreamException {
-		return create(hostname, cookieValue);
+		try {
+			return create(hostname, cookieValue);
+		}
+		catch (final IOException | GeneralSecurityException e) {
+			throw new ObjectStreamException(e.getMessage()) {
+
+				/** Serialization index. **/
+				private static final long serialVersionUID = 1L;
+
+			};
+		}
 	}
 
 	/**
@@ -178,14 +189,16 @@ public final class HttpRequestExecutor implements Serializable {
 	 * @param hostname Hostname to use for the created executor.
 	 * @param cookieValue Value of the SACSID cookie to use.
 	 * @return Created instance.
+	 * @throws IOException If any error occurs while creating http client.
+	 * @throws GeneralSecurityException If any error occurs while creating http client.
 	 */
-	public static HttpRequestExecutor create(final String hostname, final String cookieValue) {
+	public static HttpRequestExecutor create(final String hostname, final String cookieValue) throws GeneralSecurityException, IOException {
 		final String cookie = new StringBuilder()
 			.append(Request.COOKIE_NAME)
 			.append('=')
 			.append(cookieValue)
 			.toString();
-		final HttpTransport transport = new NetHttpTransport();
+		final HttpTransport transport = GoogleNetHttpTransport.newTrustedTransport();
 		final HttpRequestFactory requestFactory = transport.createRequestFactory(request -> {
 			final HttpHeaders headers = request.getHeaders();
 			headers.setCookie(cookie);
@@ -199,9 +212,11 @@ public final class HttpRequestExecutor implements Serializable {
 	 * 
 	 * @param hostname Hostname to use for the created executor.
 	 * @return Created instance.
+	 * @throws IOException If any error occurs while creating http client.
+	 * @throws GeneralSecurityException If any error occurs while creating http client.
 	 * @see #create(String, String)
 	 */
-	public static HttpRequestExecutor create(final String hostname) {
+	public static HttpRequestExecutor create(final String hostname) throws GeneralSecurityException, IOException {
 		return create(hostname, "");
 	}
 

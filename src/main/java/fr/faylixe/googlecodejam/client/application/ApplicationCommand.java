@@ -8,6 +8,7 @@ import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.security.GeneralSecurityException;
 import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
@@ -52,8 +53,9 @@ public final class ApplicationCommand {
 	 * instance that will be used as a contextual round.
 	 * 
 	 * @throws IOException If any error occurs while downloading contest page.
+	 * @throws GeneralSecurityException If any error occurs while creating HTTP client.
 	 */
-	private static Optional<Round> selectRound() throws IOException {
+	private static Optional<Round> selectRound() throws IOException, GeneralSecurityException {
 		final HttpRequestExecutor executor = HttpRequestExecutor.create(Request.DEFAULT_HOSTNAME);
 		final List<Contest> contests = Contest.get(executor);
 		final Scanner reader = new Scanner(System.in);
@@ -124,7 +126,7 @@ public final class ApplicationCommand {
 				}
 			}
 		}
-		catch (final IOException | UnreachableBrowserException e) {
+		catch (final IOException | UnreachableBrowserException | GeneralSecurityException e) {
 			err.println("An error occurs while creating CodeJamSession : " + e.getMessage());
 		}
 		return true;
@@ -136,8 +138,9 @@ public final class ApplicationCommand {
 	 * 
 	 * @return Contextual session loaded if exist.
 	 * @throws IOException If the session could not be loaded.
+	 * @throws GeneralSecurityException 
 	 */
-	private static CodeJamSession getContextualSession() throws IOException {
+	private static CodeJamSession getContextualSession() throws IOException, GeneralSecurityException {
 		final String cookie = (String) SerializationUtils.deserialize(new FileInputStream(COOKIE_PATH));
 		final HttpRequestExecutor executor = HttpRequestExecutor.create(Request.DEFAULT_HOSTNAME, cookie);
 		final Round round = (Round) SerializationUtils.deserialize(new FileInputStream(ROUND_PATH));
@@ -191,7 +194,7 @@ public final class ApplicationCommand {
 			Files.copy(stream, target);
 			out.println(target.toString());
 		}
-		catch (final IOException e) {
+		catch (final IOException | GeneralSecurityException e) {
 			err.println("An error occurs while downloading input file : " + e.getMessage());
 		}
 		return true;
@@ -223,7 +226,7 @@ public final class ApplicationCommand {
 				out.println("Submission failed : " + response.getMessage());
 			}
 		}
-		catch (final IOException e) {
+		catch (final IOException | GeneralSecurityException e) {
 			err.println("An error occurs while submitting output file : " + e.getMessage());
 		}
 		return true;

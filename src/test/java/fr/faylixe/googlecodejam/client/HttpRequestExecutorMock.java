@@ -1,5 +1,8 @@
 package fr.faylixe.googlecodejam.client;
 
+import java.io.IOException;
+import java.security.GeneralSecurityException;
+
 import fr.faylixe.googlecodejam.client.executor.HttpRequestExecutor;
 import fr.faylixe.googlecodejam.client.executor.Request;
 
@@ -16,8 +19,10 @@ public final class HttpRequestExecutorMock {
 	 * logged to any google services.
 	 * 
 	 * @return Created instance.
+	 * @throws IOException If any error occurs while creating mock instance.
+	 * @throws IOException If any error occurs while creating mock instance.
 	 */
-	public static HttpRequestExecutor getTestExecutor() {
+	public static HttpRequestExecutor getTestExecutor() throws GeneralSecurityException, IOException {
 		return HttpRequestExecutor.create(Request.DEFAULT_HOSTNAME);
 	}
 
