@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.faylixe</groupId>
 	<artifactId>googlecodejam-client</artifactId>
-	<version>1.2.6</version>
+	<version>1.2.7</version>
 	<name>GoogleCodeJam Client</name>
 	<description>Java client API for Google Code Jam contest</description>
 	<url>https://github.com/Faylixe/googlecodejam-client</url>

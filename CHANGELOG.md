@@ -1,3 +1,7 @@
+**v1.2.7** *(29/02/2016)*
+
+* Adding trusted HTTP transport to HTTPRequestExecutor.
+
 **v1.2.6** *(16/12/2015)*
 
 * Updates *refresh()* method, now returns always a reloaded session.
