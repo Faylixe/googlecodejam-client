@@ -6,6 +6,8 @@ Java client API for Google Code Jam contest. This API is implemented with, and f
 
 [OSGi packaged version](https://github.com/Faylixe/googlecodejam-client-osgi) is also available.
 
+Please check the [command line application](https://github.com/Faylixe/googlecodejam-cli) for an exemple of application.
+
 ## Disclaimer
 
 Please note that this client is not provided by Google. Any responsability is declined if a bug occurs when you are using it in a real contest condition. This API is fully working in a practice context, but has never been tested in a real contest.
