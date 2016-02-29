@@ -5,7 +5,6 @@
 | Name |
 | --- |
 | [Request](Request.md) |
-| [SeleniumCookieSupplier](SeleniumCookieSupplier.md) |
 | [HttpRequestExecutor](HttpRequestExecutor.md) |
 
 ---

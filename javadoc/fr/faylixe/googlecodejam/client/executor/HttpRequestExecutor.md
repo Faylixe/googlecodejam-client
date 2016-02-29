@@ -67,6 +67,10 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 > **Returns**
 * Created instance.
 
+> **Throws**
+* *java.io.IOException* If any error occurs while creating http client.
+* *java.security.GeneralSecurityException* If any error occurs while creating http client.
+
 
 ---
 
@@ -79,6 +83,10 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 > **Returns**
 * Created instance.
+
+> **Throws**
+* *java.io.IOException* If any error occurs while creating http client.
+* *java.security.GeneralSecurityException* If any error occurs while creating http client.
 
 
 ---
