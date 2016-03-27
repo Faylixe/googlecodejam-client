@@ -12,26 +12,11 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 * **public static final** [CONTEST_CLASS_NAME](#contest_class_name)
 * **public static final** [CONTEST_INDEX](#contest_index)
 
-####Constructors
-* **protected** [Contest](#conteststring-java.util.list)(*java.lang.String* name, *java.util.List* rounds)
-
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *java.util.List* | [get](#gethttprequestexecutor)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor) |
-| **public** *java.util.List* | [getRounds](#getrounds)() |
-
----
-
-
-##Constructors
-####Contest(String, List)
-> <p>Default constructor.</p>
-
-> **Parameters**
-* name : Name of this contest.
-* rounds : {@link Round} that belongs to this contest.
-
+| **public static** *java.util.List*<[Contest](Contest.md)> | [get](#gethttprequestexecutor)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor) |
+| **public** *java.util.List*<[Round](Round.md)> | [getRounds](#getrounds)() |
 
 ---
 

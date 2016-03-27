@@ -8,9 +8,14 @@
 ##Classes
 | Name |
 | --- |
+| [Round](Round.md) |
 | [Contest](Contest.md) |
 | [CodeJamSession](CodeJamSession.md) |
-| [Round](Round.md) |
+| [RoundTest](RoundTest.md) |
+| [HttpRequestExecutorMock](HttpRequestExecutorMock.md) |
+| [ContestTest](ContestTest.md) |
+| [CodeJamSessionTest](CodeJamSessionTest.md) |
+| [AllTests](AllTests.md) |
 
 ---
 

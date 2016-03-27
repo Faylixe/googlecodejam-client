@@ -6,13 +6,17 @@
 ##Classes
 | Name |
 | --- |
-| [InitialValues](InitialValues.md) |
-| [Problem](Problem.md) |
-| [Deserializer](Deserializer.md) |
-| [ContestInfo](ContestInfo.md) |
-| [Events](Events.md) |
 | [SubmitResponse](SubmitResponse.md) |
 | [ProblemInput](ProblemInput.md) |
+| [Problem](Problem.md) |
+| [Deserializer](Deserializer.md) |
+| [InitialValues](InitialValues.md) |
+| [Events](Events.md) |
+| [ContestInfo](ContestInfo.md) |
+| [ProblemTest](ProblemTest.md) |
+| [ProblemInputTest](ProblemInputTest.md) |
+| [InitialValuesTest](InitialValuesTest.md) |
+| [ContestInfoTest](ContestInfoTest.md) |
 
 ---
 

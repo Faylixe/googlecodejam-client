@@ -15,7 +15,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | --- | --- |
 | **public static** [ContestInfo](ContestInfo.md) | [get](#gethttprequestexecutor-round)([HttpRequestExecutor](../executor/HttpRequestExecutor.md) executor, [Round](../Round.md) round) |
 | **public** [Problem](Problem.md) | [getProblem](#getproblemint)(**int** index) |
-| **public** *java.util.List* | [getProblems](#getproblems)() |
+| **public** *java.util.List*<[Problem](Problem.md)> | [getProblems](#getproblems)() |
 | **public** **int** | [getVersion](#getversion)() |
 | **public** **boolean** | [hasAnalysis](#hasanalysis)() |
 

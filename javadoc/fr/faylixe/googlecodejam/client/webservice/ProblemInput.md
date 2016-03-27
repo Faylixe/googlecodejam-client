@@ -24,7 +24,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **public** **int** | [getPoints](#getpoints)() |
 | **public** [Problem](Problem.md) | [getProblem](#getproblem)() |
 | **public** *java.lang.String* | [getSuffix](#getsuffix)() |
-| **protected** **void** | [setParent](#setparentproblem)([Problem](Problem.md) parent) |
 
 ---
 
@@ -95,15 +94,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > **Returns**
 * Suffix used for this problem input.
-
-
----
-
-####setParent(Problem)
-> Sets the parent problem of this input.
-
-> **Parameters**
-* parent : Parent problem to set.
 
 
 ---

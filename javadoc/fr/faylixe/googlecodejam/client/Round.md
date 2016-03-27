@@ -14,7 +14,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *java.util.List* | [get](#getelement-string)(*org.jsoup.nodes.Element* contest, *java.lang.String* parent) |
+| **public static** *java.util.List*<[Round](Round.md)> | [get](#getelement-string)(*org.jsoup.nodes.Element* contest, *java.lang.String* parent) |
 | **public** *java.lang.String* | [getContestName](#getcontestname)() |
 | **public** *java.lang.String* | [getURL](#geturl)() |
 
