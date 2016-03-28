@@ -3,7 +3,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 > *java.lang.Object* > [Resources](Resources.md)
 
-<p>Static toolbox that exposes methods for internal resources managment.</p>
+
 
 ##Summary
 ####Methods
@@ -19,7 +19,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 ##Methods
 ####getHTMLTemplate()
-> Getter for the HTML template content.
+> 
 
 > **Returns**
 * HTML page template.
@@ -31,8 +31,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ---
 
 ####getResource(String)
-> Reads and returns resources content denoted by the
- given <tt>path</tt>.
+> 
 
 > **Parameters**
 * path : Paht of the resources to read.
@@ -44,8 +43,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ---
 
 ####getResourceStream(String)
-> Reads and returns resources content denoted by the
- given <tt>path</tt>.
+> 
 
 > **Parameters**
 * path : Path of the resources to read.
@@ -57,8 +55,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ---
 
 ####normalize(String)
-> Normalizes the given <tt>name</tt> by removing
- all non alphanumeric character.
+> 
 
 > **Parameters**
 * name : Name to normalize.

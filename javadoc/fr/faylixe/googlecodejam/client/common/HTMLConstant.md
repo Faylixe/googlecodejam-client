@@ -3,7 +3,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 > *java.lang.Object* > [HTMLConstant](HTMLConstant.md)
 
-<p>Simple class that exposes HTML String related constants value.</p>
+
 
 ##Summary
 ####Fields
@@ -22,49 +22,49 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ####ANCHOR
 > **public static final** *java.lang.String*
 
-> HTML tag A.
+> 
 
 ---
 
 ####H3
 > **public static final** *java.lang.String*
 
-> HTML tag H3.
+> 
 
 ---
 
 ####HREF
 > **public static final** *java.lang.String*
 
-> HTML attribute HREF.
+> 
 
 ---
 
 ####IMG
 > **public static final** *java.lang.String*
 
-> HTML tag IMG.
+> 
 
 ---
 
 ####SRC
 > **public static final** *java.lang.String*
 
-> HTML attribute SRC.
+> 
 
 ---
 
 ####TD
 > **public static final** *java.lang.String*
 
-> HTML tag TD.
+> 
 
 ---
 
 ####TR
 > **public static final** *java.lang.String*
 
-> HTML tag TR.
+> 
 
 ---
 

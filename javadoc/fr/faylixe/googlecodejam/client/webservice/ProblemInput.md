@@ -3,10 +3,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](../common/NamedObject.md) > [ProblemInput](ProblemInput.md)
 
-<p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
- request, using Gson API. {@link ProblemInput} instance belong
- to a {@link Problem} object, and describes input submission
- available for a given {@link Problem}.</p>
+[ProblemInput](ProblemInput.md)[Problem](Problem.md)[Problem](Problem.md)
 
 ##Summary
 ####Fields
@@ -24,7 +21,6 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **public** **int** | [getPoints](#getpoints)() |
 | **public** [Problem](Problem.md) | [getProblem](#getproblem)() |
 | **public** *java.lang.String* | [getSuffix](#getsuffix)() |
-| **protected** **void** | [setParent](#setparentproblem)([Problem](Problem.md) parent) |
 
 ---
 
@@ -41,21 +37,21 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####LARGE
 > **public static final** *java.lang.String*
 
-> Constant used for large input.
+> 
 
 ---
 
 ####SMALL
 > **public static final** *java.lang.String*
 
-> Constant used for small input.
+> 
 
 ---
 
 
 ##Methods
 ####getDifficulty()
-> Getter for the problem input difficulty.
+> 
 
 > **Returns**
 * Difficulty rank of this problem input.
@@ -64,7 +60,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getNumber()
-> Getter for the problem input number.
+> 
 
 > **Returns**
 * TODO : Figure out what number is for.
@@ -73,7 +69,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getPoints()
-> Getter for the input number of point.
+> 
 
 > **Returns**
 * Number of points this problem input deliver.
@@ -82,7 +78,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getProblem()
-> Getter for the parent problem of this input.
+> 
 
 > **Returns**
 * Parent problem instance of this input.
@@ -91,19 +87,10 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getSuffix()
-> Getter for the input suffix.
+> 
 
 > **Returns**
 * Suffix used for this problem input.
-
-
----
-
-####setParent(Problem)
-> Sets the parent problem of this input.
-
-> **Parameters**
-* parent : Parent problem to set.
 
 
 ---

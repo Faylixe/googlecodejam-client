@@ -3,10 +3,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [InitialValues](InitialValues.md)
 
-<p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
- command request, using Gson API.</p>
- 
- TODO Ensures seen is not boolean.
+
 
 ##Summary
 ####Constructors
@@ -47,8 +44,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 ####get(HttpRequestExecutor, Round)
-> Static factory method that use the <tt>GetInitialValues</tt> command
- for the given <tt>round</tt> to retrieve a valud {@link InitialValues} instance.
+> [InitialValues](InitialValues.md)
 
 > **Parameters**
 * executor : Executor instance to use for performing the associated request.
@@ -82,7 +78,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getEmail()
-> Getter for the user email.
+> 
 
 > **Returns**
 * Email of this logged user.
@@ -100,7 +96,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getLeft()
-> Getter for the time left.
+> 
 
 > **Returns**
 * Time left before contest finish (in second).
@@ -109,7 +105,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getLoginHTML()
-> Getter for the login HTML.
+> 
 
 > **Returns**
 * HTML that contains the link of the login page.
@@ -118,7 +114,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getLogoutHTML()
-> Getter for the logout HTML.
+> 
 
 > **Returns**
 * HTML that contains the link of the logout page.
@@ -127,7 +123,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getName()
-> Getter for the contest name.
+> 
 
 > **Returns**
 * Current contest name.
@@ -154,7 +150,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getStart()
-> Getter for the start date.
+> 
 
 > **Returns**
 * Date of the contest start.
@@ -172,7 +168,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getURLEncodedToken()
-> Returns an URL encoded form of the middle ware token.
+> 
 
 > **Returns**
 * Middleware token in an URL encoded form.
@@ -184,7 +180,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getUntilStart()
-> Getter for the time left.
+> 
 
 > **Returns**
 * Amout of time until this contest start.
@@ -193,7 +189,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getVersion()
-> Getter for the contest version.
+> 
 
 > **Returns**
 * Contest version.
@@ -202,7 +198,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####isLogged()
-> Indicates if user is currently logged in.
+> 
 
 > **Returns**
 * <tt>true</tt> if user is logged in, <tt>false</tt> otherwise.
@@ -211,8 +207,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####isQualified()
-> Indicates if the currently logged user
- is qualified for the next round.
+> 
 
 > **Returns**
 * <tt>true</tt> if the currently logged user is qualified for the next round, <tt>false</tt> otherwise.

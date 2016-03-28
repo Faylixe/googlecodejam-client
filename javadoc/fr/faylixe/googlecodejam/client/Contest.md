@@ -3,17 +3,12 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](common/NamedObject.md) > [Contest](Contest.md)
 
-<p>POJO class that represents a Google Jam {@link Contest}.
- A {@link Contest} is represented by a name and a
- collection of {@link Round}.</p>
+[Contest](Contest.md)[Contest](Contest.md)[Round](Round.md)
 
 ##Summary
 ####Fields
 * **public static final** [CONTEST_CLASS_NAME](#contest_class_name)
 * **public static final** [CONTEST_INDEX](#contest_index)
-
-####Constructors
-* **protected** [Contest](#conteststring-java.util.list<fr.faylixe.googlecodejam.client.round>)(*java.lang.String* name, *java.util.List*<[Round](Round.md)> rounds)
 
 ####Methods
 | Type and modifiers | Method signature |
@@ -24,38 +19,25 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 
-##Constructors
-####Contest(String, List<Round>)
-> <p>Default constructor.</p>
-
-> **Parameters**
-* name : Name of this contest.
-* rounds : {@link Round} that belongs to this contest.
-
-
----
-
-
 ##Fields
 ####CONTEST_CLASS_NAME
 > **public static final** *java.lang.String*
 
-> <p>Class name of the element that contains contest data.</p>
+> 
 
 ---
 
 ####CONTEST_INDEX
 > **public static final** *java.lang.String*
 
-> <p>URL of the contest index page.</p>
+> 
 
 ---
 
 
 ##Methods
 ####get(HttpRequestExecutor)
-> <p>Retrieves and returns a list of available
- contest for the given <tt>hostname</tt>.</p>
+> 
 
 > **Parameters**
 * executor : {@link HttpRequestExecutor} instance to use to retrieve contest index.
@@ -70,8 +52,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####getRounds()
-> <p>Getter that returns a immutable view
- of the {@link Round} list.</p>
+> [Round](Round.md)
 
 > **Returns**
 * List of the round of this contest.

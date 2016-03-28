@@ -1,8 +1,5 @@
 #Package fr.faylixe.googlecodejam.client.webservice
-<p>This package expose all class that are
- binding for JSON API object. They all aim
- to be created using {@link com.google.gson.Gson}
- parser.</p>
+*com.google.gson.Gson*
 ##Classes
 | Name |
 | --- |
@@ -13,6 +10,10 @@
 | [InitialValues](InitialValues.md) |
 | [Events](Events.md) |
 | [ContestInfo](ContestInfo.md) |
+| [ProblemTest](ProblemTest.md) |
+| [ProblemInputTest](ProblemInputTest.md) |
+| [InitialValuesTest](InitialValuesTest.md) |
+| [ContestInfoTest](ContestInfoTest.md) |
 
 ---
 
