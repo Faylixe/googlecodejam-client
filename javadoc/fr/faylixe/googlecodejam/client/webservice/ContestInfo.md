@@ -3,7 +3,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [ContestInfo](ContestInfo.md)
 
-
+<p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
+ request, using Gson API.</p>
 
 ##Summary
 ####Constructors
@@ -31,7 +32,9 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 ####get(HttpRequestExecutor, Round)
-> [ContestInfo](ContestInfo.md)
+> Static factory method that builds a [ContestInfo](ContestInfo.md) instance
+ from the given <tt>round</tt> using a <tt>/ContestInfo</tt>
+ request from the round dashboard.
 
 > **Parameters**
 * executor : Executor instance used to perform the request.
@@ -47,7 +50,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getProblem(int)
-> 
+> Shortcut method for reducing law of Demeters issues.
 
 > **Parameters**
 * index : Index of the problem to retrieve.
@@ -62,7 +65,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getProblems()
-> [Problem](Problem.md)
+> Returns [Problem](Problem.md) instance associated
+ to this contest.
 
 > **Returns**
 * List of problem this contest exposes.
@@ -71,7 +75,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getVersion()
-> 
+> Getter for the problems version.
 
 > **Returns**
 * Integer that defines the problems version.
@@ -80,7 +84,8 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####hasAnalysis()
-> 
+> Indicates if this contests already have
+ analysis committed or not.
 
 > **Returns**
 * <tt>true</tt> if contest analysis is available, <tt>false</tt> otherwise.

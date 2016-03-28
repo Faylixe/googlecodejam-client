@@ -3,7 +3,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [Deserializer](Deserializer.md)
 
-
+Custom deserializer that normalizes problem body content.
 
 ##Summary
 ####Methods

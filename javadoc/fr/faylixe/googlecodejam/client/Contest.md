@@ -3,7 +3,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](common/NamedObject.md) > [Contest](Contest.md)
 
-[Contest](Contest.md)[Contest](Contest.md)[Round](Round.md)
+<p>POJO class that represents a Google Jam [Contest](Contest.md).
+ A [Contest](Contest.md) is represented by a name and a
+ collection of [Round](Round.md).</p>
 
 ##Summary
 ####Fields
@@ -23,21 +25,22 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####CONTEST_CLASS_NAME
 > **public static final** *java.lang.String*
 
-> 
+> <p>Class name of the element that contains contest data.</p>
 
 ---
 
 ####CONTEST_INDEX
 > **public static final** *java.lang.String*
 
-> 
+> <p>URL of the contest index page.</p>
 
 ---
 
 
 ##Methods
 ####get(HttpRequestExecutor)
-> 
+> <p>Retrieves and returns a list of available
+ contest for the given <tt>hostname</tt>.</p>
 
 > **Parameters**
 * executor : {@link HttpRequestExecutor} instance to use to retrieve contest index.
@@ -52,7 +55,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####getRounds()
-> [Round](Round.md)
+> <p>Getter that returns a immutable view
+ of the [Round](Round.md) list.</p>
 
 > **Returns**
 * List of the round of this contest.

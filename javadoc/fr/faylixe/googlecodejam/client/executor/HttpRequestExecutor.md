@@ -3,7 +3,9 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 > *java.lang.Object* > [HttpRequestExecutor](HttpRequestExecutor.md)
 
-[HttpRequestExecutor](HttpRequestExecutor.md)*com.google.api.client.http.HttpRequestFactory*
+<p>A [HttpRequestExecutor](HttpRequestExecutor.md) is an abstraction
+ on top of *com.google.api.client.http.HttpRequestFactory* that handles
+ GET and POST request.</p>
 
 ##Summary
 ####Methods
@@ -23,7 +25,8 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ##Methods
 ####buildDataPart(String, String)
-> *com.google.api.client.http.MultipartContent.Part*
+> Static factory method that creates a *com.google.api.client.http.MultipartContent.Part* which contains
+ simple form data.
 
 > **Parameters**
 * name : Name of the POST data to create part for.
@@ -36,7 +39,8 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 ---
 
 ####buildFilePart(String, File)
-> *com.google.api.client.http.MultipartContent.Part*
+> Static factory method that creates a *com.google.api.client.http.MultipartContent.Part* which contains
+ file form data.
 
 > **Parameters**
 * name : name Name of the POST file data to create part for.
@@ -52,7 +56,9 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 ---
 
 ####create(String, String)
-> [HttpRequestExecutor](HttpRequestExecutor.md)
+> Static factory method that creates a [HttpRequestExecutor](HttpRequestExecutor.md) instance
+ which is set using the given <tt>cookie</tt> for building authenticated
+ HTTP request.
 
 > **Parameters**
 * hostname : Hostname to use for the created executor.
@@ -69,7 +75,8 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 ---
 
 ####create(String)
-> [HttpRequestExecutor](HttpRequestExecutor.md)
+> Static factory method that creates a non logged
+ [HttpRequestExecutor](HttpRequestExecutor.md) instance.
 
 > **Parameters**
 * hostname : Hostname to use for the created executor.
@@ -85,7 +92,9 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 ---
 
 ####get(String)
-> *java.lang.String*
+> Performs a HTTP GET request to the given <tt>path</tt>
+ relative to the internal target hostname. The response
+ is returned as a *java.lang.String*.
 
 > **Parameters**
 * path : Relative server path to perform request to.
@@ -100,7 +109,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 ---
 
 ####getHostname()
-> 
+> Getter for the target hostname.
 
 > **Returns**
 * Target hostname this executor is performing request to.
@@ -109,7 +118,8 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 ---
 
 ####getRequest(String)
-> *com.google.api.client.http.HttpRequest*
+> Creates and returns a GET *com.google.api.client.http.HttpRequest* instance
+ for the given <tt>path</tt> over the internal hostname.
 
 > **Parameters**
 * path : Path of the request to build.
@@ -124,7 +134,8 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 ---
 
 ####post(String, HttpContent)
-> 
+> Performs a HTTP POST request to the given <tt>path</tt>
+ relative to the internal target hostname.
 
 > **Parameters**
 * path : Relative server path to perform request to.
