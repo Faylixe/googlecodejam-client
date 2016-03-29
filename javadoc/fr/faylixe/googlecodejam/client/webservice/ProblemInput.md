@@ -1,7 +1,9 @@
 #Class ProblemInput
-Package[fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](../common/NamedObject.md) > [ProblemInput](ProblemInput.md)
+All implemented interfaces :
+> *java.io.Serializable*, *java.io.Serializable*
 
 POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. [ProblemInput](ProblemInput.md) instance belong

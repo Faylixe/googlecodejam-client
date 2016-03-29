@@ -1,7 +1,9 @@
 #Class Problem
-Package[fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](../common/NamedObject.md) > [Problem](Problem.md)
+All implemented interfaces :
+> *java.io.ObjectInputValidation*, *java.io.Serializable*
 
 POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. [Problem](Problem.md) instance belong
@@ -26,6 +28,7 @@ POJO that aims to be bind to the <tt>/ContestInfo</tt>
 | **public** [ProblemInput](ProblemInput.md) | [getProblemInput](#getprobleminputstring)(*java.lang.String* type) |
 | **public** *java.util.List*<[ProblemInput](ProblemInput.md)> | [getProblemInputs](#getprobleminputs)() |
 | **public** *java.lang.String* | [getType](#gettype)() |
+| **public** **void** | [validateObject](#validateobject)() |
 
 ---
 
@@ -130,6 +133,6 @@ POJO that aims to be bind to the <tt>/ContestInfo</tt>
 
 ---
 
----
+Method inheritence not supported yet.---
 
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

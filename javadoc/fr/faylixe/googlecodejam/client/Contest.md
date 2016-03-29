@@ -1,7 +1,9 @@
 #Class Contest
-Package[fr.faylixe.googlecodejam.client](README.md)<br>
+Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](common/NamedObject.md) > [Contest](Contest.md)
+All implemented interfaces :
+> *java.io.Serializable*
 
 POJO class that represents a Google Jam [Contest](Contest.md).
  A [Contest](Contest.md) is represented by a name and a
