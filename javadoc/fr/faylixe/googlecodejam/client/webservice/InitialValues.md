@@ -2,6 +2,7 @@
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [InitialValues](InitialValues.md)
+
 All implemented interfaces :
 > *java.io.Serializable*
 

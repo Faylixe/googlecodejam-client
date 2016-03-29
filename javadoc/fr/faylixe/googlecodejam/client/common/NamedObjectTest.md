@@ -4,6 +4,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 > *java.lang.Object* > [NamedObjectTest](NamedObjectTest.md)
 
 
+
 Test case for [NamedObject](NamedObject.md) class.
 
 ##Summary

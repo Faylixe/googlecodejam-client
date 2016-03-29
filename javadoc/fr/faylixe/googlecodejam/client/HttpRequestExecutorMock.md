@@ -4,6 +4,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > *java.lang.Object* > [HttpRequestExecutorMock](HttpRequestExecutorMock.md)
 
 
+
 Test case for the [HttpRequestExecutor](executor/HttpRequestExecutor.md) class.
 
 ##Summary

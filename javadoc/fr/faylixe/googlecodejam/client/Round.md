@@ -2,6 +2,7 @@
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](common/NamedObject.md) > [Round](Round.md)
+
 All implemented interfaces :
 > *java.io.Serializable*
 

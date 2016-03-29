@@ -4,6 +4,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 > *java.lang.Object* > [InitialValuesTest](InitialValuesTest.md)
 
 
+
 Test case for [InitialValues](InitialValues.md) class.
 
 ##Summary

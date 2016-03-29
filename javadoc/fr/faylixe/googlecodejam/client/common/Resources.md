@@ -4,6 +4,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 > *java.lang.Object* > [Resources](Resources.md)
 
 
+
 Static toolbox that exposes methods for internal resources managment.
 ---
 

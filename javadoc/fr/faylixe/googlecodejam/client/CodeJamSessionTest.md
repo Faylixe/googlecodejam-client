@@ -4,6 +4,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > *java.lang.Object* > [CodeJamSessionTest](CodeJamSessionTest.md)
 
 
+
 Test case for [CodeJamSession](CodeJamSession.md) class.
 
 ##Summary

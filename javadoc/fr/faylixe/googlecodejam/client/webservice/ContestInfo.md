@@ -2,6 +2,7 @@
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [ContestInfo](ContestInfo.md)
+
 All implemented interfaces :
 > *java.io.Serializable*, *java.io.ObjectInputValidation*
 

@@ -2,6 +2,7 @@
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [Deserializer](Deserializer.md)
+
 All implemented interfaces :
 > *com.google.gson.JsonDeserializer*<[Problem](Problem.md)>
 

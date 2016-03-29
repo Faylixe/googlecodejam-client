@@ -6,6 +6,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 
 
+
 ##Summary
 ####Constructors
 | Visibility | Signature |

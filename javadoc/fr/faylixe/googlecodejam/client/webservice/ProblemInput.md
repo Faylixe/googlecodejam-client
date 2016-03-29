@@ -2,6 +2,7 @@
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](../common/NamedObject.md) > [ProblemInput](ProblemInput.md)
+
 All implemented interfaces :
 > *java.io.Serializable*, *java.io.Serializable*
 

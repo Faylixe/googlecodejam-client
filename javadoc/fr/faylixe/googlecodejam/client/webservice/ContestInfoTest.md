@@ -4,6 +4,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 > *java.lang.Object* > [ContestInfoTest](ContestInfoTest.md)
 
 
+
 Test case for [ContestInfo](ContestInfo.md) class.
 
 ##Summary

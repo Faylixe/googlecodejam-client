@@ -4,6 +4,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 > *java.lang.Object* > [ProblemInputTest](ProblemInputTest.md)
 
 
+
 Test case for the [ProblemInput](ProblemInput.md) class.
 
 ##Summary

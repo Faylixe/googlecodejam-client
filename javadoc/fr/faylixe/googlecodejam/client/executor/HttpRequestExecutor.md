@@ -2,6 +2,7 @@
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 > *java.lang.Object* > [HttpRequestExecutor](HttpRequestExecutor.md)
+
 All implemented interfaces :
 > *java.io.Serializable*
 
