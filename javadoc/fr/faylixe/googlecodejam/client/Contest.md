@@ -10,6 +10,7 @@ POJO class that represents a Google Jam [Contest](Contest.md).
  A [Contest](Contest.md) is represented by a name and a
  collection of [Round](Round.md).
 
+
 ##Summary
 ####Fields
 | Type and modifiers | Field name |

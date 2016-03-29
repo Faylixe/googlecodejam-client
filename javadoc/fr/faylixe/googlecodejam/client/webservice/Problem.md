@@ -4,12 +4,13 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 > *java.lang.Object* > [NamedObject](../common/NamedObject.md) > [Problem](Problem.md)
 
 All implemented interfaces :
-> *java.io.ObjectInputValidation*, *java.io.Serializable*
+> *java.io.Serializable*, *java.io.ObjectInputValidation*
 
 POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API. [Problem](Problem.md) instance belong
  to a [ContestInfo](ContestInfo.md) object, and consists in the problem
  metadata such a name, description, and IO details.
+
 
 ##Summary
 ####Constructors

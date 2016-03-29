@@ -7,11 +7,17 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Test case for the [HttpRequestExecutor](executor/HttpRequestExecutor.md) class.
 
+
 ##Summary
 ####Constructors
 | Visibility | Signature |
 | --- | --- |
 | **public** | [HttpRequestExecutorMock](#httprequestexecutormock)() |
+
+####Methods
+| Type and modifiers | Method signature |
+| --- | --- |
+| **public static** [HttpRequestExecutor](executor/HttpRequestExecutor.md) | [getTestExecutor](#gettestexecutor)() |
 
 ---
 
@@ -19,6 +25,23 @@ Test case for the [HttpRequestExecutor](executor/HttpRequestExecutor.md) class.
 ##Constructors
 ####HttpRequestExecutorMock()
 > 
+
+
+---
+
+
+##Methods
+####getTestExecutor()
+> Creates and returns a valid [HttpRequestExecutor](executor/HttpRequestExecutor.md)
+ instance that could be used for test. Such instance is not
+ logged to any google services.
+
+> **Returns**
+* Created instance.
+
+> **Throws**
+* *java.io.IOException* If any error occurs while creating mock instance.
+* *java.io.IOException* If any error occurs while creating mock instance.
 
 
 ---

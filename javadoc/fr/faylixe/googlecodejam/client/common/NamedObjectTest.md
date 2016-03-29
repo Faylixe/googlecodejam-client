@@ -7,11 +7,18 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 Test case for [NamedObject](NamedObject.md) class.
 
+
 ##Summary
 ####Constructors
 | Visibility | Signature |
 | --- | --- |
 | **public** | [NamedObjectTest](#namedobjecttest)() |
+
+####Methods
+| Type and modifiers | Method signature |
+| --- | --- |
+| **public** **void** | [testDefault](#testdefault)() |
+| **public** **void** | [testSerialized](#testserialized)() |
 
 ---
 
@@ -19,6 +26,20 @@ Test case for [NamedObject](NamedObject.md) class.
 ##Constructors
 ####NamedObjectTest()
 > 
+
+
+---
+
+
+##Methods
+####testDefault()
+> Test named object behavior from default instantiation.
+
+
+---
+
+####testSerialized()
+> Test named object behavior through JSON built object.
 
 
 ---

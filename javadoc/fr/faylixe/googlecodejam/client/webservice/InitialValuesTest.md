@@ -7,11 +7,18 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 Test case for [InitialValues](InitialValues.md) class.
 
+
 ##Summary
 ####Constructors
 | Visibility | Signature |
 | --- | --- |
 | **public** | [InitialValuesTest](#initialvaluestest)() |
+
+####Methods
+| Type and modifiers | Method signature |
+| --- | --- |
+| **public static** [InitialValues](InitialValues.md) | [getTestInitialValues](#gettestinitialvalues)() |
+| **public** **void** | [testInitialValuesConsistency](#testinitialvaluesconsistency)() |
 
 ---
 
@@ -19,6 +26,27 @@ Test case for [InitialValues](InitialValues.md) class.
 ##Constructors
 ####InitialValuesTest()
 > 
+
+
+---
+
+
+##Methods
+####getTestInitialValues()
+> Retrieves the [InitialValues](InitialValues.md)
+ instance that will be used for testing.
+ Using the test [Round](../Round.md) as reference.
+
+> **Returns**
+* Instance to use for testing.
+
+
+---
+
+####testInitialValuesConsistency()
+> Ensures retrieved [InitialValues](InitialValues.md) are
+ consistent. Using values from [Round](../Round.md)
+ test instance.
 
 
 ---

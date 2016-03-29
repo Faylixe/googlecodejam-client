@@ -7,6 +7,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 TODO : Fill with Event response attribute.
 
+
 ##Summary
 ####Constructors
 | Visibility | Signature |

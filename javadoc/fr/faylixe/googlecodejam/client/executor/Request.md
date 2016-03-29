@@ -9,6 +9,7 @@ Simple class that exposes string constant
  relative to HTTP API for interacting with
  Code Jam webservice.
 
+
 ##Summary
 ####Fields
 | Type and modifiers | Field name |
@@ -44,6 +45,11 @@ Simple class that exposes string constant
 | **public static final** | [SUBMIT_COMMAND](#submit_command) |
 | **public static final** | [TIME_PARAMETER](#time_parameter) |
 | **public static final** | [UNDEFINED](#undefined) |
+
+####Methods
+| Type and modifiers | Method signature |
+| --- | --- |
+| **public static final** *java.lang.String* | [createBoundary](#createboundary)() |
 
 ---
 
@@ -263,6 +269,17 @@ Simple class that exposes string constant
 > **public static final** *java.lang.String*
 
 > The <tt>undefined</tt> parameter value.
+
+---
+
+
+##Methods
+####createBoundary()
+> Creates and returns a boundary for multipart request.
+
+> **Returns**
+* Created boundary.
+
 
 ---
 

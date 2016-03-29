@@ -7,11 +7,21 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Test case for [CodeJamSession](CodeJamSession.md) class.
 
+
 ##Summary
 ####Constructors
 | Visibility | Signature |
 | --- | --- |
 | **public** | [CodeJamSessionTest](#codejamsessiontest)() |
+
+####Methods
+| Type and modifiers | Method signature |
+| --- | --- |
+| **public static** [CodeJamSession](CodeJamSession.md) | [getTestSession](#gettestsession)() |
+| **public** **void** | [testContestAnalysis](#testcontestanalysis)() |
+| **public** **void** | [testDownload](#testdownload)() |
+| **public** **void** | [testSessionConsistency](#testsessionconsistency)() |
+| **public** **void** | [testSubmission](#testsubmission)() |
 
 ---
 
@@ -19,6 +29,48 @@ Test case for [CodeJamSession](CodeJamSession.md) class.
 ##Constructors
 ####CodeJamSessionTest()
 > 
+
+
+---
+
+
+##Methods
+####getTestSession()
+> Retrieves a valid [CodeJamSession](CodeJamSession.md)
+ that should be used for testing.
+ Such session is not connected.
+
+> **Returns**
+* Session instance that should be used for testing.
+
+
+---
+
+####testContestAnalysis()
+> Test for the [CodeJamSession](CodeJamSession.md)
+ method, using the test [Problem](webservice/Problem.md) as a reference.
+
+
+---
+
+####testDownload()
+> Test for the [CodeJamSession](CodeJamSession.md)
+ method, using the test [Problem](webservice/Problem.md) as a reference.
+
+
+---
+
+####testSessionConsistency()
+> Ensures that the internal contest info instance used
+ is the one expected. Also test session related properties,
+ like if user is qualified or is the contest is active.
+
+
+---
+
+####testSubmission()
+> Test for the [CodeJamSession](CodeJamSession.md)
+ method, using the test [Problem](webservice/Problem.md) as a reference.
 
 
 ---

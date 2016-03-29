@@ -7,11 +7,18 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Test case for [Contest](Contest.md) class.
 
+
 ##Summary
 ####Constructors
 | Visibility | Signature |
 | --- | --- |
 | **public** | [ContestTest](#contesttest)() |
+
+####Methods
+| Type and modifiers | Method signature |
+| --- | --- |
+| **public static** [Contest](Contest.md) | [getTestContests](#gettestcontests)() |
+| **public** **void** | [testContestConsistency](#testcontestconsistency)() |
 
 ---
 
@@ -19,6 +26,28 @@ Test case for [Contest](Contest.md) class.
 ##Constructors
 ####ContestTest()
 > 
+
+
+---
+
+
+##Methods
+####getTestContests()
+> Retrieves the contest instance that will
+ be used for testing. Such contest will be
+ the last, assuming the the last contest
+ will never change.
+
+> **Returns**
+* Contest instance for testing.
+
+
+---
+
+####testContestConsistency()
+> Ensures retrieved contests are consistent.
+ In order to do so, it consider that the last extracted
+ contest should never change (the older always stays the older).
 
 
 ---

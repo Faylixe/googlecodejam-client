@@ -9,6 +9,7 @@ POJO that aims to be bind to the <tt>SubmitAnswer</tt>
  command request, using Gson API. Contains detail about
  the performed submission.
 
+
 ##Summary
 ####Constructors
 | Visibility | Signature |

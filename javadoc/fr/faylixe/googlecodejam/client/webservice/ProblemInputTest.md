@@ -7,11 +7,17 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 Test case for the [ProblemInput](ProblemInput.md) class.
 
+
 ##Summary
 ####Constructors
 | Visibility | Signature |
 | --- | --- |
 | **public** | [ProblemInputTest](#probleminputtest)() |
+
+####Methods
+| Type and modifiers | Method signature |
+| --- | --- |
+| **public** **void** | [testProblemInputConsistency](#testprobleminputconsistency)() |
 
 ---
 
@@ -19,6 +25,16 @@ Test case for the [ProblemInput](ProblemInput.md) class.
 ##Constructors
 ####ProblemInputTest()
 > 
+
+
+---
+
+
+##Methods
+####testProblemInputConsistency()
+> Ensures retrieved [ProblemInput](ProblemInput.md)
+ is consistent. Using the first input from
+ the test [Problem](Problem.md).
 
 
 ---

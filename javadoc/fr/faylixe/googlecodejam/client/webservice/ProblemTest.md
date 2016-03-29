@@ -7,11 +7,18 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 Test case for the [Problem](Problem.md) class.
 
+
 ##Summary
 ####Constructors
 | Visibility | Signature |
 | --- | --- |
 | **public** | [ProblemTest](#problemtest)() |
+
+####Methods
+| Type and modifiers | Method signature |
+| --- | --- |
+| **public static** [Problem](Problem.md) | [getTestProblem](#gettestproblem)() |
+| **public** **void** | [testProblemConsistency](#testproblemconsistency)() |
 
 ---
 
@@ -19,6 +26,27 @@ Test case for the [Problem](Problem.md) class.
 ##Constructors
 ####ProblemTest()
 > 
+
+
+---
+
+
+##Methods
+####getTestProblem()
+> Retrieves the [Problem](Problem.md) instance
+ that will be used for testing. Using
+ test [ContestInfo](ContestInfo.md) as reference.
+
+> **Returns**
+* Problem instance for testing.
+
+
+---
+
+####testProblemConsistency()
+> Ensures retrieved [Problem](Problem.md) is
+ consistent. Uses the first [Problem](Problem.md)
+ from [ContestInfo](ContestInfo.md) test instance.
 
 
 ---

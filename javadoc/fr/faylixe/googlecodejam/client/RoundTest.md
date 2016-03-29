@@ -7,11 +7,18 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 Test case for the [Round](Round.md) class.
 
+
 ##Summary
 ####Constructors
 | Visibility | Signature |
 | --- | --- |
 | **public** | [RoundTest](#roundtest)() |
+
+####Methods
+| Type and modifiers | Method signature |
+| --- | --- |
+| **public static** [Round](Round.md) | [getTestRound](#gettestround)() |
+| **public** **void** | [testRoundConsistency](#testroundconsistency)() |
 
 ---
 
@@ -19,6 +26,26 @@ Test case for the [Round](Round.md) class.
 ##Constructors
 ####RoundTest()
 > 
+
+
+---
+
+
+##Methods
+####getTestRound()
+> Retrieves the round instance that will
+ be used for testing. Such round will be the first
+ of the target test contest.
+
+> **Returns**
+* Round instance for testing.
+
+
+---
+
+####testRoundConsistency()
+> Ensures retrieved rounds are consistent.
+ Uses the target contest test first round.
 
 
 ---

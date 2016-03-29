@@ -11,6 +11,7 @@ POJO that aims to be bind to the <tt>/ContestInfo</tt>
  to a [Problem](Problem.md) object, and describes input submission
  available for a given [Problem](Problem.md).
 
+
 ##Summary
 ####Fields
 | Type and modifiers | Field name |
