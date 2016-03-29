@@ -3,7 +3,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](common/NamedObject.md) > [Contest](Contest.md)
 
-POJO class that represents a Google Jam [Contest](Contest.md).<br/>
+POJO class that represents a Google Jam [Contest](Contest.md).
  A [Contest](Contest.md) is represented by a name and a
  collection of [Round](Round.md).
 
@@ -14,11 +14,26 @@ POJO class that represents a Google Jam [Contest](Contest.md).<br/>
 | **public static final** | [CONTEST_CLASS_NAME](#contest_class_name) |
 | **public static final** | [CONTEST_INDEX](#contest_index) |
 
+####Constructors
+* **protected** [Contest](#conteststring-java.util.list<fr.faylixe.googlecodejam.client.round>)(*java.lang.String* name, *java.util.List*<[Round](Round.md)> rounds)
+
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
 | **public static** *java.util.List*<[Contest](Contest.md)> | [get](#gethttprequestexecutor)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor) |
 | **public** *java.util.List*<[Round](Round.md)> | [getRounds](#getrounds)() |
+
+---
+
+
+##Constructors
+####Contest(String, List<Round>)
+> Default constructor.
+
+> **Parameters**
+* name : Name of this contest.
+* rounds : [Round](Round.md) that belongs to this contest.
+
 
 ---
 
