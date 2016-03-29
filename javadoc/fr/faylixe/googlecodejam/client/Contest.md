@@ -3,7 +3,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](common/NamedObject.md) > [Contest](Contest.md)
 
-POJO class that represents a Google Jam [Contest](Contest.md).
+POJO class that represents a Google Jam [Contest](Contest.md).<br/>
  A [Contest](Contest.md) is represented by a name and a
  collection of [Round](Round.md).
 
