@@ -6,7 +6,6 @@ Common class and tools used by this library.
 | [Resources](Resources.md) |
 | [NamedObject](NamedObject.md) |
 | [HTMLConstant](HTMLConstant.md) |
-| [NamedObjectTest](NamedObjectTest.md) |
 
 ---
 

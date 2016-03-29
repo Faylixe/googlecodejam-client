@@ -32,6 +32,7 @@ POJO that aims to be bind to the <tt>/ContestInfo</tt>
 | **public** **int** | [getPoints](#getpoints)() |
 | **public** [Problem](Problem.md) | [getProblem](#getproblem)() |
 | **public** *java.lang.String* | [getSuffix](#getsuffix)() |
+| **protected** **void** | [setParent](#setparentproblem)([Problem](Problem.md) parent) |
 
 ---
 
@@ -102,6 +103,15 @@ POJO that aims to be bind to the <tt>/ContestInfo</tt>
 
 > **Returns**
 * Suffix used for this problem input.
+
+
+---
+
+####setParent(Problem)
+> Sets the parent problem of this input.
+
+> **Parameters**
+* parent : Parent problem to set.
 
 
 ---
