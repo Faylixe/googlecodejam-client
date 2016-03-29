@@ -1,5 +1,5 @@
 #Package fr.faylixe.googlecodejam.client
-<p>Google Code Jam client API consists in several components, namely :</p>
+Google Code Jam client API consists in several components, namely :
  <ul>
  	<li>An API entry point for managing a contest session through command such as download, submit, etc ...</li>
   <li>A command line application.</li>
@@ -8,14 +8,14 @@
 ##Classes
 | Name |
 | --- |
-| <a href="Round.md">Round</a> |
-| <a href="Contest.md">Contest</a> |
-| <a href="CodeJamSession.md">CodeJamSession</a> |
-| <a href="RoundTest.md">RoundTest</a> |
-| <a href="HttpRequestExecutorMock.md">HttpRequestExecutorMock</a> |
-| <a href="ContestTest.md">ContestTest</a> |
-| <a href="CodeJamSessionTest.md">CodeJamSessionTest</a> |
-| <a href="AllTests.md">AllTests</a> |
+| [Round](Round.md) |
+| [Contest](Contest.md) |
+| [CodeJamSession](CodeJamSession.md) |
+| [RoundTest](RoundTest.md) |
+| [HttpRequestExecutorMock](HttpRequestExecutorMock.md) |
+| [ContestTest](ContestTest.md) |
+| [CodeJamSessionTest](CodeJamSessionTest.md) |
+| [AllTests](AllTests.md) |
 
 ---
 

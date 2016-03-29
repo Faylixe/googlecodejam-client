@@ -1,9 +1,9 @@
 #ContestTest
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *java.lang.Object* > <a href="ContestTest.md">ContestTest</a>
+> *java.lang.Object* > [ContestTest](ContestTest.md)
 
-Test case for <a href="Contest.md">Contest</a> class.
+Test case for [Contest](Contest.md) class.
 
 ##Summary
 ####Constructors
@@ -12,7 +12,7 @@ Test case for <a href="Contest.md">Contest</a> class.
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** <a href="Contest.md">Contest</a> | [getTestContests](#gettestcontests)() |
+| **public static** [Contest](Contest.md) | [getTestContests](#gettestcontests)() |
 | **public** **void** | [testContestConsistency](#testcontestconsistency)() |
 
 ---

@@ -1,11 +1,11 @@
 #Package fr.faylixe.googlecodejam.client.executor
-<p>This package provides tools and facilities for manipulating
- HTTP request in a Code Jam context.</p>
+This package provides tools and facilities for manipulating
+ HTTP request in a Code Jam context.
 ##Classes
 | Name |
 | --- |
-| <a href="Request.md">Request</a> |
-| <a href="HttpRequestExecutor.md">HttpRequestExecutor</a> |
+| [Request](Request.md) |
+| [HttpRequestExecutor](HttpRequestExecutor.md) |
 
 ---
 

@@ -1,9 +1,9 @@
 #ContestInfoTest
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *java.lang.Object* > <a href="ContestInfoTest.md">ContestInfoTest</a>
+> *java.lang.Object* > [ContestInfoTest](ContestInfoTest.md)
 
-Test case for <a href="ContestInfo.md">ContestInfo</a> class.
+Test case for [ContestInfo](ContestInfo.md) class.
 
 ##Summary
 ####Constructors
@@ -12,8 +12,8 @@ Test case for <a href="ContestInfo.md">ContestInfo</a> class.
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** <a href="ContestInfo.md">ContestInfo</a> | [getTestContestInfo](#gettestcontestinfo)() |
-| **public static** **void** | [testContestInfoConsistency](#testcontestinfoconsistencycontestinfo)(<a href="ContestInfo.md">ContestInfo</a> info) |
+| **public static** [ContestInfo](ContestInfo.md) | [getTestContestInfo](#gettestcontestinfo)() |
+| **public static** **void** | [testContestInfoConsistency](#testcontestinfoconsistencycontestinfo)([ContestInfo](ContestInfo.md) info) |
 | **public** **void** | [testContestInfoConsistency](#testcontestinfoconsistency)() |
 
 ---
@@ -29,9 +29,9 @@ Test case for <a href="ContestInfo.md">ContestInfo</a> class.
 
 ##Methods
 ####getTestContestInfo()
-> Retrieves the <a href="ContestInfo.md">ContestInfo</a> instance
+> Retrieves the [ContestInfo](ContestInfo.md) instance
  that will be used for testing. Using
- test <a href="../Round.md">Round</a> as reference.
+ test [Round](../Round.md) as reference.
 
 > **Returns**
 * ContestInfo instance for testing.
@@ -40,19 +40,19 @@ Test case for <a href="ContestInfo.md">ContestInfo</a> class.
 ---
 
 ####testContestInfoConsistency(ContestInfo)
-> Ensures the given <a href="ContestInfo.md">ContestInfo</a> is
+> Ensures the given [ContestInfo](ContestInfo.md) is
  consistent.
 
 > **Parameters**
-* info : <a href="ContestInfo.md">ContestInfo</a> instance to ensure consistency from.
+* info : [ContestInfo](ContestInfo.md) instance to ensure consistency from.
 
 
 ---
 
 ####testContestInfoConsistency()
-> Ensures retrieved <a href="ContestInfo.md">ContestInfo</a> is
- consistent. Uses <a href="ContestInfo.md">ContestInfo</a> from
- target test <a href="../Round.md">Round</a> instance.
+> Ensures retrieved [ContestInfo](ContestInfo.md) is
+ consistent. Uses [ContestInfo](ContestInfo.md) from
+ target test [Round](../Round.md) instance.
 
 
 ---

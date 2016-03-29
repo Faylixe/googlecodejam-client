@@ -1,11 +1,11 @@
 #HttpRequestExecutor
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
-> *java.lang.Object* > <a href="HttpRequestExecutor.md">HttpRequestExecutor</a>
+> *java.lang.Object* > [HttpRequestExecutor](HttpRequestExecutor.md)
 
-<p>A <a href="HttpRequestExecutor.md">HttpRequestExecutor</a> is an abstraction
+A [HttpRequestExecutor](HttpRequestExecutor.md) is an abstraction
  on top of *com.google.api.client.http.HttpRequestFactory* that handles
- GET and POST request.</p>
+ GET and POST request.
 
 ##Summary
 ####Methods
@@ -13,8 +13,8 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 | --- | --- |
 | **public static** *com.google.api.client.http.MultipartContent.Part* | [buildDataPart](#builddatapartstring-string)(*java.lang.String* name, *java.lang.String* data) |
 | **public static** *com.google.api.client.http.MultipartContent.Part* | [buildFilePart](#buildfilepartstring-file)(*java.lang.String* name, *java.io.File* file) |
-| **public static** <a href="HttpRequestExecutor.md">HttpRequestExecutor</a> | [create](#createstring-string)(*java.lang.String* hostname, *java.lang.String* cookieValue) |
-| **public static** <a href="HttpRequestExecutor.md">HttpRequestExecutor</a> | [create](#createstring)(*java.lang.String* hostname) |
+| **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring-string)(*java.lang.String* hostname, *java.lang.String* cookieValue) |
+| **public static** [HttpRequestExecutor](HttpRequestExecutor.md) | [create](#createstring)(*java.lang.String* hostname) |
 | **public** *java.lang.String* | [get](#getstring)(*java.lang.String* path) |
 | **public** *java.lang.String* | [getHostname](#gethostname)() |
 | **public** *com.google.api.client.http.HttpRequest* | [getRequest](#getrequeststring)(*java.lang.String* path) |
@@ -56,7 +56,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 ---
 
 ####create(String, String)
-> Static factory method that creates a <a href="HttpRequestExecutor.md">HttpRequestExecutor</a> instance
+> Static factory method that creates a [HttpRequestExecutor](HttpRequestExecutor.md) instance
  which is set using the given <tt>cookie</tt> for building authenticated
  HTTP request.
 
@@ -76,7 +76,7 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 ####create(String)
 > Static factory method that creates a non logged
- <a href="HttpRequestExecutor.md">HttpRequestExecutor</a> instance.
+ [HttpRequestExecutor](HttpRequestExecutor.md) instance.
 
 > **Parameters**
 * hostname : Hostname to use for the created executor.

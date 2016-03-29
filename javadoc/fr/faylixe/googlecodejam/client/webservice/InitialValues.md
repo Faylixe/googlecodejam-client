@@ -1,10 +1,10 @@
 #InitialValues
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *java.lang.Object* > <a href="InitialValues.md">InitialValues</a>
+> *java.lang.Object* > [InitialValues](InitialValues.md)
 
-<p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
- command request, using Gson API.</p>
+POJO that aims to be bind to the <tt>GetInitialValues</tt>
+ command request, using Gson API.
  
  TODO Ensures seen is not boolean.
 
@@ -15,7 +15,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** <a href="InitialValues.md">InitialValues</a> | [get](#gethttprequestexecutor-round)(<a href="../executor/HttpRequestExecutor.md">HttpRequestExecutor</a> executor, <a href="../Round.md">Round</a> round) |
+| **public static** [InitialValues](InitialValues.md) | [get](#gethttprequestexecutor-round)([HttpRequestExecutor](../executor/HttpRequestExecutor.md) executor, [Round](../Round.md) round) |
 | **public** *java.lang.String* | [getAdmin](#getadmin)() |
 | **public** **int** | [getCS](#getcs)() |
 | **public** *java.lang.String* | [getEmail](#getemail)() |
@@ -48,7 +48,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ##Methods
 ####get(HttpRequestExecutor, Round)
 > Static factory method that use the <tt>GetInitialValues</tt> command
- for the given <tt>round</tt> to retrieve a valud <a href="InitialValues.md">InitialValues</a> instance.
+ for the given <tt>round</tt> to retrieve a valud [InitialValues](InitialValues.md) instance.
 
 > **Parameters**
 * executor : Executor instance to use for performing the associated request.

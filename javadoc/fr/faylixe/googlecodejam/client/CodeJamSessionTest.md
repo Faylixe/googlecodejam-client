@@ -1,9 +1,9 @@
 #CodeJamSessionTest
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *java.lang.Object* > <a href="CodeJamSessionTest.md">CodeJamSessionTest</a>
+> *java.lang.Object* > [CodeJamSessionTest](CodeJamSessionTest.md)
 
-Test case for <a href="CodeJamSession.md">CodeJamSession</a> class.
+Test case for [CodeJamSession](CodeJamSession.md) class.
 
 ##Summary
 ####Constructors
@@ -12,7 +12,7 @@ Test case for <a href="CodeJamSession.md">CodeJamSession</a> class.
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** <a href="CodeJamSession.md">CodeJamSession</a> | [getTestSession](#gettestsession)() |
+| **public static** [CodeJamSession](CodeJamSession.md) | [getTestSession](#gettestsession)() |
 | **public** **void** | [testContestAnalysis](#testcontestanalysis)() |
 | **public** **void** | [testDownload](#testdownload)() |
 | **public** **void** | [testSessionConsistency](#testsessionconsistency)() |
@@ -31,7 +31,7 @@ Test case for <a href="CodeJamSession.md">CodeJamSession</a> class.
 
 ##Methods
 ####getTestSession()
-> Retrieves a valid <a href="CodeJamSession.md">CodeJamSession</a>
+> Retrieves a valid [CodeJamSession](CodeJamSession.md)
  that should be used for testing.
  Such session is not connected.
 
@@ -42,15 +42,15 @@ Test case for <a href="CodeJamSession.md">CodeJamSession</a> class.
 ---
 
 ####testContestAnalysis()
-> Test for the <a href="CodeJamSession.md">CodeJamSession</a>
- method, using the test <a href="webservice/Problem.md">Problem</a> as a reference.
+> Test for the [CodeJamSession](CodeJamSession.md)
+ method, using the test [Problem](webservice/Problem.md) as a reference.
 
 
 ---
 
 ####testDownload()
-> Test for the <a href="CodeJamSession.md">CodeJamSession</a>
- method, using the test <a href="webservice/Problem.md">Problem</a> as a reference.
+> Test for the [CodeJamSession](CodeJamSession.md)
+ method, using the test [Problem](webservice/Problem.md) as a reference.
 
 
 ---
@@ -64,8 +64,8 @@ Test case for <a href="CodeJamSession.md">CodeJamSession</a> class.
 ---
 
 ####testSubmission()
-> Test for the <a href="CodeJamSession.md">CodeJamSession</a>
- method, using the test <a href="webservice/Problem.md">Problem</a> as a reference.
+> Test for the [CodeJamSession](CodeJamSession.md)
+ method, using the test [Problem](webservice/Problem.md) as a reference.
 
 
 ---

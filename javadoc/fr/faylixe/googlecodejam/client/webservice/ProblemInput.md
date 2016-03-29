@@ -1,12 +1,12 @@
 #ProblemInput
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *java.lang.Object* > <a href="../common/NamedObject.md">NamedObject</a> > <a href="ProblemInput.md">ProblemInput</a>
+> *java.lang.Object* > [NamedObject](../common/NamedObject.md) > [ProblemInput](ProblemInput.md)
 
-<p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
- request, using Gson API. <a href="ProblemInput.md">ProblemInput</a> instance belong
- to a <a href="Problem.md">Problem</a> object, and describes input submission
- available for a given <a href="Problem.md">Problem</a>.</p>
+POJO that aims to be bind to the <tt>/ContestInfo</tt>
+ request, using Gson API. [ProblemInput](ProblemInput.md) instance belong
+ to a [Problem](Problem.md) object, and describes input submission
+ available for a given [Problem](Problem.md).
 
 ##Summary
 ####Fields
@@ -24,7 +24,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 | **public** **int** | [getDifficulty](#getdifficulty)() |
 | **public** **int** | [getNumber](#getnumber)() |
 | **public** **int** | [getPoints](#getpoints)() |
-| **public** <a href="Problem.md">Problem</a> | [getProblem](#getproblem)() |
+| **public** [Problem](Problem.md) | [getProblem](#getproblem)() |
 | **public** *java.lang.String* | [getSuffix](#getsuffix)() |
 
 ---

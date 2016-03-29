@@ -1,10 +1,10 @@
 #NamedObject
 Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
-> *java.lang.Object* > <a href="NamedObject.md">NamedObject</a>
+> *java.lang.Object* > [NamedObject](NamedObject.md)
 
-<p>Class that represents a object which
- could be identified by a name.</p>
+Class that represents a object which
+ could be identified by a name.
 
 ##Summary
 ####Methods

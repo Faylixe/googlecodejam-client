@@ -1,9 +1,9 @@
 #RoundTest
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *java.lang.Object* > <a href="RoundTest.md">RoundTest</a>
+> *java.lang.Object* > [RoundTest](RoundTest.md)
 
-Test case for the <a href="Round.md">Round</a> class.
+Test case for the [Round](Round.md) class.
 
 ##Summary
 ####Constructors
@@ -12,7 +12,7 @@ Test case for the <a href="Round.md">Round</a> class.
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** <a href="Round.md">Round</a> | [getTestRound](#gettestround)() |
+| **public static** [Round](Round.md) | [getTestRound](#gettestround)() |
 | **public** **void** | [testRoundConsistency](#testroundconsistency)() |
 
 ---

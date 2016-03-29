@@ -1,11 +1,11 @@
 #Round
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *java.lang.Object* > <a href="common/NamedObject.md">NamedObject</a> > <a href="Round.md">Round</a>
+> *java.lang.Object* > [NamedObject](common/NamedObject.md) > [Round](Round.md)
 
-<p>POJO class that represents a Google Jam <a href="Round.md">Round</a>.
- A <a href="Round.md">Round</a> is defined by a name, and a dashboard
- URL.</p>
+POJO class that represents a Google Jam [Round](Round.md).
+ A [Round](Round.md) is defined by a name, and a dashboard
+ URL.
 
 ##Summary
 ####Fields
@@ -16,7 +16,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *java.util.List*<<a href="Round.md">Round</a>> | [get](#getelement-string)(*org.jsoup.nodes.Element* contest, *java.lang.String* parent) |
+| **public static** *java.util.List*<[Round](Round.md)> | [get](#getelement-string)(*org.jsoup.nodes.Element* contest, *java.lang.String* parent) |
 | **public** *java.lang.String* | [getContestName](#getcontestname)() |
 | **public** *java.lang.String* | [getURL](#geturl)() |
 
@@ -27,15 +27,15 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####DESCRIPTION_CLASS_NAME
 > **public static final** *java.lang.String*
 
-> <p>Class name of the HTML description node.</p>
+> Class name of the HTML description node.
 
 ---
 
 
 ##Methods
 ####get(Element, String)
-> <p>Static factory methods that retrieves a list of round
- from the given JSoup <tt>contest</tt> node.</p>
+> Static factory methods that retrieves a list of round
+ from the given JSoup <tt>contest</tt> node.
 
 > **Parameters**
 * contest : Root element of the contest in the contest index page.
@@ -48,7 +48,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####getContestName()
-> <p>Getter for the parent contest name.</p>
+> Getter for the parent contest name.
 
 > **Returns**
 * Name of the parent contest.
@@ -57,7 +57,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####getURL()
-> <p>Getter for round dashboard URL.</p>
+> Getter for round dashboard URL.
 
 > **Returns**
 * URL of this round dashboard.

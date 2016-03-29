@@ -1,9 +1,9 @@
 #HttpRequestExecutorMock
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *java.lang.Object* > <a href="HttpRequestExecutorMock.md">HttpRequestExecutorMock</a>
+> *java.lang.Object* > [HttpRequestExecutorMock](HttpRequestExecutorMock.md)
 
-Test case for the <a href="executor/HttpRequestExecutor.md">HttpRequestExecutor</a> class.
+Test case for the [HttpRequestExecutor](executor/HttpRequestExecutor.md) class.
 
 ##Summary
 ####Constructors
@@ -12,7 +12,7 @@ Test case for the <a href="executor/HttpRequestExecutor.md">HttpRequestExecutor<
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** <a href="executor/HttpRequestExecutor.md">HttpRequestExecutor</a> | [getTestExecutor](#gettestexecutor)() |
+| **public static** [HttpRequestExecutor](executor/HttpRequestExecutor.md) | [getTestExecutor](#gettestexecutor)() |
 
 ---
 
@@ -27,7 +27,7 @@ Test case for the <a href="executor/HttpRequestExecutor.md">HttpRequestExecutor<
 
 ##Methods
 ####getTestExecutor()
-> Creates and returns a valid <a href="executor/HttpRequestExecutor.md">HttpRequestExecutor</a>
+> Creates and returns a valid [HttpRequestExecutor](executor/HttpRequestExecutor.md)
  instance that could be used for test. Such instance is not
  logged to any google services.
 

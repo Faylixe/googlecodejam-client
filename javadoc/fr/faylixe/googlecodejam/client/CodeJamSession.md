@@ -1,9 +1,9 @@
 #CodeJamSession
 Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *java.lang.Object* > <a href="common/NamedObject.md">NamedObject</a> > <a href="CodeJamSession.md">CodeJamSession</a>
+> *java.lang.Object* > [NamedObject](common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
 
-<a href="CodeJamSession.md">CodeJamSession</a> is the main API entry point, which consists
+[CodeJamSession](CodeJamSession.md) is the main API entry point, which consists
  in logging to a code jam platform ``hostname`` and then providing
  facilities such as :
  <br>
@@ -16,25 +16,25 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** *java.lang.String* | [buildFilename](#buildfilenameprobleminput)(<a href="webservice/ProblemInput.md">ProblemInput</a> input) |
-| **public static** <a href="CodeJamSession.md">CodeJamSession</a> | [createSession](#createsessionhttprequestexecutor-round)(<a href="executor/HttpRequestExecutor.md">HttpRequestExecutor</a> executor, <a href="Round.md">Round</a> round) |
-| **public** *java.io.InputStream* | [download](#downloadprobleminput)(<a href="webservice/ProblemInput.md">ProblemInput</a> input) |
-| **public** *java.lang.String* | [getContestAnalysis](#getcontestanalysisproblem)(<a href="webservice/Problem.md">Problem</a> problem) |
-| **public** <a href="webservice/ContestInfo.md">ContestInfo</a> | [getContestInfo](#getcontestinfo)() |
-| **public** <a href="webservice/Problem.md">Problem</a> | [getProblem](#getproblemstring)(*java.lang.String* letter) |
+| **public** *java.lang.String* | [buildFilename](#buildfilenameprobleminput)([ProblemInput](webservice/ProblemInput.md) input) |
+| **public static** [CodeJamSession](CodeJamSession.md) | [createSession](#createsessionhttprequestexecutor-round)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor, [Round](Round.md) round) |
+| **public** *java.io.InputStream* | [download](#downloadprobleminput)([ProblemInput](webservice/ProblemInput.md) input) |
+| **public** *java.lang.String* | [getContestAnalysis](#getcontestanalysisproblem)([Problem](webservice/Problem.md) problem) |
+| **public** [ContestInfo](webservice/ContestInfo.md) | [getContestInfo](#getcontestinfo)() |
+| **public** [Problem](webservice/Problem.md) | [getProblem](#getproblemstring)(*java.lang.String* letter) |
 | **public** **boolean** | [isActive](#isactive)() |
 | **public** **boolean** | [isLogged](#islogged)() |
 | **public** **boolean** | [isQualified](#isqualified)() |
-| **public** <a href="CodeJamSession.md">CodeJamSession</a> | [refresh](#refresh)() |
-| **public** <a href="webservice/SubmitResponse.md">SubmitResponse</a> | [submit](#submitprobleminput-file-file)(<a href="webservice/ProblemInput.md">ProblemInput</a> input, *java.io.File* output, *java.io.File* source) |
+| **public** [CodeJamSession](CodeJamSession.md) | [refresh](#refresh)() |
+| **public** [SubmitResponse](webservice/SubmitResponse.md) | [submit](#submitprobleminput-file-file)([ProblemInput](webservice/ProblemInput.md) input, *java.io.File* output, *java.io.File* source) |
 
 ---
 
 
 ##Methods
 ####buildFilename(ProblemInput)
-> <p>Builds and returns a valid file name
- for the given problem <tt>input</tt>.</p>
+> Builds and returns a valid file name
+ for the given problem <tt>input</tt>.
 
 > **Parameters**
 * input : Input to retrieve file name from.
@@ -46,13 +46,13 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####createSession(HttpRequestExecutor, Round)
-> <p>Static factory method that should be used for creating a session.
+> Static factory method that should be used for creating a session.
  Loads associated contest info and initial values from the given
- <tt>round</tt>, using the given <tt>executor</tt>.</p>
+ <tt>round</tt>, using the given <tt>executor</tt>.
 
 > **Parameters**
-* executor : <a href="executor/HttpRequestExecutor.md">HttpRequestExecutor</a> instance to use.
-* round : Contextual <a href="Round.md">Round</a> instance this session is bound to.
+* executor : [HttpRequestExecutor](executor/HttpRequestExecutor.md) instance to use.
+* round : Contextual [Round](Round.md) instance this session is bound to.
 
 > **Returns**
 * Created session.
@@ -64,9 +64,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####download(ProblemInput)
-> <p>Downloads and returns the stream of the
+> Downloads and returns the stream of the
  input file associated to the given problem
- <tt>input</tt>.</p>
+ <tt>input</tt>.
 
 > **Parameters**
 * input : Input to download file from.
@@ -81,8 +81,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####getContestAnalysis(Problem)
-> <p>Returns the analysis for the given
- <tt>problem</tt> if any.</p>
+> Returns the analysis for the given
+ <tt>problem</tt> if any.
 
 > **Parameters**
 * problem : Problem to retrieve analysis from.
@@ -94,18 +94,18 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####getContestInfo()
-> <p>Performs and returns a <tt>GET /</tt> request
- in order to get all <tt>round</tt> detail.</p>
+> Performs and returns a <tt>GET /</tt> request
+ in order to get all <tt>round</tt> detail.
 
 > **Returns**
-* Request response as a <a href="webservice/ContestInfo.md">ContestInfo</a> POJO.
+* Request response as a [ContestInfo](webservice/ContestInfo.md) POJO.
 
 
 ---
 
 ####getProblem(String)
-> <p>Retrieves the problem associated
- to the given <tt>letter</tt>.</p>
+> Retrieves the problem associated
+ to the given <tt>letter</tt>.
 
 > **Parameters**
 * letter : Letter that identifies the problem.
@@ -117,9 +117,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####isActive()
-> <p>Indiciates if the contest is currently active,
+> Indiciates if the contest is currently active,
  namely if competition is occuring at the current
- time, or not.</p>
+ time, or not.
 
 > **Returns**
 * <tt>true</tt> if the contest is active, <tt>false</tt> otherwise.
@@ -128,7 +128,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####isLogged()
-> <p>Indicates if the current session is logged in or not.</p>
+> Indicates if the current session is logged in or not.
 
 > **Returns**
 * <tt>true</tt> if user is logged, <tt>false</tt> otherwise.
@@ -137,8 +137,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####isQualified()
-> <p>Indicates if the currently logged user is qualified
- for the next round or not.</p>
+> Indicates if the currently logged user is qualified
+ for the next round or not.
 
 > **Returns**
 * <tt>true</tt> if user is qualified, <tt>false</tt> otherwise.
@@ -147,7 +147,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####refresh()
-> <p>Reloads session components in order to prevent from any change.</p>
+> Reloads session components in order to prevent from any change.
 
 > **Returns**
 * A newly created session updated otherwise.
@@ -159,13 +159,13 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 ---
 
 ####submit(ProblemInput, File, File)
-> <p>Submits the given <tt>output</tt> file and the
+> Submits the given <tt>output</tt> file and the
  given <tt>source</tt> file for the given problem
  <tt>input</tt>. This method should be call only
- after a successful call to the <a href="CodeJamSession.md">CodeJamSession</a>
+ after a successful call to the [CodeJamSession](CodeJamSession.md)
  method on the same <tt>input</tt>, as the evaluation
  system will judge the last downloaded dataset
- based on the internal token / session.</p>
+ based on the internal token / session.
 
 > **Parameters**
 * input : Input file to submit solution for.
@@ -173,7 +173,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 * source : Source code file of the algorithm to submit.
 
 > **Returns**
-* Request response, as a <a href="webservice/SubmitResponse.md">SubmitResponse</a> instance.
+* Request response, as a [SubmitResponse](webservice/SubmitResponse.md) instance.
 
 > **Throws**
 * *java.io.IOException* If any error occurs while uploading data, or performing the request.

@@ -1,12 +1,12 @@
 #Package fr.faylixe.googlecodejam.client.common
-<p>Common class and tools used by this library.</p>
+Common class and tools used by this library.
 ##Classes
 | Name |
 | --- |
-| <a href="Resources.md">Resources</a> |
-| <a href="NamedObject.md">NamedObject</a> |
-| <a href="HTMLConstant.md">HTMLConstant</a> |
-| <a href="NamedObjectTest.md">NamedObjectTest</a> |
+| [Resources](Resources.md) |
+| [NamedObject](NamedObject.md) |
+| [HTMLConstant](HTMLConstant.md) |
+| [NamedObjectTest](NamedObjectTest.md) |
 
 ---
 

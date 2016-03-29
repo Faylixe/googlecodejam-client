@@ -1,9 +1,9 @@
 #NamedObjectTest
 Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
-> *java.lang.Object* > <a href="NamedObjectTest.md">NamedObjectTest</a>
+> *java.lang.Object* > [NamedObjectTest](NamedObjectTest.md)
 
-Test case for <a href="NamedObject.md">NamedObject</a> class.
+Test case for [NamedObject](NamedObject.md) class.
 
 ##Summary
 ####Constructors

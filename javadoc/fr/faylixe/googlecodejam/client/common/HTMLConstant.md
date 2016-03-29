@@ -1,9 +1,9 @@
 #HTMLConstant
 Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
-> *java.lang.Object* > <a href="HTMLConstant.md">HTMLConstant</a>
+> *java.lang.Object* > [HTMLConstant](HTMLConstant.md)
 
-<p>Simple class that exposes HTML String related constants value.</p>
+Simple class that exposes HTML String related constants value.
 
 ##Summary
 ####Fields

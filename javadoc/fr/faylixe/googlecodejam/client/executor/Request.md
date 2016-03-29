@@ -1,11 +1,11 @@
 #Request
 Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
-> *java.lang.Object* > <a href="Request.md">Request</a>
+> *java.lang.Object* > [Request](Request.md)
 
-<p>Simple class that exposes string constant
+Simple class that exposes string constant
  relative to HTTP API for interacting with
- Code Jam webservice.</p>
+ Code Jam webservice.
 
 ##Summary
 ####Fields

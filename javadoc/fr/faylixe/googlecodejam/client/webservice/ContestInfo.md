@@ -1,10 +1,10 @@
 #ContestInfo
 Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *java.lang.Object* > <a href="ContestInfo.md">ContestInfo</a>
+> *java.lang.Object* > [ContestInfo](ContestInfo.md)
 
-<p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
- request, using Gson API.</p>
+POJO that aims to be bind to the <tt>/ContestInfo</tt>
+ request, using Gson API.
 
 ##Summary
 ####Constructors
@@ -13,9 +13,9 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** <a href="ContestInfo.md">ContestInfo</a> | [get](#gethttprequestexecutor-round)(<a href="../executor/HttpRequestExecutor.md">HttpRequestExecutor</a> executor, <a href="../Round.md">Round</a> round) |
-| **public** <a href="Problem.md">Problem</a> | [getProblem](#getproblemint)(**int** index) |
-| **public** *java.util.List*<<a href="Problem.md">Problem</a>> | [getProblems](#getproblems)() |
+| **public static** [ContestInfo](ContestInfo.md) | [get](#gethttprequestexecutor-round)([HttpRequestExecutor](../executor/HttpRequestExecutor.md) executor, [Round](../Round.md) round) |
+| **public** [Problem](Problem.md) | [getProblem](#getproblemint)(**int** index) |
+| **public** *java.util.List*<[Problem](Problem.md)> | [getProblems](#getproblems)() |
 | **public** **int** | [getVersion](#getversion)() |
 | **public** **boolean** | [hasAnalysis](#hasanalysis)() |
 
@@ -32,16 +32,16 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 ####get(HttpRequestExecutor, Round)
-> Static factory method that builds a <a href="ContestInfo.md">ContestInfo</a> instance
+> Static factory method that builds a [ContestInfo](ContestInfo.md) instance
  from the given <tt>round</tt> using a <tt>/ContestInfo</tt>
  request from the round dashboard.
 
 > **Parameters**
 * executor : Executor instance used to perform the request.
-* round : Round to retrieve <a href="ContestInfo.md">ContestInfo</a> from.
+* round : Round to retrieve [ContestInfo](ContestInfo.md) from.
 
 > **Returns**
-* Built <a href="ContestInfo.md">ContestInfo</a> instance.
+* Built [ContestInfo](ContestInfo.md) instance.
 
 > **Throws**
 * *java.io.IOException* IF any error occurs while executing request.
@@ -65,7 +65,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getProblems()
-> Returns <a href="Problem.md">Problem</a> instance associated
+> Returns [Problem](Problem.md) instance associated
  to this contest.
 
 > **Returns**
