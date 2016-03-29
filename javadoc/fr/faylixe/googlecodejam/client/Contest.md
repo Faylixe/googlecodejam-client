@@ -7,6 +7,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  A [Contest](Contest.md) is represented by a name and a
  collection of [Round](Round.md).</p>
 
+
 ##Summary
 ####Fields
 | Type and modifiers | Field name |
