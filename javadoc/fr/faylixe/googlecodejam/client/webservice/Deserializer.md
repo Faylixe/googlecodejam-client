@@ -1,7 +1,7 @@
 #Problem.Deserializer
-Package <a href="README.md"> fr.faylixe.googlecodejam.client.webservice</a><br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *java.lang.Object* > <a href="Deserializer.md"> Deserializer</a>
+> *java.lang.Object* > <a href="Deserializer.md">Deserializer</a>
 
 Custom deserializer that normalizes problem body content.
 

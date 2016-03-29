@@ -1,7 +1,7 @@
 #InitialValues
-Package <a href="README.md"> fr.faylixe.googlecodejam.client.webservice</a><br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *java.lang.Object* > <a href="InitialValues.md"> InitialValues</a>
+> *java.lang.Object* > <a href="InitialValues.md">InitialValues</a>
 
 <p>POJO that aims to be bind to the <tt>GetInitialValues</tt>
  command request, using Gson API.</p>
@@ -10,29 +10,29 @@ Package <a href="README.md"> fr.faylixe.googlecodejam.client.webservice</a><br>
 
 ##Summary
 ####Constructors
-* **public** <a href="#initialvalues"> InitialValues</a>()
+* **public** [InitialValues](#initialvalues)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** <a href="InitialValues.md"> InitialValues</a> | <a href="#gethttprequestexecutor-round"> get</a>(<a href="../executor/HttpRequestExecutor.md"> HttpRequestExecutor</a> executor, <a href="../Round.md"> Round</a> round) |
-| **public** *java.lang.String* | <a href="#getadmin"> getAdmin</a>() |
-| **public** **int** | <a href="#getcs"> getCS</a>() |
-| **public** *java.lang.String* | <a href="#getemail"> getEmail</a>() |
-| **public** *java.lang.String* | <a href="#getinput"> getInput</a>() |
-| **public** **long** | <a href="#getleft"> getLeft</a>() |
-| **public** *java.lang.String* | <a href="#getloginhtml"> getLoginHTML</a>() |
-| **public** *java.lang.String* | <a href="#getlogouthtml"> getLogoutHTML</a>() |
-| **public** *java.lang.String* | <a href="#getname"> getName</a>() |
-| **public** **int** | <a href="#getseen"> getSeen</a>() |
-| **public** *java.lang.String* | <a href="#getsnippet"> getSnippet</a>() |
-| **public** **long** | <a href="#getstart"> getStart</a>() |
-| **public** *java.lang.String* | <a href="#gettoken"> getToken</a>() |
-| **public** *java.lang.String* | <a href="#geturlencodedtoken"> getURLEncodedToken</a>() |
-| **public** **long** | <a href="#getuntilstart"> getUntilStart</a>() |
-| **public** **int** | <a href="#getversion"> getVersion</a>() |
-| **public** **boolean** | <a href="#islogged"> isLogged</a>() |
-| **public** **boolean** | <a href="#isqualified"> isQualified</a>() |
+| **public static** <a href="InitialValues.md">InitialValues</a> | [get](#gethttprequestexecutor-round)(<a href="../executor/HttpRequestExecutor.md">HttpRequestExecutor</a> executor, <a href="../Round.md">Round</a> round) |
+| **public** *java.lang.String* | [getAdmin](#getadmin)() |
+| **public** **int** | [getCS](#getcs)() |
+| **public** *java.lang.String* | [getEmail](#getemail)() |
+| **public** *java.lang.String* | [getInput](#getinput)() |
+| **public** **long** | [getLeft](#getleft)() |
+| **public** *java.lang.String* | [getLoginHTML](#getloginhtml)() |
+| **public** *java.lang.String* | [getLogoutHTML](#getlogouthtml)() |
+| **public** *java.lang.String* | [getName](#getname)() |
+| **public** **int** | [getSeen](#getseen)() |
+| **public** *java.lang.String* | [getSnippet](#getsnippet)() |
+| **public** **long** | [getStart](#getstart)() |
+| **public** *java.lang.String* | [getToken](#gettoken)() |
+| **public** *java.lang.String* | [getURLEncodedToken](#geturlencodedtoken)() |
+| **public** **long** | [getUntilStart](#getuntilstart)() |
+| **public** **int** | [getVersion](#getversion)() |
+| **public** **boolean** | [isLogged](#islogged)() |
+| **public** **boolean** | [isQualified](#isqualified)() |
 
 ---
 
@@ -48,7 +48,7 @@ Package <a href="README.md"> fr.faylixe.googlecodejam.client.webservice</a><br>
 ##Methods
 ####get(HttpRequestExecutor, Round)
 > Static factory method that use the <tt>GetInitialValues</tt> command
- for the given <tt>round</tt> to retrieve a valud <a href="InitialValues.md"> InitialValues</a> instance.
+ for the given <tt>round</tt> to retrieve a valud <a href="InitialValues.md">InitialValues</a> instance.
 
 > **Parameters**
 * executor : Executor instance to use for performing the associated request.

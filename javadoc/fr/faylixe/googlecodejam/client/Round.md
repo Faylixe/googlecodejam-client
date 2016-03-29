@@ -1,24 +1,24 @@
 #Round
-Package <a href="README.md"> fr.faylixe.googlecodejam.client</a><br>
+Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *java.lang.Object* > <a href="common/NamedObject.md"> NamedObject</a> > <a href="Round.md"> Round</a>
+> *java.lang.Object* > <a href="common/NamedObject.md">NamedObject</a> > <a href="Round.md">Round</a>
 
-<p>POJO class that represents a Google Jam <a href="Round.md"> Round</a>.
- A <a href="Round.md"> Round</a> is defined by a name, and a dashboard
+<p>POJO class that represents a Google Jam <a href="Round.md">Round</a>.
+ A <a href="Round.md">Round</a> is defined by a name, and a dashboard
  URL.</p>
 
 ##Summary
 ####Fields
 | Type and modifiers | Field name |
 | --- | --- |
-| **public static final** | <a href="#description_class_name"> DESCRIPTION_CLASS_NAME</a> |
+| **public static final** | [DESCRIPTION_CLASS_NAME](#description_class_name) |
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *java.util.List*<<a href="Round.md"> Round</a>> | <a href="#getelement-string"> get</a>(*org.jsoup.nodes.Element* contest, *java.lang.String* parent) |
-| **public** *java.lang.String* | <a href="#getcontestname"> getContestName</a>() |
-| **public** *java.lang.String* | <a href="#geturl"> getURL</a>() |
+| **public static** *java.util.List*<<a href="Round.md">Round</a>> | [get](#getelement-string)(*org.jsoup.nodes.Element* contest, *java.lang.String* parent) |
+| **public** *java.lang.String* | [getContestName](#getcontestname)() |
+| **public** *java.lang.String* | [getURL](#geturl)() |
 
 ---
 

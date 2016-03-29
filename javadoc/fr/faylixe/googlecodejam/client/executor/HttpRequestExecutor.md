@@ -1,9 +1,9 @@
 #HttpRequestExecutor
-Package <a href="README.md"> fr.faylixe.googlecodejam.client.executor</a><br>
+Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
-> *java.lang.Object* > <a href="HttpRequestExecutor.md"> HttpRequestExecutor</a>
+> *java.lang.Object* > <a href="HttpRequestExecutor.md">HttpRequestExecutor</a>
 
-<p>A <a href="HttpRequestExecutor.md"> HttpRequestExecutor</a> is an abstraction
+<p>A <a href="HttpRequestExecutor.md">HttpRequestExecutor</a> is an abstraction
  on top of *com.google.api.client.http.HttpRequestFactory* that handles
  GET and POST request.</p>
 
@@ -11,14 +11,14 @@ Package <a href="README.md"> fr.faylixe.googlecodejam.client.executor</a><br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *com.google.api.client.http.MultipartContent.Part* | <a href="#builddatapartstring-string"> buildDataPart</a>(*java.lang.String* name, *java.lang.String* data) |
-| **public static** *com.google.api.client.http.MultipartContent.Part* | <a href="#buildfilepartstring-file"> buildFilePart</a>(*java.lang.String* name, *java.io.File* file) |
-| **public static** <a href="HttpRequestExecutor.md"> HttpRequestExecutor</a> | <a href="#createstring-string"> create</a>(*java.lang.String* hostname, *java.lang.String* cookieValue) |
-| **public static** <a href="HttpRequestExecutor.md"> HttpRequestExecutor</a> | <a href="#createstring"> create</a>(*java.lang.String* hostname) |
-| **public** *java.lang.String* | <a href="#getstring"> get</a>(*java.lang.String* path) |
-| **public** *java.lang.String* | <a href="#gethostname"> getHostname</a>() |
-| **public** *com.google.api.client.http.HttpRequest* | <a href="#getrequeststring"> getRequest</a>(*java.lang.String* path) |
-| **public** *java.lang.String* | <a href="#poststring-httpcontent"> post</a>(*java.lang.String* path, *com.google.api.client.http.HttpContent* content) |
+| **public static** *com.google.api.client.http.MultipartContent.Part* | [buildDataPart](#builddatapartstring-string)(*java.lang.String* name, *java.lang.String* data) |
+| **public static** *com.google.api.client.http.MultipartContent.Part* | [buildFilePart](#buildfilepartstring-file)(*java.lang.String* name, *java.io.File* file) |
+| **public static** <a href="HttpRequestExecutor.md">HttpRequestExecutor</a> | [create](#createstring-string)(*java.lang.String* hostname, *java.lang.String* cookieValue) |
+| **public static** <a href="HttpRequestExecutor.md">HttpRequestExecutor</a> | [create](#createstring)(*java.lang.String* hostname) |
+| **public** *java.lang.String* | [get](#getstring)(*java.lang.String* path) |
+| **public** *java.lang.String* | [getHostname](#gethostname)() |
+| **public** *com.google.api.client.http.HttpRequest* | [getRequest](#getrequeststring)(*java.lang.String* path) |
+| **public** *java.lang.String* | [post](#poststring-httpcontent)(*java.lang.String* path, *com.google.api.client.http.HttpContent* content) |
 
 ---
 
@@ -56,7 +56,7 @@ Package <a href="README.md"> fr.faylixe.googlecodejam.client.executor</a><br>
 ---
 
 ####create(String, String)
-> Static factory method that creates a <a href="HttpRequestExecutor.md"> HttpRequestExecutor</a> instance
+> Static factory method that creates a <a href="HttpRequestExecutor.md">HttpRequestExecutor</a> instance
  which is set using the given <tt>cookie</tt> for building authenticated
  HTTP request.
 
@@ -76,7 +76,7 @@ Package <a href="README.md"> fr.faylixe.googlecodejam.client.executor</a><br>
 
 ####create(String)
 > Static factory method that creates a non logged
- <a href="HttpRequestExecutor.md"> HttpRequestExecutor</a> instance.
+ <a href="HttpRequestExecutor.md">HttpRequestExecutor</a> instance.
 
 > **Parameters**
 * hostname : Hostname to use for the created executor.

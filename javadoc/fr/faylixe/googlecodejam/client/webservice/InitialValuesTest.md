@@ -1,19 +1,19 @@
 #InitialValuesTest
-Package <a href="README.md"> fr.faylixe.googlecodejam.client.webservice</a><br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *java.lang.Object* > <a href="InitialValuesTest.md"> InitialValuesTest</a>
+> *java.lang.Object* > <a href="InitialValuesTest.md">InitialValuesTest</a>
 
-Test case for <a href="InitialValues.md"> InitialValues</a> class.
+Test case for <a href="InitialValues.md">InitialValues</a> class.
 
 ##Summary
 ####Constructors
-* **public** <a href="#initialvaluestest"> InitialValuesTest</a>()
+* **public** [InitialValuesTest](#initialvaluestest)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** <a href="InitialValues.md"> InitialValues</a> | <a href="#gettestinitialvalues"> getTestInitialValues</a>() |
-| **public** **void** | <a href="#testinitialvaluesconsistency"> testInitialValuesConsistency</a>() |
+| **public static** <a href="InitialValues.md">InitialValues</a> | [getTestInitialValues](#gettestinitialvalues)() |
+| **public** **void** | [testInitialValuesConsistency](#testinitialvaluesconsistency)() |
 
 ---
 
@@ -28,9 +28,9 @@ Test case for <a href="InitialValues.md"> InitialValues</a> class.
 
 ##Methods
 ####getTestInitialValues()
-> Retrieves the <a href="InitialValues.md"> InitialValues</a>
+> Retrieves the <a href="InitialValues.md">InitialValues</a>
  instance that will be used for testing.
- Using the test <a href="../Round.md"> Round</a> as reference.
+ Using the test <a href="../Round.md">Round</a> as reference.
 
 > **Returns**
 * Instance to use for testing.
@@ -39,8 +39,8 @@ Test case for <a href="InitialValues.md"> InitialValues</a> class.
 ---
 
 ####testInitialValuesConsistency()
-> Ensures retrieved <a href="InitialValues.md"> InitialValues</a> are
- consistent. Using values from <a href="../Round.md"> Round</a>
+> Ensures retrieved <a href="InitialValues.md">InitialValues</a> are
+ consistent. Using values from <a href="../Round.md">Round</a>
  test instance.
 
 

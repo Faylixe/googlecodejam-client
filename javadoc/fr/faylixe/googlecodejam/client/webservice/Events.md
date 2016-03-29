@@ -1,13 +1,13 @@
 #Events
-Package <a href="README.md"> fr.faylixe.googlecodejam.client.webservice</a><br>
+Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
-> *java.lang.Object* > <a href="Events.md"> Events</a>
+> *java.lang.Object* > <a href="Events.md">Events</a>
 
 TODO : Fill with Event response attribute.
 
 ##Summary
 ####Constructors
-* **public** <a href="#events"> Events</a>()
+* **public** [Events](#events)()
 
 ---
 

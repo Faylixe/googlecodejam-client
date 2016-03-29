@@ -1,18 +1,18 @@
 #HttpRequestExecutorMock
-Package <a href="README.md"> fr.faylixe.googlecodejam.client</a><br>
+Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *java.lang.Object* > <a href="HttpRequestExecutorMock.md"> HttpRequestExecutorMock</a>
+> *java.lang.Object* > <a href="HttpRequestExecutorMock.md">HttpRequestExecutorMock</a>
 
-Test case for the <a href="executor/HttpRequestExecutor.md"> HttpRequestExecutor</a> class.
+Test case for the <a href="executor/HttpRequestExecutor.md">HttpRequestExecutor</a> class.
 
 ##Summary
 ####Constructors
-* **public** <a href="#httprequestexecutormock"> HttpRequestExecutorMock</a>()
+* **public** [HttpRequestExecutorMock](#httprequestexecutormock)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** <a href="executor/HttpRequestExecutor.md"> HttpRequestExecutor</a> | <a href="#gettestexecutor"> getTestExecutor</a>() |
+| **public static** <a href="executor/HttpRequestExecutor.md">HttpRequestExecutor</a> | [getTestExecutor](#gettestexecutor)() |
 
 ---
 
@@ -27,7 +27,7 @@ Test case for the <a href="executor/HttpRequestExecutor.md"> HttpRequestExecutor
 
 ##Methods
 ####getTestExecutor()
-> Creates and returns a valid <a href="executor/HttpRequestExecutor.md"> HttpRequestExecutor</a>
+> Creates and returns a valid <a href="executor/HttpRequestExecutor.md">HttpRequestExecutor</a>
  instance that could be used for test. Such instance is not
  logged to any google services.
 

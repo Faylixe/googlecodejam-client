@@ -1,9 +1,9 @@
 #CodeJamSession
-Package <a href="README.md"> fr.faylixe.googlecodejam.client</a><br>
+Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *java.lang.Object* > <a href="common/NamedObject.md"> NamedObject</a> > <a href="CodeJamSession.md"> CodeJamSession</a>
+> *java.lang.Object* > <a href="common/NamedObject.md">NamedObject</a> > <a href="CodeJamSession.md">CodeJamSession</a>
 
-<a href="CodeJamSession.md"> CodeJamSession</a> is the main API entry point, which consists
+<a href="CodeJamSession.md">CodeJamSession</a> is the main API entry point, which consists
  in logging to a code jam platform ``hostname`` and then providing
  facilities such as :
  <br>
@@ -16,17 +16,17 @@ Package <a href="README.md"> fr.faylixe.googlecodejam.client</a><br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** *java.lang.String* | <a href="#buildfilenameprobleminput"> buildFilename</a>(<a href="webservice/ProblemInput.md"> ProblemInput</a> input) |
-| **public static** <a href="CodeJamSession.md"> CodeJamSession</a> | <a href="#createsessionhttprequestexecutor-round"> createSession</a>(<a href="executor/HttpRequestExecutor.md"> HttpRequestExecutor</a> executor, <a href="Round.md"> Round</a> round) |
-| **public** *java.io.InputStream* | <a href="#downloadprobleminput"> download</a>(<a href="webservice/ProblemInput.md"> ProblemInput</a> input) |
-| **public** *java.lang.String* | <a href="#getcontestanalysisproblem"> getContestAnalysis</a>(<a href="webservice/Problem.md"> Problem</a> problem) |
-| **public** <a href="webservice/ContestInfo.md"> ContestInfo</a> | <a href="#getcontestinfo"> getContestInfo</a>() |
-| **public** <a href="webservice/Problem.md"> Problem</a> | <a href="#getproblemstring"> getProblem</a>(*java.lang.String* letter) |
-| **public** **boolean** | <a href="#isactive"> isActive</a>() |
-| **public** **boolean** | <a href="#islogged"> isLogged</a>() |
-| **public** **boolean** | <a href="#isqualified"> isQualified</a>() |
-| **public** <a href="CodeJamSession.md"> CodeJamSession</a> | <a href="#refresh"> refresh</a>() |
-| **public** <a href="webservice/SubmitResponse.md"> SubmitResponse</a> | <a href="#submitprobleminput-file-file"> submit</a>(<a href="webservice/ProblemInput.md"> ProblemInput</a> input, *java.io.File* output, *java.io.File* source) |
+| **public** *java.lang.String* | [buildFilename](#buildfilenameprobleminput)(<a href="webservice/ProblemInput.md">ProblemInput</a> input) |
+| **public static** <a href="CodeJamSession.md">CodeJamSession</a> | [createSession](#createsessionhttprequestexecutor-round)(<a href="executor/HttpRequestExecutor.md">HttpRequestExecutor</a> executor, <a href="Round.md">Round</a> round) |
+| **public** *java.io.InputStream* | [download](#downloadprobleminput)(<a href="webservice/ProblemInput.md">ProblemInput</a> input) |
+| **public** *java.lang.String* | [getContestAnalysis](#getcontestanalysisproblem)(<a href="webservice/Problem.md">Problem</a> problem) |
+| **public** <a href="webservice/ContestInfo.md">ContestInfo</a> | [getContestInfo](#getcontestinfo)() |
+| **public** <a href="webservice/Problem.md">Problem</a> | [getProblem](#getproblemstring)(*java.lang.String* letter) |
+| **public** **boolean** | [isActive](#isactive)() |
+| **public** **boolean** | [isLogged](#islogged)() |
+| **public** **boolean** | [isQualified](#isqualified)() |
+| **public** <a href="CodeJamSession.md">CodeJamSession</a> | [refresh](#refresh)() |
+| **public** <a href="webservice/SubmitResponse.md">SubmitResponse</a> | [submit](#submitprobleminput-file-file)(<a href="webservice/ProblemInput.md">ProblemInput</a> input, *java.io.File* output, *java.io.File* source) |
 
 ---
 
@@ -51,8 +51,8 @@ Package <a href="README.md"> fr.faylixe.googlecodejam.client</a><br>
  <tt>round</tt>, using the given <tt>executor</tt>.</p>
 
 > **Parameters**
-* executor : <a href="executor/HttpRequestExecutor.md"> HttpRequestExecutor</a> instance to use.
-* round : Contextual <a href="Round.md"> Round</a> instance this session is bound to.
+* executor : <a href="executor/HttpRequestExecutor.md">HttpRequestExecutor</a> instance to use.
+* round : Contextual <a href="Round.md">Round</a> instance this session is bound to.
 
 > **Returns**
 * Created session.
@@ -98,7 +98,7 @@ Package <a href="README.md"> fr.faylixe.googlecodejam.client</a><br>
  in order to get all <tt>round</tt> detail.</p>
 
 > **Returns**
-* Request response as a <a href="webservice/ContestInfo.md"> ContestInfo</a> POJO.
+* Request response as a <a href="webservice/ContestInfo.md">ContestInfo</a> POJO.
 
 
 ---
@@ -162,7 +162,7 @@ Package <a href="README.md"> fr.faylixe.googlecodejam.client</a><br>
 > <p>Submits the given <tt>output</tt> file and the
  given <tt>source</tt> file for the given problem
  <tt>input</tt>. This method should be call only
- after a successful call to the <a href="CodeJamSession.md"> CodeJamSession</a>
+ after a successful call to the <a href="CodeJamSession.md">CodeJamSession</a>
  method on the same <tt>input</tt>, as the evaluation
  system will judge the last downloaded dataset
  based on the internal token / session.</p>
@@ -173,7 +173,7 @@ Package <a href="README.md"> fr.faylixe.googlecodejam.client</a><br>
 * source : Source code file of the algorithm to submit.
 
 > **Returns**
-* Request response, as a <a href="webservice/SubmitResponse.md"> SubmitResponse</a> instance.
+* Request response, as a <a href="webservice/SubmitResponse.md">SubmitResponse</a> instance.
 
 > **Throws**
 * *java.io.IOException* If any error occurs while uploading data, or performing the request.

@@ -1,24 +1,24 @@
 #Contest
-Package <a href="README.md"> fr.faylixe.googlecodejam.client</a><br>
+Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
-> *java.lang.Object* > <a href="common/NamedObject.md"> NamedObject</a> > <a href="Contest.md"> Contest</a>
+> *java.lang.Object* > <a href="common/NamedObject.md">NamedObject</a> > <a href="Contest.md">Contest</a>
 
-<p>POJO class that represents a Google Jam <a href="Contest.md"> Contest</a>.
- A <a href="Contest.md"> Contest</a> is represented by a name and a
- collection of <a href="Round.md"> Round</a>.</p>
+<p>POJO class that represents a Google Jam <a href="Contest.md">Contest</a>.
+ A <a href="Contest.md">Contest</a> is represented by a name and a
+ collection of <a href="Round.md">Round</a>.</p>
 
 ##Summary
 ####Fields
 | Type and modifiers | Field name |
 | --- | --- |
-| **public static final** | <a href="#contest_class_name"> CONTEST_CLASS_NAME</a> |
-| **public static final** | <a href="#contest_index"> CONTEST_INDEX</a> |
+| **public static final** | [CONTEST_CLASS_NAME](#contest_class_name) |
+| **public static final** | [CONTEST_INDEX](#contest_index) |
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *java.util.List*<<a href="Contest.md"> Contest</a>> | <a href="#gethttprequestexecutor"> get</a>(<a href="executor/HttpRequestExecutor.md"> HttpRequestExecutor</a> executor) |
-| **public** *java.util.List*<<a href="Round.md"> Round</a>> | <a href="#getrounds"> getRounds</a>() |
+| **public static** *java.util.List*<<a href="Contest.md">Contest</a>> | [get](#gethttprequestexecutor)(<a href="executor/HttpRequestExecutor.md">HttpRequestExecutor</a> executor) |
+| **public** *java.util.List*<<a href="Round.md">Round</a>> | [getRounds](#getrounds)() |
 
 ---
 
@@ -45,7 +45,7 @@ Package <a href="README.md"> fr.faylixe.googlecodejam.client</a><br>
  contest for the given <tt>hostname</tt>.</p>
 
 > **Parameters**
-* executor : <a href="executor/HttpRequestExecutor.md"> HttpRequestExecutor</a> instance to use to retrieve contest index.
+* executor : <a href="executor/HttpRequestExecutor.md">HttpRequestExecutor</a> instance to use to retrieve contest index.
 
 > **Returns**
 * List of contest extracted.
@@ -58,7 +58,7 @@ Package <a href="README.md"> fr.faylixe.googlecodejam.client</a><br>
 
 ####getRounds()
 > <p>Getter that returns a immutable view
- of the <a href="Round.md"> Round</a> list.</p>
+ of the <a href="Round.md">Round</a> list.</p>
 
 > **Returns**
 * List of the round of this contest.

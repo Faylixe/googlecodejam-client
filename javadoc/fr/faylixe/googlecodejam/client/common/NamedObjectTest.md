@@ -1,19 +1,19 @@
 #NamedObjectTest
-Package <a href="README.md"> fr.faylixe.googlecodejam.client.common</a><br>
+Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
-> *java.lang.Object* > <a href="NamedObjectTest.md"> NamedObjectTest</a>
+> *java.lang.Object* > <a href="NamedObjectTest.md">NamedObjectTest</a>
 
-Test case for <a href="NamedObject.md"> NamedObject</a> class.
+Test case for <a href="NamedObject.md">NamedObject</a> class.
 
 ##Summary
 ####Constructors
-* **public** <a href="#namedobjecttest"> NamedObjectTest</a>()
+* **public** [NamedObjectTest](#namedobjecttest)()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **void** | <a href="#testdefault"> testDefault</a>() |
-| **public** **void** | <a href="#testserialized"> testSerialized</a>() |
+| **public** **void** | [testDefault](#testdefault)() |
+| **public** **void** | [testSerialized](#testserialized)() |
 
 ---
 

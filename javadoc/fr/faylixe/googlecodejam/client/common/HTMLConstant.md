@@ -1,7 +1,7 @@
 #HTMLConstant
-Package <a href="README.md"> fr.faylixe.googlecodejam.client.common</a><br>
+Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 
-> *java.lang.Object* > <a href="HTMLConstant.md"> HTMLConstant</a>
+> *java.lang.Object* > <a href="HTMLConstant.md">HTMLConstant</a>
 
 <p>Simple class that exposes HTML String related constants value.</p>
 
@@ -9,13 +9,13 @@ Package <a href="README.md"> fr.faylixe.googlecodejam.client.common</a><br>
 ####Fields
 | Type and modifiers | Field name |
 | --- | --- |
-| **public static final** | <a href="#anchor"> ANCHOR</a> |
-| **public static final** | <a href="#h3"> H3</a> |
-| **public static final** | <a href="#href"> HREF</a> |
-| **public static final** | <a href="#img"> IMG</a> |
-| **public static final** | <a href="#src"> SRC</a> |
-| **public static final** | <a href="#td"> TD</a> |
-| **public static final** | <a href="#tr"> TR</a> |
+| **public static final** | [ANCHOR](#anchor) |
+| **public static final** | [H3](#h3) |
+| **public static final** | [HREF](#href) |
+| **public static final** | [IMG](#img) |
+| **public static final** | [SRC](#src) |
+| **public static final** | [TD](#td) |
+| **public static final** | [TR](#tr) |
 
 ---
 
