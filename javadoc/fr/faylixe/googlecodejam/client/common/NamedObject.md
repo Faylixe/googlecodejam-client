@@ -1,5 +1,5 @@
-#NamedObject
-Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
+#Class NamedObject
+Package[fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](NamedObject.md)
 

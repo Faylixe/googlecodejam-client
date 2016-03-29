@@ -1,5 +1,5 @@
-#Request
-Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
+#Class Request
+Package[fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 > *java.lang.Object* > [Request](Request.md)
 

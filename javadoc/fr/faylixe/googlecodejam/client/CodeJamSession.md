@@ -1,5 +1,5 @@
-#CodeJamSession
-Package [fr.faylixe.googlecodejam.client](README.md)<br>
+#Class CodeJamSession
+Package[fr.faylixe.googlecodejam.client](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
 

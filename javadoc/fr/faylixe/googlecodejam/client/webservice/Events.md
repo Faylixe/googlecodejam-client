@@ -1,5 +1,5 @@
-#Events
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+#Class Events
+Package[fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [Events](Events.md)
 

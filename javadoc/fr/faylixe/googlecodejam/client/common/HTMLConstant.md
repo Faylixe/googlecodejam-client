@@ -1,5 +1,5 @@
-#HTMLConstant
-Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
+#Class HTMLConstant
+Package[fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 > *java.lang.Object* > [HTMLConstant](HTMLConstant.md)
 

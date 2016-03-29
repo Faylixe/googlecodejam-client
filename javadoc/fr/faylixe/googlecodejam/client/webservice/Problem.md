@@ -1,5 +1,5 @@
-#Problem
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+#Class Problem
+Package[fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](../common/NamedObject.md) > [Problem](Problem.md)
 

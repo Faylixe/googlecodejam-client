@@ -1,5 +1,5 @@
-#ContestInfo
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+#Class ContestInfo
+Package[fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [ContestInfo](ContestInfo.md)
 

@@ -1,5 +1,5 @@
-#ProblemInput
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+#Class ProblemInput
+Package[fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](../common/NamedObject.md) > [ProblemInput](ProblemInput.md)
 

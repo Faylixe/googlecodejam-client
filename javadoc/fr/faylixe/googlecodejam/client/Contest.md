@@ -1,5 +1,5 @@
-#Contest
-Package [fr.faylixe.googlecodejam.client](README.md)<br>
+#Class Contest
+Package[fr.faylixe.googlecodejam.client](README.md)<br>
 
 > *java.lang.Object* > [NamedObject](common/NamedObject.md) > [Contest](Contest.md)
 

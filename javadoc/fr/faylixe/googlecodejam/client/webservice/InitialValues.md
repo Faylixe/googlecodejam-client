@@ -1,5 +1,5 @@
-#InitialValues
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+#Class InitialValues
+Package[fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [InitialValues](InitialValues.md)
 

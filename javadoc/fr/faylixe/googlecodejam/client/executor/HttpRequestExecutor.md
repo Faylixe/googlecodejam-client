@@ -1,5 +1,5 @@
-#HttpRequestExecutor
-Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
+#Class HttpRequestExecutor
+Package[fr.faylixe.googlecodejam.client.executor](README.md)<br>
 
 > *java.lang.Object* > [HttpRequestExecutor](HttpRequestExecutor.md)
 

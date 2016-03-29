@@ -1,5 +1,5 @@
-#Problem.Deserializer
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+#Class Problem.Deserializer
+Package[fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [Deserializer](Deserializer.md)
 

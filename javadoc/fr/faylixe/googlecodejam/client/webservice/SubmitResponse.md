@@ -1,5 +1,5 @@
-#SubmitResponse
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+#Class SubmitResponse
+Package[fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > *java.lang.Object* > [SubmitResponse](SubmitResponse.md)
 

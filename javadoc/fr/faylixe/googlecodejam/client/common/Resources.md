@@ -1,5 +1,5 @@
-#Resources
-Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
+#Class Resources
+Package[fr.faylixe.googlecodejam.client.common](README.md)<br>
 
 > *java.lang.Object* > [Resources](Resources.md)
 
