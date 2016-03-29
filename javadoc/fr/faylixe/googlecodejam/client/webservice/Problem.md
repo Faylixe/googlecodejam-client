@@ -10,7 +10,9 @@ POJO that aims to be bind to the <tt>/ContestInfo</tt>
 
 ##Summary
 ####Constructors
-* **public** [Problem](#problem)()
+| Visibility | Signature |
+| --- | --- |
+| **public** | [Problem](#problem)() |
 
 ####Methods
 | Type and modifiers | Method signature |
@@ -24,7 +26,6 @@ POJO that aims to be bind to the <tt>/ContestInfo</tt>
 | **public** [ProblemInput](ProblemInput.md) | [getProblemInput](#getprobleminputstring)(*java.lang.String* type) |
 | **public** *java.util.List*<[ProblemInput](ProblemInput.md)> | [getProblemInputs](#getprobleminputs)() |
 | **public** *java.lang.String* | [getType](#gettype)() |
-| **protected** **void** | [setParent](#setparentcontestinfo)([ContestInfo](ContestInfo.md) parent) |
 
 ---
 
@@ -125,15 +126,6 @@ POJO that aims to be bind to the <tt>/ContestInfo</tt>
 
 > **Returns**
 * TODO : Figure out what is type for.
-
-
----
-
-####setParent(ContestInfo)
-> Contest setter that aims to be called by [ContestInfo](ContestInfo.md) static factory.
-
-> **Parameters**
-* parent : Parent contest of this problem.
 
 
 ---

@@ -8,7 +8,9 @@ POJO that aims to be bind to the <tt>/ContestInfo</tt>
 
 ##Summary
 ####Constructors
-* **public** [ContestInfo](#contestinfo)()
+| Visibility | Signature |
+| --- | --- |
+| **public** | [ContestInfo](#contestinfo)() |
 
 ####Methods
 | Type and modifiers | Method signature |

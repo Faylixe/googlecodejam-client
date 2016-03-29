@@ -9,7 +9,9 @@ POJO that aims to be bind to the <tt>SubmitAnswer</tt>
 
 ##Summary
 ####Constructors
-* **public** [SubmitResponse](#submitresponse)()
+| Visibility | Signature |
+| --- | --- |
+| **public** | [SubmitResponse](#submitresponse)() |
 
 ####Methods
 | Type and modifiers | Method signature |

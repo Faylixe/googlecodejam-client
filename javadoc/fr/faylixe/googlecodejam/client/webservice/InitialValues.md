@@ -10,7 +10,9 @@ POJO that aims to be bind to the <tt>GetInitialValues</tt>
 
 ##Summary
 ####Constructors
-* **public** [InitialValues](#initialvalues)()
+| Visibility | Signature |
+| --- | --- |
+| **public** | [InitialValues](#initialvalues)() |
 
 ####Methods
 | Type and modifiers | Method signature |

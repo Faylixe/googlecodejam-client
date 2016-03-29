@@ -11,6 +11,11 @@ Google Code Jam client API consists in several components, namely :
 | [Round](Round.md) |
 | [Contest](Contest.md) |
 | [CodeJamSession](CodeJamSession.md) |
+| [RoundTest](RoundTest.md) |
+| [HttpRequestExecutorMock](HttpRequestExecutorMock.md) |
+| [ContestTest](ContestTest.md) |
+| [CodeJamSessionTest](CodeJamSessionTest.md) |
+| [AllTests](AllTests.md) |
 
 ---
 

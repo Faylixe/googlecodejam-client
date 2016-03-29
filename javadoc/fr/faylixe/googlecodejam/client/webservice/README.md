@@ -13,6 +13,10 @@ This package expose all class that are
 | [InitialValues](InitialValues.md) |
 | [Events](Events.md) |
 | [ContestInfo](ContestInfo.md) |
+| [ProblemTest](ProblemTest.md) |
+| [ProblemInputTest](ProblemInputTest.md) |
+| [InitialValuesTest](InitialValuesTest.md) |
+| [ContestInfoTest](ContestInfoTest.md) |
 
 ---
 
