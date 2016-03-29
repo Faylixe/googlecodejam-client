@@ -38,7 +38,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 * path : Paht of the resources to read.
 
 > **Returns**
-* Resource content as {@link String}.
+* Resource content as *java.lang.String*.
 
 
 ---
@@ -51,7 +51,7 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 * path : Path of the resources to read.
 
 > **Returns**
-* Resource content as {@link InputStream}.
+* Resource content as *java.io.InputStream*.
 
 
 ---

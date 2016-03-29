@@ -44,7 +44,7 @@ Test case for [ContestInfo](ContestInfo.md) class.
  consistent.
 
 > **Parameters**
-* info : {@link ContestInfo} instance to ensure consistency from.
+* info : [ContestInfo](ContestInfo.md) instance to ensure consistency from.
 
 
 ---

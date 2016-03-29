@@ -38,10 +38,10 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 > **Parameters**
 * executor : Executor instance used to perform the request.
-* round : Round to retrieve {@link ContestInfo} from.
+* round : Round to retrieve [ContestInfo](ContestInfo.md) from.
 
 > **Returns**
-* Built {@link ContestInfo} instance.
+* Built [ContestInfo](ContestInfo.md) instance.
 
 > **Throws**
 * *java.io.IOException* IF any error occurs while executing request.

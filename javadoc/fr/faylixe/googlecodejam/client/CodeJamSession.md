@@ -51,8 +51,8 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  <tt>round</tt>, using the given <tt>executor</tt>.</p>
 
 > **Parameters**
-* executor : {@link HttpRequestExecutor} instance to use.
-* round : Contextual {@link Round} instance this session is bound to.
+* executor : [HttpRequestExecutor](executor/HttpRequestExecutor.md) instance to use.
+* round : Contextual [Round](Round.md) instance this session is bound to.
 
 > **Returns**
 * Created session.
@@ -98,7 +98,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
  in order to get all <tt>round</tt> detail.</p>
 
 > **Returns**
-* Request response as a {@link ContestInfo} POJO.
+* Request response as a [ContestInfo](webservice/ContestInfo.md) POJO.
 
 
 ---
@@ -173,7 +173,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 * source : Source code file of the algorithm to submit.
 
 > **Returns**
-* Request response, as a {@link SubmitResponse} instance.
+* Request response, as a [SubmitResponse](webservice/SubmitResponse.md) instance.
 
 > **Throws**
 * *java.io.IOException* If any error occurs while uploading data, or performing the request.
