@@ -134,6 +134,12 @@ POJO that aims to be bind to the <tt>/ContestInfo</tt>
 
 ---
 
-Method inheritence not supported yet.---
+####validateObject()
+> 
+
+
+---
+
+---
 
 [![Marklet](https://img.shields.io/badge/Generated%20by-Marklet-green.svg)](https://github.com/Faylixe/marklet)

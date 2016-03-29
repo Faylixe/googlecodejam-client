@@ -4,7 +4,7 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 > *java.lang.Object* > [NamedObject](common/NamedObject.md) > [CodeJamSession](CodeJamSession.md)
 
 All implemented interfaces :
-> *java.io.Serializable*, *java.io.Serializable*
+> *java.io.Serializable*
 
 [CodeJamSession](CodeJamSession.md) is the main API entry point, which consists
  in logging to a code jam platform ``hostname`` and then providing
