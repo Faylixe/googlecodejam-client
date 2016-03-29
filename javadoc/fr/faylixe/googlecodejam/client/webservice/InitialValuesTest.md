@@ -1,19 +1,19 @@
 #InitialValuesTest
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+Package <a href="README.md"> fr.faylixe.googlecodejam.client.webservice</a><br>
 
-> *java.lang.Object* > [InitialValuesTest](InitialValuesTest.md)
+> *java.lang.Object* > <a href="InitialValuesTest.md"> InitialValuesTest</a>
 
-Test case for [InitialValues](InitialValues.md) class.
+Test case for <a href="InitialValues.md"> InitialValues</a> class.
 
 ##Summary
 ####Constructors
-* **public** [InitialValuesTest](#initialvaluestest)()
+* **public** <a href="#initialvaluestest"> InitialValuesTest</a>()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [InitialValues](InitialValues.md) | [getTestInitialValues](#gettestinitialvalues)() |
-| **public** **void** | [testInitialValuesConsistency](#testinitialvaluesconsistency)() |
+| **public static** <a href="InitialValues.md"> InitialValues</a> | <a href="#gettestinitialvalues"> getTestInitialValues</a>() |
+| **public** **void** | <a href="#testinitialvaluesconsistency"> testInitialValuesConsistency</a>() |
 
 ---
 
@@ -28,9 +28,9 @@ Test case for [InitialValues](InitialValues.md) class.
 
 ##Methods
 ####getTestInitialValues()
-> Retrieves the [InitialValues](InitialValues.md)
+> Retrieves the <a href="InitialValues.md"> InitialValues</a>
  instance that will be used for testing.
- Using the test [Round](../Round.md) as reference.
+ Using the test <a href="../Round.md"> Round</a> as reference.
 
 > **Returns**
 * Instance to use for testing.
@@ -39,8 +39,8 @@ Test case for [InitialValues](InitialValues.md) class.
 ---
 
 ####testInitialValuesConsistency()
-> Ensures retrieved [InitialValues](InitialValues.md) are
- consistent. Using values from [Round](../Round.md)
+> Ensures retrieved <a href="InitialValues.md"> InitialValues</a> are
+ consistent. Using values from <a href="../Round.md"> Round</a>
  test instance.
 
 

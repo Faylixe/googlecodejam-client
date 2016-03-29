@@ -1,23 +1,23 @@
 #ContestInfo
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+Package <a href="README.md"> fr.faylixe.googlecodejam.client.webservice</a><br>
 
-> *java.lang.Object* > [ContestInfo](ContestInfo.md)
+> *java.lang.Object* > <a href="ContestInfo.md"> ContestInfo</a>
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
  request, using Gson API.</p>
 
 ##Summary
 ####Constructors
-* **public** [ContestInfo](#contestinfo)()
+* **public** <a href="#contestinfo"> ContestInfo</a>()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [ContestInfo](ContestInfo.md) | [get](#gethttprequestexecutor-round)([HttpRequestExecutor](../executor/HttpRequestExecutor.md) executor, [Round](../Round.md) round) |
-| **public** [Problem](Problem.md) | [getProblem](#getproblemint)(**int** index) |
-| **public** *java.util.List*<[Problem](Problem.md)> | [getProblems](#getproblems)() |
-| **public** **int** | [getVersion](#getversion)() |
-| **public** **boolean** | [hasAnalysis](#hasanalysis)() |
+| **public static** <a href="ContestInfo.md"> ContestInfo</a> | <a href="#gethttprequestexecutor-round"> get</a>(<a href="../executor/HttpRequestExecutor.md"> HttpRequestExecutor</a> executor, <a href="../Round.md"> Round</a> round) |
+| **public** <a href="Problem.md"> Problem</a> | <a href="#getproblemint"> getProblem</a>(**int** index) |
+| **public** *java.util.List*<<a href="Problem.md"> Problem</a>> | <a href="#getproblems"> getProblems</a>() |
+| **public** **int** | <a href="#getversion"> getVersion</a>() |
+| **public** **boolean** | <a href="#hasanalysis"> hasAnalysis</a>() |
 
 ---
 
@@ -32,16 +32,16 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Methods
 ####get(HttpRequestExecutor, Round)
-> Static factory method that builds a [ContestInfo](ContestInfo.md) instance
+> Static factory method that builds a <a href="ContestInfo.md"> ContestInfo</a> instance
  from the given <tt>round</tt> using a <tt>/ContestInfo</tt>
  request from the round dashboard.
 
 > **Parameters**
 * executor : Executor instance used to perform the request.
-* round : Round to retrieve [ContestInfo](ContestInfo.md) from.
+* round : Round to retrieve <a href="ContestInfo.md"> ContestInfo</a> from.
 
 > **Returns**
-* Built [ContestInfo](ContestInfo.md) instance.
+* Built <a href="ContestInfo.md"> ContestInfo</a> instance.
 
 > **Throws**
 * *java.io.IOException* IF any error occurs while executing request.
@@ -65,7 +65,7 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 ---
 
 ####getProblems()
-> Returns [Problem](Problem.md) instance associated
+> Returns <a href="Problem.md"> Problem</a> instance associated
  to this contest.
 
 > **Returns**

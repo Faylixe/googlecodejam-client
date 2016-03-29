@@ -1,20 +1,20 @@
 #ContestInfoTest
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+Package <a href="README.md"> fr.faylixe.googlecodejam.client.webservice</a><br>
 
-> *java.lang.Object* > [ContestInfoTest](ContestInfoTest.md)
+> *java.lang.Object* > <a href="ContestInfoTest.md"> ContestInfoTest</a>
 
-Test case for [ContestInfo](ContestInfo.md) class.
+Test case for <a href="ContestInfo.md"> ContestInfo</a> class.
 
 ##Summary
 ####Constructors
-* **public** [ContestInfoTest](#contestinfotest)()
+* **public** <a href="#contestinfotest"> ContestInfoTest</a>()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [ContestInfo](ContestInfo.md) | [getTestContestInfo](#gettestcontestinfo)() |
-| **public static** **void** | [testContestInfoConsistency](#testcontestinfoconsistencycontestinfo)([ContestInfo](ContestInfo.md) info) |
-| **public** **void** | [testContestInfoConsistency](#testcontestinfoconsistency)() |
+| **public static** <a href="ContestInfo.md"> ContestInfo</a> | <a href="#gettestcontestinfo"> getTestContestInfo</a>() |
+| **public static** **void** | <a href="#testcontestinfoconsistencycontestinfo"> testContestInfoConsistency</a>(<a href="ContestInfo.md"> ContestInfo</a> info) |
+| **public** **void** | <a href="#testcontestinfoconsistency"> testContestInfoConsistency</a>() |
 
 ---
 
@@ -29,9 +29,9 @@ Test case for [ContestInfo](ContestInfo.md) class.
 
 ##Methods
 ####getTestContestInfo()
-> Retrieves the [ContestInfo](ContestInfo.md) instance
+> Retrieves the <a href="ContestInfo.md"> ContestInfo</a> instance
  that will be used for testing. Using
- test [Round](../Round.md) as reference.
+ test <a href="../Round.md"> Round</a> as reference.
 
 > **Returns**
 * ContestInfo instance for testing.
@@ -40,19 +40,19 @@ Test case for [ContestInfo](ContestInfo.md) class.
 ---
 
 ####testContestInfoConsistency(ContestInfo)
-> Ensures the given [ContestInfo](ContestInfo.md) is
+> Ensures the given <a href="ContestInfo.md"> ContestInfo</a> is
  consistent.
 
 > **Parameters**
-* info : [ContestInfo](ContestInfo.md) instance to ensure consistency from.
+* info : <a href="ContestInfo.md"> ContestInfo</a> instance to ensure consistency from.
 
 
 ---
 
 ####testContestInfoConsistency()
-> Ensures retrieved [ContestInfo](ContestInfo.md) is
- consistent. Uses [ContestInfo](ContestInfo.md) from
- target test [Round](../Round.md) instance.
+> Ensures retrieved <a href="ContestInfo.md"> ContestInfo</a> is
+ consistent. Uses <a href="ContestInfo.md"> ContestInfo</a> from
+ target test <a href="../Round.md"> Round</a> instance.
 
 
 ---

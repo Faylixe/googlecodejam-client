@@ -1,19 +1,19 @@
 #ProblemTest
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+Package <a href="README.md"> fr.faylixe.googlecodejam.client.webservice</a><br>
 
-> *java.lang.Object* > [ProblemTest](ProblemTest.md)
+> *java.lang.Object* > <a href="ProblemTest.md"> ProblemTest</a>
 
-Test case for the [Problem](Problem.md) class.
+Test case for the <a href="Problem.md"> Problem</a> class.
 
 ##Summary
 ####Constructors
-* **public** [ProblemTest](#problemtest)()
+* **public** <a href="#problemtest"> ProblemTest</a>()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** [Problem](Problem.md) | [getTestProblem](#gettestproblem)() |
-| **public** **void** | [testProblemConsistency](#testproblemconsistency)() |
+| **public static** <a href="Problem.md"> Problem</a> | <a href="#gettestproblem"> getTestProblem</a>() |
+| **public** **void** | <a href="#testproblemconsistency"> testProblemConsistency</a>() |
 
 ---
 
@@ -28,9 +28,9 @@ Test case for the [Problem](Problem.md) class.
 
 ##Methods
 ####getTestProblem()
-> Retrieves the [Problem](Problem.md) instance
+> Retrieves the <a href="Problem.md"> Problem</a> instance
  that will be used for testing. Using
- test [ContestInfo](ContestInfo.md) as reference.
+ test <a href="ContestInfo.md"> ContestInfo</a> as reference.
 
 > **Returns**
 * Problem instance for testing.
@@ -39,9 +39,9 @@ Test case for the [Problem](Problem.md) class.
 ---
 
 ####testProblemConsistency()
-> Ensures retrieved [Problem](Problem.md) is
- consistent. Uses the first [Problem](Problem.md)
- from [ContestInfo](ContestInfo.md) test instance.
+> Ensures retrieved <a href="Problem.md"> Problem</a> is
+ consistent. Uses the first <a href="Problem.md"> Problem</a>
+ from <a href="ContestInfo.md"> ContestInfo</a> test instance.
 
 
 ---

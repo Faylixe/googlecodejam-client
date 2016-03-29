@@ -1,31 +1,31 @@
 #ProblemInput
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+Package <a href="README.md"> fr.faylixe.googlecodejam.client.webservice</a><br>
 
-> *java.lang.Object* > [NamedObject](../common/NamedObject.md) > [ProblemInput](ProblemInput.md)
+> *java.lang.Object* > <a href="../common/NamedObject.md"> NamedObject</a> > <a href="ProblemInput.md"> ProblemInput</a>
 
 <p>POJO that aims to be bind to the <tt>/ContestInfo</tt>
- request, using Gson API. [ProblemInput](ProblemInput.md) instance belong
- to a [Problem](Problem.md) object, and describes input submission
- available for a given [Problem](Problem.md).</p>
+ request, using Gson API. <a href="ProblemInput.md"> ProblemInput</a> instance belong
+ to a <a href="Problem.md"> Problem</a> object, and describes input submission
+ available for a given <a href="Problem.md"> Problem</a>.</p>
 
 ##Summary
 ####Fields
 | Type and modifiers | Field name |
 | --- | --- |
-| **public static final** | [LARGE](#large) |
-| **public static final** | [SMALL](#small) |
+| **public static final** | <a href="#large"> LARGE</a> |
+| **public static final** | <a href="#small"> SMALL</a> |
 
 ####Constructors
-* **public** [ProblemInput](#probleminput)()
+* **public** <a href="#probleminput"> ProblemInput</a>()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **int** | [getDifficulty](#getdifficulty)() |
-| **public** **int** | [getNumber](#getnumber)() |
-| **public** **int** | [getPoints](#getpoints)() |
-| **public** [Problem](Problem.md) | [getProblem](#getproblem)() |
-| **public** *java.lang.String* | [getSuffix](#getsuffix)() |
+| **public** **int** | <a href="#getdifficulty"> getDifficulty</a>() |
+| **public** **int** | <a href="#getnumber"> getNumber</a>() |
+| **public** **int** | <a href="#getpoints"> getPoints</a>() |
+| **public** <a href="Problem.md"> Problem</a> | <a href="#getproblem"> getProblem</a>() |
+| **public** *java.lang.String* | <a href="#getsuffix"> getSuffix</a>() |
 
 ---
 

@@ -6,17 +6,17 @@
 ##Classes
 | Name |
 | --- |
-| [SubmitResponse](SubmitResponse.md) |
-| [ProblemInput](ProblemInput.md) |
-| [Problem](Problem.md) |
-| [Deserializer](Deserializer.md) |
-| [InitialValues](InitialValues.md) |
-| [Events](Events.md) |
-| [ContestInfo](ContestInfo.md) |
-| [ProblemTest](ProblemTest.md) |
-| [ProblemInputTest](ProblemInputTest.md) |
-| [InitialValuesTest](InitialValuesTest.md) |
-| [ContestInfoTest](ContestInfoTest.md) |
+| <a href="SubmitResponse.md"> SubmitResponse</a> |
+| <a href="ProblemInput.md"> ProblemInput</a> |
+| <a href="Problem.md"> Problem</a> |
+| <a href="Deserializer.md"> Deserializer</a> |
+| <a href="InitialValues.md"> InitialValues</a> |
+| <a href="Events.md"> Events</a> |
+| <a href="ContestInfo.md"> ContestInfo</a> |
+| <a href="ProblemTest.md"> ProblemTest</a> |
+| <a href="ProblemInputTest.md"> ProblemInputTest</a> |
+| <a href="InitialValuesTest.md"> InitialValuesTest</a> |
+| <a href="ContestInfoTest.md"> ContestInfoTest</a> |
 
 ---
 

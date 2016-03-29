@@ -3,10 +3,10 @@
 ##Classes
 | Name |
 | --- |
-| [Resources](Resources.md) |
-| [NamedObject](NamedObject.md) |
-| [HTMLConstant](HTMLConstant.md) |
-| [NamedObjectTest](NamedObjectTest.md) |
+| <a href="Resources.md"> Resources</a> |
+| <a href="NamedObject.md"> NamedObject</a> |
+| <a href="HTMLConstant.md"> HTMLConstant</a> |
+| <a href="NamedObjectTest.md"> NamedObjectTest</a> |
 
 ---
 

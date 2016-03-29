@@ -1,7 +1,7 @@
 #SubmitResponse
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+Package <a href="README.md"> fr.faylixe.googlecodejam.client.webservice</a><br>
 
-> *java.lang.Object* > [SubmitResponse](SubmitResponse.md)
+> *java.lang.Object* > <a href="SubmitResponse.md"> SubmitResponse</a>
 
 <p>POJO that aims to be bind to the <tt>SubmitAnswer</tt>
  command request, using Gson API. Contains detail about
@@ -9,15 +9,15 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Summary
 ####Constructors
-* **public** [SubmitResponse](#submitresponse)()
+* **public** <a href="#submitresponse"> SubmitResponse</a>()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **int** | [getInputId](#getinputid)() |
-| **public** *java.lang.String* | [getMessage](#getmessage)() |
-| **public** **int** | [getProblemId](#getproblemid)() |
-| **public** **boolean** | [isSuccess](#issuccess)() |
+| **public** **int** | <a href="#getinputid"> getInputId</a>() |
+| **public** *java.lang.String* | <a href="#getmessage"> getMessage</a>() |
+| **public** **int** | <a href="#getproblemid"> getProblemId</a>() |
+| **public** **boolean** | <a href="#issuccess"> isSuccess</a>() |
 
 ---
 

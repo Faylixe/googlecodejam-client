@@ -1,7 +1,7 @@
 #Request
-Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
+Package <a href="README.md"> fr.faylixe.googlecodejam.client.executor</a><br>
 
-> *java.lang.Object* > [Request](Request.md)
+> *java.lang.Object* > <a href="Request.md"> Request</a>
 
 <p>Simple class that exposes string constant
  relative to HTTP API for interacting with
@@ -11,42 +11,42 @@ Package [fr.faylixe.googlecodejam.client.executor](README.md)<br>
 ####Fields
 | Type and modifiers | Field name |
 | --- | --- |
-| **public static final** | [AGENT_PARAMETER](#agent_parameter) |
-| **public static final** | [AGENT_PARAMETER_NAME](#agent_parameter_name) |
-| **public static final** | [ANALYSIS_COMMAND](#analysis_command) |
-| **public static final** | [ANSWER_PARAMETER](#answer_parameter) |
-| **public static final** | [BOUNDARY](#boundary) |
-| **public static final** | [COMMAND_PARAMETER](#command_parameter) |
-| **public static final** | [COMMAND_PARAMETER_NAME](#command_parameter_name) |
-| **public static final** | [CONTENT_DISPOSITION](#content_disposition) |
-| **public static final** | [CONTEST_INFO](#contest_info) |
-| **public static final** | [COOKIE_NAME](#cookie_name) |
-| **public static final** | [CSRF_PARAMETER](#csrf_parameter) |
-| **public static final** | [CSRF_PARAMETER_NAME](#csrf_parameter_name) |
-| **public static final** | [DATA_CONTENT_DISPOSITION](#data_content_disposition) |
-| **public static final** | [DEFAULT_AGENT](#default_agent) |
-| **public static final** | [DEFAULT_HOSTNAME](#default_hostname) |
-| **public static final** | [DEFAULT_NUM_SOURCE_FILE](#default_num_source_file) |
-| **public static final** | [DO](#do) |
-| **public static final** | [DOWNLOAD_COMMAND](#download_command) |
-| **public static final** | [FILENAME_PARAMETER](#filename_parameter) |
-| **public static final** | [FILE_CONTENT_DISPOSITION](#file_content_disposition) |
-| **public static final** | [INITIAL_VALUES_COMMAND](#initial_values_command) |
-| **public static final** | [INPUT_ID_PARAMETER](#input_id_parameter) |
-| **public static final** | [INPUT_ID_PARAMETER_NAME](#input_id_parameter_name) |
-| **public static final** | [MEDIA_TYPE](#media_type) |
-| **public static final** | [NUM_SOURCE_FILE_PARAMETER](#num_source_file_parameter) |
-| **public static final** | [PROBLEM_PARAMETER](#problem_parameter) |
-| **public static final** | [PROBLEM_PARAMETER_NAME](#problem_parameter_name) |
-| **public static final** | [SOURCE_FILE_PARAMETER](#source_file_parameter) |
-| **public static final** | [SUBMIT_COMMAND](#submit_command) |
-| **public static final** | [TIME_PARAMETER](#time_parameter) |
-| **public static final** | [UNDEFINED](#undefined) |
+| **public static final** | <a href="#agent_parameter"> AGENT_PARAMETER</a> |
+| **public static final** | <a href="#agent_parameter_name"> AGENT_PARAMETER_NAME</a> |
+| **public static final** | <a href="#analysis_command"> ANALYSIS_COMMAND</a> |
+| **public static final** | <a href="#answer_parameter"> ANSWER_PARAMETER</a> |
+| **public static final** | <a href="#boundary"> BOUNDARY</a> |
+| **public static final** | <a href="#command_parameter"> COMMAND_PARAMETER</a> |
+| **public static final** | <a href="#command_parameter_name"> COMMAND_PARAMETER_NAME</a> |
+| **public static final** | <a href="#content_disposition"> CONTENT_DISPOSITION</a> |
+| **public static final** | <a href="#contest_info"> CONTEST_INFO</a> |
+| **public static final** | <a href="#cookie_name"> COOKIE_NAME</a> |
+| **public static final** | <a href="#csrf_parameter"> CSRF_PARAMETER</a> |
+| **public static final** | <a href="#csrf_parameter_name"> CSRF_PARAMETER_NAME</a> |
+| **public static final** | <a href="#data_content_disposition"> DATA_CONTENT_DISPOSITION</a> |
+| **public static final** | <a href="#default_agent"> DEFAULT_AGENT</a> |
+| **public static final** | <a href="#default_hostname"> DEFAULT_HOSTNAME</a> |
+| **public static final** | <a href="#default_num_source_file"> DEFAULT_NUM_SOURCE_FILE</a> |
+| **public static final** | <a href="#do"> DO</a> |
+| **public static final** | <a href="#download_command"> DOWNLOAD_COMMAND</a> |
+| **public static final** | <a href="#filename_parameter"> FILENAME_PARAMETER</a> |
+| **public static final** | <a href="#file_content_disposition"> FILE_CONTENT_DISPOSITION</a> |
+| **public static final** | <a href="#initial_values_command"> INITIAL_VALUES_COMMAND</a> |
+| **public static final** | <a href="#input_id_parameter"> INPUT_ID_PARAMETER</a> |
+| **public static final** | <a href="#input_id_parameter_name"> INPUT_ID_PARAMETER_NAME</a> |
+| **public static final** | <a href="#media_type"> MEDIA_TYPE</a> |
+| **public static final** | <a href="#num_source_file_parameter"> NUM_SOURCE_FILE_PARAMETER</a> |
+| **public static final** | <a href="#problem_parameter"> PROBLEM_PARAMETER</a> |
+| **public static final** | <a href="#problem_parameter_name"> PROBLEM_PARAMETER_NAME</a> |
+| **public static final** | <a href="#source_file_parameter"> SOURCE_FILE_PARAMETER</a> |
+| **public static final** | <a href="#submit_command"> SUBMIT_COMMAND</a> |
+| **public static final** | <a href="#time_parameter"> TIME_PARAMETER</a> |
+| **public static final** | <a href="#undefined"> UNDEFINED</a> |
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static final** *java.lang.String* | [createBoundary](#createboundary)() |
+| **public static final** *java.lang.String* | <a href="#createboundary"> createBoundary</a>() |
 
 ---
 

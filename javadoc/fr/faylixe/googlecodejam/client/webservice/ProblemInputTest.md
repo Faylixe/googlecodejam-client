@@ -1,18 +1,18 @@
 #ProblemInputTest
-Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
+Package <a href="README.md"> fr.faylixe.googlecodejam.client.webservice</a><br>
 
-> *java.lang.Object* > [ProblemInputTest](ProblemInputTest.md)
+> *java.lang.Object* > <a href="ProblemInputTest.md"> ProblemInputTest</a>
 
-Test case for the [ProblemInput](ProblemInput.md) class.
+Test case for the <a href="ProblemInput.md"> ProblemInput</a> class.
 
 ##Summary
 ####Constructors
-* **public** [ProblemInputTest](#probleminputtest)()
+* **public** <a href="#probleminputtest"> ProblemInputTest</a>()
 
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** **void** | [testProblemInputConsistency](#testprobleminputconsistency)() |
+| **public** **void** | <a href="#testprobleminputconsistency"> testProblemInputConsistency</a>() |
 
 ---
 
@@ -27,9 +27,9 @@ Test case for the [ProblemInput](ProblemInput.md) class.
 
 ##Methods
 ####testProblemInputConsistency()
-> Ensures retrieved [ProblemInput](ProblemInput.md)
+> Ensures retrieved <a href="ProblemInput.md"> ProblemInput</a>
  is consistent. Using the first input from
- the test [Problem](Problem.md).
+ the test <a href="Problem.md"> Problem</a>.
 
 
 ---

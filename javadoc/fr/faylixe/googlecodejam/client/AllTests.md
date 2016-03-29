@@ -1,13 +1,13 @@
 #AllTests
-Package [fr.faylixe.googlecodejam.client](README.md)<br>
+Package <a href="README.md"> fr.faylixe.googlecodejam.client</a><br>
 
-> *java.lang.Object* > [AllTests](AllTests.md)
+> *java.lang.Object* > <a href="AllTests.md"> AllTests</a>
 
 
 
 ##Summary
 ####Constructors
-* **public** [AllTests](#alltests)()
+* **public** <a href="#alltests"> AllTests</a>()
 
 ---
 

@@ -4,8 +4,8 @@
 ##Classes
 | Name |
 | --- |
-| [Request](Request.md) |
-| [HttpRequestExecutor](HttpRequestExecutor.md) |
+| <a href="Request.md"> Request</a> |
+| <a href="HttpRequestExecutor.md"> HttpRequestExecutor</a> |
 
 ---
 

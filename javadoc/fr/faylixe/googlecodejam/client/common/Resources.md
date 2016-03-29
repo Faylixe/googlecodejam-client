@@ -1,7 +1,7 @@
 #Resources
-Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
+Package <a href="README.md"> fr.faylixe.googlecodejam.client.common</a><br>
 
-> *java.lang.Object* > [Resources](Resources.md)
+> *java.lang.Object* > <a href="Resources.md"> Resources</a>
 
 <p>Static toolbox that exposes methods for internal resources managment.</p>
 
@@ -9,10 +9,10 @@ Package [fr.faylixe.googlecodejam.client.common](README.md)<br>
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public static** *java.lang.String* | [getHTMLTemplate](#gethtmltemplate)() |
-| **public static** *java.lang.String* | [getResource](#getresourcestring)(*java.lang.String* path) |
-| **public static** *java.io.InputStream* | [getResourceStream](#getresourcestreamstring)(*java.lang.String* path) |
-| **public static** *java.lang.String* | [normalize](#normalizestring)(*java.lang.String* name) |
+| **public static** *java.lang.String* | <a href="#gethtmltemplate"> getHTMLTemplate</a>() |
+| **public static** *java.lang.String* | <a href="#getresourcestring"> getResource</a>(*java.lang.String* path) |
+| **public static** *java.io.InputStream* | <a href="#getresourcestreamstring"> getResourceStream</a>(*java.lang.String* path) |
+| **public static** *java.lang.String* | <a href="#normalizestring"> normalize</a>(*java.lang.String* name) |
 
 ---
 
