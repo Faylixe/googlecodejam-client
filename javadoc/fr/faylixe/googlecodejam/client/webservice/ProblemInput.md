@@ -10,8 +10,10 @@ Package [fr.faylixe.googlecodejam.client.webservice](README.md)<br>
 
 ##Summary
 ####Fields
-* **public static final** [LARGE](#large)
-* **public static final** [SMALL](#small)
+| Type and modifiers | Field name |
+| --- | --- |
+| **public static final** | [LARGE](#large) |
+| **public static final** | [SMALL](#small) |
 
 ####Constructors
 * **public** [ProblemInput](#probleminput)()

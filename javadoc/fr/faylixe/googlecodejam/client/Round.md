@@ -9,7 +9,9 @@ Package [fr.faylixe.googlecodejam.client](README.md)<br>
 
 ##Summary
 ####Fields
-* **public static final** [DESCRIPTION_CLASS_NAME](#description_class_name)
+| Type and modifiers | Field name |
+| --- | --- |
+| **public static final** | [DESCRIPTION_CLASS_NAME](#description_class_name) |
 
 ####Methods
 | Type and modifiers | Method signature |
