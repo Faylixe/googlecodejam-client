@@ -221,29 +221,16 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 		}
 		return analysis.get(problem);
 	}
-	
-	/**
-	 * <p>Computes input file type suffix for the
-	 * given <tt>input</tt>.</p>
-	 * 
-	 * @param input Problem input to retrieve suffix from.
-	 * @return "practice" if the contest if not active, computed suffix otherwise.
-	 */
-	private String getType(final ProblemInput input) {
-		if (!isActive()) {
-			return PRACTICE;
-		}
-		return input.getSuffix(); // TODO : Ensure suffix is valid in a real contest.
-	}
 
 	/**
 	 * <p>Builds and returns a valid file name
 	 * for the given problem <tt>input</tt>.</p>
 	 * 
 	 * @param input Input to retrieve file name from.
+	 * @param attempt Attempt number.
 	 * @return Built file name.
 	 */
-	public String buildFilename(final ProblemInput input) {
+	public String buildFilename(final ProblemInput input, final int attempt) {
 		final StringBuilder builder = new StringBuilder();
 		final Problem problem = input.getProblem();
 		final ContestInfo info = problem.getParent();
@@ -252,10 +239,28 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 		builder.append(letter)
 			.append(FILENAME_SEPARATOR)
 			.append(input.getName())
-			.append(FILENAME_SEPARATOR)
-			.append(getType(input))
-			.append(INPUT_EXTENSION);
+			.append(FILENAME_SEPARATOR);
+		if (attempt == -1) {
+			builder.append(PRACTICE);
+		}
+		else {
+			builder.append(attempt);
+		}
+		builder.append(INPUT_EXTENSION);
 		return builder.toString();
+	}
+
+	/**
+	 * <p>Downloads and returns the stream of the
+	 * input file associated to the given problem
+	 * <tt>input</tt> in a practice mode.</p>
+	 * 
+	 * @param input Input to download file from.
+	 * @return Stream to read which contains our downloaded file data.
+	 * @throws IOException If any error occurs while downloading the file.
+	 */
+	public InputStream download(final ProblemInput input) throws IOException {
+		return download(input, -1);
 	}
 
 	/**
@@ -264,11 +269,12 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	 * <tt>input</tt>.</p>
 	 * 
 	 * @param input Input to download file from.
+	 * @param attempt Attempt number.
 	 * @return Stream to read which contains our downloaded file data.
 	 * @throws IOException If any error occurs while downloading the file.
 	 */
-	public InputStream download(final ProblemInput input) throws IOException {
-		final String filename = buildFilename(input);
+	public InputStream download(final ProblemInput input, final int attempt) throws IOException {
+		final String filename = buildFilename(input, attempt);
 		final StringBuilder urlBuilder = new StringBuilder();
 		urlBuilder.append(round.getURL())
 			.append(DO)
@@ -288,7 +294,6 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 		final HttpResponse response = request.execute();
 		return response.getContent();
 	}
-	
 
 	/**
 	 * <p>Submits the given <tt>output</tt> file and the

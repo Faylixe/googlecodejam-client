@@ -4,8 +4,6 @@
 
 Java client API for Google Code Jam contest. This API is implemented with, and for JDK8 and prior ([changelog](https://github.com/Faylixe/googlecodejam-client/blob/master/CHANGELOG.md)).
 
-[OSGi packaged version](https://github.com/Faylixe/googlecodejam-client-osgi) is also available.
-
 Please check the [command line application](https://github.com/Faylixe/googlecodejam-cli) for an exemple of application.
 
 ## Disclaimer
@@ -20,7 +18,7 @@ Following dependency could be added to your *POM.xml* if you want to use the cli
 <dependency>
     <groupId>fr.faylixe</groupId>
     <artifactId>googlecodejam-client</artifactId>
-    <version>1.2.8</version>
+    <version>1.3.0</version>
 </dependency>
 ```
 The API entry point is the [CodeJamSession](http://faylixe.fr/googlecodejam-client/apidocs/fr/faylixe/googlecodejam/client/CodeJamSession.html) class, which could be instantiated as following :
