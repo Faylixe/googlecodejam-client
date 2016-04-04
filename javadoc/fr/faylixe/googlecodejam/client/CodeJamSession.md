@@ -20,9 +20,10 @@ All implemented interfaces :
 ####Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| **public** *java.lang.String* | [buildFilename](#buildfilenameprobleminput)([ProblemInput](webservice/ProblemInput.md) input) |
+| **public** *java.lang.String* | [buildFilename](#buildfilenameprobleminput-int)([ProblemInput](webservice/ProblemInput.md) input, **int** attempt) |
 | **public static** [CodeJamSession](CodeJamSession.md) | [createSession](#createsessionhttprequestexecutor-round)([HttpRequestExecutor](executor/HttpRequestExecutor.md) executor, [Round](Round.md) round) |
 | **public** *java.io.InputStream* | [download](#downloadprobleminput)([ProblemInput](webservice/ProblemInput.md) input) |
+| **public** *java.io.InputStream* | [download](#downloadprobleminput-int)([ProblemInput](webservice/ProblemInput.md) input, **int** attempt) |
 | **public** *java.lang.String* | [getContestAnalysis](#getcontestanalysisproblem)([Problem](webservice/Problem.md) problem) |
 | **public** [ContestInfo](webservice/ContestInfo.md) | [getContestInfo](#getcontestinfo)() |
 | **public** [Problem](webservice/Problem.md) | [getProblem](#getproblemstring)(*java.lang.String* letter) |
@@ -36,12 +37,13 @@ All implemented interfaces :
 
 
 ##Methods
-####buildFilename(ProblemInput)
+####buildFilename(ProblemInput, int)
 > Builds and returns a valid file name
  for the given problem <tt>input</tt>.
 
 > **Parameters**
 * input : Input to retrieve file name from.
+* attempt : Attempt number.
 
 > **Returns**
 * Built file name.
@@ -70,10 +72,28 @@ All implemented interfaces :
 ####download(ProblemInput)
 > Downloads and returns the stream of the
  input file associated to the given problem
+ <tt>input</tt> in a practice mode.
+
+> **Parameters**
+* input : Input to download file from.
+
+> **Returns**
+* Stream to read which contains our downloaded file data.
+
+> **Throws**
+* *java.io.IOException* If any error occurs while downloading the file.
+
+
+---
+
+####download(ProblemInput, int)
+> Downloads and returns the stream of the
+ input file associated to the given problem
  <tt>input</tt>.
 
 > **Parameters**
 * input : Input to download file from.
+* attempt : Attempt number.
 
 > **Returns**
 * Stream to read which contains our downloaded file data.
