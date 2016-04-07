@@ -8,7 +8,7 @@ Please check the [command line application](https://github.com/Faylixe/googlecod
 
 ## Disclaimer
 
-Please note that this client is not provided by Google. Any responsability is declined if a bug occurs when you are using it in a real contest condition. This API is fully working in a practice context, but has never been tested in a real contest.
+Please note that this client is not provided by Google. Any responsability is declined if a bug occurs when you are using it in a real contest condition.
 
 ## Maven dependency
 
