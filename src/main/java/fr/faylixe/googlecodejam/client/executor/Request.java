@@ -9,9 +9,6 @@ package fr.faylixe.googlecodejam.client.executor;
  */
 public final class Request {
 
-	/** Default hostname used by this client. **/
-	public static final String DEFAULT_HOSTNAME = "https://code.google.com";
-
 	/** API Request for retrieving contest info. **/
 	public static final String CONTEST_INFO = "/ContestInfo";
 
@@ -105,6 +102,12 @@ public final class Request {
 	/** The prefix used for creating dynamic boundary. **/
 	private static final String BOUNDARY_PREFIX = "----gcjMultipartBoundary";
 
+	/** System property key for hostname. **/
+	private static final String HOSTNAME_PROPERTY = "googlecodejam.hostname";
+
+	/** Default hostname used by this client. **/
+	private static final String DEFAULT_HOSTNAME = "https://code.google.com";
+
 	/**
 	 * Creates and returns a boundary for multipart request.
 	 * 
@@ -121,6 +124,19 @@ public final class Request {
 	 */
 	private Request() {
 		// Do nothing.
+	}
+	
+	/**
+	 * Hostname getter, if user has defined a specific hostname through
+	 * java system properties then it will be used. Otherwise the default
+	 * hostname (https://code.google.com) will be returned.
+	 * 
+	 * @return Hostname to use for performing request.
+	 */
+	public static String getHostname() {
+		final String hostname = System.getProperty(HOSTNAME_PROPERTY);
+		// TODO : Ensure hostname format is valid.
+		return (hostname == null ? DEFAULT_HOSTNAME : hostname);
 	}
 
 }

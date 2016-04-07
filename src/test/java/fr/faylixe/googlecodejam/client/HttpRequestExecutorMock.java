@@ -23,7 +23,7 @@ public final class HttpRequestExecutorMock {
 	 * @throws IOException If any error occurs while creating mock instance.
 	 */
 	public static HttpRequestExecutor getTestExecutor() throws GeneralSecurityException, IOException {
-		return HttpRequestExecutor.create(Request.DEFAULT_HOSTNAME);
+		return HttpRequestExecutor.create(Request.getHostname());
 	}
 
 }

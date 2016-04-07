@@ -2,7 +2,12 @@ package fr.faylixe.googlecodejam.client;
 
 import fr.faylixe.googlecodejam.client.common.HTMLConstant;
 import fr.faylixe.googlecodejam.client.common.NamedObject;
+import fr.faylixe.googlecodejam.client.executor.HttpRequestExecutor;
+import fr.faylixe.googlecodejam.client.executor.Request;
+import fr.faylixe.googlecodejam.client.webservice.InitialValues;
 
+import java.io.IOException;
+import java.security.GeneralSecurityException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -21,6 +26,12 @@ public final class Round extends NamedObject {
 
 	/** <p>Serialization index.</p> **/
 	private static final long serialVersionUID = 1L;
+
+	/** URL path of a contest. **/
+	private static final String CODEJAM_PATH = "/codejam/contest/";
+
+	/** Label used for parent contest when parent could not be retrieved. **/
+	private static final String UNKNOWN_PARENT = "unkwown-contest";
 
 	/** <p>Class name of the HTML description node.</p> **/
 	public static final String DESCRIPTION_CLASS_NAME = "desc";
@@ -101,7 +112,7 @@ public final class Round extends NamedObject {
 	}
 
 	/**
-	 * <p>Static factory methods that retrieves a list of round
+	 * <p>Static factory method that retrieves a list of round
 	 * from the given JSoup <tt>contest</tt> node.</p>
 	 * 
 	 * @param contest Root element of the contest in the contest index page.
@@ -119,6 +130,39 @@ public final class Round extends NamedObject {
 			}
 		}
 		return rounds;
+	}
+
+	/**
+	 * <p>Static factory method that creates a round from the
+	 * given <tt>identifier</tt>.</p>
+	 * 
+	 * @param identifier Round id to use.
+	 * @return Created round.
+	 * @throws IOException If any error occurs while retrieving round information.
+	 * @throws GeneralSecurityException If any error occurs while creating {@link HttpRequestExecutor} instance.
+	 */
+	public static Round fromIdentifier(final String identifier) throws GeneralSecurityException, IOException {
+		final StringBuilder builder = new StringBuilder();
+		builder
+			.append(Request.getHostname())
+			.append(CODEJAM_PATH)
+			.append(identifier);
+		return fromURL(builder.toString());
+	}
+
+	/**
+	 * <p>Static factory method that creates a round from the
+	 * given <tt>url</tt>.</p>
+	 * 
+	 * @param url Round url.
+	 * @return Created round.
+	 * @throws IOException If any error occurs while retrieving round information.
+	 * @throws GeneralSecurityException If any error occurs while creating {@link HttpRequestExecutor} instance.
+	 */
+	public static Round fromURL(final String url) throws GeneralSecurityException, IOException {
+		final HttpRequestExecutor executor = HttpRequestExecutor.create(Request.getHostname());
+		final InitialValues values = InitialValues.get(executor, new Round("", "", url));
+		return new Round(UNKNOWN_PARENT, values.getName(), url);
 	}
 
 }
