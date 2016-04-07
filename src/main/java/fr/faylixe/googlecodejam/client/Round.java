@@ -30,6 +30,9 @@ public final class Round extends NamedObject {
 	/** URL path of a contest. **/
 	private static final String CODEJAM_PATH = "/codejam/contest/";
 
+	/** Prefix for built round URL. **/
+	private static final String ROUND_PREFIX = "/dashboard";
+
 	/** Label used for parent contest when parent could not be retrieved. **/
 	private static final String UNKNOWN_PARENT = "unkwown-contest";
 
@@ -137,17 +140,18 @@ public final class Round extends NamedObject {
 	 * given <tt>identifier</tt>.</p>
 	 * 
 	 * @param identifier Round id to use.
+	 * @param cookie Cookie value to use for retrieving contest.
 	 * @return Created round.
 	 * @throws IOException If any error occurs while retrieving round information.
 	 * @throws GeneralSecurityException If any error occurs while creating {@link HttpRequestExecutor} instance.
 	 */
-	public static Round fromIdentifier(final String identifier) throws GeneralSecurityException, IOException {
+	public static Round fromIdentifier(final String identifier, final String cookie) throws GeneralSecurityException, IOException {
 		final StringBuilder builder = new StringBuilder();
 		builder
-			.append(Request.getHostname())
 			.append(CODEJAM_PATH)
-			.append(identifier);
-		return fromURL(builder.toString());
+			.append(identifier)
+			.append(ROUND_PREFIX);
+		return fromURL(builder.toString(), cookie);
 	}
 
 	/**
@@ -155,12 +159,13 @@ public final class Round extends NamedObject {
 	 * given <tt>url</tt>.</p>
 	 * 
 	 * @param url Round url.
+	 * @param cookie Cookie value to use for retrieving contest.
 	 * @return Created round.
 	 * @throws IOException If any error occurs while retrieving round information.
 	 * @throws GeneralSecurityException If any error occurs while creating {@link HttpRequestExecutor} instance.
 	 */
-	public static Round fromURL(final String url) throws GeneralSecurityException, IOException {
-		final HttpRequestExecutor executor = HttpRequestExecutor.create(Request.getHostname());
+	public static Round fromURL(final String url, final String cookie) throws GeneralSecurityException, IOException {
+		final HttpRequestExecutor executor = HttpRequestExecutor.create(Request.getHostname(), cookie);
 		final InitialValues values = InitialValues.get(executor, new Round("", "", url));
 		return new Round(UNKNOWN_PARENT, values.getName(), url);
 	}
