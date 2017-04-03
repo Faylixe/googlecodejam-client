@@ -1,3 +1,7 @@
+**v1.4.8** *(03/04/2017)*
+
+* Fix contest parsing.
+
 **v1.3.0** *(04/04/2016)*
 
 * Adding parameter for the *download* method, for specifying attempt number.
