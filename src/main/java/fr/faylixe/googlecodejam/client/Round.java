@@ -1,6 +1,5 @@
 package fr.faylixe.googlecodejam.client;
 
-import fr.faylixe.googlecodejam.client.common.HTMLConstant;
 import fr.faylixe.googlecodejam.client.common.NamedObject;
 import fr.faylixe.googlecodejam.client.executor.HttpRequestExecutor;
 import fr.faylixe.googlecodejam.client.executor.Request;
@@ -8,12 +7,6 @@ import fr.faylixe.googlecodejam.client.webservice.InitialValues;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 
 /**
  * <p>POJO class that represents a Google Jam {@link Round}.
@@ -28,10 +21,10 @@ public final class Round extends NamedObject {
 	private static final long serialVersionUID = 1L;
 
 	/** URL path of a contest. **/
-	private static final String CODEJAM_PATH = "/codejam/contest/";
+	protected static final String CODEJAM_PATH = "/codejam/contest/";
 
 	/** Prefix for built round URL. **/
-	private static final String ROUND_PREFIX = "/dashboard";
+	protected static final String ROUND_PREFIX = "/dashboard";
 
 	/** Label used for parent contest when parent could not be retrieved. **/
 	private static final String UNKNOWN_PARENT = "unkwown-contest";
@@ -52,7 +45,7 @@ public final class Round extends NamedObject {
 	 * @param name Name of this round.
 	 * @param url URL of this round dashboard.
 	 */
-	private Round(final String parent, final String name, final String url) {
+	protected Round(final String parent, final String name, final String url) {
 		super(name);
 		this.parent = parent;
 		this.url = url;
@@ -93,46 +86,6 @@ public final class Round extends NamedObject {
 		}
 		final Round other = (Round) object;
 		return url.equals(other.getURL());
-	}
-
-	/**
-	 * <p>Static factory method that builds a {@link Round} instance
-	 * from the given HTML element.</p>
-	 * 
-	 * @param element Element that contains our round description.
-	 * @return Built {@link Round} instance.
-	 */
-	private static Optional<Round> buildRound(final Element element, final String parent) {
-		final Elements links = element.getElementsByTag(HTMLConstant.ANCHOR);
-		Round round = null;
-		if (!links.isEmpty()) {
-			final Element link = links.first();
-			final String name = link.text();
-			final String url = link.attr(HTMLConstant.HREF);
-			round = new Round(parent, name, url);
-		}
-		return Optional.ofNullable(round);
-	}
-
-	/**
-	 * <p>Static factory method that retrieves a list of round
-	 * from the given JSoup <tt>contest</tt> node.</p>
-	 * 
-	 * @param contest Root element of the contest in the contest index page.
-	 * @param parent Parent contest name.
-	 * @return List of retrieved round.
-	 */
-	public static List<Round> get(final Element contest, final String parent) {
-		final Elements rows = contest.getElementsByTag(HTMLConstant.TR);
-		final List<Round> rounds = new ArrayList<Round>(rows.size());
-		for (final Element row : rows) {
-			final Elements cells = row.getElementsByClass(DESCRIPTION_CLASS_NAME);
-			if (!cells.isEmpty()) {
-				final Element cell = cells.first();
-				buildRound(cell, parent).ifPresent(rounds::add);
-			}
-		}
-		return rounds;
 	}
 
 	/**

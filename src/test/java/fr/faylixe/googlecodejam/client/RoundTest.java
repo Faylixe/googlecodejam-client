@@ -16,10 +16,10 @@ import org.junit.Test;
 public final class RoundTest {
 
 	/** Expected URL of the round retrieved. **/
-	private static final String URL = "/codejam/contest/32004/dashboard";
+	private static final String URL = "/codejam/contest/9214486/dashboard";
 
 	/** Expected name of the retrieved round. **/
-	private static final String NAME = "Practice Contest";
+	private static final String NAME = "Code Jam";
 
 	/**
 	 * Retrieves the round instance that will

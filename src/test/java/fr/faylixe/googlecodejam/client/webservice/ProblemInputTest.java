@@ -25,7 +25,7 @@ public final class ProblemInputTest {
 	private static final int DIFFICULTY = 0;
 
 	/** Expected point of the test problem input. **/
-	private static final int POINTS = 5;
+	private static final int POINTS = 7;
 
 	/** Expected number of the test problem input. **/
 	private static final int NUMBER = 0;

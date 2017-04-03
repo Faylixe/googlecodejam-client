@@ -1,7 +1,7 @@
 package fr.faylixe.googlecodejam.client.webservice;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 import fr.faylixe.googlecodejam.client.HttpRequestExecutorMock;
 import fr.faylixe.googlecodejam.client.Round;
@@ -26,7 +26,7 @@ public final class ContestInfoTest {
 	private static final int VERSION = 0;
 
 	/** Expected number of problem instance. **/
-	private static final int PROBLEM = 3;
+	private static final int PROBLEM = 4;
 
 	/**
 	 * Retrieves the {@link ContestInfo} instance
@@ -55,7 +55,7 @@ public final class ContestInfoTest {
 	 */
 	public static void testContestInfoConsistency(final ContestInfo info) {
 		assertEquals(VERSION, info.getVersion());
-		assertFalse(info.hasAnalysis());
+		assertTrue(info.hasAnalysis());
 		final List<Problem> problems = info.getProblems();
 		assertEquals(PROBLEM, problems.size());
 	}

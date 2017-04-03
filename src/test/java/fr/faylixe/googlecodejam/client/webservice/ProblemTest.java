@@ -23,22 +23,22 @@ public final class ProblemTest {
 	private static final String BODY_PATH = "body.txt";
 
 	/** Expected name for the test problem. **/
-	private static final String NAME = "Old Magician";
+	private static final String NAME = "I/O Error";
 
 	/** Expected id for the test problem. **/
-	private static final String ID = "24454";
+	private static final String ID = "5685983253102592";
 
 	/** Expected type for the test problem. **/
 	private static final String TYPE = "default";
 
 	/** Expected key for the test problem. **/
-	private static final String KEY = "agpzfmdjai1wcm9kchALEghwcm9ibGVtcxiGvwEM";
+	private static final String KEY = "agpzfmdjai1wcm9kchULEghwcm9ibGVtcxiAgICg8uuMCgw";
 
 	/** Expected normalized name for the test problem. **/
-	private static final String NORMALIZED_NAME = "OldMagician";
+	private static final String NORMALIZED_NAME = "IOError";
 
 	/** Expected number of child input for the test problem. **/
-	private static final int INPUT = 2;
+	private static final int INPUT = 1;
 
 	/**
 	 * Retrieves the {@link Problem} instance

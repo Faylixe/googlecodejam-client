@@ -20,10 +20,10 @@ import org.junit.Test;
 public final class ContestTest {
 
 	/** Expected name of the retrieved contest. **/
-	protected static final String NAME = "Practice Contests";
+	protected static final String NAME = "Code Jam to I/O 2015 for Women";
 
 	/** Expected number of round for the retrieved contest. **/
-	private static final int ROUND = 3;
+	private static final int ROUND = 1;
 
 	/** **/
 	private static Contest testInstance;

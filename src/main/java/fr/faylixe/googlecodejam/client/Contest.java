@@ -1,6 +1,5 @@
 package fr.faylixe.googlecodejam.client;
 
-import fr.faylixe.googlecodejam.client.common.HTMLConstant;
 import fr.faylixe.googlecodejam.client.common.NamedObject;
 import fr.faylixe.googlecodejam.client.executor.HttpRequestExecutor;
 
@@ -8,12 +7,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
+import com.google.gson.Gson;
+import com.google.gson.annotations.SerializedName;
 
 /**
  * <p>POJO class that represents a Google Jam {@link Contest}.
@@ -28,7 +24,7 @@ public final class Contest extends NamedObject {
 	private static final long serialVersionUID = 1L;
 
 	/** <p>URL of the contest index page.</p> **/
-	public static final String CONTEST_INDEX = "/codejam/contests.html";
+	public static final String CONTEST_INDEX = "/codejam/past-contests?data=1";
 
 	/** <p>Class name of the element that contains contest data.</p> **/
 	public static final String CONTEST_CLASS_NAME = "year_row";
@@ -77,37 +73,22 @@ public final class Contest extends NamedObject {
 		return getName().equals(other.getName());
 	}
 
-	/**
-	 * <p>Static factory method that retrieves contest name
-	 * from a given HTML contest element.</p>
-	 * 
-	 * @param element JSoup element to retrieve title from.
-	 * @return Optional reference of a contest title.
-	 */
-	private static Optional<String> getName(final Element element) {
-		final Elements candidates = element.getElementsByTag(HTMLConstant.H3);
-		if (!candidates.isEmpty()) {
-			return Optional.of(candidates.first().text());
-		}
-		return Optional.empty();
+	private static class JSONRound {
+		private String name;
+		private String id;
 	}
-
-	/**
-	 * <p>Creates and returns a contest instance from the given
-	 * <tt>year</tt> HTML element.</p>
-	 * 
-	 * @param year HTML element to extract contest from.
-	 * @return Created contest if any.
-	 */
-	private static Optional<Contest> buildContest(final Element year) {
-		final Optional<String> name = getName(year);
-		Contest contest = null;
-		if (name.isPresent()) {
-			final String contestName = name.get();
-			final List<Round> rounds = Round.get(year, contestName);
-			contest = new Contest(contestName, rounds);
-		}
-		return Optional.ofNullable(contest);
+	
+	private static class JSONContest {
+		@SerializedName("contests")
+		private JSONRound[] rounds;
+		private String name;
+	}
+	private static class JSONTab {
+		@SerializedName("tournaments")
+		private JSONContest[] contests;
+	}
+	private static class JSONData {
+		private JSONTab[] tabs;
 	}
 
 	/**
@@ -119,14 +100,21 @@ public final class Contest extends NamedObject {
 	 * @throws IOException If any error occurs during contest extraction process.
 	 */
 	public static List<Contest> get(final HttpRequestExecutor executor) throws IOException {
+		final List<Contest> contests = new ArrayList<Contest>();
 		final String content = executor.get(CONTEST_INDEX);
-		final Document document = Jsoup.parse(content);
-		final Elements years = document.getElementsByClass(CONTEST_CLASS_NAME);
-		final List<Contest> contests = new ArrayList<Contest>(years.size());
-		for (final Element year : years) {
-			final Optional<Contest> contest = buildContest(year);
-			if (contest.isPresent()) {
-				contests.add(contest.get());
+		final Gson gson = new Gson();
+		final JSONData data = gson.fromJson(content, JSONData.class);
+		for (final JSONTab tab : data.tabs) {
+			for (final JSONContest contest : tab.contests) {
+				final List<Round> rounds = new ArrayList<Round>(contest.rounds.length);
+				for (final JSONRound round : contest.rounds) {
+					final String url = new StringBuilder(Round.CODEJAM_PATH)
+						.append(round.id)
+						.append(Round.ROUND_PREFIX)
+						.toString();
+					rounds.add(new Round(contest.name, round.name, url));
+				}
+				contests.add(new Contest(contest.name, rounds));
 			}
 		}
 		return contests;

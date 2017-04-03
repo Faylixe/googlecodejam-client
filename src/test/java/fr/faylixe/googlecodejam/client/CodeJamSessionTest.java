@@ -41,7 +41,7 @@ public final class CodeJamSessionTest {
 	private static final String ANALYSIS_PATH = "analysis.txt";
 
 	/** Expected size of the downloaded input, in number of line. **/
-	private static final int INPUT_SIZE = 1001;
+	private static final int INPUT_SIZE = 201;
 
 	/** Expected submission message. **/
 	private static final String MESSAGE = "Good Job!";
@@ -90,7 +90,12 @@ public final class CodeJamSessionTest {
 		final Problem problem = ProblemTest.getTestProblem();
 		final String analysis = session.getContestAnalysis(problem);
 		final String expected = Resources.getResource(ANALYSIS_PATH);
-		assertEquals(expected, analysis);
+		assertEquals(expected
+				.replaceAll(" ", "")
+				.replaceAll("\n", ""), 
+				analysis
+					.replaceAll(" ", "")
+					.replaceAll("\r\n", ""));
 	}
 
 	/**
@@ -138,7 +143,7 @@ public final class CodeJamSessionTest {
 		final List<String> lines = getTestInputContent(session);
 		assertEquals(INPUT_SIZE, lines.size());
 		final int n = Integer.valueOf(lines.remove(0));
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < n * 2; i++) {
 			lines.remove(0);
 		}
 		assertTrue(lines.isEmpty());
@@ -159,9 +164,18 @@ public final class CodeJamSessionTest {
 			source.createNewFile();
 			final BufferedWriter writer = new BufferedWriter(new FileWriter(output));
 			for (int i = 0; i < n; i++) {
-				final String dataset = lines.remove(0);
-				final int b = Integer.valueOf(dataset.substring(dataset.length() - 1));
-				writer.write("Case #" + (i + 1) + ": " + (b%2 == 0 ? "WHITE" : "BLACK"));
+				final int b = Integer.valueOf(lines.remove(0));
+				final String s = lines.remove(0);
+				final StringBuilder result = new StringBuilder();
+				for (int j = 0; j < b; j++) {
+					final String bytes = s
+							.substring(j * 8, (j + 1) * 8)
+							.replaceAll("O", "0")
+							.replaceAll("I", "1");
+					final int v = Integer.parseInt(bytes, 2);
+					result.append((char) v);
+				}
+				writer.write("Case #" + (i + 1) + ": " + result.toString());
 				writer.newLine();
 			}
 			writer.close();

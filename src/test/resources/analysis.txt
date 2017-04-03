@@ -1,0 +1,47 @@
+<p>
+This was intended as a warm-up implementation problem to enable first-time Code Jammers to become familiar with the contest’s format and environment. There are three steps to the solution:
+</p>
+
+<p>
+1. Convert “bytes” like OIOIOOOI to binary values like 01010001.<br>
+2. Convert those binary values to decimal values.<br>
+3. Convert those decimal values to characters.<br>
+</p>
+
+<p>
+Nearly all programming languages have a built-in solution for Step 3 (for example, chr() in Python.) Steps 1 and 2 required some custom code. Here’s a sample Python solution:
+</p>
+
+<p>
+<pre>
+def chrfromio(b):
+  s = [(1 if c == 'I' else 0) for c in b]
+  v = 0
+  exp = 0
+  for i in range(len(s)-1, -1, -1):
+    v += (2**exp) * s[i]
+    exp += 1
+  return chr(v)
+
+def fromio(inp):
+  ans = ''
+  for i in range(len(inp)/8):
+    b = inp[8*i:8*(i+1)]
+    ans += chrfromio(b)
+  return ans
+
+t = int(raw_input().strip())
+for case in range(1, t+1):
+    d = int(raw_input().strip())
+    p = raw_input().strip()
+    print "Case #" + str(case) + ": " + fromio(p)
+</pre>
+</p>
+
+<p>
+Some of the possible characters in this problem (single quote, double quote, backslash) were potentially troublesome because of their special interpretations, but there was no need to handle them differently since they were being produced and not interpreted. 
+</p>
+
+<p>
+Incidentally, the translated output for the Small input was mostly from Chapter 35 of <u>Pride and Prejudice</u>, one of the author’s favorite books.
+</p>
