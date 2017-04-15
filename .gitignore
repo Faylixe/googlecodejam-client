@@ -17,4 +17,8 @@ hs_err_pid*
 /.cjs-cookie
 /.cjs-round
 
+# Intellij files
+*.iml
+.idea
+
 /javadoc.xml

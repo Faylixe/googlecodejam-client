@@ -1,14 +1,14 @@
 package fr.faylixe.googlecodejam.client;
 
-import static fr.faylixe.googlecodejam.client.executor.Request.*;
+import com.google.api.client.http.HttpMediaType;
+import com.google.api.client.http.HttpRequest;
+import com.google.api.client.http.HttpResponse;
+import com.google.api.client.http.MultipartContent;
+import com.google.gson.Gson;
 import fr.faylixe.googlecodejam.client.common.NamedObject;
 import fr.faylixe.googlecodejam.client.common.Resources;
 import fr.faylixe.googlecodejam.client.executor.HttpRequestExecutor;
-import fr.faylixe.googlecodejam.client.webservice.ContestInfo;
-import fr.faylixe.googlecodejam.client.webservice.InitialValues;
-import fr.faylixe.googlecodejam.client.webservice.Problem;
-import fr.faylixe.googlecodejam.client.webservice.ProblemInput;
-import fr.faylixe.googlecodejam.client.webservice.SubmitResponse;
+import fr.faylixe.googlecodejam.client.webservice.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,11 +18,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.google.api.client.http.HttpMediaType;
-import com.google.api.client.http.HttpRequest;
-import com.google.api.client.http.HttpResponse;
-import com.google.api.client.http.MultipartContent;
-import com.google.gson.Gson;
+import static fr.faylixe.googlecodejam.client.executor.Request.*;
 
 /**
  * {@link CodeJamSession} is the main API entry point, which consists
@@ -183,7 +179,7 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	 * <p>Retrieves and returns the analysis
 	 * for the given <tt>problem</tt>.</p>
 	 * 
-	 * @param problem Problem to retrieve analysis from.
+	 * @param problemId Problem to retrieve analysis from.
 	 * @return Analysis if any.
 	 * @throws IOException If any error occurs while retrieving analysis.
 	 */
@@ -332,11 +328,20 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	private MultipartContent createContent(final ProblemInput input, final File output, final File source) throws IOException {
 		final HttpMediaType type = new HttpMediaType(MEDIA_TYPE);
 		type.setParameter(BOUNDARY, createBoundary());
+
+		//submission from chrome through contest website sends fake path for security, which presumes the server only
+		//uses the last token to generate the downloadable zip
+		//it is possible to submit real path here (source.getAbsolutePath) but to preserve user privacy a fake path will do
+		//source.getName() might be sufficient as well but it's not tested
+		//using a fake path is the safest option since that's what chrome does
+		final String sourceFileFakePath = "C:\\fakepath\\" + source.getName();
+
 		final MultipartContent content = new MultipartContent()
 			.setMediaType(type)
 			.addPart(HttpRequestExecutor.buildDataPart(CSRF_PARAMETER_NAME, values.getToken()))
 			.addPart(HttpRequestExecutor.buildFilePart(ANSWER_PARAMETER, output))
 			.addPart(HttpRequestExecutor.buildFilePart(SOURCE_FILE_PARAMETER, source))
+			.addPart(HttpRequestExecutor.buildDataPart(SOURCE_FILE_NAME_PARAMETER, sourceFileFakePath))
 			.addPart(HttpRequestExecutor.buildDataPart(COMMAND_PARAMETER_NAME, SUBMIT_COMMAND))
 			.addPart(HttpRequestExecutor.buildDataPart(PROBLEM_PARAMETER_NAME, input.getProblem().getId()))
 			.addPart(HttpRequestExecutor.buildDataPart(INPUT_ID_PARAMETER_NAME, String.valueOf(input.getNumber())))

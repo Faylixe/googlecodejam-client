@@ -87,6 +87,9 @@ public final class Request {
 	/** The <tt>source file</tt> parameter. **/
 	public static final String SOURCE_FILE_PARAMETER = "source-file0";
 
+	/** The <tt>source file name</tt> parameter. **/
+	public static final String SOURCE_FILE_NAME_PARAMETER = "source-file-name0";
+
 	/** The <tt>number of source files</tt> parameter.  **/
 	public static final String NUM_SOURCE_FILE_PARAMETER = "num_source_files";
 
