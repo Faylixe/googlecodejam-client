@@ -1,23 +1,15 @@
 package fr.faylixe.googlecodejam.client.executor;
 
+import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
+import com.google.api.client.http.*;
+import com.google.api.client.http.MultipartContent.Part;
+import org.apache.tika.Tika;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.ObjectStreamException;
 import java.io.Serializable;
-import java.nio.file.Files;
 import java.security.GeneralSecurityException;
-
-import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
-import com.google.api.client.http.ByteArrayContent;
-import com.google.api.client.http.FileContent;
-import com.google.api.client.http.GenericUrl;
-import com.google.api.client.http.HttpContent;
-import com.google.api.client.http.HttpHeaders;
-import com.google.api.client.http.HttpRequest;
-import com.google.api.client.http.HttpRequestFactory;
-import com.google.api.client.http.HttpResponse;
-import com.google.api.client.http.HttpTransport;
-import com.google.api.client.http.MultipartContent.Part;
 
 /**
  * <p>A {@link HttpRequestExecutor} is an abstraction
@@ -149,7 +141,9 @@ public final class HttpRequestExecutor implements Serializable {
 	 * @throws IOException If any any error occurs during file type detection.
 	 */
 	public static Part buildFilePart(final String name, final File file) throws IOException {
-		final String type = Files.probeContentType(file.toPath());
+		//Files.probeContentType(file.toPath()) always returns null due to unfixed jdk bug
+		//using Tika to fetch file mime type instead
+		final String type = new Tika().detect(file);
 		final FileContent content = new FileContent(type, file);
 		final Part part = new Part(content);
 		final HttpHeaders headers = new HttpHeaders();
