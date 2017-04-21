@@ -18,7 +18,7 @@ Following dependency could be added to your *POM.xml* if you want to use the cli
 <dependency>
     <groupId>fr.faylixe</groupId>
     <artifactId>googlecodejam-client</artifactId>
-    <version>1.4.10</version>
+    <version>1.4.11</version>
 </dependency>
 ```
 The API entry point is the [CodeJamSession](https://github.com/Faylixe/googlecodejam-client/tree/master/javadoc/fr/faylixe/googlecodejam/client/CodeJamSession.md) class, which could be instantiated as following :
@@ -34,3 +34,9 @@ final CodeJamSession session = CodeJamSession.createSession(executor, round);
 
 The session could be then used to retrieve contest information, problem description and analysis, download input file
 as submit solution as well. You can check the [javadoc](https://github.com/Faylixe/googlecodejam-client/tree/master/javadoc/fr/faylixe/googlecodejam/client) to get more informations.
+
+## Contributors
+
+Contribution are welcome, don't hesitate to submit a pull request to improve this tools, here is the list of people who contributed :
+
+- [a-layouni](https://github.com/a-layouni)

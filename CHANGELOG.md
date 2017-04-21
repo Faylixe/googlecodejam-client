@@ -1,3 +1,7 @@
+**v1.4.11** *(21/04/2017)*
+
+* Submission bug fixed by [a-layouni](https://github.com/a-layouni).
+
 **v1.4.10** *(03/04/2017)*
 
 * Fix contest parsing.

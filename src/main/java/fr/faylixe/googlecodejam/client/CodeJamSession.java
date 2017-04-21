@@ -5,6 +5,7 @@ import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpResponse;
 import com.google.api.client.http.MultipartContent;
 import com.google.gson.Gson;
+
 import fr.faylixe.googlecodejam.client.common.NamedObject;
 import fr.faylixe.googlecodejam.client.common.Resources;
 import fr.faylixe.googlecodejam.client.executor.HttpRequestExecutor;
@@ -36,6 +37,9 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 
 	/** <p>Serialization index.</p> **/
 	private static final long serialVersionUID = 1L;
+
+	/** Path prefix for the fake path sended when submitting source. **/
+	private static final String PATH_PREFIX = "/home/foo/";
 
 	/** <p>Downloaded input file extension used for filename generation.</p> **/
 	private static final String INPUT_EXTENSION = ".in";
@@ -328,20 +332,21 @@ public final class CodeJamSession extends NamedObject implements Serializable {
 	private MultipartContent createContent(final ProblemInput input, final File output, final File source) throws IOException {
 		final HttpMediaType type = new HttpMediaType(MEDIA_TYPE);
 		type.setParameter(BOUNDARY, createBoundary());
-
-		//submission from chrome through contest website sends fake path for security, which presumes the server only
-		//uses the last token to generate the downloadable zip
-		//it is possible to submit real path here (source.getAbsolutePath) but to preserve user privacy a fake path will do
-		//source.getName() might be sufficient as well but it's not tested
-		//using a fake path is the safest option since that's what chrome does
-		final String sourceFileFakePath = "C:\\fakepath\\" + source.getName();
-
+		// Submission from Chrome through contest website sends fake path for security,
+		// which presumes the server only uses the last token to generate the downloadable
+		// zip. It is possible to submit real path here (source.getAbsolutePath) but to
+		// preserve user privacy a fake path will do source.getName() might be sufficient
+		// as well but it's not tested using a fake path is the safest option since that's
+		// what Chrome does.
+		final String sourceFilePath = new StringBuilder(PATH_PREFIX)
+			.append(source.getName())
+			.toString();
 		final MultipartContent content = new MultipartContent()
 			.setMediaType(type)
 			.addPart(HttpRequestExecutor.buildDataPart(CSRF_PARAMETER_NAME, values.getToken()))
 			.addPart(HttpRequestExecutor.buildFilePart(ANSWER_PARAMETER, output))
 			.addPart(HttpRequestExecutor.buildFilePart(SOURCE_FILE_PARAMETER, source))
-			.addPart(HttpRequestExecutor.buildDataPart(SOURCE_FILE_NAME_PARAMETER, sourceFileFakePath))
+			.addPart(HttpRequestExecutor.buildDataPart(SOURCE_FILE_NAME_PARAMETER, sourceFilePath))
 			.addPart(HttpRequestExecutor.buildDataPart(COMMAND_PARAMETER_NAME, SUBMIT_COMMAND))
 			.addPart(HttpRequestExecutor.buildDataPart(PROBLEM_PARAMETER_NAME, input.getProblem().getId()))
 			.addPart(HttpRequestExecutor.buildDataPart(INPUT_ID_PARAMETER_NAME, String.valueOf(input.getNumber())))
